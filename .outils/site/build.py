@@ -32,6 +32,8 @@ EXCLUS = {"Modèles", "_Archive (ancienne organisation)", "Pièces jointes"}
 # Le site est public : on retire les adresses e-mail (enseignants) des pages
 MASQUER_EMAILS = True
 MARQUEUR = ".genere-par-build"
+URL_VOCABULAIRE = "vocabulaire.html"
+COULEUR_THEME = "#b3261e"
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 TYPES = {"seance": "Séance", "support": "Support", "lecture": "Fiche de lecture", "cours": "Cours"}
@@ -99,6 +101,7 @@ class Note:
         self.url = ""
         self.html = ""
         self.sommaire = []
+        self.scripts = []
 
     @property
     def titre(self) -> str:
@@ -108,6 +111,15 @@ class Note:
     def date(self):
         d = self.fm.get("date")
         return d if isinstance(d, date) else None
+
+
+class PageSpeciale:
+    """Page du site qui ne vient pas d'une note (ex. la page de vocabulaire)."""
+
+    def __init__(self, url, titre, contenu, scripts=()):
+        self.url, self.titre, self.stem, self.html = url, titre, titre, contenu
+        self.type, self.dossier, self.fm, self.sommaire, self.date = "page", Path("__aucun__"), {}, [], None
+        self.scripts = list(scripts)
 
 
 # ------------------------------------------------------------------ chargement
@@ -268,6 +280,95 @@ def rendre(page: Note, ctx):
     page.html, page.sommaire = h, sommaire
 
 
+# ------------------------------------------------------------------ vocabulaire (page de révision + export Anki)
+RE_SEPARATEUR = re.compile(r"^\|?\s*:?-{3,}")
+COLONNES_FRANCAIS = ("Français", "Sens")
+COLONNES_EXEMPLE = ("Exemple", "Mots", "Signe")
+
+
+def cellules(ligne: str):
+    return [c.strip() for c in re.split(r"(?<!\\)\|", ligne.strip().strip("|"))]
+
+
+def texte_cellule(c: str) -> str:
+    c = RE_LIEN.sub(lambda m: m.group(4) or m.group(2), c)
+    c = re.sub(r"\*\([^)]*\)\*", "", c)  # mentions du type *(ajouté)*
+    return re.sub(r"\s+", " ", c.replace("**", "").replace("==", "").replace("`", "").replace("*", "")).strip()
+
+
+def extraire_vocabulaire(n: Note, cours):
+    """Lit les tableaux de la note qui ont une colonne 汉字 (ou 字) et une colonne 拼音, ou une colonne « 汉字 · 拼音 »."""
+    mots, lignes, i = [], n.corps.split("\n"), 0
+    while i < len(lignes) - 1:
+        if not (lignes[i].startswith("|") and RE_SEPARATEUR.match(lignes[i + 1])):
+            i += 1
+            continue
+        entete = [texte_cellule(c) for c in cellules(lignes[i])]
+        j = i + 2
+        rangs = []
+        while j < len(lignes) and lignes[j].startswith("|"):
+            rangs.append([texte_cellule(c) for c in cellules(lignes[j])])
+            j += 1
+        i = j
+        ih = next((k for k, c in enumerate(entete) if c in ("汉字", "字")), None)
+        ip = entete.index("拼音") if "拼音" in entete else None
+        ihp = entete.index("汉字 · 拼音") if "汉字 · 拼音" in entete else None
+        if ihp is None and (ih is None or ip is None):
+            continue
+        ifr = next((k for k, c in enumerate(entete) if c.startswith(COLONNES_FRANCAIS)), None)
+        iex = next((k for k, c in enumerate(entete) if c in COLONNES_EXEMPLE), None)
+        for r in rangs:
+            r += [""] * (len(entete) - len(r))
+            if ihp is not None:
+                h, _, p = r[ihp].partition(" · ")
+                f, x = r[0], (r[-1] if len(r) - 1 not in (0, ihp) else "")
+            else:
+                h, p = r[ih], r[ip]
+                f, x = (r[ifr] if ifr is not None else ""), (r[iex] if iex is not None else "")
+            if h and (p or f):
+                mots.append({"h": h, "p": p, "f": f, "x": x, "c": cours.titre if cours else "", "n": n.titre, "u": n.url})
+    return mots
+
+
+def page_vocabulaire(nb: int) -> str:
+    return f"""<h1>Vocabulaire</h1>
+<p class="props">{nb} mots tirés des tableaux 汉字 / 拼音 de mes notes. Les mots marqués « su » sont mémorisés sur cet appareil.</p>
+<div id="vocab">
+<div class="filtres">
+<label>Cours <select id="v-cours"></select></label>
+<label>Note <select id="v-note"></select></label>
+<label>Afficher <select id="v-etat"><option value="">tous les mots</option><option value="a-revoir">pas encore sus</option></select></label>
+</div>
+<div class="onglets"><button type="button" id="v-mode-liste" class="actif">Liste</button><button type="button" id="v-mode-cartes">Cartes</button></div>
+<p id="v-compte" class="props"></p>
+<section id="v-liste">
+<p class="bascules"><label><input type="checkbox" id="v-cache-pinyin"> cacher le pinyin</label> <label><input type="checkbox" id="v-cache-fr"> cacher le français</label> <span class="aide">(toucher une case pour la révéler)</span></p>
+<div class="table-wrap"><table class="vocab"><thead><tr><th>汉字</th><th>拼音</th><th>Français</th><th></th></tr></thead><tbody id="v-corps"></tbody></table></div>
+</section>
+<section id="v-cartes" hidden>
+<p><label>Sens <select id="v-sens"><option value="zh">汉字 → français</option><option value="fr">français → 汉字</option></select></label></p>
+<div id="v-carte" class="carte" tabindex="0" role="button" aria-label="Carte : toucher pour voir la réponse"></div>
+<div id="v-actions" class="actions" hidden><button type="button" id="v-revoir">À revoir</button><button type="button" id="v-su">Je savais</button></div>
+<p><button type="button" id="v-recommencer" hidden>Recommencer</button></p>
+<p id="v-progres" class="props"></p>
+</section>
+<p class="props"><a href="assets/vocabulaire-anki.txt" download>Télécharger pour Anki</a> (fichier texte à importer : 汉字, pinyin, français, exemple, étiquette) · <button type="button" id="v-oublier" class="lien">tout remettre à « pas encore su »</button></p>
+</div>
+"""
+
+
+def fichier_anki(mots) -> str:
+    lignes = ["#separator:tab", "#html:false", "#columns:汉字\tPinyin\tFrançais\tExemple\tTags", "#tags column:5"]
+    vus = set()
+    for m in mots:
+        if (m["h"], m["p"]) in vus:
+            continue
+        vus.add((m["h"], m["p"]))
+        etiquette = "L2::" + slug(m["c"] or "divers")
+        lignes.append("\t".join(str(v).replace("\t", " ") for v in (m["h"], m["p"], m["f"], m["x"], etiquette)))
+    return "\n".join(lignes) + "\n"
+
+
 # ------------------------------------------------------------------ mise en page
 def proprietes(page: Note, ctx) -> str:
     fm, items = page.fm, []
@@ -333,7 +434,8 @@ def retroliens(page: Note, ctx) -> str:
 
 
 def menu(page: Note, ctx) -> str:
-    items = [f'<li><a href="{e(rel("index.html", page.url))}">Accueil</a></li>']
+    items = [f'<li><a href="{e(rel("index.html", page.url))}">Accueil</a></li>',
+             f'<li{" class=actif" if page.url == URL_VOCABULAIRE else ""}><a href="{e(rel(URL_VOCABULAIRE, page.url))}">Vocabulaire · 生词</a></li>']
     for c in ctx["cours"]:
         actif = ' class="actif"' if c.dossier == page.dossier else ""
         quand = f"{str(c.fm.get('jour') or '')[:3]}. {c.fm.get('heure') or ''}".strip(". ")
@@ -344,6 +446,11 @@ def menu(page: Note, ctx) -> str:
 def gabarit(page: Note, ctx) -> str:
     racine = rel(".", page.url)
     a_un_h1 = re.search(r"<h1[ >]", page.html) is not None
+    scripts = "\n".join(f'<script src="{racine}/{s}" defer></script>' for s in page.scripts)
+    raccourcis = ""
+    if page.url == "index.html":
+        raccourcis = (f'<p class="raccourcis"><a class="bouton" href="{URL_VOCABULAIRE}">Réviser le vocabulaire · 生词'
+                      f'<span>{ctx["nb_mots"]} mots, liste et cartes</span></a></p>')
     sommaire = ""
     if len(page.sommaire) >= 5:
         liens = "".join(f'<li class="{niv}"><a href="#{e(ident)}">{e(txt)}</a></li>' for niv, ident, txt in page.sommaire)
@@ -354,7 +461,11 @@ def gabarit(page: Note, ctx) -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="{COULEUR_THEME}">
 <title>{e(page.titre)} · {e(TITRE_SITE)}</title>
+<link rel="manifest" href="{racine}/manifest.webmanifest">
+<link rel="icon" href="{racine}/assets/icone-192.png">
+<link rel="apple-touch-icon" href="{racine}/assets/icone-180.png">
 <link rel="stylesheet" href="{racine}/assets/style.css">
 </head>
 <body data-racine="{racine}">
@@ -369,6 +480,7 @@ def gabarit(page: Note, ctx) -> str:
 {fil_ariane(page, ctx)}
 <article>
 {'' if a_un_h1 else f'<h1>{e(page.titre)}</h1>'}
+{raccourcis}
 {proprietes(page, ctx)}
 {sommaire}
 {page.html}
@@ -379,6 +491,7 @@ def gabarit(page: Note, ctx) -> str:
 <footer>Généré le {date.today():%d/%m/%Y} à partir du coffre Obsidian.</footer>
 </main>
 <script src="{racine}/assets/app.js" defer></script>
+{scripts}
 </body>
 </html>
 """
@@ -419,6 +532,11 @@ def construire(sortie: Path):
     ctx = dict(notes=notes, par_nom=par_nom, cours=cours, cours_par_dossier=cours_par_dossier,
                seances=seances, retro=retro, fichiers=fichiers, pieces={})
 
+    mots = []
+    for n in notes:
+        mots += extraire_vocabulaire(n, cours_par_dossier.get(n.dossier))
+    ctx["nb_mots"] = len({(m["h"], m["p"]) for m in mots})
+
     index = []
     for n in notes:
         rendre(n, ctx)
@@ -433,7 +551,22 @@ def construire(sortie: Path):
         (sortie / url).parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, sortie / url)
 
-    for nom in ("style.css", "app.js"):
+    # page de vocabulaire, export Anki, icône et manifeste (ajout à l'écran d'accueil du téléphone)
+    vocabulaire = PageSpeciale(URL_VOCABULAIRE, "Vocabulaire", page_vocabulaire(ctx["nb_mots"]),
+                               scripts=["assets/vocabulaire.js", "assets/vocab.js"])
+    (sortie / URL_VOCABULAIRE).write_text(gabarit(vocabulaire, ctx), encoding="utf-8", newline="\n")
+    (sortie / "assets" / "vocabulaire.js").write_text(
+        "window.VOCABULAIRE = " + json.dumps(mots, ensure_ascii=False, separators=(",", ":")) + ";\n",
+        encoding="utf-8", newline="\n")
+    (sortie / "assets" / "vocabulaire-anki.txt").write_text(fichier_anki(mots), encoding="utf-8", newline="\n")
+    manifeste = {
+        "name": TITRE_SITE, "short_name": TITRE_SITE, "lang": "fr", "start_url": "./index.html", "scope": "./",
+        "display": "standalone", "background_color": "#fbfaf7", "theme_color": COULEUR_THEME,
+        "icons": [{"src": f"assets/icone-{t}.png", "sizes": f"{t}x{t}", "type": "image/png", "purpose": "any maskable"} for t in (192, 512)],
+    }
+    (sortie / "manifest.webmanifest").write_text(json.dumps(manifeste, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
+
+    for nom in ("style.css", "app.js", "vocab.js", "icone-180.png", "icone-192.png", "icone-512.png"):
         shutil.copyfile(ICI / nom, sortie / "assets" / nom)
     (sortie / "assets" / "index-recherche.js").write_text(
         "window.INDEX_RECHERCHE = " + json.dumps(index, ensure_ascii=False, separators=(",", ":")) + ";\n",
@@ -450,7 +583,7 @@ def construire(sortie: Path):
     (sortie / "sw.js").write_text(sw, encoding="utf-8", newline="\n")
 
     morts = sorted(set(re.findall(r'class="lien-mort">([^<]+)<', "".join(n.html for n in notes))))
-    print(f"{len(notes)} pages écrites dans {sortie}")
+    print(f"{len(notes) + 1} pages écrites dans {sortie} ; {ctx['nb_mots']} mots de vocabulaire")
     if morts:
         print("Liens sans cible :", ", ".join(morts))
 

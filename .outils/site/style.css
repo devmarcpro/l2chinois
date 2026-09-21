@@ -146,6 +146,51 @@ summary.callout-title { cursor: pointer; }
 .callout-tip { --c: var(--astuce); }
 .callout .table-wrap { margin-left: 0; margin-right: 0; padding: 0; }
 
+/* boutons et page de vocabulaire */
+button, select { font: inherit; color: var(--texte); }
+.raccourcis { margin: 0.6em 0 1em; }
+.bouton { display: block; padding: 12px 16px; border-radius: 12px; background: var(--accent); color: var(--fond); font-weight: 700; text-decoration: none; }
+.bouton span { display: block; font-weight: 400; font-size: 14px; opacity: 0.9; }
+#vocab .filtres { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 1em 0; }
+#vocab label { font-size: 14px; color: var(--discret); }
+#vocab select { display: block; width: 100%; height: 40px; margin-top: 2px; padding: 0 8px; border: 1px solid var(--trait); border-radius: 8px; background: var(--fond-2); font-size: 16px; }
+#vocab .onglets { display: flex; gap: 0; margin: 1em 0 0.4em; border: 1px solid var(--trait); border-radius: 10px; overflow: hidden; }
+#vocab .onglets button { flex: 1; height: 42px; border: 0; background: var(--fond-2); font-weight: 600; }
+#vocab .onglets button.actif { background: var(--accent); color: var(--fond); }
+#vocab .bascules { font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; }
+#vocab .bascules label { color: var(--texte); font-size: 15px; }
+#vocab .aide { color: var(--discret); font-size: 13px; }
+#vocab [hidden] { display: none !important; }
+#vocab .table-wrap { overflow-x: visible; }
+table.vocab { table-layout: fixed; }
+table.vocab th:nth-child(1) { width: 27%; }
+table.vocab th:nth-child(2) { width: 27%; }
+table.vocab th:nth-child(4) { width: 34px; }
+table.vocab td { overflow-wrap: anywhere; }
+table.vocab td.h { font-size: 1.15em; white-space: normal; }
+table.vocab td.s { text-align: center; padding-left: 0; padding-right: 0; }
+table.vocab td.s a { text-decoration: none; }
+table.vocab tr.su td.h { border-left: 3px solid var(--astuce); }
+table.vocab .ex { display: block; font-size: 0.9em; color: var(--discret); }
+#vocab.cache-pinyin td.p:not(.vu), #vocab.cache-fr td.f:not(.vu) { color: transparent; background: var(--fond-2); cursor: pointer; }
+#vocab.cache-pinyin td.p:not(.vu) *, #vocab.cache-fr td.f:not(.vu) * { color: transparent; }
+.carte { min-height: 260px; margin: 0.6em 0; padding: 24px 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; border: 1px solid var(--trait); border-radius: 16px; background: var(--fond-2); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.carte .recto, .carte .verso { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.carte [hidden] { display: none; }
+.carte .grand { font-size: 2.6rem; line-height: 1.2; }
+.carte .moyen { font-size: 1.25rem; }
+.carte .pinyin { font-size: 1.3rem; color: var(--accent); }
+.carte .ex, .carte .source { font-size: 14px; color: var(--discret); }
+.carte .aide { margin: 8px 0 0; }
+.carte .fin { font-size: 1.1rem; }
+#vocab .actions { display: flex; gap: 10px; }
+#vocab .actions button, #v-recommencer { flex: 1; height: 48px; border-radius: 12px; border: 1px solid var(--trait); background: var(--fond-2); font-weight: 600; font-size: 16px; }
+#vocab #v-su { border-color: var(--astuce); color: var(--astuce); }
+#vocab #v-revoir { border-color: var(--alerte); color: var(--alerte); }
+#v-recommencer { width: 100%; }
+button.lien { border: 0; background: none; padding: 0; color: var(--accent); text-decoration: underline; font-size: inherit; cursor: pointer; }
+@media (min-width: 700px) { #vocab .filtres { grid-template-columns: repeat(3, 1fr); } }
+
 /* sommaire, navigation, pied */
 .sommaire { margin: 0.8em 0 1.2em; padding: 8px 14px; border: 1px solid var(--trait); border-radius: 8px; background: var(--fond-2); }
 .sommaire summary { cursor: pointer; font-weight: 600; }
