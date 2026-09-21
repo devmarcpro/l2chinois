@@ -232,13 +232,6 @@ Une notion, deux éclairages :
 - 《韩非子》 Hán Fēizǐ, *Œuvres de Maître Han Fei* : chap. 6 《有度》 Yǒu dù, « Avoir des mesures » (texte C1) ; chap. 38
 - 《商君书》 Shāngjūnshū, *Livre du Prince Shang* : chap. 1 《更法》 Gēng fǎ, « Modifier les lois »
 
-## À retenir
-
-> Une même question, *comment obtenir l'ordre dans une société ?*, et trois réponses (bilan des diapos) :
-> - **Confucianisme** : l'ordre durable naît de la formation morale des personnes, non de la peur des sanctions (德 dé, 禮 lǐ).
-> - **Taoïsme** : trop de lois et de contrôle rendent la société plus confuse, plus pauvre et plus rusée (無為 wúwéi).
-> - **Légisme** : les règles doivent s'appliquer de manière stable et égale à tous, puissants comme gens ordinaires (法 fǎ).
-
 ## Devoirs pour la prochaine fois
 
 - [ ] 
@@ -253,3 +246,13 @@ Remarques ajoutées à la relecture des diapos (à vérifier) :
 - Le passage du *Livre du Prince Shang* est une citation condensée du chapitre 《更法》.
 - « Légalisme » (schéma) et « légisme » (reste du cours) désignent la même école, 法家.
 - Dossier « Fiches de travail » de la séance 1 sur IRIS : pas encore récupéré.
+
+## Résumé
+
+- On parle de **« pensée »** plutôt que de « philosophie » chinoise : recherche de la sagesse, réponse à des situations concrètes, conduite à incarner, là où la philosophie occidentale cherche une vérité à établir. Le tableau est volontairement simplifié : ce ne sont pas deux essences opposées.
+- **Contexte** : le chaos des Royaumes combattants (战国, 475-221 av. J.-C.) rend nécessaire une société stable, d'où l'émergence des Cent écoles (百家) : confucianisme, taoïsme, légisme, mohisme, école du Yin-Yang.
+- **Une même question, trois réponses** : comment obtenir l'ordre dans une société ?
+    - **Confucianisme** (*Entretiens* II, 3) : gouverner par la vertu (德) et les rites (禮) plutôt que par les châtiments ; l'ordre durable naît de la formation morale.
+    - **Taoïsme** (*Daodejing* 57) : trop de lois et de contrôle produisent du désordre ; le Sage pratique le non-agir (無為) et le peuple se transforme de lui-même.
+    - **Légisme** (*Han Feizi* 6) : la loi (法) est un cordeau qui s'applique à tous de manière stable, puissants comme gens ordinaires.
+- **Méthode** pour lire un texte : repérer l'opposition principale, ce que le texte critique, la solution proposée, puis formuler la thèse.

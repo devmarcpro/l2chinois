@@ -18,7 +18,7 @@ PAUSES = [(date(2026, 10, 26), date(2026, 11, 1))]
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 
-MAGISTRAL = ["plan", "notes", "notions", "reperes", "retenir", "devoirs", "revoir"]
+MAGISTRAL = ["plan", "notes", "notions", "reperes", "devoirs", "revoir"]
 LANGUE = ["notes", "vocab", "phrases", "devoirs", "revoir"]
 GENERIQUE = ["objectifs", "notes", "afaire", "revoir"]
 
@@ -55,7 +55,7 @@ SECTIONS = {
     "notes": "## Notes du cours\n\n",
     "notions": "## Notions clés\n\n| Terme | 汉字 · 拼音 | Définition |\n| --- | --- | --- |\n|  |  |  |\n",
     "reperes": "## Dates, personnages, œuvres\n\n- \n",
-    "retenir": "## À retenir\n\n> Résumé de la séance en 3 lignes.\n",
+    "resume": "## Résumé\n\n- \n",
     "gram": "## Points de grammaire\n\n### Structure : \n\n- **Formule** : \n- **Emploi** : \n- **Exemples** :\n    - \n",
     "vocab": "## Vocabulaire\n\n| 汉字 | 拼音 | Français | Exemple |\n| --- | --- | --- | --- |\n|  |  |  |  |\n",
     "phrases": "## Phrases et expressions utiles\n\n- \n",
@@ -113,7 +113,8 @@ def nom_seance(c, d: date) -> str:
 
 
 def corps(c, exclure=()) -> str:
-    return "\n".join(SECTIONS[s] for s in c["sections"] if s not in exclure)
+    # toutes les notes de séance se terminent par un résumé
+    return "\n".join(SECTIONS[s] for s in list(c["sections"]) + ["resume"] if s not in exclure)
 
 
 def entete(c, d, n, theme="", fait=False) -> str:

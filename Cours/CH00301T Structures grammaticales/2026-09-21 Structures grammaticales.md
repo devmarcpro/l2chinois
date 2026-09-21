@@ -57,3 +57,9 @@ exo 9 p 365
 ## À revoir / questions
 
 - 
+
+## Résumé
+
+- **是…的** met en valeur une circonstance (quand, où, comment, avec qui) d'un événement passé ; texte de départ : 李苗苗昨天去了故宫.
+- Actions qui **se suivent** dans le temps : vu avec l'exercice 5 p. 363 (la structure n'est pas notée dans mon cahier).
+- Actions **simultanées** : 一边 V1 一边 V2 pour deux actions en même temps ; 又…又… pour deux états ou qualités qui coexistent (exercice 9 p. 365).

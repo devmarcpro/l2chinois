@@ -23,3 +23,7 @@ fait: false
 ## À revoir / questions
 
 - 
+
+## Résumé
+
+- 

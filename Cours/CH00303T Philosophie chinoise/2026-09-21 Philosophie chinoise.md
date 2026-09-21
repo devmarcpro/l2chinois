@@ -26,14 +26,14 @@ fait: false
 
 - 
 
-## À retenir
-
-> Résumé de la séance en 3 lignes.
-
 ## Devoirs pour la prochaine fois
 
 - [ ] 
 
 ## À revoir / questions
+
+- 
+
+## Résumé
 
 - 

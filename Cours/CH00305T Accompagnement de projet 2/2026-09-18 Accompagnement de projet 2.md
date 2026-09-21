@@ -70,3 +70,10 @@ Points vus :
 ## À revoir / questions
 
 - 
+
+## Résumé
+
+- L'UE a deux parties : **A. la recherche d'un stage facultatif** (le stage lui-même n'est pas évalué) et **B. un projet de séjour à l'étranger**.
+- **À rendre** (modalités modifiables jusqu'au 30 septembre). Stage : fiche de présentation de la structure, projet de stage en audio de 3 min, CV, lettre de motivation. Séjour : projet en audio de 3 min, tableau des freins, bibliographie Zotero.
+- **Activité** : liste des aspects positifs d'un séjour (ouverture, CV, immersion, autonomie…) et des freins (financement, santé, langue, visa, solitude…). Le **tableau des freins** associe à chaque frein une solution et une source.
+- **Zotero** : créer une collection, enregistrer une source web ou un livre (Archipel), juger de la fiabilité d'une source, générer et éditer une bibliographie.

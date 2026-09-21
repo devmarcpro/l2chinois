@@ -216,10 +216,6 @@ Histoire de la Chine : dynastie Tang (唐朝 Tángcháo)
 
 Dates clés : 649 (mort de Taizong) · 655 (Wu impératrice consort) · 690–705 (Zhou de Wu Zetian) · 712–756 (règne de Xuanzong) · 755–763 (révolte d'An Lushan) · 843–845 (persécution du bouddhisme) · 868 (Sutra du diamant imprimé) · 907 (fin des Tang)
 
-## À retenir
-
-> Résumé de la séance en 3 lignes.
-
 ## Devoirs pour la prochaine fois
 
 - [ ] 
@@ -234,3 +230,10 @@ Points à vérifier dans le PDF (remarques ajoutées à la relecture) :
 - « ~120 000 » poèmes et poètes : chiffre à vérifier (l'anthologie 全唐诗 Quán Táng shī compte environ 49 000 poèmes de 2 200 poètes).
 - « bois de demande » (imprimerie) : formulation peu claire, à demander.
 - Le cousin de Yang Guifei n'est pas nommé dans le PDF : il s'agit de Yang Guozhong (杨国忠 Yáng Guózhōng).
+
+## Résumé
+
+- **Wu Zetian** (武则天, 624-705) : concubine de Taizong puis de Gaozong, impératrice consort en 655, vrai pouvoir dès 660, puis seule femme empereur (dynastie Zhou, 690-705). Elle réorganise les examens (科举), soutient le bouddhisme, baisse les taxes ; elle est déposée en 705.
+- **Xuanzong** (唐玄宗, règne 712-756) : apogée des Tang, puis déclin quand il délaisse la cour pour **Yang Guifei** (杨贵妃). La **révolte d'An Lushan** (安史之乱, 755-763) fait des millions de morts et donne leur autonomie aux gouverneurs militaires (藩镇).
+- **Fin des Tang** : persécution du bouddhisme sous Wuzong (843-845), chute en **907** (Zhu Wen fonde les Liang postérieurs), puis période des Cinq dynasties (五代).
+- **Culture** : âge d'or de la poésie (古诗, 律诗, 绝句 ; Li Bai, Du Fu, Wang Wei, Bai Juyi), débuts de la peinture de paysage (山水画), imprimerie sur planches de bois (Sutra du diamant, 868), céramique « trois couleurs » (三彩).

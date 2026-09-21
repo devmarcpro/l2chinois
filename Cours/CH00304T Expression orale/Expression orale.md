@@ -4,12 +4,12 @@ ue: CH00304T
 jour: mardi
 heure: "14:10"
 salle: LA387
-enseignant: M. HE
+enseignant: HE Qingpeng
 ---
 > [!info] Infos pratiques
 > **UE** : CH00304T – Production écrite et orale · partie « Expression orale »
 > **Créneau** : mardi 14:10 · salle LA387
-> **Enseignant·e** : M. HE
+> **Enseignant·e** : M. HE Qingpeng
 > **Responsables pédagogiques de l'UE** : C. LI et R. BERNARD-MOULIN
 > **Manuel / supports** :
 > **Évaluation** : non précisée sur IRIS pour l'instant (l'autre module de l'UE, [[Lexicologie - Expression écrite]], compte pour 50 %)
