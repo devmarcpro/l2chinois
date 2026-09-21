@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.inFolder("Cours")
+    - note.type == "seance"
+properties:
+  note.cours:
+    displayName: Cours
+  note.date:
+    displayName: Date
+  note.seance:
+    displayName: Séance
+  note.theme:
+    displayName: Thème
+  note.fait:
+    displayName: Fait
+views:
+  - type: table
+    name: À compléter
+    filters:
+      and:
+        - note.fait != true
+    order:
+      - file.name
+      - cours
+      - date
+      - fait
+    sort:
+      - property: date
+        direction: ASC
+  - type: table
+    name: Toutes les séances
+    groupBy:
+      property: cours
+      direction: ASC
+    order:
+      - file.name
+      - seance
+      - theme
+      - fait
+    sort:
+      - property: date
+        direction: ASC

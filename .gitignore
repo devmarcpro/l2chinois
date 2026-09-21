@@ -1,0 +1,7 @@
+# site généré (reconstruit par GitHub Actions)
+.site/
+_site/
+# état local d'Obsidian
+.obsidian/workspace*.json
+.trash/
+__pycache__/

@@ -1,0 +1,11 @@
+{
+  "types": {
+    "date": "date",
+    "fait": "checkbox",
+    "seance": "number",
+    "theme": "text",
+    "cours": "text",
+    "ue": "text",
+    "type": "text"
+  }
+}

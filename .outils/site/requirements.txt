@@ -1,0 +1,3 @@
+markdown-it-py>=3.0
+mdit-py-plugins>=0.4
+PyYAML>=6.0
