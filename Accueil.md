@@ -37,19 +37,19 @@ type: accueil
 
 ## Emploi du temps
 
-| Jour | Heure | Cours | UE | Salle |
-| --- | --- | --- | --- | --- |
-| lundi | 10:50 | [[Philosophie chinoise]] | CH00303T | LA342 |
-| lundi | 14:10 | [[Structures grammaticales]] | CH00301T | LA342 |
-| mardi | 10:50 | [[Histoire et civilisation chinoises]] | CH00302T | LA342 |
-| mardi | 14:10 | [[Expression orale]] | CH00304T | LA387 |
-| mardi | 16:25 | [[Version]] | CH00301T | LA202 |
-| jeudi | 08:50 | [[Compréhension orale]] | CH00301T | LA202 |
-| jeudi | 11:50 | [[Renforcement écrit]] | CH00306T | GA123 |
-| jeudi | 14:10 | [[DD3 - PIX]] | PIX0307T | AC104 (salle informatique) |
-| jeudi | 16:25 | [[Renforcement oral]] | CH00306T | LA202 |
-| vendredi | 08:20 | [[Lexicologie - Expression écrite]] | CH00304T | LA342 |
-| vendredi | 10:50 | [[Accompagnement de projet 2]] | CH00305T | LA220 (multimédia) |
+| Jour     | Heure | Cours                                  | UE       | Salle                      |
+| -------- | ----- | -------------------------------------- | -------- | -------------------------- |
+| lundi    | 10:50 | [[Philosophie chinoise]]               | CH00303T | LA342                      |
+| lundi    | 14:10 | [[Structures grammaticales]]           | CH00301T | LA342                      |
+| mardi    | 10:50 | [[Histoire et civilisation chinoises]] | CH00302T | LA342                      |
+| mardi    | 14:10 | [[Expression orale]]                   | CH00304T | LA387                      |
+| mardi    | 16:25 | [[Version]]                            | CH00301T | LA202                      |
+| jeudi    | 08:50 | [[Compréhension orale]]                | CH00301T | LA202                      |
+| jeudi    | 11:50 | [[Renforcement écrit]]                 | CH00306T | GA123                      |
+| jeudi    | 14:10 | [[DD3 - PIX]]                          | PIX0307T | AC104 (salle informatique) |
+| jeudi    | 16:25 | [[Renforcement oral]]                  | CH00306T | LA202                      |
+| vendredi | 08:20 | [[Lexicologie - Expression écrite]]    | CH00304T | LA342                      |
+| vendredi | 10:50 | [[Accompagnement de projet 2]]         | CH00305T | LA220 (multimédia)         |
 
 ## Calendrier du semestre 1 (UT2J 2026-2027)
 

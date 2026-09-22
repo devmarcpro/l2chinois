@@ -1,0 +1,66 @@
+PAQUETS ANKI CORRIGES (generes par .outils/anki/corriger_decks.py)
+==================================================================
+
+Les fichiers d'origine (dossier Anki/) ne sont pas modifies. Pour tout regenerer :
+    python .outils/anki/corriger_decks.py
+
+CE QUI A CHANGE
+- Pinyin des exemples relu mot par mot : caracteres a plusieurs lectures (认为 wéi, 了解 liǎo, 便宜 pián yi,
+  银行 háng, 睡觉 jiào, 两只 zhī, 都 dōu, 长 cháng, 种 zhòng, 待 dāi, 切 qiē, 还 huán, 请假 jià...),
+  得 / 地 / 着 / 了 particules (de, zhe, le), 得 = devoir (děi), 教 = enseigner (jiāo).
+  Le pinyin du mot en tete de carte est relu de la meme facon.
+- Accents manquants remis, tons neutres usuels (朋友 péng you, 喜欢 xǐ huan...), couleur toujours accordee au ton ecrit.
+- Sandhi de 一 et 不 : on ecrit le ton prononce (yí gè, yì qǐ, bú shì) ; 一 reste yī dans les nombres, les dates,
+  les ordinaux et en fin de mot ; V一V et V不V au ton neutre.
+- Formes traditionnelles standard de Taiwan (吃, 為, 裡, 別, 乾燥, 麵包, 薑, 隻) a la place des variantes rares.
+- Contenu relu carte par carte (HSK 1-3 du vocabulaire et des phrases, tous les exercices, la grammaire,
+  la lecture et l'ecoute) : 1 784 corrections appliquees. Sens faux, traductions en mot a mot ("nous midi restaurant"),
+  traductions collees a la mauvaise phrase, mots francais tronques ("professeu"), notes fausses, phrases chinoises
+  incorrectes, exercices ambigus (plusieurs bonnes reponses) ou sans erreur a trouver, caracteres a plusieurs lectures
+  demandes sans mot ("觉" devient "觉 (dans 觉得)"), etiquettes de nature fausses ("classificateur" sur 电脑, "verbe" sur 朋友).
+  Le detail : .outils/anki/corrections_contenu.json.
+- Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
+  erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
+- Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.
+- Ajouts, tous etiquetes ajout_2026 (et cours_L2 quand ils viennent des cours) :
+  32 structures de grammaire HSK 1-3, 47 phrases des cours, 24 exercices, 117 mots des cours absents du paquet.
+  Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
+- Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
+  Chinois::Vocabulaire::0 · Cours L2 (mots des cours sans niveau HSK), 1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK.
+- Chaque fichier est range du plus facile au plus difficile.
+- journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
+
+CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
+- Anki reconnait une note par son premier champ. Quand la faute etait dans le recto (l'enonce d'un exercice, une
+  phrase), la version corrigee est une NOUVELLE note (etiquette corrige_2026) et l'ancienne est conservee avec
+  un verso "Carte remplacee" et l'etiquette a_supprimer. Meme chose pour les fiches de grammaire en double.
+  Cela concerne 408 exercices, 11 fiches de grammaire, 6 phrases et 4 textes d'ecoute.
+- Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
+
+IMPORTER DANS ANKI (ordinateur)
+1. Faire d'abord une sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
+2. Fichier > Importer, choisir un fichier de ce dossier (un fichier = un paquet).
+3. Dans la fenetre d'import : meme type de note que l'ancien ;
+   "Notes existantes" = Mettre a jour ; correspondance sur le premier champ.
+   Le premier champ des notes existantes n'a pas ete touche : Anki met donc tes cartes a jour
+   sans toucher a ta progression, et cree seulement les notes ajoutees.
+   Pour le vocabulaire, le paquet est lu dans le fichier (colonne deck) : ne pas le forcer dans la fenetre d'import.
+4. Recommencer pour les six fichiers.
+
+SOUS-PAQUETS DU VOCABULAIRE
+- Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
+  seules les notes nouvelles vont directement dans leur sous-paquet.
+- Pour ranger les anciennes : Parcourir > chercher   tag:HSK1   > tout selectionner > Cartes > Changer de paquet >
+  Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK2 -> 2 · HSK 2, etc. ; tag:hors_HSK -> 8 · Hors HSK ;
+  tag:cours_L2 -tag:HSK1 -tag:HSK2 -tag:HSK3 -tag:HSK4 -tag:HSK5 -tag:HSK6 -tag:HSK7 -tag:HSK8 -tag:HSK9 -tag:hors_HSK -> 0 · Cours L2.
+- Autre solution si tu n'as encore rien revise dans le vocabulaire : supprimer le paquet et importer le fichier corrige.
+
+L'ORDRE DES NOUVELLES CARTES
+- Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc
+  apres les anciennes. Pour voir d'abord ce qui vient des cours :
+  Parcourir > chercher   tag:ajout_2026 is:new   > trier par "Creation" > tout selectionner >
+  Cartes > Repositionner > position de depart 0, pas de 1, cocher "Decaler la position des cartes existantes".
+- Si tu n'as encore rien revise dans un paquet, le plus simple est de le supprimer puis d'importer le fichier corrige :
+  l'ordre des cartes sera exactement celui du fichier, du plus facile au plus difficile.
+- Pour ne reviser que le vocabulaire des cours : paquet filtre avec la recherche   tag:cours_L2
+  (ou tag:L2_lexicologie, tag:L2_grammaire, tag:L2_histoire...).
