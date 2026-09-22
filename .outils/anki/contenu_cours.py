@@ -187,6 +187,59 @@ GRAMMAIRE = [
     ("HSK 3", "并不是…，而是… — ce n'est pas du tout…, mais…",
      "不是 A，而是 B : ce n'est pas A, c'est B. 并 devant la négation la <b>renforce</b> et contredit ce que l'on pourrait croire.",
      [("我并不是不想去，而是没有时间。", "Ce n'est pas que je ne veuille pas y aller, c'est que je n'ai pas le temps."), ("他得到这份工作并不是因为他能力强，而是因为他太太是老板的女儿。", "S'il a obtenu ce travail, ce n'est pas du tout parce qu'il est compétent, mais parce que sa femme est la fille du patron."), ("这并不难。", "Ce n'est pas difficile du tout.")], "cours_L2"),
+    # ---- renforcement écrit : connecteurs et modèles de textes
+    ("HSK 3", "为了 — dans le but de (连接目的)",
+     "为了 + but, + action : le but se place <b>en tête</b> de phrase (ou juste avant le verbe). Ne pas confondre avec 因为 (cause). À l'écrit on trouve aussi 为的是 après l'action.",
+     [("为了学好中文，他每天听中文广播。", "Pour bien apprendre le chinois, il écoute la radio chinoise tous les jours."), ("为了健康，我们应该少吃盐。", "Pour la santé, nous devrions manger moins salé."), ("他这么做，为的是让父母放心。", "Il agit ainsi pour rassurer ses parents.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 3", "不过 / 其实 — mais (atténué) / en fait",
+     "不过 = mais, cependant, plus léger que 但是 ; toujours en tête de la seconde proposition. 其实 = en fait, en réalité (corrige une idée reçue) ; se place après le sujet ou en tête.",
+     [("这家饭馆的菜很好吃，不过有点贵。", "Les plats de ce restaurant sont délicieux, mais un peu chers."), ("大家都以为他很严肃，其实他很幽默。", "Tout le monde le croit sérieux, en fait il est très drôle."), ("其实我早就知道了。", "En fait, je le savais depuis longtemps.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 4", "由于…，(因此/所以)… — cause, registre écrit (因果关系)",
+     "由于 + cause, 因此 / 所以 + conséquence : équivalent écrit et plus formel de 因为…所以…. 因此 = par conséquent (peut ouvrir une phrase seul). Ordre : la cause d'abord.",
+     [("由于天气不好，比赛推迟了。", "En raison du mauvais temps, la compétition a été reportée."), ("他工作很努力，因此进步很快。", "Il travaille dur, par conséquent il progresse vite."), ("由于时间有限，我们只能先讨论最重要的问题。", "Le temps étant limité, nous ne pouvons discuter d'abord que de la question la plus importante.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 4", "既…又… — à la fois… et… (并列关系, écrit)",
+     "既 + A + 又 + B : deux qualités ou deux actions qui coexistent, même sujet. Plus écrit que 又…又…. Variante : 既…也….",
+     [("这个办法既简单又有效。", "Cette méthode est à la fois simple et efficace."), ("她既会说英语，又会说日语。", "Elle parle à la fois anglais et japonais."), ("网购既方便又便宜。", "Les achats en ligne sont à la fois pratiques et bon marché.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 4", "首先…，其次…，最后… / 总之 — organiser un paragraphe",
+     "Pour énumérer des arguments à l'écrit : 首先 (d'abord), 其次 (ensuite), 再次 / 另外 (de plus), 最后 (enfin). 总之 = en somme, pour conclure. Chaque connecteur ouvre une phrase, suivi d'une virgule.",
+     [("首先，网购很方便；其次，价格比较便宜；最后，选择也更多。", "D'abord, les achats en ligne sont pratiques ; ensuite, les prix sont plutôt bas ; enfin, le choix est plus grand."), ("总之，学习语言需要时间和耐心。", "En somme, apprendre une langue demande du temps et de la patience."), ("另外，别忘了带护照。", "De plus, n'oublie pas de prendre ton passeport.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 3", "描述一个人 — décrire une personne",
+     "Apparence : 长得 + adj (长得很高 / 很漂亮), 个子 + 高/矮, 留着长头发, 戴眼镜. Caractère : 性格 + adj (开朗 / 内向 / 热情), 对人很 + adj (对人很友好). Goûts : 喜欢 + V, 对…感兴趣.",
+     [("我的朋友个子很高，留着短头发，戴眼镜。", "Mon ami est grand, il a les cheveux courts et porte des lunettes."), ("她性格开朗，对人很热情。", "Elle a un caractère ouvert et elle est chaleureuse avec les gens."), ("他对音乐很感兴趣，周末常去听音乐会。", "Il s'intéresse beaucoup à la musique, le week-end il va souvent au concert.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 3", "描述一个地方 — décrire un lieu",
+     "Situation : X 位于 / 在 + lieu, 离…很近/很远. Contenu : lieu + 有 + …, 又…又…, 到处都是…. Appréciation : 风景很美, 很热闹 / 很安静, 值得一去.",
+     [("我的家乡位于中国南方，离海很近。", "Ma ville natale se trouve dans le sud de la Chine, tout près de la mer."), ("公园里有一个湖，湖边有很多树，又安静又漂亮。", "Dans le parc il y a un lac, au bord du lac beaucoup d'arbres ; c'est à la fois calme et joli."), ("这个地方风景很美，值得一去。", "Le paysage de cet endroit est très beau, il vaut le détour.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 3", "请假条 — le mot d'excuse (demande de congé)",
+     "Modèle : 1) destinataire + 您好！ 2) motif : 因为…，3) demande : 我想请假 + durée (请一天假 / 请假两天), 4) 望批准 (merci d'accepter), 5) formule finale 此致 / 敬礼, 6) nom (学生 X) et date. Registre poli : 您, 请, 麻烦.",
+     [("王老师，您好！因为我生病了，明天不能来上课，想请假一天，望批准。", "Bonjour Madame Wang. Comme je suis malade, je ne pourrai pas venir en cours demain ; je souhaite demander un jour de congé, merci de bien vouloir l'accepter."), ("我想请两天假回家看父母。", "Je voudrais prendre deux jours de congé pour rentrer voir mes parents."), ("此致敬礼。学生李明，9月20日。", "Respectueusement. L'étudiant Li Ming, le 20 septembre.")], "cours_L2 L2_renforcement_ecrit"),
+    ("HSK 4", "电子邮件 — l'e-mail formel",
+     "主题 (objet) court. Ouverture : 尊敬的 / 亲爱的 + nom + ：您好！ Corps : 我是…，我想… / 请问…. Pièce jointe : 附件是…. Clôture : 期待您的回复 (dans l'attente de votre réponse), 祝好 / 祝工作顺利, puis nom et date.",
+     [("尊敬的张老师：您好！我是二年级的学生李华。", "Cher Professeur Zhang, bonjour. Je suis Li Hua, étudiant de deuxième année."), ("附件是我的作业，请您查收。", "Vous trouverez mon devoir en pièce jointe, je vous prie de bien vouloir le recevoir."), ("期待您的回复。祝好！", "Dans l'attente de votre réponse. Bien cordialement.")], "cours_L2 L2_renforcement_ecrit"),
+]
+
+# ------------------------------------------------------------------ mots complémentaires (thèmes des cours, absents du paquet)
+# (mot, sens, cours, exemple, traduction de l'exemple)
+VOCAB_SUPPLEMENT = [
+    ("请假条", "mot d'excuse, demande de congé (écrit)", "Renforcement écrit", "生病了要给老师写请假条。", "Quand on est malade, il faut écrire un mot d'excuse au professeur."),
+    ("邮件", "courrier ; e-mail (电子邮件)", "Renforcement écrit", "我给老师发了一封邮件。", "J'ai envoyé un e-mail au professeur."),
+    ("附件", "pièce jointe", "Renforcement écrit", "附件是我的简历。", "Mon CV est en pièce jointe."),
+    ("下单", "passer une commande (en ligne)", "Renforcement écrit", "我昨天在网上下单了，今天就到了。", "J'ai commandé en ligne hier, c'est arrivé aujourd'hui."),
+    ("转折", "opposition, concession (relation logique 转折关系)", "Renforcement écrit", "“但是”表示转折。", "« 但是 » exprime l'opposition."),
+    ("递进", "gradation, renchérissement (递进关系 : 不但…而且)", "Renforcement écrit", "“不但……而且”表示递进关系。", "« 不但…而且 » exprime une gradation."),
+    ("民国", "la République de Chine (1912-1949)", "Histoire et civilisation chinoises", "1912年，中华民国成立。", "En 1912, la République de Chine est fondée."),
+    ("王朝", "dynastie (régime)", "Histoire et civilisation chinoises", "清朝是中国最后一个王朝。", "Les Qing sont la dernière dynastie chinoise."),
+    ("灭亡", "tomber, disparaître (dynastie, État)", "Histoire et civilisation chinoises", "唐朝于907年灭亡。", "La dynastie Tang tombe en 907."),
+    ("起义", "soulèvement, insurrection", "Histoire et civilisation chinoises", "黄巢起义削弱了唐朝。", "La révolte de Huang Chao affaiblit les Tang."),
+    ("变法", "réforme (des lois et institutions)", "Histoire et civilisation chinoises", "王安石变法发生在宋朝。", "Les réformes de Wang Anshi ont lieu sous les Song."),
+    ("首都", "capitale", "Histoire et civilisation chinoises", "唐朝的首都是长安。", "La capitale des Tang était Chang'an."),
+    ("法家", "école légiste (法家)", "Philosophie chinoise", "韩非子是法家的代表人物。", "Han Feizi est la figure représentative des légistes."),
+    ("墨家", "école mohiste (墨家)", "Philosophie chinoise", "墨家主张兼爱。", "Les mohistes prônent l'amour universel."),
+    ("兼爱", "amour universel (Mozi)", "Philosophie chinoise", "墨子提出“兼爱”的思想。", "Mozi a formulé l'idée d'« amour universel »."),
+    ("智", "sagesse, intelligence (une des cinq vertus 仁义礼智信)", "Philosophie chinoise", "仁、义、礼、智、信是儒家的五常。", "Humanité, justice, rites, sagesse et confiance sont les cinq vertus constantes du confucianisme."),
+    ("性善", "bonté originelle de la nature humaine (Mencius)", "Philosophie chinoise", "孟子主张性善论。", "Mencius soutient la thèse de la bonté de la nature humaine."),
+    ("性恶", "nature humaine mauvaise (Xunzi)", "Philosophie chinoise", "荀子主张性恶论。", "Xunzi soutient la thèse d'une nature humaine mauvaise."),
+    ("君子", "homme de bien (idéal confucéen)", "Philosophie chinoise", "君子坦荡荡，小人长戚戚。", "L'homme de bien est serein ; l'homme de peu est toujours inquiet."),
+    ("小人", "homme de peu (opposé de 君子)", "Philosophie chinoise", "君子和而不同，小人同而不和。", "L'homme de bien s'accorde sans s'identifier ; l'homme de peu s'identifie sans s'accorder."),
 ]
 
 # ------------------------------------------------------------------ PHRASES (niveau, phrase, traduction, notes, étiquettes)
@@ -198,6 +251,14 @@ PHRASES = [
     (1, "明天再说吧。", "On en reparle demain.", "再 = de nouveau (dans le futur) · 吧 = suggestion · expression toute faite", "quotidien"),
     (2, "快要考试了。", "L'examen approche. / On va bientôt passer l'examen.", "快要…了 = être sur le point de · titre du dialogue 112 (leçon 10)", "grammaire"),
     (2, "我下周有考试。", "J'ai un examen la semaine prochaine.", "下周 = la semaine prochaine · 考试 = examen", "quotidien"),
+    (2, "老师，您好！我生病了，想请假一天。", "Bonjour Madame / Monsieur. Je suis malade, je voudrais un jour de congé.", "请假 = demander un congé (verbe séparable : 请一天假) · 您 = vous de politesse", "ecrit"),
+    (3, "我在网上买了一件衣服，三天就收到了快递。", "J'ai acheté un vêtement en ligne, j'ai reçu le colis en trois jours.", "在网上买 = acheter en ligne · 快递 = livraison express, colis · 就 = plus vite que prévu", "ecrit"),
+    (3, "这件衣服太小了，我想退货。", "Ce vêtement est trop petit, je voudrais le retourner.", "退货 = retourner un article · 太…了 = trop", "ecrit"),
+    (3, "他长得很高，性格很开朗，对人很友好。", "Il est grand, il a un caractère ouvert et il est aimable avec les gens.", "长得 + adj = physique · 性格 = caractère · 对人 + adj = avec les gens (description d'une personne)", "ecrit"),
+    (3, "我的家乡不大，但是很安静，风景也很美。", "Ma ville natale n'est pas grande, mais elle est très calme et le paysage y est très beau.", "但是 = 转折 (opposition) · 家乡 = ville / pays natal (description d'un lieu)", "ecrit"),
+    (4, "由于价格便宜，越来越多的人选择网购。", "Comme les prix sont bas, de plus en plus de gens choisissent les achats en ligne.", "由于 = 因为 à l'écrit · 越来越多 = de plus en plus de · 网购 = achats en ligne", "ecrit"),
+    (4, "网购虽然方便，但是也有一些问题，比如质量不好。", "Les achats en ligne sont certes pratiques, mais ils posent aussi quelques problèmes, par exemple la mauvaise qualité.", "虽然…但是 = concession · 比如 = par exemple · 质量 = qualité", "ecrit"),
+    (4, "附件是我的作业，请您查收。期待您的回复。", "Mon devoir est en pièce jointe, je vous prie de le recevoir. Dans l'attente de votre réponse.", "查收 = vérifier la réception (formule d'e-mail) · 期待您的回复 = formule de clôture", "ecrit"),
     (2, "我通过考试了。", "J'ai réussi l'examen.", "通过 = réussir, passer · négation : 我没通过考试 · échouer : 不及格", "quotidien"),
     (2, "我什么都没看到。", "Je n'ai rien vu du tout.", "什么都 + négation = rien du tout · 看到 = voir (résultat) · négation du résultat avec 没", "grammaire"),
     (2, "你吃药了吗？", "As-tu pris tes médicaments ?", "吃药 = prendre un médicament (litt. « manger ») · 了…吗 = est-ce fait ?", "sante"),
@@ -409,6 +470,46 @@ def ajouter_contenu(paquets):
     bilan["Vocabulaire : mots déjà présents étiquetés cours_L2"] = etiquetes
     bilan["Vocabulaire : mots du cours créés"] = crees
     bilan["Vocabulaire : pinyin à vérifier (différent de celui de la note de cours)"] = alertes
+
+    # mots complémentaires (thèmes des cours)
+    ajoutes = 0
+    for mot, sens, cours, zh, fr in VOCAB_SUPPLEMENT:
+        if mot in index:
+            continue
+        EXEMPLES.setdefault(mot, [(zh, fr)])
+        note, _ = note_vocabulaire(mot, None, sens, "", f"{cours} (thème du programme)", ETIQUETTE_COURS.get(cours, "L2_autre"))
+        paquets["Vocabulaire"].append(note)
+        index[mot] = note
+        ajoutes += 1
+    bilan["Vocabulaire : mots des thèmes du programme créés"] = ajoutes
+
+    # exercices : reconnaître les caractères non simplifiés (exigé par le programme de renforcement écrit)
+    rectos = {r[0] for r in paquets["Exercices"]}
+    neuves, vus = [], set()
+    for r in paquets["Vocabulaire"]:
+        mot = r[0].strip()
+        niveau = re.search(r"\bHSK([123])\b", r[3])
+        if not (niveau or "cours_L2" in r[3].split()) or not re.fullmatch(r"[一-鿿]{1,4}", mot) or mot in vus:
+            continue
+        trad = VERS_TRAD.convert(mot)
+        if trad == mot:
+            continue
+        lignes = re.sub(r"<div class=\"exemple-bloc\".*", "", r[1]).split("<br>")
+        pinyin = " ".join(re.findall(r'<span class="t\d">([^<]+)</span>', lignes[1])) if len(lignes) > 1 else ""
+        sens = re.sub(r"<[^>]+>", "", lignes[2]).strip() if len(lignes) > 2 else ""
+        if not sens:
+            continue
+        vus.add(mot)
+        detail = " · ".join(f"{t} → {s}" if t != s else f"{s} (inchangé)" for t, s in zip(trad, mot))
+        recto = f'Ce mot est écrit en caractères non simplifiés. Lisez-le et donnez sa forme simplifiée :<br><br><span class="hanzi">{trad}</span>'
+        verso = (f"<b>Réponse : {mot}</b> ({pinyin})<br><br>{sens}<br><br>"
+                 f'<div class="exemple-bloc"><b>Explication :</b> {detail}</div>')
+        if recto not in rectos:
+            neuves.append([recto, verso, "", "exercice_traditionnel deck_v2 cours_L2 L2_renforcement_ecrit ajout_2026"])
+        if len(neuves) >= 200:
+            break
+    paquets["Exercices"] += neuves
+    bilan["Exercices : reconnaissance des caractères non simplifiés"] = len(neuves)
     return bilan
 
 

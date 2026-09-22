@@ -275,7 +275,7 @@ def nettoyer_exercices(rangs):
 FREQ = {"tres_frequent(1)": 1, "frequent(2)": 2, "assez_frequent(3)": 3, "moins_frequent(4)": 4, "rare(5)": 5}
 TYPES_EXO = ["exercice_ton", "exercice_pinyin", "exercice_hanzi", "exercice_caracteres", "exercice_classificateur", "exercice_negation",
              "exercice_remplir", "exercice_ordre", "exercice_antonyme", "exercice_aspect", "exercice_structure", "exercice_correction",
-             "exercice_traduction", "exercice_liaison", "exercice_potentiel", "exercice_directionnel", "exercice_reduplication",
+             "exercice_traduction", "exercice_traditionnel", "exercice_liaison", "exercice_potentiel", "exercice_directionnel", "exercice_reduplication",
              "exercice_verbe", "exercice_contexte", "exercice_expression", "exercice_registre", "exercice_chengyu"]
 NIVEAU_LIBELLE = {"初级": 1.5, "初中级": 2.5, "中级": 3.5, "中高级": 4.5, "高级": 5.5}
 
@@ -338,6 +338,9 @@ def trier(paquet, rangs, lex: Lexique):
             i, r = ir
             genre = next((e for e in r[3].split() if e.startswith("exercice")), "")
             malus = 2 if genre in ("exercice_chengyu", "exercice_registre") else 0
+            if genre == "exercice_traditionnel":  # le recto est en caractères non simplifiés : niveau du mot simplifié
+                m = re.search(r"Réponse : ([一-鿿]+)", r[1])
+                return (round(lex.niveau(m.group(1)) if m else 3), TYPES_EXO.index(genre), i)
             return (round(lex.niveau(texte(r)) + malus), TYPES_EXO.index(genre) if genre in TYPES_EXO else 99, i)
     else:  # Grammaire, Lecture, Ecoute : le niveau est écrit sur la carte
         def cle(ir):
