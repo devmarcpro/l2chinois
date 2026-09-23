@@ -38,6 +38,8 @@ CE QUI A CHANGE
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
 - Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.
+  38 exemples avaient une ligne de pinyin carrement tronquee dans la source (arretee en cours de phrase par
+  des points de suspension, ex. "zhǐ yào nǐ xǐ huān，jiù…" pour une phrase de 9 caracteres) : entierement refaites.
 - Ajouts, tous etiquetes ajout_2026 (et cours_L2 quand ils viennent des cours) :
   47 structures de grammaire (points des cours HSK 1-3 + connecteurs et modeles de textes du renforcement ecrit :
   请假条, e-mail, decrire une personne / un lieu, 由于…因此, 首先…其次…最后 + phrases pour discuter a l'oral d'un

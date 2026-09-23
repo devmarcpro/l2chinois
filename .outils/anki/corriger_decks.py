@@ -292,11 +292,14 @@ def traiter_note(paquet: str, r):
             verso = verso[:d] + corriger_spans(segment, recto_nu, paquet + " (entrée)") + verso[f:]
     if paquet == "Grammaire":
         def exemple(m):
-            if not SPAN.search(m.group(4)):  # ligne de pinyin en texte brut (non colorée, parfois fausse) : refaite
+            phrase, pinyin = m.group(2).strip(), m.group(4)
+            # pas de span du tout (ligne en texte brut, parfois fausse), ou des spans en nombre différent des
+            # caractères de la phrase (pinyin tronqué, terminé par « … » au lieu d'aller jusqu'au bout) : refait
+            if not SPAN.search(pinyin) or len(SPAN.findall(pinyin)) != len(CJK.findall(phrase)):
                 from contenu_cours import spans_par_mot
                 stats[(paquet, "ligne de pinyin refaite")] += 1
-                return m.group(1) + m.group(2) + m.group(3) + spans_par_mot(m.group(2).strip()) + m.group(5)
-            return m.group(1) + m.group(2) + m.group(3) + corriger_spans(m.group(4), m.group(2), paquet) + m.group(5)
+                return m.group(1) + m.group(2) + m.group(3) + spans_par_mot(phrase) + m.group(5)
+            return m.group(1) + m.group(2) + m.group(3) + corriger_spans(pinyin, phrase, paquet) + m.group(5)
         verso = re.sub(r"(•\s*)([^<]+)(<br><small>)(.*?)(</small>)", exemple, verso)
     verso = corriger_ruby(verso, paquet)
     recto = corriger_ruby(recto, paquet) if "<ruby>" in recto and paquet != "Vocabulaire" else recto
