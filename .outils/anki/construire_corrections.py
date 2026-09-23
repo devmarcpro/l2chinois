@@ -62,6 +62,9 @@ def main(revue: Path):
             ident = e["id"]
             if (ident, None) in A_ECARTER or (ident, e.get("ancien")) in A_ECARTER:
                 continue
+            if ident not in index:
+                print(f"  ignoré (identifiant absent de l'index) : {f.name} {ident}")
+                continue
             paquet, recto = index[ident]["paquet"], index[ident]["recto"]
             base_ = {"paquet": paquet, "cle": cle(recto), "apercu": re.sub(r"<[^>]+>", "", recto)[:40], "id": ident,
                      "gravite": e.get("gravite", ""), "probleme": e.get("probleme", "")}

@@ -37,12 +37,25 @@ def lisible(champ: str) -> str:
 def main(sortie: Path, choix: str = ""):
     sortie.mkdir(parents=True, exist_ok=True)
     index = json.loads((sortie / "index.json").read_text(encoding="utf-8")) if (sortie / "index.json").exists() else {}
-    if choix == "hsk4":  # deuxième passe : vocabulaire HSK 4 seulement (fichiers vocabulaire4_N.txt, mêmes identifiants V…)
+    prefixe = {}
+    if choix == "hsk4":  # vocabulaire HSK 4 seulement (fichiers vocabulaire4_N.txt, mêmes identifiants V…)
         plans = {"Vocabulaire": ("V", lambda r: re.search(r"(?<!\w)HSK4(?!\w)", r[3]) is not None, 6)}
         prefixe = {"Vocabulaire": "vocabulaire4"}
+    elif choix == "hsk5":
+        plans = {"Vocabulaire": ("V", lambda r: re.search(r"(?<!\w)HSK5(?!\w)", r[3]) is not None, 4)}
+        prefixe = {"Vocabulaire": "vocabulaire5"}
+    elif choix == "hsk6":
+        plans = {"Vocabulaire": ("V", lambda r: re.search(r"(?<!\w)HSK6(?!\w)", r[3]) is not None, 3)}
+        prefixe = {"Vocabulaire": "vocabulaire6"}
+    elif choix == "hsk79":
+        plans = {"Vocabulaire": ("V", lambda r: re.search(r"(?<!\w)(HSK[789]|hors_HSK)(?!\w)", r[3]) is not None, 4)}
+        prefixe = {"Vocabulaire": "vocabulaire79"}
+    elif choix == "phrases4":
+        plans = {"Phrases": ("P", lambda r: re.search(r"Phrases_HSK[4-9]", r[3]) is not None, 4)}
+        prefixe = {"Phrases": "phrases4"}
     else:
-        prefixe = {}
-    plans = plans if choix else {  # paquet : (lettre, filtre, nombre de tranches)
+        plans = None
+    plans = plans if plans else {  # paquet : (lettre, filtre, nombre de tranches)
         "Exercices": ("E", lambda r: True, 5),
         "Grammaire": ("G", lambda r: True, 1),
         "Lecture": ("L", lambda r: True, 1),
@@ -61,10 +74,11 @@ def main(sortie: Path, choix: str = ""):
             n = cd.traiter_note(paquet, r)
             blocs.append(f"### {ident}  [{n[3].strip()}]\nRECTO: {lisible(n[0])}\nVERSO: {lisible(n[1])}\n")
         taille = -(-len(blocs) // tranches)
+        nom = prefixe.get(paquet, paquet.lower())
         for k in range(tranches):
             morceau = blocs[k * taille:(k + 1) * taille]
-            (sortie / f"{paquet.lower()}_{k + 1}.txt").write_text("\n".join(morceau), encoding="utf-8", newline="\n")
-            print(f"{paquet.lower()}_{k + 1}.txt : {len(morceau)} notes, {sum(len(b) for b in morceau) // 1000} k caractères")
+            (sortie / f"{nom}_{k + 1}.txt").write_text("\n".join(morceau), encoding="utf-8", newline="\n")
+            print(f"{nom}_{k + 1}.txt : {len(morceau)} notes, {sum(len(b) for b in morceau) // 1000} k caracteres")
     (sortie / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
 
