@@ -25,6 +25,7 @@ A_ECARTER = {
     ("P0074", None), ("P0179", None), ("P0238", None), ("P0442", None),  # variantes traditionnelles : au choix, on ne touche pas
 }
 LETTRES = {"E": "Exercices", "G": "Grammaire", "L": "Lecture", "C": "Ecoute", "P": "Phrases", "V": "Vocabulaire"}
+BRACKET_SEUL = re.compile(r"^\[([^\]]+)\]$")
 
 
 def html_exercice(recto: str, verso: str):
@@ -96,6 +97,20 @@ def main(revue: Path):
                 niv = int(m_niveau.group(1)) + (0.5 if m_niveau.group(2) else 0)
                 corrections.append({**base_, "niveau": niv})
                 continue
+            if champ == "VERSO":
+                # correction donnée comme "[xxx]" -> "[yyy]" (juste le pinyin entre crochets) : on la convertit
+                # en correction "pinyin" ciblée, sinon le pinyin entre crochets est retiré avant la recherche
+                # du texte (PINYIN_CROCHETS) et l'extrait devient vide.
+                ma, mn = BRACKET_SEUL.match(ancien.strip()), BRACKET_SEUL.match(nouveau.strip())
+                if ma and mn:
+                    cars = re.findall(r"[一-鿿]", re.sub(r"<[^>]+>", "", recto))
+                    syll_a, syll_n = ma.group(1).split(), mn.group(1).split()
+                    if len(syll_a) == len(syll_n) == len(cars) and cars:
+                        mot = "".join(cars)
+                        for car, sa, sn in zip(cars, syll_a, syll_n):
+                            if sa != sn:
+                                corrections.append({**base_, "pinyin": {"mot": mot, "caractere": car, "lecture_juste": sn}})
+                        continue
             if not ancien and champ != "ETIQUETTES":
                 continue
             entree = {**base_, "champ": champ, "ancien": ancien, "nouveau": nouveau}

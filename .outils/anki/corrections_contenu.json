@@ -12960,9 +12960,11 @@
    "id": "V4021",
    "gravite": "erreur",
    "probleme": "Pinyin du mot mal écrit : la marque de ton est sur le i (dìan) au lieu du a (diàn).",
-   "champ": "VERSO",
-   "ancien": "[chén dìan]",
-   "nouveau": "[chén diàn]"
+   "pinyin": {
+    "mot": "沉淀",
+    "caractere": "淀",
+    "lecture_juste": "diàn"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -13180,9 +13182,11 @@
    "id": "V4057",
    "gravite": "erreur",
    "probleme": "Pinyin du mot mal écrit : marque de ton sur le u (toú) au lieu du o (tóu).",
-   "champ": "VERSO",
-   "ancien": "[liè toú]",
-   "nouveau": "[liè tóu]"
+   "pinyin": {
+    "mot": "猎头",
+    "caractere": "头",
+    "lecture_juste": "tóu"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -15145,9 +15149,11 @@
    "id": "V4476",
    "gravite": "erreur",
    "probleme": "Pinyin du mot faux : 亚 se lit yà (les exemples ont bien wēi yà).",
-   "champ": "VERSO",
-   "ancien": "[wēi yā]",
-   "nouveau": "[wēi yà]"
+   "pinyin": {
+    "mot": "威亚",
+    "caractere": "亚",
+    "lecture_juste": "yà"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -15189,9 +15195,11 @@
    "id": "V4479",
    "gravite": "erreur",
    "probleme": "Pinyin du mot faux : 嫁 se lit jià (les exemples ont bien jià jiē).",
-   "champ": "VERSO",
-   "ancien": "[jiā jiē]",
-   "nouveau": "[jià jiē]"
+   "pinyin": {
+    "mot": "嫁接",
+    "caractere": "嫁",
+    "lecture_juste": "jià"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -16430,9 +16438,11 @@
    "id": "V4750",
    "gravite": "erreur",
    "probleme": "椎 au sens de vertèbre se lit zhuī (脊椎 jǐ zhuī), pas chuí ; pinyin du mot faux.",
-   "champ": "VERSO",
-   "ancien": "[chuí guǎn]",
-   "nouveau": "[zhuī guǎn]"
+   "pinyin": {
+    "mot": "椎管",
+    "caractere": "椎",
+    "lecture_juste": "zhuī"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -23984,9 +23994,11 @@
    "id": "V0598",
    "gravite": "erreur",
    "probleme": "Dans Adj + 得很, 得 est la particule structurale : de (ton neutre), pas dé ; les exemples ont bien « de hěn ».",
-   "champ": "VERSO",
-   "ancien": "[dé hěn]",
-   "nouveau": "[de hěn]"
+   "pinyin": {
+    "mot": "得很",
+    "caractere": "得",
+    "lecture_juste": "de"
+   }
   },
   {
    "paquet": "Vocabulaire",
@@ -33697,9 +33709,11 @@
    "id": "V2985",
    "gravite": "erreur",
    "probleme": "Pinyin du mot faux : 边界 se lit biān jiè (4e ton, comme dans la note), pas biān jie.",
-   "champ": "VERSO",
-   "ancien": "[biān jie]",
-   "nouveau": "[biān jiè]"
+   "pinyin": {
+    "mot": "边界",
+    "caractere": "界",
+    "lecture_juste": "jiè"
+   }
   },
   {
    "paquet": "Vocabulaire",

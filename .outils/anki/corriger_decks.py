@@ -201,6 +201,47 @@ def corriger_trad(recto: str, verso: str, paquet: str) -> str:
     return TRAD.sub(sub, verso, count=1)
 
 
+NOMBRE_SPAN = re.compile(r'<span class="t\d">(\d+)</span>')
+MOT_LATIN_CASSE = re.compile(r'(?:<span class="t\d">[A-Za-z]+</span>[A-Za-z]*){1,}')
+
+
+def corriger_nombres_tronques(segment: str, recto_nu: str, paquet: str) -> str:
+    """Défaut du générateur d'origine : le dernier chiffre d'un nombre est parfois perdu dans son span
+    (1972 -> <span>197</span>, 19世纪 -> <span>1</span>世纪). On complète à partir du nombre entier écrit dans le recto."""
+    chiffres = re.findall(r"\d{2,}", recto_nu)
+
+    def sub(m):
+        v = m.group(1)
+        if len(v) < 2:  # un span à un seul chiffre est presque toujours une lecture chiffre par chiffre voulue (985院校)
+            return m.group(0)
+        cible = next((c for c in chiffres if c != v and c.startswith(v) and len(c) - len(v) <= 2), None)
+        if cible:
+            stats[(paquet, "nombre tronqué réparé")] += 1
+            return m.group(0).replace(f">{v}<", f">{cible}<")
+        return m.group(0)
+    return NOMBRE_SPAN.sub(sub, segment)
+
+
+def corriger_mots_latins_casses(segment: str, paquet: str) -> str:
+    """Défaut du générateur d'origine (paquet Phrases seulement : dans Vocabulaire les spans sont TOUJOURS collés
+    sans espace, donc ce repère ne s'applique pas) : un mot emprunté (cosplay, offer, App, LOL...) est parfois
+    coupé en plusieurs fragments de span sans espace entre eux (<span>co</span>sp<span>la</span>y, <span>A</span>pp).
+    On le refait en un seul span. On exige au moins 2 vrais span, SAUF si le fragment isolé n'est pas directement
+    suivi d'un autre span (sinon <span>de</span>DNA — le 地/的 collé à un sigle sans rapport — serait confondu
+    avec un mot cassé)."""
+    if paquet != "Phrases":
+        return segment
+
+    def sub(m):
+        bloc = m.group(0)
+        if bloc.count("<span") < 2 and (bloc.endswith("</span>") or segment[m.end():m.end() + 5] == "<span"):
+            return bloc  # un seul span bien formé (rien à corriger), ou collé à un autre span sans rapport (地/的 + sigle)
+        mot = re.sub(r"<[^>]+>", "", bloc)
+        stats[(paquet, "mot emprunté recollé")] += 1
+        return f'<span class="t0">{mot}</span>'
+    return MOT_LATIN_CASSE.sub(sub, segment)
+
+
 def traiter_note(paquet: str, r):
     recto, verso = r[0], r[1]
     if paquet in ("Phrases", "Vocabulaire"):
@@ -209,7 +250,9 @@ def traiter_note(paquet: str, r):
         bornes = segment_pinyin(verso.split('<div class="exemple-bloc"')[0])
         if bornes:
             d, f = bornes
-            verso = verso[:d] + corriger_spans(verso[d:f], html.unescape(re.sub(r"<[^>]+>", "", recto)), paquet + " (entrée)") + verso[f:]
+            recto_nu = html.unescape(re.sub(r"<[^>]+>", "", recto))
+            segment = corriger_mots_latins_casses(corriger_nombres_tronques(verso[d:f], recto_nu, paquet), paquet)
+            verso = verso[:d] + corriger_spans(segment, recto_nu, paquet + " (entrée)") + verso[f:]
     if paquet == "Grammaire":
         def exemple(m):
             if not SPAN.search(m.group(4)):  # ligne de pinyin en texte brut (non colorée, parfois fausse) : refaite

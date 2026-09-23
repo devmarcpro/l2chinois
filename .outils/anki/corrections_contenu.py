@@ -262,7 +262,8 @@ def appliquer(paquet: str, recto_origine: str, note):
             ok = _imposer(paquet, note, e) > 0
             probleme = "mot introuvable dans le pinyin de la note"
         elif e["champ"] == "ETIQUETTES":
-            etiquettes = [t for t in note[3].split() if t != e["ancien"]]
+            a_retirer = set(e["ancien"].split())  # parfois plusieurs étiquettes fausses citées ensemble ("verbe classificateur")
+            etiquettes = [t for t in note[3].split() if t not in a_retirer]
             ok = len(etiquettes) != len(note[3].split())
             probleme = "étiquette absente"
             note[3] = " ".join(etiquettes + ([e["nouveau"]] if e.get("nouveau") and e["nouveau"] not in etiquettes else []))
