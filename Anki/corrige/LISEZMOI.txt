@@ -13,12 +13,13 @@ CE QUI A CHANGE
 - Sandhi de 一 et 不 : on ecrit le ton prononce (yí gè, yì qǐ, bú shì) ; 一 reste yī dans les nombres, les dates,
   les ordinaux et en fin de mot ; V一V et V不V au ton neutre.
 - Formes traditionnelles standard de Taiwan (吃, 為, 裡, 別, 乾燥, 麵包, 薑, 隻) a la place des variantes rares.
-- Contenu relu carte par carte (HSK 1-3 du vocabulaire et des phrases, tous les exercices, la grammaire,
-  la lecture et l'ecoute) : 1 784 corrections appliquees. Sens faux, traductions en mot a mot ("nous midi restaurant"),
+- Contenu relu carte par carte (HSK 1-4 du vocabulaire, HSK 1-3 des phrases, tous les exercices, la grammaire,
+  la lecture et l'ecoute) : 2 632 corrections appliquees. Sens faux, traductions en mot a mot ("nous midi restaurant"),
   traductions collees a la mauvaise phrase, mots francais tronques ("professeu"), notes fausses, phrases chinoises
   incorrectes, exercices ambigus (plusieurs bonnes reponses) ou sans erreur a trouver, caracteres a plusieurs lectures
   demandes sans mot ("觉" devient "觉 (dans 觉得)"), etiquettes de nature fausses ("classificateur" sur 电脑, "verbe" sur 朋友).
   Le detail : .outils/anki/corrections_contenu.json.
+  Vocabulaire HSK 5-9 : seuls le pinyin et l'etiquette "classificateur" ont ete corriges, le sens n'a pas ete relu.
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
 - Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.

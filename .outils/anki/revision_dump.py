@@ -34,10 +34,15 @@ def lisible(champ: str) -> str:
     return re.sub(r"\n\s*\n+", "\n", re.sub(r"[ \t]+", " ", t)).strip()
 
 
-def main(sortie: Path):
+def main(sortie: Path, choix: str = ""):
     sortie.mkdir(parents=True, exist_ok=True)
-    index = {}
-    plans = {  # paquet : (lettre, filtre, nombre de tranches)
+    index = json.loads((sortie / "index.json").read_text(encoding="utf-8")) if (sortie / "index.json").exists() else {}
+    if choix == "hsk4":  # deuxième passe : vocabulaire HSK 4 seulement (fichiers vocabulaire4_N.txt, mêmes identifiants V…)
+        plans = {"Vocabulaire": ("V", lambda r: re.search(r"(?<!\w)HSK4(?!\w)", r[3]) is not None, 6)}
+        prefixe = {"Vocabulaire": "vocabulaire4"}
+    else:
+        prefixe = {}
+    plans = plans if choix else {  # paquet : (lettre, filtre, nombre de tranches)
         "Exercices": ("E", lambda r: True, 5),
         "Grammaire": ("G", lambda r: True, 1),
         "Lecture": ("L", lambda r: True, 1),
@@ -64,4 +69,4 @@ def main(sortie: Path):
 
 
 if __name__ == "__main__":
-    main(Path(sys.argv[1]))
+    main(Path(sys.argv[1]), sys.argv[2] if len(sys.argv) > 2 else "")
