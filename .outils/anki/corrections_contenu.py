@@ -63,23 +63,25 @@ def _norme(c: str) -> str:
 
 
 def _plan(champ: str):
-    """Texte lisible du champ et, pour chacun de ses caractères, sa place dans le HTML : (début, fin, est_ruby)."""
+    """Texte lisible du champ et, pour chacun de ses caractères, sa place dans le HTML : (début, fin, est_ruby, est_balise).
+    est_balise : cette position vient d'une balise structurante (</div>, <br>...) et pas d'un vrai caractère de texte."""
     texte, places = [], []
     for m in UNITE.finditer(champ):
         s = m.group(0)
+        balise = False
         if m.group(1):
             c, rb = m.group(1), True
         elif s.startswith("<") and len(s) > 1:
             if not re.match(r"<br|</div|</p|</li", s):
                 continue
-            c, rb = " ", False
+            c, rb, balise = " ", False, True
         else:
             c, rb = _norme(html.unescape(s)), False
         if c == " " and (not texte or texte[-1] == " "):
             continue
         for x in c:  # une entité peut donner plusieurs caractères
             texte.append(x)
-            places.append((m.start(), m.end(), rb))
+            places.append((m.start(), m.end(), rb, balise))
     return "".join(texte), places
 
 
@@ -119,8 +121,20 @@ def remplacer(champ: str, ancien: str, nouveau: str):
     for d in reversed(trouves):
         f, vise = d + len(cherche), cherche
         reste = texte[f:].strip()
+        if reste and nouveau.strip() == reste:
+            # « nouveau » est déjà là juste après « ancien » (traduction juste déjà présente à la suite d'une
+            # traduction fausse collée devant) : on supprime « ancien » (et le séparateur) sans dupliquer la suite
+            k = f
+            while k < len(texte) and texte[k].isspace():
+                k += 1
+            debut, fin = places[d][0], places[k][0] if k < len(texte) else places[-1][1]
+            champ = champ[:debut] + champ[fin:]
+            continue
         if len(reste) > 2 and nouveau.endswith(reste):  # « nouveau » redonne toute la suite du champ : on remplace jusqu'au bout
-            f, vise = len(texte), texte[d:]
+            # on ne dépasse jamais une balise structurante (</div>/<br>/</p>) : l'avaler romprait la structure,
+            # la balise fermante se retrouvant sans balise ouvrante (ou, si une autre balise suit, coupée en deux)
+            fin_reelle = next((i for i in range(f, len(texte)) if places[i][3]), len(texte))
+            f, vise = fin_reelle, texte[d:fin_reelle]
             prefixe = suffixe = 0
             while prefixe < min(len(vise), len(nouveau)) and vise[prefixe] == nouveau[prefixe]:
                 prefixe += 1
@@ -140,10 +154,24 @@ def remplacer(champ: str, ancien: str, nouveau: str):
             debut, fin = places[d][0], places[f - 1][1]
             en_ruby = any(p[2] for p in places[d:f])
             milieu = nouveau if len(lignes) < 2 else None
+        morceau_final = champ[debut:fin]
+        # une balise ouvrante (<div/<p/<li) sans sa fermante dans la partie remplacée : sa fermante est plus loin,
+        # intacte, dans champ[fin:] — la supprimer la rendrait orpheline. Trop risqué à recoller correctement
+        # (on ne sait pas si un <b>Titre :</b> l'accompagnait) : on refuse cette correction plutôt que de casser le HTML.
+        for ouvrante in ("<div", "<p", "<li"):
+            fermante = ouvrante.replace("<", "</") + ">"
+            if morceau_final.count(ouvrante) > morceau_final.count(fermante):
+                return champ, 0, "traverse une balise ouvrante non refermée dans l'extrait"
         if milieu is None:
             rendu = "<br><br>".join(html.escape(l, quote=False) for l in lignes)
         else:
             rendu = ruby(milieu) if en_ruby else html.escape(milieu, quote=False)
+        # filet de sécurité : ne jamais faire disparaître une balise structurante fermante (</div>/</p>/</li>)
+        # dont l'ouvrante n'est pas AUSSI dans la partie remplacée (elle est donc ailleurs, avant « debut »,
+        # et la retirer romprait la structure) — on la recolle à la fin du texte de remplacement
+        for fermante, ouvrante in (("</div>", "<div"), ("</p>", "<p"), ("</li>", "<li")):
+            if morceau_final.count(fermante) > morceau_final.count(ouvrante):
+                rendu += fermante * (morceau_final.count(fermante) - morceau_final.count(ouvrante))
         champ = champ[:debut] + rendu + champ[fin:]
     return champ, len(trouves), None
 

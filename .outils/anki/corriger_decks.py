@@ -242,8 +242,28 @@ def corriger_mots_latins_casses(segment: str, paquet: str) -> str:
     return MOT_LATIN_CASSE.sub(sub, segment)
 
 
+RUBY_MULTI = re.compile(r'<ruby>([^<]{2,})<rt class="t(\d)">([^<]*)</rt></ruby>')
+
+
+def corriger_ruby_multi(champ: str, paquet: str) -> str:
+    """Défaut du générateur d'origine (Vocabulaire) : un <ruby> a parfois une base de 2 caractères ou plus
+    (ponctuation + hanzi collés, ou un nombre) pour une seule lecture, ex. <ruby>，最<rt>zuì</rt></ruby>.
+    Ce ruby mal formé n'est reconnu par aucune des règles qui attendent un seul caractère par <ruby>, et une
+    correction de texte peut y introduire un second <ruby> imbriqué et casser le HTML. On la répare en amont :
+    la lecture ne concerne que le DERNIER caractère de la base, le reste (souvent de la ponctuation) sort du ruby."""
+    def sub(m):
+        base, classe, lecture = m.group(1), m.group(2), m.group(3)
+        stats[(paquet, "ruby à base multiple réparé")] += 1
+        if not lecture:  # aucune lecture associée (souvent un nombre) : pas de ruby du tout
+            return base
+        return base[:-1] + f'<ruby>{base[-1]}<rt class="t{classe}">{lecture}</rt></ruby>'
+    return RUBY_MULTI.sub(sub, champ)
+
+
 def traiter_note(paquet: str, r):
     recto, verso = r[0], r[1]
+    if paquet == "Vocabulaire":
+        recto, verso = corriger_ruby_multi(recto, paquet), corriger_ruby_multi(verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):
         verso = corriger_trad(recto, verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):

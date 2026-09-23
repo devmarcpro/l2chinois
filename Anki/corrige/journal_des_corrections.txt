@@ -818,7 +818,7 @@
 倒	dào -> dǎo	mot 打倒	他快速出拳打倒了对手 
 为	wèi -> wéi	mot 华为	(华为 
 为	wèi -> wéi	mot 华为	华为是中美科技战的核心角力对象 
-不	bù -> bú	mot 不要	不要担心未来
+不	bù -> bú	mot 不要	不要担心未来，活在当下才是最重要的。 
 不	bú -> bù	mot 不但	不但…而且…
 漂	piāo -> piào	mot 漂亮	 — 不但漂亮，而且聪明 
 一	yī -> yì	mot 一百	他把拍好的视频上传到平台，没想到一夜之间播放量就突破
@@ -1019,7 +1019,7 @@
 不	bù -> bú	mot 不要	发现问题要及时解决，不要拖延。 
 一	yī -> yì	mot 一点	"这块肉的口感很嫩滑，一点都不柴，烹调得非常好。" 
 调	diào -> tiáo	mot 烹调	"这块肉的口感很嫩滑，一点都不柴，烹调得非常好。" 
-答	dá -> dā	mot 答应	只要你答应
+答	dá -> dā	mot 答应	只要你答应，我就帮你。 
 差	chà -> chā	mot 差异	合租生活需要大家相互包容，遇到生活习惯差异大的室友，
 当	dāng -> dàng	mot 家当	他出家当了和尚，放弃了世俗生活。 
 空	kōng -> kòng	mot 有空	你哪天有空？
@@ -1774,7 +1774,7 @@
 一	yī -> yí	mot 一个	家里有一个储物间，专门用来放置各种杂物。 
 长	zhǎng -> cháng	mot 时长	这家公司太内卷了，大家都在互相攀比加班时长。 
 为	wèi -> wéi	mot 成为	年起成为中国最热网络词汇之一。 ("
-要	yào -> yāo	mot 要求	要求了分手费。 
+要	yào -> yāo	mot 要求	他们分手时，她要求了分手费。 
 都	dōu -> dū	mot 成都	成都的锦里古街保留了古代的市井风情。 
 一	yī -> yí	mot 一倍	"学区房的价格比周边贵了一倍，简直是在用钱买教育机会
 一	yī -> yí	mot 一个	这个沉浸式展览让参观者仿佛进入了另一个世界。 
@@ -1917,6 +1917,7 @@
 干	gàn -> gān	mot 风干	内蒙古的风干牛肉是当地牧民传统保存食物的方法。 
 着	zhe -> zhuó	mot 着手	我们高度重视这次客户反馈，将立即着手改进。 
 不	bù -> bú	mot 不对劲	不对劲
+不	bù -> bú	mot 不对劲	她今天怎么不说话，不对劲啊  
 中	zhōng -> zhòng	mot 中毒	他误食了有毒的蘑菇，立即出现中毒症状，被紧急送往医院
 为	wèi -> wéi	mot 成为	数据主权是数字时代的新议题，各国如何保护本国数据不被
 一	yī -> yí	mot 一定	"签订保单之前，一定要仔细阅读条款细节，搞清楚哪些情
@@ -2132,7 +2133,7 @@
 发	fā -> fà	mot 理发	"她天生就是卷发，每次重要场合之前都要去理发店把头发
 发	fā -> fà	mot 发型	"直发显得比较干练，很多职场女性都更偏好这种简洁利落
 分	fēn -> fèn	mot 部分	"她得到了师傅的真传，掌握了这套武功中最核心也最难掌
-一	yī -> yì	mot 一直	我眼皮一直在跳
+一	yī -> yì	mot 一直	我眼皮一直在跳，不知道什么原因。 
 一	yī -> yí	mot 一定	"矿工通过解决复杂的数学难题来验证交易，并因此获得一
 分	fēn -> fèn	mot 部分	"公司每个月都会从工资里扣除一部分钱用来缴纳社保，包
 处	chù -> chǔ	mot 处理	"公司每个月都需要处理大量的税务工作，确保所有的申报
@@ -2312,7 +2313,7 @@
 分	fēn -> fèn	mot 水分	"干煸这种烹饪手法需要持续翻炒，把食材表面的水分炒干
 一	yī -> yì	mot 一年级	一年级 
 应	yīng -> yìng	mot 相应	"应援色通常是这个团体的代表颜色，粉丝在演唱会上会挥
-不	bù -> bú	mot 不要	不要延误时机
+不	bù -> bú	mot 不要	不要延误时机，抓紧时间  
 角	jiǎo -> jué	mot 角色	角色建模 
 角	jiǎo -> jué	mot 角色	"这款游戏的角色建模非常精细，连衣服上的褶皱和光影效
 一	yī -> yí	mot 一个	"建模师需要花费数周甚至数月的时间，才能完成一个高质
@@ -2611,7 +2612,7 @@
 应	yīng -> yìng	mot 效应	很多互联网企业早期都在亏损，靠融资维持运营，等待规模
 不	bù -> bú	mot 不会	她把所有重要文件都保存在云端，这样即使手机丢了也不会
 分	fēn -> fèn	mot 部分	五险一金由雇主和员工共同缴纳，是中国职场的基本福利，
-一	yī -> yì	mot 一起	这里发生了一起严重的交通事故
+一	yī -> yì	mot 一起	这里发生了一起严重的交通事故，导致道路封闭。 
 应	yīng -> yìng	mot 相应	"每个公民都享有言论自由的权利，同时也要承担相应的责
 地	de -> dì	mot 地点	苏州园林中错落有致地点缀着各式各样的亭子。 
 角	jiǎo -> jué	mot 角色	角色人设 
@@ -2707,7 +2708,7 @@
 一	yī -> yì	mot 一直	资本主义生产关系中存在的剥削现象一直是社会主义批判的
 不	bù -> bú	mot 不到	"她最近陷入了剧荒，把手机里收藏的剧单都看完了，却找
 不	bù -> bú	mot 不要	我们劝说他不要辞职。 
-一	yī -> yì	mot 一直	父母一直在劝说她
+一	yī -> yì	mot 一直	父母一直在劝说她，但她不听  
 为	wèi -> wéi	mot 为人	这位科学家为人类科技发展做出了不可磨灭的功绩。 
 勒	lēi -> lè	mot 敲诈勒索	敲诈勒索 
 勒	lēi -> lè	mot 勒索	 勒索软件
@@ -2999,9 +3000,8 @@
 一	yī -> yí	mot 一致	"她去理发店染了一头紫色的发，看起来非常有个性，得到
 间	jiān -> jiàn	mot 间隔	.建议两次染发之间间隔至少三个月，并做好护发保养。 
 发	fā -> fà	mot 护发	.建议两次染发之间间隔至少三个月，并做好护发保养。 
-不	bù -> bú	mot 不是	"柔道讲究以柔克刚，通过巧妙的技巧而不是单纯的力量来
 
-##### accent manquant (2235 premiers cas)
+##### accent manquant (2237 premiers cas)
 个	ge -> gè	accent manquant (一个)	我有一个姐姐。
 亮	liang -> liàng	accent manquant (漂亮)	她很漂亮。
 得	de -> dé	accent manquant (值得)	他们住在宾馆里，房间很干净，早饭也很丰盛，服务不错，
@@ -3430,7 +3430,7 @@
 家	jia -> jiā	accent manquant (搬家)	搬家
 笼	long -> lóng	accent manquant (灯笼)	灯笼
 璃	li -> lí	accent manquant (玻璃)	玻璃
-璃	li -> lí	accent manquant (玻璃)	个杯子是玻璃的。 
+璃	li -> lí	accent manquant (玻璃)	小心，这个杯子是玻璃的。 
 识	shi -> shí	accent manquant (知识)	知识
 服	fu -> fú	accent manquant (舒服)	舒服
 子	zi -> zǐ	accent manquant (电子)	芯片是现代电子设备的核心，手机、电脑、汽车都离不开芯
@@ -3761,6 +3761,7 @@
 什	shen -> shén	accent manquant	电话里有噪音，我没听清楚你说什么。 
 个	ge -> gè	accent manquant (个人)	每个人
 子	zi -> zǐ	accent manquant (弟子)	"很多人自称是某位大师的弟子，但其实从未得到过真传，
+个	ge -> gè	accent manquant (整个)	台风过后，整个小区停电了。 
 子	zi -> zǐ	accent manquant (太子)	"宫保"得名于清朝官员丁宝桢，官职为"太子少保"，世
 子	zi -> zǐ	accent manquant (太子)	 "太子少保" 
 少	shao -> shǎo	accent manquant (多少)	差多少
@@ -3817,13 +3818,14 @@
 腐	fu -> fǔ	accent manquant (臭豆腐)	臭豆腐
 子	zi -> zǐ	accent manquant (孟子)	"与孟子不同，荀子认为人性本恶，需要通过礼仪和教育来
 李	li -> lǐ	accent manquant (行李)	行李托运
-李	li -> lǐ	accent manquant (行李)	行李超重了
+李	li -> lǐ	accent manquant (行李)	行李超重了，需要交超重费  
 子	zi -> zǐ	accent manquant (弟子)	"作为唯一继承衣钵的弟子，她肩负着传承和发扬师门武学
 服	fu -> fú	accent manquant (衣服)	我把这件衣服加入购物车了。 
 李	li -> lǐ	accent manquant (行李)	随身行李
 李	li -> lǐ	accent manquant (行李)	请将随身行李放入头顶行李舱。 
 水	shui -> shuǐ	accent manquant (露水)	露水
 饨	tun -> tún	accent manquant (馄饨)	馄饨
+个	ge -> gè	accent manquant (一个)	感冒时，一个鼻孔堵了。 
 龙	long -> lóng	accent manquant (龙王)	东海龙王 
 王	wang -> wáng	accent manquant (龙王)	东海龙王 
 东	dong -> dōng	accent manquant	东海龙王 
@@ -5238,7 +5240,7 @@
 雅	ya -> yǎ	accent manquant	孔子诵读诗书时使用雅言。 
 言	yan -> yán	accent manquant	孔子诵读诗书时使用雅言。 
 
-##### ton neutre (2728 premiers cas)
+##### ton neutre (2729 premiers cas)
 欢	huān -> huan	ton neutre (喜欢)	我也喜欢吃饺子。
 道	dào -> dao	ton neutre (知道)	她也不知道。
 道	dào -> dao	ton neutre (知道)	连小孩都知道。
@@ -6425,7 +6427,7 @@
 生	shēng -> sheng	ton neutre (学生)	原来他不是老师，是学生。 
 候	hòu -> hou	ton neutre (时候)	他不在的时候，究竟发生了什么？ 
 欢	huān -> huan	ton neutre (喜欢)	他喜欢研究古代历史，尤其是秦朝和汉朝。 
-应	yīng -> ying	ton neutre (答应)	只要你答应
+应	yīng -> ying	ton neutre (答应)	只要你答应，我就帮你。 
 看	kàn -> kan	ton neutre (看看)	"我就是来吃瓜的，跟我没关系，我只是想看看最后怎么收
 算	suàn -> suan	ton neutre (打算)	打算回国 
 生	shēng -> sheng	ton neutre (学生)	学校的责任是培养有责任心的学生。 
@@ -6900,7 +6902,7 @@
 发	fā -> fa	ton neutre (头发)	"她天生就是卷发，每次重要场合之前都要去理发店把头发
 得	dé -> de	ton neutre (显得)	"直发显得比较干练，很多职场女性都更偏好这种简洁利落
 夫	fū -> fu	ton neutre (功夫)	"很多人自称是某位大师的弟子，但其实从未得到过真传，
-道	dào -> dao	ton neutre (知道)	知道什么原因。 
+道	dào -> dao	ton neutre (知道)	我眼皮一直在跳，不知道什么原因。 
 烦	fán -> fan	ton neutre (麻烦)	"竹笋虽然好吃，但是处理起来比较麻烦，需要先去壳再焯
 字	zì -> zi	ton neutre (名字)	名字 
 应	yīng -> ying	ton neutre (答应)	这件事绝对不能告诉别人，你答应我。 
@@ -7061,6 +7063,7 @@
 生	shēng -> sheng	ton neutre (学生)	"化学课上，老师让学生们背诵元素周期表中前二十个元素
 宜	yí -> yi	ton neutre (便宜)	"她在机场的免税店买了一瓶香水，价格比市区专柜便宜了
 生	shēng -> sheng	ton neutre (学生)	学生的全面发展比单纯的学业成绩更为重要。 
+上	shàng -> shang	ton neutre (晚上)	他白天上班，晚上做兼职  
 李	lǐ -> li	ton neutre (行李)	行李中要多带几件内裤。 
 得	dé -> de	ton neutre (夺得)	 夺得冠军 
 得	dé -> de	ton neutre (夺得)	他经过十年的刻苦训练，终于在奥运会上夺得了梦寐以求的
@@ -7280,7 +7283,7 @@
 欢	huān -> huan	ton neutre (喜欢)	"夏天的池塘边常常能看到蜻蜓飞来飞去，孩子们总喜欢追
 闹	nào -> nao	ton neutre (热闹)	"夏夜里，窗外的蟋蟀叫得特别响亮，给宁静的夜晚增添了
 李	lǐ -> li	ton neutre (行李)	行李托运
-李	lǐ -> li	ton neutre (行李)	行李超重了
+李	lǐ -> li	ton neutre (行李)	行李超重了，需要交超重费  
 生	shēng -> sheng	ton neutre (学生)	西红柿炒鸡蛋可能是中国学生最爱的家常菜，简单好学，营
 欢	huān -> huan	ton neutre (喜欢)	说实话，我不喜欢 
 得	dé -> de	ton neutre (觉得)	说实话，我觉得这个电影不太好看。
@@ -7422,7 +7425,7 @@
 楚	chǔ -> chu	ton neutre (清楚)	"你把事情说清楚，不要让我猜，我不喜欢猜谜游戏。" 
 欢	huān -> huan	ton neutre (喜欢)	"你把事情说清楚，不要让我猜，我不喜欢猜谜游戏。" 
 楚	chǔ -> chu	ton neutre (清楚)	这件事很复杂，一句话很难说清楚，让我慢慢解释给你听。
-欢	huān -> huan	ton neutre (喜欢)	她非常喜欢看音乐剧
+欢	huān -> huan	ton neutre (喜欢)	她非常喜欢看音乐剧，已经看了十多部。 
 情	qíng -> qing	ton neutre (事情)	"既然改变不了，就顺其自然吧，不要为不可控的事情烦恼
 得	dé -> de	ton neutre (记得)	"飞机快要起飞了，祝你一路顺风！记得到了发消息。" 
 试	shì -> shi	ton neutre (试试)	 — 不管怎样，我们都要试试 
@@ -7483,7 +7486,7 @@
 得	dé -> de	ton neutre (懂得)	好的领导者懂得因势利导，借助大势推动变革，而不是逆势
 候	hòu -> hou	ton neutre (时候)	"购买商品的时候，价格中通常已经包含了增值税，消费者
 得	dé -> de	ton neutre (显得)	"这间客厅的天花板做了简单的吊顶设计，配合嵌入式灯具
-道	dào -> dao	ton neutre (知道)	都不知道他真正想说什么。 
+道	dào -> dao	ton neutre (知道)	他总是说一堆客套话，我都不知道他真正想说什么。 
 情	qíng -> qing	ton neutre (事情)	"我让你帮忙的，结果你帮了个倒忙，事情变得更复杂了！
 候	hòu -> hou	ton neutre (时候)	"她熟练掌握了游戏里所有常用的快捷键，操作速度比刚入
 发	fā -> fa	ton neutre (头发)	"洗完头发之后，她习惯再涂一层护发素，让头发摸起来更
@@ -7560,7 +7563,7 @@
 识	shí -> shi	ton neutre (认识)	初次见面，我叫王明，很高兴认识你。 
 道	dào -> dao	ton neutre (知道)	"别说了，我已经知道自己错了，你还要说多久？" 
 情	qíng -> qing	ton neutre (事情)	"制片人需要在艺术追求和商业考量之间找到平衡，这并不
-友	yǒu -> you	ton neutre (朋友)	朋友们劝阻他辞职
+友	yǒu -> you	ton neutre (朋友)	朋友们劝阻他辞职，但他不听。 
 候	hòu -> hou	ton neutre (时候)	"冬天室内空气比较干燥，她在卧室里放了一台加湿器，睡
 欢	huān -> huan	ton neutre (喜欢)	"很多人会精心准备角色扮演的服装，去动漫展上展示自己
 生	shēng -> sheng	ton neutre (学生)	家庭困难的学生可以申请国家助学金。 
@@ -7729,7 +7732,7 @@
 息	xī -> xi	ton neutre (休息)	"学习要持之以恒，但也不要过于拼命，过犹不及，适当休
 道	dào -> dao	ton neutre (知道)	刚毕业的年轻人往往感到迷茫，不知道未来的方向。 
 生	shēng -> sheng	ton neutre (先生)	那位先生是谁？
-情	qíng -> qing	ton neutre (事情)	做任何事情都要量力而行
+情	qíng -> qing	ton neutre (事情)	做任何事情都要量力而行，不要硬撑。 
 得	dé -> de	ton neutre (显得)	.开启闪光灯可以让照片更清晰，但有时也会显得不太自然
 欢	huān -> huan	ton neutre (喜欢)	"她特别喜欢购买标注"不含防腐剂"的食品，认为这样吃
 服	fú -> fu	ton neutre (衣服)	这件衣服难看极了。
@@ -9149,7 +9152,7 @@
 一	yī -> yì	sandhi 一	一国两制
 一	yī -> yì	sandhi 一	批评者认为一国两制在香港已名存实亡 
 一	yi -> yì	sandhi 一	 天下乌鸦一般黑 
-一	yī -> yì	sandhi 一	为一只单身狗
+一	yī -> yì	sandhi 一	情人节，作为一只单身狗，我决定宅在家。 
 一	yī -> yì	sandhi 一	这个商业综合体集购物、餐饮、娱乐于一体。 
 一	yī -> yí	sandhi 一	通过数据可视化，复杂的统计结果变得一目了然。 
 一	yī -> yì	sandhi 一	在物质丰富的今天，知足者富这一古老智慧显得尤为珍贵 
@@ -9581,7 +9584,7 @@
 一	yī -> yì	sandhi 一	老师要求同学们把本章的知识点归纳成一张思维导图，方便
 一	yī -> yì	sandhi 一	"她看完电影之后会习惯性地写一篇影评，分析剧情、表演
 一	yī -> yí	sandhi 一	跑完步心跳很快，要等一会儿才能平静下来。 
-一	yī -> yì	sandhi 一	医生嘱咐他手术后一周内忌口
+一	yī -> yì	sandhi 一	医生嘱咐他手术后一周内忌口，不吃辛辣食物。 
 一	yī -> yí	sandhi 一	从小他就有着成为科学家的志向，并为此努力了一辈子。 
 一	yī -> yí	sandhi 一	比赛落败的那一刻，他怅然地低下了头。 
 一	yī -> yì	sandhi 一	"这一集结尾留下了一个巨大的悬念，让人迫不及待想知道
@@ -9598,7 +9601,7 @@
 一	yī -> yí	sandhi 一	"她在直播间看到喜欢的主播表演得特别精彩，忍不住打赏
 一	yī -> yì	sandhi 一	"驾照一年内扣分达到十二分，就会被要求重新参加学习和
 一	yī -> yì	sandhi 一	"精准扶贫强调因人因地制定帮扶措施，而不是一刀切地提
-一	yī -> yì	sandhi 一	择去技校学一门手艺。 
+一	yī -> yì	sandhi 一	他没考上普通高中，选择去技校学一门手艺。 
 一	yī -> yì	sandhi 一	"学校对抄袭行为采取零容忍态度，一经发现将取消相关学
 一	yī -> yí	sandhi 一	.防晒是最基础的一步，能有效延缓皮肤老化。" 
 一	yī -> yì	sandhi 一	"企业可以将一些经营成本作为抵扣项目，从而合理降低应
@@ -10007,7 +10010,7 @@
 一	yī -> yì	sandhi 一	"她在宠物店看到一只变色龙，眼睛可以分别朝不同方向转
 一	yī -> yì	sandhi 一	她独自一人在异乡奋斗，处境艰难，但从未想过放弃。 
 一	yī -> yí	sandhi 一	"楼上邻居家漏水，导致她家的天花板出现了一大片潮湿的
-一	yī -> yì	sandhi 一	他总是说一堆客套话
+一	yī -> yì	sandhi 一	他总是说一堆客套话，我都不知道他真正想说什么。 
 一	yī -> yí	sandhi 一	容器化技术将应用及其依赖打包成独立的容器，实现了"一
 一	yī -> yì	sandhi 一	平流层位于对流层之上，臭氧层就分布在这一层，能够吸收
 一	yī -> yì	sandhi 一	"你说你能一天背一千个单词？" "得了吧，你别哄我了
@@ -10270,7 +10273,7 @@
 一	yī -> yí	sandhi 一	她买了一束玫红色的郁金香。 
 一	yī -> yì	sandhi 一	他是一名电子音乐制作人。 
 一	yī -> yí	sandhi 一	这条短视频在网上病毒式传播，两天内获得了一亿次播放。
-一	yī -> yì	sandhi 一	他刚才秀了一波操作
+一	yī -> yì	sandhi 一	他刚才秀了一波操作，全队都惊了。 
 一	yī -> yì	sandhi 一	你这么一说，
 一	yī -> yí	sandhi 一	 押一付三 
 一	yī -> yí	sandhi 一	租这套公寓需要支付租金押金，共押一付三。 
@@ -10610,7 +10613,7 @@
 一	yī -> yí	sandhi 一	多吃一块蛋糕的边际效益在递减。 
 一	yī -> yì	sandhi 一	今年农历有一个闰月，所以这一年共有十三个月。 
 
-##### sandhi 不 (757 premiers cas)
+##### sandhi 不 (758 premiers cas)
 不	bu -> bù	sandhi 不	字太小，我看不清楚。
 不	bu -> bú	sandhi 不	这个箱子我搬不动。
 不	bù -> bú	sandhi 不	即使失败，也不后悔。
@@ -10879,7 +10882,7 @@
 不	bù -> bú	sandhi 不	功夫不负有心人，只要努力，就一定能成功。 
 不	bù -> bú	sandhi 不	"只有坚持不懈，才能学好一门语言，没有捷径可走。" 
 不	bù -> bú	sandhi 不	无线网连不上，
-不	bù -> bú	sandhi 不	家理发店不错  
+不	bù -> bú	sandhi 不	你去哪里理发，这家理发店不错  
 不	bù -> bú	sandhi 不	"他很帅，但太花心了，换女朋友跟换衣服一样，不靠谱。
 不	bù -> bú	sandhi 不	花心不代表不爱，但它破坏了信任，而信任是感情的基础。
 不	bù -> bú	sandhi 不	花心不代表不爱，但它破坏了信任，而信任是感情的基础。
@@ -11058,6 +11061,7 @@
 不	bù -> bú	sandhi 不	 不过是 (
 不	bù -> bú	sandhi 不	我只不过是开个玩笑而已。 
 不	bù -> bú	sandhi 不	这件事只不过是个误会  
+不	bù -> bú	sandhi 不	这个杯子是塑料的，不耐热  
 不	bù -> bú	sandhi 不	不断完善 
 不	bù -> bú	sandhi 不	我们需要不断完善现有的制度和机制，提高运作效率。 
 不	bù -> bú	sandhi 不	不用这么客气，我们是老朋友了！ 
@@ -12227,7 +12231,7 @@
 地	dì -> de	地 adverbial	这场技术革命深刻地改变了人类的生产和生活方式。 
 地	dì -> de	地 adverbial	"她终于拿到了驾照，激动地开着新买的车在小区里转了好
 地	dì -> de	地 adverbial	"他从不独立思考，总是鹦鹉学舌地重复别人的观点，让人
-地	dì -> de	地 adverbial	母高兴地办了升学宴。 
+地	dì -> de	地 adverbial	儿子考上了清华大学，父母高兴地办了升学宴。 
 地	dì -> de	地 adverbial	原产地证明
 地	dì -> de	地 adverbial	出口商品需提供原产地证明以享受关税优惠 
 地	dì -> de	地 adverbial	"茶馆里坐着一位说书人，绘声绘色地讲述着一段惊心动魄

@@ -3,6 +3,8 @@ PAQUETS ANKI CORRIGES (generes par .outils/anki/corriger_decks.py)
 
 Les fichiers d'origine (dossier Anki/) ne sont pas modifies. Pour tout regenerer :
     python .outils/anki/corriger_decks.py
+Pour verifier hors ligne que les 6 fichiers s'importeront sans probleme (champs, HTML bien forme) :
+    python .outils/anki/simuler_import.py
 
 CE QUI A CHANGE
 - Pinyin des exemples relu mot par mot : caracteres a plusieurs lectures (认为 wéi, 了解 liǎo, 便宜 pián yi,
@@ -21,6 +23,14 @@ CE QUI A CHANGE
   demandes sans mot ("觉" devient "觉 (dans 觉得)"), etiquettes de nature fausses ("classificateur" sur 电脑, "verbe" sur 朋友),
   pinyin de mots empruntes ou d'annees coupe par des crochets mal places (ex. annee 2060 tronquee en "206").
   Le detail : .outils/anki/corrections_contenu.json.
+- 2 847 corrections de contenu appliquees sur 2 994 relevees ; les ~147 non appliquees sont pour l'essentiel deja
+  corrigees par ailleurs dans le pipeline (donc sans consequence), sauf 1 carte d'exercice ou la correction a ete
+  refusee par securite (elle aurait casse la structure HTML de la carte) : le contenu d'origine, valide, est garde.
+- Deux defauts du generateur d'origine repares partout, pas seulement sur les cartes signalees par la relecture :
+  mots empruntes coupes en plusieurs balises sans espace (App, LOL, cosplay...) et rubis a deux caracteres pour
+  une seule lecture (ex. "，最" colle a "zuì", qui faisait deraper le pinyin affiche).
+- Verifie avec .outils/anki/simuler_import.py : les 6 fichiers s'importent sans probleme (aucun champ manquant,
+  aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
 - Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.
