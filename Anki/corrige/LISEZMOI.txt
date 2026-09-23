@@ -25,11 +25,14 @@ CE QUI A CHANGE
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
 - Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.
 - Ajouts, tous etiquetes ajout_2026 (et cours_L2 quand ils viennent des cours) :
-  41 structures de grammaire (points des cours HSK 1-3 + connecteurs et modeles de textes du renforcement ecrit :
-  请假条, e-mail, decrire une personne / un lieu, 由于…因此, 首先…其次…最后), 55 phrases, 24 exercices sur les points
-  des cours, 200 exercices de reconnaissance des caracteres non simplifies (exercice_traditionnel, du HSK 1 au HSK 3),
-  117 mots des cours et 18 mots des themes du programme (histoire, pensee chinoise, ecrit) absents du paquet.
-  Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
+  47 structures de grammaire (points des cours HSK 1-3 + connecteurs et modeles de textes du renforcement ecrit :
+  请假条, e-mail, decrire une personne / un lieu, 由于…因此, 首先…其次…最后 + phrases pour discuter a l'oral d'un
+  enregistrement : donner son avis, etre d'accord/pas d'accord, demander de repeter, reformuler, donner un exemple,
+  prendre la parole), 61 phrases, 24 exercices sur les points des cours, 200 exercices de reconnaissance des
+  caracteres non simplifies (exercice_traditionnel, du HSK 1 au HSK 3), 117 mots des cours et 28 mots des themes
+  du programme (histoire, pensee chinoise, renforcement oral/ecrit) absents du paquet, 16 mots deja presents
+  etiquetes pour des themes du programme pas encore couverts dans le coffre (dynasties Song a Qing, pensee
+  chinoise, vocabulaire de discussion). Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
 - Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
   Chinois::Vocabulaire::0 · Cours L2 (mots des cours sans niveau HSK), 1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK.
 - Chaque fichier est range du plus facile au plus difficile.

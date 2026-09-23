@@ -215,6 +215,25 @@ GRAMMAIRE = [
     ("HSK 4", "电子邮件 — l'e-mail formel",
      "主题 (objet) court. Ouverture : 尊敬的 / 亲爱的 + nom + ：您好！ Corps : 我是…，我想… / 请问…. Pièce jointe : 附件是…. Clôture : 期待您的回复 (dans l'attente de votre réponse), 祝好 / 祝工作顺利, puis nom et date.",
      [("尊敬的张老师：您好！我是二年级的学生李华。", "Cher Professeur Zhang, bonjour. Je suis Li Hua, étudiant de deuxième année."), ("附件是我的作业，请您查收。", "Vous trouverez mon devoir en pièce jointe, je vous prie de bien vouloir le recevoir."), ("期待您的回复。祝好！", "Dans l'attente de votre réponse. Bien cordialement.")], "cours_L2 L2_renforcement_ecrit"),
+    # ---- renforcement oral : discuter d'un enregistrement à l'oral
+    ("HSK 2", "我觉得 / 我认为 — donner son avis à l'oral",
+     "我觉得 + phrase : le plus courant, ton neutre. 我认为 + phrase : plus affirmé, un peu plus soutenu. Pour demander l'avis de l'autre : 你觉得呢？/ 你怎么看？",
+     [("我觉得这篇文章很有意思。", "Je trouve cet article très intéressant."), ("我认为这个说法不太对。", "Je pense que cette affirmation n'est pas tout à fait exacte."), ("你觉得呢？", "Et toi, qu'en penses-tu ?")], "cours_L2 L2_renforcement_oral"),
+    ("HSK 2", "我同意 / 我不同意 — être d'accord ou pas, à l'oral",
+     "我同意 + (你的看法/这一点) : être d'accord. 我不同意，我觉得… : exprimer un désaccord poliment, toujours suivi de son propre avis. 有道理 = c'est logique / ça se tient (concession partielle).",
+     [("我同意你的看法。", "Je suis d'accord avec ton point de vue."), ("我不同意，我觉得应该先讨论问题的原因。", "Je ne suis pas d'accord, je pense qu'il faut d'abord discuter de la cause du problème."), ("你说的有道理。", "Ce que tu dis se tient.")], "cours_L2 L2_renforcement_oral"),
+    ("HSK 3", "能不能再说一遍？— demander de répéter ou d'expliquer",
+     "能不能再说一遍？/ 你能再说一次吗？ : demander une répétition. 我没听懂 / 我没听清楚 : dire qu'on n'a pas compris (清楚 = clairement, un problème d'écoute ; 懂 = un problème de compréhension). 这是什么意思？: demander le sens d'un mot.",
+     [("对不起，能不能再说一遍？", "Pardon, pouvez-vous répéter une fois de plus ?"), ("我没听清楚，你是说几点见面？", "Je n'ai pas bien entendu, tu dis qu'on se retrouve à quelle heure ?"), ("“举例”是什么意思？", "Que veut dire « 举例 » ?")], "cours_L2 L2_renforcement_oral"),
+    ("HSK 3", "换句话说 / 简单来说 — reformuler à l'oral",
+     "换句话说 = autrement dit (reformule ce qui vient d'être dit). 简单来说 = pour faire simple, en résumé (introduit une synthèse). 也就是说 = c'est-à-dire.",
+     [("他没有直接拒绝，换句话说，他还在考虑。", "Il n'a pas refusé directement, autrement dit, il réfléchit encore."), ("简单来说，这篇文章讲的是环境保护。", "Pour faire simple, cet article parle de la protection de l'environnement."), ("也就是说，我们得重新讨论一下。", "C'est-à-dire qu'il va falloir qu'on en rediscute.")], "cours_L2 L2_renforcement_oral"),
+    ("HSK 3", "举个例子来说 — donner un exemple à l'oral",
+     "举个例子(来说) : formule pour introduire un exemple à l'oral. 比如 / 比如说 : par exemple (plus court, très courant). Placés en tête de la phrase d'exemple.",
+     [("举个例子来说，很多年轻人现在喜欢网购。", "Pour donner un exemple, beaucoup de jeunes aiment aujourd'hui faire leurs achats en ligne."), ("比如说，我们可以先讨论第一个问题。", "Par exemple, on pourrait d'abord discuter de la première question."), ("这种情况很常见，比如在大城市。", "Ce cas de figure est très courant, par exemple dans les grandes villes.")], "cours_L2 L2_renforcement_oral"),
+    ("HSK 3", "我想补充一点 — prendre la parole dans une discussion",
+     "我想补充一点 : ajouter une remarque à ce qui vient d'être dit. 我还有一个问题 : poser une nouvelle question. 打断一下 (可以吗) : interrompre poliment. 我先说完 : demander à finir avant de laisser l'autre parler.",
+     [("我想补充一点，这篇文章还提到了…", "Je voudrais ajouter un point : cet article mentionne aussi…"), ("打断一下，可以吗？我还有一个问题。", "Je peux t'interrompre ? J'ai encore une question."), ("等一下，让我先说完。", "Attends, laisse-moi d'abord finir.")], "cours_L2 L2_renforcement_oral"),
 ]
 
 # ------------------------------------------------------------------ mots complémentaires (thèmes des cours, absents du paquet)
@@ -240,7 +259,30 @@ VOCAB_SUPPLEMENT = [
     ("性恶", "nature humaine mauvaise (Xunzi)", "Philosophie chinoise", "荀子主张性恶论。", "Xunzi soutient la thèse d'une nature humaine mauvaise."),
     ("君子", "homme de bien (idéal confucéen)", "Philosophie chinoise", "君子坦荡荡，小人长戚戚。", "L'homme de bien est serein ; l'homme de peu est toujours inquiet."),
     ("小人", "homme de peu (opposé de 君子)", "Philosophie chinoise", "君子和而不同，小人同而不和。", "L'homme de bien s'accorde sans s'identifier ; l'homme de peu s'identifie sans s'accorder."),
+    ("举例", "donner un exemple (à l'oral, pour illustrer un point)", "Renforcement oral", "我可以举个例子吗？", "Je peux donner un exemple ?"),
+    ("提问", "poser une question", "Renforcement oral", "听完录音后，老师会提问。", "Après l'écoute, le professeur posera des questions."),
+    ("详细", "détaillé, en détail", "Renforcement oral", "你能说得详细一点吗？", "Peux-tu en dire un peu plus en détail ?"),
+    ("简要", "bref, sommaire", "Renforcement oral", "请简要说说你的想法。", "Donne brièvement ton avis."),
+    ("补充", "compléter, ajouter (une remarque)", "Renforcement oral", "我想补充一点。", "Je voudrais ajouter un point."),
+    ("抗日战争", "guerre de résistance contre le Japon (1937-1945)", "Histoire et civilisation chinoises", "抗日战争于1945年结束。", "La guerre de résistance contre le Japon s'achève en 1945."),
+    ("闭关锁国", "politique de fermeture au monde extérieur (chengyu, fin des Qing)", "Histoire et civilisation chinoises", "清朝后期的闭关锁国政策使中国落后于西方。", "La politique de fermeture de la fin des Qing a fait prendre du retard à la Chine par rapport à l'Occident."),
+    ("有教无类", "l'éducation sans distinction (Confucius : tout le monde mérite d'être éduqué)", "Philosophie chinoise", "孔子提出“有教无类”的教育思想。", "Confucius a formulé l'idée que l'éducation doit être offerte à tous, sans distinction."),
+    ("舍生取义", "sacrifier sa vie pour la justice (Mencius, chengyu)", "Philosophie chinoise", "孟子提倡“舍生取义”的精神。", "Mencius prônait l'esprit consistant à sacrifier sa vie pour la justice."),
+    ("道法自然", "le Dao suit la nature de lui-même (Laozi)", "Philosophie chinoise", "“道法自然”是道家思想的核心。", "« Le Dao suit sa propre nature » est au cœur de la pensée taoïste."),
 ]
+
+# mots DÉJÀ présents dans le paquet à étiqueter cours_L2 pour un thème à venir (le programme n'y est pas encore,
+# mais le mot existe déjà dans le paquet général) : mot -> cours (clé de ETIQUETTE_COURS)
+MOTS_A_ETIQUETER = {
+    "讨论": "Renforcement oral", "观点": "Renforcement oral", "总结": "Renforcement oral", "换句话说": "Renforcement oral",
+    "回答": "Renforcement oral", "简单来说": "Renforcement oral",
+    "宋朝": "Histoire et civilisation chinoises", "元朝": "Histoire et civilisation chinoises",
+    "明朝": "Histoire et civilisation chinoises", "清朝": "Histoire et civilisation chinoises",
+    "鸦片战争": "Histoire et civilisation chinoises", "辛亥革命": "Histoire et civilisation chinoises",
+    "五四运动": "Histoire et civilisation chinoises",
+    "知行合一": "Philosophie chinoise", "天人合一": "Philosophie chinoise", "无为而治": "Philosophie chinoise",
+    "丝绸之路": "Histoire et civilisation chinoises",
+}
 
 # ------------------------------------------------------------------ PHRASES (niveau, phrase, traduction, notes, étiquettes)
 PHRASES = [
@@ -259,6 +301,12 @@ PHRASES = [
     (4, "由于价格便宜，越来越多的人选择网购。", "Comme les prix sont bas, de plus en plus de gens choisissent les achats en ligne.", "由于 = 因为 à l'écrit · 越来越多 = de plus en plus de · 网购 = achats en ligne", "ecrit"),
     (4, "网购虽然方便，但是也有一些问题，比如质量不好。", "Les achats en ligne sont certes pratiques, mais ils posent aussi quelques problèmes, par exemple la mauvaise qualité.", "虽然…但是 = concession · 比如 = par exemple · 质量 = qualité", "ecrit"),
     (4, "附件是我的作业，请您查收。期待您的回复。", "Mon devoir est en pièce jointe, je vous prie de le recevoir. Dans l'attente de votre réponse.", "查收 = vérifier la réception (formule d'e-mail) · 期待您的回复 = formule de clôture", "ecrit"),
+    (2, "我觉得这篇文章很有意思，你觉得呢？", "Je trouve cet article très intéressant, et toi, qu'en penses-tu ?", "我觉得 = donner son avis · 你觉得呢 = demander l'avis de l'autre (discussion à l'oral)", "oral"),
+    (3, "我不同意，我觉得应该先讨论原因。", "Je ne suis pas d'accord, je pense qu'il faut d'abord discuter de la cause.", "我不同意 + son propre avis = exprimer un désaccord poliment (discussion à l'oral)", "oral"),
+    (3, "对不起，能不能再说一遍？我没听清楚。", "Pardon, pouvez-vous répéter ? Je n'ai pas bien entendu.", "能不能再说一遍 = demander une répétition · 没听清楚 = ne pas avoir bien entendu (compréhension orale)", "oral"),
+    (3, "简单来说，这篇文章讲的是环境保护。", "Pour faire simple, cet article parle de la protection de l'environnement.", "简单来说 = reformuler brièvement · 讲的是 = parler de, traiter de (discussion à l'oral)", "oral"),
+    (3, "举个例子来说，很多年轻人现在喜欢网购。", "Pour donner un exemple, beaucoup de jeunes aiment aujourd'hui faire leurs achats en ligne.", "举个例子来说 = introduire un exemple à l'oral · 比如 est plus court et tout aussi courant", "oral"),
+    (3, "我想补充一点，这篇文章还提到了环境问题。", "Je voudrais ajouter un point : cet article mentionne aussi la question environnementale.", "我想补充一点 = prendre la parole pour ajouter une remarque (discussion à l'oral)", "oral"),
     (2, "我通过考试了。", "J'ai réussi l'examen.", "通过 = réussir, passer · négation : 我没通过考试 · échouer : 不及格", "quotidien"),
     (2, "我什么都没看到。", "Je n'ai rien vu du tout.", "什么都 + négation = rien du tout · 看到 = voir (résultat) · négation du résultat avec 没", "grammaire"),
     (2, "你吃药了吗？", "As-tu pris tes médicaments ?", "吃药 = prendre un médicament (litt. « manger ») · 了…吗 = est-ce fait ?", "sante"),
@@ -482,6 +530,19 @@ def ajouter_contenu(paquets):
         index[mot] = note
         ajoutes += 1
     bilan["Vocabulaire : mots des thèmes du programme créés"] = ajoutes
+
+    # mots déjà présents à étiqueter cours_L2 pour un thème du programme pas encore couvert dans le coffre
+    etiquetes_avance = 0
+    for mot, cours in MOTS_A_ETIQUETER.items():
+        if mot not in index:
+            continue
+        r = index[mot]
+        etiquette = ETIQUETTE_COURS.get(cours, "L2_autre")
+        ajout = [e for e in ("cours_L2", etiquette) if e not in r[3].split()]
+        if ajout:
+            r[3] = (r[3] + " " + " ".join(ajout)).strip()
+            etiquetes_avance += 1
+    bilan["Vocabulaire : mots déjà présents étiquetés pour un thème à venir"] = etiquetes_avance
 
     # exercices : reconnaître les caractères non simplifiés (exigé par le programme de renforcement écrit)
     rectos = {r[0] for r in paquets["Exercices"]}
