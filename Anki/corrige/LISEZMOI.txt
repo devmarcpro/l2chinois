@@ -23,12 +23,16 @@ CE QUI A CHANGE
   demandes sans mot ("觉" devient "觉 (dans 觉得)"), etiquettes de nature fausses ("classificateur" sur 电脑, "verbe" sur 朋友),
   pinyin de mots empruntes ou d'annees coupe par des crochets mal places (ex. annee 2060 tronquee en "206").
   Le detail : .outils/anki/corrections_contenu.json.
-- 2 847 corrections de contenu appliquees sur 2 994 relevees ; les ~147 non appliquees sont pour l'essentiel deja
+- 2 856 corrections de contenu appliquees sur 2 994 relevees ; les 138 non appliquees sont pour l'essentiel deja
   corrigees par ailleurs dans le pipeline (donc sans consequence), sauf 1 carte d'exercice ou la correction a ete
   refusee par securite (elle aurait casse la structure HTML de la carte) : le contenu d'origine, valide, est garde.
-- Deux defauts du generateur d'origine repares partout, pas seulement sur les cartes signalees par la relecture :
-  mots empruntes coupes en plusieurs balises sans espace (App, LOL, cosplay...) et rubis a deux caracteres pour
-  une seule lecture (ex. "，最" colle a "zuì", qui faisait deraper le pinyin affiche).
+- Quatre defauts du generateur d'origine repares partout, pas seulement sur les cartes signalees par la relecture :
+  mots empruntes coupes en plusieurs balises sans espace (App, LOL, cosplay...), rubis a deux caracteres pour
+  une seule lecture (ex. "，最" colle a "zuì", qui faisait deraper le pinyin affiche), lecture de syllabe (<rt>)
+  sans attribut de ton (200 fiches de vocabulaire, la syllabe ne s'affichait dans aucune couleur) et ligne de
+  forme traditionnelle carrement absente (26 fiches, remplacee au besoin par du pinyin entre crochets illisible).
+  Un bug du convertisseur de pinyin qui cassait les syllabes en -ue (xué, què, jué, yuè -> "xu"+"é") a aussi
+  ete corrige (12 occurrences).
 - Verifie avec .outils/anki/simuler_import.py : les 6 fichiers s'importent sans probleme (aucun champ manquant,
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,

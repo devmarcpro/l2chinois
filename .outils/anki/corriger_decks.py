@@ -49,7 +49,7 @@ def vers_trad(simple: str) -> str:
 
 
 # syllabe de pinyin (avec ou sans accent), pour découper « fánchou » en « fán chou »
-SYLLABE = re.compile(r"(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])?(?:iang|iong|uang|ueng|ang|eng|ong|ian|iao|uai|uan|üan|üe|ai|ei|ao|ou|an|en|ia|ie|iu|in|ua|uo|ui|un|ün|er|a|o|e|i|u|ü)(?:ng|n|r)?", re.I)
+SYLLABE = re.compile(r"(?:zh|ch|sh|[bpmfdtnlgkhjqxrzcsyw])?(?:iang|iong|uang|ueng|ang|eng|ong|ian|iao|uai|uan|üan|üe|ue|ai|ei|ao|ou|an|en|ia|ie|iu|in|ua|uo|ui|un|ün|er|a|o|e|i|u|ü)(?:ng|n|r)?", re.I)
 
 
 def decouper_syllabes(s: str):
@@ -198,6 +198,9 @@ def corriger_trad(recto: str, verso: str, paquet: str) -> str:
         if neuf != m.group(2):
             stats[(paquet, "forme traditionnelle normalisée")] += 1
         return m.group(1) + neuf + m.group(3)
+    if "hanzi-trad" not in verso:  # défaut du générateur d'origine : la ligne manque carrément, on l'ajoute
+        stats[(paquet, "ligne de forme traditionnelle ajoutée (absente)")] += 1
+        return f'<span class="hanzi-trad">{vers_trad(simple)}</span><br>' + verso
     return TRAD.sub(sub, verso, count=1)
 
 
@@ -260,10 +263,24 @@ def corriger_ruby_multi(champ: str, paquet: str) -> str:
     return RUBY_MULTI.sub(sub, champ)
 
 
+RUBY_SANS_CLASSE = re.compile(r'<ruby>(.)<rt>([^<]*)</rt></ruby>')
+
+
+def corriger_ruby_sans_classe(champ: str, paquet: str) -> str:
+    """Défaut du générateur d'origine (200 notes de Vocabulaire) : le <rt> n'a pas d'attribut class="tN" du tout,
+    donc la syllabe ne s'affiche dans aucune des couleurs de ton. On calcule le ton à partir de l'accent."""
+    def sub(m):
+        car, lecture = m.group(1), m.group(2)
+        stats[(paquet, "rt sans classe de ton réparé")] += 1
+        return f'<ruby>{car}<rt class="t{ton(lecture)}">{lecture}</rt></ruby>'
+    return RUBY_SANS_CLASSE.sub(sub, champ)
+
+
 def traiter_note(paquet: str, r):
     recto, verso = r[0], r[1]
     if paquet == "Vocabulaire":
         recto, verso = corriger_ruby_multi(recto, paquet), corriger_ruby_multi(verso, paquet)
+        recto, verso = corriger_ruby_sans_classe(recto, paquet), corriger_ruby_sans_classe(verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):
         verso = corriger_trad(recto, verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):

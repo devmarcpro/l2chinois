@@ -188,7 +188,9 @@ def imposer_lecture(champ: str, mot: str, caractere: str, lecture: str, phrase: 
         bloc = m.group(0)
         paires = RUBY.findall(bloc)
         hanzi = "".join(p[0] for p in paires)
-        if phrase_cjk and phrase_cjk not in hanzi and hanzi not in phrase_cjk:
+        # certains rubis encadrent de la ponctuation (ex. virgule à lecture vide) : on l'ignore pour comparer à `phrase`
+        hanzi_cjk = "".join(CJK.findall(hanzi))
+        if phrase_cjk and phrase_cjk not in hanzi_cjk and hanzi_cjk not in phrase_cjk:
             return bloc
         cibles = {d + k for d in (x.start() for x in re.finditer(re.escape(mot), hanzi)) for k, c in enumerate(mot) if c == caractere}
         if not cibles:
