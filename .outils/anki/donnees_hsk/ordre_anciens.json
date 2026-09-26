@@ -1,0 +1,1041 @@
+[
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>今天 / 他 / 没有 / 时间",
+  "autres": [
+   "今天他没有时间。"
+  ],
+  "explication": "Le complément de temps (今天) se place avant le groupe verbal : soit après le sujet, soit en tête de phrase devant le sujet, jamais en fin de phrase comme en français."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 妈妈 / 她 / 医生 / 是",
+  "autres": [
+   "医生是她的妈妈。"
+  ],
+  "explication": "Le possesseur se place devant le nom avec 的 (她的妈妈), et 是 relie deux groupes nominaux (A 是 B). Inverser les deux groupes (医生是她的妈妈, « le médecin, c'est sa mère ») donne aussi une phrase correcte, d'un autre sens."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>中文 / 她 / 在 / 学习 / 学校",
+  "autres": [
+   "她在中文学校学习。"
+  ],
+  "explication": "在 + lieu se place avant le verbe : sujet + 在 + lieu + verbe + objet, jamais le lieu en fin de phrase comme en français. 她在中文学校学习 (« elle étudie dans une école de chinois ») est aussi correct."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>衣服 / 这件 / 太 / 贵 / 了",
+  "autres": [],
+  "explication": "Démonstratif + classificateur + nom (这件衣服) ; « trop » se dit 太 + adjectif + 了, avec 太 juste devant l'adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看电影 / 一起 / 去 / 明天 / 我们",
+  "autres": [
+   "明天我们一起去看电影。"
+  ],
+  "explication": "Le temps (明天) se met avant le verbe, après ou avant le sujet ; l'adverbe 一起 vient juste devant le groupe verbal 去看电影 (去 + verbe = aller faire quelque chose)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这本 / 很 / 书 / 有意思",
+  "autres": [],
+  "explication": "这本 (démonstratif + classificateur) précède le nom 书 ; l'adverbe de degré 很 se place devant le prédicat adjectival 有意思, sans 是."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>喝 / 她 / 喜欢 / 咖啡",
+  "autres": [],
+  "explication": "喜欢 peut être suivi directement d'un verbe : sujet + 喜欢 + verbe + objet (喜欢喝咖啡)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>每天 / 去 / 都 / 学校 / 我",
+  "autres": [
+   "每天我都去学校。"
+  ],
+  "explication": "都 reprend ce qui le précède (每天, « chaque jour ») et se place juste devant le verbe ; 每天 se met après le sujet ou en tête de phrase, mais toujours avant 都."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>头也不回 / 走出 / 地 / 她 / 教室 / 了",
+  "autres": [
+   "她头也不回地走出教室了。"
+  ],
+  "explication": "La manière se place devant le verbe et s'y rattache par 地 (头也不回地 + verbe) ; 了 suit le verbe à complément de direction 走出, ou se met en fin de phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>去 / 我 / 朋友 / 看电影 / 跟 / 一起",
+  "autres": [
+   "朋友跟我一起去看电影。"
+  ],
+  "explication": "跟 + personne + 一起 se place avant le verbe : sujet + 跟 + personne + 一起 + verbe. Échanger 我 et 朋友 donne aussi une phrase correcte (« mon ami va voir un film avec moi »).",
+  "traduction": "Je vais voir un film avec un ami."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>在了 / 她 / 忘 / 把 / 钱包 / 出租车上",
+  "autres": [],
+  "explication": "把 + objet se place avant le verbe ; le lieu où aboutit l'objet suit le verbe avec 在 : 把 + objet + 忘在了 + lieu (出租车上)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>天 / 都 / 穿上了 / 大衣 / 大家 / 冷 / 了",
+  "autres": [],
+  "explication": "天冷了 : sujet + adjectif + 了 (changement de situation). Dans la 2e proposition, 都 suit 大家 qu'il reprend et précède le verbe (大家都穿上了大衣)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>大 / 苹果 / 这个 / 又 / 甜 / 又",
+  "autres": [
+   "这个苹果又甜又大。"
+  ],
+  "explication": "又 A 又 B : chaque 又 se place devant un adjectif, après le sujet ; les deux adjectifs peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>说 / 语言 / 三种 / 会 / 他",
+  "autres": [],
+  "explication": "Le verbe modal 会 précède le verbe (会说) ; nombre + classificateur (三种) se placent devant le nom (三种语言)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>词典 / 一本 / 想 / 买 / 我",
+  "autres": [],
+  "explication": "想 (« vouloir ») précède le verbe (想买) ; nombre + classificateur (一本) se placent devant le nom 词典."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>昨天 / 睡觉 / 晚上 / 才 / 我 / 十点",
+  "autres": [
+   "昨天晚上我十点才睡觉。",
+   "昨天晚上十点我才睡觉。",
+   "昨天我晚上十点才睡觉。"
+  ],
+  "explication": "Les indications de temps vont du plus large au plus précis (昨天 → 晚上 → 十点) et se placent avant le verbe, le sujet pouvant se glisser avant ou entre elles ; 才 (« seulement, pas avant ») suit l'heure et précède directement le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>难 / 起来 / 做 / 容易 / 这件 / 事情 / 起来 / 说",
+  "autres": [],
+  "explication": "Verbe + 起来 + appréciation = « quand on le fait, c'est… » : 说起来容易，做起来难 (ordre figé). Le sujet 这件事情 ouvre la phrase et vaut pour les deux parties."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>每天 / 已经 / 她 / 锻炼 / 坚持 / 三年了 / 早起",
+  "autres": [
+   "她坚持每天早起锻炼，已经三年了。",
+   "她已经坚持每天早起锻炼三年了。"
+  ],
+  "explication": "坚持 est suivi de l'action qu'on maintient (早起锻炼), 每天 se plaçant avant ou après 坚持 ; la durée écoulée va à la fin, dans une proposition à part (已经三年了) ou après le groupe verbal (已经坚持…三年了)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>努力 / 什么 / 你 / 是 / 做不到的 / 只要 / 没有",
+  "autres": [
+   "你只要努力，没有什么是做不到的。"
+  ],
+  "explication": "La condition introduite par 只要 vient en premier, 只要 se plaçant avant ou après le sujet. 没有什么是…的 = « il n'y a rien qui soit… »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>只要 / 坚持 / 身体 / 越来越 / 锻炼 / 健康 / 就会",
+  "autres": [],
+  "explication": "只要 + condition, puis sujet + 就 + conséquence : 就 se place après le sujet de la 2e proposition (身体就会…). 越来越 précède l'adjectif (越来越健康)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一边 / 他 / 看书 / 坐车 / 喜欢 / 一边",
+  "autres": [
+   "他喜欢一边看书一边坐车。"
+  ],
+  "explication": "一边 V1 一边 V2 : chaque 一边 précède un verbe, et l'ensemble sert de complément à 喜欢. Les deux actions simultanées peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>是 / 餐厅 / 的 / 这家 / 红烧肉 / 招牌菜",
+  "autres": [
+   "红烧肉是这家餐厅的招牌菜。"
+  ],
+  "explication": "Le déterminant avec 的 précède le nom (这家餐厅的招牌菜). Avec 是 entre deux groupes nominaux, les deux côtés peuvent ici s'inverser."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>复杂 / 这道 / 简单 / 看起来 / 很 / 其实 / 题",
+  "autres": [],
+  "explication": "看起来 + adjectif exprime l'apparence dans la 1re partie ; 其实 ouvre la 2e partie (la réalité), avec 很 devant l'adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>但 / 不是 / 去做 / 一件 / 这 / 值得 / 的事 / 容易",
+  "autres": [],
+  "explication": "Nombre + classificateur + adjectif + 的 + nom (一件容易的事) ; 但 ouvre la 2e proposition, suivi de 值得 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 想 / 有些 / 觉得 / 不对劲 / 这件事 / 越 / 越",
+  "autres": [],
+  "explication": "越 A 越 B (« plus… plus… ») : chaque 越 se place devant un verbe, après le sujet. 有些 (« un peu ») précède 不对劲."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 去健身房 / 每天 / 锻炼身体 / 都会",
+  "autres": [
+   "每天她都会去健身房锻炼身体。"
+  ],
+  "explication": "Ordre : temps (每天) + 都 + modal 会 + verbes en série ; on met d'abord le déplacement (去健身房), puis le but (锻炼身体)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>不是 / 该问 / 的答案 / 知道 / 所有 / 而是 / 什么 / 智慧 / 知道 / 问题",
+  "autres": [
+   "智慧不是知道该问什么问题，而是知道所有的答案。"
+  ],
+  "explication": "Sujet + 不是 A，而是 B, chaque partie étant ici 知道 + objet ; 所有 + 的 + nom. Échanger A et B donne une phrase correcte, mais de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>丰富 / 不同 / 因 / 才 / 声音 / 变得 / 有 / 个 / 了 / 这 / 世界 / 多彩",
+  "autres": [],
+  "explication": "La cause (因 + 有了…) se place après le sujet et avant le verbe, puis 才 introduit le résultat : sujet + 因… + 才 + verbe. 这个 (这 + 个) précède le nom."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>自己 / 的经历 / 你 / 你 / 别人 / 而是 / 不是 / 能够 / 改变 / 的 / 的建议",
+  "autres": [
+   "能够改变你自己的，不是别人的建议，而是你的经历。",
+   "能够改变你的，不是你自己的经历，而是别人的建议。",
+   "能够改变你自己的，不是你的经历，而是别人的建议。",
+   "能够改变别人的，不是你的建议，而是你自己的经历。",
+   "能够改变别人的，不是你自己的建议，而是你的经历。"
+  ],
+  "explication": "能够改变你的 (« ce qui peut te changer ») sert de sujet, suivi de 不是 A，而是 B ; le possesseur (别人 / 你自己) se place devant 的建议 / 的经历."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>努力 / 都不会白费 / 你 / 时间 / 会 / 过的 / 告诉 / 一切",
+  "autres": [],
+  "explication": "会 + verbe exprime une certitude pour l'avenir (时间会告诉你) ; la relative 努力过的 (verbe + 过 + 的) précède le nom 一切, suivi de 都 + négation."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>无论 / 只要 / 方向 / 的路 / 就不怕 / 难走 / 对了 / 多么",
+  "autres": [],
+  "explication": "无论 + 多么 + adjectif : 多么 se place devant l'adjectif (多么难走的路) ; 只要 + condition, puis 就 + conséquence.",
+  "retirer": true
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>不是 / 所有 / 的问题 / 接受 / 明白 / 只是 / 都有 / 终于 / 需要 / 她 / 答案 / 有些 / 了",
+  "autres": [],
+  "explication": "终于 précède le verbe (终于明白了) ; 不是所有的… 都… exprime une négation partielle (« toutes les… ne… pas ») ; 只是 se place devant le verbe 需要."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>越来越 / 随着 / 大家 / 天气 / 厚外套 / 都穿上了 / 冷",
+  "autres": [],
+  "explication": "随着 + évolution (天气越来越冷) ouvre la phrase comme circonstance ; 越来越 précède l'adjectif, et 都 suit le sujet 大家."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>他 / 会 / 不仅 / 说日语 / 说 / 而且 / 中文 / 还会",
+  "autres": [
+   "他不仅会说日语，而且还会说中文。"
+  ],
+  "explication": "Avec un même sujet, 不仅 se place après le sujet et devant le verbe (他不仅会说…) ; la 2e partie commence par 而且, suivi de 还 + verbe. Les deux langues peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>弹吉他 / 还会 / 他 / 会 / 而且 / 不但 / 唱歌",
+  "autres": [
+   "他不但会弹吉他，而且还会唱歌。"
+  ],
+  "explication": "不但…而且… : avec un même sujet, 不但 se place après le sujet ; 而且 ouvre la 2e partie, suivi de 还会 + verbe. Les deux talents peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>小提琴 / 他 / 一个半小时 / 每天 / 拉",
+  "autres": [],
+  "explication": "La durée se place après le verbe et avant l'objet : V + durée + O (拉一个半小时小提琴) ; la fréquence 每天 se met avant le verbe.",
+  "traduction": "Il joue du violon une heure et demie par jour."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>自己 / 用 / 他 / 的 / 价值 / 实际行动 / 证明了",
+  "autres": [],
+  "explication": "用 + moyen se place avant le verbe (用实际行动证明了…) ; 自己的 + nom forme l'objet."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>被 / 出差 / 国外 / 她 / 公司 / 派去",
+  "autres": [],
+  "explication": "Passif : sujet + 被 + agent + verbe (被公司派去) ; après 派去 viennent le lieu puis le but (国外 + 出差)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>而 / 压力 / 太大 / 工作 / 辞职了 / 因为 / 他",
+  "autres": [],
+  "explication": "因为 + cause + 而 + conséquence : le tout se place après le sujet, 而 juste devant le verbe (而辞职了)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>口袋里 / 他 / 把 / 在了 / 放 / 手机",
+  "autres": [],
+  "explication": "把 + objet se place avant le verbe ; le lieu d'arrivée suit le verbe avec 在 : 把手机 + 放在了 + 口袋里."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>要不是 / 今天的会议 / 就 / 我 / 提醒我 / 忘了 / 你",
+  "autres": [],
+  "explication": "要不是 + fait réel (« si… n'avait pas… ») ouvre la phrase ; dans la 2e proposition, 就 se place après le sujet : 我就忘了…."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>终于 / 一 / 小说 / 写作 / 完成 / 这部 / 孩子 / 一 / 她 / 照顾 / 坚持 / 了 / 边 / 边",
+  "autres": [
+   "她一边坚持写作，一边照顾孩子，终于完成了这部小说。",
+   "她一边照顾孩子，一边坚持写作，终于完成这部小说了。",
+   "她一边坚持写作，一边照顾孩子，终于完成这部小说了。"
+  ],
+  "explication": "一边 V1，一边 V2 : chaque 一边 précède un verbe (actions simultanées, interchangeables) ; 终于 se place devant le verbe, 了 suivant le verbe ou allant en fin de phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>我们 / 想象的 / 问题 / 得多 / 严重 / 这个 / 要 / 比",
+  "autres": [
+   "这个问题要比我们想象的严重得多。"
+  ],
+  "explication": "A 比 B + adjectif + 得多 : 比 + terme de comparaison précède l'adjectif, 得多 le suit ; 要 (renforcement) se place devant 比 ou devant l'adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>相信 / 只要 / 结果 / 始终 / 他 / 不会 / 努力 / 一定 / 太差",
+  "autres": [],
+  "explication": "始终 précède le verbe 相信 ; dans la subordonnée, 只要 + condition vient d'abord, et 一定 se place devant la négation (一定不会太差)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>有 / 成长 / 失 / 不一定 / 找 / 东西 / 的 / 一种 / 时候 / 去 / 要 / 放手 / 回来 / 是 / 也",
+  "autres": [
+   "失去的东西不一定要找回来，放手有时候也是一种成长。"
+  ],
+  "explication": "La relative (失去的) précède le nom 东西, et 不一定 précède le modal 要 ; 有时候 se met en tête de proposition ou après le sujet, et 也 se place devant 是."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>控制 / 怎么 / 别人 / 怎么 / 选择 / 自己 / 但是 / 无法 / 你 / 看 / 可以 / 你 / 看你",
+  "autres": [
+   "你可以选择怎么看自己，但是你无法控制别人怎么看你。"
+  ],
+  "explication": "怎么 + verbe forme une question indirecte, objet de 控制 / 选择 (控制别人怎么看你) ; les modaux 无法 / 可以 précèdent le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>年龄 / 的 / 的 / 越来越 / 她 / 理解 / 增长 / 也 / 对 / 生命 / 随 / 着 / 深刻",
+  "autres": [],
+  "explication": "随着 + nom (年龄的增长) ouvre la phrase ; 对 + objet se place devant le nom qu'il détermine avec 的 (对生命的理解), puis 也 + 越来越 + adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>社会 / 的 / 的 / 需要 / 不是 / 的 / 而是 / 这 / 合作 / 个 / 更多 / 竞争 / 更多",
+  "autres": [
+   "这个社会需要的不是更多的合作，而是更多的竞争。"
+  ],
+  "explication": "« Ce dont… a besoin » se dit sujet + 需要的, suivi de 不是 A，而是 B ; 更多 + 的 + nom. Échanger A et B donne une phrase correcte, mais de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>比 / 改变 / 世界 / 自己 / 更难 / 更有 / 意义 / 却也 / 改变",
+  "autres": [
+   "改变世界比改变自己更难，却也更有意义。"
+  ],
+  "explication": "A 比 B + 更 + adjectif : 比 + terme comparé précède 更难 ; 却也 introduit le 2e prédicat. Échanger 自己 et 世界 donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>热情 / 都 / 她 / 之中 / 这份 / 全部 / 到 / 把 / 投入 / 工作 / 了 / 的",
+  "autres": [
+   "她把全部的热情都投入到这份工作之中了。"
+  ],
+  "explication": "把 + objet + 都 + verbe + complément (投入到…之中) ; 了 se place après 到 ou en fin de phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>依然 / 经历 / 没有放弃自己的理想 / 他 / 了 / 失败 / 尽管 / 多次",
+  "autres": [
+   "他尽管经历了多次失败，依然没有放弃自己的理想。"
+  ],
+  "explication": "尽管 + concession ouvre la phrase (ou suit le sujet) ; 依然 précède la négation 没有 + verbe. 经历了 + quantité (多次) + nom."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这个 / 她 / 对 / 信心 / 项目 / 充满了",
+  "autres": [],
+  "explication": "对 + objet se place avant le verbe : sujet + 对 + objet + 充满了 + 信心."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>配音演员 / 的 / 非常出色 / 动画 / 这部",
+  "autres": [],
+  "explication": "Le déterminant avec 的 précède le nom (这部动画的配音演员) ; 非常出色 est le prédicat adjectival, sans 是."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>导演 / 的 / 独特 / 这位 / 十分 / 作品 / 风格",
+  "autres": [],
+  "explication": "Les déterminants s'empilent devant le nom : 这位导演的 + 作品风格 ; l'adverbe 十分 précède l'adjectif prédicat 独特."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>记录 / 拍摄 / 了 / 纪录片 / 过程 / 这部 / 整个",
+  "autres": [],
+  "explication": "Sujet (这部纪录片) + verbe + 了 + objet ; 整个 précède le nom qu'il qualifie (整个拍摄过程)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 全场 / 演讲 / 他 / 热烈的掌声 / 赢得了",
+  "autres": [],
+  "explication": "他的演讲 est le sujet ; tout ce qui détermine l'objet se place devant lui : 全场 + 热烈的 + 掌声."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>坚持 / 告诉 / 的 / 用 / 力量 / 我们 / 她 / 有多 / 亲身经历 / 强大",
+  "autres": [],
+  "explication": "用 + moyen se place avant le verbe ; 告诉 + personne + contenu (坚持的力量有多强大), où 有多 + adjectif exprime « à quel point »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这部 / 了 / 连载 / 小说 / 十年 / 整整 / 已经",
+  "autres": [
+   "这部小说已经连载整整十年了。"
+  ],
+  "explication": "已经 précède le verbe ; la durée se place après le verbe (连载了 + 整整十年), 了 pouvant aussi aller en fin de phrase. 整整 précède le nombre."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>从不 / 她 / 困难 / 什么 / 无论 / 遇到 / 轻易放弃",
+  "autres": [
+   "她无论遇到什么困难，从不轻易放弃。"
+  ],
+  "explication": "无论 + verbe + 什么 + nom (« quel que soit… ») ouvre la phrase, avant ou après le sujet ; 从不 précède 轻易 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>用 / 她 / 一生 / 去学习 / 的 / 时间 / 而不是 / 抓住 / 如何 / 放下 / 如何",
+  "autres": [
+   "她用一生的时间去学习如何抓住，而不是如何放下。"
+  ],
+  "explication": "用 + durée (一生的时间) + 去 + verbe indique le temps consacré à une action ; 而不是 introduit l'option écartée. Échanger 放下 et 抓住 donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 的道理 / 花了 / 才明白 / 十年 / 用 / 一生 / 来践行 / 却",
+  "autres": [],
+  "explication": "La relative 她花了十年才明白的 précède 道理 et forme le thème ; dans la 2e partie, 却 précède 用 + durée + 来 + verbe.",
+  "traduction": "La vérité qu'il lui a fallu dix ans pour comprendre, elle a mis toute une vie à la mettre en pratique."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>刮目相看 / 思想 / 虽然 / 成熟 / 年龄 / 不大 / 但 / 令人 / 却 / 相当 / 他",
+  "autres": [
+   "虽然他年龄不大，但思想却相当成熟，令人刮目相看。"
+  ],
+  "explication": "虽然 se place avant ou après le sujet ; 但 ouvre la 2e proposition et 却 se met après son sujet (思想却…). 相当 précède l'adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>能够 / 同时 / 两种 / 一个 / 矛盾 / 接受 / 真正 / 相互 / 的人 / 成熟 / 观点 / 的",
+  "autres": [],
+  "explication": "Le sujet 一个真正成熟的人 regroupe ses déterminants devant 人 ; puis 能够 + 同时 + verbe, et la relative 相互矛盾的 précède 观点."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>而在于 / 成为 / 让你 / 的 / 不在于 / 意义 / 多少 / 读书 / 记住 / 一个 / 不同的人",
+  "autres": [
+   "读书的意义不在于让你成为一个不同的人，而在于记住多少。"
+  ],
+  "explication": "Sujet (读书的意义) + 不在于 A，而在于 B (« ne réside pas dans A mais dans B ») ; 让你 + verbe = « faire que tu… ». Échanger A et B donne une phrase correcte, de sens inverse.",
+  "traduction": "Le sens de la lecture ne tient pas à la quantité de choses qu'on retient, mais au fait qu'elle fait de toi une personne différente."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>作家 / 的 / 作品 / 这位 / 反映了 / 深刻地 / 那个时代的社会矛盾",
+  "autres": [],
+  "explication": "L'adverbe de manière + 地 se place devant le verbe (深刻地反映了) ; le sujet 这位作家的作品 ouvre la phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>能力 / 的 / 思考 / 她 / 就 / 解决问题 / 独立 / 和 / 从小 / 了 / 培养",
+  "autres": [
+   "她从小就培养了解决问题和独立思考的能力。",
+   "从小她就培养了独立思考和解决问题的能力。",
+   "从小她就培养了解决问题和独立思考的能力。"
+  ],
+  "explication": "从小 (« depuis l'enfance ») + 就 se placent devant le verbe, le sujet pouvant venir avant ou après 从小 ; les deux compétences reliées par 和 (interchangeables) déterminent 能力 avec 的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>随处 / 这种 / 生活中 / 在 / 可见 / 现象",
+  "autres": [
+   "在生活中，这种现象随处可见。"
+  ],
+  "explication": "在 + lieu se place devant le prédicat (在生活中随处可见) ou en tête de phrase ; 随处可见 est une expression figée."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 在 / 自己 / 了 / 努力 / 做 / 终于 / 多年 / 出了 / 成就 / 领域 / 喜欢 / 她 / 那么",
+  "autres": [],
+  "explication": "Verbe + 了 + durée (努力了那么多年) ; dans la 2e partie, 终于 précède 在 + domaine, puis le verbe 做出了."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>发展 / 了 / 改善 / 生活 / 的 / 不仅 / 推动 / 发明 / 这 / 还 / 工业 / 项 / 质量 / 了 / 人们 / 的",
+  "autres": [
+   "这项发明不仅推动了工业的发展，还改善了人们的生活质量。"
+  ],
+  "explication": "不仅…还… avec un même sujet : 不仅 après le sujet, 还 devant le 2e verbe ; chaque verbe prend 了 puis son objet déterminé par 的. Les deux parties peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>说话 / 沉默 / 的勇气 / 的勇气 / 保持 / 更难 / 往往 / 比",
+  "autres": [
+   "说话的勇气往往比保持沉默的勇气更难。"
+  ],
+  "explication": "A 比 B + 更 + adjectif ; l'adverbe 往往 se place avant 比. Chaque 的勇气 est précédé de ce qui le détermine (保持沉默 / 说话).",
+  "retirer": true
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一 / 梦想 / 追求 / 一 / 用 / 他人 / 不可能 / 时间 / 去 / 位 / 这 / 的 / 的 / 科学家 / 个 / 认为 / 生",
+  "autres": [],
+  "explication": "用 + durée (一生的时间) + 去 + verbe ; la relative 他人认为不可能的 se place entre 一个 et 梦想."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>全球 / 的 / 开发 / 气候变化 / 背景下 / 显得 / 可再生能源 / 尤为重要 / 与利用 / 在 / 的",
+  "autres": [
+   "可再生能源的开发与利用在全球气候变化的背景下显得尤为重要。"
+  ],
+  "explication": "在…背景下 (circonstance) se met en tête de phrase ou après le sujet ; le sujet 可再生能源的开发与利用 précède 显得 + adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 的 / 把 / 的 / 都化成 / 遗憾 / 了 / 所有 / 继续前行 / 力量",
+  "autres": [
+   "她把所有的遗憾都化成继续前行的力量了。"
+  ],
+  "explication": "把 + objet + 都 + verbe + résultat (化成…) ; 了 suit 化成 ou se met en fin de phrase. 所有的 précède le nom."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>因为 / 不是 / 才 / 值得 / 被珍惜 / 真实 / 被爱 / 因为 / 她 / 完美 / 才 / 值得 / 而是",
+  "autres": [
+   "她不是因为完美才值得被珍惜，而是因为真实才值得被爱。",
+   "她不是因为真实才值得被爱，而是因为完美才值得被珍惜。",
+   "她不是因为真实才值得被珍惜，而是因为完美才值得被爱。"
+  ],
+  "explication": "不是因为 A 才 B，而是因为 C 才 D : la cause (因为…) précède 才 + conséquence. 被爱 / 被珍惜 peuvent s'échanger ; échanger 完美 et 真实 inverse le sens."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这项 / 改变了 / 推动了 / 技术 / 社会的进步 / 不仅 / 的 / 发展 / 而且 / 生活方式 / 人们的 / 整个",
+  "autres": [
+   "这项技术的发展不仅推动了整个社会的进步，而且改变了人们的生活方式。"
+  ],
+  "explication": "Sujet (这项技术的发展) + 不仅 + V1，而且 + V2 : 不仅 se place après le sujet ; 整个 précède 社会的进步. Les deux parties peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>是 / 她 / 这 / 的 / 团队 / 整个 / 成功 / 的 / 也是 / 荣耀 / 不仅",
+  "autres": [
+   "这不仅是她的荣耀，也是整个团队的成功。",
+   "这不仅是整个团队的成功，也是她的荣耀。",
+   "这不仅是整个团队的荣耀，也是她的成功。"
+  ],
+  "explication": "这 + 不仅是 A，也是 B : 不仅 précède 是. Les groupes « possesseur + 的 + nom » peuvent s'échanger (她的 / 整个团队的, 成功 / 荣耀)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 公交车 / 挤 / 走路 / 也不愿意 / 宁可",
+  "autres": [],
+  "explication": "宁可 A，也不 B (« préférer A plutôt que B ») : 宁可 se place après le sujet ; 挤公交车 = « s'entasser dans le bus »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这家 / 的 / 公司 / 流程 / 非常严格 / 面试",
+  "autres": [
+   "这家公司面试的流程非常严格。"
+  ],
+  "explication": "Le déterminant avec 的 précède le nom : 这家公司的 + 面试流程 ; le prédicat adjectival 非常严格 vient à la fin, sans 是."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>对 / 认知 / 改变 / 本书 / 这 / 的 / 了 / 方式 / 他 / 世界",
+  "autres": [],
+  "explication": "Verbe + 了 + objet ; l'objet 认知方式 est déterminé par 他对世界的 : 对 + objet peut entrer dans un déterminant avec 的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>明明 / 都 / 什么 / 知道 / 他 / 结果 / 没说 / 却",
+  "autres": [],
+  "explication": "明明 (« pourtant bien ») se place après le sujet, devant le verbe ; 却 ouvre la 2e partie ; 什么都 + négation = « rien du tout »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>喜欢 / 但是 / 很 / 虽然 / 她 / 肠胃不太好 / 吃辣",
+  "autres": [
+   "虽然她很喜欢吃辣，但是肠胃不太好。"
+  ],
+  "explication": "虽然 se place avant ou après le sujet, 但是 ouvre la 2e proposition ; 很 précède 喜欢, suivi du verbe 吃辣."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>走出 / 走了 / 而在于 / 多少里路 / 一生 / 路 / 有没有 / 自己的 / 不在于 / 人的",
+  "autres": [
+   "人的一生不在于有没有走出自己的路，而在于走了多少里路。"
+  ],
+  "explication": "Sujet + 不在于 A，而在于 B ; 有没有 + verbe forme une question indirecte (« si l'on a… »). Échanger A et B donne une phrase correcte, de sens inverse.",
+  "traduction": "Une vie ne se mesure pas à la distance parcourue, mais au fait d'avoir tracé ou non son propre chemin."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>真正 / 世界 / 了解 / 开始 / 自己 / 真正 / 了解 / 当 / 才能 / 的时候 / 一个人",
+  "autres": [
+   "当一个人开始真正了解自己的时候，才能真正了解世界。",
+   "当一个人真正开始了解世界的时候，才能真正了解自己。",
+   "当一个人开始真正了解世界的时候，才能真正了解自己。"
+  ],
+  "explication": "当…的时候 encadre la circonstance en tête de phrase ; 才能 ouvre la 2e partie. 真正 se place devant le verbe qu'il renforce (真正开始 / 真正了解)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>提前 / 准备 / 只有 / 才能 / 做好 / 顺利通过考试",
+  "autres": [],
+  "explication": "只有 + condition, 才能 + résultat ; l'adverbe 提前 précède le verbe (提前做好准备)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 经济 / 快速 / 发展 / 的生活水平有了显著提高 / 随着 / 人们",
+  "autres": [],
+  "explication": "随着 + nom (经济的快速发展) ouvre la phrase ; l'adjectif 快速 se place devant 发展, après 的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>所有人 / 的 / 的 / 出乎 / 比赛 / 场 / 这 / 结果 / 预料",
+  "autres": [],
+  "explication": "Le sujet 这场比赛的结果 (démonstratif + classificateur + nom + 的 + nom) ouvre la phrase ; 出乎…的预料 = « dépasser les prévisions de… »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>相信 / 解释 / 亲自 / 否则 / 不会 / 你 / 她 / 除非",
+  "autres": [
+   "除非她亲自解释，否则你不会相信。"
+  ],
+  "explication": "除非 + condition, 否则 + conséquence négative ; 亲自 se place devant le verbe. Échanger 你 et 她 donne aussi une phrase correcte."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>在 / 实现 / 在 / 自我 / 不只是 / 工作 / 她 / 也是",
+  "autres": [],
+  "explication": "在 + verbe exprime l'action en cours (在工作, 在实现自我) ; 不只是… 也是… relie les deux actions après le sujet."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>桥梁 / 人 / 语言 / 直接 / 的 / 是 / 最 / 之间 / 沟通 / 与 / 人",
+  "autres": [
+   "语言是人与人之间最直接的沟通桥梁。"
+  ],
+  "explication": "Tout ce qui détermine 桥梁 se place devant lui : 人与人之间 + 沟通 + 最直接的 ; 最 précède l'adjectif."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>释放情绪 / 面对 / 用 / 选择了 / 来 / 压力 / 运动 / 他",
+  "autres": [
+   "他面对压力，选择了用运动来释放情绪。"
+  ],
+  "explication": "面对 + nom (la situation) se place en tête ou après le sujet ; 用 + moyen + 来 + verbe (but) forme l'objet de 选择了."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这 / 值得 / 一个 / 学习 / 每 / 精神 / 去 / 和 / 种 / 传承 / 人",
+  "autres": [],
+  "explication": "这种 + nom ; 值得 + personne + 去 + verbes : la personne (每一个人) se place entre 值得 et le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>将 / 了 / 多年 / 融入 / 与 / 思考 / 作品 / 观察 / 部 / 她 / 的 / 这",
+  "autres": [
+   "她将多年的思考与观察融入了这部作品。"
+  ],
+  "explication": "将 (= 把 à l'écrit) + objet + verbe + 了 + complément ; 多年的 détermine les deux noms coordonnés par 与, qui peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>了 / 本 / 一扇 / 的 / 书 / 他 / 新 / 打开 / 对 / 窗口 / 这 / 的 / 世界",
+  "autres": [],
+  "explication": "Verbe + 了 + objet ; l'objet 窗口 est précédé de ses déterminants : 他对世界的 + 一扇 + 新的.",
+  "retirer": true
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一路 / 末班车 / 她 / 赶 / 上 / 狂奔 / 为了",
+  "autres": [
+   "为了赶上末班车，她一路狂奔。"
+  ],
+  "explication": "为了 + but se place après le sujet ou en tête de phrase ; 赶上 (verbe + complément de résultat) + objet, puis 一路 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这 / 看似 / 两 / 密切 / 实则 / 相连 / 事情 / 无关 / 件",
+  "autres": [],
+  "explication": "这 + 两 + 件 + nom ; 看似 A，实则 B (« semble A, mais en réalité B ») : 实则 ouvre la 2e partie, et 密切 précède 相连."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一生 / 财富 / 金钱 / 不是 / 的 / 而是 / 中 / 最 / 人 / 的 / 宝贵 / 往往 / 经历",
+  "autres": [
+   "人的一生中最宝贵的财富往往不是经历，而是金钱。"
+  ],
+  "explication": "Le sujet 人的一生中最宝贵的财富 regroupe tous les déterminants ; 往往 précède 不是 A，而是 B. Échanger 金钱 et 经历 donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>就 / 她 / 做出了 / 承诺 / 履行 / 应该 / 既然",
+  "autres": [
+   "既然她做出了承诺，就应该履行。",
+   "既然做出了承诺，她就应该履行。"
+  ],
+  "explication": "既然 A，就 B (« puisque A, alors B ») : 既然 se place avant ou après le sujet ; 就 précède le modal 应该."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>行业 / 突破 / 整个 / 带来了革命性的变化 / 为 / 技术 / 的 / 这项",
+  "autres": [],
+  "explication": "为 + bénéficiaire (整个行业) se place avant le verbe 带来了 ; le sujet 这项技术的突破 ouvre la phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>城市 / 完善 / 的 / 这座 / 投资者 / 吸引了 / 基础设施 / 日益 / 大批",
+  "autres": [],
+  "explication": "日益 (« de jour en jour ») précède l'adjectif 完善 ; la 2e proposition (吸引了 + objet) reprend le même sujet sans le répéter."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>个 / 但 / 正是 / 世界 / 不确定性 / 它 / 的地方 / 这 / 迷人 / 了 / 这 / 充满",
+  "autres": [],
+  "explication": "这个世界 + 充满了 + objet ; dans la 2e partie, 但 + 这 + 正是 + ce qui est mis en relief (它迷人的地方)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>失败了 / 事 / 尝试过 / 从未 / 而是 / 不是 / 人生 / 真正 / 遗憾的 / 最",
+  "autres": [
+   "人生最遗憾的事不是从未真正尝试过，而是失败了。"
+  ],
+  "explication": "Sujet (人生最遗憾的事) + 不是 A，而是 B ; 从未 précède 真正 + verbe + 过. Échanger A et B donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的眼光 / 机会 / 缺乏的是 / 不缺乏 / 发现机会 / 善于 / 这 / 个时代",
+  "autres": [
+   "这个时代不缺乏善于发现机会的眼光，缺乏的是机会。"
+  ],
+  "explication": "不缺乏 A，缺乏的是 B : 的是 met B en relief dans la 2e partie ; 善于 + verbe + 的 détermine 眼光. Échanger A et B donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>筛选 / 有效信息 / 时代 / 信息 / 在 / 的 / 爆炸 / 的能力 / 尤为重要",
+  "autres": [
+   "筛选有效信息的能力在信息爆炸的时代尤为重要。"
+  ],
+  "explication": "在…的时代 (circonstance) se met en tête de phrase ou après le sujet ; la relative 筛选有效信息的 précède 能力."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>记忆 / 把 / 慢慢 / 动力 / 她 / 前行的 / 那段 / 了 / 痛苦 / 的 / 化成",
+  "autres": [
+   "她慢慢把那段痛苦的记忆化成了前行的动力。",
+   "她把那段痛苦的记忆慢慢化成前行的动力了。",
+   "她慢慢把那段痛苦的记忆化成前行的动力了。"
+  ],
+  "explication": "把 + objet + verbe + résultat (化成…) ; l'adverbe 慢慢 se place devant 把 ou devant le verbe, et 了 suit 化成 ou va en fin de phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>艰难 / 都 / 他 / 生活 / 无论 / 面对 / 选择 / 微笑 / 多",
+  "autres": [
+   "他无论生活多艰难，都选择微笑面对。"
+  ],
+  "explication": "无论 + sujet + 多 + adjectif ; dans la suite, 都 se place après le sujet 他 et devant le verbe. 微笑面对 = manière + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 排位赛 / 都会 / 开麦 / 每次 / 跟队友沟通 / 打 / 提前",
+  "autres": [
+   "每次打排位赛她都会提前开麦跟队友沟通。"
+  ],
+  "explication": "每次 + action (每次打排位赛) + 都会 se placent avant le verbe ; 提前 précède 开麦, et 跟 + personne précède le verbe 沟通."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 地 / 积累 / 毫无保留 / 年轻人 / 把 / 给了 / 多年 / 传授 / 她 / 经验",
+  "autres": [
+   "她毫无保留地把多年积累的经验传授给了年轻人。"
+  ],
+  "explication": "把 + objet + verbe + 给了 + bénéficiaire ; la manière + 地 (毫无保留地) se place devant le verbe ou devant 把."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>才能 / 真正 / 的人 / 的珍贵 / 黑暗 / 只有 / 光明 / 经历过 / 懂得",
+  "autres": [],
+  "explication": "只有 + condition (ici un groupe nominal : 经历过黑暗的人), 才能 + résultat ; 真正 précède le verbe 懂得.",
+  "traduction": "Seuls ceux qui ont traversé les ténèbres peuvent vraiment comprendre combien la lumière est précieuse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>文化 / 只有 / 了解 / 才能 / 深入 / 一种 / 真正欣赏它的艺术作品",
+  "autres": [],
+  "explication": "只有 + condition, 才能 + résultat ; l'adverbe 深入 précède le verbe 了解."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的唯一教训 / 中 / 任何 / 人们 / 学到 / 历史 / 是 / 没有 / 学到 / 在于 / 教训 / 悲剧 / 从历史中 / 从历史 / 的",
+  "autres": [],
+  "explication": "…在于 + proposition ; la relative 从历史中学到的 précède 唯一教训 ; 没有 + verbe + 任何 + nom = « ne… aucun »."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>弥足珍贵 / 都 / 努力 / 成长 / 无论 / 和 / 中 / 结果 / 过程 / 如何 / 的",
+  "autres": [
+   "无论结果如何，过程中的成长和努力都弥足珍贵。"
+  ],
+  "explication": "无论 + 如何 ouvre la phrase ; 都 se place après le sujet (过程中的努力和成长) et devant le prédicat. Les noms reliés par 和 peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>属于 / 都有 / 跟别人 / 人 / 比较 / 不必 / 自己的 / 节奏 / 每一个",
+  "autres": [
+   "不必跟别人比较，每一个人都有属于自己的节奏。"
+  ],
+  "explication": "每一个人 + 都 + verbe ; 跟 + personne se place devant le verbe 比较, et 不必 devant 跟."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>成功 / 始终坚持创新 / 这家 / 它 / 是因为 / 之所以 / 企业 / 能够",
+  "autres": [],
+  "explication": "之所以 A，是因为 B (« si A, c'est parce que B ») : 之所以 suit le sujet ; 能够 précède le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>与其 / 不如 / 出去找工作 / 抱怨 / 在家里",
+  "autres": [],
+  "explication": "与其 A，不如 B (« plutôt que A, mieux vaut B ») ; 在 + lieu se place devant le verbe (在家里抱怨)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>在 / 瞬息万变 / 企业 / 立于不败之地 / 的 / 不断 / 方能 / 创新 / 唯有 / 市场中",
+  "autres": [
+   "在瞬息万变的市场中，唯有不断创新，企业方能立于不败之地。",
+   "企业在瞬息万变的市场中，唯有不断创新，方能立于不败之地。"
+  ],
+  "explication": "在…中 (circonstance) se met en tête ou après le sujet ; 唯有 A，方能 B (= 只有…才…) ; 不断 précède le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>坚持不懈 / 学好 / 最重要的 / 一门 / 要 / 语言 / 是",
+  "autres": [
+   "要学好一门语言，坚持不懈是最重要的。"
+  ],
+  "explication": "要 + verbe exprime le but (« pour… ») en tête de phrase ; puis 最重要的是 + ce qui importe, ou à l'inverse … 是最重要的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 比赛 / 声音 / 这场 / 解说员 / 特别有感染力",
+  "autres": [
+   "这场比赛解说员的声音特别有感染力。"
+  ],
+  "explication": "Les déterminants précèdent le nom (这场比赛的解说员 + 声音) ; 特别 précède le prédicat 有感染力."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的一部分 / 你 / 都是 / 好坏 / 经历 / 变成今天的你 / 不论 / 每一段",
+  "autres": [
+   "不论好坏，每一段经历都是你变成今天的你的一部分。"
+  ],
+  "explication": "不论好坏 (« bonne ou mauvaise ») s'insère après le sujet ou ouvre la phrase ; 都是 suit le sujet, et 你变成今天的你 détermine 一部分 avec 的.",
+  "retirer": true
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>小说 / 悬疑 / 最近 / 她 / 迷上了 / 看",
+  "autres": [
+   "最近她迷上了看悬疑小说。"
+  ],
+  "explication": "最近 (temps) se place après le sujet ou en tête de phrase ; 迷上了 + verbe + objet, et 悬疑 détermine 小说."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>越 / 大家 / 他 / 越 / 他在说谎 / 觉得 / 解释",
+  "autres": [],
+  "explication": "越 A，越 B avec deux sujets différents : chaque 越 se place après son sujet et devant le verbe (他越解释，大家越觉得…)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>是 / 的 / 保持 / 方式 / 最好 / 年轻 / 保持 / 好奇心",
+  "autres": [
+   "保持年轻最好的方式是保持好奇心。"
+  ],
+  "explication": "A 是 B avec deux groupes verbaux ; 最好的方式 est déterminé par 保持年轻 placé devant lui. Les deux côtés de 是 peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一辈子 / 是 / 不能 / 学习 / 急于求成 / 事情 / 的",
+  "autres": [
+   "不能急于求成，学习是一辈子的事情。"
+  ],
+  "explication": "Sujet + 是 + déterminant + 的 + nom (一辈子的事情) ; 不能 précède le verbe 急于求成."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看法 / 这件事 / 对 / 她 / 截然不同 / 大多数人 / 与 / 的",
+  "autres": [
+   "她与大多数人对这件事的看法截然不同。",
+   "大多数人对这件事的看法与她截然不同。",
+   "对这件事，她的看法与大多数人截然不同。",
+   "大多数人与她对这件事的看法截然不同。"
+  ],
+  "explication": "对 + objet + 的 + 看法 ; A 与 B 截然不同 : 与 + terme comparé se place devant le prédicat."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>逃避 / 选择 / 时候 / 而不是 / 她 / 坚持 / 艰难 / 最 / 在 / 的",
+  "autres": [
+   "在最艰难的时候，她选择坚持，而不是逃避。",
+   "她在最艰难的时候选择逃避，而不是坚持。",
+   "在最艰难的时候，她选择逃避，而不是坚持。"
+  ],
+  "explication": "在…的时候 se place après le sujet ou en tête de phrase ; 选择 + A，而不是 B. Échanger 坚持 et 逃避 donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>他 / 实际 / 外界 / 质疑 / 了 / 他 / 对 / 的 / 行动 / 以 / 回应",
+  "autres": [],
+  "explication": "以 + moyen (实际行动) se place avant le verbe ; 外界对他的 détermine 质疑 (对 + objet + 的 + nom)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 的 / 理想 / 数十年 / 力量 / 她 / 坚守 / 证明了 / 用",
+  "autres": [],
+  "explication": "用 + moyen (数十年的坚守) précède le verbe 证明了 ; chaque 的 relie un déterminant à son nom (理想的力量)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>并不 / 因为 / 众人 / 真实性 / 真理 / 的 / 反对 / 减少 / 其 / 而",
+  "autres": [],
+  "explication": "并不 + 因为 + cause + 而 + verbe : la négation 并不 porte sur le lien de cause, et 而 précède le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>影片 / 了 / 的 / 观众 / 细腻 / 无数 / 刻画 / 情感 / 打动 / 以 / 这部",
+  "autres": [],
+  "explication": "以 + moyen (细腻的情感刻画) précède le verbe 打动了 ; 无数 se place devant le nom 观众."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>优异 / 以 / 四年 / 成绩 / 的 / 毕业 / 完成了 / 学业 / 她 / 的 / 顺利",
+  "autres": [
+   "她顺利完成了四年的学业，以优异的成绩毕业。",
+   "她完成了四年的学业，以优异的成绩顺利毕业。"
+  ],
+  "explication": "以 + moyen (优异的成绩) se place devant le verbe qu'il modifie ; 顺利 précède lui aussi un verbe (顺利毕业 / 顺利完成)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 的 / 困境 / 面对 / 人 / 做出 / 选择 / 同样 / 的 / 不同 / 不同 / 会",
+  "autres": [],
+  "explication": "面对 + situation ouvre la phrase ; 会 précède le verbe 做出, et 不同的 se place devant chaque nom (不同的人 / 不同的选择)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>才 / 自己 / 对 / 是 / 的 / 对 / 真正 / 这 / 他 / 宽容 / 成熟 / 他人 / 严格",
+  "autres": [
+   "他对他人宽容，对自己严格，这才是真正的成熟。"
+  ],
+  "explication": "对 + personne se place avant l'adjectif (对自己严格) ; 这才是 + nom met la conclusion en relief en fin de phrase.",
+  "traduction": "Il est strict avec lui-même et indulgent envers les autres : c'est ça, la vraie maturité."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>通向 / 是 / 的 / 成功 / 次 / 都 / 一 / 垫脚石 / 失败 / 每",
+  "autres": [],
+  "explication": "每 + 一 + 次 + nom, puis 都 + 是 ; la relative 通向成功的 précède 垫脚石."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 不是 / 而是 / 随心所欲 / 的 / 负责 / 自由 / 选择 / 对自己 / 真正",
+  "autres": [
+   "真正的自由不是对自己的选择负责，而是随心所欲。"
+  ],
+  "explication": "Sujet + 不是 A，而是 B ; 对 + objet se place devant le verbe 负责 (对自己的选择负责). Échanger A et B donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>他 / 任务 / 不仅 / 超额 / 还 / 完成了 / 完成了指标 / 按时",
+  "autres": [
+   "他不仅超额完成了任务，还按时完成了指标。"
+  ],
+  "explication": "不仅…还… avec un même sujet ; les adverbes 按时 / 超额 se placent juste devant le verbe 完成了."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 有效地 / 这项 / 政策 / 的问题 / 出台 / 缓解了 / 住房紧张",
+  "autres": [],
+  "explication": "Le sujet est 这项政策的出台 ; l'adverbe + 地 (有效地) précède le verbe, et 住房紧张 détermine 问题 avec 的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 了 / 所有 / 挑战 / 她 / 而 / 以 / 一种 / 态度 / 坚定 / 的 / 谦逊 / 面对",
+  "autres": [
+   "她以一种坚定而谦逊的态度面对了所有的挑战。"
+  ],
+  "explication": "以 + manière (一种…的态度) précède le verbe ; A 而 B relie deux adjectifs, interchangeables."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一概而论 / 看法 / 有 / 不同 / 不同的 / 问题 / 对于 / 很难 / 这个 / 的人",
+  "autres": [
+   "不同的人对于这个问题有不同的看法，很难一概而论。"
+  ],
+  "explication": "对于 + sujet traité se met en tête de phrase ou après le sujet ; 很难 précède le verbe 一概而论."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一蹴而就 / 不是 / 的 / 成功 / 与 / 时间 / 需要 / 耐心 / 的 / 积累",
+  "autres": [
+   "成功不是一蹴而就的，需要耐心与时间的积累。"
+  ],
+  "explication": "不是…的 encadre le jugement (不是一蹴而就的) ; les noms reliés par 与 déterminent 积累 avec 的 et peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>往往 / 一个 / 真正 / 才华 / 自己 / 刻意 / 有 / 展示 / 不需要 / 的人",
+  "autres": [],
+  "explication": "Le sujet 一个真正有才华的人 regroupe ses déterminants devant 人 ; 往往 précède 不需要, puis 刻意 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>把 / 都 / 归咎于 / 他 / 错误 / 所有的 / 别人",
+  "autres": [
+   "别人把所有的错误都归咎于他。"
+  ],
+  "explication": "把 + objet + 都 + verbe + 于 + personne : 都 suit l'objet de 把 qu'il reprend. Échanger 他 et 别人 donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>脱颖而出 / 和 / 凭借 / 自己 / 才华 / 他 / 众多 / 竞争者中 / 的 / 从 / 努力",
+  "autres": [
+   "凭借自己的才华和努力，他从众多竞争者中脱颖而出。",
+   "他凭借自己的努力和才华，从众多竞争者中脱颖而出。",
+   "凭借自己的努力和才华，他从众多竞争者中脱颖而出。"
+  ],
+  "explication": "凭借 + moyen se place après le sujet ou en tête de phrase ; 从 + ensemble + 中 précède le verbe 脱颖而出. Les noms reliés par 和 peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 重大 / 力量 / 上 / 的 / 创新 / 都 / 离不开 / 每 / 历史 / 一 / 变革 / 次",
+  "autres": [],
+  "explication": "历史上 (cadre) ouvre la phrase ; 每一次 + adjectif + 的 + nom, puis 都 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>因为 / 的 / 才 / 正是 / 通力合作 / 完成了这个艰巨的任务 / 团队",
+  "autres": [],
+  "explication": "正是因为 + cause ouvre la phrase, puis 才 + résultat ; 团队的 détermine 通力合作."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>承载 / 民族 / 种 / 与 / 一个 / 着 / 文化 / 都 / 的 / 一 / 语言 / 任何 / 历史",
+  "autres": [
+   "任何一种语言都承载着一个民族的文化与历史。"
+  ],
+  "explication": "任何 + 一种 + nom, puis 都 ; verbe + 着 + objet (承载着…). Les noms reliés par 与 peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>了 / 走到底 / 不要 / 选择 / 就 / 应该 / 半途而废 / 既然",
+  "autres": [],
+  "explication": "既然 A，就 B ; 就 précède le modal 应该, et 不要 + verbe exprime l'interdiction en fin de phrase."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>不仅 / 远见 / 倾听 / 一 / 善于 / 的 / 领导者 / 有 / 个 / 好 / 要 / 还要",
+  "autres": [
+   "一个好的领导者不仅要善于倾听，还要有远见。"
+  ],
+  "explication": "不仅要…，还要… : 不仅 se place après le sujet et avant le modal 要 ; 善于 + verbe. Les deux qualités peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>更强 / 不是 / 成长 / 变得 / 的 / 与 / 而是 / 真正 / 自己和解 / 学会",
+  "autres": [
+   "真正的成长，不是学会与自己和解，而是变得更强。"
+  ],
+  "explication": "Sujet + 不是 A，而是 B ; 与 + personne précède le verbe 和解 (与自己和解). Échanger A et B donne une phrase correcte, de sens inverse."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>通过 / 揭示了 / 事件背后的真相 / 大量 / 这部 / 的 / 纪录片 / 采访",
+  "autres": [
+   "通过大量的采访，这部纪录片揭示了事件背后的真相。"
+  ],
+  "explication": "通过 + moyen se place après le sujet ou en tête de phrase, toujours avant le verbe 揭示了."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>社会 / 这 / 了 / 一 / 打动 / 也 / 部 / 这 / 对 / 引发 / 了 / 深思 / 的 / 电影 / 不仅 / 观众 / 问题",
+  "autres": [],
+  "explication": "不仅… 也… avec un même sujet (这部电影) ; 对 + objet + 的 détermine 深思 (社会对这一问题的深思)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>方式 / 都是 / 保持 / 乐观 / 何时 / 的 / 面对 / 最好 / 无论 / 困难",
+  "autres": [
+   "保持乐观无论何时都是面对困难的最好方式。"
+  ],
+  "explication": "无论何时 se met en tête ou après le sujet, suivi de 都 ; la relative 面对困难的 précède 最好方式."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>怎么 / 的 / 无论 / 都 / 从不 / 外界 / 自己 / 评价 / 信念 / 动摇 / 他",
+  "autres": [
+   "他无论外界怎么评价，都从不动摇自己的信念。"
+  ],
+  "explication": "无论 + question (外界怎么评价) + 都 : 都 se place après le sujet 他, puis 从不 + verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>艺术家 / 这位 / 具有 / 深刻的思想 / 蕴含 / 作品 / 而且 / 审美价值 / 不仅 / 的",
+  "autres": [
+   "这位艺术家的作品不仅蕴含深刻的思想，而且具有审美价值。"
+  ],
+  "explication": "Sujet (这位艺术家的作品) + 不仅 A，而且 B ; chaque verbe (具有 / 蕴含) est suivi de son objet. Les deux parties peuvent s'échanger."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>背景下 / 愈发 / 合作 / 变得 / 重要 / 国际 / 全球化 / 在",
+  "autres": [
+   "国际合作在全球化背景下变得愈发重要。"
+  ],
+  "explication": "在…背景下 se met en tête ou après le sujet ; 愈发 (« de plus en plus ») précède l'adjectif après 变得."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>第一时间 / 她 / 关注了 / 看到 / 为了 / 更新 / 能够 / 这位up主",
+  "autres": [
+   "她为了能够第一时间看到更新，关注了这位up主。"
+  ],
+  "explication": "为了 + but se met en tête ou après le sujet ; 能够 + 第一时间 + verbe : le modal précède l'indication de temps."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这份 / 它 / 是因为 / 价值观 / 自己的 / 之所以 / 符合 / 选择 / 工作 / 她",
+  "autres": [],
+  "explication": "之所以 A，是因为 B : 之所以 suit le sujet 她 ; dans la 2e partie, 它 (le travail) est le sujet de 符合."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的 / 处境 / 无论 / 都 / 多么 / 理想与追求 / 不应该 / 艰难 / 放弃 / 面对 / 自己的 / 轻易",
+  "autres": [],
+  "explication": "无论 + 多么 + adjectif + nom, puis 都 ; 不应该 + 轻易 + verbe : le modal précède l'adverbe de manière."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>市场 / 坚持自己的判断 / 不如 / 与其 / 潮流 / 跟随 / 盲目",
+  "autres": [],
+  "explication": "与其 A，不如 B ; l'adverbe 盲目 précède le verbe 跟随."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>很好的教育 / 之所以 / 逆境中 / 保持冷静 / 能够 / 她从小 / 在 / 她 / 是因为 / 就受到了",
+  "autres": [],
+  "explication": "之所以 A，是因为 B ; 在 + lieu (逆境中) précède le verbe, et 从小 + 就 précèdent 受到了."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>深受观众喜爱 / 演技 / 的 / 这位 / 演员 / 精湛",
+  "autres": [],
+  "explication": "Le sujet 这位演员的演技 + prédicat adjectival 精湛 ; la 2e partie (深受观众喜爱) suit, sans nouveau sujet."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>填补 / 的 / 该领域 / 了 / 研究 / 长期以来 / 这项 / 空白",
+  "autres": [],
+  "explication": "Verbe + 了 + objet ; l'objet 空白 est déterminé par 该领域长期以来的."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>绝 / 细节 / 每 / 他 / 都 / 一 / 马虎 / 不 / 精益求精 / 个 / 对",
+  "autres": [],
+  "explication": "对 + objet (每一个细节) + 都 + verbe ; dans la 2e partie, 绝不 précède le verbe."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>中 / 磨练 / 成长 / 只有 / 才能 / 在 / 真正 / 人 / 逆境 / 的",
+  "autres": [],
+  "explication": "只有 + condition (ici 在逆境中磨练的人), 才能 + verbe ; dans la relative, 在…中 précède le verbe 磨练."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>内心 / 无论 / 宁静 / 的 / 喧嚣 / 如何 / 资源 / 才是 / 最稀缺 / 外界 / 的",
+  "autres": [],
+  "explication": "无论 + sujet + 如何 + adjectif ouvre la phrase ; puis 内心的宁静 + 才是 + 最稀缺的资源 (才是 met en relief)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一个 / 决定 / 边界 / 世界 / 拓展 / 的 / 思想 / 学一门外语 / 边界 / 就是 / 的 / 语言 / 了",
+  "autres": [],
+  "explication": "Verbe + 了 + objet (决定了思想的边界) ; 就是 relie deux groupes verbaux (学一门外语 = 拓展一个世界)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>行动 / 去 / 花时间 / 盲目 / 问题 / 也不 / 采取 / 理解 / 宁愿 / 她",
+  "autres": [],
+  "explication": "宁愿 A，也不 B ; 花时间 + 去 + verbe exprime le but, et 盲目 précède le verbe 采取."
+ }
+]

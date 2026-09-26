@@ -85,6 +85,18 @@ CE QUI A CHANGE
     l'education, le vieillissement, les langues regionales, l'ethique scientifique...), repliques annoncees
     par 男：(homme) / 女：(femme), faits pour etre ecoutes avec la synthese vocale (voir ECOUTER LE CHINOIS plus
     bas). Meme verso que la lecture.
+  * Phrases de base : 797 phrases du HSK 1 au HSK 4 (150 / 197 / 225 / 225), classees par situation (se
+    presenter, acheter, s'orienter, restaurant, telephone, sante, logement, donner son avis, argumenter,
+    emotions, travail, etudes...) : ce qu'on doit savoir dire et comprendre sans reflechir. Chaque phrase
+    n'emploie que des mots de son niveau. Traduction, pinyin relu (长 chang, 得 dei...), notes sur les mots
+    cles. Etiquettes phrase_base et situation::... ; avant, le paquet n'avait que 217 phrases de niveau HSK 1-3.
+    Avec le type "Chinois (phrase)", chaque phrase se travaille dans les trois sens (voir plus bas).
+  * Remettre les mots dans l'ordre (连词成句, epreuve d'ecriture du HSK 3 a 5) : 497 exercices nouveaux (HSK 2 :
+    89, HSK 3 : 160, HSK 4 : 148, HSK 5 : 100), un point de grammaire chacun (place du temps, du lieu, des
+    adverbes, 把 / 被 / 比, complements de resultat, de direction, de duree, 是…的, 连…都, 只要…就...).
+    Au verso : la phrase, son pinyin, la traduction, la regle d'ordre et les autres ordres aussi corrects.
+    Les 165 anciens exercices d'ordre ont ete relus : 87 recoivent au verso les autres ordres admis et la
+    regle, 7 traductions corrigees, 4 retires (phrase chinoise peu naturelle, gardes avec a_supprimer).
   * Classificateurs : 338 exercices (etiquette exercice_classificateur) sur les noms du HSK 1 a 6 qui ont un
     classificateur propre (一匹马, 一把伞, 一场雨, 一副手套...) : une phrase avec un trou et trois choix ; les deux
     mauvais sont impossibles avec ce nom, les autres classificateurs possibles sont donnes au verso. Les noms
@@ -161,7 +173,12 @@ jour aurait efface l'audio de ce champ. Avec les fichiers actuels, ce n'est plus
 QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
   francais -> chinois).
-- Grammaire, Exercices, Phrases, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
+- Phrases : type "Chinois (phrase)", trois cartes par phrase : Lecture (chinois -> francais), Theme (francais
+  -> chinois, indice a la demande) et Dictee (on entend l'audio HyperTTS et on ecrit ou repete ; carte creee
+  seulement pour les phrases qui ont un audio). Voir TYPES_DE_NOTES.txt (creation et passage des phrases deja
+  importees a ce type, progression gardee). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
+  Parcourir > deck:Chinois::Phrases card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
+- Grammaire, Exercices, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
   champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
   carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
   tel quel (pas de couleur des tons, blocs d'exemple ecrases a 30 % de la largeur).

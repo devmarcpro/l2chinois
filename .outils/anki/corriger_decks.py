@@ -486,6 +486,8 @@ class Lexique:
             if not CJK.search(mot) or nature in ("nr", "nrfg", "nrt", "ns", "nt", "nz", "m"):
                 continue
             n = self.mot.get(mot) or self.mot.get(mot + "儿")
+            if len(mot) == 3 and mot[1] in "没不" and mot[0] == mot[2] and mot[0] in self.mot:
+                n = self.mot[mot[0]]  # 有没有, 是不是 : question A不A, niveau du verbe (有没有 est classé HSK 6)
             niveaux.append(n or max(self.car.get(c, 7) for c in mot if CJK.match(c)))
         return max(niveaux, default=1)
 
@@ -728,6 +730,8 @@ def main():
         print(f"  {k} : {v}")
     for mot, redige, calcule in contenu_hsk.ECARTS_PINYIN:
         print(f"   pinyin à relire : {mot}  rédigé {redige}  calculé {calcule}")
+    for phrase, redige, calcule in contenu_hsk.ECARTS_PHRASES:
+        print(f"   pinyin de phrase à relire : {phrase}  rédigé {redige}  calculé {calcule}")
     print("\n=== corrections par paquet et par famille")
     for (paquet, famille), n in sorted(stats.items()):
         print(f"  {paquet:22} {famille:45} {n}")

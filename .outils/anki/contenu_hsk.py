@@ -4,6 +4,7 @@
 - donnees_hsk/grammaire.json : une fiche par point du programme de grammaire officiel (HSK 2025), sauf ceux
   qu'une fiche existante traitait déjà ("couvert_par") ; exercices_grammaire.json : choix et phrases à corriger ;
 - donnees_hsk/classificateurs.json : classificateur à choisir pour les noms du HSK 1-6 ;
+- donnees_hsk/ordre.json : remettre les mots dans l'ordre (HSK 2-5) ; phrases_base.json : phrases de base HSK 1-4 ;
 - donnees_hsk/lecture.json, ecoute.json : textes et dialogues gradués.
 Textes rédigés puis relus ; le pinyin et la forme traditionnelle sont calculés ici.
 Programme de grammaire : github.com/krmanik/HSK-3.0 (d'après le document officiel du ministère et le 新版HSK考试大纲).
@@ -11,6 +12,7 @@ Programme de grammaire : github.com/krmanik/HSK-3.0 (d'après le document offici
 import html
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 DONNEES = Path(__file__).parent / "donnees_hsk"
@@ -135,6 +137,49 @@ def exercice_classificateur(e):
     return [recto, verso, "", "exercice_classificateur deck_v2 ajout_2026 HSK_officiel"]
 
 
+ECARTS_PHRASES = []  # (phrase, pinyin rédigé, pinyin calculé) quand les lettres diffèrent : à relire
+
+
+def note_phrase_base(e):
+    """Phrase de base HSK 1-4 (donnees_hsk/phrases_base.json), au format du paquet Phrases."""
+    from contenu_cours import lire_phrase, span, CJK
+    from corriger_decks import vers_trad
+    from pinyin_correct import base
+    zh = e["zh"]
+    cars = CJK.findall(zh)
+    redige, lectures = e.get("pinyin", "").lower().split(), lire_phrase(zh)
+    if len(redige) == len(lectures):
+        for k, (a, b) in enumerate(zip(redige, lectures)):
+            # lecture d'un caractère à plusieurs lectures (长 cháng, 得 děi…) : celle du rédacteur, relue ;
+            # 谁 garde shuí comme dans le reste des paquets, 儿 est réglé par erhua.py
+            if base(a) != base(b) and cars[k] not in "谁儿":
+                ECARTS_PHRASES.append((zh, a, b))
+                lectures[k] = a
+    it = iter(lectures)
+    ligne = ""
+    for c in zh:  # même format que spans_par_syllabe
+        if CJK.match(c):
+            ligne += ("" if not ligne or ligne[-1] in "，。！？、；：“”《》（）" else " ") + span(next(it))
+        elif not c.isspace():
+            ligne += c
+    verso = (f'<span class="hanzi-trad">{vers_trad(zh)}</span><br>{ligne}<br>{_texte(e["fr"])}<br><br>'
+             f'<div class="exemple-bloc"><b>Notes :</b><br>{_texte(e["notes"])}</div>')
+    situation = re.sub(r"[^a-z0-9]+", "_", unicodedata.normalize("NFD", e["situation"].lower()).encode("ascii", "ignore").decode()).strip("_")
+    return [zh, verso, "", f"phrase_base situation::{situation} ajout_2026 HSK_officiel"]
+
+
+def exercice_ordre(e):
+    """Remettre les mots dans l'ordre (连词成句) : morceaux dans le désordre, phrase correcte, autres ordres admis."""
+    from contenu_cours import spans_par_mot
+    recto = "Remettez les mots dans le bon ordre :<br><br>" + " / ".join(_texte(m) for m in e["morceaux"])
+    regle = f'<b>Règle :</b> {_texte(e["explication"])} <i>({_texte(e["point"])})</i>'
+    if e.get("autres"):
+        regle += "<br><b>Aussi correct :</b> " + " ".join(_texte(a) for a in e["autres"])
+    verso = (f'<b>Ordre correct :</b><br>{_texte(e["phrase"])}<br><small>{spans_par_mot(e["phrase"])}</small><br>'
+             f'<i>{_texte(e["traduction"])}</i><br><br><div class="exemple-bloc">{regle}</div>')
+    return [recto, verso, "", "exercice_ordre deck_v2 ajout_2026 HSK_officiel"]
+
+
 def carte_theme(e):
     """Thème (français -> chinois) : la phrase française d'un exemple de la fiche, la structure à employer en indice."""
     from contenu_cours import spans_par_mot
@@ -228,6 +273,45 @@ def ajouter_hsk(paquets):
         neuves = [n for n in (exercice_classificateur(e) for e in json.loads(f.read_text(encoding="utf-8"))) if n[0] not in rectos]
         paquets["Exercices"] += neuves
         bilan["Exercices : classificateurs des noms du programme officiel"] = len(neuves)
+    f = DONNEES / "ordre.json"
+    if f.exists():
+        rectos = {r[0] for r in paquets["Exercices"]}
+        neuves = []
+        for n in (exercice_ordre(e) for e in json.loads(f.read_text(encoding="utf-8"))):
+            if n[0] not in rectos:
+                rectos.add(n[0])
+                neuves.append(n)
+        paquets["Exercices"] += neuves
+        bilan["Exercices : remettre les mots dans l'ordre (HSK 2-5)"] = len(neuves)
+    f = DONNEES / "ordre_anciens.json"  # anciens exercices d'ordre : autres ordres admis et règle, ajoutés au verso
+    if f.exists():
+        ajouts = {e["recto"]: e for e in json.loads(f.read_text(encoding="utf-8"))}
+        # phrase chinoise peu naturelle : exercice retiré (garder_anciens_rectos le garde avec a_supprimer)
+        retires = {k for k, e in ajouts.items() if e.get("retirer")}
+        paquets["Exercices"] = [r for r in paquets["Exercices"] if r[0] not in retires]
+        bilan["Exercices : anciens exercices d'ordre retirés (phrase peu naturelle)"] = len(retires)
+        n = 0
+        for r in paquets["Exercices"]:
+            e = ajouts.get(r[0])
+            if e and e.get("traduction") and "a_supprimer" not in r[3].split():
+                r[1] = re.sub(r"(<b>Traduction :</b>\s*)[^<]*", lambda m: m.group(1) + _texte(e["traduction"]), r[1], count=1)
+            if e and "a_supprimer" not in r[3].split() and (e["autres"] or e["explication"]):
+                bloc = f'<b>Règle :</b> {_texte(e["explication"])}' if e["explication"] else ""
+                if e["autres"]:
+                    bloc += ("<br>" if bloc else "") + "<b>Aussi correct :</b> " + " ".join(_texte(a) for a in e["autres"])
+                r[1] += f'<br><div class="exemple-bloc">{bloc}</div>'
+                n += 1
+        bilan["Exercices : anciens exercices d'ordre complétés (autres ordres admis, règle)"] = n
+    f = DONNEES / "phrases_base.json"
+    if f.exists():
+        rectos = {r[0] for r in paquets["Phrases"]}
+        neuves = []
+        for n in (note_phrase_base(e) for e in json.loads(f.read_text(encoding="utf-8"))):
+            if n[0] not in rectos:
+                rectos.add(n[0])
+                neuves.append(n)
+        paquets["Phrases"] += neuves
+        bilan["Phrases : phrases de base HSK 1-4 par situation"] = len(neuves)
     for paquet, fichier, fabrique in (("Lecture", "lecture.json", note_lecture), ("Ecoute", "ecoute.json", note_ecoute)):
         f = DONNEES / fichier
         if f.exists():

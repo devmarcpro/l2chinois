@@ -10,7 +10,16 @@ puis Cartes... : dans chacun des trois onglets (modele du recto, modele du verso
 ce qui s'y trouve puis coller le bloc correspondant de ce fichier. Chaque bloc va de la ligne qui suit son
 titre ########## jusqu'a la ligne qui precede le titre suivant ; il se colle tel quel, sans rien retoucher.
 
-- "Chinois (texte)"    : Grammaire, Exercices, Phrases, Lecture.
+- "Chinois (texte)"    : Grammaire, Exercices, Lecture.
+- "Chinois (phrase)"   : Phrases. Trois cartes par phrase : 1 Lecture (chinois -> francais), 2 Theme (francais
+  -> chinois, avec un indice a la demande), 3 Dictee (on entend l'audio HyperTTS du champ "Ajouter le verso" et on
+  ecrit ou repete la phrase ; cette carte n'existe que pour les phrases qui ont un audio).
+  Creation : Cloner "Chinois (texte)" (ou ton "Chinois Texte", pour garder le champ "Ajouter le verso") > nom
+  Chinois (phrase) > Cartes... : coller les blocs de la carte 1 ; puis Options > Ajouter un type de carte (deux
+  fois), renommer Theme et Dictee, et coller leurs blocs. Si ton champ audio porte un autre nom, remplacer
+  "Ajouter le verso" par ce nom dans les modeles.
+  Passer les phrases deja importees a ce type (progression gardee) : Parcourir > deck:Chinois::Phrases > tout
+  selectionner > Notes > Changer le type de note > Chinois (phrase), champs dans le meme ordre, Carte 1 -> Lecture.
 - "Chinois (ecoute)"   : Ecoute (le texte est lu par la synthese vocale et cache au recto).
 - "Chinois (ecriture)" : Ecriture. Au recto, une case quadrillee pour ecrire le caractere a la souris ou au
   doigt, trait par trait (un trait faux est refuse ; au bout de 3 erreurs sur un trait, il est montre en
@@ -56,6 +65,12 @@ Avec HyperTTS a la place (fichiers audio, qui passent aussi sur le telephone a l
         return '<span class="option">' + o + '</span>';
       }).join('') + '</div>';
     }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
+      }).join('') + '</div>';
+    }
     if (ZH.test(t) && CJK.test(t)) {
       var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
       var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
@@ -89,6 +104,12 @@ Avec HyperTTS a la place (fichiers audio, qui passent aussi sur le telephone a l
     if (/^Choix\s*:/.test(t)) {
       return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
         return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
       }).join('') + '</div>';
     }
     if (ZH.test(t) && CJK.test(t)) {
@@ -245,6 +266,414 @@ ruby rt {
 /* verso : reponse et traduction en evidence */
 #answer ~ .texte > b:first-child { font-size: 1.2em; }
 .traduction { font-size: 1.3em; margin: 4px 0; }
+
+
+########## "Chinois (phrase)" : CARTE 1 LECTURE, MODELE DU RECTO ##########
+
+<div class="texte">{{Recto}}</div>
+
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+
+
+########## "Chinois (phrase)" : CARTE 1 LECTURE, MODELE DU VERSO ##########
+
+<div class="texte">{{Recto}}</div>
+<hr id="answer">
+<div class="texte">{{Verso}}</div>
+{{Ajouter le verso}}
+
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+<script>
+(function () {
+  // verso d'une phrase (forme traditionnelle, pinyin, traduction) : traduction en plus grand
+  var V = document.querySelector('#answer ~ .texte');
+  if (!V || V.getAttribute('data-mis')) return;
+  V.setAttribute('data-mis', '1');
+  if (!/^\s*<span class="hanzi-trad">/.test(V.innerHTML)) return;
+  var p = V.innerHTML.split(/<br\s*\/?>/i);
+  if (p.length > 2 && p[2].trim() && p[2].indexOf('<') === -1) {
+    p[2] = '<div class="traduction">' + p[2] + '</div>';
+    while (p.length > 4 && !p[3].trim() && !p[4].trim()) p.splice(3, 1);  // pas de grand vide apres la traduction
+    V.innerHTML = p.join('<br>');
+  }
+})();
+</script>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## "Chinois (phrase)" : CARTE 2 THEME, MODELE DU RECTO ##########
+
+<div class="consigne">Dites ou écrivez en chinois :</div>
+<div id="theme-fr" class="traduction"></div>
+<span id="theme-indice" class="bouton-indice">💡 indice (mots clés)</span>
+<div id="verso-cache" style="display:none">{{Verso}}</div>
+
+<script>
+(function () {
+  // la traduction francaise, prise dans le champ Verso (forme traditionnelle, pinyin, traduction, notes)
+  var v = document.getElementById('verso-cache');
+  var z = document.getElementById('theme-fr');
+  if (!v || !z) return;
+  var p = v.innerHTML.split(/<br\s*\/?>/i);
+  z.innerHTML = (p[/hanzi-trad/.test(p[0]) ? 2 : 1] || '').trim();
+  var notes = v.querySelector('.exemple-bloc');
+  var aide = document.getElementById('theme-indice');
+  if (notes && aide) {
+    aide.addEventListener('click', function () {
+      aide.outerHTML = '<div class="exemple-bloc">' + notes.innerHTML + '</div>';
+    });
+  } else if (aide) { aide.style.display = 'none'; }
+})();
+</script>
+
+
+########## "Chinois (phrase)" : CARTE 2 THEME, MODELE DU VERSO ##########
+
+<div class="consigne">Dites ou écrivez en chinois :</div>
+<div id="theme-fr" class="traduction"></div>
+<div id="verso-cache" style="display:none">{{Verso}}</div>
+<hr id="answer">
+<div class="texte">{{Recto}}</div>
+<div class="texte">{{Verso}}</div>
+{{Ajouter le verso}}
+
+<script>
+(function () {
+  // la traduction francaise, prise dans le champ Verso (forme traditionnelle, pinyin, traduction, notes)
+  var v = document.getElementById('verso-cache');
+  var z = document.getElementById('theme-fr');
+  if (!v || !z) return;
+  var p = v.innerHTML.split(/<br\s*\/?>/i);
+  z.innerHTML = (p[/hanzi-trad/.test(p[0]) ? 2 : 1] || '').trim();
+  var notes = v.querySelector('.exemple-bloc');
+  var aide = null;
+  if (notes && aide) {
+    aide.addEventListener('click', function () {
+      aide.outerHTML = '<div class="exemple-bloc">' + notes.innerHTML + '</div>';
+    });
+  } else if (aide) { aide.style.display = 'none'; }
+})();
+</script>
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## "Chinois (phrase)" : CARTE 3 DICTEE, MODELE DU RECTO (carte creee seulement si la phrase a un audio) ##########
+
+{{#Ajouter le verso}}
+<div class="consigne">🎧 Écoutez, puis écrivez (ou répétez) la phrase</div>
+{{Ajouter le verso}}
+{{/Ajouter le verso}}
+
+
+########## "Chinois (phrase)" : CARTE 3 DICTEE, MODELE DU VERSO ##########
+
+<div class="consigne">🎧 Écoutez, puis écrivez (ou répétez) la phrase</div>
+{{Ajouter le verso}}
+<hr id="answer">
+<div class="texte">{{Recto}}</div>
+<div class="texte">{{Verso}}</div>
+
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    var morceaux = t.split(' / ');
+    if (morceaux.length > 2 && morceaux.every(function (o) { return ZH.test(o) && CJK.test(o); })) {
+      return '<div class="choix morceaux">' + morceaux.map(function (o) {
+        return '<span class="option">' + o.trim() + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## "Chinois (phrase)" : STYLE ##########
+
+.card {
+  font-family: "Segoe UI", "Microsoft YaHei", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.t1 { color: #e74c3c; }
+.t2 { color: #c9950c; }
+.t3 { color: #27ae60; }
+.t4 { color: #2980b9; }
+.t0 { color: #95a5a6; }
+
+@font-face {
+  font-family: "ExempleFont";
+  src: local("AR PL UKai CN"), local("AR PL UKai TW"), local("AR PL UKai"),
+       local("KaiTi"), local("STKaiti"), local("楷体");
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF,
+                 U+2A700-2B73F, U+3000-303F, U+FF00-FFEF;
+  size-adjust: 115%;
+}
+
+.texte {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hanzi-trad {
+  font-family: "AR PL UKai CN", "AR PL UKai TW", "KaiTi", serif;
+  font-size: 26px;
+  color: #999;
+  letter-spacing: 3px;
+}
+
+.exemple-bloc {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  width: fit-content;
+  margin: 8px auto;
+  max-width: 90%;
+  font-size: 22px;
+  display: block;
+  line-height: 2;
+}
+.nightMode .exemple-bloc, .night_mode .exemple-bloc { border-color: #555; box-shadow: none; }
+
+ruby { ruby-align: center; }
+ruby rt {
+  font-size: 0.5em;
+  line-height: 1;
+  font-family: "Segoe UI", "Arial", sans-serif;
+  opacity: 0.55;
+}
+
+/* bouton あ : cache le pinyin de la reponse (rubis et lignes de pinyin en couleur), pas celui de la question
+   (le recto du paquet Ecriture donne la lecture a trouver) */
+.card.ruby-hidden #answer ~ .texte ruby rt,
+.card.ruby-hidden #answer ~ .texte span.t0, .card.ruby-hidden #answer ~ .texte span.t1,
+.card.ruby-hidden #answer ~ .texte span.t2, .card.ruby-hidden #answer ~ .texte span.t3,
+.card.ruby-hidden #answer ~ .texte span.t4 { display: none; }
+
+#ruby-toggle {
+  position: fixed;
+  left: 8px;
+  top: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.3;
+  user-select: none;
+  z-index: 200;
+  transition: opacity 0.2s;
+  padding: 5px 4px;
+  border-radius: 4px;
+}
+#ruby-toggle:hover, #ruby-toggle.active { opacity: 0.9; }
+
+/* paquet Ecoute */
+.ecoute-label { font-size: 18px; color: #888; }
+.ecoute-audio { font-size: 48px; margin: 10px 0; }
+.ecoute-texte, .ecoute-reveal { text-align: left; font-size: 26px; line-height: 1.9; }
+
+/* recto : caractere isole (exercices de ton, de pinyin...), lignes en chinois, choix */
+.hanzi {
+  font-family: "AR PL UKai CN", "AR PL UKai TW", "AR PL UKai", "KaiTi", "STKaiti", "楷体", "SimKai", serif;
+  font-size: 90px;
+  line-height: 1.2;
+}
+.zh-ligne { font-family: "ExempleFont", serif; font-size: 1.45em; }
+.zh-seule { font-size: 2em; }
+.zh-moyenne { font-size: 1.7em; }
+.choix { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 8px auto 0; max-width: 90%; }
+.option {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  padding: 2px 14px;
+}
+.nightMode .option, .night_mode .option { border-color: #666; }
+
+/* verso : reponse et traduction en evidence */
+#answer ~ .texte > b:first-child { font-size: 1.2em; }
+.traduction { font-size: 1.3em; margin: 4px 0; }
+
+/* type phrase : consignes des cartes theme et dictee */
+.consigne { font-size: 20px; color: #888; margin-bottom: 10px; }
+.bouton-indice { display: inline-block; margin-top: 18px; font-size: 16px; color: #888; cursor: pointer;
+  border: 1px dashed #888; border-radius: 8px; padding: 2px 10px; }
 
 
 ########## "Chinois (ecoute)" : MODELE DU RECTO ##########
