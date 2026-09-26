@@ -689,6 +689,8 @@ def main():
         for r in rangs:
             r[3] = " ".join(r[3].split())
     ajouts = ajouter_contenu(paquets)
+    import contenu_hsk
+    ajouts.update(contenu_hsk.ajouter_hsk(paquets))
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()
@@ -707,6 +709,8 @@ def main():
     print("\n=== contenu ajouté")
     for k, v in ajouts.items():
         print(f"  {k} : {v}")
+    for mot, redige, calcule in contenu_hsk.ECARTS_PINYIN:
+        print(f"   pinyin à relire : {mot}  rédigé {redige}  calculé {calcule}")
     print("\n=== corrections par paquet et par famille")
     for (paquet, famille), n in sorted(stats.items()):
         print(f"  {paquet:22} {famille:45} {n}")
