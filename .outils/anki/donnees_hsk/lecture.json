@@ -1,0 +1,1991 @@
+[
+ {
+  "titre": "我家五口人",
+  "niveau": 1,
+  "texte": "我家有五口人：爸爸、妈妈、哥哥、妹妹和我。爸爸是医生，他在医院工作。妈妈是老师。哥哥是大学生，他在北京上大学。妹妹六岁，她很喜欢小狗。我爱我的家人。",
+  "traduction": "Nous sommes cinq dans ma famille : papa, maman, mon grand frère, ma petite sœur et moi. Papa est médecin, il travaille à l'hôpital. Maman est professeure. Mon grand frère est étudiant, il fait ses études à Pékin. Ma petite sœur a six ans, elle aime beaucoup les chiots. J'aime ma famille.",
+  "questions": [
+   {
+    "q": "爸爸在哪儿工作？",
+    "r": "在医院。"
+   },
+   {
+    "q": "哥哥在哪儿上大学？",
+    "r": "在北京。"
+   },
+   {
+    "q": "妹妹几岁？",
+    "r": "六岁。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "口",
+    "pinyin": "kǒu",
+    "sens": "classificateur pour les membres d'une famille"
+   },
+   {
+    "mot": "医院",
+    "pinyin": "yīyuàn",
+    "sens": "hôpital"
+   },
+   {
+    "mot": "大学生",
+    "pinyin": "dàxuéshēng",
+    "sens": "étudiant (à l'université)"
+   },
+   {
+    "mot": "家人",
+    "pinyin": "jiārén",
+    "sens": "famille, membres de la famille"
+   }
+  ]
+ },
+ {
+  "titre": "星期一",
+  "niveau": 1,
+  "texte": "今天星期一。我早上七点起床，七点半吃早饭。八点我去学校上课。上午我们有汉语课，老师很好，同学们也很好。中午我在学校吃午饭。下午四点下课，我回家看书。",
+  "traduction": "Aujourd'hui, c'est lundi. Je me lève à sept heures du matin et je prends mon petit déjeuner à sept heures et demie. À huit heures, je vais en cours à l'école. Le matin, nous avons cours de chinois ; le professeur est très gentil, et les camarades aussi. À midi, je déjeune à l'école. L'après-midi, les cours finissent à quatre heures et je rentre à la maison pour lire.",
+  "questions": [
+   {
+    "q": "我几点起床？",
+    "r": "七点。"
+   },
+   {
+    "q": "上午我们有什么课？",
+    "r": "汉语课。"
+   },
+   {
+    "q": "下午几点下课？",
+    "r": "四点。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "起床",
+    "pinyin": "qǐchuáng",
+    "sens": "se lever (du lit)"
+   },
+   {
+    "mot": "早饭",
+    "pinyin": "zǎofàn",
+    "sens": "petit déjeuner"
+   },
+   {
+    "mot": "上课",
+    "pinyin": "shàngkè",
+    "sens": "aller en cours, avoir cours"
+   },
+   {
+    "mot": "下课",
+    "pinyin": "xiàkè",
+    "sens": "finir les cours, sortir de classe"
+   }
+  ]
+ },
+ {
+  "titre": "吃什么",
+  "niveau": 1,
+  "texte": "A：现在十二点了，我们去吃午饭吧。\nB：好。你想吃什么？\nA：我想吃饺子。你呢？\nB：我喜欢吃面条儿。\nA：学校前边有一个饭店，那儿有饺子，也有面条儿。\nB：太好了！我们去那儿吃吧。",
+  "traduction": "A : Il est midi, allons déjeuner.\nB : D'accord. Qu'est-ce que tu veux manger ?\nA : J'ai envie de raviolis. Et toi ?\nB : Moi, j'aime les nouilles.\nA : Il y a un restaurant devant l'école : on y trouve des raviolis, et aussi des nouilles.\nB : Parfait ! Allons manger là-bas.",
+  "questions": [
+   {
+    "q": "A想吃什么？",
+    "r": "饺子。"
+   },
+   {
+    "q": "B喜欢吃什么？",
+    "r": "面条儿。"
+   },
+   {
+    "q": "饭店在哪儿？",
+    "r": "在学校前边。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "午饭",
+    "pinyin": "wǔfàn",
+    "sens": "déjeuner (repas de midi)"
+   },
+   {
+    "mot": "饺子",
+    "pinyin": "jiǎozi",
+    "sens": "raviolis chinois"
+   },
+   {
+    "mot": "面条儿",
+    "pinyin": "miàntiáor",
+    "sens": "nouilles"
+   },
+   {
+    "mot": "饭店",
+    "pinyin": "fàndiàn",
+    "sens": "restaurant"
+   }
+  ]
+ },
+ {
+  "titre": "下雨天",
+  "niveau": 1,
+  "texte": "今天是星期六。天气不好，下雨了，还有点儿冷。我们都在家里。我看电视，妈妈做饭，爸爸看书。明天天气会很好，不下雨，也不冷。明天上午，我想和朋友去打球。",
+  "traduction": "Aujourd'hui, c'est samedi. Il ne fait pas beau : il pleut, et en plus il fait un peu froid. Nous sommes tous à la maison. Je regarde la télévision, maman fait la cuisine et papa lit. Demain, il fera beau : il ne pleuvra pas et il ne fera pas froid. Demain matin, je voudrais aller jouer au ballon avec des amis.",
+  "questions": [
+   {
+    "q": "今天天气怎么样？",
+    "r": "不好，下雨了，还有点儿冷。"
+   },
+   {
+    "q": "妈妈在做什么？",
+    "r": "做饭。"
+   },
+   {
+    "q": "明天上午我想做什么？",
+    "r": "和朋友去打球。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "天气",
+    "pinyin": "tiānqì",
+    "sens": "temps (météo)"
+   },
+   {
+    "mot": "下雨",
+    "pinyin": "xiàyǔ",
+    "sens": "pleuvoir"
+   },
+   {
+    "mot": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "sens": "un peu (souvent pour une gêne)"
+   },
+   {
+    "mot": "打球",
+    "pinyin": "dǎqiú",
+    "sens": "jouer au ballon"
+   }
+  ]
+ },
+ {
+  "titre": "买衣服",
+  "niveau": 1,
+  "texte": "A：你好！请问，这件衣服多少钱？\nB：三百块。\nA：太贵了！有便宜一点儿的吗？\nB：有，那件两百块。\nA：我可以看看吗？\nB：可以，您看。\nA：这件也很漂亮，我要这件。\nB：好的，谢谢！",
+  "traduction": "A : Bonjour ! Excusez-moi, combien coûte ce vêtement ?\nB : Trois cents yuans.\nA : C'est trop cher ! Vous en avez un moins cher ?\nB : Oui, celui-là coûte deux cents yuans.\nA : Je peux le regarder ?\nB : Bien sûr, regardez.\nA : Celui-ci est très joli aussi, je le prends.\nB : Très bien, merci !",
+  "questions": [
+   {
+    "q": "第一件衣服多少钱？",
+    "r": "三百块。"
+   },
+   {
+    "q": "A觉得第一件衣服怎么样？",
+    "r": "太贵了。"
+   },
+   {
+    "q": "那件衣服多少钱？",
+    "r": "两百块。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "件",
+    "pinyin": "jiàn",
+    "sens": "classificateur pour les vêtements, les affaires"
+   },
+   {
+    "mot": "贵",
+    "pinyin": "guì",
+    "sens": "cher"
+   },
+   {
+    "mot": "便宜",
+    "pinyin": "piányi",
+    "sens": "bon marché, pas cher"
+   },
+   {
+    "mot": "漂亮",
+    "pinyin": "piàoliang",
+    "sens": "joli, beau"
+   }
+  ]
+ },
+ {
+  "titre": "坐火车",
+  "niveau": 1,
+  "texte": "明天我和妈妈去北京看姐姐。我们不坐飞机，我们坐火车去。火车早上八点开，下午两点到北京。车票不贵，火车上还能吃饭、看书、睡觉。我很喜欢坐火车。",
+  "traduction": "Demain, maman et moi allons à Pékin voir ma grande sœur. Nous ne prenons pas l'avion, nous y allons en train. Le train part à huit heures du matin et arrive à Pékin à deux heures de l'après-midi. Les billets ne sont pas chers, et dans le train on peut aussi manger, lire et dormir. J'aime beaucoup prendre le train.",
+  "questions": [
+   {
+    "q": "我们去北京看谁？",
+    "r": "看姐姐。"
+   },
+   {
+    "q": "火车几点开？",
+    "r": "早上八点。"
+   },
+   {
+    "q": "火车几点到北京？",
+    "r": "下午两点。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "火车",
+    "pinyin": "huǒchē",
+    "sens": "train"
+   },
+   {
+    "mot": "飞机",
+    "pinyin": "fēijī",
+    "sens": "avion"
+   },
+   {
+    "mot": "车票",
+    "pinyin": "chēpiào",
+    "sens": "billet (de train, de bus)"
+   },
+   {
+    "mot": "睡觉",
+    "pinyin": "shuìjiào",
+    "sens": "dormir"
+   }
+  ]
+ },
+ {
+  "titre": "看电影",
+  "niveau": 1,
+  "texte": "A：喂，你好！明天晚上你有时间吗？\nB：有时间。什么事？\nA：我想去看电影，你去不去？\nB：好！几点的电影？\nA：七点半的。我们七点在电影院前边见，好吗？\nB：好的。明天见！",
+  "traduction": "A : Allô, bonjour ! Tu es libre demain soir ?\nB : Oui. Qu'est-ce qu'il y a ?\nA : Je voudrais aller voir un film. Tu viens ?\nB : D'accord ! Le film est à quelle heure ?\nA : À sept heures et demie. On se retrouve à sept heures devant le cinéma, d'accord ?\nB : Entendu. À demain !",
+  "questions": [
+   {
+    "q": "他们什么时候去看电影？",
+    "r": "明天晚上。"
+   },
+   {
+    "q": "他们看几点的电影？",
+    "r": "七点半的。"
+   },
+   {
+    "q": "他们在哪儿见？",
+    "r": "在电影院前边。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "晚上",
+    "pinyin": "wǎnshang",
+    "sens": "soir, soirée"
+   },
+   {
+    "mot": "时间",
+    "pinyin": "shíjiān",
+    "sens": "temps, moment libre"
+   },
+   {
+    "mot": "电影",
+    "pinyin": "diànyǐng",
+    "sens": "film"
+   },
+   {
+    "mot": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "sens": "cinéma (salle)"
+   }
+  ]
+ },
+ {
+  "titre": "现在几点",
+  "niveau": 1,
+  "texte": "A：现在几点了？\nB：九点五十分。\nA：我十点有课，我要去学校了。\nB：今天是星期六，你还有课吗？\nA：有，星期六上午我去学汉语，下午不上课。\nB：那你去吧，再见！\nA：再见！",
+  "traduction": "A : Quelle heure est-il ?\nB : Neuf heures cinquante.\nA : J'ai cours à dix heures, il faut que j'aille à l'école.\nB : Aujourd'hui, c'est samedi. Tu as quand même cours ?\nA : Oui, le samedi matin, je vais apprendre le chinois ; l'après-midi, je n'ai pas cours.\nB : Alors vas-y, au revoir !\nA : Au revoir !",
+  "questions": [
+   {
+    "q": "现在几点了？",
+    "r": "九点五十分。"
+   },
+   {
+    "q": "A几点有课？",
+    "r": "十点。"
+   },
+   {
+    "q": "今天星期几？",
+    "r": "星期六。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "现在",
+    "pinyin": "xiànzài",
+    "sens": "maintenant"
+   },
+   {
+    "mot": "分",
+    "pinyin": "fēn",
+    "sens": "minute"
+   },
+   {
+    "mot": "星期六",
+    "pinyin": "xīngqīliù",
+    "sens": "samedi"
+   },
+   {
+    "mot": "再见",
+    "pinyin": "zàijiàn",
+    "sens": "au revoir"
+   }
+  ]
+ },
+ {
+  "titre": "我生病了",
+  "niveau": 1,
+  "texte": "A：喂，你今天怎么没来上课？\nB：我生病了。\nA：你去医院看病了吗？\nB：去了。医生说我要多喝水，多休息。\nA：那你在家休息吧。明天能来学校吗？\nB：不知道，明天我给你打电话。\nA：好，再见！",
+  "traduction": "A : Allô, pourquoi tu n'étais pas en cours aujourd'hui ?\nB : Je suis malade.\nA : Tu as consulté un médecin à l'hôpital ?\nB : Oui. Le médecin dit que je dois boire beaucoup d'eau et beaucoup me reposer.\nA : Alors reste te reposer à la maison. Tu pourras venir à l'école demain ?\nB : Je ne sais pas, je t'appelle demain.\nA : D'accord, au revoir !",
+  "questions": [
+   {
+    "q": "B怎么了？",
+    "r": "生病了。"
+   },
+   {
+    "q": "医生说B要做什么？",
+    "r": "多喝水，多休息。"
+   },
+   {
+    "q": "B明天会做什么？",
+    "r": "给A打电话。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "生病",
+    "pinyin": "shēngbìng",
+    "sens": "tomber malade, être malade"
+   },
+   {
+    "mot": "看病",
+    "pinyin": "kànbìng",
+    "sens": "consulter un médecin"
+   },
+   {
+    "mot": "医生",
+    "pinyin": "yīshēng",
+    "sens": "médecin"
+   },
+   {
+    "mot": "休息",
+    "pinyin": "xiūxi",
+    "sens": "se reposer"
+   }
+  ]
+ },
+ {
+  "titre": "新朋友",
+  "niveau": 1,
+  "texte": "今天我认识了一个新朋友。他是法国人，今年二十岁，是大学生。他会说汉语，也会写很多汉字。他喜欢喝中国茶，也喜欢吃包子。明天我们要去书店买书。",
+  "traduction": "Aujourd'hui, je me suis fait un nouvel ami. Il est français, il a vingt ans et il est étudiant. Il parle chinois et sait aussi écrire beaucoup de caractères. Il aime boire du thé chinois, et il aime aussi manger des baozi. Demain, nous allons acheter des livres à la librairie.",
+  "questions": [
+   {
+    "q": "新朋友是哪国人？",
+    "r": "法国人。"
+   },
+   {
+    "q": "他今年多大？",
+    "r": "二十岁。"
+   },
+   {
+    "q": "明天他们要去哪儿？",
+    "r": "书店。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "认识",
+    "pinyin": "rènshi",
+    "sens": "connaître, faire la connaissance de"
+   },
+   {
+    "mot": "汉字",
+    "pinyin": "hànzì",
+    "sens": "caractère chinois"
+   },
+   {
+    "mot": "包子",
+    "pinyin": "bāozi",
+    "sens": "petit pain farci cuit à la vapeur"
+   },
+   {
+    "mot": "书店",
+    "pinyin": "shūdiàn",
+    "sens": "librairie"
+   }
+  ]
+ },
+ {
+  "titre": "同学的大伞",
+  "niveau": 2,
+  "texte": "今天下午下大雨了。我没有带伞，就在学校门口等着。等了半个小时，雨还是很大。这时候，我的同学小林走过来，笑着对我说：“我们一起走吧，我的伞很大。”路上雨还在下，天也很冷，但是我们说说笑笑，一会儿就到了我家。晚上，我给小林打了个电话，对她说：“今天真的谢谢你！”",
+  "traduction": "Cet après-midi, il a plu très fort. Je n'avais pas pris de parapluie, alors j'ai attendu devant l'entrée de l'école. Au bout d'une demi-heure, il pleuvait toujours aussi fort. À ce moment-là, ma camarade Xiao Lin est arrivée et m'a dit en souriant : « Rentrons ensemble, mon parapluie est très grand. » En chemin, il pleuvait encore et il faisait froid, mais nous avons bavardé et ri, et en un rien de temps, nous étions chez moi. Le soir, j'ai appelé Xiao Lin et je lui ai dit : « Merci vraiment pour aujourd'hui ! »",
+  "questions": [
+   {
+    "q": "我为什么在学校门口等着？",
+    "r": "因为我没有带伞。"
+   },
+   {
+    "q": "谁和我一起走回家？",
+    "r": "我的同学小林。"
+   },
+   {
+    "q": "晚上我给小林打电话说了什么？",
+    "r": "今天真的谢谢你！"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "门口",
+    "pinyin": "ménkǒu",
+    "sens": "entrée, devant la porte"
+   },
+   {
+    "mot": "等",
+    "pinyin": "děng",
+    "sens": "attendre"
+   },
+   {
+    "mot": "笑",
+    "pinyin": "xiào",
+    "sens": "sourire, rire"
+   },
+   {
+    "mot": "但是",
+    "pinyin": "dànshì",
+    "sens": "mais"
+   }
+  ]
+ },
+ {
+  "titre": "我感冒了",
+  "niveau": 2,
+  "texte": "上个星期，天气很冷。有一天我穿得太少，第二天就生病了。我头很疼，身体很不舒服，也不想吃东西。妈妈带我去医院看病。医生说我感冒了，问题不大，让我多喝水，多休息，每天吃三次药。我在家休息了三天，现在身体已经好了。妈妈说：“天冷的时候，一定要多穿衣服。”",
+  "traduction": "La semaine dernière, il faisait très froid. Un jour, je n'ai pas mis assez de vêtements, et dès le lendemain, j'étais malade. J'avais très mal à la tête, je ne me sentais pas bien du tout et je n'avais pas envie de manger. Ma mère est allée avec moi à l'hôpital pour voir un médecin. Le médecin a dit que j'avais un rhume, que ce n'était pas grave, et m'a dit de boire beaucoup d'eau, de bien me reposer et de prendre mes médicaments trois fois par jour. J'ai passé trois jours à me reposer à la maison, et maintenant, je vais déjà bien. Ma mère a dit : « Quand il fait froid, il faut absolument s'habiller chaudement. »",
+  "questions": [
+   {
+    "q": "我为什么生病了？",
+    "r": "因为天气很冷，我穿得太少。"
+   },
+   {
+    "q": "医生让我做什么？",
+    "r": "多喝水，多休息，每天吃三次药。"
+   },
+   {
+    "q": "我在家休息了几天？",
+    "r": "三天。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "疼",
+    "pinyin": "téng",
+    "sens": "avoir mal, douloureux"
+   },
+   {
+    "mot": "舒服",
+    "pinyin": "shūfu",
+    "sens": "à l'aise, se sentir bien"
+   },
+   {
+    "mot": "身体",
+    "pinyin": "shēntǐ",
+    "sens": "corps ; santé"
+   },
+   {
+    "mot": "药",
+    "pinyin": "yào",
+    "sens": "médicament"
+   }
+  ]
+ },
+ {
+  "titre": "去上海旅游",
+  "niveau": 2,
+  "texte": "我很喜欢坐火车去旅游。上周，我和两个朋友坐火车去了上海。火车早上八点开，下午两点到。车上人不多，我们一边吃水果，一边看外面。外面有很多花，有红色的，也有白色的，非常漂亮。到了上海，我们先去酒店，再出去走走，吃了很多好吃的东西。这次旅游，我们都玩儿得很高兴。",
+  "traduction": "J'aime beaucoup voyager en train. La semaine dernière, deux amis et moi sommes allés à Shanghai en train. Le train partait à huit heures du matin et arrivait à deux heures de l'après-midi. Il n'y avait pas beaucoup de monde dans le train ; nous mangions des fruits tout en regardant dehors. Dehors, il y avait beaucoup de fleurs, des rouges et des blanches, c'était très beau. Arrivés à Shanghai, nous sommes d'abord passés à l'hôtel, puis nous sommes sortis nous promener, et nous avons mangé plein de bonnes choses. Nous nous sommes tous bien amusés pendant ce voyage.",
+  "questions": [
+   {
+    "q": "我和谁去了上海？",
+    "r": "两个朋友。"
+   },
+   {
+    "q": "火车几点开？几点到？",
+    "r": "早上八点开，下午两点到。"
+   },
+   {
+    "q": "到了上海，我们先去了哪儿？",
+    "r": "酒店。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "旅游",
+    "pinyin": "lǚyóu",
+    "sens": "voyager, faire du tourisme"
+   },
+   {
+    "mot": "上周",
+    "pinyin": "shàngzhōu",
+    "sens": "la semaine dernière"
+   },
+   {
+    "mot": "花",
+    "pinyin": "huā",
+    "sens": "fleur"
+   },
+   {
+    "mot": "酒店",
+    "pinyin": "jiǔdiàn",
+    "sens": "hôtel"
+   }
+  ]
+ },
+ {
+  "titre": "新同学",
+  "niveau": 2,
+  "texte": "A：你好！你是新来的同学吗？\nB：是的，我叫小月，昨天刚来。\nA：欢迎你！你家在哪儿？\nB：我家在学校旁边，走五分钟就到。\nA：你喜欢这个学校吗？\nB：喜欢，但是这里的人我都不认识。\nA：没关系，下课后我带你去看看，再给你介绍几个朋友。\nB：太好了，谢谢你！",
+  "traduction": "A : Bonjour ! Tu es la nouvelle élève ?\nB : Oui, je m'appelle Xiaoyue, je suis arrivée hier seulement.\nA : Bienvenue ! Tu habites où ?\nB : J'habite à côté de l'école, à cinq minutes à pied.\nA : Elle te plaît, cette école ?\nB : Oui, mais je ne connais personne ici.\nA : Ce n'est pas grave : après les cours, je te fais visiter, et puis je te présente quelques amis.\nB : Super, merci !",
+  "questions": [
+   {
+    "q": "小月是什么时候来的？",
+    "r": "昨天。"
+   },
+   {
+    "q": "小月家离学校远吗？",
+    "r": "不远，走五分钟就到。"
+   },
+   {
+    "q": "下课后，A要给小月介绍谁？",
+    "r": "几个朋友。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "旁边",
+    "pinyin": "pángbiān",
+    "sens": "à côté"
+   },
+   {
+    "mot": "介绍",
+    "pinyin": "jièshào",
+    "sens": "présenter"
+   },
+   {
+    "mot": "走",
+    "pinyin": "zǒu",
+    "sens": "marcher, aller à pied"
+   },
+   {
+    "mot": "但是",
+    "pinyin": "dànshì",
+    "sens": "mais"
+   }
+  ]
+ },
+ {
+  "titre": "早起跑步",
+  "niveau": 3,
+  "texte": "以前我总是睡得很晚，早上起不来，上课的时候也总想睡觉。医生告诉我，这样对身体不好，最好每天锻炼一下。所以我决定每天早上六点起床，去公园跑步。刚开始的时候，我觉得非常难，跑了五分钟就累得不想动了。但是我没有放弃，慢慢地，我能跑半个小时了。现在我已经坚持了三个月，不但身体比以前好了，而且上课的时候也不困了。我发现，早起其实没有那么难，只要习惯了就好。",
+  "traduction": "Avant, je me couchais toujours très tard, je n'arrivais pas à me lever le matin, et en cours, j'avais toujours envie de dormir. Le médecin m'a dit que ce n'était pas bon pour la santé et que le mieux serait de faire un peu d'exercice tous les jours. J'ai donc décidé de me lever chaque matin à six heures pour aller courir au parc. Au début, je trouvais ça très difficile : au bout de cinq minutes de course, la fatigue était telle que je ne voulais plus bouger. Mais je n'ai pas abandonné, et petit à petit, j'ai réussi à courir une demi-heure. Cela fait maintenant trois mois que je tiens bon : non seulement je suis en meilleure santé qu'avant, mais en plus, je n'ai plus sommeil en cours. J'ai découvert qu'en fait, se lever tôt n'est pas si difficile : il suffit d'en prendre l'habitude.",
+  "questions": [
+   {
+    "q": "医生对我说了什么？",
+    "r": "这样对身体不好，最好每天锻炼一下。"
+   },
+   {
+    "q": "我每天几点起床？去哪儿跑步？",
+    "r": "六点起床，去公园跑步。"
+   },
+   {
+    "q": "我已经坚持跑步多长时间了？",
+    "r": "三个月。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "锻炼",
+    "pinyin": "duànliàn",
+    "sens": "faire de l'exercice, s'entraîner"
+   },
+   {
+    "mot": "决定",
+    "pinyin": "juédìng",
+    "sens": "décider ; décision"
+   },
+   {
+    "mot": "坚持",
+    "pinyin": "jiānchí",
+    "sens": "persévérer, tenir bon"
+   },
+   {
+    "mot": "习惯",
+    "pinyin": "xíguàn",
+    "sens": "s'habituer ; habitude"
+   },
+   {
+    "mot": "其实",
+    "pinyin": "qíshí",
+    "sens": "en fait, en réalité"
+   }
+  ]
+ },
+ {
+  "titre": "手机坏了",
+  "niveau": 3,
+  "texte": "上个星期六，我的手机突然坏了，怎么也打不开。一开始我很着急，因为手机里有很多照片和朋友的电话。我把手机拿到附近的商店去修，店里的人说要等三天。这三天里，我不能上网，不能看新闻，买东西也不能用手机，生活很不方便。可是，我也发现了一些好处：我有更多的时间看书，晚上也睡得更早了。三天以后，手机修好了，但是我决定以后少玩儿手机，多做一些别的事情。",
+  "traduction": "Samedi dernier, mon téléphone est tombé en panne d'un coup : impossible de l'allumer, quoi que je fasse. Au début, ça me stressait beaucoup, parce qu'il contenait beaucoup de photos et les numéros de téléphone de mes amis. J'ai apporté mon téléphone dans un magasin du quartier pour le faire réparer, et on m'a dit qu'il faudrait attendre trois jours. Pendant ces trois jours, je ne pouvais ni aller sur Internet ni lire les actualités, et je ne pouvais pas non plus payer mes achats avec mon téléphone : au quotidien, ce n'était pas du tout pratique. Pourtant, j'y ai aussi trouvé quelques avantages : j'avais plus de temps pour lire, et le soir, je me couchais plus tôt. Trois jours plus tard, mon téléphone était réparé, mais j'ai décidé qu'à l'avenir, je passerais moins de temps dessus et que je ferais davantage d'autres choses.",
+  "questions": [
+   {
+    "q": "手机坏了，我为什么很着急？",
+    "r": "因为手机里有很多照片和朋友的电话。"
+   },
+   {
+    "q": "修手机要等多长时间？",
+    "r": "三天。"
+   },
+   {
+    "q": "手机修好以后，我决定做什么？",
+    "r": "少玩儿手机，多做一些别的事情。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "突然",
+    "pinyin": "tūrán",
+    "sens": "soudain, tout à coup"
+   },
+   {
+    "mot": "着急",
+    "pinyin": "zháojí",
+    "sens": "s'inquiéter, être anxieux"
+   },
+   {
+    "mot": "附近",
+    "pinyin": "fùjìn",
+    "sens": "à proximité, dans les environs"
+   },
+   {
+    "mot": "方便",
+    "pinyin": "fāngbiàn",
+    "sens": "pratique, commode"
+   },
+   {
+    "mot": "发现",
+    "pinyin": "fāxiàn",
+    "sens": "découvrir, s'apercevoir"
+   }
+  ]
+ },
+ {
+  "titre": "奶奶的生日",
+  "niveau": 3,
+  "texte": "下个星期六是奶奶八十岁的生日，全家人都要回老家给她过生日。爸爸妈妈早就开始准备了：爸爸订好了饭店，妈妈给奶奶买了一件红色的新衣服。我和妹妹也想送奶奶一个特别的礼物。我们想了很久，最后决定一起画一张画儿，画上全家人在一起吃饭的样子。在画儿的下面，我们还写上了“奶奶，我们爱您！”几个字。我相信奶奶看到这个礼物，一定会非常高兴。",
+  "traduction": "Samedi prochain, ce sera le quatre-vingtième anniversaire de ma grand-mère, et toute la famille va retourner dans notre ville d'origine pour le fêter avec elle. Mes parents ont commencé les préparatifs depuis longtemps : mon père a déjà réservé le restaurant, et ma mère a acheté à ma grand-mère une nouvelle tenue rouge. Ma petite sœur et moi voulons aussi offrir à grand-mère un cadeau spécial. Nous avons longtemps réfléchi, et finalement, nous avons décidé de faire un dessin à deux, qui représente toute la famille réunie autour d'un repas. Sous le dessin, nous avons aussi écrit ces quelques mots : « Grand-mère, nous t'aimons ! » Je crois vraiment que grand-mère sera très heureuse en voyant ce cadeau.",
+  "questions": [
+   {
+    "q": "奶奶要过几岁的生日？",
+    "r": "八十岁。"
+   },
+   {
+    "q": "妈妈给奶奶买了什么？",
+    "r": "一件红色的新衣服。"
+   },
+   {
+    "q": "我和妹妹要送奶奶什么礼物？",
+    "r": "一张画儿，画的是全家人在一起吃饭。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "特别",
+    "pinyin": "tèbié",
+    "sens": "spécial, particulier"
+   },
+   {
+    "mot": "礼物",
+    "pinyin": "lǐwù",
+    "sens": "cadeau"
+   },
+   {
+    "mot": "最后",
+    "pinyin": "zuìhòu",
+    "sens": "finalement, à la fin"
+   },
+   {
+    "mot": "相信",
+    "pinyin": "xiāngxìn",
+    "sens": "croire, être convaincu"
+   }
+  ]
+ },
+ {
+  "titre": "请假",
+  "niveau": 3,
+  "texte": "A：经理，您现在有时间吗？我想跟您说件事。\nB：有，你说吧。\nA：我妈妈生病了，明天要去医院检查，我想请两天假，陪她去。\nB：没问题。你手上的工作怎么办？\nA：今天的工作我晚上就能做完，别的事情我已经跟小李说好了，他会帮我做。\nB：好，那你放心去吧。有什么需要帮忙的，就给我打电话。\nA：谢谢经理！我星期四一定回来上班。\nB：不客气，希望你妈妈快点儿好起来。",
+  "traduction": "A : Excusez-moi, vous avez un moment ? J'aurais quelque chose à vous dire.\nB : Oui, je t'écoute.\nA : Ma mère est malade et elle doit passer des examens à l'hôpital demain. Je voudrais prendre deux jours de congé pour l'accompagner.\nB : Pas de problème. Et le travail que tu as en cours ?\nA : Le travail d'aujourd'hui, je peux le terminer ce soir, et pour le reste, j'ai déjà tout réglé avec Xiao Li : il s'en chargera à ma place.\nB : Bien, alors vas-y l'esprit tranquille. Si tu as besoin d'aide, appelle-moi.\nA : Merci beaucoup ! Je serai de retour au travail jeudi, sans faute.\nB : De rien. J'espère que ta mère se rétablira vite.",
+  "questions": [
+   {
+    "q": "A为什么要请假？",
+    "r": "因为妈妈生病了，明天要去医院检查，A要陪她去。"
+   },
+   {
+    "q": "A想请几天假？",
+    "r": "两天。"
+   },
+   {
+    "q": "A别的工作谁帮他做？",
+    "r": "小李。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "经理",
+    "pinyin": "jīnglǐ",
+    "sens": "directeur, responsable"
+   },
+   {
+    "mot": "检查",
+    "pinyin": "jiǎnchá",
+    "sens": "examiner ; examen (médical)"
+   },
+   {
+    "mot": "放心",
+    "pinyin": "fàngxīn",
+    "sens": "être rassuré, avoir l'esprit tranquille"
+   },
+   {
+    "mot": "需要",
+    "pinyin": "xūyào",
+    "sens": "avoir besoin de"
+   }
+  ]
+ },
+ {
+  "titre": "在网上上课",
+  "niveau": 4,
+  "texte": "这几年，越来越多的人开始在网上上课。和在教室里上课比起来，网上上课有很多优点。首先，它不受时间和地点的限制，只要有电脑或者手机，在家里也能学习。其次，很多课可以反复看，没听懂的地方可以再听一遍。不过，网上上课也有一些缺点。因为没有老师在旁边，有的学生很难一直认真听课，常常一边听课一边玩手机。另外，学生和老师、同学之间交流的机会也比较少。所以我认为，在网上上课虽然方便，但是要想真正学好，学生必须能管好自己。",
+  "traduction": "Ces dernières années, de plus en plus de gens se sont mis à suivre des cours en ligne. Par rapport aux cours en classe, les cours en ligne présentent de nombreux avantages. D'abord, ils ne sont soumis à aucune contrainte de temps ni de lieu : il suffit d'avoir un ordinateur ou un téléphone pour pouvoir étudier chez soi. Ensuite, on peut revoir de nombreux cours plusieurs fois, et réécouter les passages qu'on n'a pas compris. Cependant, les cours en ligne ont aussi quelques inconvénients. Comme le professeur n'est pas à côté, certains élèves ont du mal à rester attentifs tout le long, et jouent souvent sur leur téléphone tout en écoutant le cours. De plus, les occasions d'échanger avec le professeur et les camarades sont assez rares. C'est pourquoi je pense que, même si les cours en ligne sont pratiques, pour vraiment bien apprendre, les élèves doivent être capables de se discipliner.",
+  "questions": [
+   {
+    "q": "在网上上课有哪些优点？",
+    "r": "不受时间和地点的限制；很多课可以反复看。"
+   },
+   {
+    "q": "在网上上课的时候，有的学生常常做什么？",
+    "r": "一边听课一边玩手机。"
+   },
+   {
+    "q": "“我”认为，要想在网上学好，学生必须怎么样？",
+    "r": "必须能管好自己。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "优点",
+    "pinyin": "yōudiǎn",
+    "sens": "avantage, qualité"
+   },
+   {
+    "mot": "缺点",
+    "pinyin": "quēdiǎn",
+    "sens": "inconvénient, défaut"
+   },
+   {
+    "mot": "首先",
+    "pinyin": "shǒuxiān",
+    "sens": "d'abord, premièrement"
+   },
+   {
+    "mot": "其次",
+    "pinyin": "qícì",
+    "sens": "ensuite, deuxièmement"
+   },
+   {
+    "mot": "交流",
+    "pinyin": "jiāoliú",
+    "sens": "échanger, communiquer"
+   }
+  ]
+ },
+ {
+  "titre": "第一次面试",
+  "niveau": 4,
+  "texte": "去年大学毕业以后，我参加了人生中的第一次面试。面试前一天晚上，我紧张得睡不着，一遍又一遍地练习怎么介绍自己。第二天，我提前半个小时到了公司。面试开始后，经理问了我很多问题，有的我回答得不错，有的我却什么也说不出来。最后，经理问我：“你有什么问题想问我们吗？”我没想到他会这么问，就只回答了“没有”两个字。回家后，我非常后悔，因为我其实很想多了解一下这家公司的情况。虽然那次面试没有成功，但是我从中学到了很多：一定要提前做好准备，而且要大胆地表达自己的想法。",
+  "traduction": "L'an dernier, après avoir obtenu mon diplôme universitaire, j'ai passé le premier entretien d'embauche de ma vie. La veille au soir, j'avais tellement le trac que je n'ai pas pu dormir, et j'ai répété encore et encore comment me présenter. Le lendemain, j'étais à l'entreprise avec une demi-heure d'avance. Une fois l'entretien commencé, le responsable m'a posé beaucoup de questions : à certaines, j'ai bien répondu, mais pour d'autres, je n'ai rien réussi à dire. À la fin, il m'a demandé : « Avez-vous des questions à nous poser ? » Je ne m'attendais pas à ce qu'il me demande cela, et j'ai seulement répondu : « Non. » De retour chez moi, je l'ai beaucoup regretté, car en réalité, j'avais très envie d'en savoir plus sur cette entreprise. Même si cet entretien n'a pas abouti, j'en ai tiré beaucoup de leçons : il faut absolument bien se préparer à l'avance, et oser exprimer ses idées.",
+  "questions": [
+   {
+    "q": "面试前一天晚上，我做了什么？",
+    "r": "一遍又一遍地练习怎么介绍自己。"
+   },
+   {
+    "q": "经理最后问我什么问题的时候，我只回答了“没有”？",
+    "r": "“你有什么问题想问我们吗？”"
+   },
+   {
+    "q": "我从这次面试中学到了什么？",
+    "r": "要提前做好准备，要大胆地表达自己的想法。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "面试",
+    "pinyin": "miànshì",
+    "sens": "entretien (d'embauche)"
+   },
+   {
+    "mot": "紧张",
+    "pinyin": "jǐnzhāng",
+    "sens": "nerveux, tendu"
+   },
+   {
+    "mot": "提前",
+    "pinyin": "tíqián",
+    "sens": "à l'avance, en avance"
+   },
+   {
+    "mot": "后悔",
+    "pinyin": "hòuhuǐ",
+    "sens": "regretter"
+   },
+   {
+    "mot": "成功",
+    "pinyin": "chénggōng",
+    "sens": "réussir ; réussite"
+   }
+  ]
+ },
+ {
+  "titre": "一个人旅行",
+  "niveau": 4,
+  "texte": "很多人觉得一个人去旅行很无聊，但我却很喜欢。去年夏天，我一个人去了云南。在路上，我可以按照自己的想法安排时间：想在哪儿多待几天就多待几天，想去哪儿就去哪儿，不用考虑别人的意见。当然，一个人旅行也会遇到困难。有一次，我在山上走错了路，手机也没有信号，天快黑了，我心里害怕极了。就在这时，我遇到了一位当地的老人，他热情地把我送到了山下，还请我去他家喝了一杯茶。这次旅行让我变得更加勇敢，也让我明白：有时候，一个不认识的人给你的一次小小的帮助，就能让你感动很久。",
+  "traduction": "Beaucoup de gens trouvent ennuyeux de voyager seul, mais moi, j'adore ça. L'été dernier, j'ai fait un voyage en solitaire au Yunnan. En route, je pouvais organiser mon temps comme je l'entendais : rester quelques jours de plus là où j'en avais envie, aller où bon me semblait, sans avoir à tenir compte de l'avis des autres. Bien sûr, quand on voyage seul, on rencontre aussi des difficultés. Une fois, en montagne, j'ai pris le mauvais chemin, mon téléphone ne captait plus, la nuit allait tomber, et j'avais terriblement peur. C'est alors que j'ai croisé un vieil homme de la région : très chaleureux, il a tenu à me raccompagner jusqu'au pied de la montagne, et il m'a même offert une tasse de thé chez lui. Ce voyage m'a donné plus de courage, et il m'a aussi fait comprendre que parfois, un petit coup de main qu'un inconnu vous donne suffit à vous émouvoir pendant très longtemps.",
+  "questions": [
+   {
+    "q": "一个人旅行有什么好处？",
+    "r": "可以按照自己的想法安排时间，不用考虑别人的意见。"
+   },
+   {
+    "q": "在山上，我遇到了什么困难？",
+    "r": "走错了路，手机没有信号，天快黑了。"
+   },
+   {
+    "q": "谁帮助了我？",
+    "r": "一位当地的老人。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "旅行",
+    "pinyin": "lǚxíng",
+    "sens": "voyager ; voyage"
+   },
+   {
+    "mot": "安排",
+    "pinyin": "ānpái",
+    "sens": "organiser, planifier"
+   },
+   {
+    "mot": "考虑",
+    "pinyin": "kǎolǜ",
+    "sens": "prendre en compte, réfléchir à"
+   },
+   {
+    "mot": "信号",
+    "pinyin": "xìnhào",
+    "sens": "signal ; réseau (téléphone)"
+   },
+   {
+    "mot": "勇敢",
+    "pinyin": "yǒnggǎn",
+    "sens": "courageux"
+   }
+  ]
+ },
+ {
+  "titre": "楼上楼下",
+  "niveau": 4,
+  "texte": "A：你好，我是住在楼下的邻居。不好意思，打扰你了。\nB：你好，有什么事吗？\nA：是这样的，最近每天晚上十一点以后，你家总是有很大的声音，好像是在搬桌子，我孩子常常被吵得睡不着。\nB：真对不起！我们刚搬来，这几天晚上一直在整理房间，没想到会影响到你们。\nA：没关系，我理解。只是孩子第二天还要早起上学，所以……\nB：我明白了。从今天开始，晚上十点以后我们就不收拾了，走路的时候也会注意一点儿。\nA：太感谢了！以后有什么需要帮忙的，你也可以随时来找我。\nB：好的，谢谢你这么客气。",
+  "traduction": "A : Bonjour, je suis votre voisin du dessous. Excusez-moi de vous déranger.\nB : Bonjour, qu'est-ce qui se passe ?\nA : Voilà : ces derniers temps, tous les soirs après vingt-trois heures, il y a beaucoup de bruit chez vous, comme si vous déplaciez des tables, et le bruit empêche souvent mon enfant de dormir.\nB : Toutes mes excuses ! Nous venons d'emménager, et ces derniers soirs, nous n'avons pas arrêté de ranger l'appartement ; nous n'avions pas pensé que cela vous gênerait.\nA : Ce n'est rien, je comprends. C'est juste que mon enfant doit se lever tôt le lendemain pour aller à l'école, alors…\nB : Je comprends. À partir d'aujourd'hui, nous ne rangerons plus après vingt-deux heures, et nous ferons aussi un peu attention en marchant.\nA : Merci beaucoup ! Et si un jour vous avez besoin d'aide, vous pouvez venir me voir à tout moment.\nB : D'accord, merci, vous êtes vraiment très aimable.",
+  "questions": [
+   {
+    "q": "A为什么来找B？",
+    "r": "因为B家晚上声音很大，A的孩子睡不着。"
+   },
+   {
+    "q": "B家晚上为什么有很大的声音？",
+    "r": "因为他们刚搬来，晚上一直在整理房间。"
+   },
+   {
+    "q": "从今天开始，B家会怎么做？",
+    "r": "晚上十点以后不收拾了，走路的时候也会注意一点儿。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "打扰",
+    "pinyin": "dǎrǎo",
+    "sens": "déranger"
+   },
+   {
+    "mot": "整理",
+    "pinyin": "zhěnglǐ",
+    "sens": "ranger, mettre en ordre"
+   },
+   {
+    "mot": "理解",
+    "pinyin": "lǐjiě",
+    "sens": "comprendre"
+   },
+   {
+    "mot": "收拾",
+    "pinyin": "shōushi",
+    "sens": "ranger, remettre en ordre"
+   },
+   {
+    "mot": "感谢",
+    "pinyin": "gǎnxiè",
+    "sens": "remercier"
+   }
+  ]
+ },
+ {
+  "titre": "城市里的鸟",
+  "niveau": 5,
+  "texte": "在很多人的印象中，城市里只有高楼和汽车，很难看到野生动物。其实，只要稍微注意一下，就会发现我们身边生活着不少鸟。清晨，公园的树上常常传来小鸟的叫声；在一些小区的湖边，还能看到白色的大鸟安静地站在水里寻找食物。近年来，一些城市开始重视保护鸟类，比如在公园里多种果树，保留一片不被打扰的草地，或者在高楼的玻璃上贴上特殊的标志，防止鸟撞上去。这些做法看起来很简单，效果却很明显：有的公园里，鸟的数量几年内就增加了一倍。专家指出，鸟的种类和数量，是判断一个城市环境质量的重要标准。换句话说，鸟越多，说明这个地方越适合人类生活。所以，下次走在路上的时候，你也可以放慢脚步，抬起头来，听一听小鸟的歌声。",
+  "traduction": "Dans l'esprit de beaucoup de gens, la ville n'est faite que de tours et de voitures, et on n'y voit guère d'animaux sauvages. En réalité, pour peu qu'on y prête un peu attention, on découvre que de nombreux oiseaux vivent autour de nous. Tôt le matin, on entend souvent les cris des petits oiseaux dans les arbres des parcs ; au bord des lacs de certaines résidences, on peut même voir de grands oiseaux blancs se tenir tranquillement dans l'eau, à la recherche de nourriture. Ces dernières années, certaines villes ont commencé à prendre au sérieux la protection des oiseaux : par exemple, elles plantent davantage d'arbres fruitiers dans les parcs, préservent des étendues d'herbe où l'on ne vient pas les déranger, ou collent des marques spéciales sur les vitres des immeubles pour éviter que les oiseaux ne s'y cognent. Ces mesures paraissent simples, mais leur effet est très net : dans certains parcs, le nombre d'oiseaux a doublé en quelques années. Les experts soulignent que la variété et le nombre des oiseaux sont un critère important pour juger de la qualité de l'environnement d'une ville. Autrement dit, plus il y a d'oiseaux, plus cela montre que l'endroit convient à la vie humaine. Alors, la prochaine fois que vous marcherez dans la rue, vous aussi, ralentissez le pas, levez la tête et écoutez le chant des oiseaux.",
+  "questions": [
+   {
+    "q": "一些城市是怎么保护鸟类的？",
+    "r": "在公园里多种果树，保留不被打扰的草地，在高楼的玻璃上贴特殊的标志。"
+   },
+   {
+    "q": "这些做法的效果怎么样？",
+    "r": "很明显，有的公园里鸟的数量几年内增加了一倍。"
+   },
+   {
+    "q": "专家认为，可以根据什么判断一个城市的环境质量？",
+    "r": "鸟的种类和数量。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "寻找",
+    "pinyin": "xúnzhǎo",
+    "sens": "chercher, être en quête de"
+   },
+   {
+    "mot": "保留",
+    "pinyin": "bǎoliú",
+    "sens": "conserver, préserver"
+   },
+   {
+    "mot": "防止",
+    "pinyin": "fángzhǐ",
+    "sens": "empêcher, éviter"
+   },
+   {
+    "mot": "明显",
+    "pinyin": "míngxiǎn",
+    "sens": "évident, net"
+   },
+   {
+    "mot": "种类",
+    "pinyin": "zhǒnglèi",
+    "sens": "espèce, variété"
+   }
+  ]
+ },
+ {
+  "titre": "二手市场",
+  "niveau": 5,
+  "texte": "我家附近有一个小广场，每个星期六上午，那里都有一个二手市场。人们把家里用不上的东西拿出来卖，有旧书、玩具、衣服，也有小家电和老式相机。东西的价格一般都很便宜，有时候花几块钱就能买到一本好书。刚开始，我只是因为好奇，去那儿看看，后来却几乎每周都去。在我看来，二手市场的意义不只在于省钱。一方面，它减少了浪费，让旧东西有了第二次生命；另一方面，它也是一个交流的好地方。买东西的时候，卖东西的人常常会讲起物品背后的故事：这台旧电视陪伴过他的父亲，那本字典是他上大学时用过的……听着这些故事，我觉得自己买到的不只是一件商品，更是一段别人的回忆。有时候，我也会把自己不用的东西带去，希望它们能找到新的主人。",
+  "traduction": "Près de chez moi, il y a une petite place où, tous les samedis matin, se tient un marché d'occasion. Les gens y vendent les affaires dont ils ne se servent plus : des livres anciens, des jouets, des vêtements, mais aussi de petits appareils électroménagers et de vieux appareils photo. Les prix sont généralement très bas : parfois, pour quelques yuans, on peut acheter un bon livre. Au début, j'y allais seulement par curiosité, pour jeter un coup d'œil, mais par la suite, j'ai fini par y aller presque toutes les semaines. À mes yeux, l'intérêt d'un marché d'occasion ne se limite pas aux économies qu'on y fait. D'une part, il réduit le gaspillage et donne une seconde vie aux vieux objets ; d'autre part, c'est aussi un bon endroit pour échanger. Quand on achète quelque chose, le vendeur raconte souvent l'histoire qui se cache derrière l'objet : ce vieux téléviseur a tenu compagnie à son père, ce dictionnaire, il s'en servait quand il était à l'université… En écoutant ces histoires, j'ai l'impression que ce que j'achète n'est pas seulement une marchandise, mais surtout un morceau des souvenirs de quelqu'un d'autre. Parfois, j'y apporte aussi les affaires dont je ne me sers plus, en espérant qu'elles trouveront un nouveau propriétaire.",
+  "questions": [
+   {
+    "q": "二手市场在什么时候、什么地方？",
+    "r": "每个星期六上午，在我家附近的小广场上。"
+   },
+   {
+    "q": "在“我”看来，二手市场有哪两个意义？",
+    "r": "减少浪费，让旧东西有第二次生命；也是一个交流的好地方。"
+   },
+   {
+    "q": "卖东西的人常常会讲什么？",
+    "r": "物品背后的故事。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "好奇",
+    "pinyin": "hàoqí",
+    "sens": "curieux"
+   },
+   {
+    "mot": "意义",
+    "pinyin": "yìyì",
+    "sens": "sens, intérêt, signification"
+   },
+   {
+    "mot": "在于",
+    "pinyin": "zàiyú",
+    "sens": "résider dans, tenir à"
+   },
+   {
+    "mot": "陪伴",
+    "pinyin": "péibàn",
+    "sens": "accompagner, tenir compagnie"
+   },
+   {
+    "mot": "主人",
+    "pinyin": "zhǔrén",
+    "sens": "propriétaire, maître"
+   }
+  ]
+ },
+ {
+  "titre": "在家办公",
+  "niveau": 5,
+  "texte": "随着网络技术的发展，越来越多的公司允许员工在家办公。对很多人来说，这无疑是个好消息：不用每天挤地铁，节省了大量的时间，工作时间也更加灵活。然而，在家办公并不像想象中那么轻松。首先，工作和生活很难分开。有人发现，自己晚上十点还在回复邮件，周末也放不下工作，时间一长，人就会觉得很累。其次，长时间一个人工作，缺少和同事面对面的交流，容易让人感到孤独，团队合作的效率也可能受到影响。另外，如果家里有孩子或者老人，工作的时候也很容易被打扰。因此，专家建议，在家办公的人最好给自己制定一个固定的时间表，按时开始工作，按时休息，并且把工作的地方和休息的地方分开。只有这样，在家办公才会真正给人带来自由。",
+  "traduction": "Avec le développement des technologies de l'internet, de plus en plus d'entreprises autorisent leurs salariés à travailler à domicile. Pour beaucoup, c'est sans aucun doute une bonne nouvelle : plus besoin de s'entasser tous les jours dans le métro, on gagne beaucoup de temps, et les horaires de travail sont plus souples. Pourtant, travailler à domicile n'est pas aussi facile qu'on l'imagine. D'abord, il devient difficile de séparer le travail de la vie personnelle. Certains s'aperçoivent qu'ils répondent encore à des e-mails à dix heures du soir et qu'ils n'arrivent pas à décrocher du travail le week-end ; à la longue, on finit par être très fatigué. Ensuite, travailler longtemps seul, sans échanges en face à face avec les collègues, fait facilement ressentir de la solitude, et l'efficacité du travail en équipe peut aussi en pâtir. De plus, quand il y a des enfants ou des personnes âgées à la maison, on est facilement dérangé pendant le travail. C'est pourquoi les experts conseillent aux personnes qui travaillent à domicile de se fixer un emploi du temps régulier, de se mettre au travail et de s'arrêter à heures fixes, et de séparer l'espace de travail de l'espace de repos. Ce n'est qu'à cette condition que le travail à domicile apporte une vraie liberté.",
+  "questions": [
+   {
+    "q": "在家办公有哪些好处？",
+    "r": "不用挤地铁，节省时间，工作时间更灵活。"
+   },
+   {
+    "q": "长时间一个人工作，会有什么问题？",
+    "r": "缺少和同事的交流，容易感到孤独，团队合作的效率也可能受到影响。"
+   },
+   {
+    "q": "专家给在家办公的人什么建议？",
+    "r": "制定固定的时间表，按时工作、按时休息，把工作和休息的地方分开。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "员工",
+    "pinyin": "yuángōng",
+    "sens": "employé, salarié"
+   },
+   {
+    "mot": "灵活",
+    "pinyin": "línghuó",
+    "sens": "souple, flexible"
+   },
+   {
+    "mot": "效率",
+    "pinyin": "xiàolǜ",
+    "sens": "efficacité"
+   },
+   {
+    "mot": "制定",
+    "pinyin": "zhìdìng",
+    "sens": "établir, élaborer (un plan, une règle)"
+   },
+   {
+    "mot": "固定",
+    "pinyin": "gùdìng",
+    "sens": "fixe, régulier"
+   }
+  ]
+ },
+ {
+  "titre": "迟到的信",
+  "niveau": 5,
+  "texte": "整理书架的时候，我在一本旧小说里发现了一封信。信纸已经很旧了，上面的字却依然清楚。这是十五年前，我的中学好友小雨写给我的。当年她跟着父母搬到了南方，走之前把这封信偷偷夹在了送给我的书里。可是当时我忙着准备考试，这本书一直没有打开过。信里，她写道：“不管以后我们在哪儿，都要做一辈子的好朋友。如果你想我了，就给我写信。”信的最后还写着她新家的地址。读完信，我忍不住流下了眼泪。这些年，我们早就失去了联系，她大概一直以为我不在乎这段友谊吧。第二天，我试着在网上搜索她的名字，没想到真的找到了她。我立刻给她发了一条消息：“对不起，你的信我今天才看到。”没过几分钟，她就回复了：“我一直在等你。”",
+  "traduction": "En rangeant ma bibliothèque, j'ai trouvé une lettre dans un vieux roman. Le papier avait beaucoup vieilli, mais l'écriture était encore nette. C'était une lettre que Xiaoyu, une grande amie du lycée, m'avait écrite quinze ans plus tôt. Cette année-là, elle avait déménagé dans le Sud avec ses parents, et avant de partir, elle avait glissé cette lettre en cachette dans le livre qu'elle m'avait offert. Mais à l'époque, les révisions pour mes examens me prenaient tout mon temps, et je n'avais jamais ouvert ce livre. Dans la lettre, elle écrivait : « Où que nous soyons plus tard, restons de bons amis toute notre vie. Si je te manque, écris-moi. » À la fin de la lettre, elle avait aussi noté l'adresse de sa nouvelle maison. Après l'avoir lue, je n'ai pas pu retenir mes larmes. Toutes ces années, nous avions perdu contact depuis longtemps ; elle avait sans doute toujours cru que notre amitié ne comptait pas pour moi. Le lendemain, j'ai essayé de chercher son nom sur Internet, et contre toute attente, je l'ai vraiment retrouvée. Je lui ai aussitôt envoyé un message : « Pardon, je n'ai lu ta lettre qu'aujourd'hui. » À peine quelques minutes plus tard, elle a répondu : « Je t'attends depuis tout ce temps. »",
+  "questions": [
+   {
+    "q": "这封信是谁写的？是什么时候写的？",
+    "r": "中学好友小雨，十五年前写的。"
+   },
+   {
+    "q": "“我”当时为什么没有看到这封信？",
+    "r": "因为当时忙着准备考试，一直没有打开这本书。"
+   },
+   {
+    "q": "“我”是怎么找到小雨的？",
+    "r": "在网上搜索她的名字。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "依然",
+    "pinyin": "yīrán",
+    "sens": "toujours, encore"
+   },
+   {
+    "mot": "忍不住",
+    "pinyin": "rěnbuzhù",
+    "sens": "ne pas pouvoir s'empêcher de"
+   },
+   {
+    "mot": "眼泪",
+    "pinyin": "yǎnlèi",
+    "sens": "larmes"
+   },
+   {
+    "mot": "搜索",
+    "pinyin": "sōusuǒ",
+    "sens": "rechercher (en ligne)"
+   },
+   {
+    "mot": "立刻",
+    "pinyin": "lìkè",
+    "sens": "immédiatement, aussitôt"
+   }
+  ]
+ },
+ {
+  "titre": "银发族的新生活",
+  "niveau": 6,
+  "texte": "清晨六点，城市的公园里已经热闹起来：有人打太极拳，有人唱京剧，还有人举着手机，对着镜头认真地录视频。这些人大多已经退休，却一点儿也没有“养老”的样子。过去，人们一提到老年生活，往往会联想到带孙子、做家务、看电视。如今，越来越多的老人走进老年大学，学习摄影、书法、外语，甚至学会了用智能手机拍短视频、开网店。他们不再满足于被动地接受照顾，而是希望继续学习、参与社会，实现自己的价值。人们给这样的老人起了一个好听的名字——“银发族”。\n当然，并不是所有老人都能轻松适应时代的变化。面对扫二维码付款、网上预约看病等新事物，不少老人常常不知道该怎么办，甚至因此产生了孤独感。专家认为，社会在推动技术进步的同时，也应该保留一些传统的服务方式，并为老年人提供耐心的帮助。毕竟，每个人都会变老。建设一个对老人友好的社会，其实也是在为将来的自己做准备。",
+  "traduction": "À six heures du matin, les parcs de la ville sont déjà animés : certains font du taiji, d'autres chantent de l'opéra de Pékin, d'autres encore, téléphone levé, filment consciencieusement des vidéos face à l'objectif. La plupart de ces gens sont déjà à la retraite, mais ils n'ont pas du tout l'air de « couler des jours tranquilles ». Autrefois, quand on parlait de la vieillesse, on pensait souvent à garder les petits-enfants, faire le ménage et regarder la télévision. Aujourd'hui, de plus en plus de personnes âgées s'inscrivent à l'université du troisième âge pour apprendre la photographie, la calligraphie ou une langue étrangère ; certaines ont même appris à tourner de courtes vidéos avec leur smartphone ou à ouvrir une boutique en ligne. Elles ne se contentent plus de recevoir passivement des soins : elles veulent continuer à apprendre, participer à la vie de la société et se réaliser. On a donné à ces seniors un joli nom : la « génération aux cheveux d'argent ».\nBien sûr, toutes les personnes âgées ne s'adaptent pas facilement aux changements de l'époque. Face à des nouveautés comme le paiement par QR code ou la prise de rendez-vous médical en ligne, beaucoup ne savent souvent pas comment s'y prendre, et en viennent même à se sentir seules. Selon les spécialistes, tout en faisant progresser la technologie, la société devrait aussi conserver certains services traditionnels et offrir aux personnes âgées une aide patiente. Après tout, tout le monde vieillit. Construire une société bienveillante envers les personnes âgées, c'est en réalité aussi se préparer à ce que nous serons nous-mêmes demain.",
+  "questions": [
+   {
+    "q": "这篇文章主要谈的是什么？",
+    "r": "老年人生活方式的变化，以及他们在适应新技术时遇到的困难。"
+   },
+   {
+    "q": "如今很多老人在老年大学学习什么？",
+    "r": "学习摄影、书法、外语，有的还学会了用智能手机拍短视频、开网店。"
+   },
+   {
+    "q": "作者为什么说建设对老人友好的社会也是在为自己做准备？",
+    "r": "因为每个人将来都会变老，也可能需要这样的帮助。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "摄影",
+    "pinyin": "shèyǐng",
+    "sens": "photographie ; photographier"
+   },
+   {
+    "mot": "被动",
+    "pinyin": "bèidòng",
+    "sens": "passif ; passivement"
+   },
+   {
+    "mot": "参与",
+    "pinyin": "cānyù",
+    "sens": "participer à, prendre part à"
+   },
+   {
+    "mot": "推动",
+    "pinyin": "tuīdòng",
+    "sens": "faire avancer, promouvoir"
+   },
+   {
+    "mot": "孤独",
+    "pinyin": "gūdú",
+    "sens": "seul, solitaire ; solitude"
+   }
+  ]
+ },
+ {
+  "titre": "斜杠青年",
+  "niveau": 6,
+  "texte": "“你是做什么工作的？”对不少年轻人来说，这个问题越来越难用一句话回答。白天，他可能是一名程序员；晚上，他是一位健身教练；到了周末，他又成了摄影师。这类同时拥有多种职业和身份的年轻人，被称为“斜杠青年”，因为他们在介绍自己时，常常用斜杠把不同的身份分开。斜杠青年的出现与互联网的发展密切相关：网络平台让每个人都有了展示才能的机会，一个人只要在某方面有特长，就有可能找到自己的客户。对许多人来说，副业不仅能增加收入，还能让他们摆脱单一工作的枯燥，在兴趣中获得成就感。\n不过，这种生活方式并不是人人都适合。一个人同时做几份工作，意味着时间被分成了许多零碎的小块，如果不善于管理自己，很可能哪件事都做不好。此外，自由职业往往缺少稳定的保障，一旦生病或者经济形势不好，收入就可能大幅下降。因此，与其盲目追求身份的数量，不如先在一个领域打好基础。斜杠的意义，不在于名片上写了多少种身份，而在于每一种身份背后是否有真正的能力。",
+  "traduction": "« Qu'est-ce que tu fais dans la vie ? » Pour bien des jeunes, il est de plus en plus difficile de répondre à cette question en une phrase. Le jour, il est peut-être programmeur ; le soir, coach sportif ; le week-end, il devient photographe. Ces jeunes qui cumulent plusieurs métiers et plusieurs identités sont appelés la « jeunesse slash », parce qu'en se présentant, ils séparent souvent leurs différentes identités par des barres obliques. L'apparition de cette « jeunesse slash » est étroitement liée au développement d'Internet : les plateformes en ligne donnent à chacun l'occasion de montrer ses talents, et pour peu qu'on ait un point fort dans un domaine, on a des chances de trouver ses propres clients. Pour beaucoup, une activité secondaire permet non seulement d'augmenter ses revenus, mais aussi d'échapper à la monotonie d'un emploi unique et de trouver un sentiment d'accomplissement dans ce qui les passionne.\nCependant, ce mode de vie ne convient pas à tout le monde. Exercer plusieurs emplois à la fois signifie que son temps est découpé en une multitude de petits morceaux ; si l'on ne sait pas bien s'organiser, on risque fort de ne rien faire correctement. De plus, le travail indépendant manque souvent de protection stable : en cas de maladie ou de mauvaise conjoncture économique, les revenus peuvent chuter fortement. C'est pourquoi, plutôt que de courir aveuglément après le nombre d'identités, mieux vaut d'abord bâtir des bases solides dans un domaine. Le sens du « slash » ne tient pas au nombre d'identités inscrites sur la carte de visite, mais à la présence, derrière chacune d'elles, de véritables compétences.",
+  "questions": [
+   {
+    "q": "什么是“斜杠青年”？",
+    "r": "同时拥有多种职业和身份的年轻人。"
+   },
+   {
+    "q": "为什么说斜杠青年的出现与互联网有关？",
+    "r": "因为网络平台让每个人都有机会展示才能，找到自己的客户。"
+   },
+   {
+    "q": "作者对斜杠生活持什么态度？",
+    "r": "既看到它的好处，也提醒人们注意风险，先在一个领域打好基础。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "展示",
+    "pinyin": "zhǎnshì",
+    "sens": "montrer, exposer, mettre en valeur"
+   },
+   {
+    "mot": "特长",
+    "pinyin": "tècháng",
+    "sens": "point fort, talent particulier"
+   },
+   {
+    "mot": "摆脱",
+    "pinyin": "bǎituō",
+    "sens": "se libérer de, échapper à"
+   },
+   {
+    "mot": "枯燥",
+    "pinyin": "kūzào",
+    "sens": "monotone, ennuyeux"
+   },
+   {
+    "mot": "保障",
+    "pinyin": "bǎozhàng",
+    "sens": "garantie, protection ; garantir"
+   }
+  ]
+ },
+ {
+  "titre": "南甜北咸",
+  "niveau": 6,
+  "texte": "在中国，豆腐脑应该吃甜的还是咸的？这个问题每年都会在网上引起一场热烈的争论。北方人习惯吃咸的豆腐脑，南方不少地区的人却喜欢在里面加糖。这场看似无聊的“甜咸之争”，其实反映了中国饮食文化中明显的地域差异。人们常用“南甜北咸”来概括南北口味的不同。关于这种差异的成因，有一种常见的解释：北方冬季漫长而寒冷，过去新鲜蔬菜很少，人们只好用盐来保存食物，时间长了，便形成了比较咸的口味；而南方气候温暖，是中国主要的产糖地区，糖比较容易获得，甜味自然在当地的菜里占有重要地位。\n当然，这只是一种大致的概括。四川、湖南等地的人特别爱吃辣，就很难用“南甜”来形容。而且，随着交通越来越便利，人口流动越来越频繁，各地的口味正在相互影响、不断融合。今天，一个北京人爱吃四川火锅，一个广东人爱吃咸豆腐脑，早已不是什么新鲜事了。",
+  "traduction": "En Chine, le tofu soyeux (dòufunǎo) doit-il se manger sucré ou salé ? Chaque année, cette question déclenche un vif débat sur Internet. Les gens du Nord ont l'habitude de le manger salé, tandis que dans bien des régions du Sud, on préfère y ajouter du sucre. Cette « guerre du sucré et du salé », futile en apparence, reflète en réalité les nettes différences régionales de la culture culinaire chinoise. On résume souvent la différence de goûts entre le Nord et le Sud par la formule « sucré au Sud, salé au Nord ». Quant à l'origine de cette différence, une explication courante est la suivante : dans le Nord, l'hiver est long et froid, et les légumes frais étaient autrefois rares ; les gens n'avaient d'autre choix que de conserver les aliments dans le sel, et avec le temps s'est installé un goût plutôt salé ; le Sud, lui, au climat doux, est la principale région productrice de sucre de Chine : le sucre y était relativement facile à obtenir, et le goût sucré a donc naturellement pris une place importante dans la cuisine locale.\nBien sûr, ce n'est qu'une généralisation approximative. Les habitants du Sichuan, du Hunan et d'autres régions adorent les plats pimentés, et l'on peut difficilement les décrire par le « sucré au Sud ». De plus, avec des transports de plus en plus pratiques et une population de plus en plus mobile, les goûts des différentes régions s'influencent mutuellement et se mêlent sans cesse. Aujourd'hui, qu'un Pékinois adore la fondue du Sichuan ou qu'un Cantonais raffole du dòufunǎo salé n'a depuis longtemps plus rien d'étonnant.",
+  "questions": [
+   {
+    "q": "文章以什么争论开头？",
+    "r": "豆腐脑应该吃甜的还是咸的。"
+   },
+   {
+    "q": "根据文章中的解释，北方人的口味为什么比较咸？",
+    "r": "北方冬天长而冷，过去蔬菜少，人们用盐保存食物，时间长了就形成了咸的口味。"
+   },
+   {
+    "q": "作者为什么说“南甜北咸”只是一种大致的概括？",
+    "r": "因为四川、湖南等南方地区爱吃辣，而且各地的口味正在相互融合。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "地域",
+    "pinyin": "dìyù",
+    "sens": "région ; régional"
+   },
+   {
+    "mot": "差异",
+    "pinyin": "chāyì",
+    "sens": "différence, écart"
+   },
+   {
+    "mot": "概括",
+    "pinyin": "gàikuò",
+    "sens": "résumer, généraliser"
+   },
+   {
+    "mot": "口味",
+    "pinyin": "kǒuwèi",
+    "sens": "goût (culinaire), préférences gustatives"
+   },
+   {
+    "mot": "频繁",
+    "pinyin": "pínfán",
+    "sens": "fréquent ; fréquemment"
+   },
+   {
+    "mot": "融合",
+    "pinyin": "rónghé",
+    "sens": "se fondre, fusionner, se mêler"
+   }
+  ]
+ },
+ {
+  "titre": "书法的现代命运",
+  "niveau": 6,
+  "texte": "电脑和手机普及以后，人们拿笔写字的机会越来越少。不少人发现，自己一拿起笔，就想不起某个字该怎么写，这种现象被形象地称为“提笔忘字”。在这样的时代，书法这门古老的艺术还有存在的必要吗？事实上，书法从来就不只是一种写字的技术。古人讲究“字如其人”，认为一个人写的字能够体现他的性格和修养。练习书法需要长时间保持专注，每一笔都急不得，这对于生活节奏越来越快的现代人来说，恰恰是一种难得的放松。\n近年来，不少城市出现了书法培训班，学员中既有小学生，也有工作多年的白领。他们学习书法，并不是为了成为书法家，而是希望在一笔一画之间，让自己的心安静下来。同时，书法也在以新的形式进入人们的生活：商品包装、广告设计、手机上的字体中，都能看到书法元素的影子。可见，一门传统艺术要想延续下去，既要守住自己的根，也要学会与时代对话。",
+  "traduction": "Depuis que les ordinateurs et les téléphones portables se sont généralisés, les occasions d'écrire à la main se font de plus en plus rares. Beaucoup de gens s'aperçoivent qu'à peine ont-ils pris un stylo, ils n'arrivent plus à se rappeler comment s'écrit tel ou tel caractère ; on appelle ce phénomène, de façon imagée, « oublier les caractères dès qu'on prend la plume ». À une telle époque, l'art ancien de la calligraphie a-t-il encore une raison d'exister ? En réalité, la calligraphie n'a jamais été une simple technique d'écriture. Les Anciens tenaient à l'idée que « l'écriture reflète la personne » : ils pensaient que les caractères tracés par quelqu'un révèlent sa personnalité et son raffinement. Pratiquer la calligraphie exige de rester longtemps concentré, et aucun trait ne souffre la précipitation ; pour l'homme moderne, dont le rythme de vie ne cesse de s'accélérer, c'est justement une détente précieuse.\nCes dernières années, des cours de calligraphie ont vu le jour dans de nombreuses villes ; parmi les élèves, on trouve aussi bien des écoliers que des employés de bureau qui travaillent depuis des années. S'ils apprennent la calligraphie, ce n'est pas pour devenir calligraphes, mais pour apaiser leur esprit, trait après trait. Parallèlement, la calligraphie entre dans la vie quotidienne sous de nouvelles formes : on en retrouve des éléments dans les emballages de produits, la publicité ou les polices de caractères des téléphones. On voit ainsi que, pour se perpétuer, un art traditionnel doit à la fois préserver ses racines et apprendre à dialoguer avec son époque.",
+  "questions": [
+   {
+    "q": "什么是“提笔忘字”？",
+    "r": "拿起笔却想不起某个字该怎么写的现象。"
+   },
+   {
+    "q": "为什么说练习书法对现代人来说是一种放松？",
+    "r": "因为练书法需要长时间专注，不能着急，能让人在快节奏的生活中安静下来。"
+   },
+   {
+    "q": "作者认为传统艺术怎样才能延续下去？",
+    "r": "既要守住自己的根，也要学会与时代对话。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "普及",
+    "pinyin": "pǔjí",
+    "sens": "se généraliser, se répandre"
+   },
+   {
+    "mot": "专注",
+    "pinyin": "zhuānzhù",
+    "sens": "concentré ; se concentrer"
+   },
+   {
+    "mot": "节奏",
+    "pinyin": "jiézòu",
+    "sens": "rythme"
+   },
+   {
+    "mot": "恰恰",
+    "pinyin": "qiàqià",
+    "sens": "justement, précisément"
+   },
+   {
+    "mot": "元素",
+    "pinyin": "yuánsù",
+    "sens": "élément"
+   },
+   {
+    "mot": "延续",
+    "pinyin": "yánxù",
+    "sens": "se perpétuer, continuer"
+   }
+  ]
+ },
+ {
+  "titre": "外来词的旅行",
+  "niveau": 6,
+  "texte": "咖啡、沙发、巧克力……这些词我们几乎每天都在用，却很少有人意识到，它们其实都是从外语里“借”来的。语言学家把这类词叫做“外来词”。一种语言吸收外来词的过程，往往也是两种文化相互接触和交流的过程。汉语吸收外来词的方式大致有三种：第一种是音译，也就是模仿原词的发音，比如“咖啡”“沙发”；第二种是意译，就是根据原词的意思重新造词，比如“热狗”；第三种是音译和意译相结合，比如“冰淇淋”，其中“冰”表示意思，“淇淋”模仿发音。\n有趣的是，同一个词有时会经历几种翻译方法之间的竞争。一百多年前，人们曾把英语的“电话”音译成“德律风”，把“科学”音译成“赛因斯”，后来这些音译词才逐渐被今天的说法取代。这说明，汉语使用者似乎更喜欢看字就能猜出意思的词。当然，外来词的旅行并不是单向的。“功夫”“豆腐”等汉语词也早已走出国门，进入了许多语言的词典，成为中国文化的一张张名片。",
+  "traduction": "Café, canapé, chocolat… Nous employons ces mots presque tous les jours, mais peu de gens se rendent compte qu'ils ont en fait été « empruntés » à des langues étrangères. Les linguistes appellent ce type de mots des « mots d'emprunt ». Le processus par lequel une langue absorbe des mots d'emprunt est souvent aussi celui de la mise en contact et de l'échange entre deux cultures. Le chinois intègre les mots étrangers de trois façons principales : la première est la transcription phonétique, qui consiste à imiter la prononciation du mot d'origine, comme kāfēi (« café ») ou shāfā (« canapé ») ; la deuxième est la traduction du sens, qui consiste à créer un nouveau mot d'après le sens du mot d'origine, comme règǒu (« hot-dog », littéralement « chien chaud ») ; la troisième combine le son et le sens, comme bīngqílín (« crème glacée »), où bīng (« glace ») rend le sens de ice, tandis que qílín imite la prononciation de cream.\nFait intéressant, un même mot connaît parfois une concurrence entre plusieurs méthodes de traduction. Il y a plus de cent ans, on transcrivait phonétiquement l'anglais telephone par délǜfēng et science par sàiyīnsī ; ce n'est que plus tard que ces transcriptions ont peu à peu été remplacées par les termes actuels. Cela montre que les locuteurs du chinois semblent préférer les mots dont on devine le sens rien qu'en voyant les caractères. Bien sûr, le voyage des mots d'emprunt ne se fait pas à sens unique. Des mots chinois comme gōngfu (« kung-fu ») et dòufu (« tofu ») ont depuis longtemps franchi les frontières et sont entrés dans les dictionnaires de nombreuses langues, devenant autant de cartes de visite de la culture chinoise.",
+  "questions": [
+   {
+    "q": "汉语吸收外来词主要有哪几种方式？",
+    "r": "音译、意译，以及音译和意译相结合。"
+   },
+   {
+    "q": "“冰淇淋”属于哪一种外来词？为什么？",
+    "r": "属于音译和意译相结合，“冰”表示意思，“淇淋”模仿发音。"
+   },
+   {
+    "q": "从“德律风”被“电话”取代的例子可以看出什么？",
+    "r": "汉语使用者似乎更喜欢看字就能猜出意思的词。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "吸收",
+    "pinyin": "xīshōu",
+    "sens": "absorber, assimiler"
+   },
+   {
+    "mot": "接触",
+    "pinyin": "jiēchù",
+    "sens": "contact ; entrer en contact"
+   },
+   {
+    "mot": "模仿",
+    "pinyin": "mófǎng",
+    "sens": "imiter"
+   },
+   {
+    "mot": "逐渐",
+    "pinyin": "zhújiàn",
+    "sens": "progressivement, peu à peu"
+   },
+   {
+    "mot": "取代",
+    "pinyin": "qǔdài",
+    "sens": "remplacer, supplanter"
+   }
+  ]
+ },
+ {
+  "titre": "被忽视的光污染",
+  "niveau": 6,
+  "texte": "提到污染，人们首先想到的往往是空气污染、水污染和噪声污染。然而，还有一种污染每天都发生在我们身边，却很少引起重视，那就是光污染。随着城市的发展，夜晚变得越来越亮。广告、路灯和高楼外墙上的灯光，把城市照得如同白天一般。有研究显示，全世界约三分之一的人已经无法在夜空中看到银河。过多的人工光线不仅让星空从我们眼前消失，还对生态环境造成了影响。许多鸟类在夜间长途飞行时依靠星星判断方向，城市的灯光却常常让它们迷路，甚至撞上高楼。对人类来说，夜间长时间处在强光环境中，也可能打乱身体的生物钟，影响睡眠质量。\n值得注意的是，治理光污染并不意味着让城市回到黑暗之中。合理设计照明，让灯光只照向需要的地方，在深夜关掉不必要的装饰灯，都是简单而有效的办法。一些地方还建立了“暗夜保护区”，让人们重新有机会抬头欣赏满天的星星。",
+  "traduction": "Quand on parle de pollution, on pense d'abord, le plus souvent, à la pollution de l'air, à celle de l'eau et à la pollution sonore. Pourtant, il existe une pollution qui se produit chaque jour autour de nous sans presque jamais retenir l'attention : la pollution lumineuse. Avec le développement des villes, les nuits sont de plus en plus claires. Publicités, lampadaires et éclairages des façades des tours illuminent la ville comme en plein jour. Selon une étude, environ un tiers de la population mondiale ne peut déjà plus voir la Voie lactée dans le ciel nocturne. L'excès de lumière artificielle ne fait pas seulement disparaître le ciel étoilé de notre vue ; il affecte aussi les écosystèmes. De nombreux oiseaux s'orientent grâce aux étoiles lors de leurs longs vols nocturnes, mais les lumières de la ville leur font souvent perdre leur chemin, au point qu'ils vont parfois percuter des immeubles. Pour l'être humain, rester longtemps exposé à une lumière intense la nuit peut aussi dérégler l'horloge biologique et nuire à la qualité du sommeil.\nIl faut souligner que lutter contre la pollution lumineuse ne signifie pas replonger les villes dans l'obscurité. Concevoir un éclairage raisonné, qui n'éclaire que là où c'est nécessaire, ou éteindre en pleine nuit les lumières décoratives superflues sont des solutions simples et efficaces. Certains endroits ont même créé des « réserves de ciel étoilé », qui redonnent aux gens l'occasion de lever les yeux pour admirer un ciel constellé d'étoiles.",
+  "questions": [
+   {
+    "q": "作者认为光污染有什么特点？",
+    "r": "它每天都发生在我们身边，却很少引起重视。"
+   },
+   {
+    "q": "城市的灯光对鸟类有什么影响？",
+    "r": "会让依靠星星判断方向的鸟类迷路，甚至撞上高楼。"
+   },
+   {
+    "q": "治理光污染是不是要让城市变得一片黑暗？",
+    "r": "不是，而是要合理设计照明，关掉不必要的灯。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "生态",
+    "pinyin": "shēngtài",
+    "sens": "écologie ; écologique"
+   },
+   {
+    "mot": "治理",
+    "pinyin": "zhìlǐ",
+    "sens": "traiter (un problème), lutter contre ; gouverner"
+   },
+   {
+    "mot": "合理",
+    "pinyin": "hélǐ",
+    "sens": "raisonnable, rationnel"
+   },
+   {
+    "mot": "照明",
+    "pinyin": "zhàomíng",
+    "sens": "éclairage ; éclairer"
+   },
+   {
+    "mot": "装饰",
+    "pinyin": "zhuāngshì",
+    "sens": "décoration ; décorer"
+   },
+   {
+    "mot": "欣赏",
+    "pinyin": "xīnshǎng",
+    "sens": "admirer, apprécier"
+   }
+  ]
+ },
+ {
+  "titre": "记忆会说谎吗",
+  "niveau": 6,
+  "texte": "很多人相信，记忆就像一台录像机，准确地记录下我们经历的一切，需要的时候只要“回放”就行了。然而，心理学研究表明，事实并不是这样。二十世纪七十年代，美国心理学家做过一个著名的实验：研究人员先让参与者观看一段车祸录像，然后问他们两辆车相撞时的速度大概是多少。提问时，研究人员对不同的小组使用了不同的动词，比如“猛撞”或“碰到”。结果发现，听到“猛撞”的人估计的车速明显更高。一周以后，他们中还有不少人说自己在录像里看到了碎玻璃，而实际上录像里根本没有。\n这说明，记忆并不是简单的保存，每一次回忆，都是对过去的一次重新加工。我们的期待、情绪以及别人的暗示，都可能悄悄改变记忆的内容。这一发现对法律领域产生了深远的影响：仅仅依靠证人的回忆来判断案件，是存在风险的。对我们每个人来说，了解记忆的这一特点，也许能让我们在与别人争论“当时到底发生了什么”时，多一分谦虚和理解。",
+  "traduction": "Beaucoup de gens croient que la mémoire fonctionne comme un magnétoscope : elle enregistrerait avec exactitude tout ce que nous avons vécu, et il suffirait de la « repasser » quand on en a besoin. Pourtant, les recherches en psychologie montrent qu'il n'en est rien. Dans les années 1970, des psychologues américains ont mené une célèbre expérience : les chercheurs ont d'abord montré aux participants la vidéo d'un accident de voiture, puis leur ont demandé à quelle vitesse, à peu près, roulaient les deux voitures au moment de la collision. En posant la question, ils ont employé des verbes différents selon les groupes, par exemple « se percuter violemment » ou « se toucher ». Résultat : ceux qui avaient entendu « se percuter violemment » estimaient une vitesse nettement plus élevée. Une semaine plus tard, beaucoup d'entre eux affirmaient même avoir vu du verre brisé sur la vidéo, alors qu'il n'y en avait absolument pas.\nCela montre que la mémoire n'est pas un simple stockage : chaque fois que nous nous souvenons, nous retravaillons le passé. Nos attentes, nos émotions et les suggestions d'autrui peuvent modifier discrètement le contenu de nos souvenirs. Cette découverte a eu une influence profonde dans le domaine juridique : juger une affaire en se fiant uniquement aux souvenirs des témoins comporte des risques. Pour chacun de nous, connaître cette particularité de la mémoire nous rendra peut-être un peu plus humbles et compréhensifs lorsque nous nous disputons avec autrui pour savoir « ce qui s'est vraiment passé à ce moment-là ».",
+  "questions": [
+   {
+    "q": "文章的主要观点是什么？",
+    "r": "记忆并不可靠，每一次回忆都是对过去的重新加工。"
+   },
+   {
+    "q": "在实验中，听到“猛撞”的人和其他人有什么不同？",
+    "r": "他们估计的车速更高，一周后还有不少人说看到了碎玻璃。"
+   },
+   {
+    "q": "为什么这个发现对法律领域有影响？",
+    "r": "因为证人的记忆可能被改变，只靠证人的回忆判断案件有风险。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "加工",
+    "pinyin": "jiāgōng",
+    "sens": "transformer, retravailler, traiter"
+   },
+   {
+    "mot": "情绪",
+    "pinyin": "qíngxù",
+    "sens": "émotion, humeur"
+   },
+   {
+    "mot": "暗示",
+    "pinyin": "ànshì",
+    "sens": "suggestion, insinuation ; suggérer"
+   },
+   {
+    "mot": "领域",
+    "pinyin": "lǐngyù",
+    "sens": "domaine"
+   },
+   {
+    "mot": "深远",
+    "pinyin": "shēnyuǎn",
+    "sens": "profond, de grande portée"
+   },
+   {
+    "mot": "谦虚",
+    "pinyin": "qiānxū",
+    "sens": "modeste, humble"
+   }
+  ]
+ },
+ {
+  "titre": "兴趣班的背后",
+  "niveau": 6,
+  "texte": "周末的早晨，本该是孩子们睡懒觉的时间，可在许多城市，家长们却早早地带着孩子在各种兴趣班之间来回跑：上午学钢琴，下午练书法，晚上还有英语课。在一些家庭里，孩子每周上三四个兴趣班并不少见。家长们为什么这么喜欢给孩子报兴趣班？一方面，他们希望孩子多掌握一些技能，将来在升学和就业中更有竞争力；另一方面，看到别人家的孩子都在学，自己不报就担心孩子“输在起跑线上”。这种互相比较的心理，让兴趣班渐渐变了味道：原本应该从孩子的兴趣出发，现在却更多地反映了家长的焦虑。\n教育专家指出，兴趣是最好的老师，但被强迫的兴趣很难持久。一些孩子学了多年乐器，考完级以后便再也不碰。与其让孩子样样都学，不如多观察他们真正喜欢什么，并给他们留出一些自由安排的时间。毕竟，自由地玩、发一会儿呆、独自探索世界，同样是成长中不可缺少的部分。",
+  "traduction": "Le matin du week-end devrait être le moment où les enfants font la grasse matinée ; pourtant, dans de nombreuses villes, les parents emmènent de bonne heure leurs enfants courir d'une activité extrascolaire à l'autre : piano le matin, calligraphie l'après-midi, et encore un cours d'anglais le soir. Dans certaines familles, il n'est pas rare qu'un enfant suive trois ou quatre activités par semaine. Pourquoi les parents tiennent-ils tant à inscrire leurs enfants à ces cours ? D'une part, ils espèrent que leurs enfants maîtriseront davantage de compétences et seront plus compétitifs plus tard, pour la poursuite des études comme pour l'emploi ; d'autre part, voyant que les enfants des autres suivent tous ces cours, ils craignent, s'ils ne les inscrivent pas, que le leur « perde dès la ligne de départ ». Cet état d'esprit fait de comparaisons mutuelles a peu à peu dénaturé ces activités : elles devaient au départ partir des goûts de l'enfant, mais elles reflètent désormais surtout l'anxiété des parents.\nLes spécialistes de l'éducation soulignent que l'intérêt est le meilleur des maîtres, mais qu'un intérêt imposé dure rarement. Certains enfants apprennent un instrument pendant des années, puis n'y touchent plus jamais une fois leurs examens de niveau passés. Plutôt que de tout faire apprendre aux enfants, mieux vaut observer davantage ce qu'ils aiment vraiment et leur laisser du temps à organiser librement. Après tout, jouer librement, rêvasser un moment et explorer le monde par soi-même font tout autant partie des choses indispensables pour grandir.",
+  "questions": [
+   {
+    "q": "家长为什么这么喜欢给孩子报兴趣班？",
+    "r": "希望孩子多掌握技能、将来更有竞争力，也担心孩子“输在起跑线上”。"
+   },
+   {
+    "q": "文中说兴趣班“变了味道”，是什么意思？",
+    "r": "兴趣班本来应该从孩子的兴趣出发，现在却反映了家长的焦虑。"
+   },
+   {
+    "q": "教育专家给家长提了什么建议？",
+    "r": "不要让孩子样样都学，要观察孩子真正喜欢什么，给他们留出自由的时间。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "技能",
+    "pinyin": "jìnéng",
+    "sens": "compétence, savoir-faire"
+   },
+   {
+    "mot": "焦虑",
+    "pinyin": "jiāolǜ",
+    "sens": "anxieux ; anxiété"
+   },
+   {
+    "mot": "强迫",
+    "pinyin": "qiǎngpò",
+    "sens": "forcer, contraindre"
+   },
+   {
+    "mot": "持久",
+    "pinyin": "chíjiǔ",
+    "sens": "durable, persistant"
+   },
+   {
+    "mot": "观察",
+    "pinyin": "guānchá",
+    "sens": "observer"
+   },
+   {
+    "mot": "探索",
+    "pinyin": "tànsuǒ",
+    "sens": "explorer"
+   }
+  ]
+ },
+ {
+  "titre": "数字遗产",
+  "niveau": 6,
+  "texte": "人去世以后，房子、存款等财产可以由家人继承，那么，他留在网上的照片、聊天记录和各种账号又该怎么处理呢？这个过去很少有人思考的问题，如今正变得越来越现实。今天，我们生活的大量痕迹都保存在互联网上：有人在网上记录了十几年的生活，有人在网络相册里存了成千上万张家庭照片，还有人拥有游戏账号、网店等各种网上财产。这些内容被称为“数字遗产”。然而，由于许多平台规定账号只能由本人使用，家属往往既不知道密码，也无权登录，只能眼看着亲人留下的珍贵回忆无法取回。\n另一方面，数字遗产还涉及隐私问题。一个人活着的时候，未必愿意让家人看到自己所有的聊天记录，如果平台随意交出账号，就可能违背去世者本人的意愿。为此，一些平台开始提供“纪念账号”服务：账号被保留下来，亲人和朋友可以在这里留言纪念，但不能再登录或修改。也有专家建议，每个人都应该早一点整理自己的数字财产，并提前说明希望如何处理。在数字时代，告别的方式也需要重新思考。",
+  "traduction": "Après la mort d'une personne, ses biens, comme sa maison ou son épargne, peuvent être hérités par sa famille ; mais alors, que faire des photos, des historiques de conversation et des divers comptes qu'elle a laissés en ligne ? Cette question, à laquelle peu de gens réfléchissaient autrefois, devient aujourd'hui de plus en plus concrète. De nos jours, une grande partie des traces de notre vie est conservée sur Internet : certains ont raconté en ligne plus de dix ans de leur existence, d'autres ont stocké des milliers de photos de famille dans des albums en ligne, d'autres encore possèdent des comptes de jeux, des boutiques en ligne et toutes sortes de biens sur Internet. On appelle ces contenus « l'héritage numérique ». Cependant, comme de nombreuses plateformes stipulent qu'un compte ne peut être utilisé que par son titulaire, les proches ne connaissent souvent pas le mot de passe et n'ont pas non plus le droit de se connecter ; ils ne peuvent que constater, impuissants, que les précieux souvenirs laissés par l'être cher sont irrécupérables.\nPar ailleurs, l'héritage numérique soulève aussi des questions de vie privée. De son vivant, on ne souhaite pas forcément que sa famille voie toutes ses conversations ; si une plateforme remettait un compte à la légère, elle risquerait d'aller à l'encontre de la volonté du défunt. C'est pourquoi certaines plateformes ont commencé à proposer un service de « compte commémoratif » : le compte est conservé, la famille et les amis peuvent y laisser des messages en sa mémoire, mais on ne peut plus s'y connecter ni le modifier. Certains experts conseillent aussi à chacun de mettre de l'ordre assez tôt dans ses biens numériques et d'indiquer à l'avance comment il souhaite qu'ils soient traités. À l'ère du numérique, la manière de dire adieu mérite, elle aussi, d'être repensée.",
+  "questions": [
+   {
+    "q": "什么是“数字遗产”？",
+    "r": "人去世后留在网上的照片、聊天记录、各种账号和网上财产等。"
+   },
+   {
+    "q": "家属为什么往往无法取回亲人的数字遗产？",
+    "r": "因为平台规定账号只能由本人使用，家属不知道密码，也无权登录。"
+   },
+   {
+    "q": "平台为什么不能随意把账号交给家属？",
+    "r": "因为这涉及隐私，可能违背去世者本人的意愿。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "继承",
+    "pinyin": "jìchéng",
+    "sens": "hériter ; succession"
+   },
+   {
+    "mot": "痕迹",
+    "pinyin": "hénjì",
+    "sens": "trace, vestige"
+   },
+   {
+    "mot": "遗产",
+    "pinyin": "yíchǎn",
+    "sens": "héritage, patrimoine"
+   },
+   {
+    "mot": "家属",
+    "pinyin": "jiāshǔ",
+    "sens": "membres de la famille, proches"
+   },
+   {
+    "mot": "涉及",
+    "pinyin": "shèjí",
+    "sens": "concerner, toucher à"
+   },
+   {
+    "mot": "隐私",
+    "pinyin": "yǐnsī",
+    "sens": "vie privée, intimité"
+   }
+  ]
+ },
+ {
+  "titre": "古镇的商业化",
+  "niveau": 6,
+  "texte": "石板小路、小桥流水、白墙黑瓦，江南古镇一直是许多人心中理想的旅游目的地。然而，不少游客真正到了那里，却感到有些失望：街道两旁挤满了卖纪念品和小吃的商店，商品几乎都一样，价格却贵得让人吃惊。人们不禁要问：这里和别的古镇还有什么区别？古镇的商业化到底是好是坏，一直存在争议。支持者认为，旅游业为当地带来了大量收入，改善了交通等基础设施，也让古老的建筑得到了修复。如果没有游客，年轻人会纷纷离开家乡，古镇可能慢慢变成一座空城。反对者则认为，过度开发破坏了古镇原有的生活气氛。当原来的居民陆续搬走，老房子变成了酒吧和旅馆，古镇就只剩下一个漂亮的外表。\n其实，保护与开发并不是完全对立的，关键在于找到二者之间的平衡：限制商店的数量和种类，鼓励原来的居民留下来继续生活，让传统手工艺真正得到传承。只有这样，游客看到的才不仅是风景，还有一种仍在延续的生活。",
+  "traduction": "Ruelles pavées, petits ponts sur l'eau qui coule, murs blancs et tuiles noires : les vieux bourgs du Jiangnan sont depuis toujours, pour beaucoup, une destination de voyage idéale. Pourtant, une fois sur place, bien des touristes sont quelque peu déçus : les rues sont bordées de part et d'autre de boutiques de souvenirs et d'en-cas, les marchandises sont presque toutes les mêmes, et les prix, eux, sont étonnamment élevés. On ne peut s'empêcher de se demander : en quoi cet endroit se distingue-t-il encore des autres vieux bourgs ? La commercialisation des vieux bourgs est-elle une bonne ou une mauvaise chose ? La question fait débat depuis longtemps. Ses partisans estiment que le tourisme a apporté d'importants revenus à la région, amélioré les infrastructures, comme les transports, et permis de restaurer les bâtiments anciens. Sans touristes, les jeunes quitteraient en masse leur terre natale, et ces bourgs risqueraient de se transformer peu à peu en villes fantômes. Ses détracteurs, eux, pensent qu'une exploitation excessive a détruit l'atmosphère de vie propre à ces bourgs. Quand les habitants d'origine s'en vont les uns après les autres et que les vieilles maisons deviennent des bars et des hôtels, il ne reste plus du bourg qu'une jolie façade.\nEn réalité, protection et exploitation ne s'opposent pas complètement ; l'essentiel est de trouver un équilibre entre les deux : limiter le nombre et les types de commerces, encourager les habitants d'origine à continuer d'y vivre, et faire en sorte que l'artisanat traditionnel soit réellement transmis. C'est seulement ainsi que les touristes verront non seulement un paysage, mais aussi une vie qui se poursuit.",
+  "questions": [
+   {
+    "q": "很多游客到了古镇为什么会感到失望？",
+    "r": "因为街上挤满了商店，商品几乎都一样，价格还特别贵。"
+   },
+   {
+    "q": "支持古镇商业化的人有哪些理由？",
+    "r": "旅游业带来了收入，改善了基础设施，修复了古老的建筑，还能留住年轻人。"
+   },
+   {
+    "q": "作者认为应该怎样处理保护与开发的关系？",
+    "r": "找到二者之间的平衡，比如限制商店的数量和种类，鼓励原来的居民留下来，传承传统手工艺。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "争议",
+    "pinyin": "zhēngyì",
+    "sens": "controverse, débat"
+   },
+   {
+    "mot": "改善",
+    "pinyin": "gǎishàn",
+    "sens": "améliorer"
+   },
+   {
+    "mot": "过度",
+    "pinyin": "guòdù",
+    "sens": "excessif ; à l'excès"
+   },
+   {
+    "mot": "对立",
+    "pinyin": "duìlì",
+    "sens": "s'opposer ; opposé"
+   },
+   {
+    "mot": "平衡",
+    "pinyin": "pínghéng",
+    "sens": "équilibre ; équilibrer"
+   },
+   {
+    "mot": "传承",
+    "pinyin": "chuánchéng",
+    "sens": "transmettre (un héritage culturel) ; transmission"
+   }
+  ]
+ },
+ {
+  "titre": "留白的智慧",
+  "niveau": 7,
+  "texte": "中国传统绘画中有一种独特的手法，叫作“留白”。画家在纸上有意留下大片空白，不着一笔，观者却能从中看到烟波浩渺的江水、云雾缭绕的远山。南宋画家马远、夏圭的山水画，常常只在画面一角或一侧描绘几块山石、一叶扁舟，其余大片都是空白，因而被后人称为“马一角”“夏半边”。与力求把画面填满的西方油画不同，中国画之所以重视留白，是因为古人相信，真正的意境往往不在画笔触及之处，而在笔墨之外。所谓“无画处皆成妙境”，说的正是这个道理。\n留白并非简单的空缺，而是一种精心的安排。空白与墨迹相互映衬，相得益彰：没有空白，墨色便显得拥挤沉闷；没有墨迹，空白也就失去了意义。书法讲究“计白当黑”，诗歌追求“言有尽而意无穷”，园林里一面白墙前种上几竿翠竹，便宛如一幅天然的水墨画，戏曲舞台上一桌二椅便能代表千山万水。它们背后都是同一种审美观念——给欣赏者留下想象的余地，让他们参与到作品的创造之中。\n由此可见，留白不仅是一种艺术技巧，更是一种生活智慧。在信息爆炸的今天，人们习惯于把日程排得满满当当，生怕浪费一分一秒，结果却常常身心俱疲，灵感枯竭。与其马不停蹄地追赶，不如在生活中适当留一点白：放下手机，静静地散步、发呆，让思绪自由地流动。毕竟，一只装满了水的杯子，是再也盛不下任何东西的。或许正是在这些看似空闲的时刻，新的想法才会悄然萌发。",
+  "traduction": "La peinture chinoise traditionnelle recourt à un procédé singulier appelé « liubai », « laisser du blanc ». Le peintre laisse volontairement de vastes espaces vides sur le papier, sans y poser le moindre coup de pinceau, et pourtant le spectateur y voit un fleuve aux eaux brumeuses s'étendant à perte de vue ou des montagnes lointaines enveloppées de nuages. Les paysages de Ma Yuan et de Xia Gui, peintres des Song du Sud, ne représentent souvent, dans un coin ou sur un côté du tableau, que quelques rochers ou une barque solitaire, le reste étant laissé en blanc, ce qui leur a valu d'être surnommés par la postérité « Ma le coin » et « Xia la moitié ». À la différence de la peinture à l'huile occidentale, qui s'efforce de remplir toute la toile, si la peinture chinoise accorde tant d'importance au vide, c'est parce que les Anciens étaient convaincus que la véritable atmosphère d'une œuvre se trouve souvent non pas là où le pinceau a touché le papier, mais au-delà de l'encre. Le précepte « là où rien n'est peint, tout devient paysage merveilleux » ne dit pas autre chose.\nLe vide n'est pas un simple manque, mais le fruit d'une disposition minutieuse. Le blanc et l'encre se font valoir mutuellement : sans vide, l'encre paraît encombrée et pesante ; sans traits d'encre, le vide perd lui aussi tout son sens. La calligraphie prône de « compter le blanc comme du noir », la poésie recherche des « mots qui s'arrêtent quand le sens, lui, est inépuisable » ; dans un jardin, quelques bambous plantés devant un mur blanc suffisent à composer un véritable lavis naturel, et sur la scène de l'opéra traditionnel, une table et deux chaises figurent mille montagnes et dix mille rivières. Derrière tout cela se trouve une même conception esthétique : laisser au spectateur une marge d'imagination, pour qu'il participe à la création de l'œuvre.\nOn voit donc que le vide n'est pas seulement une technique artistique, mais aussi une sagesse de vie. À l'heure de l'explosion de l'information, on a pris l'habitude de remplir son emploi du temps à ras bord, de peur de perdre la moindre seconde, pour finir bien souvent épuisé de corps et d'esprit, l'inspiration tarie. Plutôt que de courir sans relâche, mieux vaut laisser un peu de blanc dans sa vie : poser son téléphone, se promener tranquillement, rêvasser, laisser ses pensées vagabonder. Après tout, un verre rempli d'eau ne peut plus rien contenir. C'est peut-être justement dans ces moments d'apparente oisiveté que germent, sans bruit, de nouvelles idées.",
+  "questions": [
+   {
+    "q": "中国画之所以重视留白，是因为什么？",
+    "r": "因为古人认为，真正的意境往往不在笔墨触及之处，而在笔墨之外。"
+   },
+   {
+    "q": "作者举“计白当黑”和“一桌二椅”等例子，想说明什么？",
+    "r": "说明各种艺术背后有同一种审美观念：给欣赏者留下想象的余地。"
+   },
+   {
+    "q": "作者认为留白对现代人的生活有什么启示？",
+    "r": "应在生活中适当留白，放慢脚步，让思绪自由流动，新想法才会萌发。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "留白",
+    "pinyin": "liúbái",
+    "sens": "laisser du blanc, ménager des espaces vides (en peinture)"
+   },
+   {
+    "mot": "意境",
+    "pinyin": "yìjìng",
+    "sens": "atmosphère, univers poétique (d'une œuvre)"
+   },
+   {
+    "mot": "烟波浩渺",
+    "pinyin": "yānbōhàomiǎo",
+    "sens": "étendue d'eau brumeuse à perte de vue"
+   },
+   {
+    "mot": "相得益彰",
+    "pinyin": "xiāngdéyìzhāng",
+    "sens": "se mettre mutuellement en valeur"
+   },
+   {
+    "mot": "余地",
+    "pinyin": "yúdì",
+    "sens": "marge, latitude"
+   },
+   {
+    "mot": "身心俱疲",
+    "pinyin": "shēnxīnjùpí",
+    "sens": "épuisé de corps et d'esprit"
+   },
+   {
+    "mot": "萌发",
+    "pinyin": "méngfā",
+    "sens": "germer, naître, éclore"
+   }
+  ]
+ },
+ {
+  "titre": "无用之用",
+  "niveau": 7,
+  "texte": "《庄子》中记载了这样一个故事：一位木匠路过一棵巨大的栎树，树荫足以遮蔽数千头牛，前来观看的人络绎不绝，他却看也不看就走了。徒弟不解其故，他解释说，这棵树的木材做船会沉，做棺材会烂，做器具会坏，是毫无用处的“散木”。然而当晚，栎树出现在他的梦中，对他说：正因为自己无用，才没有被砍伐，得以享尽天年。庄子借此提出了“无用之用”的思想：人们只知道有用的用处，却不知道无用的用处。\n这一思想在今天看来依然发人深省。在一个崇尚效率的社会里，人们习惯于用“有没有用”来衡量一切：读书要看能否提高成绩，交友要看能否带来资源，就连培养爱好也要看能否增加竞争力。久而久之，那些无法立竿见影地带来回报的事物——读一首诗、看一场日落、与朋友漫无目的地闲聊——便被视为浪费时间，逐渐从生活中消失了。\n然而，功利的眼光往往是短浅的。许多改变世界的科学发现，最初都源于纯粹的好奇心，在当时看来毫无实际价值。比如，数论曾长期被视为最“无用”的数学分支，如今却成了现代密码技术的基础，守护着每一笔网上支付的安全。同样，一个人的精神世界是否丰富，也恰恰取决于那些“无用”的积累。正所谓“无用之用，方为大用”。与其把生活切割成一个个以结果为导向的任务，不如为那些看似无用的事物保留一席之地。毕竟，人不是一台只追求产出的机器。",
+  "traduction": "Le Zhuangzi rapporte l'histoire suivante : un charpentier passe devant un chêne gigantesque, dont l'ombre suffirait à abriter des milliers de bœufs ; les curieux accourent sans discontinuer pour le contempler, mais lui poursuit son chemin sans même lui accorder un regard. Son apprenti ne comprend pas pourquoi ; le maître lui explique qu'un bateau fait de ce bois coulerait, qu'un cercueil pourrirait et qu'un ustensile se briserait : c'est un « bois inutile », bon à rien. Pourtant, la nuit même, le chêne lui apparaît en rêve et lui dit que c'est précisément parce qu'il est inutile qu'on ne l'a pas abattu et qu'il a pu vivre jusqu'au terme naturel de ses jours. Zhuangzi en tire l'idée de « l'utilité de l'inutile » : les hommes ne connaissent que l'utilité de ce qui est utile, et ignorent celle de ce qui est inutile.\nAujourd'hui encore, cette pensée donne à réfléchir. Dans une société qui vénère l'efficacité, on a pris l'habitude de tout juger à l'aune de l'utilité : on lit en se demandant si cela fera monter ses notes, on choisit ses amis selon les ressources qu'ils peuvent apporter, et même un loisir, on ne le cultive que s'il accroît sa compétitivité. À la longue, tout ce qui ne rapporte pas de bénéfice immédiat — lire un poème, regarder un coucher de soleil, bavarder sans but avec des amis — est considéré comme une perte de temps et disparaît peu à peu de nos vies.\nCependant, le regard utilitariste est souvent à courte vue. Bien des découvertes scientifiques qui ont changé le monde sont nées d'une pure curiosité et semblaient alors dépourvues de toute valeur pratique. Ainsi, la théorie des nombres a longtemps passé pour la branche la plus « inutile » des mathématiques ; elle est pourtant devenue le fondement de la cryptographie moderne et protège aujourd'hui chacun de nos paiements en ligne. De même, la richesse du monde intérieur d'une personne dépend précisément de l'accumulation de ces choses « inutiles ». Comme le veut l'adage, « l'utilité de l'inutile est la plus grande des utilités ». Plutôt que de découper sa vie en une série de tâches tournées vers le résultat, mieux vaut réserver une place à ce qui semble ne servir à rien. Après tout, l'être humain n'est pas une machine uniquement vouée à produire.",
+  "questions": [
+   {
+    "q": "那位木匠为什么对栎树看也不看？",
+    "r": "因为他认为这棵树的木材毫无用处，是“散木”。"
+   },
+   {
+    "q": "文中“立竿见影”是什么意思？",
+    "r": "指马上就能看到效果或回报。"
+   },
+   {
+    "q": "作者对“无用之用”持什么态度？",
+    "r": "赞同，认为应该为看似无用的事物保留一席之地。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "发人深省",
+    "pinyin": "fārénshēnxǐng",
+    "sens": "qui donne à réfléchir"
+   },
+   {
+    "mot": "崇尚",
+    "pinyin": "chóngshàng",
+    "sens": "vénérer, prôner"
+   },
+   {
+    "mot": "久而久之",
+    "pinyin": "jiǔ'érjiǔzhī",
+    "sens": "à la longue, avec le temps"
+   },
+   {
+    "mot": "立竿见影",
+    "pinyin": "lìgānjiànyǐng",
+    "sens": "(effet) immédiat, résultat visible aussitôt"
+   },
+   {
+    "mot": "漫无目的",
+    "pinyin": "mànwúmùdì",
+    "sens": "sans but précis"
+   },
+   {
+    "mot": "功利",
+    "pinyin": "gōnglì",
+    "sens": "utilitaire, intérêt matériel"
+   },
+   {
+    "mot": "享尽天年",
+    "pinyin": "xiǎngjìntiānnián",
+    "sens": "vivre jusqu'au terme naturel de ses jours"
+   }
+  ]
+ },
+ {
+  "titre": "修旧如旧",
+  "niveau": 7,
+  "texte": "在古建筑保护领域，有一条被广泛认可的原则，叫作“修旧如旧”。它的意思是，修缮古建筑时应尽可能保留其原有的材料、工艺和历史风貌。与之相对的，则是所谓的“修旧如新”，即把旧建筑重新粉刷、彩绘，将其翻修得焕然一新，仿佛刚刚落成一般。然而，这条看似简单的原则，在实践中却常常引发争议。\n一些地方为了发展旅游，不惜拆除残破的老房子，再按照想象中的样子建起一片片“仿古建筑”。这些建筑虽然雕梁画栋、金碧辉煌，却失去了岁月留下的痕迹，千篇一律，令人索然无味。游客漫步其间，看到的不过是一片布景，却感受不到历史的温度。有专家批评说，这种做法无异于“拆了真古董，造了假古董”。古建筑之所以珍贵，不仅在于它的外观，更在于它所承载的历史信息：一块被风雨侵蚀的砖、一根留有斧凿痕迹的梁，都是先人生活的见证，一旦被替换，便再也无法复原。\n当然，“修旧如旧”并不意味着对破损置之不理。木结构建筑怕潮怕虫，若不及时维护，终究难逃坍塌的命运。关键在于把握分寸：能修补的尽量不更换，必须更换的也要采用传统材料和工艺，并做好记录，让后人能够分辨新旧。归根结底，保护古建筑不仅是一项技术工作，更考验着一个社会对待历史的态度。在急功近利的时代，能否对时间本身怀有敬畏之心，或许才是根本所在。",
+  "traduction": "Dans le domaine de la préservation des bâtiments anciens, un principe fait largement consensus : « restaurer l'ancien comme l'ancien ». Il signifie que, lorsqu'on restaure un édifice ancien, il faut conserver autant que possible ses matériaux, ses techniques d'origine et son aspect historique. À l'opposé se trouve ce que l'on appelle « restaurer l'ancien comme du neuf » : on repeint le vieil édifice et l'on refait ses décors peints pour le rendre flambant neuf, comme s'il venait d'être achevé. Pourtant, ce principe en apparence simple suscite souvent la controverse dans la pratique.\nPour développer le tourisme, certaines localités n'hésitent pas à raser de vieilles maisons délabrées pour ériger à leur place des ensembles entiers de « bâtiments de style ancien », conformes à l'idée qu'on s'en fait. Ces constructions ont beau arborer poutres sculptées et piliers peints, et resplendir d'or et de couleurs, elles ont perdu les traces laissées par les ans ; toutes identiques, elles n'inspirent que l'ennui. Les touristes qui s'y promènent n'y voient qu'un décor, sans jamais sentir la chaleur de l'histoire. Des experts dénoncent une pratique qui revient à « détruire de vraies antiquités pour en fabriquer de fausses ». Si les bâtiments anciens sont précieux, ce n'est pas seulement pour leur apparence, mais surtout pour les informations historiques qu'ils renferment : une brique rongée par le vent et la pluie, une poutre qui porte encore les marques de la hache et du ciseau sont autant de témoignages de la vie de nos ancêtres ; une fois remplacées, elles ne pourront plus jamais être restituées.\nBien sûr, « restaurer l'ancien comme l'ancien » ne signifie pas laisser les dégradations à l'abandon. Les constructions en bois craignent l'humidité et les insectes ; faute d'entretien en temps voulu, elles finiront inévitablement par s'effondrer. Tout est affaire de mesure : on évite autant que possible de remplacer ce qui peut être réparé ; ce qu'il faut absolument remplacer doit l'être avec des matériaux et des techniques traditionnels, en consignant soigneusement chaque intervention, afin que les générations futures puissent distinguer le neuf de l'ancien. En définitive, protéger les bâtiments anciens n'est pas seulement un travail technique : c'est aussi une mise à l'épreuve de l'attitude d'une société envers son histoire. À une époque avide de succès rapides, l'essentiel est peut-être de savoir si l'on est capable d'éprouver du respect pour le temps lui-même.",
+  "questions": [
+   {
+    "q": "“修旧如旧”原则的含义是什么？",
+    "r": "修缮古建筑时尽可能保留原有的材料、工艺和历史风貌，而不是翻修一新。"
+   },
+   {
+    "q": "专家为什么说有些做法是“拆了真古董，造了假古董”？",
+    "r": "因为这些地方拆除了真正的老房子，再建起没有历史痕迹的仿古建筑。"
+   },
+   {
+    "q": "作者认为修缮古建筑时应该怎样把握分寸？",
+    "r": "能修补的尽量不更换，必须更换的采用传统材料和工艺，并做好记录。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "修缮",
+    "pinyin": "xiūshàn",
+    "sens": "restaurer, réparer (un bâtiment)"
+   },
+   {
+    "mot": "雕梁画栋",
+    "pinyin": "diāoliánghuàdòng",
+    "sens": "poutres sculptées et piliers peints (édifice richement décoré)"
+   },
+   {
+    "mot": "金碧辉煌",
+    "pinyin": "jīnbìhuīhuáng",
+    "sens": "resplendissant d'or et de couleurs"
+   },
+   {
+    "mot": "索然无味",
+    "pinyin": "suǒránwúwèi",
+    "sens": "insipide, sans aucun intérêt"
+   },
+   {
+    "mot": "无异于",
+    "pinyin": "wúyìyú",
+    "sens": "revenir à, ne différer en rien de"
+   },
+   {
+    "mot": "侵蚀",
+    "pinyin": "qīnshí",
+    "sens": "éroder, ronger"
+   },
+   {
+    "mot": "急功近利",
+    "pinyin": "jígōngjìnlì",
+    "sens": "avide de succès et de profits rapides"
+   }
+  ]
+ },
+ {
+  "titre": "外来词的再创造",
+  "niveau": 7,
+  "texte": "语言从来不是封闭的系统。随着不同民族之间的交往日益频繁，一种语言总会从别的语言中吸收新的词汇，这些词被称为“外来词”。外来词如同一面镜子，映照出不同文明之间的交流与碰撞。汉语在数千年的发展过程中，就曾经历过几次大规模吸收外来词的高潮。\n东汉以后，随着佛教的传入，大量佛经被译成汉语，“刹那”“世界”“因果”等词语随之进入日常生活。如今人们对这些词早已习以为常，很少意识到它们原本来自异域。到了近代，西方的科学技术和思想观念纷纷涌入，汉语又迎来了新一轮吸收的热潮。有趣的是，当时有不少新词并非直接译自西方语言，而是从日语中借来的。其中，有的是日本人用汉字创造的，如“哲学”；有的则是古汉语中原有的词，被赋予了新的含义，如“经济”“社会”，后来又“回流”到了中国。\n汉语吸收外来词的方式也耐人寻味。音译虽然简便，却往往让人不知所云：五四时期流行一时的“德谟克拉西”“赛因斯”，最终还是让位于意译的“民主”“科学”。因此，汉语使用者更倾向于意译，或者在音译时巧妙地选用有意义的汉字。“可口可乐”既保留了原词的发音，又能引起美好的联想，堪称音意兼顾的典范。可见，外来词的旅行并不是简单的搬运，而是一种再创造。一种语言之所以能够生生不息，恰恰是因为它既善于吸收，又能将外来的成分融会贯通，化为自己的血肉。",
+  "traduction": "Une langue n'a jamais été un système fermé. À mesure que les échanges entre les peuples se multiplient, une langue finit toujours par emprunter de nouveaux mots à d'autres langues : on les appelle des « mots d'emprunt ». Comme un miroir, ils reflètent les échanges et les chocs entre civilisations. Au fil de plusieurs millénaires d'évolution, le chinois a connu à diverses reprises de grandes vagues d'emprunts.\nÀ partir des Han de l'Est, avec l'arrivée du bouddhisme, de nombreux sutras furent traduits en chinois, et des mots comme 刹那 (« instant »), 世界 (« monde ») ou 因果 (« cause et effet ») entrèrent dans la langue courante. Aujourd'hui, ils nous sont si familiers que l'on a rarement conscience qu'ils venaient à l'origine de contrées lointaines. À l'époque moderne, les sciences, les techniques et les idées occidentales affluèrent, et le chinois connut une nouvelle vague d'emprunts. Fait intéressant, bon nombre de mots nouveaux de cette époque ne furent pas traduits directement des langues occidentales, mais empruntés au japonais. Certains avaient été créés par les Japonais à l'aide de caractères chinois, comme 哲学 (« philosophie ») ; d'autres existaient déjà en chinois classique et s'étaient vu attribuer un sens nouveau, comme 经济 (« économie ») et 社会 (« société ») ; ils ont ensuite « reflué » vers la Chine.\nLa manière dont le chinois absorbe les mots étrangers est elle aussi riche d'enseignements. La transcription phonétique est certes commode, mais elle produit souvent des mots auxquels on ne comprend rien : 德谟克拉西 et 赛因斯, transcriptions de « démocratie » et de « science » en vogue à l'époque du mouvement du 4 Mai, ont fini par céder la place aux traductions par le sens 民主 et 科学. C'est pourquoi les locuteurs du chinois préfèrent la traduction par le sens, ou bien, lorsqu'ils transcrivent le son, choisissent habilement des caractères porteurs de sens. 可口可乐 (Coca-Cola) conserve la prononciation d'origine tout en éveillant des associations agréables (« savoureux et réjouissant ») : c'est un modèle du genre, qui concilie le son et le sens. On le voit, le voyage des mots d'emprunt n'est pas un simple transport, mais une recréation. Si une langue peut se perpétuer sans fin, c'est justement parce qu'elle sait à la fois absorber les éléments venus d'ailleurs et les assimiler parfaitement, jusqu'à les faire entièrement siens.",
+  "questions": [
+   {
+    "q": "文中提到汉语历史上哪两次吸收外来词的高潮？",
+    "r": "一次是东汉以后佛教传入时，一次是近代西方科技和思想涌入时。"
+   },
+   {
+    "q": "“经济”“社会”这类词有什么特别之处？",
+    "r": "它们原是古汉语中的词，在日本被赋予新义后又回流到中国。"
+   },
+   {
+    "q": "为什么说“可口可乐”是音意兼顾的典范？",
+    "r": "因为它既保留了原词的发音，又能引起美好的联想。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "外来词",
+    "pinyin": "wàiláicí",
+    "sens": "mot d'emprunt"
+   },
+   {
+    "mot": "习以为常",
+    "pinyin": "xíyǐwéicháng",
+    "sens": "être habitué au point de trouver cela normal"
+   },
+   {
+    "mot": "赋予",
+    "pinyin": "fùyǔ",
+    "sens": "conférer, attribuer"
+   },
+   {
+    "mot": "耐人寻味",
+    "pinyin": "nàirénxúnwèi",
+    "sens": "qui donne à réfléchir, riche de sens"
+   },
+   {
+    "mot": "音译",
+    "pinyin": "yīnyì",
+    "sens": "transcription phonétique"
+   },
+   {
+    "mot": "意译",
+    "pinyin": "yìyì",
+    "sens": "traduction par le sens"
+   },
+   {
+    "mot": "融会贯通",
+    "pinyin": "rónghuìguàntōng",
+    "sens": "assimiler parfaitement, maîtriser en profondeur"
+   }
+  ]
+ },
+ {
+  "titre": "记忆的重构",
+  "niveau": 7,
+  "texte": "我们常常以为，记忆就像一台摄像机，能够忠实地记录下经历过的一切，需要时再原封不动地播放出来。然而，心理学和神经科学的大量研究表明，事实并非如此。记忆并不是对过去的简单复制，而是一个不断被重新建构的过程。\n每当我们回忆一件往事，大脑都要把分散储存的碎片重新组合起来。在这个过程中，当下的情绪、事后获得的信息，甚至别人的一句暗示，都可能悄无声息地渗入其中。心理学家曾做过这样一项实验：让受试者观看一段车祸录像，然后分别询问他们“两辆车碰在一起时车速大约是多少”和“两辆车猛撞在一起时车速大约是多少”。结果，听到后一种问法的人估计的车速明显更高；一周后，这一组中声称在现场看到过碎玻璃的人也更多，而录像中根本没有这样的画面。更有甚者，研究者还曾通过反复暗示，让部分受试者“记起”了童年时在商场里走失的经历，而这件事其实从未发生过。这说明，记忆远比我们想象的更容易被塑造。\n这一发现具有深远的意义。在司法领域，它提醒人们不能对目击证人的证词深信不疑；在日常生活中，它也解释了为什么两个人对同一件事的回忆往往大相径庭。不过，记忆的可塑性未必只是缺陷。正因为记忆可以被重构，人们才能在回首往事时不断赋予其新的意义，从而走出创伤。与其说记忆是一份档案，不如说它是一个不断被改写的故事。",
+  "traduction": "Nous croyons souvent que la mémoire fonctionne comme une caméra : elle enregistrerait fidèlement tout ce que nous avons vécu, pour le restituer tel quel au besoin. Pourtant, de nombreuses recherches en psychologie et en neurosciences montrent qu'il n'en est rien. La mémoire n'est pas une simple copie du passé, mais un processus de reconstruction permanente.\nChaque fois que nous nous remémorons un événement passé, le cerveau doit réassembler des fragments stockés en différents endroits. Au cours de ce processus, l'émotion du moment, des informations obtenues après coup, voire une simple suggestion d'autrui, peuvent s'y infiltrer sans bruit. Des psychologues ont mené l'expérience suivante : après avoir montré à des participants la vidéo d'un accident de voiture, ils ont demandé aux uns « à quelle vitesse roulaient les voitures quand elles se sont heurtées ? » et aux autres « à quelle vitesse roulaient les voitures quand elles se sont percutées de plein fouet ? ». Résultat : ceux qui avaient entendu la seconde formulation ont estimé une vitesse nettement plus élevée ; une semaine plus tard, ils étaient aussi plus nombreux à affirmer avoir vu des éclats de verre sur les lieux, alors que la vidéo ne contenait aucune image de ce genre. Plus frappant encore, des chercheurs sont parvenus, à force de suggestions répétées, à faire « se souvenir » certains participants de s'être perdus dans un centre commercial pendant leur enfance, alors que cela n'était jamais arrivé. Cela montre que la mémoire est bien plus facile à façonner que nous ne l'imaginons.\nCette découverte a une portée considérable. Dans le domaine judiciaire, elle rappelle qu'il ne faut pas accorder une confiance aveugle aux dépositions des témoins oculaires ; dans la vie quotidienne, elle explique aussi pourquoi les souvenirs de deux personnes à propos d'un même événement divergent souvent du tout au tout. Cependant, la plasticité de la mémoire n'est pas forcément un défaut. C'est précisément parce que la mémoire peut être reconstruite que l'on peut, en se retournant sur son passé, lui donner sans cesse un sens nouveau, et ainsi surmonter un traumatisme. La mémoire est moins une archive qu'une histoire sans cesse réécrite.",
+  "questions": [
+   {
+    "q": "作者如何看待“记忆就像一台摄像机”的说法？",
+    "r": "不赞同，认为记忆是一个不断被重新建构的过程。"
+   },
+   {
+    "q": "车祸录像实验说明了什么？",
+    "r": "提问的措辞会影响人们的回忆，记忆很容易被塑造。"
+   },
+   {
+    "q": "作者认为记忆的可塑性有什么积极意义？",
+    "r": "人们能在回首往事时不断赋予其新的意义，从而走出创伤。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "建构",
+    "pinyin": "jiàngòu",
+    "sens": "construire, élaborer (un système, une représentation)"
+   },
+   {
+    "mot": "悄无声息",
+    "pinyin": "qiǎowúshēngxī",
+    "sens": "sans un bruit, en silence"
+   },
+   {
+    "mot": "声称",
+    "pinyin": "shēngchēng",
+    "sens": "affirmer, prétendre"
+   },
+   {
+    "mot": "证词",
+    "pinyin": "zhèngcí",
+    "sens": "témoignage, déposition"
+   },
+   {
+    "mot": "大相径庭",
+    "pinyin": "dàxiāngjìngtíng",
+    "sens": "diverger du tout au tout"
+   },
+   {
+    "mot": "可塑性",
+    "pinyin": "kěsùxìng",
+    "sens": "plasticité, malléabilité"
+   },
+   {
+    "mot": "创伤",
+    "pinyin": "chuāngshāng",
+    "sens": "traumatisme, blessure"
+   }
+  ]
+ },
+ {
+  "titre": "地球之肾",
+  "niveau": 7,
+  "texte": "湿地与森林、海洋并称为地球三大生态系统，因其强大的净化能力，被誉为“地球之肾”。沼泽、滩涂以及河流湖泊周边的浅水区域，都属于湿地的范畴。长期以来，人们往往把湿地视为荒芜无用的烂泥地，认为只有将其开垦为农田，或者填平后用于建设，才能物尽其用。于是，在经济发展的浪潮中，大片湿地悄然消失。\n然而，湿地的价值远远超出了人们的想象。首先，它能够过滤污染物、净化水质：芦苇等湿地植物可以吸收水中的氮、磷等营养物质，许多有害物质流经湿地后浓度会显著降低。其次，湿地如同一块巨大的海绵，在雨季吸纳多余的水分，在旱季缓慢释放，从而有效调节洪涝与干旱。此外，湿地还是众多动植物的栖息地，每年都有成千上万的候鸟在迁徙途中到此停留、觅食；一旦湿地遭到破坏，这些鸟类便会失去赖以生存的“驿站”。更值得一提的是，湿地土壤中储存着大量的碳，若被排干，这些碳便会释放到大气之中，加剧全球变暖。\n由此看来，保护湿地并不是一种奢侈，而是关乎人类自身福祉的必然选择。近年来，越来越多的地方开始退耕还湿，修复受损的生态系统；一些城市还建起了湿地公园，让市民在家门口就能观鸟、亲近自然。然而，破坏往往只需短短几年，修复却可能需要几十年甚至更久。与其事后亡羊补牢，不如防患于未然，在规划之初就给自然留下足够的空间。",
+  "traduction": "Les zones humides, qui forment avec les forêts et les océans les trois grands écosystèmes de la planète, sont surnommées les « reins de la Terre » en raison de leur remarquable capacité d'épuration. Marais, estrans, eaux peu profondes aux abords des fleuves et des lacs : tout cela relève des zones humides. Pendant longtemps, on les a considérées comme des terrains boueux, stériles et inutiles, et l'on pensait que seul leur défrichement en terres agricoles ou leur remblaiement pour y bâtir permettait d'en tirer le meilleur parti. C'est ainsi que, dans l'élan du développement économique, de vastes zones humides ont discrètement disparu.\nPourtant, la valeur des zones humides dépasse de loin ce que l'on imagine. D'abord, elles filtrent les polluants et purifient l'eau : les roseaux et autres plantes des zones humides absorbent l'azote, le phosphore et d'autres nutriments présents dans l'eau, et la concentration de nombreuses substances nocives baisse nettement après leur passage dans une zone humide. Ensuite, elles agissent comme une gigantesque éponge, absorbant l'excès d'eau à la saison des pluies et le restituant lentement à la saison sèche, ce qui permet de réguler efficacement inondations et sécheresses. En outre, les zones humides abritent de nombreuses espèces animales et végétales ; chaque année, des milliers d'oiseaux migrateurs y font halte pour se nourrir au cours de leur migration. Si ces milieux sont détruits, ces oiseaux perdent les « relais » dont dépend leur survie. Plus remarquable encore, les sols des zones humides stockent d'énormes quantités de carbone ; s'ils sont asséchés, ce carbone est libéré dans l'atmosphère et aggrave le réchauffement climatique.\nIl apparaît donc que protéger les zones humides n'est pas un luxe, mais un choix nécessaire, qui touche au bien-être de l'humanité elle-même. Ces dernières années, de plus en plus de localités ont commencé à rendre des terres cultivées aux zones humides et à restaurer les écosystèmes endommagés ; certaines villes ont même aménagé des parcs de zones humides, où les habitants peuvent observer les oiseaux et renouer avec la nature à deux pas de chez eux. Mais s'il suffit souvent de quelques années pour détruire, la restauration peut demander des décennies, voire davantage. Plutôt que de réparer les dégâts après coup, mieux vaut prévenir le mal avant qu'il ne survienne, en laissant suffisamment de place à la nature dès le stade de la planification.",
+  "questions": [
+   {
+    "q": "湿地为什么被誉为“地球之肾”？",
+    "r": "因为它具有强大的净化能力，能过滤污染物、净化水质。"
+   },
+   {
+    "q": "作者把湿地比作“海绵”，是想说明什么？",
+    "r": "湿地能在雨季吸纳多余的水分、旱季缓慢释放，调节洪涝与干旱。"
+   },
+   {
+    "q": "“与其事后亡羊补牢，不如防患于未然”表达了作者怎样的观点？",
+    "r": "应在破坏发生之前保护湿地，在规划之初就给自然留出空间。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "誉为",
+    "pinyin": "yùwéi",
+    "sens": "être salué comme, être surnommé"
+   },
+   {
+    "mot": "开垦",
+    "pinyin": "kāikěn",
+    "sens": "défricher, mettre en culture"
+   },
+   {
+    "mot": "物尽其用",
+    "pinyin": "wùjìnqíyòng",
+    "sens": "tirer le meilleur parti de chaque chose"
+   },
+   {
+    "mot": "栖息地",
+    "pinyin": "qīxīdì",
+    "sens": "habitat (d'une espèce)"
+   },
+   {
+    "mot": "赖以生存",
+    "pinyin": "làiyǐshēngcún",
+    "sens": "dont dépend la survie"
+   },
+   {
+    "mot": "亡羊补牢",
+    "pinyin": "wángyángbǔláo",
+    "sens": "réparer les dégâts après coup"
+   },
+   {
+    "mot": "防患于未然",
+    "pinyin": "fánghuànyúwèirán",
+    "sens": "prévenir le mal avant qu'il ne survienne"
+   }
+  ]
+ }
+]

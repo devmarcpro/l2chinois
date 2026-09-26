@@ -60,6 +60,13 @@ CE QUI A CHANGE
       reponse aurait pu etre acceptee ont ete ecartes ;
     - 487 cartes de THEME (francais -> chinois) : une phrase francaise a traduire avec la structure indiquee,
       reponse avec pinyin au verso (etiquette exercice_theme). Toute traduction juste qui emploie la structure compte.
+  * Lecture : 42 textes gradues (10 en HSK 1, 4 par niveau du HSK 2 au HSK 5, 10 en HSK 6, 6 en HSK 7-9), ecrits
+    avec les mots du niveau (au plus trois mots du niveau suivant) : recits, dialogues, puis articles (memoire,
+    mots d'emprunt, pollution lumineuse, peinture chinoise...). Au verso : traduction, trois questions avec
+    reponse en chinois, mots cles avec pinyin et sens. Etiquette texte_gradue.
+  * Ecoute : 24 dialogues gradues (4 par niveau du HSK 1 au HSK 6 : achats, medecin, logement, entretien,
+    reclamation, emission de radio...), repliques annoncees par 男：(homme) / 女：(femme), faits pour etre
+    ecoutes avec la synthese vocale (voir ECOUTER LE CHINOIS plus bas). Meme verso que la lecture.
   * Textes : .outils/anki/donnees_hsk/ ; programme de grammaire : github.com/krmanik/HSK-3.0 (d'apres le
     document officiel du ministere chinois de l'Education et le 新版HSK考试大纲).
 - Pinyin : 不得 en fin de proposition (吃不得, 马虎不得, 进也进不得) se lit bu de ; 舍不得, 巴不得, 顾不得...
@@ -134,6 +141,25 @@ SOUS-PAQUETS PAR NIVEAU
   Phrases_HSK1 Phrases_HSK2 Phrases_HSK3 Phrases_HSK4 Phrases_HSK5 Phrases_HSK6 Phrases_HSK7 Phrases_HSK8 Phrases_HSK9
 - Si un ancien import a cree le sous-paquet "0 · Cours L2" : chercher   "deck:Chinois::Vocabulaire::0 · Cours L2"
   > tout selectionner > Cartes > Changer de paquet > 8 · Hors HSK, puis supprimer le sous-paquet vide.
+
+ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
+- Anki sait lire un champ a voix haute. Pour l'activer sur un paquet : Outils > Gerer les types de notes > choisir le
+  type de note du paquet > Cartes. Dans le modele du verso, ajouter la ligne
+      {{tts zh_CN:Recto}}
+  en remplacant Recto par le nom du premier champ (celui qui contient le chinois : le mot, la phrase, le texte).
+  Plus lent : {{tts zh_CN speed=0.8:Recto}}. Un bouton de lecture apparait ; la lecture est automatique si
+  "Lire l'audio automatiquement" est coche dans les options du paquet.
+- Il faut une voix chinoise sur l'appareil : Windows > Parametres > Heure et langue > Voix > Ajouter des voix >
+  Chinois (simplifie, Chine) ; Android (AnkiDroid) : moteur de synthese Google avec le chinois installe ;
+  iPhone (AnkiMobile) : Reglages > Accessibilite > Contenu enonce > Voix > Chinois.
+- VRAIE ECOUTE avec le paquet Ecoute : mettre {{tts zh_CN:Recto}} dans le modele du RECTO (on entend le texte
+  sans le lire), et si le texte s'affiche quand meme au recto, ajouter dans l'onglet Style :
+      .ecoute-texte { display: none; }
+  Le verso montre le texte, la traduction et les reponses aux questions. Les dialogues ajoutes (男：/ 女：)
+  sont ecrits pour etre ecoutes ainsi : la voix lit d'abord le niveau et le titre, puis "nan" / "nü" avant
+  chaque replique, ce qui annonce qui parle.
+- Pour le vocabulaire et les phrases, mettre {{tts zh_CN:Recto}} au VERSO : on lit d'abord, puis on entend
+  la prononciation pour verifier.
 
 L'ORDRE DES NOUVELLES CARTES
 - Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc
