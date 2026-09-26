@@ -46,6 +46,19 @@ CE QUI A CHANGE
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
+- PROGRAMME OFFICIEL DU HSK, pour tout revoir avec Anki sans dependre des cours (etiquette HSK_officiel) :
+  * Vocabulaire : les 3 137 mots de la liste officielle HSK 3.0 des niveaux 1 a 6 qui manquaient sont ajoutes
+    (sens, phrase d'exemple traduite, note d'usage, pinyin relu mot par mot) : le paquet contient maintenant
+    TOUTE la liste officielle des niveaux 1 a 6.
+  * Grammaire : 487 fiches, une par point du programme de grammaire officiel du nouvel examen HSK (2025),
+    du HSK 1 au HSK 7-9 : explication, formule, pieges, trois exemples traduits. Les 99 points deja traites
+    par une fiche existante n'ont pas ete doubles.
+  * Exercices : 184 exercices "completez" tires de ces fiches (la structure est remplacee par un trou, le sens
+    francais sert d'indice), seulement quand la reponse est sans ambiguite.
+  * Textes : .outils/anki/donnees_hsk/ ; programme de grammaire : github.com/krmanik/HSK-3.0 (d'apres le
+    document officiel du ministere chinois de l'Education et le 新版HSK考试大纲).
+- Pinyin : 不得 en fin de proposition (吃不得, 马虎不得, 进也进不得) se lit bu de ; 舍不得, 巴不得, 顾不得...
+  toujours bu de ; 人家 pronom = rén jia (mais 几户人家 = rén jiā) ; 马虎 = mǎ hu.
 - Exercices de caracteres non simplifies : choisis parmi les mots HSK 1 a 3 OFFICIELS (et non plus d'apres les
   anciens niveaux faux) ; un mot dont la forme traditionnelle existe aussi en simplifie (著 : 着 ou 著 ?) n'est
   plus demande, la question aurait deux reponses.

@@ -44,6 +44,7 @@ load_phrases_dict({
     "赢得": [["yíng"], ["dé"]], "博得": [["bó"], ["dé"]], "所得": [["suǒ"], ["dé"]], "不得了": [["bù"], ["dé"], ["liǎo"]],
     "对不起": [["duì"], ["bu"], ["qǐ"]], "了不起": [["liǎo"], ["bu"], ["qǐ"]], "来不及": [["lái"], ["bu"], ["jí"]],
     "怪不得": [["guài"], ["bu"], ["de"]], "舍不得": [["shě"], ["bu"], ["de"]], "恨不得": [["hèn"], ["bu"], ["de"]],
+    "马虎": [["mǎ"], ["hu"]], "人家": [["rén"], ["jia"]], "户人家": [["hù"], ["rén"], ["jiā"]],
     "音乐": [["yīn"], ["yuè"]], "乐器": [["yuè"], ["qì"]], "处理": [["chǔ"], ["lǐ"]], "相处": [["xiāng"], ["chǔ"]],
     "反应": [["fǎn"], ["yìng"]], "适应": [["shì"], ["yìng"]], "应该": [["yīng"], ["gāi"]], "对应": [["duì"], ["yìng"]],
     "倒是": [["dào"], ["shì"]], "倒不如": [["dào"], ["bù"], ["rú"]], "请假": [["qǐng"], ["jià"]], "华为": [["huá"], ["wéi"]],
@@ -432,11 +433,25 @@ def corriger(texte: str, lectures, seulement_sandhi=False):
             poser(k, "yí", "sandhi 一")
         elif suivant in (1, 2, 3):
             poser(k, "yì", "sandhi 一")
+    # V不得 en fin de proposition (吃不得, 马虎不得, 进也进不得) : complément potentiel, 不 et 得 au ton neutre.
+    # Suivi d'un verbe (不得入内 « il est interdit de ») ou de 不 / 了 / 已 (不得不, 不得了), il garde bùdé.
+    if not seulement_sandhi:
+        for p in positions:
+            if texte[p:p + 2] == "不得" and p > 0 and CJK.match(texte[p - 1]) and (
+                    p + 2 >= n or not CJK.match(texte[p + 2]) or texte[p + 2] in "的呀啊呢吧"
+                    or texte[p - 1:p + 2] in MOTS_BU_DE):  # 舍不得你走 : le mot figé garde bu de devant un complément
+                poser(index_de[p], "bu", "V不得 (complément potentiel)")
+                poser(index_de[p + 1], "de", "V不得 (complément potentiel)")
+            if texte[p:p + 2] == "人家" and p > 0 and texte[p - 1] in "户" and p + 1 < n:
+                poser(index_de[p + 1], "jiā", "人家 = foyer (几户人家)")
     return neuf, journal
 
 
+MOTS_BU_DE = set("舍不得 怪不得 恨不得 巴不得 顾不得 记不得 由不得 要不得 见不得 少不得 免不得 怨不得 说不得 动不得 惹不得".split())
+
+
 PHRASES_MAISON_NEUTRES = {"便宜", "头发", "暖和", "答应", "觉得", "记得", "认得", "懂得", "显得", "舍得", "使得", "免得", "省得", "懒得", "晓得",
-                          "来得及", "差不多", "对不起", "了不起", "来不及", "怪不得", "舍不得", "恨不得", "帖子"}
+                          "来得及", "差不多", "对不起", "了不起", "来不及", "怪不得", "舍不得", "恨不得", "帖子", "马虎", "人家"}
 
 
 if __name__ == "__main__":

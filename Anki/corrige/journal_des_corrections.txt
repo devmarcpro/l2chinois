@@ -3001,7 +3001,7 @@
 不	bù -> bú	mot 不是	"跟杠精争论根本没有意义，他们的目的不是讨论问题，而
 一	yī -> yí	mot 一个	《南京条约》是中国近代史上第一个不平等条约，对中国历
 
-##### accent manquant (2180 premiers cas)
+##### accent manquant (2181 premiers cas)
 个	ge -> gè	accent manquant (一个)	我有一个姐姐。
 亮	liang -> liàng	accent manquant (漂亮)	她很漂亮。
 得	de -> dé	accent manquant (值得)	他们住在宾馆里，房间很干净，早饭也很丰盛，服务不错，
@@ -4419,6 +4419,7 @@
 子	zi -> zǐ	accent manquant (电子)	这个国家以出口电子产品为主要贸易方式。 
 子	zi -> zǐ	accent manquant (子女)	重阳节是尊老敬老的节日，子女会陪老人登高、赏菊花。 
 子	zi -> zǐ	accent manquant (弟子)	他被少林派收为弟子，开始了严格的修炼生涯。 
+马	ma -> mǎ	accent manquant (马虎)	马马虎虎
 嫦	Chang -> Cháng	accent manquant	嫦娥 
 娥	e -> é	accent manquant	嫦娥 
 玉	yu -> yù	accent manquant	 玉兔 
@@ -5183,7 +5184,7 @@
 雅	ya -> yǎ	accent manquant	孔子诵读诗书时使用雅言。 
 言	yan -> yán	accent manquant	孔子诵读诗书时使用雅言。 
 
-##### ton neutre (2737 premiers cas)
+##### ton neutre (2748 premiers cas)
 欢	huān -> huan	ton neutre (喜欢)	我也喜欢吃饺子。
 道	dào -> dao	ton neutre (知道)	她也不知道。
 道	dào -> dao	ton neutre (知道)	连小孩都知道。
@@ -5614,6 +5615,7 @@
 方	fāng -> fang	ton neutre (地方)	每个人心中都有一片海，那是自己才知道的地方。
 道	dào -> dao	ton neutre (知道)	世界上最遥远的距离，不是生与死，而是我站在你面前，你
 道	dào -> dao	ton neutre (知道)	人生就像一盒巧克力，你永远不知道下一颗是什么味道。
+虎	hǔ -> hu	ton neutre (马虎)	他马马虎虎地完成了作业，错误很多。
 事	shì -> shi	ton neutre (故事)	余华的《活着》讲述了一个人在历史洪流中顽强求生的故事
 生	shēng -> sheng	ton neutre (学生)	内卷现象在教育领域尤为突出，学生们互相竞争，付出越来
 系	xì -> xi	ton neutre (关系)	基层治理是国家治理体系的重要组成部分，直接关系到政策
@@ -6235,7 +6237,11 @@
 妈	mā -> ma	ton neutre (妈妈)	妈妈用手摸了摸孩子的额头，发现他在发烧。 
 候	hòu -> hou	ton neutre (时候)	过年的时候，全家人一起包饺子，是最温馨的时刻。 
 候	hòu -> hou	ton neutre (时候)	做红烧肉的时候加几朵泡发的干香菇，味道会更加鲜美浓郁
+虎	hǔ -> hu	ton neutre (马虎)	做事马虎 
+虎	hǔ -> hu	ton neutre (马虎)	他数学马虎，明明会做却算错了。 
+虎	hǔ -> hu	ton neutre (马虎)	"马虎"来源有争议：一说来自一个猎人把马当成虎打死的
 事	shì -> shi	ton neutre (故事)	"马虎"来源有争议：一说来自一个猎人把马当成虎打死的
+虎	hǔ -> hu	ton neutre (马虎)	 "马虎" 
 情	qíng -> qing	ton neutre (事情)	他把事情搞砸了，被老板狠狠地骂了一顿。 
 思	sī -> si	ton neutre (意思)	骄傲有两层含义：正面是自豪感，负面是傲慢自大；语境决
 烦	fán -> fan	ton neutre (麻烦)	太麻烦了 
@@ -6717,6 +6723,7 @@
 情	qíng -> qing	ton neutre (事情)	有些事情不是用来解决的，而是用来释怀的——接受它，然
 候	hòu -> hou	ton neutre (时候)	炒菜的时候要用锅铲不停翻炒，让食材受热均匀，避免粘锅
 道	dào -> dao	ton neutre (知道)	犯错是学习的一部分，重要的是知道哪里错了，下次不再重
+家	jiā -> jia	ton neutre (人家)	锦鲤是中国传统文化中富贵吉祥的象征，很多人家门口养锦
 服	fú -> fu	ton neutre (舒服)	上海的夏天又闷热又潮湿，让人感觉非常不舒服，空调是必
 道	dào -> dao	ton neutre (知道)	 难道你不知道吗？
 道	dào -> dao	ton neutre (知道)	难道你不知道今天是她的生日吗？
@@ -7133,6 +7140,7 @@
 欢	huān -> huan	ton neutre (喜欢)	松鼠喜欢在树上跳来跳去。 
 友	yǒu -> you	ton neutre (朋友)	"她去理发店染了一头紫色的发，看起来非常有个性，得到
 明	míng -> ming	ton neutre (聪明)	"柴犬虽然看起来温顺，但其实非常聪明，有时候还会展现
+虎	hǔ -> hu	ton neutre (马虎)	"校对工作虽然枯燥，但是对保证出版物的质量至关重要，
 友	yǒu -> you	ton neutre (朋友)	"周末他们几个朋友常常聚在一起玩桌游，气氛特别热闹，
 闹	nào -> nao	ton neutre (热闹)	"周末他们几个朋友常常聚在一起玩桌游，气氛特别热闹，
 爷	yé -> ye	ton neutre (爷爷)	"爷爷退休以后特别喜欢各种棋类游戏，象棋、围棋、跳棋
@@ -7692,6 +7700,10 @@
 宜	yí -> yi	ton neutre (便宜)	"过年回家的时候，他在网上找了一个顺风车，跟车主分摊
 候	hòu -> hou	ton neutre (时候)	"过年回家的时候，他在网上找了一个顺风车，跟车主分摊
 欢	huān -> huan	ton neutre (喜欢)	"慈禧太后非常喜欢颐和园，挪用海军经费修建了这座豪华
+虎	hū -> hu	ton neutre (马虎)	马马虎虎
+虎	hǔ -> hu	ton neutre (马虎)	 他做事马马虎虎 
+虎	hǔ -> hu	ton neutre (马虎)	—你汉语说得怎么样？—马马虎虎。 (—
+虎	hǔ -> hu	ton neutre (马虎)	这份工作做得马马虎虎，不够认真。 
 候	hòu -> hou	ton neutre (时候)	"她看电影的时候喜欢买一包鱿鱼丝当零食，嚼起来又香又
 欢	huān -> huan	ton neutre (喜欢)	"她看电影的时候喜欢买一包鱿鱼丝当零食，嚼起来又香又
 候	hòu -> hou	ton neutre (时候)	"录制播客的时候，他特意买了一个专业的麦克风，音质明
@@ -12860,6 +12872,18 @@
 
 ##### 选为 (1 premiers cas)
 为	wèi -> wéi	选为	他再度当选为公司董事长，获得了股东们的高度信任。 
+
+##### V不得 (10 premiers cas)
+不	bù -> bu	V不得 (complément potentiel)	"她精通点穴功夫，只需轻轻一点，对手便会全身僵硬，动
+得	dé -> de	V不得 (complément potentiel)	"她精通点穴功夫，只需轻轻一点，对手便会全身僵硬，动
+不	bù -> bu	V不得 (complément potentiel)	"有些烂片靠着话题营销也能取得不错的票房，让人觉得有
+得	dé -> de	V不得 (complément potentiel)	"有些烂片靠着话题营销也能取得不错的票房，让人觉得有
+不	bù -> bu	V不得 (complément potentiel)	巴不得
+得	dé -> de	V不得 (complément potentiel)	巴不得
+不	bù -> bu	V不得 (complément potentiel)	他巴不得假期早点到来，已经计划好去哪里玩了。 
+得	dé -> de	V不得 (complément potentiel)	他巴不得假期早点到来，已经计划好去哪里玩了。 
+不	bù -> bu	V不得 (complément potentiel)	她巴不得对方先开口道歉，这样她就能原谅他了。
+得	dé -> de	V不得 (complément potentiel)	她巴不得对方先开口道歉，这样她就能原谅他了。
 
 ##### 化为 (7 premiers cas)
 为	wèi -> wéi	化为	太阳是地球上大多数能量的最终来源，植物通过光合作用把
