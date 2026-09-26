@@ -135,8 +135,10 @@ def sous_paquet(paquet: str, r) -> str:
 def ecrire(nom, rangs, paquet):
     SORTIE.mkdir(exist_ok=True)
     with open(SORTIE / nom, "w", encoding="utf-8", newline="") as f:
-        f.write("#separator:tab\n#html:true\n#tags column:4\n#deck column:5\n")
-        rangs = [r[:4] + [sous_paquet(paquet, r)] for r in rangs]
+        # pas de 3e colonne vide : le 3e champ de la note (« Ajouter le verso », où l'utilisateur met l'audio HyperTTS)
+        # n'a ainsi aucune colonne en face, et l'import (mise à jour) le laisse intact
+        f.write("#separator:tab\n#html:true\n#tags column:3\n#deck column:4\n")
+        rangs = [[r[0], r[1], r[3], sous_paquet(paquet, r)] for r in rangs]
         csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
 
 
@@ -647,8 +649,11 @@ def lire_publies():
     """Les fichiers corrigés tels qu'ils ont été produits la dernière fois (ce que l'utilisateur a pu importer)."""
     publies = {}
     for p in SORTIE.glob("Chinois__*.txt"):
-        lignes = [l for l in p.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")]
-        publies[p.name[len("Chinois__"):-4]] = [r[:4] for r in csv.reader(lignes, delimiter="\t", quotechar='"')]
+        brut = p.read_text(encoding="utf-8").splitlines()
+        rangs = list(csv.reader([l for l in brut if l and not l.startswith("#")], delimiter="\t", quotechar='"'))
+        if "#tags column:3" in brut:  # format à 4 colonnes (recto, verso, étiquettes, sous-paquet)
+            rangs = [[r[0], r[1], "", r[2]] for r in rangs]
+        publies[p.name[len("Chinois__"):-4]] = [r[:4] for r in rangs]
     return publies
 
 

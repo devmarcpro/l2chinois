@@ -19,7 +19,12 @@ titre ########## jusqu'a la ligne qui precede le titre suivant ; il se colle tel
   sans connexion, la carte reste utilisable normalement, sans la case. Sur AnkiDroid, si les gestes de
   balayage sont actives, ils peuvent gener l'ecriture au doigt dans la case.
 
-A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
+A l'import : colonne 1 -> Recto, colonne 2 -> Verso (les colonnes 3 et 4 sont les etiquettes et le
+sous-paquet, reconnues toutes seules). Un 3e champ du type de note (audio HyperTTS...) n'est jamais touche.
+
+Audio du type "Chinois (ecoute)" : {{tts zh_CN:Recto}} fait lire le champ Recto par la voix chinoise de
+l'appareil, au moment de la revision (aucun fichier, aucun champ). Pour mettre a la place l'audio genere par
+HyperTTS, remplacer cette ligne du modele du recto par le champ ou HyperTTS ecrit le son, ex. {{Ajouter le verso}}.
 
 
 ########## "Chinois (texte)" : MODELE DU RECTO ##########

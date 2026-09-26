@@ -152,23 +152,26 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
 
 IMPORTER DANS ANKI (ordinateur)
-Chaque fichier a 5 colonnes : 1 = Recto, 2 = Verso, 3 = vide, 4 = etiquettes, 5 = sous-paquet.
+Chaque fichier a 4 colonnes : 1 = Recto, 2 = Verso, 3 = etiquettes, 4 = sous-paquet. A l'import, seuls les
+champs Recto et Verso recoivent une colonne : le 3e champ d'un type de note (ex. "Ajouter le verso", ou tu
+mets l'audio HyperTTS) n'a pas de colonne en face et la mise a jour le laisse intact. (Jusqu'au 26/09 au
+soir, les fichiers avaient une 3e colonne vide : si elle etait associee a "Ajouter le verso", une mise a
+jour aurait efface l'audio de ce champ. Avec les fichiers actuels, ce n'est plus possible.)
 
 QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
-  francais -> chinois). Colonne 3 -> "Ajouter le verso" (elle est vide).
+  francais -> chinois).
 - Grammaire, Exercices, Phrases, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
   champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
   carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
   tel quel (pas de couleur des tons, blocs d'exemple ecrases a 30 % de la largeur).
-  -> type "Chinois (texte)", a creer une fois pour toutes. Colonne 3 -> (rien).
+  -> type "Chinois (texte)", a creer une fois pour toutes.
 - Ecoute : type "Chinois (ecoute)" (le texte est lu par la synthese vocale et cache au recto ; il faut une voix
-  chinoise installee, voir ECOUTER LE CHINOIS plus bas). Colonne 3 -> (rien).
+  chinoise installee, voir ECOUTER LE CHINOIS plus bas).
 - Ecriture : type "Chinois (ecriture)" : au recto, une case quadrillee pour ecrire le caractere a la souris
   ou au doigt, trait par trait (trait faux refuse, indice apres 3 erreurs) ; au verso, l'ordre des traits
   anime (cle en bleu). Il faut une connexion internet (bibliotheque Hanzi Writer, licence MIT, et traces des
   caracteres du projet Make Me a Hanzi, charges a la demande) ; sans connexion, la carte marche sans la case.
-  Colonne 3 -> (rien).
 - Les modeles et le style de ces trois types, prets a coller, sont dans TYPES_DE_NOTES.txt (ce dossier). Ils
   reprennent l'apparence du type du vocabulaire (polices, couleurs des tons, bouton あ pour cacher le pinyin).
 
@@ -184,7 +187,7 @@ ETAPES
    ci-dessus, "Notes existantes" = Mettre a jour ; correspondance sur le premier champ.
    Pour le vocabulaire deja importe, le premier champ n'a pas change : Anki met les cartes a jour sans toucher
    a la progression et cree seulement les notes ajoutees.
-   Le sous-paquet est lu dans le fichier (colonne 5) : ne pas forcer le paquet dans la fenetre d'import.
+   Le sous-paquet est lu dans le fichier (colonne 4) : ne pas forcer le paquet dans la fenetre d'import.
 4. Recommencer pour les sept fichiers.
 
 SOUS-PAQUETS PAR NIVEAU
@@ -215,6 +218,10 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
   iPhone (AnkiMobile) : Reglages > Accessibilite > Contenu enonce > Voix > Chinois.
 - VRAIE ECOUTE avec le paquet Ecoute : c'est ce que fait le type "Chinois (ecoute)" de TYPES_DE_NOTES.txt
   ({{tts zh_CN:Recto}} dans le modele du recto, texte cache au recto par .ecoute-texte { display: none; }).
+  Cet audio n'est stocke nulle part : Anki lit le champ Recto a voix haute au moment de la revision, avec la
+  voix chinoise de l'appareil (rien a voir avec le champ "Ajouter le verso" ni avec HyperTTS). Pour utiliser
+  plutot ton audio HyperTTS : remplacer {{tts zh_CN:Recto}} par le nom du champ ou HyperTTS ecrit le son
+  (ex. {{Ajouter le verso}}) dans le modele du recto.
   Le verso montre le texte, la traduction et les reponses aux questions. Les dialogues ajoutes (男：/ 女：)
   sont ecrits pour etre ecoutes ainsi : la voix lit d'abord le niveau et le titre, puis "nan" / "nü" avant
   chaque replique, ce qui annonce qui parle.

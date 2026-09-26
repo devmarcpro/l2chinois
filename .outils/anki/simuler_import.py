@@ -14,7 +14,7 @@ from pathlib import Path
 csv.field_size_limit(10**8)
 VAULT = Path(__file__).resolve().parents[2]
 SORTIE = VAULT / "Anki" / "corrige"
-ATTENDUS = {"Ecoute": 5, "Ecriture": 5, "Exercices": 5, "Grammaire": 5, "Lecture": 5, "Phrases": 5, "Vocabulaire": 5}  # 5e colonne : sous-paquet
+ATTENDUS = {"Ecoute": 4, "Ecriture": 4, "Exercices": 4, "Grammaire": 4, "Lecture": 4, "Phrases": 4, "Vocabulaire": 4}  # recto, verso, étiquettes, sous-paquet
 
 
 class VerifHTML(html.parser.HTMLParser):
