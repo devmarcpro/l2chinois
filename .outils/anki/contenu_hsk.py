@@ -60,6 +60,33 @@ def note_vocabulaire_hsk(e):
     return [mot, verso, "", "ajout_2026 HSK_officiel"]
 
 
+TROP_COURANTS = set("的了是在有不一和也都就很")
+
+
+def exercice_grammaire(e):
+    """Exercice « complétez » tiré d'une fiche : la structure est remplacée par un trou, le sens français sert d'indice.
+    Seulement si la réponse est sans ambiguïté : pas de fiche qui propose plusieurs mots au choix (A / B / C), et
+    chaque mot à trouver apparaît une seule fois dans la phrase."""
+    structure, _, sens = e["titre"].partition(" — ")
+    if not sens or re.search(r" / |、|／", structure):
+        return None
+    mots = [m for m in re.findall(r"[一-鿿]+", re.sub(r"[（(][^）)]*[）)]", "", structure))]
+    if not mots or all(m in TROP_COURANTS for m in mots):
+        return None
+    for x in e["exemples"]:
+        zh = x["zh"]
+        if all(zh.count(m) == 1 for m in mots):
+            trou = zh
+            for m in mots:
+                trou = trou.replace(m, "___", 1)
+            recto = (f"Complétez avec la bonne structure (sens : {_texte(sens)}) :<br><br>{trou}<br><br>"
+                     f"<i>{_texte(x['fr'])}</i>")
+            verso = (f"<b>Réponse : {' … '.join(mots)}</b><br><br>{zh}<br><br>"
+                     f'<div class="exemple-bloc"><b>Explication :</b> {_texte(e["titre"])}. {_texte(e["explication"])}</div>')
+            return [recto, verso, "", "exercice_structure deck_v2 ajout_2026 HSK_officiel"]
+    return None
+
+
 def ajouter_hsk(paquets):
     """Ajoute les mots et les fiches de grammaire du programme officiel. Renvoie le bilan."""
     from contenu_cours import note_grammaire
@@ -84,4 +111,9 @@ def ajouter_hsk(paquets):
                 neuves.append(n)
         paquets["Grammaire"] += neuves
         bilan["Grammaire : points du programme officiel ajoutés"] = len(neuves)
+        rectos = {r[0] for r in paquets["Exercices"]}
+        exos = [x for x in (exercice_grammaire(e) for e in json.loads(f.read_text(encoding="utf-8"))
+                            if not e.get("couvert_par") and e.get("titre")) if x and x[0] not in rectos]
+        paquets["Exercices"] += exos
+        bilan["Exercices : structures du programme officiel à compléter"] = len(exos)
     return bilan
