@@ -152,16 +152,40 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
 
 IMPORTER DANS ANKI (ordinateur)
+Chaque fichier a 5 colonnes : 1 = Recto, 2 = Verso, 3 = vide, 4 = etiquettes, 5 = sous-paquet.
+
+QUEL TYPE DE NOTE ?
+- Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
+  francais -> chinois). Colonne 3 -> "Ajouter le verso" (elle est vide).
+- Grammaire, Exercices, Phrases, Lecture, Ecriture : PAS le type du vocabulaire (son recto affiche le premier
+  champ en caracteres de 100 px et il cree une carte inverse pour chaque note : sur un exercice ou un texte,
+  ca donnerait des cartes absurdes). Ni "Basique" tel quel (pas de couleur des tons, blocs d'exemple
+  ecrases a 30 % de la largeur). Creer une fois pour toutes un type "Chinois (texte)" :
+    a. Outils > Gerer les types de notes > Ajouter > "Cloner : Basique" > nom : Chinois (texte).
+    b. Cartes... > onglet Style : remplacer tout par le contenu du fichier style_chinois_texte.css (ce dossier).
+       Les modeles du recto ({{Recto}}) et du verso ({{FrontSide}} <hr id=answer> {{Verso}}) restent tels quels.
+  Colonne 3 -> (rien).
+- Ecoute : un type "Chinois (ecoute)", pour ENTENDRE le texte sans le lire :
+    a. Cloner "Chinois (texte)" > nom : Chinois (ecoute).
+    b. Modele du recto :   {{Recto}} {{tts zh_CN:Recto}}
+       Modele du verso :   {{Recto}} <hr id=answer> {{Verso}}      (sans tts : pas de relecture au verso)
+    c. Style : a la fin, enlever /* et */ autour de   .ecoute-texte { display: none; }
+  Il faut une voix chinoise installee (voir ECOUTER LE CHINOIS plus bas). Colonne 3 -> (rien).
+
+ETAPES
 1. Faire d'abord une sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
-2. Fichier > Importer, choisir un fichier de ce dossier (un fichier = un paquet).
-3. Dans la fenetre d'import : meme type de note que l'ancien ;
-   "Notes existantes" = Mettre a jour ; correspondance sur le premier champ.
-   Le premier champ des notes existantes n'a pas ete touche : Anki met donc tes cartes a jour
-   sans toucher a ta progression, et cree seulement les notes ajoutees.
-   Le sous-paquet est lu dans le fichier (colonne deck) : ne pas forcer le paquet dans la fenetre d'import.
+2. Anciens paquets en double : "Chinois::Chinois Exercices", "Chinois NEW::Grammaire" et "Chinois NEW::Lecture"
+   sont d'anciennes versions des memes cartes (1 133 exercices, 71 fiches, 29 textes, type "Basique") ; les
+   nouveaux fichiers les contiennent, corrigees. Comme le type de note change, l'import ne les mettrait pas a
+   jour : les supprimer avant d'importer (quasiment jamais revisees). Les autres paquets "Chinois NEW::..."
+   (Dialogues, FR_CN, Homophones) et "Chinois::Chinois Caracteres" ne viennent pas de ces fichiers : a garder
+   ou non, comme tu veux.
+3. Fichier > Importer, choisir un fichier de ce dossier (un fichier = un paquet), choisir le type de note
+   ci-dessus, "Notes existantes" = Mettre a jour ; correspondance sur le premier champ.
+   Pour le vocabulaire deja importe, le premier champ n'a pas change : Anki met les cartes a jour sans toucher
+   a la progression et cree seulement les notes ajoutees.
+   Le sous-paquet est lu dans le fichier (colonne 5) : ne pas forcer le paquet dans la fenetre d'import.
 4. Recommencer pour les sept fichiers.
-5. Chinois__Ecriture.txt est un paquet nouveau : type de note "Basique" (ou le meme que les autres paquets),
-   rien a mettre a jour, les sous-paquets sont crees tout seuls.
 
 SOUS-PAQUETS PAR NIVEAU
 - Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
