@@ -42,6 +42,15 @@ CE QUI A CHANGE
   pinyin jamais relue et abimee (mots latins et chiffres perdus, "19世纪" lu "1 shì jì", sandhi de 一 absent,
   长达 lu zhǎng) : refaites. Mise en page uniformisee : 81 phrases repetaient la phrase chinoise ou avaient une
   ligne vide avant la traduction. 不知为不知 : 为 lu wéi.
+- Francais sans accents : le generateur d'origine avait ecrit une partie des explications sans accents ("etre",
+  "tres", "annee", "a cause de", "ecrire une lettre a sa grand-mere"). Accents remis dans 286 notes (284 mots,
+  1 phrase, 1 exercice) ; seuls les accents changent, c'est verifie automatiquement. 37 vraies fautes relevees
+  au passage corrigees a la main (phenomeme, tenaciute, negotiaitions, riz frite, "heros-villain", un "y" et un
+  "e" cyrilliques caches dans imprevu et Dynastie...). Detail : .outils/anki/donnees_hsk/accents.json.
+  Comme les cartes d'Ecriture reprennent le sens des mots, 46 d'entre elles ont un recto corrige : l'ancienne
+  version reste avec l'etiquette a_supprimer.
+- Pinyin commencant par une majuscule accentuee (欧洲 Ōu zhōu, 圣诞节...) : la syllabe s'affichait sans la
+  couleur de son ton ; pinyin mis en minuscules.
 - Verifie avec .outils/anki/simuler_import.py : les 7 fichiers s'importent sans probleme (aucun champ manquant,
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
@@ -127,7 +136,7 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Anki reconnait une note par son premier champ. Quand la faute etait dans le recto (l'enonce d'un exercice, une
   phrase), la version corrigee est une NOUVELLE note (etiquette corrige_2026) et l'ancienne est conservee avec
   un verso "Carte remplacee" et l'etiquette a_supprimer. Meme chose pour les fiches de grammaire en double.
-  Cela concerne 477 exercices, 11 fiches de grammaire, 8 phrases et 4 textes d'ecoute. Aucune carte n'est perdue :
+  Cela concerne 477 exercices, 11 fiches de grammaire, 8 phrases, 4 textes d'ecoute et 46 cartes d'ecriture. Aucune carte n'est perdue :
   le pipeline garde toute note dont le recto a change ou qui a ete retiree, qu'elle vienne des fichiers d'origine
   ou d'une version corrigee deja publiee (verso "Carte remplacee ou retiree"), et simuler_import.py le verifie.
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.

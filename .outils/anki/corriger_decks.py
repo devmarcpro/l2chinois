@@ -697,6 +697,8 @@ def main():
     ajouts = ajouter_contenu(paquets)
     import contenu_hsk
     ajouts.update(contenu_hsk.ajouter_hsk(paquets))
+    import accents
+    accents.appliquer(paquets, stats)  # avant le paquet Écriture, qui reprend les sens du vocabulaire
     import ecriture
     ajouts.update(ecriture.ajouter_ecriture(paquets))
     garder_anciens_rectos(originaux, publies, paquets)

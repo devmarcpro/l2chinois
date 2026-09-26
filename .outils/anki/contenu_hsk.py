@@ -50,7 +50,7 @@ def note_vocabulaire_hsk(e):
     from pinyin_correct import base, ton
     mot = e["mot"]
     lectures = lire_phrase(mot)
-    redige = e.get("pinyin", "").split()
+    redige = e.get("pinyin", "").lower().split()  # « Ōu zhōu » : une majuscule accentuée perdait la couleur du ton
     if redige and len(redige) == len(lectures):
         if any(base(a) != base(b) or ton(a) != ton(b) for a, b in zip(redige, lectures)):
             ECARTS_PINYIN.append((mot, " ".join(redige), " ".join(lectures)))
