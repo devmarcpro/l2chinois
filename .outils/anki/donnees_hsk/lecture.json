@@ -967,7 +967,7 @@
   "titre": "上班的路上",
   "niveau": 2,
   "texte": "我家离公司很远。去年我每天开车上班，路上车太多，要一个多小时。现在我坐地铁上班。我家旁边就有地铁站，走路五分钟就到了。坐地铁只要三十五分钟，又快又便宜。在地铁上，我经常看看书，听听歌，时间过得很快。",
-  "traduction": "J'habite loin de mon travail. L'année dernière, j'allais travailler en voiture tous les jours ; il y avait trop de voitures sur la route, et il me fallait plus d'une heure. Maintenant, je vais travailler en métro. Il y a une station de métro juste à côté de chez moi, à cinq minutes à pied. En métro, il ne faut que trente-cinq minutes : c'est rapide et bon marché. Dans le métro, je lis un peu, j'écoute des chansons, et le temps passe très vite.",
+  "traduction": "J'habite loin de mon travail. L'année dernière, j'allais travailler en voiture tous les jours ; il y avait trop de voitures sur la route, et il me fallait plus d'une heure. Maintenant, je vais travailler en métro. Il y a une station de métro juste à côté de chez moi, à cinq minutes à pied. En métro, il ne faut que trente-cinq minutes : c'est rapide et bon marché. Dans le métro, je lis souvent un peu, j'écoute des chansons, et le temps passe très vite.",
   "questions": [
    {
     "q": "去年我怎么上班？",
@@ -986,7 +986,7 @@
    {
     "mot": "离",
     "pinyin": "lí",
-    "sens": "être éloigné de (distance)"
+    "sens": "de (pour la distance : A 离 B 很远, A est loin de B)"
    },
    {
     "mot": "远",
@@ -1060,8 +1060,8 @@
  {
   "titre": "哪件好看",
   "niveau": 2,
-  "texte": "A：你看，这两件衣服都很好看，买哪件呢？\nB：你喜欢什么颜色？\nA：红色和白色我都喜欢。\nB：红色的多少钱？\nA：三百八十块。白色的便宜一点儿，两百块。\nB：你穿红色的很漂亮，就买红色的吧。\nA：好！你呢？\nB：我想买一条蓝色的裤子，我们去那边看看。",
-  "traduction": "A : Regarde, ces deux vêtements sont très jolis l'un comme l'autre. Lequel est-ce que je prends ?\nB : Quelle couleur est-ce que tu aimes ?\nA : Le rouge et le blanc, j'aime les deux.\nB : Combien coûte le rouge ?\nA : Trois cent quatre-vingts yuans. Le blanc est un peu moins cher : deux cents yuans.\nB : Le rouge te va très bien, prends donc le rouge.\nA : D'accord ! Et toi ?\nB : Je voudrais acheter un pantalon bleu. Allons voir par là-bas.",
+  "texte": "A：你看，这两件衣服都很好看，买哪件呢？\nB：你喜欢什么颜色？\nA：红色和白色我都喜欢。\nB：红色的多少钱？\nA：三百八十块。白色的便宜，两百块。\nB：你穿红色的很漂亮，就买红色的吧。\nA：好！你呢？\nB：我想买一条蓝色的裤子，我们去那边看看。",
+  "traduction": "A : Regarde, ces deux vêtements sont très jolis l'un comme l'autre. Lequel est-ce que je prends ?\nB : Quelle couleur est-ce que tu aimes ?\nA : Le rouge et le blanc, j'aime les deux.\nB : Combien coûte le rouge ?\nA : Trois cent quatre-vingts yuans. Le blanc est moins cher : deux cents yuans.\nB : Le rouge te va très bien, prends donc le rouge.\nA : D'accord ! Et toi ?\nB : Je voudrais acheter un pantalon bleu. Allons voir par là-bas.",
   "questions": [
    {
     "q": "红色的衣服多少钱？",
@@ -1842,7 +1842,7 @@
     "r": "一遍又一遍地练习怎么介绍自己。"
    },
    {
-    "q": "经理最后问我什么问题的时候，我只回答了“没有”？",
+    "q": "最后，经理问了我什么问题？",
     "r": "“你有什么问题想问我们吗？”"
    },
    {
@@ -2211,7 +2211,7 @@
   "titre": "搬到南方以后",
   "niveau": 4,
   "texte": "小林：\n好久没联系了，你最近怎么样？\n告诉你一个消息：上个月我从北京搬到了广州。公司在这边开了一个新的办公室，经理问我想不想过来。我考虑了很久，最后还是答应了。\n搬家真是一件麻烦事。光是收拾东西就花了一个星期，很多家具带不走，只好送给了邻居。\n来到广州以后，我最不习惯的是这里的天气。九月了还像夏天一样热，而且经常下雨，衣服洗了好几天都不干。不过，这里的早茶特别好吃，每个周末我都去吃。新同事们也很友好，常常带我去各种地方玩儿。\n你什么时候有空来广州看看？我一定好好请你吃一顿。\n祝好！\n小张",
-  "traduction": "Xiao Lin,\nÇa fait longtemps qu'on ne s'est pas donné de nouvelles, comment vas-tu ces temps-ci ?\nJ'ai une nouvelle à t'annoncer : le mois dernier, j'ai déménagé de Pékin à Canton. Mon entreprise a ouvert un nouveau bureau ici, et mon directeur m'a demandé si je voulais y venir. J'ai réfléchi longtemps, et finalement, j'ai accepté.\nDéménager, quelle corvée ! Rien que pour ranger mes affaires, il m'a fallu une semaine, et comme je ne pouvais pas emporter beaucoup de meubles, j'ai dû les donner aux voisins.\nDepuis que je suis arrivé à Canton, ce à quoi j'ai le plus de mal à m'habituer, c'est le climat. En septembre, il fait encore aussi chaud qu'en été, et en plus il pleut souvent : le linge met plusieurs jours à sécher. En revanche, le zaocha d'ici (le « thé du matin », avec ses petits plats) est délicieux, j'y vais tous les week-ends. Mes nouveaux collègues sont aussi très sympathiques et m'emmènent souvent me promener un peu partout.\nQuand est-ce que tu auras le temps de venir voir Canton ? Je t'inviterai à un bon repas, c'est promis.\nBien amicalement,\nXiao Zhang",
+  "traduction": "Xiao Lin,\nÇa fait longtemps qu'on ne s'est pas donné de nouvelles, comment vas-tu ces temps-ci ?\nJ'ai une nouvelle à t'annoncer : le mois dernier, j'ai déménagé de Pékin à Canton. Mon entreprise a ouvert un nouveau bureau ici, et mon directeur m'a demandé si je voulais y venir. J'ai réfléchi longtemps, et finalement, j'ai accepté.\nDéménager, quelle corvée ! Rien que pour ranger mes affaires, il m'a fallu une semaine, et comme beaucoup de meubles ne pouvaient pas être emportés, j'ai dû les donner aux voisins.\nDepuis que je suis arrivé à Canton, ce à quoi j'ai le plus de mal à m'habituer, c'est le climat. En septembre, il fait encore aussi chaud qu'en été, et en plus il pleut souvent : le linge met plusieurs jours à sécher. En revanche, le zaocha d'ici (le « thé du matin », avec ses petits plats) est délicieux, j'y vais tous les week-ends. Mes nouveaux collègues sont aussi très sympathiques et m'emmènent souvent me promener un peu partout.\nQuand est-ce que tu auras le temps de venir voir Canton ? Je t'inviterai à un bon repas, c'est promis.\nBien amicalement,\nXiao Zhang",
   "questions": [
    {
     "q": "小张为什么搬到广州？",

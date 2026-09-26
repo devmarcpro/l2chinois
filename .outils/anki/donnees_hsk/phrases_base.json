@@ -1232,12 +1232,12 @@
   "pinyin": "wǒ men zǒu lù qù ba bú tài yuǎn"
  },
  {
-  "zh": "对不起，这儿有人吗？",
+  "zh": "不好意思，这儿有人吗？",
   "fr": "Pardon, cette place est prise ?",
   "niveau": 2,
   "situation": "transports",
-  "notes": "这儿 = ici · 有人 = il y a quelqu'un (place occupée) · 对不起 = pardon (pour déranger)",
-  "pinyin": "duì bu qǐ zhè r yǒu rén ma"
+  "notes": "这儿 = ici · 有人 = il y a quelqu'un (place occupée) · 不好意思 = pardon, excusez-moi (pour déranger ; 对不起 sert plutôt à s'excuser d'une faute)",
+  "pinyin": "bù hǎo yì si zhè r yǒu rén ma"
  },
  {
   "zh": "路上车太多了，我可能晚一点儿到。",
@@ -1769,7 +1769,7 @@
  },
  {
   "zh": "你在哪儿呢？我怎么找不到你？",
-  "fr": "Tu es où ? Je n'arrive pas à te trouver.",
+  "fr": "Tu es où ? Pourquoi je n'arrive pas à te trouver ?",
   "niveau": 2,
   "situation": "téléphone",
   "notes": "在哪儿呢 = où es-tu (呢 = question insistante) · 怎么 = comment se fait-il que · 找不到 = ne pas arriver à trouver (forme potentielle)",
@@ -3825,7 +3825,7 @@
  },
  {
   "zh": "你平时喜欢做什么运动？",
-  "fr": "D'habitude, qu'est-ce que tu fais comme sport ?",
+  "fr": "D'habitude, qu'est-ce que tu aimes faire comme sport ?",
   "niveau": 3,
   "situation": "Habitudes",
   "notes": "平时 = d'habitude, en temps normal · 做…运动 = faire du sport · 什么 = quel, quoi",
@@ -3937,7 +3937,7 @@
  },
  {
   "zh": "我很少吃早饭，因为早上起不来。",
-  "fr": "Je prends rarement de petit-déjeuner, parce que je n'arrive pas à me lever le matin.",
+  "fr": "Je prends rarement un petit-déjeuner, parce que je n'arrive pas à me lever le matin.",
   "niveau": 3,
   "situation": "Habitudes",
   "notes": "很少 = rarement · 起不来 = ne pas arriver à se lever (complément potentiel) · 早饭 = petit-déjeuner",
@@ -4353,10 +4353,10 @@
  },
  {
   "zh": "前面还有十几个人，我们要等多久？",
-  "fr": "Il y a encore une dizaine de personnes devant nous, on va attendre combien de temps ?",
+  "fr": "Il y a encore une bonne dizaine de personnes devant nous, on va attendre combien de temps ?",
   "niveau": 3,
   "situation": "démarches",
-  "notes": "十几个 = une dizaine, dix et quelques · 多久 = combien de temps · 还有 = il y a encore",
+  "notes": "十几个 = dix et quelques, une bonne dizaine (de 11 à 19) · 多久 = combien de temps · 还有 = il y a encore",
   "pinyin": "qián miàn hái yǒu shí jǐ gè rén wǒ men yào děng duō jiǔ"
  },
  {
@@ -4521,7 +4521,7 @@
  },
  {
   "zh": "周末我们一起把房间打扫一下吧。",
-  "fr": "Ce week-end, faisons le ménage ensemble.",
+  "fr": "Ce week-end, faisons ensemble le ménage dans la chambre.",
   "niveau": 3,
   "situation": "logement",
   "notes": "打扫 = nettoyer, faire le ménage · 把房间 = la pièce (placée avant le verbe avec 把) · 吧 = proposition",
@@ -4697,7 +4697,7 @@
  },
  {
   "zh": "如果你想说好中文，就应该多跟中国人聊天。",
-  "fr": "Si tu veux bien parler chinois, tu devrais discuter souvent avec des Chinois.",
+  "fr": "Si tu veux arriver à bien parler chinois, tu devrais discuter souvent avec des Chinois.",
   "niveau": 3,
   "situation": "conseils",
   "notes": "如果…就… = si… alors… · 说好 = bien parler (好 = résultat) · 聊天 = discuter",
@@ -4836,7 +4836,7 @@
   "fr": "Cette affirmation n'est pas tout à fait exacte.",
   "niveau": 4,
   "situation": "argumenter",
-  "notes": "说法 = façon de dire, affirmation · 并不 = pas vraiment (renforce la négation, contredit une idée) · 不完全 = pas entièrement · 正确 = correct, juste",
+  "notes": "说法 = façon de dire, affirmation · 并不 = en réalité pas, nullement (renforce la négation, contredit une idée) · 不完全 = pas entièrement · 正确 = correct, juste",
   "pinyin": "zhè zhǒng shuō fǎ bìng bù wán quán zhèng què"
  },
  {
@@ -4853,7 +4853,7 @@
   "niveau": 4,
   "situation": "argumenter",
   "notes": "主意 = idée, plan · 可是 = mais · 做到 = parvenir à faire, réaliser",
-  "pinyin": "nǐ de zhǔ yì bú cuò kě shì bú tài róng yì zuò dào"
+  "pinyin": "nǐ de zhǔ yi bú cuò kě shì bú tài róng yì zuò dào"
  },
  {
   "zh": "这个办法有好处，也有坏处。",
@@ -5381,7 +5381,7 @@
   "niveau": 4,
   "situation": "raisons",
   "notes": "是因为 = c'est parce que · V + 得 + 好 = complément de degré · 过 = expérience passée",
-  "pinyin": "tā zhōng wén shuō de zhè me hǎo shì yīn wèi zài zhōng guó zhù guò wǔ nián"
+  "pinyin": "tā zhōng wén shuō de zhè me hǎo shì yīn wèi zài zhōng guó zhù guo wǔ nián"
  },
  {
   "zh": "我最近太忙了，所以一直没时间回你消息。",
@@ -5557,7 +5557,7 @@
   "niveau": 4,
   "situation": "hypothèses",
   "notes": "不管…都 = quoi que, peu importe · 改变 = changer · 主意 = idée, décision",
-  "pinyin": "bù guǎn nǐ zěn me shuō wǒ dōu bú huì gǎi biàn zhǔ yì"
+  "pinyin": "bù guǎn nǐ zěn me shuō wǒ dōu bú huì gǎi biàn zhǔ yi"
  },
  {
   "zh": "你最好带把伞，否则下雨就麻烦了。",

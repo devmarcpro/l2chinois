@@ -311,7 +311,7 @@
 ],
 "exemple": "教室里有二十张桌子。",
 "traduction": "Il y a vingt tables dans la salle de classe.",
-"explication": "张 compte les objets à surface plane : tables, lits, feuilles, billets. 把 sert aux objets qu'on saisit par une poignée ou un dossier (chaises, parapluies) et ne va pas avec 桌子.",
+"explication": "张 compte les objets à surface plane : tables, lits, feuilles, billets. 把 sert aux objets qu'on saisit par une poignée ou un dossier (chaises, parapluies) et ne va pas avec 桌子 ; 本 est réservé aux livres.",
 "aussi": []
 },
 {
@@ -1307,8 +1307,8 @@
 "条",
 "张"
 ],
-"exemple": "这间屋子又小又干净。",
-"traduction": "Cette pièce est petite et propre.",
+"exemple": "这间屋子又干净又亮。",
+"traduction": "Cette pièce est propre et lumineuse.",
 "explication": "间 compte les pièces et les petites maisons. 条 et 张 sont impossibles pour une pièce.",
 "aussi": []
 },
@@ -2830,7 +2830,7 @@
 ],
 "exemple": "这条街道每天都很干净。",
 "traduction": "Cette rue est propre tous les jours.",
-"explication": "条 compte les choses longues et étroites comme les rues, les routes et les rivières. 座 sert aux bâtiments, aux ponts et aux montagnes, pas à une rue.",
+"explication": "条 compte les choses longues et étroites comme les rues, les routes et les rivières. 座 sert aux bâtiments, aux ponts et aux montagnes, pas à une rue ; 本 est réservé aux livres.",
 "aussi": []
 },
 {
@@ -2862,7 +2862,7 @@
 ],
 "exemple": "我昨天买了三双袜子。",
 "traduction": "Hier, j'ai acheté trois paires de chaussettes.",
-"explication": "双 compte les paires d'objets qui vont ensemble : chaussettes, chaussures, baguettes. 只 désigne une seule chaussette ; 顶 est réservé aux chapeaux et aux tentes.",
+"explication": "双 compte les paires d'objets qui vont ensemble : chaussettes, chaussures, baguettes. 只 désigne une seule chaussette ; 顶 est réservé aux chapeaux et aux tentes, 本 aux livres.",
 "aussi": [
 "只"
 ]
@@ -2879,7 +2879,7 @@
 ],
 "exemple": "他一共写了三部话剧。",
 "traduction": "Il a écrit trois pièces de théâtre en tout.",
-"explication": "部 compte les œuvres d'une certaine ampleur : films, romans, pièces de théâtre. 场, 台 ou 出 s'emploient aussi, surtout pour une représentation ; 首 est réservé aux chansons et aux poèmes.",
+"explication": "部 compte les œuvres d'une certaine ampleur : films, romans, pièces de théâtre. 场, 台 ou 出 s'emploient aussi, surtout pour une représentation ; 首 est réservé aux chansons et aux poèmes, 张 aux objets plats.",
 "aussi": [
 "场",
 "台",
@@ -2963,7 +2963,7 @@
 ],
 "exemple": "这条道路又宽又直。",
 "traduction": "Cette route est large et droite.",
-"explication": "条 compte ce qui est long et étroit : routes, rues, rivières. 件 sert aux vêtements du haut et aux affaires, pas aux routes.",
+"explication": "条 compte ce qui est long et étroit : routes, rues, rivières. 件 sert aux vêtements du haut et aux affaires, pas aux routes ; 本 est réservé aux livres.",
 "aussi": []
 },
 {
@@ -2995,7 +2995,7 @@
 ],
 "exemple": "店里刚来了两位顾客。",
 "traduction": "Deux clients viennent d'entrer dans la boutique.",
-"explication": "位 est le classificateur poli pour les personnes, très fréquent dans les commerces. 个 et 名 se disent aussi ; 只 est réservé aux animaux et serait insultant.",
+"explication": "位 est le classificateur poli pour les personnes, très fréquent dans les commerces. 个 et 名 se disent aussi ; 只 est réservé aux animaux et serait insultant ; 张 compte les objets plats.",
 "aussi": [
 "个",
 "名"

@@ -349,7 +349,7 @@
   "sens": "arriver (à) ; venir (à)",
   "exemple": "欢迎你来到我们学校！",
   "traduction": "Bienvenue dans notre école !",
-  "note": "Toujours suivi d'un lieu : 来到中国, 来到这里."
+  "note": "Généralement suivi d'un lieu : 来到中国, 来到这里."
  },
  {
   "mot": "楼上",
@@ -1005,7 +1005,7 @@
   "sens": "un peu (souvent avec une nuance négative)",
   "exemple": "今天有一点儿冷。",
   "traduction": "Il fait un peu froid aujourd'hui.",
-  "note": "有一点儿 + adj. (avant l'adjectif, nuance de regret) ≠ adj. + 一点儿 (comparaison : 便宜一点儿, un peu moins cher)."
+  "note": "有一点儿 + adj. (avant l'adjectif, nuance négative : quelque chose de gênant ou de désagréable) ≠ adj. + 一点儿 (comparaison : 便宜一点儿, un peu moins cher)."
  },
  {
   "mot": "有人",
@@ -1637,7 +1637,7 @@
   "sens": "le Sud ; le sud (d'un pays)",
   "exemple": "南方的冬天没有北方冷。",
   "traduction": "Dans le Sud, l'hiver est moins froid que dans le Nord.",
-  "note": "En Chine, 南方 / 北方 désignent les régions au sud / au nord du Yangzi (ou de la ligne Qinling–Huai)."
+  "note": "En Chine, 南方 / 北方 désignent les régions au sud / au nord de la ligne Qinling–Huai (limite géographique usuelle ; on pense aussi souvent au Yangzi)."
  },
  {
   "mot": "卫生间",
@@ -1693,7 +1693,7 @@
   "sens": "numéro",
   "exemple": "你的手机号码是多少？",
   "traduction": "Quel est ton numéro de portable ?",
-  "note": "Pour demander un numéro, on dit surtout 是多少 ？ ; 电话号码 = numéro de téléphone."
+  "note": "Pour demander un numéro, on dit surtout 是多少？ ; 电话号码 = numéro de téléphone."
  },
  {
   "mot": "名人",
@@ -2389,7 +2389,7 @@
   "sens": "est-ce que (tu) peux… ? pouvoir ou non",
   "exemple": "你能不能帮我一个忙？",
   "traduction": "Est-ce que tu peux me rendre un service ?",
-  "note": "Question affirmatif-négatif : pas de 吗 à la fin ; 不 au ton neutre."
+  "note": "Question affirmative-négative : pas de 吗 à la fin ; 不 au ton neutre."
  },
  {
   "mot": "街",
@@ -2482,7 +2482,7 @@
  {
   "mot": "过节",
   "pinyin": "guò jié",
-  "sens": "fêter une fête ; passer les fêtes",
+  "sens": "célébrer une fête ; passer les fêtes",
   "exemple": "过节的时候，我们全家一起吃饭。",
   "traduction": "Pendant les fêtes, toute la famille mange ensemble.",
   "note": "Verbe-objet séparable : 过了节再说 (on verra après les fêtes)."
@@ -3641,7 +3641,7 @@
  },
  {
   "mot": "名牌儿",
-  "pinyin": "míng páir",
+  "pinyin": "míng pái r",
   "sens": "grande marque ; marque célèbre",
   "exemple": "这双鞋是名牌儿，特别贵。",
   "traduction": "Ces chaussures sont d'une grande marque, elles coûtent très cher.",
@@ -3697,7 +3697,7 @@
  },
  {
   "mot": "味儿",
-  "pinyin": "wèir",
+  "pinyin": "wèi r",
   "sens": "goût ; odeur",
   "exemple": "这个菜的味儿不错。",
   "traduction": "Ce plat a bon goût.",
@@ -4117,7 +4117,7 @@
   "sens": "vraiment ; réellement ; honnête, sincère",
   "exemple": "我实在太累了，走不动了。",
   "traduction": "Je suis vraiment trop fatigué, je ne peux plus avancer.",
-  "note": "Adverbe d'insistance : 实在不好意思 « vraiment désolé ». Adjectif (lu shí zai) : 这个人很实在 « cette personne est sincère »."
+  "note": "Adverbe d'insistance : 实在不好意思 « vraiment désolé ». Adjectif : 这个人很实在 « cette personne est honnête, sincère »."
  },
  {
   "mot": "实际上",
@@ -4885,7 +4885,7 @@
   "sens": "mois",
   "exemple": "一年中你最喜欢哪个月份？",
   "traduction": "Quel mois de l'année préfères-tu ?",
-  "note": "Désigne le mois comme unité du calendrier ; avec un numéro, on dit simplement 三月 (mars)."
+  "note": "Désigne le mois comme unité du calendrier ; après un numéro, on dit 三月 ou, très couramment, 三月份 (mars)."
  },
  {
   "mot": "有劲儿",
@@ -5461,7 +5461,7 @@
   "sens": "destination",
   "exemple": "我们终于到达目的地了。",
   "traduction": "Nous sommes enfin arrivés à destination.",
-  "note": "Les deux 地 se lisent dì (et non de)."
+  "note": "的 et 地 se lisent tous deux dì (et non de)."
  },
  {
   "mot": "直接",

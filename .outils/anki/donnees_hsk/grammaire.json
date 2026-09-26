@@ -112,7 +112,7 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "多 + adjectif / 哪 / 哪些 / 怎么样 — autres mots interrogatifs",
-  "explication": "多 + adjectif demande une mesure ou un degré : 多大 « quel âge, quelle taille », 多远 « à quelle distance », 多长时间 « combien de temps ». 哪 « quel » se construit avec un classificateur (哪个, 哪本书, 哪国人), tandis que 哪些 « lesquels » se met directement devant le nom (哪些书) ; 哪儿 et 哪里 signifient tous deux « où ». 怎么样 demande l'avis ou l'état (你身体怎么样？) et, placé après une proposition, sert à faire une suggestion : « …，怎么样？ » « et si… ? ». Ne pas le confondre avec 怎么 + verbe, qui demande « comment faire ».",
+  "explication": "多 + adjectif demande une mesure ou un degré : 多大 « quel âge, quelle taille », 多远 « à quelle distance », 多长时间 « combien de temps ». 哪 « quel » se construit avec un classificateur (哪个, 哪本书 ; mais 哪国人, sans classificateur), tandis que 哪些 « lesquels » se met directement devant le nom (哪些书) ; 哪儿 et 哪里 signifient tous deux « où ». 怎么样 demande l'avis ou l'état (你身体怎么样？) et, placé après une proposition, sert à faire une suggestion : « …，怎么样？ » « et si… ? ». Ne pas le confondre avec 怎么 + verbe, qui demande « comment faire ».",
   "exemples": [
    {
     "zh": "你今年多大了？",
@@ -166,7 +166,7 @@
    },
    {
     "zh": "有的同学喜欢喝茶，有的喜欢喝咖啡。",
-    "fr": "Certains camarades aiment le thé, d'autres préfèrent le café."
+    "fr": "Certains camarades aiment le thé, d'autres aiment le café."
    }
   ]
  },
@@ -386,7 +386,7 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "吧 (suggestion) / 呢 (question, action en cours) — particules de fin de phrase",
-  "explication": "En fin de phrase, 吧 transforme une affirmation en suggestion ou en demande polie : 我们走吧 « allons-y », 你坐吧 « assieds-toi ». 呢 a trois emplois : question elliptique (你呢？ « et toi ? »), adoucissement d'une question qui contient déjà un mot interrogatif (你去哪儿呢？) et action en cours (他在看书呢). Attention : 吗 ne s'emploie jamais avec un mot interrogatif (*你去哪儿吗？), alors que 呢 peut l'accompagner. Enfin, 了 en fin de phrase signale un changement de situation : 下雨了 « il s'est mis à pleuvoir ».",
+  "explication": "En fin de phrase, 吧 transforme une affirmation en suggestion ou en demande polie : 我们走吧 « allons-y », 你坐吧 « assieds-toi ». 呢 a trois emplois : question elliptique (你呢？ « et toi ? »), adoucissement d'une question qui contient déjà un mot interrogatif (你去哪儿呢？) et action en cours (他在看书呢). Attention : 吗 ne s'ajoute pas à une question qui contient déjà un mot interrogatif (*你是哪国人吗？), alors que 呢 peut l'accompagner ; exception courante : le mot interrogatif placé dans une question enchâssée après 知道 (你知道他是谁吗？). Enfin, 了 en fin de phrase signale un changement de situation : 下雨了 « il s'est mis à pleuvoir ».",
   "exemples": [
    {
     "zh": "我们一起去吃饭吧。",
@@ -449,11 +449,11 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "偏正短语 — groupe déterminant + déterminé",
-  "explication": "Dans un 偏正短语, le premier élément (le déterminant) précise le second (le noyau) : le déterminant se place toujours AVANT, contrairement au français. Devant un nom, c'est un 定语 : 中国菜, 我的书, 很好看的衣服 ; 的 est souvent omis après un adjectif d'une syllabe (好朋友), mais il est obligatoire après 很 + adjectif. Devant un verbe ou un adjectif, c'est un 状语 (adverbe, temps, lieu) : 很好, 都来, 在家吃饭.",
+  "explication": "Dans un 偏正短语, le premier élément (le déterminant) précise le second (le noyau) : le déterminant se place toujours AVANT, contrairement au français. Devant un nom, c'est un 定语 : 中国菜, 我的书, 很好看的衣服 ; 的 est souvent omis après un adjectif d'une syllabe (好朋友), mais il est obligatoire après 很 + adjectif (sauf avec 很多 : 很多人). Devant un verbe ou un adjectif, c'est un 状语 (adverbe, temps, lieu) : 很好, 都来, 在家吃饭.",
   "exemples": [
    {
     "zh": "他是我的好朋友。",
-    "fr": "C'est un très bon ami à moi."
+    "fr": "C'est un bon ami à moi."
    },
    {
     "zh": "我很喜欢中国菜。",
@@ -554,11 +554,11 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "Nom + 上 / 里 / 外… — groupe de localisation (方位短语)",
-  "explication": "Un groupe de localisation se forme avec un nom suivi d'un mot de localisation : 桌子上 (sur la table), 房间里 (dans la chambre), 学校外边 (à l'extérieur de l'école). Il s'emploie surtout après 在 ou en tête d'une phrase d'existence (房间里有…). Après 在, un nom d'objet courant doit être suivi d'un mot de localisation (在桌子上, et non *在桌子), alors qu'un nom de ville ou de pays n'en prend jamais (在北京, et non *在北京里). Après une action ou une durée, 前 et 后 signifient « avant » et « après » : 上课前, 三天后.",
+  "explication": "Un groupe de localisation se forme avec un nom suivi d'un mot de localisation : 桌子上 (sur la table), 房间里 (dans la chambre), 学校外边 (à l'extérieur de l'école). Il s'emploie surtout après 在 ou en tête d'une phrase d'existence (房间里有…). Après 在, un nom d'objet courant doit être suivi d'un mot de localisation (在桌子上, et non *在桌子), alors qu'un nom de ville ou de pays ne prend pas 里 (在北京, et non *在北京里). Après une action ou une durée, 前 et 后 signifient « avant » et « après » : 上课前, 三天后.",
   "exemples": [
    {
-    "zh": "你的手机在桌子上。",
-    "fr": "Ton téléphone portable est sur la table."
+    "zh": "你的手机在椅子上。",
+    "fr": "Ton téléphone portable est sur la chaise."
    },
    {
     "zh": "房间里有两个人。",
@@ -607,8 +607,8 @@
     "fr": "Comment se passe ton nouveau travail ?"
    },
    {
-    "zh": "我们家四口人。",
-    "fr": "Nous sommes quatre dans ma famille."
+    "zh": "我妹妹今年十岁。",
+    "fr": "Ma petite sœur a dix ans cette année."
    }
   ]
  },
@@ -659,7 +659,7 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "定语 — le déterminant avant le nom, avec ou sans 的",
-  "explication": "Tout ce qui précise un nom (定语) se place avant lui, alors qu'en français l'adjectif ou le complément du nom vient souvent après. Ce déterminant peut être un nom ou un pronom (中国朋友, 我的书), un groupe adjectival (很好的朋友) ou un groupe numéral avec classificateur (三本书, 这个人). On met 的 pour marquer la possession (老师的书) et après un groupe adjectival (很漂亮的衣服) ; on ne le met pas après un adjectif d'une syllabe (好朋友), après un nom qui indique la nature (中文书) ni après un groupe numéral (两杯茶). Devant un nom de parent ou d'institution à laquelle on appartient, 的 est souvent omis : 我妈妈, 我们学校.",
+  "explication": "Tout ce qui précise un nom (定语) se place avant lui, alors qu'en français l'adjectif ou le complément du nom vient souvent après. Ce déterminant peut être un nom ou un pronom (中国朋友, 我的书), un groupe adjectival (很好的朋友) ou un groupe numéral avec classificateur (三本书, 这个人). On met 的 pour marquer la possession (老师的书) et après un groupe adjectival (很漂亮的衣服) ; on ne le met en général pas après un adjectif d'une syllabe (好朋友), après un nom qui indique la nature (中文书) ni après un groupe numéral (两杯茶). Devant un nom de parent ou d'institution à laquelle on appartient, 的 est souvent omis : 我妈妈, 我们学校.",
   "exemples": [
    {
     "zh": "这是我哥哥的电脑。",
@@ -904,7 +904,7 @@
   "niveau": 1,
   "couvert_par": "",
   "titre": "Verbe + personne + chose — double objet (给、送、教、问)",
-  "explication": "Certains verbes acceptent deux objets à la suite : d'abord la personne qui reçoit, puis la chose : 他给我一本书. Aucune préposition ne précède la personne, contrairement au français « à quelqu'un ». Les verbes courants de ce type sont 给 (donner), 送 (offrir), 教 (enseigner), 问 (demander) et 告诉 (dire, informer). Les autres verbes n'acceptent pas cette construction : pour « préparer à manger à quelqu'un », on dit 我给他做饭, et non *我做他饭.",
+  "explication": "Certains verbes acceptent deux objets à la suite : d'abord la personne qui reçoit, puis la chose : 他给我一本书. Aucune préposition ne précède la personne, contrairement au français « à quelqu'un ». Les verbes courants de ce type sont 给 (donner), 送 (offrir), 教 (enseigner), 问 (demander) et 告诉 (dire, informer). La plupart des autres verbes n'acceptent pas cette construction : pour « préparer à manger à quelqu'un », on dit 我给他做饭, et non *我做他饭.",
   "exemples": [
    {
     "zh": "我送你一本书吧。",
@@ -1133,7 +1133,7 @@
   "niveau": 2,
   "couvert_par": "",
   "titre": "A了A (看了看、想了想) — verbe redoublé pour une action brève passée",
-  "explication": "Un verbe redoublé exprime une action brève ou un essai : AA ou A一A pour un verbe d'une syllabe (看看, 看一看), ABAB pour un verbe de deux syllabes (休息休息, jamais ✗ 休息一休息). Pour une action brève déjà faite, 了 se place au milieu : A了A (看了看, 想了想), et non ✗ 看看了. Un verbe redoublé ne s'emploie ni à la forme négative, ni avec 着 ou 在 ; pour un verbe de deux syllabes au passé, on dit plutôt V了一下 (休息了一下).",
+  "explication": "Un verbe redoublé exprime une action brève ou un essai : AA ou A一A pour un verbe d'une syllabe (看看, 看一看), ABAB pour un verbe de deux syllabes (休息休息, jamais ✗ 休息一休息). Pour une action brève déjà faite, 了 se place au milieu : A了A (看了看, 想了想), et non ✗ 看看了. Un verbe redoublé ne s'emploie ni à la forme négative (sauf dans une suggestion du type 为什么不试试？), ni avec 着 ou 在 ; pour un verbe de deux syllabes au passé, on dit plutôt V了一下 (休息了一下).",
   "exemples": [
    {
     "zh": "他看了看手表，说：“走吧。”",
@@ -1280,7 +1280,7 @@
   "niveau": 2,
   "couvert_par": "",
   "titre": "万 / 好多 / nombre + 多 — dix mille, beaucoup de, et quelques",
-  "explication": "万 = dix mille : le chinois compte par tranches de 万, donc 20 000 = 两万 et 100 000 = 十万. 好多 + nom = « beaucoup de, plein de », surtout à l'oral (好多人). Après un nombre, 多 signifie « et quelques, un peu plus de » : avec un nombre rond, il se place avant le classificateur (二十多个人) ; avec un chiffre de 1 à 9, après le classificateur (一个多小时, 三块多).",
+  "explication": "万 = dix mille : le chinois compte par tranches de 万, donc 20 000 = 两万 et 100 000 = 十万. 好多 + nom = « beaucoup de, plein de », surtout à l'oral (好多人). Après un nombre, 多 signifie « et quelques, un peu plus de » : avec un nombre rond, il se place avant le classificateur (二十多个人) ; avec un chiffre de 1 à 9, après le classificateur, pour une fraction d'une unité divisible (一个多小时, 三块多 ; mais jamais ✗ 三个多人).",
   "exemples": [
    {
     "zh": "我们学校有两万名学生。",
@@ -1301,7 +1301,7 @@
   "niveau": 2,
   "couvert_par": "",
   "titre": "条 / 位 / 间 / 名 — classificateurs (objets longs, personnes, pièces)",
-  "explication": "Ces classificateurs se placent entre le nombre (ou 这 / 那) et le nom. 条 : objets longs et souples, et certains animaux (一条路, 一条河, 一条裤子, 一条鱼). 位 : personnes, avec respect (一位老师, 这位客人) ; on ne l'emploie pas pour parler de soi. 间 : pièces d'un bâtiment (一间教室, 两间房). 名 : personnes comptées de façon officielle, souvent selon leur rôle (三名学生, 一名医生).",
+  "explication": "Ces classificateurs se placent entre le nombre (ou 这 / 那) et le nom. 条 : objets longs et étroits (souvent souples), et certains animaux (一条路, 一条河, 一条裤子, 一条鱼). 位 : personnes, avec respect (一位老师, 这位客人) ; on ne l'emploie pas pour parler de soi. 间 : pièces d'un bâtiment (一间教室, 两间房). 名 : personnes comptées de façon officielle, souvent selon leur rôle (三名学生, 一名医生).",
   "exemples": [
    {
     "zh": "我昨天买了一条裤子。",
@@ -1493,7 +1493,7 @@
   "niveau": 2,
   "couvert_par": "",
   "titre": "往 + direction / lieu + verbe — vers, en direction de",
-  "explication": "往 + direction ou lieu + verbe indique la direction d'un mouvement : « vers, en direction de ». On l'emploie avec un mot de localisation (往前, 往左, 往上) ou un lieu (往学校走), devant des verbes comme 走, 跑, 看, 开. Le groupe 往… se place toujours devant le verbe. 往 indique seulement la direction, alors que 到 marque le point d'arrivée.",
+  "explication": "往 + direction ou lieu + verbe indique la direction d'un mouvement : « vers, en direction de ». On l'emploie avec un mot de localisation (往前, 往左, 往上) ou un lieu (往学校走), devant des verbes comme 走, 跑, 看, 开. Le groupe 往… se place devant le verbe (seuls quelques verbes écrits comme 开往, 飞往 le font suivre : 开往北京的火车). 往 indique seulement la direction, alors que 到 marque le point d'arrivée.",
   "exemples": [
    {
     "zh": "一直往前走，就到了。",
@@ -1885,7 +1885,7 @@
   "niveau": 2,
   "couvert_par": "",
   "titre": "V + 错 / 懂 / 会 — compléments de résultat (erreur, compréhension, apprentissage)",
-  "explication": "Le complément de résultat suit directement le verbe et indique ce que l'action a produit. V + 错 : faire l'action de travers (写错, 听错, 打错) ; V + 懂 : comprendre grâce à l'action (听懂, 看懂) ; V + 会 : savoir faire grâce à l'apprentissage (学会). Ils se construisent comme 完 et 好 (做完, 做好) : 了 et l'objet se placent après le complément (我写错了一个字), et la négation se fait avec 没, pas avec 不 (我没听懂).",
+  "explication": "Le complément de résultat suit directement le verbe et indique ce que l'action a produit. V + 错 : faire l'action de travers (写错, 听错, 打错) ; V + 懂 : comprendre grâce à l'action (听懂, 看懂) ; V + 会 : savoir faire grâce à l'apprentissage (学会). Ils se construisent comme 完 et 好 (做完, 做好) : 了 et l'objet se placent après le complément (我写错了一个字), et la négation se fait avec 没, pas avec 不 devant le verbe (我没听懂, ✗ 我不听懂 ; 听不懂 « ne pas arriver à comprendre » est une autre structure, le complément potentiel).",
   "exemples": [
    {
     "zh": "对不起，我打错电话了。",
@@ -2341,7 +2341,7 @@
    },
    {
     "zh": "从学校到我家要一个多小时。",
-    "fr": "Il faut un peu plus d'une heure pour aller de l'école à chez moi."
+    "fr": "Il faut un peu plus d'une heure pour aller de l'école jusque chez moi."
    },
    {
     "zh": "这瓶水三块多钱。",
@@ -2522,7 +2522,7 @@
   "niveau": 3,
   "couvert_par": "",
   "titre": "什么 / 谁 / 哪儿 — sens indéfini (quelque chose, quelqu'un, quelque part)",
-  "explication": "Dans une phrase affirmative, négative ou dans une question en 吗, le mot interrogatif ne pose pas de question : il signifie « quelque chose, quelqu'un, quelque part ». 我想吃点儿什么 = j'ai envie de manger quelque chose ; 我好像在哪儿见过他 = il me semble l'avoir vu quelque part. Comparez 你想吃什么？ (qu'est-ce que tu veux manger ?) et 你想吃点儿什么吗？ (tu veux manger quelque chose ?). On le trouve souvent avec 点儿, 好像 ou 有.",
+  "explication": "Dans une phrase affirmative, négative ou dans une question en 吗, le mot interrogatif ne pose pas de question : il signifie « quelque chose, quelqu'un, quelque part ». 我想吃点儿什么 = j'ai envie de manger quelque chose ; 我好像在哪儿见过他 = il me semble l'avoir vu quelque part. Comparez 你想吃什么？ (qu'est-ce que tu veux manger ?) et 你想吃点儿什么吗？ (tu veux manger quelque chose ?). On le trouve souvent avec 点儿, 好像 ou 有. Exception : dans une question indirecte (après 知道, 问, 告诉…), le mot interrogatif garde son sens : 你知道他去哪儿了吗？ = sais-tu où il est allé ?",
   "exemples": [
    {
     "zh": "我饿了，想吃点儿什么。",
@@ -2555,7 +2555,7 @@
    },
    {
     "zh": "这件事别人都知道，只有我不知道。",
-    "fr": "Les autres étaient tous au courant, il n'y a que moi qui ne le savais pas."
+    "fr": "Les autres étaient tous au courant, il n'y avait que moi qui ne le savais pas."
    }
   ]
  },
@@ -2681,7 +2681,7 @@
    },
    {
     "zh": "这个菜好吃极了，比上次还好吃。",
-    "fr": "Ce plat est délicieux, encore meilleur que la dernière fois."
+    "fr": "Ce plat est absolument délicieux, encore meilleur que la dernière fois."
    }
   ]
  },
@@ -3104,7 +3104,7 @@
    },
    {
     "zh": "在很多人看来，学汉语很难。",
-    "fr": "Beaucoup de gens pensent qu'apprendre le chinois est difficile."
+    "fr": "Aux yeux de beaucoup de gens, apprendre le chinois est difficile."
    }
   ]
  },
@@ -3689,8 +3689,8 @@
     "fr": "Il a lavé ses vêtements, ils sont impeccables."
    },
    {
-    "zh": "请把作业拿出来。",
-    "fr": "Sortez vos devoirs, s'il vous plaît."
+    "zh": "孩子们把教室弄得很乱。",
+    "fr": "Les enfants ont mis la salle de classe en désordre."
    }
   ]
  },
@@ -3891,7 +3891,7 @@
   "niveau": 3,
   "couvert_par": "",
   "titre": "V + O + V + complément — verbe répété (重动句)",
-  "explication": "Quand un verbe a un objet ET un complément (d'état avec 得, de durée, de résultat), on ne peut pas mettre les deux après le verbe : on répète le verbe. Formule : sujet + verbe + objet + verbe + complément : 他说汉语说得很好 (et non *他说汉语得很好). Autres possibilités : mettre l'objet en tête (他汉语说得很好) ou, pour la durée, verbe + 了 + durée + objet (我看了三个小时的书).",
+  "explication": "Quand un verbe a un objet ET un complément (d'état avec 得, de durée, ou un résultat qui porte sur le sujet comme 喝多了, 走累了), l'objet ne peut pas s'intercaler entre le verbe et ce complément : on répète le verbe. La plupart des compléments de résultat, eux, se placent simplement devant l'objet (看完书、写完作业). Formule : sujet + verbe + objet + verbe + complément : 他说汉语说得很好 (et non *他说汉语得很好). Autres possibilités : mettre l'objet en tête (他汉语说得很好) ou, pour la durée, verbe + 了 + durée + objet (我看了三个小时的书).",
   "exemples": [
    {
     "zh": "他说汉语说得很好。",
@@ -4299,7 +4299,7 @@
   "niveau": 4,
   "couvert_par": "",
   "titre": "故意 / 互相 / 相互 — exprès, mutuellement",
-  "explication": "故意 + verbe = faire exprès, délibérément ; pour s'excuser, on dit souvent 我不是故意的 (« je ne l'ai pas fait exprès »). 互相 + verbe = l'un l'autre, mutuellement : le sujet est pluriel et on n'ajoute pas d'objet (同学们互相帮助, et non *互相帮助他们). 相互 a le même sens, dans un registre plus écrit, et peut aussi qualifier directement un nom : 相互关系、相互理解.",
+  "explication": "故意 + verbe = faire exprès, délibérément ; pour s'excuser, on dit souvent 我不是故意的 (« je ne l'ai pas fait exprès »). 互相 + verbe = l'un l'autre, mutuellement : le sujet est pluriel et le verbe ne prend pas pour objet les participants eux-mêmes (同学们互相帮助, et non *互相帮助他们), mais il peut avoir un autre objet (互相交换礼物). 相互 a le même sens, dans un registre plus écrit, et peut aussi qualifier directement un nom : 相互关系、相互理解.",
   "exemples": [
    {
     "zh": "他故意不回答我的问题。",
@@ -4496,7 +4496,7 @@
   "niveau": 4,
   "couvert_par": "",
   "titre": "此外 / 并且 / 而 — en outre, et de plus, alors que",
-  "explication": "并且 = et, et de plus : il ajoute une action ou une information à la précédente, seul ou après 不但 (他会说英语，并且说得很好). 此外 = en outre, par ailleurs ; il ouvre une nouvelle proposition ou phrase et est suivi d'une virgule. 而 placé entre deux propositions marque le contraste : « alors que, tandis que ». 既然, 甚至 et 不过 ont leurs propres fiches.",
+  "explication": "并且 = et, et de plus : il ajoute une action ou une information à la précédente, seul ou après 不但 (他会说英语，并且说得很好). 此外 = en outre, par ailleurs ; il ouvre une nouvelle proposition ou phrase et est souvent suivi d'une virgule (此外，… ; mais aussi 此外还…). 而 placé entre deux propositions marque le contraste : « alors que, tandis que ». 既然, 甚至 et 不过 ont leurs propres fiches.",
   "exemples": [
    {
     "zh": "他会说英语，并且说得很好。",
@@ -4664,7 +4664,7 @@
   "niveau": 4,
   "couvert_par": "",
   "titre": "来得及 / 来不及 — avoir encore le temps / être trop tard",
-  "explication": "来得及 = avoir encore le temps (de faire quelque chose) ; 来不及 = ne plus avoir le temps, être trop tard. Ils s'emploient seuls (还来得及) ou suivis d'un verbe (来不及吃早饭). Ce sont des formes potentielles : la négation est 来不及 (jamais *不来得及) et la question 来得及吗？ ou 来得及来不及？",
+  "explication": "来得及 = avoir encore le temps (de faire quelque chose) ; 来不及 = ne plus avoir le temps, être trop tard. Ils s'emploient seuls (还来得及) ou suivis d'un verbe (来不及吃早饭). Ce sont des formes potentielles : la négation est 来不及 (jamais *不来得及) ; pour un fait passé, on dit aussi 没来得及 + verbe (« ne pas avoir eu le temps de ») et la question 来得及吗？ ou 来得及来不及？",
   "exemples": [
    {
     "zh": "别着急，现在去还来得及。",
@@ -5239,7 +5239,7 @@
   "niveau": 4,
   "couvert_par": "",
   "titre": "把 + objet + V + 了 — action menée à son terme (manger, vendre, oublier…)",
-  "explication": "Avec les verbes qui font disparaître ou « consomment » l'objet (吃, 喝, 卖, 扔, 花, 忘, 丢…), 了 placé seul après le verbe suffit à compléter la phrase en 把 : l'action est menée à son terme et l'objet n'est plus là. Dans un ordre, cette forme insiste sur le résultat attendu (快把药吃了！). Avec un verbe qui n'a pas ce sens (看, 写, 洗…), 了 seul ne suffit pas : il faut un complément (把书看完了). Les adverbes de temps et la négation se placent avant 把 (我已经把钱花了).",
+  "explication": "Avec les verbes qui font disparaître ou « consomment » l'objet (吃, 喝, 卖, 扔, 花, 忘, 丢…), 了 placé seul après le verbe suffit à compléter la phrase en 把 : l'action est menée à son terme et l'objet n'est plus là. Dans un ordre, cette forme insiste sur le résultat attendu (快把药吃了！). Avec un verbe qui n'a pas ce sens, comme 看 ou 听, 了 seul sonne souvent incomplet : on ajoute alors un complément (把书看完了). Les adverbes de temps et la négation se placent avant 把 (我已经把钱花了).",
   "exemples": [
    {
     "zh": "我把旧手机卖了。",
@@ -5302,7 +5302,7 @@
   "niveau": 4,
   "couvert_par": "",
   "titre": "叫 / 让 + agent + V + complément — passif oral",
-  "explication": "À l'oral, 叫 et 让 peuvent remplacer 被 dans une phrase passive : sujet (ce qui subit) + 叫 / 让 + agent + verbe + autre élément (了, complément de résultat, de direction…). Contrairement à 被, l'agent ne peut pas être omis (✗ 自行车叫偷走了) ; s'il est inconnu, on dit 人 (叫人偷走了). La négation 没 et les adverbes se placent avant 叫 / 让. Attention : 让 peut aussi être causatif (让他去 = le laisser aller) ; c'est le contexte qui indique le sens passif.",
+  "explication": "À l'oral, 叫 et 让 peuvent remplacer 被 dans une phrase passive : sujet (ce qui subit) + 叫 / 让 + agent + verbe + autre élément (了, complément de résultat, de direction…). Contrairement à 被, l'agent ne peut pas être omis (✗ 自行车叫偷走了) ; s'il est inconnu, on dit 人 (叫人偷走了). La négation 没 et les adverbes se placent avant 叫 / 让. Attention : 让 peut aussi être causatif (让他去 = le laisser y aller, lui dire d'y aller) ; c'est le contexte qui indique le sens passif.",
   "exemples": [
    {
     "zh": "我的自行车叫人偷走了。",

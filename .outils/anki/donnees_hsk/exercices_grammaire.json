@@ -270,7 +270,7 @@
     "phrase_fautive": "他在上海住了三个年。",
     "phrase": "他在上海住了三年。",
     "traduction": "Il a habité trois ans à Shanghai.",
-    "explication": "年 se place directement après le nombre, sans classificateur : 三年. Seuls 月 et 星期 prennent 个 pour exprimer une durée."
+    "explication": "年 se place directement après le nombre, sans classificateur : 三年. Pour exprimer une durée, ce sont 月 et 星期 (comme 小时) qui prennent 个."
    }
   ]
  },
@@ -413,7 +413,7 @@
     "reponse": "也",
     "phrase": "他喜欢看书，也喜欢看电影。",
     "traduction": "Il aime lire, et il aime aussi regarder des films.",
-    "explication": "和 et 跟 relient des noms, jamais deux groupes verbaux ; pour ajouter une seconde action, on emploie l'adverbe 也 devant le verbe."
+    "explication": "和 et 跟 relient surtout des noms et ne peuvent pas introduire une seconde proposition après la virgule ; pour ajouter une seconde action, on emploie l'adverbe 也 devant le verbe."
    },
    {
     "type": "correction",
@@ -700,7 +700,7 @@
     "reponse": "八点上课",
     "phrase": "明天我们八点上课。",
     "traduction": "Demain, nous avons cours à huit heures.",
-    "explication": "L'heure est un complément circonstanciel : elle se place avant le verbe, jamais après, et sans préposition 在."
+    "explication": "L'heure est un complément circonstanciel : elle se place avant le verbe, jamais après, même précédée de 在 (上课在八点 est impossible)."
    },
    {
     "type": "correction",
@@ -937,7 +937,7 @@
     "reponse": "十二块",
     "phrase": "这个杯子十二块。",
     "traduction": "Cette tasse coûte douze yuans.",
-    "explication": "On ne dit 两 que pour le chiffre 2 employé seul ; à l'intérieur d'un nombre, on garde 二 (十二块). 块 est un classificateur et ne prend pas 个."
+    "explication": "Devant 块, on ne dit 两 que pour le chiffre 2 employé seul ; dans 12, 22, etc., on garde 二 (十二块). 块 est un classificateur et ne prend pas 个."
    },
    {
     "type": "correction",
@@ -1069,7 +1069,7 @@
     "phrase_fautive": "你左走就到了。",
     "phrase": "你往左走就到了。",
     "traduction": "Va à gauche et tu y es.",
-    "explication": "Pour indiquer une direction, 左 ne se met pas seul devant le verbe : on emploie 往 + 左 + verbe, 往左走."
+    "explication": "Pour indiquer une direction, 左 ne se met pas seul devant 走 : on emploie 往 + 左 + verbe, 往左走 (seules quelques formes figées comme 左转 « tourner à gauche » s'en passent)."
    }
   ]
  },
@@ -1269,7 +1269,7 @@
     "phrase_fautive": "教室里有三十个多学生。",
     "phrase": "教室里有三十多个学生。",
     "traduction": "Il y a un peu plus de trente élèves dans la salle de classe.",
-    "explication": "Après un nombre rond, 多 se place avant le classificateur : 三十多个学生. Après le classificateur, il ne s'emploie qu'avec un chiffre de 1 à 9 (一个多小时)."
+    "explication": "Après un nombre rond, 多 se place avant le classificateur : 三十多个学生. Placé après le classificateur, il indiquerait une fraction de l'unité (一个多小时), ce qui est impossible pour des personnes."
    }
   ]
  },
@@ -1844,7 +1844,7 @@
     "phrase_fautive": "这本书不二十块，是三十块。",
     "phrase": "这本书不是二十块，是三十块。",
     "traduction": "Ce livre ne coûte pas vingt yuans, mais trente.",
-    "explication": "Pour nier un prédicat nominal comme un prix, il faut 不是 : 不是二十块. 不 ne se place jamais directement devant un nombre."
+    "explication": "Pour nier un prédicat nominal comme un prix, il faut 不是 : 不是二十块. 不 seul ne peut pas nier un groupe nominal comme un prix."
    }
   ]
  },
@@ -2044,7 +2044,7 @@
     "phrase_fautive": "我姐姐很长头发。",
     "phrase": "我姐姐是长头发。",
     "traduction": "Ma grande sœur a les cheveux longs.",
-    "explication": "长头发 est un groupe nominal : on le relie au sujet par 是, et non par 很, qui ne s'emploie que devant un adjectif."
+    "explication": "长头发 est un groupe nominal : on le relie au sujet par 是, et non par 很, qui se place devant un adjectif (ou un verbe comme 喜欢), jamais devant un nom."
    }
   ]
  },
@@ -2269,7 +2269,7 @@
     "phrase_fautive": "他家有多一百本书。",
     "phrase": "他家有一百多本书。",
     "traduction": "Il y a un peu plus de cent livres chez lui.",
-    "explication": "« Plus de cent » se dit 一百多 : 多 suit le nombre rond et précède le classificateur, à l'inverse du français."
+    "explication": "« Un peu plus de cent » se dit 一百多 : 多 suit le nombre rond et précède le classificateur, à l'inverse du français."
    }
   ]
  },
@@ -2894,7 +2894,7 @@
     "phrase_fautive": "你一直走向前，就能看到银行。",
     "phrase": "你一直向前走，就能看到银行。",
     "traduction": "Continue tout droit et tu verras la banque.",
-    "explication": "Pour indiquer la direction, 向 + direction se place devant le verbe de mouvement : 向前走."
+    "explication": "Pour indiquer la direction dans un itinéraire, 向 + direction se place devant le verbe de mouvement : 向前走. La forme écrite 走向 se construit avec un lieu (走向门口) et ne sert pas à indiquer un chemin."
    }
   ]
  },
@@ -4619,7 +4619,7 @@
     "phrase_fautive": "他通过了考试，此外考得很好。",
     "phrase": "他通过了考试，并且考得很好。",
     "traduction": "Il a réussi l'examen, et avec de très bons résultats.",
-    "explication": "Pour ajouter une précision sur la même action, on emploie 并且 ; 此外 introduit une information nouvelle et se fait suivre d'une virgule."
+    "explication": "Pour ajouter une précision sur la même action, on emploie 并且 ; 此外 introduit une autre information, distincte de la première (此外，…)."
    }
   ]
  },
@@ -4819,7 +4819,7 @@
     "phrase_fautive": "他走得太快，我不来得及说再见。",
     "phrase": "他走得太快，我来不及说再见。",
     "traduction": "Il est parti trop vite, je n'ai pas eu le temps de dire au revoir.",
-    "explication": "来得及 est une forme potentielle : sa négation est 来不及, jamais 不来得及."
+    "explication": "来得及 est une forme potentielle : sa négation est 来不及, jamais 不来得及. Pour ce fait passé, 没来得及说再见 est aussi correct."
    }
   ]
  },
@@ -5016,10 +5016,10 @@
    },
    {
     "type": "correction",
-    "phrase_fautive": "老人起得早，拿我妈妈说，每天六点起床。",
+    "phrase_fautive": "老人起得早，拿来说我妈妈，每天六点起床。",
     "phrase": "老人起得早，拿我妈妈来说，每天六点起床。",
     "traduction": "Les personnes âgées se lèvent tôt : prenons ma mère, elle se lève à six heures tous les jours.",
-    "explication": "La structure complète est 拿 + exemple + 来说 : sans 来, 拿我妈妈说 est incorrect."
+    "explication": "La structure est 拿 + exemple + 来说 : l'exemple s'insère entre 拿 et 来说 (拿我妈妈来说) ; 来说 ne suit jamais directement 拿."
    }
   ]
  },
@@ -5041,10 +5041,10 @@
    },
    {
     "type": "correction",
-    "phrase_fautive": "以后我再也没喝酒了。",
-    "phrase": "以后我再也不喝酒了。",
+    "phrase_fautive": "从今以后，我再也没喝酒了。",
+    "phrase": "从今以后，我再也不喝酒了。",
     "traduction": "Désormais, je ne boirai plus jamais d'alcool.",
-    "explication": "以后 renvoie à l'avenir : une décision valable à partir de maintenant se dit avec 再也不 ; 再也没 porte sur le passé."
+    "explication": "从今以后 (« désormais ») renvoie à l'avenir : une décision valable à partir de maintenant se dit avec 再也不 ; 再也没 porte sur le passé."
    }
   ]
  },
@@ -5153,14 +5153,14 @@
   "exercices": [
    {
     "type": "choix",
-    "phrase_trou": "学习是学习，玩___玩，别放在一起。",
+    "phrase_trou": "学习是学习，玩___玩，别混在一起。",
     "choix": [
      "是",
      "和",
      "就"
     ],
     "reponse": "是",
-    "phrase": "学习是学习，玩是玩，别放在一起。",
+    "phrase": "学习是学习，玩是玩，别混在一起。",
     "traduction": "Les études, c'est les études ; le jeu, c'est le jeu : ne mélange pas les deux.",
     "explication": "Chaque terme se répète de part et d'autre de 是 : 玩是玩. 和 relie deux noms, et 玩就玩 exprimerait l'acceptation d'un inconvénient, ce qui n'a pas de sens ici."
    },
@@ -5444,7 +5444,7 @@
     "phrase_fautive": "我哪儿有时间看电视吗？",
     "phrase": "我哪儿有时间看电视呢？",
     "traduction": "Comment voudrais-tu que j'aie le temps de regarder la télé ? (Je n'ai pas le temps.)",
-    "explication": "Une question qui contient déjà un mot interrogatif comme 哪儿 ne prend jamais 吗 ; on la termine par 呢 ou sans particule."
+    "explication": "Une question rhétorique formée avec un mot interrogatif comme 哪儿 ne prend pas 吗 ; on la termine par 呢 ou sans particule."
    }
   ]
  },
@@ -5487,7 +5487,7 @@
     "reponse": "了",
     "phrase": "谁把我的咖啡喝了？",
     "traduction": "Qui a bu mon café ?",
-    "explication": "Avec un verbe comme 喝, 了 seul suffit à compléter la phrase en 把 : le café a été bu, il n'y en a plus. 过 et 着 ne peuvent pas terminer une phrase en 把."
+    "explication": "Avec un verbe comme 喝, 了 seul suffit à compléter la phrase en 把 : le café a été bu, il n'y en a plus. 过 ne convient pas ici, et 着 marque un état qui dure (把门开着 « laisse la porte ouverte »), ce qui n'a pas de sens avec 喝."
    },
    {
     "type": "correction",
@@ -6066,8 +6066,8 @@
    },
    {
     "type": "correction",
-    "phrase_fautive": "这个学校有两千个学生前后。",
-    "phrase": "这个学校有两千个学生左右。",
+    "phrase_fautive": "这个学校的学生有两千人前后。",
+    "phrase": "这个学校的学生有两千人左右。",
     "traduction": "Cette école compte environ deux mille élèves.",
     "explication": "前后 ne se place qu'après un moment ou une date ; après une quantité, on emploie 左右."
    }

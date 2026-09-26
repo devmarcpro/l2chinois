@@ -55,6 +55,12 @@ CE QUI A CHANGE
   « nǎ r » et « huì er ».
 - Pinyin commencant par une majuscule accentuee (欧洲 Ōu zhōu, 圣诞节...) : la syllabe s'affichait sans la
   couleur de son ton ; pinyin mis en minuscules.
+- Relecture croisee du contenu ajoute pour les niveaux HSK 1 a 4 (19 relecteurs, qui n'avaient pas ecrit ce
+  qu'ils relisaient) : 797 phrases de base, 497 exercices d'ordre, 245 fiches de grammaire et leurs 488
+  exercices, 821 mots, 191 exercices de classificateurs, 84 textes. 165 corrections : surtout des ordres
+  corrects qui n'etaient pas acceptes dans les exercices d'ordre (75 exercices completes), des regles de
+  grammaire enoncees trop absolument ("jamais", "obligatoire"), quelques traductions et notes. Le contenu
+  HSK 5 a 9 ajoute n'a eu que des controles automatiques et des relectures par echantillons.
 - Verifie avec .outils/anki/simuler_import.py : les 7 fichiers s'importent sans probleme (aucun champ manquant,
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
@@ -245,6 +251,44 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
 - Pour le vocabulaire (et les phrases, type "Chinois (texte)"), ajouter {{tts zh_CN:Recto}} au debut du modele
   du VERSO : on lit d'abord, puis on entend la prononciation pour verifier. Dans le type du vocabulaire, le
   mettre juste apres la premiere ligne <div class="hanzi">{{Recto}}</div> du verso.
+
+PLAN DE TRAVAIL (pour ne pas crouler sous ~45 000 cartes)
+Principe : avancer niveau par niveau, dans tous les paquets en meme temps, avec peu de nouvelles cartes par
+jour. Les revisions quotidiennes se stabilisent a environ 8 a 10 fois le nombre de nouvelles cartes du jour.
+
+1. Planificateur : Outils > Preferences > Revision > cocher FSRS (Anki 23.10 ou plus), retention souhaitee 0,90.
+   Il adapte les intervalles a ta memoire et reduit le nombre de revisions.
+
+2. Deux groupes d'options (roue dentee d'un paquet > Options > Ajouter un groupe) :
+   - "Chinois - en cours" : nouvelles cartes / jour selon le tableau ci-dessous ; revisions max / jour 9999 ;
+     Enterrer : cocher les trois cases (les cartes soeurs, par ex. lecture / theme / dictee d'une meme phrase,
+     ou recto / carte inverse d'un mot, ne tombent pas le meme jour) ; Ordre d'affichage : collecte par
+     "Paquet", tri "Ordre de collecte" (les sous-paquets 1 · HSK 1, 2 · HSK 2... passent dans l'ordre).
+   - "Chinois - en pause" : nouvelles cartes / jour = 0 (les revisions continuent si des cartes y sont deja).
+
+3. Nouvelles cartes par jour (a regler sur le paquet parent : Chinois::Vocabulaire, Chinois::Phrases...) :
+                        leger (~30 min/jour)    soutenu (~1 h/jour)
+     Vocabulaire                 8                     15        (x2 cartes : chinois -> francais et inverse)
+     Phrases                     4                      8        (lecture + theme + dictee)
+     Grammaire                   2                      3
+     Exercices                   6                     12
+     Ecriture                    3                      6
+     Lecture                     1                      1
+     Ecoute                      1                      1
+   Au debut, commencer "leger" pendant deux semaines, puis augmenter si ca passe.
+
+4. Mettre "en pause" les sous-paquets au-dessus de ton niveau : par exemple, si tu travailles le HSK 3,
+   appliquer le groupe "Chinois - en pause" a 5 · HSK 5, 6 · HSK 6, 7 · HSK 7-9 et 8 · Hors HSK de chaque
+   paquet (et au sous-paquet 3 · HSK 7-9 de l'Ecriture). Quand un niveau est vu en entier, en rouvrir un.
+   Les cartes de theme des phrases HSK 7-9 : Parcourir > deck:Chinois::Phrases card:Theme tag:HSK3.0::7-9
+   > tout selectionner > Suspendre.
+
+5. Paquets filtres utiles (Outils > Creer un paquet filtre), pour un entrainement cible sans toucher au reste :
+   - une situation :              tag:situation::restaurant        (ou achats, telephone, sante...)
+   - l'ordre des mots :           tag:exercice_ordre -is:suspended
+   - un point de grammaire :      deck:Chinois::Grammaire "把"
+   - avant un examen HSK 3 :      (tag:HSK3.0::3 OR tag:HSK::3) -is:new
+   - ce qui te resiste :          deck:Chinois prop:lapses>=4
 
 L'ORDRE DES NOUVELLES CARTES
 - Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc

@@ -144,7 +144,7 @@ def note_phrase_base(e):
     """Phrase de base HSK 1-4 (donnees_hsk/phrases_base.json), au format du paquet Phrases."""
     from contenu_cours import lire_phrase, span, CJK
     from corriger_decks import vers_trad
-    from pinyin_correct import base
+    from pinyin_correct import base, ton
     zh = e["zh"]
     cars = CJK.findall(zh)
     redige, lectures = e.get("pinyin", "").lower().split(), lire_phrase(zh)
@@ -155,6 +155,8 @@ def note_phrase_base(e):
             if base(a) != base(b) and cars[k] not in "谁儿":
                 ECARTS_PHRASES.append((zh, a, b))
                 lectures[k] = a
+            elif base(a) == base(b) and ton(a) == "0" and ton(b) != "0" and cars[k] not in "一不":
+                lectures[k] = a  # ton neutre choisi par le rédacteur (主意 zhǔ yi, 住过 zhù guo), le calcul l'ignore
     it = iter(lectures)
     ligne = ""
     for c in zh:  # même format que spans_par_syllabe
