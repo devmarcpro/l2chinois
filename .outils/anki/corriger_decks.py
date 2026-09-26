@@ -287,6 +287,9 @@ def traiter_note(paquet: str, r):
             d, f = bornes
             recto_nu = html.unescape(re.sub(r"<[^>]+>", "", recto))
             segment = corriger_mots_latins_casses(corriger_nombres_tronques(verso[d:f], recto_nu, paquet), paquet)
+            if paquet == "Vocabulaire" and "..." in segment:  # structures (连…也…) : « lián... yě... » -> « lián… yě… »
+                segment = segment.replace("...", "…")
+                stats[(paquet, "points de suspension normalisés dans le pinyin")] += 1
             verso = verso[:d] + corriger_spans(segment, recto_nu, paquet + " (entrée)") + verso[f:]
     if paquet == "Grammaire":
         def exemple(m):
@@ -362,18 +365,13 @@ NIVEAU_LIBELLE = {"初级": 1.5, "初中级": 2.5, "中级": 3.5, "中高级": 4
 
 
 class Lexique:
-    """Niveau HSK des mots et des caractères, d'après le paquet de vocabulaire."""
+    """Niveau HSK 3.0 officiel des mots et des caractères (un caractère prend le niveau du plus facile de ses mots)."""
 
-    def __init__(self, voc):
-        self.mot, self.car = {}, {}
-        for r in voc:
-            m = re.search(r"\bHSK(\d)\b", r[3])
-            niveau = int(m.group(1)) if m else 7
-            mot = r[0].strip()
-            if CJK.fullmatch(mot[:1] or "x") and re.fullmatch(r"[一-鿿]+", mot):
-                self.mot[mot] = min(niveau, self.mot.get(mot, 99))
-                for c in mot:
-                    self.car[c] = min(niveau, self.car.get(c, 99))
+    def __init__(self):
+        self.mot, self.car = dict(hsk30()), {}
+        for mot, niveau in self.mot.items():
+            for c in mot:
+                self.car[c] = min(niveau, self.car.get(c, 99))
 
     def niveau(self, texte: str) -> float:
         """Niveau estimé d'un texte : on regarde les 15 % de mots les plus difficiles."""
@@ -391,21 +389,72 @@ class Lexique:
         return round(sum(queue) / len(queue), 2)
 
 
+_HSK30 = {}
+
+
+def hsk30() -> dict:
+    """Liste officielle HSK 3.0 : mot -> niveau (7 = niveaux 7-9)."""
+    if not _HSK30:
+        import json
+        _HSK30.update(json.loads((Path(__file__).parent / "hsk30.json").read_text(encoding="utf-8"))["niveaux"])
+    return _HSK30
+
+
+MARQUEURS_STRUCTURE = re.compile(r"…|\.\.\.|。。。|\+|/|／")
+ETIQUETTE_HORS = "HSK3.0::hors_liste"
+ANCIENNE_ETIQUETTE = re.compile(r"HSK\d|HSK7-9|hors_HSK|HSK3\.0::\S+")
+
+
+def niveau_officiel(entree: str):
+    """Niveau HSK 3.0 d'une entrée du paquet de vocabulaire, ou None si elle n'est pas dans la liste.
+    Une structure (太。。。了, V + 一下, 疼 / 痛) prend le niveau le plus élevé de ses mots, s'ils y sont tous."""
+    niveaux = hsk30()
+
+    def un(mot):
+        for v in (mot, mot + "儿", mot[:-1] if mot.endswith("儿") and len(mot) > 1 else ""):
+            if v in niveaux:
+                return niveaux[v]
+        return None
+
+    entree = html.unescape(re.sub(r"<[^>]+>", "", entree)).strip()
+    entree = re.sub(r"\s*[（(][^（）()]*[）)]$", "", entree)  # annotation finale : 束（量词）, 认认真真 (AABB)
+    n = un(entree)
+    if n or not MARQUEURS_STRUCTURE.search(entree):
+        return n
+    def morceau(m):  # mots-outils collés (不是, 的时候) : on découpe en mots, puis en caractères
+        n = un(m)
+        if n is None and len(m) > 1:
+            import jieba
+            parties = [un(p) or (max(un(c) for c in p) if all(un(c) for c in p) else None) for p in jieba.lcut(m)]
+            n = max(parties) if all(parties) else None
+        return n
+    morceaux = [morceau(m) for m in re.findall(r"[一-鿿]+", entree)]
+    return max(morceaux) if morceaux and all(morceaux) else None
+
+
 def niveaux_officiels(rangs):
-    """Donne leur niveau HSK 3.0 officiel aux mots qui n'en ont pas (surtout les mots ajoutés depuis les cours).
-    Les niveaux déjà présents dans le paquet d'origine ne sont pas touchés."""
-    import json
-    niveaux = json.loads((Path(__file__).parent / "hsk30.json").read_text(encoding="utf-8"))["niveaux"]
+    """Remplace les niveaux HSK du paquet d'origine (qui ne suivent aucune liste officielle) par le niveau HSK 3.0.
+    Nouvelles étiquettes HSK3.0::1 … HSK3.0::6, HSK3.0::7-9, HSK3.0::hors_liste : distinctes des anciennes HSK1…HSK9,
+    pour qu'on puisse ranger les cartes même si Anki garde les anciennes étiquettes à l'import."""
     for r in rangs:
-        n = niveaux.get(r[0].strip())
-        if n is None or niveau_hsk(r[3]):
-            continue
-        etiquette = "HSK7-9" if n == 7 else f"HSK{n}"
-        r[3] = " ".join([t for t in r[3].split() if t != "hors_HSK"] + [etiquette])
-        stats[("Vocabulaire", "niveau HSK 3.0 officiel attribué")] += 1
+        avant = niveau_hsk(r[3])
+        n = niveau_officiel(r[0])
+        etiquette = ETIQUETTE_HORS if n is None else "HSK3.0::" + ("7-9" if n == 7 else str(n))
+        r[3] = " ".join([etiquette] + [t for t in r[3].split() if not ANCIENNE_ETIQUETTE.fullmatch(t)])
+        if n is None:
+            stats[("Vocabulaire", "niveau HSK 3.0 : hors liste officielle")] += 1
+        elif avant is not None and min(avant, 7) == n:
+            stats[("Vocabulaire", "niveau HSK 3.0 : inchangé")] += 1
+        else:
+            stats[("Vocabulaire", "niveau HSK 3.0 : corrigé ou attribué")] += 1
 
 
 def niveau_hsk(etiquettes: str, defaut=None):
+    m = re.search(r"(?<!\S)HSK3\.0::(\d)", etiquettes)
+    if m:
+        return int(m.group(1))
+    if ETIQUETTE_HORS in etiquettes.split():
+        return defaut
     m = re.search(r"HSK(\d)\b", etiquettes)
     return int(m.group(1)) if m else defaut
 
@@ -420,10 +469,10 @@ def trier(paquet, rangs, lex: Lexique):
         def cle(ir):
             i, r = ir
             niv = niveau_hsk(r[3])
-            if niv is None:
-                niv = lex.niveau(r[0]) if "cours_L2" in r[3] else 10
             freq = min((FREQ[e] for e in r[3].split() if e in FREQ), default=3)
-            return (niv, freq, len(CJK.findall(r[0])), i)
+            if niv is None:  # hors liste officielle : rangé d'après le niveau de ses caractères
+                return (10, lex.niveau(r[0]), freq, len(CJK.findall(r[0])), i)
+            return (niv, 0, freq, len(CJK.findall(r[0])), i)
     elif paquet == "Phrases":
         def cle(ir):
             i, r = ir
@@ -455,11 +504,26 @@ def trier(paquet, rangs, lex: Lexique):
 CLASSIFICATEURS_LONGS = set("公斤 公里 公分 公顷 平方米 立方米 千克 毫米 厘米 分钟 小时 人次 架次 千米 毫升 光年".split())
 
 
+def garder_anciens_rectos(originaux, paquets):
+    """Anki reconnaît une note par son recto : une note d'origine dont le recto n'est plus dans le fichier resterait
+    dans la collection sans rien signaler. Quelle que soit l'étape qui a changé ce recto, on la garde avec
+    le verso « Carte remplacée » et l'étiquette a_supprimer (corrections_contenu le fait déjà pour ses corrections)."""
+    from corrections_contenu import REMPLACEE
+    for nom, rangs in originaux.items():
+        presents = {r[0] for r in paquets[nom]}
+        for r in rangs:
+            if r[0] not in presents:
+                presents.add(r[0])
+                paquets[nom].append([r[0], REMPLACEE, r[2], (r[3] + " a_supprimer").strip()])
+                stats[(nom, "recto modifié : ancienne carte gardée avec a_supprimer")] += 1
+
+
 # ------------------------------------------------------------------ programme principal
 def main():
     from contenu_cours import ajouter_contenu
 
     paquets = {p.name[len("Chinois__"):-4]: lire(p.name) for p in sorted(SOURCE.glob("Chinois__*.txt"))}
+    originaux = {k: [list(r) for r in v] for k, v in paquets.items()}
     avant = {k: len(v) for k, v in paquets.items()}
     paquets["Exercices"] = nettoyer_exercices(paquets["Exercices"])
     import corrections_contenu as cc
@@ -475,8 +539,9 @@ def main():
         for r in rangs:
             r[3] = " ".join(r[3].split())
     ajouts = ajouter_contenu(paquets)
+    garder_anciens_rectos(originaux, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
-    lex = Lexique(paquets["Vocabulaire"])
+    lex = Lexique()
     for nom in paquets:
         paquets[nom] = trier(nom, paquets[nom], lex)
         ecrire(f"Chinois__{nom}.txt", paquets[nom], nom)

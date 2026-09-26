@@ -126,6 +126,12 @@ def main():
             problemes.append(f"{n_champs_faux} lignes n'ont pas {n_attendu} champs (tabulation perdue dans un champ ?)")
         if n_recto_vide:
             problemes.append(f"{n_recto_vide} lignes ont un premier champ (recto) vide")
+        # une note d'origine dont le recto a disparu resterait dans la collection sans étiquette a_supprimer
+        sys.path.insert(0, str(Path(__file__).parent))
+        from corriger_decks import lire
+        perdus = [r[0] for r in lire(f"Chinois__{paquet}.txt") if r[0].strip() and r[0].strip() not in rectos]
+        if perdus:
+            problemes.append(f"{len(perdus)} rectos d'origine absents (carte modifiee sans garder l'ancienne avec a_supprimer) : {perdus[:3]}")
         doublons = {r: n for r, n in rectos.items() if n > 1}
         if doublons:
             problemes.append(f"{len(doublons)} rectos en double au sein du même fichier (Anki n'en gardera qu'une version) : {list(doublons)[:5]}")

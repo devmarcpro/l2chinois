@@ -49,11 +49,17 @@ CE QUI A CHANGE
   du programme (histoire, pensee chinoise, renforcement oral/ecrit) absents du paquet, 16 mots deja presents
   etiquetes pour des themes du programme pas encore couverts dans le coffre (dynasties Song a Qing, pensee
   chinoise, vocabulaire de discussion). Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
+- Niveaux HSK du vocabulaire : ceux du paquet d'origine ne suivaient aucune liste officielle (a peine 1 mot sur 5
+  au bon niveau). Chaque mot a maintenant son niveau HSK 3.0 OFFICIEL : programme d'examen 2026, ou a defaut
+  norme de 2021 (liste dans .outils/anki/hsk30.json). Une structure (太…了, V + 一下, 疼 / 痛) prend le niveau le
+  plus eleve des mots qui la composent. Les mots absents des listes officielles (argot, noms propres, termes
+  techniques ou d'histoire, expressions de plusieurs mots, chengyu) sont classes "hors liste" : c'est plus de la
+  moitie du paquet, rangee du plus simple au plus difficile d'apres le niveau des caracteres.
+  Etiquettes : HSK3.0::1 ... HSK3.0::6, HSK3.0::7-9, HSK3.0::hors_liste (les anciennes HSK1...HSK9 et hors_HSK
+  ont ete retirees du fichier).
 - Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
-  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK. Les mots qui n'avaient pas de niveau
-  (surtout les mots ajoutes depuis les cours) ont recu leur niveau HSK 3.0 officiel quand ils figurent dans la
-  liste (75 mots, dont 40 des cours) ; les autres (noms propres, termes d'histoire, expressions) restent dans
-  8 · Hors HSK. Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
+  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK.
+  Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
 - Chaque fichier est range du plus facile au plus difficile.
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
 
@@ -61,7 +67,8 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Anki reconnait une note par son premier champ. Quand la faute etait dans le recto (l'enonce d'un exercice, une
   phrase), la version corrigee est une NOUVELLE note (etiquette corrige_2026) et l'ancienne est conservee avec
   un verso "Carte remplacee" et l'etiquette a_supprimer. Meme chose pour les fiches de grammaire en double.
-  Cela concerne 408 exercices, 11 fiches de grammaire, 6 phrases et 4 textes d'ecoute.
+  Cela concerne 408 exercices, 11 fiches de grammaire, 8 phrases et 4 textes d'ecoute. Aucune carte d'origine n'est
+  perdue : le pipeline garde toute note dont le recto a change, et simuler_import.py le verifie.
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
 
 IMPORTER DANS ANKI (ordinateur)
@@ -77,9 +84,12 @@ IMPORTER DANS ANKI (ordinateur)
 SOUS-PAQUETS DU VOCABULAIRE
 - Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
   seules les notes nouvelles vont directement dans leur sous-paquet.
-- Pour ranger les anciennes : Parcourir > chercher   tag:HSK1   > tout selectionner > Cartes > Changer de paquet >
-  Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK2 -> 2 · HSK 2, etc. ;
-  "deck:Chinois::Vocabulaire" -tag:HSK1 -tag:HSK2 -tag:HSK3 -tag:HSK4 -tag:HSK5 -tag:HSK6 -tag:HSK7 -tag:HSK8 -tag:HSK9 -> 8 · Hors HSK.
+- Pour ranger les anciennes (apres l'import, qui met les etiquettes a jour) : Parcourir > chercher
+  tag:HSK3.0::1   > tout selectionner > Cartes > Changer de paquet > Chinois::Vocabulaire::1 · HSK 1.
+  Puis tag:HSK3.0::2 -> 2 · HSK 2, ... tag:HSK3.0::7-9 -> 7 · HSK 7-9, tag:HSK3.0::hors_liste -> 8 · Hors HSK.
+- Si les anciennes etiquettes HSK1...HSK9 ou hors_HSK sont restees sur certaines notes : Parcourir > chercher
+  deck:Chinois::Vocabulaire > tout selectionner > Notes > Supprimer des etiquettes >
+  HSK1 HSK2 HSK3 HSK4 HSK5 HSK6 HSK7 HSK8 HSK9 hors_HSK
 - Si un ancien import a cree le sous-paquet "0 · Cours L2" : chercher   "deck:Chinois::Vocabulaire::0 · Cours L2"
   > tout selectionner > Cartes > Changer de paquet > 8 · Hors HSK, puis supprimer le sous-paquet vide.
 - Autre solution si tu n'as encore rien revise dans le vocabulaire : supprimer le paquet et importer le fichier corrige.
