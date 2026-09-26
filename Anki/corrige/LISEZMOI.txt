@@ -6,6 +6,69 @@ Les fichiers d'origine (dossier Anki/) ne sont pas modifies. Pour tout regenerer
 Pour verifier hors ligne que les 7 fichiers s'importeront sans probleme (champs, HTML bien forme) :
     python .outils/anki/simuler_import.py
 
+ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
+- Les cartes ne sont plus rangees par type (Vocabulaire, Phrases...) mais par LECON de la "Methode de chinois"
+  (Inalco, L'Asiatheque), premier et deuxieme niveau, dans l'ordre du manuel :
+      Chinois::1 · Premier niveau::L01 · Se presenter et presenter ... L14 · Comparer
+      Chinois::2 · Deuxieme niveau::L01 · Remise a niveau ... L14 · Revision et approfondissement (3)
+      Chinois::3 · Apres le manuel::1 · HSK 4, 2 · HSK 5, 3 · HSK 6, 4 · HSK 7-9, 5 · Hors HSK
+      Chinois::9 · A supprimer   (anciennes versions de cartes deja remplacees : a supprimer)
+- Chaque lecon MELANGE tous les types : mots, fiches de grammaire, phrases, exercices, textes a lire et a
+  ecouter, caracteres a ecrire. Ordre d'apprentissage dans la lecon :
+    * pour chaque point de grammaire : les mots necessaires, la fiche, puis deux de ses exercices ;
+    * ensuite, a chaque pas, la phrase ou l'exercice qui demande le moins de mots nouveaux, precede de ces mots ;
+    * les caracteres a ecrire apres le premier mot qui les contient, repartis sur toute la lecon ;
+    * les textes en fin de lecon.
+  Une carte n'arrive jamais avant les mots qu'elle contient (noms propres et nombres mis a part).
+- Ce qui va dans une lecon :
+    * les mots : ceux du HSK 1 a 3 au premier niveau, ceux du HSK 4 au deuxieme, chacun dans la lecon ou l'on
+      en a besoin (theme du texte de la lecon, point de grammaire) ; les mots qu'emploient les corriges et les
+      textes du manuel du premier niveau sont a leur premiere lecon du manuel ;
+    * les fiches de grammaire : d'apres le sommaire du manuel (是…的 en L11, 过 en L12, 比 en L14, 把 en L04 du
+      deuxieme niveau, 被 en L10...), les autres selon la fonction de la lecon ;
+    * les phrases, exercices et textes : dans la premiere lecon ou tous leurs mots sont connus ; un exercice sur
+      une structure, jamais avant la fiche de cette structure.
+- Premier niveau : 4 522 notes (environ 7 000 cartes) ; deuxieme niveau : 3 373 notes (environ 4 800 cartes) ;
+  le reste (niveaux HSK 5 a 9, hors HSK) est dans "3 · Apres le manuel", range de la meme facon par niveau.
+- NOUVEAUX EXERCICES sur le modele des exercices ecrits du manuel (etiquette manuel::P1-L03...), rediges lecon
+  par lecon avec le seul vocabulaire des lecons deja vues (672 exercices, 24 par lecon) :
+    * placer un mot au bon endroit (A, B, C ou D) : exercice_placer ;
+    * ecrire en caracteres une phrase donnee en pinyin, puis la traduire : exercice_pinyin ;
+    * choisir entre des formes proches, "rien" (Ø) compris : exercice_choix ;
+    * trouver la question qui appelle une reponse donnee : exercice_question ;
+    * reunir deux phrases avec un mot donne (一边…一边, 是…的, 比, 把...) : exercice_fusion ;
+    * un texte de lecture et un dialogue d'ecoute par lecon, sur le theme de la lecon (56 textes) ;
+    * les nombres en caracteres (l'heure et les dates en L04, les prix en L09, grands nombres, fractions et
+      pourcentages en L09 du deuxieme niveau : 39 cartes) : exercice_nombres ;
+    * "des caracteres aux mots" : les mots deja vus qui contiennent un caractere de la lecon (40) : exercice_mots.
+  Contenu original : rien n'est recopie du manuel.
+- Pour le calcul : .outils/anki/manuel.py ; repartition dans donnees_hsk/manuel.json ; exercices et textes
+  dans donnees_hsk/manuel_contenu.json.
+
+METTRE EN PLACE (une fois)
+1. Sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
+2. Installer le module "Ranger mon chinois" : double-cliquer sur ranger_chinois.ankiaddon (ce dossier), ou
+   Outils > Modules > Installer depuis un fichier. Redemarrer Anki. (Code : Anki/extension/ranger_chinois.)
+3. Importer les sept fichiers (voir ETAPES plus bas). Les notes nouvelles vont directement dans leur lecon.
+4. Outils > "Ranger mon chinois (ordre du manuel)". La premiere fois, choisir le fichier RANGEMENT.tsv de ce
+   dossier. Un import ne deplace pas les notes deja presentes et ne change pas leur ordre : le module range
+   chaque carte du paquet Chinois dans sa lecon et remet les cartes nouvelles dans l'ordre d'apprentissage. Les
+   anciens sous-paquets devenus vides (Vocabulaire, Phrases...) sont supprimes. La progression des cartes deja
+   revisees ne change pas. Edition > Annuler, juste apres, annule tout d'un coup.
+5. Outils > "Chinois : appliquer les reglages conseilles" : groupe d'options "Chinois – manuel" sur Chinois
+   et tous ses sous-paquets :
+    * nouvelles cartes collectees paquet par paquet, donc lecon apres lecon, dans l'ordre calcule ;
+    * nouvelles cartes melees aux revisions ;
+    * cartes soeurs enterrees (le mot et sa carte inverse, ou la lecture, le theme et la dictee d'une phrase,
+      ne tombent pas le meme jour) ;
+    * 30 nouvelles cartes par jour, a changer dans les options du paquet Chinois.
+6. Supprimer le paquet Chinois::9 · A supprimer (cartes remplacees par une version corrigee).
+Apres chaque nouvel import : relancer Outils > Ranger mon chinois.
+Teste sur une copie de ta collection (Anki 26.9) :
+- import des sept fichiers, puis rangement : 40 882 cartes deplacees, 53 paquets vides supprimes ;
+- annulation et retablissement verifies ;
+- les premieres cartes proposees sont bien celles de L01, dans l'ordre calcule.
+
 CE QUI A CHANGE
 - Pinyin des exemples relu mot par mot : caracteres a plusieurs lectures (认为 wéi, 了解 liǎo, 便宜 pián yi,
   银行 háng, 睡觉 jiào, 两只 zhī, 都 dōu, 长 cháng, 种 zhòng, 待 dāi, 切 qiē, 还 huán, 请假 jià...),
@@ -150,14 +213,13 @@ CE QUI A CHANGE
 - Grammaire, lecture, ecoute : le niveau est ecrit sur la carte (recto) et reste celui-la ; etiquette HSK::n.
   Une fourchette ("HSK 3-4") compte pour son premier niveau. Ecoute notee 初级 / 初中级 / 中级 / 高级 :
   HSK 2 / 3 / 4 / 5, d'apres la difficulte mesuree de ces textes comparee a ceux notes en HSK.
-- LES SEPT PAQUETS sont decoupes en sous-paquets par niveau (colonne "deck" du fichier) :
+- (Remplace le 27/09 par l'ordre du manuel, voir en tete.) LES SEPT PAQUETS etaient decoupes en sous-paquets par niveau :
   Chinois::<Paquet>::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9 (et 8 · Hors HSK pour le vocabulaire) ;
   Chinois::Ecriture::1 · HSK 1-3, 2 · HSK 4-6, 3 · HSK 7-9 (les trois tranches de la liste d'ecriture).
 - Exercices de classificateurs : le mot 量词 de la consigne comptait dans le calcul du niveau et mettait les 95
-  anciens exercices en HSK 4 ; ils sont maintenant au niveau de la question (一___书 : HSK 1). Pour les ranger
-  dans ta collection, voir SOUS-PAQUETS PAR NIVEAU (etiquettes HSK3.0::n).
+  anciens exercices en HSK 4 ; ils sont maintenant au niveau de la question (一___书 : HSK 1).
   Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
-- Chaque fichier est range du plus facile au plus difficile.
+- Chaque fichier est range dans l'ordre d'apprentissage (lecon par lecon, puis apres le manuel par niveau).
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
 
 CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
@@ -183,7 +245,7 @@ QUEL TYPE DE NOTE ?
   -> chinois, indice a la demande) et Dictee (on entend l'audio HyperTTS et on ecrit ou repete ; carte creee
   seulement pour les phrases qui ont un audio). Voir TYPES_DE_NOTES.txt (creation et passage des phrases deja
   importees a ce type, progression gardee). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
-  Parcourir > deck:Chinois::Phrases card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
+  Parcourir > card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
 - Grammaire, Exercices, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
   champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
   carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
@@ -212,22 +274,15 @@ ETAPES
    a la progression et cree seulement les notes ajoutees.
    Le sous-paquet est lu dans le fichier (colonne 4) : ne pas forcer le paquet dans la fenetre d'import.
 4. Recommencer pour les sept fichiers.
+5. Outils > Ranger mon chinois (voir METTRE EN PLACE en tete) : range les notes deja presentes.
 
-SOUS-PAQUETS PAR NIVEAU
-- Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
-  seules les notes nouvelles vont directement dans leur sous-paquet.
-- Le plus simple, pour un paquet ou tu n'as encore rien revise : le supprimer et importer le fichier corrige.
-- Sinon, pour ranger les anciennes (apres l'import, qui met les etiquettes a jour), paquet par paquet :
-  Parcourir > chercher   deck:Chinois::Vocabulaire tag:HSK3.0::1   > tout selectionner > Cartes >
-  Changer de paquet > Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK3.0::2 -> 2 · HSK 2, ...
-  tag:HSK3.0::7-9 -> 7 · HSK 7-9, tag:HSK3.0::hors_liste -> 8 · Hors HSK.
-  Meme chose pour Chinois::Phrases et Chinois::Exercices (etiquettes HSK3.0::n), et pour Chinois::Grammaire,
-  Chinois::Lecture, Chinois::Ecoute avec les etiquettes HSK::1, HSK::2...
+NIVEAUX HSK (etiquettes)
+- Le niveau HSK de chaque note reste dans ses etiquettes : HSK3.0::1 ... HSK3.0::7-9, HSK3.0::hors_liste
+  (vocabulaire, phrases, exercices), HSK::n (grammaire, lecture, ecoute), ecriture::1-3 / 4-6 / 7-9.
+  Pour reviser un niveau : paquet filtre avec par exemple   tag:HSK3.0::3 -is:new
 - Si d'anciennes etiquettes de niveau sont restees sur certaines notes : Parcourir > chercher   deck:Chinois
   > tout selectionner > Notes > Supprimer des etiquettes > HSK1 HSK2 HSK3 HSK4 HSK5 HSK6 HSK7 HSK8 HSK9 hors_HSK
   Phrases_HSK1 Phrases_HSK2 Phrases_HSK3 Phrases_HSK4 Phrases_HSK5 Phrases_HSK6 Phrases_HSK7 Phrases_HSK8 Phrases_HSK9
-- Si un ancien import a cree le sous-paquet "0 · Cours L2" : chercher   "deck:Chinois::Vocabulaire::0 · Cours L2"
-  > tout selectionner > Cartes > Changer de paquet > 8 · Hors HSK, puis supprimer le sous-paquet vide.
 
 ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
 - Anki sait lire un champ a voix haute. Pour l'activer sur un paquet : Outils > Gerer les types de notes > choisir le
@@ -252,50 +307,32 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
   du VERSO : on lit d'abord, puis on entend la prononciation pour verifier. Dans le type du vocabulaire, le
   mettre juste apres la premiere ligne <div class="hanzi">{{Recto}}</div> du verso.
 
-PLAN DE TRAVAIL (pour ne pas crouler sous ~45 000 cartes)
-Principe : avancer niveau par niveau, dans tous les paquets en meme temps, avec peu de nouvelles cartes par
-jour. Les revisions quotidiennes se stabilisent a environ 8 a 10 fois le nombre de nouvelles cartes du jour.
+PLAN DE TRAVAIL (ordre du manuel)
+1. Planificateur : Outils > Preferences > Revision > cocher FSRS, retention souhaitee 0,90. Il adapte les
+   intervalles a ta memoire et reduit le nombre de revisions.
 
-1. Planificateur : Outils > Preferences > Revision > cocher FSRS (Anki 23.10 ou plus), retention souhaitee 0,90.
-   Il adapte les intervalles a ta memoire et reduit le nombre de revisions.
+2. Deux pistes en parallele :
+   - LE PARCOURS : cliquer sur "Chinois". Anki prend les nouvelles cartes lecon apres lecon, a partir de L01
+     du premier niveau, et les mele aux revisions de tout ce qui est deja vu. C'est la revision de la L1
+     (lecons 1 a 10), puis la suite.
+   - LA LECON DU COURS : chaque semaine, cliquer directement sur la lecon vue en cours (en ce moment
+     "1 · Premier niveau::L11 · Situer dans le passe, raconter") et faire ses nouvelles cartes avant ou juste
+     apres le cours. Quand le parcours arrive a cette lecon, ses cartes sont deja vues. Commencer la seance par
+     la lecon du cours, puis continuer sur "Chinois" : les deux comptent dans la meme limite du jour.
 
-2. Deux groupes d'options (roue dentee d'un paquet > Options > Ajouter un groupe) :
-   - "Chinois - en cours" : nouvelles cartes / jour selon le tableau ci-dessous ; revisions max / jour 9999 ;
-     Enterrer : cocher les trois cases (les cartes soeurs, par ex. lecture / theme / dictee d'une meme phrase,
-     ou recto / carte inverse d'un mot, ne tombent pas le meme jour) ; Ordre d'affichage : collecte par
-     "Paquet", tri "Ordre de collecte" (les sous-paquets 1 · HSK 1, 2 · HSK 2... passent dans l'ordre).
-   - "Chinois - en pause" : nouvelles cartes / jour = 0 (les revisions continuent si des cartes y sont deja).
+3. Rythme (nouvelles cartes par jour, options du paquet Chinois) :
+   - pendant la revision de la L1 : 40 a 60. Ce que tu sais deja passe vite : reponds "Facile" et la carte
+     ne revient pas avant plusieurs semaines. Les lecons 1 a 10 font environ 5 800 cartes : a 50 par jour,
+     un peu moins de quatre mois ;
+   - pour les lecons nouvelles : 20 a 30 ;
+   - les revisions du jour se stabilisent a environ 5 a 10 fois le nombre de nouvelles cartes du jour.
+   Pour alleger la revision de la L1 : Parcourir > deck:"Chinois::1 · Premier niveau" card:Theme > tout
+   selectionner > Suspendre (les cartes de theme des phrases ; les remettre plus tard : Reactiver).
 
-3. Nouvelles cartes par jour (a regler sur le paquet parent : Chinois::Vocabulaire, Chinois::Phrases...) :
-                        leger (~30 min/jour)    soutenu (~1 h/jour)
-     Vocabulaire                 8                     15        (x2 cartes : chinois -> francais et inverse)
-     Phrases                     4                      8        (lecture + theme + dictee)
-     Grammaire                   2                      3
-     Exercices                   6                     12
-     Ecriture                    3                      6
-     Lecture                     1                      1
-     Ecoute                      1                      1
-   Au debut, commencer "leger" pendant deux semaines, puis augmenter si ca passe.
-
-4. Mettre "en pause" les sous-paquets au-dessus de ton niveau : par exemple, si tu travailles le HSK 3,
-   appliquer le groupe "Chinois - en pause" a 5 · HSK 5, 6 · HSK 6, 7 · HSK 7-9 et 8 · Hors HSK de chaque
-   paquet (et au sous-paquet 3 · HSK 7-9 de l'Ecriture). Quand un niveau est vu en entier, en rouvrir un.
-   Les cartes de theme des phrases HSK 7-9 : Parcourir > deck:Chinois::Phrases card:Theme tag:HSK3.0::7-9
-   > tout selectionner > Suspendre.
-
-5. Paquets filtres utiles (Outils > Creer un paquet filtre), pour un entrainement cible sans toucher au reste :
-   - une situation :              tag:situation::restaurant        (ou achats, telephone, sante...)
-   - l'ordre des mots :           tag:exercice_ordre -is:suspended
-   - un point de grammaire :      deck:Chinois::Grammaire "把"
-   - avant un examen HSK 3 :      (tag:HSK3.0::3 OR tag:HSK::3) -is:new
-   - ce qui te resiste :          deck:Chinois prop:lapses>=4
-
-L'ORDRE DES NOUVELLES CARTES
-- Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc
-  apres les anciennes. Pour voir d'abord ce qui vient des cours :
-  Parcourir > chercher   tag:ajout_2026 is:new   > trier par "Creation" > tout selectionner >
-  Cartes > Repositionner > position de depart 0, pas de 1, cocher "Decaler la position des cartes existantes".
-- Si tu n'as encore rien revise dans un paquet, le plus simple est de le supprimer puis d'importer le fichier corrige :
-  l'ordre des cartes sera exactement celui du fichier, du plus facile au plus difficile.
-- Pour ne reviser que le vocabulaire des cours : paquet filtre avec la recherche   tag:cours_L2
-  (ou tag:L2_lexicologie, tag:L2_grammaire, tag:L2_histoire...).
+4. Paquets filtres utiles (Outils > Creer un paquet filtre), pour un entrainement cible sans toucher au reste :
+   - reviser une lecon avant un controle :  "deck:Chinois::1 · Premier niveau::L10*" -is:new
+   - l'ordre des mots :                     (tag:exercice_ordre OR tag:exercice_placer) -is:new
+   - une situation :                        tag:situation::restaurant   (ou achats, telephone, sante...)
+   - un point de grammaire :                tag:grammaire "把"
+   - ce qui te resiste :                    deck:Chinois prop:lapses>=4
+   - les mots des cours de L2 :             tag:cours_L2

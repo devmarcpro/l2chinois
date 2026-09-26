@@ -132,13 +132,17 @@ def sous_paquet(paquet: str, r) -> str:
     return f"Chinois::{paquet}::" + (SOUS_PAQUETS[niv] if niv else "8 · Hors HSK")
 
 
-def ecrire(nom, rangs, paquet):
+def ecrire(nom, rangs, paquet, rangement=None):
+    """rangement : {(paquet, recto): (sous-paquet, rang)} calculé par manuel.py (ordre du manuel) ; sinon, le
+    sous-paquet par niveau HSK."""
     SORTIE.mkdir(exist_ok=True)
     with open(SORTIE / nom, "w", encoding="utf-8", newline="") as f:
         # pas de 3e colonne vide : le 3e champ de la note (« Ajouter le verso », où l'utilisateur met l'audio HyperTTS)
         # n'a ainsi aucune colonne en face, et l'import (mise à jour) le laisse intact
         f.write("#separator:tab\n#html:true\n#tags column:3\n#deck column:4\n")
-        rangs = [[r[0], r[1], r[3], sous_paquet(paquet, r)] for r in rangs]
+        if rangement:  # dans l'ordre d'apprentissage : les notes nouvelles s'importent à leur place
+            rangs = sorted(rangs, key=lambda r: rangement[(paquet, r[0])][1])
+        rangs = [[r[0], r[1], r[3], rangement[(paquet, r[0])][0] if rangement else sous_paquet(paquet, r)] for r in rangs]
         csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
 
 
@@ -704,19 +708,31 @@ def main():
     ajouts = ajouter_contenu(paquets)
     import contenu_hsk
     ajouts.update(contenu_hsk.ajouter_hsk(paquets))
+    import contenu_manuel  # exercices et textes par leçon du manuel de la fac, nombres en caractères
+    ajouts.update(contenu_manuel.ajouter_manuel(paquets))
     import accents
     accents.appliquer(paquets, stats)  # avant le paquet Écriture, qui reprend les sens du vocabulaire
     import erhua
     erhua.normaliser(paquets, stats)  # 儿 : ér quand c'est un mot (儿子, 女儿), r collé quand c'est un suffixe (一点儿)
     import ecriture
     ajouts.update(ecriture.ajouter_ecriture(paquets, publies))
+    import contenu_manuel
+    ajouts.update(contenu_manuel.ajouter_caracteres(paquets))  # des caractères aux mots
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()
     niveaux_phrases_exercices(paquets, lex)
     for nom in paquets:
         paquets[nom] = trier(nom, paquets[nom], lex)
-        ecrire(f"Chinois__{nom}.txt", paquets[nom], nom)
+    import manuel  # ordre du manuel de la fac : un sous-paquet par leçon, tous types de cartes mêlés
+    rangement, _, groupes = manuel.ranger(paquets)
+    manuel.ecrire_rangement(rangement, SORTIE / "RANGEMENT.tsv")
+    for nom in paquets:
+        ecrire(f"Chinois__{nom}.txt", paquets[nom], nom, rangement)
+    print("\n=== rangement dans l'ordre du manuel (notes par sous-paquet)")
+    for g, elements in groupes.items():
+        par_type = Counter(e["nom"] for e in elements)
+        print(f"  {str(g):22} {len(elements):6}  " + ", ".join(f"{k} {v}" for k, v in sorted(par_type.items())))
 
     print("\n=== notes : avant -> après")
     for nom in paquets:
