@@ -220,8 +220,8 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
   ({{tts zh_CN:Recto}} dans le modele du recto, texte cache au recto par .ecoute-texte { display: none; }).
   Cet audio n'est stocke nulle part : Anki lit le champ Recto a voix haute au moment de la revision, avec la
   voix chinoise de l'appareil (rien a voir avec le champ "Ajouter le verso" ni avec HyperTTS). Pour utiliser
-  plutot ton audio HyperTTS : remplacer {{tts zh_CN:Recto}} par le nom du champ ou HyperTTS ecrit le son
-  (ex. {{Ajouter le verso}}) dans le modele du recto.
+  plutot HyperTTS (source Recto, deux regles Regex pour ne pas lire le titre ni les 男：/女：), voir
+  TYPES_DE_NOTES.txt, paragraphe "Avec HyperTTS a la place".
   Le verso montre le texte, la traduction et les reponses aux questions. Les dialogues ajoutes (男：/ 女：)
   sont ecrits pour etre ecoutes ainsi : la voix lit d'abord le niveau et le titre, puis "nan" / "nü" avant
   chaque replique, ce qui annonce qui parle.

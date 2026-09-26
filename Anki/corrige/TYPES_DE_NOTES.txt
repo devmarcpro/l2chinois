@@ -23,8 +23,15 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso (les colonnes 3 et 4 sont le
 sous-paquet, reconnues toutes seules). Un 3e champ du type de note (audio HyperTTS...) n'est jamais touche.
 
 Audio du type "Chinois (ecoute)" : {{tts zh_CN:Recto}} fait lire le champ Recto par la voix chinoise de
-l'appareil, au moment de la revision (aucun fichier, aucun champ). Pour mettre a la place l'audio genere par
-HyperTTS, remplacer cette ligne du modele du recto par le champ ou HyperTTS ecrit le son, ex. {{Ajouter le verso}}.
+l'appareil, au moment de la revision (aucun fichier, aucun champ).
+Avec HyperTTS a la place (fichiers audio, qui passent aussi sur le telephone a la synchronisation) :
+  1. Preset HyperTTS : source = champ Recto ; cible = Ajouter le verso (son seul, en remplacant l'ancien) ;
+     voix chinoise ; Text Processing : garder "HTML to text", et ajouter deux regles de remplacement de type
+     Regex : 1) ^.*🔊  ->  (rien)   : ne pas lire le niveau, le titre ni l'icone ;
+             2) [男女]：  ->  (rien) : ne pas lire "homme" / "femme" devant chaque replique.
+  2. Parcourir > deck:Chinois::Ecoute > tout selectionner > HyperTTS > ajout en lot avec ce preset.
+  3. Modele du recto de "Chinois (ecoute)" : remplacer la ligne {{tts zh_CN:Recto}} par {{Ajouter le verso}}.
+     (Pour pouvoir reecouter au verso, ajouter aussi {{Ajouter le verso}} dans le modele du verso.)
 
 
 ########## "Chinois (texte)" : MODELE DU RECTO ##########
