@@ -103,3 +103,164 @@ def reglages(col, bilan):
     bilan["par_jour"] = conf["new"]["perDay"]
     from anki.collection import OpChanges
     return OpChanges(deck_config=True, deck=True)  # réglages : non annulables, modifiables dans les options
+
+
+# ---------------------------------------------------------------- mise en place complète (première fois)
+FICHIERS = ("Vocabulaire", "Phrases", "Exercices", "Grammaire", "Lecture", "Ecoute", "Ecriture")
+TYPES = {  # type de note de chaque fichier : le premier nom qui existe dans la collection
+    "Phrases": ("Chinois (phrase)",),
+    "Ecoute": ("Chinois Audio", "Chinois (ecoute)"),
+    "Ecriture": ("Chinois ecriture", "Chinois (ecriture)"),
+    "Exercices": ("Chinois Texte", "Chinois (texte)"),
+    "Grammaire": ("Chinois Texte", "Chinois (texte)"),
+    "Lecture": ("Chinois Texte", "Chinois (texte)"),
+}
+
+
+def _type(col, noms):
+    for nom in noms:
+        m = col.models.by_name(nom)
+        if m:
+            return m
+    return None
+
+
+def _lire_fichier(chemin):
+    """En-têtes et lignes d'un fichier d'import."""
+    with open(chemin, encoding="utf-8", newline="") as f:
+        lignes = f.read().splitlines()
+    entetes = [l for l in lignes if l.startswith("#")]
+    rangs = list(csv.reader([l for l in lignes if l and not l.startswith("#")], delimiter="\t", quotechar='"'))
+    return entetes, rangs
+
+
+def _type_existant(col, rectos):
+    """Le type des notes de la collection qui ont déjà ces rectos (le plus fréquent), ou None."""
+    from collections import Counter
+    c = Counter(mid for mid, flds in col.db.execute("select mid, flds from notes") if flds.split("\x1f", 1)[0] in rectos)
+    return col.models.get(c.most_common(1)[0][0]) if c else None
+
+
+def _blocs(dossier):
+    """Blocs de TYPES_DE_NOTES.txt : {(type, titre): texte}."""
+    import os
+    import re
+    blocs, courant = {}, None
+    with open(os.path.join(dossier, "TYPES_DE_NOTES.txt"), encoding="utf-8") as f:
+        for ligne in f.read().splitlines():
+            m = re.match(r'^########## "(.+?)" : (.+?) ##########$', ligne)
+            if m:
+                courant = (m.group(1), m.group(2).split(" (")[0])
+                blocs[courant] = []
+            elif courant:
+                blocs[courant].append(ligne)
+    return {k: "\n".join(v).strip("\n") + "\n" for k, v in blocs.items()}
+
+
+def _changer_type(col, recherche, ancien, nouveau):
+    nids = list(col.find_notes(f'{recherche} note:"{ancien["name"]}"'))
+    if nids:
+        req = col.models.change_notetype_info(old_notetype_id=ancien["id"], new_notetype_id=nouveau["id"]).input
+        req.note_ids.extend(nids)
+        col.models.change_notetype_of_notes(req)
+    return len(nids)
+
+
+def preparer_types(col, dossier, journal):
+    """Type « Chinois (phrase) » (trois cartes) et phrases déjà importées passées à ce type ; notes d'écoute sur
+    le type d'écoute, dont le recto joue l'audio HyperTTS du champ « Ajouter le verso »."""
+    texte = _type(col, TYPES["Exercices"])
+    if texte is None:
+        raise Exception("Type « Chinois Texte » (ou « Chinois (texte) ») introuvable : le créer d'abord (TYPES_DE_NOTES.txt).")
+    phrase = col.models.by_name("Chinois (phrase)")
+    if phrase is None:
+        b = _blocs(dossier)
+        p = lambda titre: b[("Chinois (phrase)", titre)]
+        phrase = col.models.copy(texte, add=False)
+        phrase["name"] = "Chinois (phrase)"
+        phrase["css"] = p("STYLE")
+        phrase["tmpls"][0]["name"] = "Lecture"
+        phrase["tmpls"][0]["qfmt"] = p("CARTE 1 LECTURE, MODELE DU RECTO")
+        phrase["tmpls"][0]["afmt"] = p("CARTE 1 LECTURE, MODELE DU VERSO")
+        for nom, carte in (("Theme", "CARTE 2 THEME"), ("Dictee", "CARTE 3 DICTEE")):
+            t = col.models.new_template(nom)
+            t["qfmt"] = p(carte + ", MODELE DU RECTO")
+            t["afmt"] = p(carte + ", MODELE DU VERSO")
+            col.models.add_template(phrase, t)
+        col.models.add(phrase)
+        phrase = col.models.by_name("Chinois (phrase)")
+        journal.append("Type « Chinois (phrase) » créé (cartes Lecture, Theme, Dictee).")
+    n = _changer_type(col, '"deck:Chinois::Phrases"', texte, phrase)
+    if n:
+        journal.append(f"{n} phrases passées au type « Chinois (phrase) » (progression gardée).")
+    audio = _type(col, TYPES["Ecoute"])
+    if audio:
+        for nom in ("Chinois ecriture", "Chinois (ecriture)", "Chinois Texte", "Chinois (texte)"):
+            ancien = col.models.by_name(nom)
+            if ancien and ancien["id"] != audio["id"]:
+                n = _changer_type(col, '"deck:Chinois::Ecoute"', ancien, audio)
+                if n:
+                    journal.append(f"{n} notes d'écoute passées du type « {nom} » au type « {audio['name']} ».")
+        q = audio["tmpls"][0]["qfmt"]
+        if "{{tts zh_CN:Recto}}" in q and "{{Ajouter le verso}}" not in q:
+            audio["tmpls"][0]["qfmt"] = q.replace("{{tts zh_CN:Recto}}", "{{Ajouter le verso}}")
+            col.models.update_dict(audio)
+            journal.append(f"Recto de « {audio['name']} » : l'audio HyperTTS (champ « Ajouter le verso ») remplace la synthèse vocale.")
+
+
+def importer(col, dossier, journal):
+    """Importe les sept fichiers (mise à jour des notes existantes, sous-paquet lu dans le fichier), avec le type
+    de note des notes déjà présentes. Les lignes « a_supprimer » ne sont pas importées : ces anciennes versions
+    n'ont rien à faire dans la collection si elles n'y sont plus (le rangement range celles qui y sont encore)."""
+    import os
+    import tempfile
+    from anki.collection import ImportCsvRequest
+    from anki.import_export_pb2 import CsvMetadata
+    for paquet in FICHIERS:
+        chemin = os.path.join(dossier, f"Chinois__{paquet}.txt")
+        if not os.path.exists(chemin):
+            continue
+        entetes, rangs = _lire_fichier(chemin)
+        rangs = [r for r in rangs if len(r) > 2 and "a_supprimer" not in r[2].split()]
+        nt = _type_existant(col, {r[0] for r in rangs})
+        if nt is None:
+            nt = col.models.by_name("Basique (carte inversée optionnelle)") if paquet == "Vocabulaire" else _type(col, TYPES[paquet])
+        if nt is None:
+            journal.append(f"{paquet} : type de note introuvable, fichier non importé.")
+            continue
+        fd, temp = tempfile.mkstemp(suffix=".txt", prefix=f"Chinois__{paquet}_")
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8", newline="") as f:
+                f.write("\n".join(entetes) + "\n")
+                csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
+            md = col.get_csv_metadata(path=temp, delimiter=None)
+            md.global_notetype.id = nt["id"]
+            md.dupe_resolution = CsvMetadata.DupeResolution.UPDATE
+            log = col.import_csv(ImportCsvRequest(path=temp, metadata=md)).log
+        finally:
+            os.remove(temp)
+        journal.append(f"{paquet} ({nt['name']}) : {len(log.new)} nouvelles notes, {len(log.updated)} mises à jour"
+                       + (f", {len(log.conflicting)} en conflit de type" if log.conflicting else ""))
+
+
+def mettre_en_place(col, dossier, journal, supprimer=True):
+    """Tout, la première fois : types de notes, import, rangement, réglages, paquet « À supprimer » vidé."""
+    import os
+    preparer_types(col, dossier, journal)
+    importer(col, dossier, journal)
+    bilan = defaultdict(int)
+    ranger(col, lire_rangement(os.path.join(dossier, "RANGEMENT.tsv")), bilan)
+    journal.append(f"Rangement : {bilan['deplacees']} cartes déplacées dans leur leçon, {bilan['placees']} cartes "
+                   f"nouvelles remises dans l'ordre, {bilan['vides']} paquets vides supprimés"
+                   + (f", {bilan['inconnues']} notes inconnues laissées en place" if bilan["inconnues"] else "") + ".")
+    b2 = defaultdict(int)
+    reglages(col, b2)
+    journal.append(f"Réglages « {GROUPE} » appliqués à {b2['paquets']} paquets ({b2['par_jour']} nouvelles cartes par jour).")
+    did = col.decks.id_for_name(RACINE + "::9 · À supprimer")
+    if supprimer and did:
+        n = col.decks.card_count(did, include_subdecks=True)
+        col.decks.remove([did])
+        journal.append(f"Paquet « 9 · À supprimer » supprimé ({n} cartes remplacées par une version corrigée).")
+    from anki.collection import OpChanges
+    return OpChanges(card=True, note=True, deck=True, notetype=True, deck_config=True, study_queues=True,
+                     browser_table=True, browser_sidebar=True, note_text=True)

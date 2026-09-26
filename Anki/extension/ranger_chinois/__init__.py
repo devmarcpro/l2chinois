@@ -9,7 +9,10 @@ paquet, rang) et, pour chaque note du paquet Chinois :
 Les paquets vides qui restent sont supprimés. Tout s'annule en une fois (Édition > Annuler).
 
 Menu Outils :
-- « Ranger mon chinois (ordre du manuel) » : à relancer après chaque import ;
+- « Chinois : tout mettre en place (première fois) » : sauvegarde, type « Chinois (phrase) », notes d'écoute
+  sur le bon type, import des sept fichiers, rangement, réglages, suppression du paquet « 9 · À supprimer » ;
+- « Chinois : importer les fichiers et ranger » : après chaque nouvelle version des fichiers ;
+- « Ranger mon chinois (ordre du manuel) » : à relancer après chaque import fait à la main ;
 - « Chinois : appliquer les réglages conseillés » : groupe d'options « Chinois – manuel » (nouvelles cartes
   prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées).
 """
@@ -21,7 +24,7 @@ from aqt.operations import CollectionOp
 from aqt.qt import QAction, QFileDialog
 from aqt.utils import askUser, showInfo, showWarning
 
-from .coeur import GROUPE, RACINE, lire_rangement, ranger, reglages
+from .coeur import GROUPE, RACINE, importer, lire_rangement, mettre_en_place, ranger, reglages
 
 
 def _config():
@@ -90,8 +93,58 @@ def lancer_reglages():
     CollectionOp(parent=mw, op=lambda col: reglages(col, bilan)).success(fini).run_in_background()
 
 
+def lancer_mise_en_place():
+    chemin = _fichier()
+    if not chemin:
+        return
+    dossier = os.path.dirname(chemin)
+    if not askUser("Tout mettre en place dans le paquet « Chinois » ?\n\n"
+                   "1. sauvegarde complète de la collection (Fichier > Revenir à une sauvegarde pour revenir en arrière) ;\n"
+                   "2. type « Chinois (phrase) » (lecture, thème, dictée) et phrases déjà importées passées à ce type ;\n"
+                   "3. notes d'écoute sur le type d'écoute, qui joue l'audio HyperTTS ;\n"
+                   "4. import des sept fichiers du dossier " + dossier + " ;\n"
+                   "5. rangement dans l'ordre du manuel et réglages conseillés ;\n"
+                   "6. suppression du paquet « 9 · À supprimer ».\n\n"
+                   "La progression des cartes déjà révisées est gardée. Le changement de type de note demande, à la "
+                   "prochaine synchronisation, de choisir « Envoyer vers AnkiWeb » (synchronisez d'abord votre "
+                   "téléphone si vous y avez révisé depuis la dernière synchronisation de l'ordinateur)."):
+        return
+    journal = []
+
+    def op(col):
+        col.create_backup(backup_folder=mw.pm.backupFolder(), force=True, wait_for_completion=True)
+        journal.append("Sauvegarde faite.")
+        return mettre_en_place(col, dossier, journal)
+
+    def fini(_):
+        showInfo("\n".join(journal) + "\n\nReste à faire : générer avec HyperTTS l'audio des nouvelles phrases et des "
+                 "nouveaux dialogues d'écoute (champ « Ajouter le verso » vide).", title="Ranger mon chinois")
+
+    CollectionOp(parent=mw, op=op).success(fini).run_in_background()
+
+
+def lancer_import():
+    chemin = _fichier()
+    if not chemin:
+        return
+    dossier = os.path.dirname(chemin)
+    journal = []
+
+    def op(col):
+        importer(col, dossier, journal)
+        bilan = defaultdict(int)
+        changes = ranger(col, lire_rangement(chemin), bilan)
+        journal.append(f"Rangement : {bilan['deplacees']} cartes déplacées, {bilan['placees']} cartes nouvelles remises "
+                       f"dans l'ordre, {bilan['vides']} paquets vides supprimés.")
+        return changes
+
+    CollectionOp(parent=mw, op=op).success(lambda _: showInfo("\n".join(journal), title="Ranger mon chinois")).run_in_background()
+
+
 def _menu():
-    for titre, fonction in (("Ranger mon chinois (ordre du manuel)", lancer_rangement),
+    for titre, fonction in (("Chinois : tout mettre en place (première fois)", lancer_mise_en_place),
+                            ("Chinois : importer les fichiers et ranger", lancer_import),
+                            ("Ranger mon chinois (ordre du manuel)", lancer_rangement),
                             ("Chinois : appliquer les réglages conseillés", lancer_reglages)):
         action = QAction(titre, mw)
         action.triggered.connect(fonction)

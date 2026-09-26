@@ -45,10 +45,26 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
 - Pour le calcul : .outils/anki/manuel.py ; repartition dans donnees_hsk/manuel.json ; exercices et textes
   dans donnees_hsk/manuel_contenu.json.
 
-METTRE EN PLACE (une fois)
-1. Sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
-2. Installer le module "Ranger mon chinois" : double-cliquer sur ranger_chinois.ankiaddon (ce dossier), ou
+METTRE EN PLACE (une fois) : EN UN CLIC
+1. Installer le module "Ranger mon chinois" : double-cliquer sur ranger_chinois.ankiaddon (ce dossier), ou
    Outils > Modules > Installer depuis un fichier. Redemarrer Anki. (Code : Anki/extension/ranger_chinois.)
+2. Outils > "Chinois : tout mettre en place (premiere fois)", choisir RANGEMENT.tsv dans ce dossier. Le module :
+    * fait une sauvegarde complete (Fichier > Revenir a une sauvegarde pour revenir en arriere) ;
+    * cree le type "Chinois (phrase)" (blocs de TYPES_DE_NOTES.txt) et y passe les phrases deja importees ;
+    * met les notes d'ecoute sur le type "Chinois Audio", dont le recto joue l'audio HyperTTS ;
+    * importe les sept fichiers avec le type des notes deja presentes (sans les anciennes versions a_supprimer) ;
+    * range tout dans l'ordre du manuel, applique les reglages conseilles (point 5 ci-dessous) ;
+    * supprime le paquet "9 · A supprimer".
+   La progression des cartes deja revisees est gardee. Le changement de type de note oblige, a la synchronisation
+   suivante, a choisir "Envoyer vers AnkiWeb" (synchroniser d'abord le telephone si on y a revise entre-temps).
+3. Generer avec HyperTTS l'audio des nouvelles phrases et des nouveaux dialogues (champ "Ajouter le verso" vide).
+Pour chaque nouvelle version des fichiers : Outils > "Chinois : importer les fichiers et ranger".
+Teste sur une copie de ta collection : tout en 18 s, 295 cartes deja revisees intactes, un second passage ne
+change plus rien.
+
+LE DETAIL, POUR LE FAIRE A LA MAIN
+1. Sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
+2. Installer le module (voir plus haut).
 3. Importer les sept fichiers (voir ETAPES plus bas). Les notes nouvelles vont directement dans leur lecon.
 4. Outils > "Ranger mon chinois (ordre du manuel)". La premiere fois, choisir le fichier RANGEMENT.tsv de ce
    dossier. Un import ne deplace pas les notes deja presentes et ne change pas leur ordre : le module range
@@ -63,7 +79,7 @@ METTRE EN PLACE (une fois)
       ne tombent pas le meme jour) ;
     * 30 nouvelles cartes par jour, a changer dans les options du paquet Chinois.
 6. Supprimer le paquet Chinois::9 · A supprimer (cartes remplacees par une version corrigee).
-Apres chaque nouvel import : relancer Outils > Ranger mon chinois.
+Apres chaque nouvel import fait a la main : relancer Outils > Ranger mon chinois.
 Teste sur une copie de ta collection (Anki 26.9) :
 - import des sept fichiers, puis rangement : 40 882 cartes deplacees, 53 paquets vides supprimes ;
 - annulation et retablissement verifies ;
