@@ -50,8 +50,10 @@ CE QUI A CHANGE
   etiquetes pour des themes du programme pas encore couverts dans le coffre (dynasties Song a Qing, pensee
   chinoise, vocabulaire de discussion). Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
 - Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
-  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK. Les mots des cours sans niveau HSK
-  vont dans 8 · Hors HSK (on les retrouve avec la recherche tag:cours_L2).
+  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK. Les mots qui n'avaient pas de niveau
+  (surtout les mots ajoutes depuis les cours) ont recu leur niveau HSK 3.0 officiel quand ils figurent dans la
+  liste (75 mots, dont 40 des cours) ; les autres (noms propres, termes d'histoire, expressions) restent dans
+  8 · Hors HSK. Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
 - Chaque fichier est range du plus facile au plus difficile.
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
 

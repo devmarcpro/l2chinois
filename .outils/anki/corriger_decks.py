@@ -391,6 +391,20 @@ class Lexique:
         return round(sum(queue) / len(queue), 2)
 
 
+def niveaux_officiels(rangs):
+    """Donne leur niveau HSK 3.0 officiel aux mots qui n'en ont pas (surtout les mots ajoutés depuis les cours).
+    Les niveaux déjà présents dans le paquet d'origine ne sont pas touchés."""
+    import json
+    niveaux = json.loads((Path(__file__).parent / "hsk30.json").read_text(encoding="utf-8"))["niveaux"]
+    for r in rangs:
+        n = niveaux.get(r[0].strip())
+        if n is None or niveau_hsk(r[3]):
+            continue
+        etiquette = "HSK7-9" if n == 7 else f"HSK{n}"
+        r[3] = " ".join([t for t in r[3].split() if t != "hors_HSK"] + [etiquette])
+        stats[("Vocabulaire", "niveau HSK 3.0 officiel attribué")] += 1
+
+
 def niveau_hsk(etiquettes: str, defaut=None):
     m = re.search(r"HSK(\d)\b", etiquettes)
     return int(m.group(1)) if m else defaut
@@ -461,6 +475,7 @@ def main():
         for r in rangs:
             r[3] = " ".join(r[3].split())
     ajouts = ajouter_contenu(paquets)
+    niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique(paquets["Vocabulaire"])
     for nom in paquets:
         paquets[nom] = trier(nom, paquets[nom], lex)
