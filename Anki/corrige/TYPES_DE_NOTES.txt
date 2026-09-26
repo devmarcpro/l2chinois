@@ -7,6 +7,8 @@ reglage memorise d'une carte a l'autre), mais sans les caracteres geants du rect
 
 Creation (une seule fois) : Outils > Gerer les types de notes > Ajouter > "Cloner : Basique" > nom ci-dessous,
 puis Cartes... : coller le modele du recto, le modele du verso et le style (remplacer tout le contenu).
+Chaque bloc a copier va de la ligne qui suit son titre ########## jusqu'a la ligne qui precede le titre
+suivant : ne rien copier d'autre (une ligne de ce texte collee dans le style casserait la regle qui la suit).
 
 - "Chinois (texte)"    : Grammaire, Exercices, Phrases, Lecture.
 - "Chinois (ecoute)"   : Ecoute (le texte est lu par la synthese vocale et cache au recto).
@@ -57,8 +59,7 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
 {{tts zh_CN:Recto}}
 
 
-########## "Chinois (ecoute)" : MODELE DU VERSO ##########
-(meme verso que "Chinois (texte)" : sans {{FrontSide}}, pour que l'audio ne soit pas relu)
+########## "Chinois (ecoute)" : MODELE DU VERSO (le meme que "Chinois (texte)" ; sans FrontSide : l'audio n'est pas relu) ##########
 
 <div class="texte">{{Recto}}</div>
 <hr id="answer">
@@ -99,6 +100,18 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
   var info = document.getElementById('quiz-info');
   if (!el || !zone) { if (zone) zone.style.display = 'none'; return; }
   var car = el.textContent.trim();
+  function sombre() {
+    var b = document.body;
+    if (b.classList.contains('nightMode') || b.classList.contains('night_mode')) return true;
+    function fond(el) {
+      var c = getComputedStyle(el).backgroundColor.match(/[\d.]+/g);
+      return c && !(c.length === 4 && +c[3] === 0) ? c : null;
+    }
+    var c = fond(b) || fond(document.documentElement);
+    return c ? (0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]) < 128 : false;
+  }
+  var C = sombre() ? { trait: '#f2f2f2', contour: '#555555', cle: '#5dade2', vert: '#58d68d' }
+                   : { trait: '#333333', contour: '#e6e6e6', cle: '#2980b9', vert: '#27ae60' };
   function horsLigne(msg) { zone.style.display = 'none'; info.textContent = msg; }
   function charger(suite) {
     if (window.HanziWriter) { suite(); return; }
@@ -113,7 +126,8 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
     var w = HanziWriter.create(zone, car, {
       width: 220, height: 220, padding: 12,
       showCharacter: false, showOutline: false, showHintAfterMisses: 3,
-      highlightOnComplete: true, drawingWidth: 22, strokeColor: '#333', highlightColor: '#27ae60',
+      highlightOnComplete: true, drawingWidth: 22,
+      drawingColor: C.trait, strokeColor: C.trait, highlightColor: C.vert, outlineColor: C.contour,
       onLoadCharDataError: function () { horsLigne("Trace indisponible pour ce caractere."); }
     });
     function lancer() {
@@ -146,6 +160,18 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
   var info = document.getElementById('traits-info');
   if (!el || !zone) { if (zone) zone.style.display = 'none'; if (info) info.style.display = 'none'; return; }
   var car = el.textContent.trim();
+  function sombre() {
+    var b = document.body;
+    if (b.classList.contains('nightMode') || b.classList.contains('night_mode')) return true;
+    function fond(el) {
+      var c = getComputedStyle(el).backgroundColor.match(/[\d.]+/g);
+      return c && !(c.length === 4 && +c[3] === 0) ? c : null;
+    }
+    var c = fond(b) || fond(document.documentElement);
+    return c ? (0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]) < 128 : false;
+  }
+  var C = sombre() ? { trait: '#f2f2f2', contour: '#555555', cle: '#5dade2', vert: '#58d68d' }
+                   : { trait: '#333333', contour: '#e6e6e6', cle: '#2980b9', vert: '#27ae60' };
   function horsLigne(msg) { zone.style.display = 'none'; info.textContent = msg; }
   function charger(suite) {
     if (window.HanziWriter) { suite(); return; }
@@ -160,7 +186,7 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
     var w = HanziWriter.create(zone, car, {
       width: 220, height: 220, padding: 12, showOutline: true,
       strokeAnimationSpeed: 1, delayBetweenStrokes: 300,
-      strokeColor: '#333', radicalColor: '#2980b9', outlineColor: '#e6e6e6',
+      strokeColor: C.trait, radicalColor: C.cle, outlineColor: C.contour,
       onLoadCharDataError: function () { horsLigne('Trace indisponible pour ce caractere.'); }
     });
     w.animateCharacter();
@@ -186,15 +212,16 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
 
 
 ########## STYLE (le meme pour les trois types) ##########
-- "Chinois (ecoute)" : enlever /* et */ autour de   .ecoute-texte { display: none; }   (a la fin).
-- "Chinois (ecriture)" : ajouter aussi, tout a la fin, le bloc "STYLE EN PLUS POUR L'ECRITURE" plus bas.
+
+/* Style commun aux trois types : tout copier, jusqu'a la ligne qui precede le bloc suivant.
+   "Chinois (ecoute)"   : enlever ensuite les signes de commentaire autour de .ecoute-texte (derniere ligne).
+   "Chinois (ecriture)" : coller ensuite, a la suite, le bloc "STYLE EN PLUS POUR L'ECRITURE".
+   Couleurs du fond et du texte non imposees : les cartes suivent le mode jour / nuit d'Anki. */
 
 .card {
   font-family: "Segoe UI", "Microsoft YaHei", "Arial", sans-serif;
   font-size: 26px;
   text-align: center;
-  color: black;
-  background-color: white;
   line-height: 1.6;
 }
 
@@ -284,7 +311,7 @@ ruby rt {
   width: 220px;
   height: 220px;
   margin: 6px auto;
-  border: 1px solid #c8c8c8;
+  border: 1px solid #b0b0b0;
   cursor: pointer;
   touch-action: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg stroke='%23dddddd' stroke-dasharray='6 5'%3E%3Cline x1='0' y1='0' x2='220' y2='220'/%3E%3Cline x1='220' y1='0' x2='0' y2='220'/%3E%3Cline x1='110' y1='0' x2='110' y2='220'/%3E%3Cline x1='0' y1='110' x2='220' y2='110'/%3E%3C/g%3E%3C/svg%3E");
@@ -292,3 +319,4 @@ ruby rt {
 .aide { font-size: 15px; color: #888; margin-top: 6px; }
 .bouton-traits { cursor: pointer; font-size: 20px; margin-left: 8px; opacity: 0.6; }
 .bouton-traits:hover { opacity: 1; }
+.nightMode .grille, .night_mode .grille { border-color: #666; }

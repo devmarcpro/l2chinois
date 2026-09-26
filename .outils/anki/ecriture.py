@@ -92,7 +92,7 @@ def note_ecriture(car, info, seul, exemples):
     if trads:
         details = f'traditionnel : {" / ".join(trads)} · ' + details
     verso = (f'{GRAND_CAR}{car}</div>'
-             f'<div style="font-size:18px;color:#666;margin-bottom:10px">{details}</div>'
+             f'<div style="font-size:18px;color:#888;margin-bottom:10px">{details}</div>'
              '<div style="text-align:left;font-size:22px;line-height:1.7">'
              + "<br>".join(ligne_mot(m, False) for m in ([seul] if seul else []) + exemples) + "</div>")
     bande = BANDES[info["ecriture"]]
@@ -107,7 +107,9 @@ def ajouter_ecriture(paquets, publies=None):
     for r in (publies or {}).get("Ecriture", []):
         m = re.search(r'font-size:96px;line-height:1.1">(.)<', r[1])
         if m and "a_supprimer" not in r[3].split():
-            deja[m.group(1)] = [r[0], r[1].replace(ANCIEN_GRAND_CAR, GRAND_CAR), r[2], r[3]]
+            verso = r[1].replace(ANCIEN_GRAND_CAR, GRAND_CAR).replace(  # gris lisible aussi en mode nuit
+                'font-size:18px;color:#666;margin-bottom:10px', 'font-size:18px;color:#888;margin-bottom:10px')
+            deja[m.group(1)] = [r[0], verso, r[2], r[3]]
     f = DONNEES / "caracteres.json"
     if not f.exists():
         return {}
