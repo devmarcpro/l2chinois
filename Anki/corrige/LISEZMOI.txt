@@ -157,14 +157,19 @@ Chaque fichier a 5 colonnes : 1 = Recto, 2 = Verso, 3 = vide, 4 = etiquettes, 5 
 QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
   francais -> chinois). Colonne 3 -> "Ajouter le verso" (elle est vide).
-- Grammaire, Exercices, Phrases, Lecture, Ecriture : PAS le type du vocabulaire (son recto affiche le premier
+- Grammaire, Exercices, Phrases, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
   champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
   carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
   tel quel (pas de couleur des tons, blocs d'exemple ecrases a 30 % de la largeur).
   -> type "Chinois (texte)", a creer une fois pour toutes. Colonne 3 -> (rien).
 - Ecoute : type "Chinois (ecoute)" (le texte est lu par la synthese vocale et cache au recto ; il faut une voix
   chinoise installee, voir ECOUTER LE CHINOIS plus bas). Colonne 3 -> (rien).
-- Les modeles et le style de ces deux types, prets a coller, sont dans TYPES_DE_NOTES.txt (ce dossier). Ils
+- Ecriture : type "Chinois (ecriture)" : au recto, une case quadrillee pour ecrire le caractere a la souris
+  ou au doigt, trait par trait (trait faux refuse, indice apres 3 erreurs) ; au verso, l'ordre des traits
+  anime (cle en bleu). Il faut une connexion internet (bibliotheque Hanzi Writer, licence MIT, et traces des
+  caracteres du projet Make Me a Hanzi, charges a la demande) ; sans connexion, la carte marche sans la case.
+  Colonne 3 -> (rien).
+- Les modeles et le style de ces trois types, prets a coller, sont dans TYPES_DE_NOTES.txt (ce dossier). Ils
   reprennent l'apparence du type du vocabulaire (polices, couleurs des tons, bouton あ pour cacher le pinyin).
 
 ETAPES

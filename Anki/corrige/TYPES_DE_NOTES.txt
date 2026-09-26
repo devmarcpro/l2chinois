@@ -1,15 +1,21 @@
 TYPES DE NOTES POUR LES PAQUETS AUTRES QUE LE VOCABULAIRE
 =========================================================
 
-Le vocabulaire garde son type "Basique (carte inversee optionnelle)". Les deux types ci-dessous reprennent
+Le vocabulaire garde son type "Basique (carte inversee optionnelle)". Les trois types ci-dessous reprennent
 son apparence (memes polices, memes couleurs de tons, meme bouton あ pour cacher / montrer le pinyin, meme
 reglage memorise d'une carte a l'autre), mais sans les caracteres geants du recto ni la carte inverse.
 
 Creation (une seule fois) : Outils > Gerer les types de notes > Ajouter > "Cloner : Basique" > nom ci-dessous,
 puis Cartes... : coller le modele du recto, le modele du verso et le style (remplacer tout le contenu).
 
-- "Chinois (texte)"  : Grammaire, Exercices, Phrases, Lecture, Ecriture.
-- "Chinois (ecoute)" : Ecoute (le texte est lu par la synthese vocale et cache au recto).
+- "Chinois (texte)"    : Grammaire, Exercices, Phrases, Lecture.
+- "Chinois (ecoute)"   : Ecoute (le texte est lu par la synthese vocale et cache au recto).
+- "Chinois (ecriture)" : Ecriture. Au recto, une case quadrillee pour ecrire le caractere a la souris ou au
+  doigt, trait par trait (un trait faux est refuse ; au bout de 3 erreurs sur un trait, il est montre en
+  indice). Au verso, l'ordre des traits anime (cliquer sur la case pour le revoir), la cle en bleu.
+  Il faut une connexion internet (bibliotheque Hanzi Writer et traces des caracteres charges a la demande) ;
+  sans connexion, la carte reste utilisable normalement, sans la case. Sur AnkiDroid, si les gestes de
+  balayage sont actives, ils peuvent gener l'ecriture au doigt dans la case.
 
 A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
 
@@ -78,7 +84,110 @@ A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
 </script>
 
 
-########## STYLE (le meme pour les deux types ; pour "Chinois (ecoute)", enlever /* et */ a la derniere ligne) ##########
+########## "Chinois (ecriture)" : MODELE DU RECTO ##########
+
+<div class="texte">{{Recto}}</div>
+<div id="verso-cache" style="display:none">{{Verso}}</div>
+<div id="quiz-zone" class="grille"></div>
+<div class="aide"><span id="quiz-info">Ecrivez le caractere dans la case (souris ou doigt) · indice apres 3 erreurs</span>
+  <span id="quiz-reset" class="bouton-traits" title="Recommencer">↺</span></div>
+<script>
+(function () {
+  var HW = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3.7/dist/hanzi-writer.min.js';
+  var el = document.querySelector('#verso-cache .ecriture-car');
+  var zone = document.getElementById('quiz-zone');
+  var info = document.getElementById('quiz-info');
+  if (!el || !zone) { if (zone) zone.style.display = 'none'; return; }
+  var car = el.textContent.trim();
+  function horsLigne(msg) { zone.style.display = 'none'; info.textContent = msg; }
+  function charger(suite) {
+    if (window.HanziWriter) { suite(); return; }
+    var s = document.createElement('script');
+    s.src = HW;
+    s.onload = suite;
+    s.onerror = function () { horsLigne("Case d'ecriture indisponible (connexion internet necessaire)."); };
+    document.head.appendChild(s);
+  }
+  charger(function () {
+    zone.innerHTML = '';
+    var w = HanziWriter.create(zone, car, {
+      width: 220, height: 220, padding: 12,
+      showCharacter: false, showOutline: false, showHintAfterMisses: 3,
+      highlightOnComplete: true, drawingWidth: 22, strokeColor: '#333', highlightColor: '#27ae60',
+      onLoadCharDataError: function () { horsLigne("Trace indisponible pour ce caractere."); }
+    });
+    function lancer() {
+      w.quiz({ onComplete: function (r) {
+        info.textContent = r.totalMistakes === 0 ? 'Parfait : aucune erreur.' : 'Termine : ' + r.totalMistakes + ' erreur(s).';
+      } });
+    }
+    lancer();
+    var b = document.getElementById('quiz-reset');
+    if (b) b.addEventListener('click', function () { info.textContent = 'Nouvel essai'; lancer(); });
+  });
+})();
+</script>
+
+
+########## "Chinois (ecriture)" : MODELE DU VERSO ##########
+
+<div class="texte">{{Recto}}</div>
+<hr id="answer">
+<div class="texte">{{Verso}}</div>
+<div class="aide" id="traits-info">Ordre des traits (cliquer sur la case pour le revoir)</div>
+<div id="traits-zone" class="grille"></div>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var HW = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3.7/dist/hanzi-writer.min.js';
+  var el = document.querySelector('#answer ~ .texte .ecriture-car');
+  var zone = document.getElementById('traits-zone');
+  var info = document.getElementById('traits-info');
+  if (!el || !zone) { if (zone) zone.style.display = 'none'; if (info) info.style.display = 'none'; return; }
+  var car = el.textContent.trim();
+  function horsLigne(msg) { zone.style.display = 'none'; info.textContent = msg; }
+  function charger(suite) {
+    if (window.HanziWriter) { suite(); return; }
+    var s = document.createElement('script');
+    s.src = HW;
+    s.onload = suite;
+    s.onerror = function () { horsLigne('Ordre des traits indisponible (connexion internet necessaire).'); };
+    document.head.appendChild(s);
+  }
+  charger(function () {
+    zone.innerHTML = '';
+    var w = HanziWriter.create(zone, car, {
+      width: 220, height: 220, padding: 12, showOutline: true,
+      strokeAnimationSpeed: 1, delayBetweenStrokes: 300,
+      strokeColor: '#333', radicalColor: '#2980b9', outlineColor: '#e6e6e6',
+      onLoadCharDataError: function () { horsLigne('Trace indisponible pour ce caractere.'); }
+    });
+    w.animateCharacter();
+    zone.addEventListener('click', function () { w.animateCharacter(); });
+  });
+})();
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## STYLE (le meme pour les trois types) ##########
+- "Chinois (ecoute)" : enlever /* et */ autour de   .ecoute-texte { display: none; }   (a la fin).
+- "Chinois (ecriture)" : ajouter aussi, tout a la fin, le bloc "STYLE EN PLUS POUR L'ECRITURE" plus bas.
 
 .card {
   font-family: "Segoe UI", "Microsoft YaHei", "Arial", sans-serif;
@@ -167,3 +276,19 @@ ruby rt {
 .ecoute-texte, .ecoute-reveal { text-align: left; font-size: 26px; line-height: 1.9; }
 
 /* .ecoute-texte { display: none; } */
+
+
+########## STYLE EN PLUS POUR L'ECRITURE (a la fin du style de "Chinois (ecriture)") ##########
+
+.grille {
+  width: 220px;
+  height: 220px;
+  margin: 6px auto;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+  touch-action: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg stroke='%23dddddd' stroke-dasharray='6 5'%3E%3Cline x1='0' y1='0' x2='220' y2='220'/%3E%3Cline x1='220' y1='0' x2='0' y2='220'/%3E%3Cline x1='110' y1='0' x2='110' y2='220'/%3E%3Cline x1='0' y1='110' x2='220' y2='110'/%3E%3C/g%3E%3C/svg%3E");
+}
+.aide { font-size: 15px; color: #888; margin-top: 6px; }
+.bouton-traits { cursor: pointer; font-size: 20px; margin-left: 8px; opacity: 0.6; }
+.bouton-traits:hover { opacity: 1; }

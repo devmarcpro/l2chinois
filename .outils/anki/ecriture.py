@@ -17,6 +17,9 @@ DONNEES = Path(__file__).parent / "donnees_hsk"
 BANDES = {1: "1-3", 2: "4-6", 3: "7-9"}
 SOUS_PAQUETS = {"1-3": "1 · HSK 1-3", "4-6": "2 · HSK 4-6", "7-9": "3 · HSK 7-9"}
 TROU = "＿"
+# le type de note « Chinois (écriture) » repère le caractère à cette classe (ordre des traits, écriture à la souris)
+GRAND_CAR = '<div class="ecriture-car" style="font-size:96px;line-height:1.1">'
+ANCIEN_GRAND_CAR = '<div style="font-size:96px;line-height:1.1">'
 SPAN = re.compile(r'<span class="t(\d)">([^<]+)</span>')
 
 
@@ -88,7 +91,7 @@ def note_ecriture(car, info, seul, exemples):
     details = f'{info["traits"]} trait{"s" if info["traits"] > 1 else ""} · clé {html.escape(info["cle"])}'
     if trads:
         details = f'traditionnel : {" / ".join(trads)} · ' + details
-    verso = (f'<div style="font-size:96px;line-height:1.1">{car}</div>'
+    verso = (f'{GRAND_CAR}{car}</div>'
              f'<div style="font-size:18px;color:#666;margin-bottom:10px">{details}</div>'
              '<div style="text-align:left;font-size:22px;line-height:1.7">'
              + "<br>".join(ligne_mot(m, False) for m in ([seul] if seul else []) + exemples) + "</div>")
@@ -104,7 +107,7 @@ def ajouter_ecriture(paquets, publies=None):
     for r in (publies or {}).get("Ecriture", []):
         m = re.search(r'font-size:96px;line-height:1.1">(.)<', r[1])
         if m and "a_supprimer" not in r[3].split():
-            deja[m.group(1)] = list(r[:4])
+            deja[m.group(1)] = [r[0], r[1].replace(ANCIEN_GRAND_CAR, GRAND_CAR), r[2], r[3]]
     f = DONNEES / "caracteres.json"
     if not f.exists():
         return {}
