@@ -24,6 +24,7 @@ from pypinyin import load_phrases_dict
 from pinyin_correct import CJK, ton
 
 FICHIER = Path(__file__).with_name("corrections_contenu.json")
+FICHIER_MANUEL = Path(__file__).with_name("corrections_manuelles.json")
 UNITE = re.compile(r"<ruby>(.)<rt[^>]*>[^<]*</rt></ruby>|<[^>]+>|&[#\w]+;|.", re.S)
 RUBY = re.compile(r'<ruby>(.)<rt class="t\d">([^<]*)</rt></ruby>')
 BLOC = re.compile(r'(?:<ruby>.<rt class="t\d">[^<]*</rt></ruby>|[，。！？、；：,.!?“”"‘’《》（）()…—·\s])+')
@@ -31,6 +32,8 @@ SPAN = re.compile(r'<span class="t\d">([^<]+)</span>')
 PINYIN_CROCHETS = re.compile(r"\s*\[[A-Za-zǜ-ͯāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹ'’ ,.?!…\-]*\]")
 REMPLACEE = ("<b>Carte remplacée.</b><br><br>Une faute dans l'énoncé a été corrigée : la version juste est une nouvelle carte du même paquet. "
              "Celle-ci peut être supprimée (dans le navigateur d'Anki : <i>tag:a_supprimer</i>).")
+RETIREE = ("<b>Carte remplacée ou retirée.</b><br><br>Cette carte a été corrigée (la version juste est une nouvelle carte du même "
+           "paquet) ou retirée du paquet. Celle-ci peut être supprimée (dans le navigateur d'Anki : <i>tag:a_supprimer</i>).")
 DOUBLON = ("<b>Carte en double.</b><br><br>Le même point est traité par la fiche « {} ». "
            "Celle-ci peut être supprimée (dans le navigateur d'Anki : <i>tag:a_supprimer</i>).")
 
@@ -49,6 +52,16 @@ def charger():
     par_note = {}
     for e in donnees.get("corrections", []):
         par_note.setdefault((e["paquet"], e["cle"]), []).append(e)
+    # corrections faites à la main, gardées à part pour qu'une nouvelle fusion des relectures ne les efface pas ;
+    # "seule": true remplace les corrections de relecture de la même note (quand elles ne s'appliquent pas bien)
+    if FICHIER_MANUEL.exists():
+        remplacees = set()
+        for e in json.loads(FICHIER_MANUEL.read_text(encoding="utf-8"))["corrections"]:
+            k = (e["paquet"], e["cle"])
+            if e.get("seule") and k not in remplacees:
+                par_note[k] = []
+                remplacees.add(k)
+            par_note.setdefault(k, []).append(e)
     return par_note, donnees.get("mots", {})
 
 

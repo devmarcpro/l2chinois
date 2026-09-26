@@ -14,7 +14,7 @@ from pathlib import Path
 csv.field_size_limit(10**8)
 VAULT = Path(__file__).resolve().parents[2]
 SORTIE = VAULT / "Anki" / "corrige"
-ATTENDUS = {"Ecoute": 4, "Exercices": 4, "Grammaire": 4, "Lecture": 4, "Phrases": 4, "Vocabulaire": 5}
+ATTENDUS = {"Ecoute": 5, "Exercices": 5, "Grammaire": 5, "Lecture": 5, "Phrases": 5, "Vocabulaire": 5}  # 5e colonne : sous-paquet
 
 
 class VerifHTML(html.parser.HTMLParser):
@@ -76,6 +76,18 @@ def lire_tsv_anki(chemin: Path):
     return entetes, lignes
 
 
+def rectos_publies(paquet):
+    """Rectos du fichier corrigé dans le dernier commit git (version que l'utilisateur a pu importer)."""
+    import subprocess
+    try:
+        brut = subprocess.run(["git", "show", f"HEAD:Anki/corrige/Chinois__{paquet}.txt"], cwd=VAULT,
+                              capture_output=True, check=True).stdout.decode("utf-8")
+    except (OSError, subprocess.CalledProcessError):
+        return []
+    lignes = [l for l in brut.splitlines() if l and not l.startswith("#")]
+    return [r[0] for r in csv.reader(lignes, delimiter="\t", quotechar='"') if r]
+
+
 def main():
     total_problemes = 0
     for paquet, n_attendu in ATTENDUS.items():
@@ -132,6 +144,9 @@ def main():
         perdus = [r[0] for r in lire(f"Chinois__{paquet}.txt") if r[0].strip() and r[0].strip() not in rectos]
         if perdus:
             problemes.append(f"{len(perdus)} rectos d'origine absents (carte modifiee sans garder l'ancienne avec a_supprimer) : {perdus[:3]}")
+        perdus = [r for r in rectos_publies(paquet) if r.strip() and r.strip() not in rectos]
+        if perdus:
+            problemes.append(f"{len(perdus)} rectos du dernier commit absents (carte modifiee sans garder l'ancienne avec a_supprimer) : {perdus[:3]}")
         doublons = {r: n for r, n in rectos.items() if n > 1}
         if doublons:
             problemes.append(f"{len(doublons)} rectos en double au sein du même fichier (Anki n'en gardera qu'une version) : {list(doublons)[:5]}")

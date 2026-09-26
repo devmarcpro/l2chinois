@@ -1229,6 +1229,7 @@
 为	wèi -> wéi	mot 行为	"你未经授权使用了我公司的商标，这是明显的侵权行为，
 为	wèi -> wéi	mot 行为	网络上侵权行为普遍存在，盗版音乐、影视和软件对创作者
 乐	lè -> yuè	mot 音乐	网络上侵权行为普遍存在，盗版音乐、影视和软件对创作者
+一	yì -> yī	mot 一家	楼下有一家
 不	bù -> bú	mot 不到	只要有信心，没有什么做不到的事。 
 倒	dào -> dǎo	mot 倒霉	今天真倒霉，钥匙丢了。 
 倒	dào -> dǎo	mot 倒霉	他最近很倒霉，什么事都不顺利。
@@ -1824,6 +1825,8 @@
 参	cān -> shēn	mot 海参	"海参的营养价值很高，在中国传统饮食文化中常被视为珍
 为	wèi -> wéi	mot 被视为	"海参的营养价值很高，在中国传统饮食文化中常被视为珍
 不	bù -> bú	mot 不要	不要总是活在过去，要向前看。 
+一	yí -> yī	mot 一会儿	地铁里没有信号，等一会儿再回你 
+儿	r -> er	mot 一会儿	地铁里没有信号，等一会儿再回你 
 应	yīng -> yìng	mot 反应	打开太多浏览器窗口会占用大量内存，导致系统反应变得迟
 一	yī -> yí	mot 进一步	两国决定进一步加强在科技领域的合作，共同应对全球性挑
 应	yīng -> yìng	mot 应对	两国决定进一步加强在科技领域的合作，共同应对全球性挑
@@ -2997,11 +3000,8 @@
 的	de -> dì	mot 目的	"跟杠精争论根本没有意义，他们的目的不是讨论问题，而
 不	bù -> bú	mot 不是	"跟杠精争论根本没有意义，他们的目的不是讨论问题，而
 一	yī -> yí	mot 一个	《南京条约》是中国近代史上第一个不平等条约，对中国历
-发	fā -> fà	mot 理发	"她去理发店染了一头紫色的发，看起来非常有个性，得到
-一	yī -> yí	mot 一致	"她去理发店染了一头紫色的发，看起来非常有个性，得到
-间	jiān -> jiàn	mot 间隔	.建议两次染发之间间隔至少三个月，并做好护发保养。 
 
-##### accent manquant (2241 premiers cas)
+##### accent manquant (2180 premiers cas)
 个	ge -> gè	accent manquant (一个)	我有一个姐姐。
 亮	liang -> liàng	accent manquant (漂亮)	她很漂亮。
 得	de -> dé	accent manquant (值得)	他们住在宾馆里，房间很干净，早饭也很丰盛，服务不错，
@@ -3038,6 +3038,7 @@
 同	tong -> tóng	accent manquant (合同)	合同
 上	shang -> shàng	accent manquant (早上)	早上
 子	zi -> zǐ	accent manquant (电子游戏)	 电子游戏 
+亮	liang -> liàng	accent manquant (漂亮)	生日快乐，越来越漂亮 
 子	zi -> zǐ	accent manquant (孙子)	在很多中国家庭，祖母承担着照看孙子孙女的重要责任。 
 个	ge -> gè	accent manquant (一个)	请帮一个忙
 吃	chi -> chī	accent manquant	吃不完 
@@ -3466,15 +3467,7 @@
 乌	wu -> wū	accent manquant	 天下乌鸦一般黑 
 鸦	ya -> yā	accent manquant	 天下乌鸦一般黑 
 黑	hei -> hēi	accent manquant	 天下乌鸦一般黑 
-他	ta -> tā	accent manquant	他出门就听到乌鸦叫，
-出	chu -> chū	accent manquant	他出门就听到乌鸦叫，
-门	men -> mén	accent manquant	他出门就听到乌鸦叫，
-就	jiu -> jiù	accent manquant	他出门就听到乌鸦叫，
-听	ting -> tīng	accent manquant	他出门就听到乌鸦叫，
-到	dao -> dào	accent manquant	他出门就听到乌鸦叫，
-乌	wu -> wū	accent manquant	他出门就听到乌鸦叫，
-鸦	ya -> yā	accent manquant	他出门就听到乌鸦叫，
-叫	jiao -> jiào	accent manquant	他出门就听到乌鸦叫，
+服	fu -> fú	accent manquant (不舒服)	他出门就听到乌鸦叫，心里有点不舒服。 
 仁	ren -> rén	accent manquant	仁者爱人 
 者	zhe -> zhě	accent manquant	仁者爱人 
 爱	ai -> ài	accent manquant	仁者爱人 
@@ -3509,6 +3502,7 @@
 境	jing -> jìng	accent manquant	孔子认为仁是最高的道德境界。 
 界	jie -> jiè	accent manquant	孔子认为仁是最高的道德境界。 
 子	zi -> zǐ	accent manquant (孔子)	 (孔子 
+道	dao -> dào	accent manquant (知道)	去你的，你根本不知道发生了什么。 
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩是现存最大的灵长类动物。 
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩的栖息地因森林砍伐而急剧减少。 
@@ -3546,11 +3540,6 @@
 瀚	han -> hàn	accent manquant	 浩瀚 
 星	xing -> xīng	accent manquant (星系)	 星系 
 系	xi -> xì	accent manquant (星系)	 星系 
-多	duo -> duō	accent manquant (多大)	宇宙有多大，
-大	da -> dà	accent manquant (多大)	宇宙有多大，
-宇	yu -> yǔ	accent manquant	宇宙有多大，
-宙	zhou -> zhòu	accent manquant	宇宙有多大，
-有	you -> yǒu	accent manquant	宇宙有多大，
 个	ge -> gè	accent manquant (一个)	这个沉浸式展览让参观者仿佛进入了另一个世界。 
 书	shu -> shū	accent manquant	书圣 
 圣	sheng -> shèng	accent manquant	书圣 
@@ -3792,6 +3781,7 @@
 子	zi -> zǐ	accent manquant (电子)	眼科医生建议长期使用电子设备的人，每隔一段时间就要让
 个	ge -> gè	accent manquant (一个)	中医给我开了一个传统药方。 
 子	zi -> zǐ	accent manquant (电子)	电子邮箱 
+道	dao -> dào	accent manquant (知道)	这件事搞得乱七八糟的，没人知道怎么办 
 务	wu -> wù	accent manquant (任务)	任务
 子	zi -> zǐ	accent manquant (分子生物学)	这次实验奠定了现代分子生物学发展的重要理论基础。 
 子	zi -> zǐ	accent manquant (孙子)	孙子兵法
@@ -3820,6 +3810,7 @@
 李	li -> lǐ	accent manquant (行李)	行李托运
 李	li -> lǐ	accent manquant (行李)	行李超重了，需要交超重费  
 子	zi -> zǐ	accent manquant (弟子)	"作为唯一继承衣钵的弟子，她肩负着传承和发扬师门武学
+看	kan -> kàn	accent manquant (看看)	我感冒了，去诊所看看吧。 
 服	fu -> fú	accent manquant (衣服)	我把这件衣服加入购物车了。 
 子	zi -> zǐ	accent manquant (电子)	 电子眼 (
 李	li -> lǐ	accent manquant (行李)	随身行李
@@ -3916,13 +3907,6 @@
 终	zhong -> zhōng	accent manquant	 终乃成 
 乃	nai -> nǎi	accent manquant	 终乃成 
 成	cheng -> chéng	accent manquant	 终乃成 
-失	shi -> shī	accent manquant	失败乃成功之母，
-败	bai -> bài	accent manquant	失败乃成功之母，
-乃	nai -> nǎi	accent manquant	失败乃成功之母，
-成	cheng -> chéng	accent manquant	失败乃成功之母，
-功	gong -> gōng	accent manquant	失败乃成功之母，
-之	zhi -> zhī	accent manquant	失败乃成功之母，
-母	mu -> mǔ	accent manquant	失败乃成功之母，
 义	yi -> yì	accent manquant	义气 
 气	qi -> qì	accent manquant	义气 
 道	dao -> dào	accent manquant	 道义 
@@ -4064,18 +4048,9 @@
 毛	mao -> máo	accent manquant	 五彩羽毛 
 瑞	rui -> ruì	accent manquant	 瑞鸟 
 鸟	niao -> niǎo	accent manquant	 瑞鸟 
-见	jian -> jiàn	accent manquant (见到)	婚礼上常见到龙凤图案，
-到	dao -> dào	accent manquant (见到)	婚礼上常见到龙凤图案，
-婚	hun -> hūn	accent manquant	婚礼上常见到龙凤图案，
-礼	li -> lǐ	accent manquant	婚礼上常见到龙凤图案，
-上	shang -> shàng	accent manquant	婚礼上常见到龙凤图案，
-常	chang -> cháng	accent manquant	婚礼上常见到龙凤图案，
-龙	long -> lóng	accent manquant	婚礼上常见到龙凤图案，
-凤	feng -> fèng	accent manquant	婚礼上常见到龙凤图案，
-图	tu -> tú	accent manquant	婚礼上常见到龙凤图案，
-案	an -> àn	accent manquant	婚礼上常见到龙凤图案，
 夫	fu -> fū	accent manquant (功夫片)	功夫片
 子	zi -> zǐ	accent manquant (老子)	 (老子), 
+道	dao -> dào	accent manquant (知道)	卧槽，这个消息太突然了，我不知道该怎么反应 
 系	xi -> xì	accent manquant (关系)	双边关系
 司	si -> sī	accent manquant	司马迁 
 马	ma -> mǎ	accent manquant	司马迁 
@@ -4121,13 +4096,6 @@
 雄	xiong -> xióng	accent manquant	 英雄 
 弓	gong -> gōng	accent manquant	 弓箭 
 箭	jian -> jiàn	accent manquant	 弓箭 
-后	Hou -> Hòu	accent manquant	后羿射下九个太阳，
-羿	yi -> yì	accent manquant	后羿射下九个太阳，
-射	she -> shè	accent manquant	后羿射下九个太阳，
-下	xia -> xià	accent manquant	后羿射下九个太阳，
-九	jiu -> jiǔ	accent manquant	后羿射下九个太阳，
-太	tai -> tài	accent manquant	后羿射下九个太阳，
-阳	yang -> yáng	accent manquant	后羿射下九个太阳，
 悲	bei -> bēi	accent manquant	悲哉 
 哉	zai -> zāi	accent manquant	悲哉 
 善	shan -> shàn	accent manquant	 善哉 
@@ -4352,16 +4320,6 @@
 四	si -> sì	accent manquant (四合院)	 四合院 
 合	he -> hé	accent manquant (四合院)	 四合院 
 院	yuan -> yuàn	accent manquant (四合院)	 四合院 
-四	si -> sì	accent manquant (四合院)	四合院门口常设有影壁，
-合	he -> hé	accent manquant (四合院)	四合院门口常设有影壁，
-院	yuan -> yuàn	accent manquant (四合院)	四合院门口常设有影壁，
-门	men -> mén	accent manquant	四合院门口常设有影壁，
-口	kou -> kǒu	accent manquant	四合院门口常设有影壁，
-常	chang -> cháng	accent manquant	四合院门口常设有影壁，
-设	she -> shè	accent manquant	四合院门口常设有影壁，
-有	you -> yǒu	accent manquant	四合院门口常设有影壁，
-影	ying -> yǐng	accent manquant	四合院门口常设有影壁，
-壁	bi -> bì	accent manquant	四合院门口常设有影壁，
 炒	chao -> chǎo	accent manquant	炒饭 
 饭	fan -> fàn	accent manquant	炒饭 
 隔	ge -> gé	accent manquant	 隔夜饭 
@@ -4417,9 +4375,6 @@
 购	gou -> gòu	accent manquant	 购买力 
 买	mai -> mǎi	accent manquant	 购买力 
 力	li -> lì	accent manquant	 购买力 
-近	jin -> jìn	accent manquant	近年来，
-年	nian -> nián	accent manquant	近年来，
-来	lai -> lái	accent manquant	近年来，
 子	zi -> zǐ	accent manquant (电子)	(电子 
 子	zi -> zǐ	accent manquant (原子)	"水是由两个氢原子和一个氧原子组成的化合物，化学式写
 子	zi -> zǐ	accent manquant (原子)	"水是由两个氢原子和一个氧原子组成的化合物，化学式写
@@ -4737,16 +4692,6 @@
 武	wu -> wǔ	accent manquant (武当山)	 武当山 
 当	dang -> dāng	accent manquant (武当山)	 武当山 
 山	shan -> shān	accent manquant (武当山)	 武当山 
-道	dao -> dào	accent manquant (道教)	玄武是道教中重要的神灵，
-教	jiao -> jiào	accent manquant (道教)	玄武是道教中重要的神灵，
-重	zhong -> zhòng	accent manquant (重要)	玄武是道教中重要的神灵，
-要	yao -> yào	accent manquant (重要)	玄武是道教中重要的神灵，
-玄	Xuan -> Xuán	accent manquant	玄武是道教中重要的神灵，
-武	wu -> wǔ	accent manquant	玄武是道教中重要的神灵，
-是	shi -> shì	accent manquant	玄武是道教中重要的神灵，
-中	zhong -> zhōng	accent manquant	玄武是道教中重要的神灵，
-神	shen -> shén	accent manquant	玄武是道教中重要的神灵，
-灵	ling -> líng	accent manquant	玄武是道教中重要的神灵，
 天	tian -> tiān	accent manquant	天宫 
 宫	gong -> gōng	accent manquant	天宫 
 三	san -> sān	accent manquant	 三界 
@@ -5213,12 +5158,6 @@
 独	du -> dú	accent manquant (独角)	 独角兽 
 角	jiao -> jiǎo	accent manquant (独角)	 独角兽 
 兽	shou -> shòu	accent manquant	 独角兽 
-麒	qi -> qí	accent manquant	麒麟象征祥瑞，
-麟	lin -> lín	accent manquant	麒麟象征祥瑞，
-象	xiang -> xiàng	accent manquant	麒麟象征祥瑞，
-征	zheng -> zhēng	accent manquant	麒麟象征祥瑞，
-祥	xiang -> xiáng	accent manquant	麒麟象征祥瑞，
-瑞	rui -> ruì	accent manquant	麒麟象征祥瑞，
 雅	ya -> yǎ	accent manquant	雅 
 言	yan -> yán	accent manquant	 言 
 雅	ya -> yǎ	accent manquant (雅俗共赏)	 雅俗共赏 
@@ -5244,7 +5183,7 @@
 雅	ya -> yǎ	accent manquant	孔子诵读诗书时使用雅言。 
 言	yan -> yán	accent manquant	孔子诵读诗书时使用雅言。 
 
-##### ton neutre (2733 premiers cas)
+##### ton neutre (2737 premiers cas)
 欢	huān -> huan	ton neutre (喜欢)	我也喜欢吃饺子。
 道	dào -> dao	ton neutre (知道)	她也不知道。
 道	dào -> dao	ton neutre (知道)	连小孩都知道。
@@ -5966,6 +5905,7 @@
 服	fú -> fu	ton neutre (衣服)	她喜欢深色的衣服。 
 欢	huān -> huan	ton neutre (喜欢)	他下班后喜欢玩手机游戏放松一下。 
 思	sī -> si	ton neutre (意思)	知足常乐是中国传统智慧，意思是对自己所拥有的感到满意
+亮	liàng -> liang	ton neutre (漂亮)	生日快乐，越来越漂亮 
 服	fú -> fu	ton neutre (衣服)	在中国，参加葬礼要穿白色或素色衣服，而不是像西方那样
 奶	nǎi -> nai	ton neutre (奶奶)	 奶奶 
 息	xī -> xi	ton neutre (消息)	"秒回"是现代恋爱文化中的重要指标，很多人认为回复消
@@ -6792,13 +6732,14 @@
 欢	huān -> huan	ton neutre (喜欢)	早饭我喜欢吃鸡蛋。 
 系	xì -> xi	ton neutre (关系)	中欧关系
 系	xì -> xi	ton neutre (关系)	中欧关系在经贸合作与价值观分歧间寻找平衡 
+服	fú -> fu	ton neutre (舒服)	他出门就听到乌鸦叫，心里有点不舒服。 
+道	dào -> dao	ton neutre (知道)	去你的，你根本不知道发生了什么。 
 欢	huān -> huan	ton neutre (喜欢)	春节时，许多老年人喜欢穿唐装。 
 方	fāng -> fang	ton neutre (地方)	地方政府债务
 方	fāng -> fang	ton neutre (地方)	地方政府债务问题是中国金融体系的重大隐患 
 李	lǐ -> li	ton neutre (行李)	廉价航空虽然票价低，但行李和餐饮都要额外收费。 
 欢	huān -> huan	ton neutre (喜欢)	他很喜欢周末去泡吧 
 亮	liàng -> liang	ton neutre (漂亮)	红烧肉要加一勺老抽才能让颜色漂亮。 
-诉	sù -> su	ton neutre (告诉)	我告诉你这些坑，
 西	xī -> xi	ton neutre (东西)	他出去买东西了，一会儿就回来。 
 妈	mā -> ma	ton neutre (妈妈)	妈妈不准去网吧。 
 服	fú -> fu	ton neutre (衣服)	这件衣服不够大。
@@ -7055,6 +6996,7 @@
 欢	huān -> huan	ton neutre (喜欢)	"她特别喜欢这位主的内容，每次看完视频都会主动三连支
 得	dé -> de	ton neutre (觉得)	"如果觉得这个视频对你有帮助，别忘了三连一下，这是对
 得	dé -> de	ton neutre (觉得)	"有些粉丝觉得中配少了原版的味道，但其实近年来中配的
+道	dào -> dao	ton neutre (知道)	这件事搞得乱七八糟的，没人知道怎么办 
 得	dé -> de	ton neutre (觉得)	"后期剧情里，这个角色的行为跟最初的人设完全不符，很
 得	dé -> de	ton neutre (觉得)	"她养了一只仓鼠当宠物，每天看着它在转轮上跑来跑去，
 欢	huān -> huan	ton neutre (喜欢)	"仓鼠喜欢把食物藏在脸颊里带回窝里储存，这是它们的天
@@ -7290,6 +7232,7 @@
 李	lǐ -> li	ton neutre (行李)	行李托运
 李	lǐ -> li	ton neutre (行李)	行李超重了，需要交超重费  
 生	shēng -> sheng	ton neutre (学生)	西红柿炒鸡蛋可能是中国学生最爱的家常菜，简单好学，营
+看	kàn -> kan	ton neutre (看看)	我感冒了，去诊所看看吧。 
 欢	huān -> huan	ton neutre (喜欢)	说实话，我不喜欢 
 得	dé -> de	ton neutre (觉得)	说实话，我觉得这个电影不太好看。
 欢	huān -> huan	ton neutre (喜欢)	她从小就喜欢读书，家里有几百本书。 
@@ -7368,6 +7311,7 @@
 生	shēng -> sheng	ton neutre (学生)	高考是中国学生最重要的考试，直接决定能上哪所大学。 
 上	shàng -> shang	ton neutre (早上)	他每天早上用电动剃须刀刮胡子。 
 系	xì -> xi	ton neutre (关系)	南海问题是中国与周边国家关系的敏感议题。 
+道	dào -> dao	ton neutre (知道)	卧槽，这个消息太突然了，我不知道该怎么反应 
 欢	huān -> huan	ton neutre (喜欢)	他喜欢穿宽松的卫衣和运动裤。 
 生	shēng -> sheng	ton neutre (学生)	学校卫衣是很多学生的最爱。 
 上	shàng -> shang	ton neutre (早上)	 请帮我明天早上七点叫醒我 
@@ -7970,7 +7914,6 @@
 欢	huān -> huan	ton neutre (喜欢)	她喜欢薰衣草香气，房间里摆满了薰衣草香包。 
 友	yǒu -> you	ton neutre (朋友)	这个贱人出卖了朋友。 
 系	xì -> xi	ton neutre (关系)	 (关系) 
-明	míng -> ming	ton neutre (聪明)	他比我聪明，
 系	xì -> xi	ton neutre (关系)	 关系 (
 生	shēng -> sheng	ton neutre (学生)	应试教育导致学生压力过大。 
 系	xì -> xi	ton neutre (关系)	领海争端是国际关系中的敏感议题。 
@@ -7979,7 +7922,7 @@
 生	shēng -> sheng	ton neutre (先生)	先生已逝，高山仰止，景行行止，学界同仁无不倍感惋惜。
 腐	fǔ -> fu	ton neutre (豆腐)	豆腐先走一下油，外皮会更香脆。 
 
-##### sandhi 一 (2665 premiers cas)
+##### sandhi 一 (2663 premiers cas)
 一	yī -> yì	sandhi 一	她一回家就睡觉。
 一	yī -> yí	sandhi 一	他一看到她就笑了。
 一	yī -> yì	sandhi 一	一说话她就紧张。
@@ -9195,12 +9138,12 @@
 一	yī -> yì	sandhi 一	开会时不方便说话，我给他发了一条消息说晚点见面。 
 一	yī -> yí	sandhi 一	"主角拜入了一位武功高强的师傅门下，从此开始了艰苦的
 一	yī -> yí	sandhi 一	"师傅虽然平时对弟子要求严格，但是关键时刻总是会不顾
-一	yī -> yì	sandhi 一	请给我开一张发票，
 一	yī -> yí	sandhi 一	"葱烧海参是一道经典的鲁菜，海参本身没有什么味道，全
 一	yī -> yí	sandhi 一	昨晚一栋公寓楼发生了严重火灾。 
 一	yī -> yì	sandhi 一	一杯酒
 一	yī -> yì	sandhi 一	他点了一杯酒。 
 一	yī -> yì	sandhi 一	再来一杯酒！
+一	yī -> yí	sandhi 一	地铁里没有信号，等一会儿再回你 
 一	yī -> yì	sandhi 一	她租了一间小公寓住。 
 一	yī -> yì	sandhi 一	"电脑运行越来越慢，可能是内存不足，建议加装一条内存
 一	yī -> yì	sandhi 一	"主角的法力在经历了一场生死劫之后，竟然意外得到了大
@@ -9261,7 +9204,6 @@
 一	yī -> yí	sandhi 一	. 仅一瞬间 
 一	yī -> yí	sandhi 一	 一刹那 (
 一	yī -> yì	sandhi 一	 一眨眼 (
-一	yī -> yí	sandhi 一	一瞬间，
 一	yī -> yí	sandhi 一	那一瞬间的决定改变了一切  
 一	yī -> yí	sandhi 一	那一瞬间的决定改变了一切  
 一	yī -> yì	sandhi 一	每天早高峰，无数上班族涌入地铁，开始新的一天。 
@@ -9274,7 +9216,6 @@
 一	yī -> yí	sandhi 一	这部电影改编自一部畅销小说，剧本非常精彩。 
 一	yī -> yì	sandhi 一	"剧本杀"是近年流行的角色扮演推理游戏：一群人按剧本
 一	yī -> yí	sandhi 一	"博物馆里展出了一块完整的恐龙化石，吸引了无数家长带
-一	yī -> yì	sandhi 一	跑步一小时能燃烧
 一	yī -> yí	sandhi 一	"她察觉到了敌人埋伏的意图，于是提前布置好队友，成功
 一	yī -> yí	sandhi 一	"考古队在山脚下意外发现了一座保存完好的古墓，里面出
 一	yī -> yì	sandhi 一	"大学宿舍楼下有一间台球室，很多学生晚上喜欢去那里打
@@ -9885,6 +9826,7 @@
 一	yī -> yì	sandhi 一	 三个月、六个月、一年、三年、五年 
 一	yī -> yì	sandhi 一	科学家认为一颗巨大的小行星撞击导致了恐龙灭绝。 
 一	yī -> yì	sandhi 一	火星和木星之间有一条小行星带。 
+一	yī -> yì	sandhi 一	中国人吃饭时经常抢着付钱，这是一种礼仪文化。 
 一	yī -> yì	sandhi 一	"再来一碗？" "不了不了，我已经吃饱了，谢谢！" 
 一	yī -> yì	sandhi 一	一举两得
 一	yī -> yì	sandhi 一	 骑自行车上班，一举两得 
@@ -9953,7 +9895,7 @@
 一	yī -> yí	sandhi 一	量词：辆 — 一辆公共汽车
 一	yī -> yí	sandhi 一	连续几天熬夜，身体有点吃不消了，得好好休息一下。 
 一	yī -> yì	sandhi 一	想和你对战一局，你敢接受挑战吗？ 
-一	yī -> yì	sandhi 一	她开了一家电商店铺，
+一	yī -> yì	sandhi 一	她开了一家电商店铺，月入过万 
 一	yī -> yí	sandhi 一	"她操作的角色火力惊人，三两下就把敌方的防御塔摧毁了
 一	yī -> yì	sandhi 一	 不知不觉地，一年过去了 
 一	yī -> yí	sandhi 一	中国文化中，受人恩惠往往意味着欠下一份人情债，需要在
@@ -10300,7 +10242,6 @@
 一	yī -> yì	sandhi 一	他是一名电子音乐制作人。 
 一	yī -> yí	sandhi 一	这条短视频在网上病毒式传播，两天内获得了一亿次播放。
 一	yī -> yì	sandhi 一	他刚才秀了一波操作，全队都惊了。 
-一	yī -> yì	sandhi 一	你这么一说，
 一	yī -> yí	sandhi 一	 押一付三 
 一	yī -> yí	sandhi 一	租这套公寓需要支付租金押金，共押一付三。 
 一	yī -> yì	sandhi 一	她穿了一条黑色紧身裤配白色运动鞋。 
@@ -10914,7 +10855,6 @@
 不	bù -> bú	sandhi 不	他每天坚持练习，终于成功了。功夫不负有心人！ 
 不	bù -> bú	sandhi 不	功夫不负有心人，只要努力，就一定能成功。 
 不	bù -> bú	sandhi 不	"只有坚持不懈，才能学好一门语言，没有捷径可走。" 
-不	bù -> bú	sandhi 不	无线网连不上，
 不	bù -> bú	sandhi 不	你去哪里理发，这家理发店不错  
 不	bù -> bú	sandhi 不	"他很帅，但太花心了，换女朋友跟换衣服一样，不靠谱。
 不	bù -> bú	sandhi 不	花心不代表不爱，但它破坏了信任，而信任是感情的基础。
@@ -11219,6 +11159,7 @@
 不	bù -> bú	sandhi 不	病毒在传播过程中不断变异，产生新的变异株，可能影响疫
 不	bù -> bú	sandhi 不	 不愿意 (
 不	bù -> bú	sandhi 不	"只要你坚持学习，功夫不负有心人，水到渠成，成功自然
+不	bù -> bú	sandhi 不	近年来，大城市的物价不断上涨，给居民生活带来了一定压
 不	bù -> bú	sandhi 不	"光说不练假把式，你要有行动力，马上去做，不要等到明
 不	bù -> bú	sandhi 不	有时候，顺其自然反而能带来意想不到的好结果。 
 不	bù -> bú	sandhi 不	和老朋友聊天就是不一样，不用解释太多，你懂的。 
@@ -11443,7 +11384,7 @@
 只	zhǐ -> zhī	只 classificateur	这只猫也太可爱了！
 只	zhǐ -> zhī	只 classificateur	"哈士奇的眼睛颜色多种多样，有蓝色、棕色，甚至两只眼
 
-##### 得 de complément (442 premiers cas)
+##### 得 de complément (441 premiers cas)
 得	dé -> de	得 de complément	她把厨房的油污擦得干干净净，连灶台缝隙里也没放过。
 得	dé -> de	得 de complément	她的膝盖疼得厉害，走楼梯都很困难。
 得	dé -> de	得 de complément	那匹马跑得飞快，比场上其他马快了好几秒。
@@ -11713,7 +11654,6 @@
 得	dé -> de	得 de complément	她从六岁开始学钢琴，现在弹得很好。 
 得	dé -> de	得 de complément	她穿着十厘米的高跟鞋走了一整天，脚痛得不行，回家第一
 得	dé -> de	得 de complément	他从小学习书法，写得一手好字。 
-得	dé -> de	得 de complément	这件事搞得乱七八糟
 得	dé -> de	得 de complément	"市面上很多所谓的"古董"其实都是现代制作的仿品，价
 得	dé -> de	得 de complément	"冬奥会上的冰壶比赛非常考验团队的策略和精准的力度控
 得	dé -> de	得 de complément	"在神仙眼中，凡人的寿命短暂得就像一瞬间，他们的悲欢

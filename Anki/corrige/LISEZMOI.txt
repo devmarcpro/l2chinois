@@ -23,9 +23,11 @@ CE QUI A CHANGE
   demandes sans mot ("觉" devient "觉 (dans 觉得)"), etiquettes de nature fausses ("classificateur" sur 电脑, "verbe" sur 朋友),
   pinyin de mots empruntes ou d'annees coupe par des crochets mal places (ex. annee 2060 tronquee en "206").
   Le detail : .outils/anki/corrections_contenu.json.
-- 2 856 corrections de contenu appliquees sur 2 994 relevees ; les 138 non appliquees sont pour l'essentiel deja
-  corrigees par ailleurs dans le pipeline (donc sans consequence), sauf 1 carte d'exercice ou la correction a ete
-  refusee par securite (elle aurait casse la structure HTML de la carte) : le contenu d'origine, valide, est garde.
+- Corrections non appliquees : chacune a ete reverifiee sur le contenu final des cartes. Presque toutes sont
+  deja corrigees par ailleurs dans le pipeline (donc sans consequence). Celles qui laissaient une vraie faute ont
+  ete refaites a la main (.outils/anki/corrections_manuelles.json) : 还钱 lu huán, 感动 (太让人感动了), exercices
+  de liaison, de negation et de particule dont la reponse ou la phrase du verso ne collait pas a l'enonce.
+  Une consigne de relecteur ("(supprimer cette ligne...)") s'etait retrouvee recopiee dans 5 phrases : retiree.
 - Quatre defauts du generateur d'origine repares partout, pas seulement sur les cartes signalees par la relecture :
   mots empruntes coupes en plusieurs balises sans espace (App, LOL, cosplay...), rubis a deux caracteres pour
   une seule lecture (ex. "，最" colle a "zuì", qui faisait deraper le pinyin affiche), lecture de syllabe (<rt>)
@@ -33,10 +35,20 @@ CE QUI A CHANGE
   forme traditionnelle carrement absente (26 fiches, remplacee au besoin par du pinyin entre crochets illisible).
   Un bug du convertisseur de pinyin qui cassait les syllabes en -ue (xué, què, jué, yuè -> "xu"+"é") a aussi
   ete corrige (12 occurrences).
+- Vocabulaire : 107 phrases d'exemple dont l'annotation pinyin s'arretait a la premiere virgule
+  (坏了，水管漏水不得了…) sont entierement reannotees ; un caractere perdu dans l'annotation d'une virgule est
+  recupere (纵使跌倒，也要爬起来) et le tiret avant la traduction remis. 卷 (au sens de 内卷) s'ecrit 捲 en traditionnel.
+- Phrases : 24 phrases contenant un mot latin ou un nombre (offer, B站, 4K, DNA, 1978, 20%) avaient une ligne de
+  pinyin jamais relue et abimee (mots latins et chiffres perdus, "19世纪" lu "1 shì jì", sandhi de 一 absent,
+  长达 lu zhǎng) : refaites. Mise en page uniformisee : 81 phrases repetaient la phrase chinoise ou avaient une
+  ligne vide avant la traduction. 不知为不知 : 为 lu wéi.
 - Verifie avec .outils/anki/simuler_import.py : les 6 fichiers s'importent sans probleme (aucun champ manquant,
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
+- Exercices de caracteres non simplifies : choisis parmi les mots HSK 1 a 3 OFFICIELS (et non plus d'apres les
+  anciens niveaux faux) ; un mot dont la forme traditionnelle existe aussi en simplifie (著 : 着 ou 著 ?) n'est
+  plus demande, la question aurait deux reponses.
 - Fiches de grammaire : lignes de pinyin en texte brut refaites et colorees ; 7 fiches en double signalees.
   38 exemples avaient une ligne de pinyin carrement tronquee dans la source (arretee en cours de phrase par
   des points de suspension, ex. "zhǐ yào nǐ xǐ huān，jiù…" pour une phrase de 9 caracteres) : entierement refaites.
@@ -57,8 +69,15 @@ CE QUI A CHANGE
   moitie du paquet, rangee du plus simple au plus difficile d'apres le niveau des caracteres.
   Etiquettes : HSK3.0::1 ... HSK3.0::6, HSK3.0::7-9, HSK3.0::hors_liste (les anciennes HSK1...HSK9 et hors_HSK
   ont ete retirees du fichier).
-- Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
-  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK.
+- Phrases et exercices : les niveaux d'origine (etiquettes Phrases_HSK1...9) ne valaient pas mieux que ceux du
+  vocabulaire (une citation classique de Fan Zhongyan en HSK 1). Nouveau niveau = celui ou l'on connait TOUS les
+  mots de la phrase d'apres la liste officielle (noms propres et nombres mis a part). Il suffit d'un mot au-dela
+  du HSK 6 pour qu'une phrase passe en HSK 7-9 : c'est le cas de pres de la moitie des phrases. Etiquettes HSK3.0::n.
+- Grammaire, lecture, ecoute : le niveau est ecrit sur la carte (recto) et reste celui-la ; etiquette HSK::n.
+  Une fourchette ("HSK 3-4") compte pour son premier niveau. Ecoute notee 初级 / 初中级 / 中级 / 高级 :
+  HSK 2 / 3 / 4 / 5, d'apres la difficulte mesuree de ces textes comparee a ceux notes en HSK.
+- LES SIX PAQUETS sont decoupes en sous-paquets par niveau (colonne "deck" du fichier) :
+  Chinois::<Paquet>::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9 (et 8 · Hors HSK pour le vocabulaire).
   Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
 - Chaque fichier est range du plus facile au plus difficile.
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
@@ -67,8 +86,9 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Anki reconnait une note par son premier champ. Quand la faute etait dans le recto (l'enonce d'un exercice, une
   phrase), la version corrigee est une NOUVELLE note (etiquette corrige_2026) et l'ancienne est conservee avec
   un verso "Carte remplacee" et l'etiquette a_supprimer. Meme chose pour les fiches de grammaire en double.
-  Cela concerne 408 exercices, 11 fiches de grammaire, 8 phrases et 4 textes d'ecoute. Aucune carte d'origine n'est
-  perdue : le pipeline garde toute note dont le recto a change, et simuler_import.py le verifie.
+  Cela concerne 477 exercices, 11 fiches de grammaire, 8 phrases et 4 textes d'ecoute. Aucune carte n'est perdue :
+  le pipeline garde toute note dont le recto a change ou qui a ete retiree, qu'elle vienne des fichiers d'origine
+  ou d'une version corrigee deja publiee (verso "Carte remplacee ou retiree"), et simuler_import.py le verifie.
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
 
 IMPORTER DANS ANKI (ordinateur)
@@ -78,21 +98,24 @@ IMPORTER DANS ANKI (ordinateur)
    "Notes existantes" = Mettre a jour ; correspondance sur le premier champ.
    Le premier champ des notes existantes n'a pas ete touche : Anki met donc tes cartes a jour
    sans toucher a ta progression, et cree seulement les notes ajoutees.
-   Pour le vocabulaire, le paquet est lu dans le fichier (colonne deck) : ne pas le forcer dans la fenetre d'import.
+   Le sous-paquet est lu dans le fichier (colonne deck) : ne pas forcer le paquet dans la fenetre d'import.
 4. Recommencer pour les six fichiers.
 
-SOUS-PAQUETS DU VOCABULAIRE
+SOUS-PAQUETS PAR NIVEAU
 - Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
   seules les notes nouvelles vont directement dans leur sous-paquet.
-- Pour ranger les anciennes (apres l'import, qui met les etiquettes a jour) : Parcourir > chercher
-  tag:HSK3.0::1   > tout selectionner > Cartes > Changer de paquet > Chinois::Vocabulaire::1 · HSK 1.
-  Puis tag:HSK3.0::2 -> 2 · HSK 2, ... tag:HSK3.0::7-9 -> 7 · HSK 7-9, tag:HSK3.0::hors_liste -> 8 · Hors HSK.
-- Si les anciennes etiquettes HSK1...HSK9 ou hors_HSK sont restees sur certaines notes : Parcourir > chercher
-  deck:Chinois::Vocabulaire > tout selectionner > Notes > Supprimer des etiquettes >
-  HSK1 HSK2 HSK3 HSK4 HSK5 HSK6 HSK7 HSK8 HSK9 hors_HSK
+- Le plus simple, pour un paquet ou tu n'as encore rien revise : le supprimer et importer le fichier corrige.
+- Sinon, pour ranger les anciennes (apres l'import, qui met les etiquettes a jour), paquet par paquet :
+  Parcourir > chercher   deck:Chinois::Vocabulaire tag:HSK3.0::1   > tout selectionner > Cartes >
+  Changer de paquet > Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK3.0::2 -> 2 · HSK 2, ...
+  tag:HSK3.0::7-9 -> 7 · HSK 7-9, tag:HSK3.0::hors_liste -> 8 · Hors HSK.
+  Meme chose pour Chinois::Phrases et Chinois::Exercices (etiquettes HSK3.0::n), et pour Chinois::Grammaire,
+  Chinois::Lecture, Chinois::Ecoute avec les etiquettes HSK::1, HSK::2...
+- Si d'anciennes etiquettes de niveau sont restees sur certaines notes : Parcourir > chercher   deck:Chinois
+  > tout selectionner > Notes > Supprimer des etiquettes > HSK1 HSK2 HSK3 HSK4 HSK5 HSK6 HSK7 HSK8 HSK9 hors_HSK
+  Phrases_HSK1 Phrases_HSK2 Phrases_HSK3 Phrases_HSK4 Phrases_HSK5 Phrases_HSK6 Phrases_HSK7 Phrases_HSK8 Phrases_HSK9
 - Si un ancien import a cree le sous-paquet "0 · Cours L2" : chercher   "deck:Chinois::Vocabulaire::0 · Cours L2"
   > tout selectionner > Cartes > Changer de paquet > 8 · Hors HSK, puis supprimer le sous-paquet vide.
-- Autre solution si tu n'as encore rien revise dans le vocabulaire : supprimer le paquet et importer le fichier corrige.
 
 L'ORDRE DES NOUVELLES CARTES
 - Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc

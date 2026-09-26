@@ -103,21 +103,37 @@ SOUS_PAQUETS = {1: "1 · HSK 1", 2: "2 · HSK 2", 3: "3 · HSK 3", 4: "4 · HSK 
                 7: "7 · HSK 7-9", 8: "7 · HSK 7-9", 9: "7 · HSK 7-9"}
 
 
-def sous_paquet(etiquettes: str) -> str:
-    """Nom du sous-paquet de vocabulaire d'après le niveau HSK de la note."""
-    niv = niveau_hsk(etiquettes)
-    if niv:
-        return "Chinois::Vocabulaire::" + SOUS_PAQUETS[niv]
-    return "Chinois::Vocabulaire::8 · Hors HSK"
+# niveau écrit sur les cartes d'écoute qui n'ont pas de niveau HSK : repéré d'après la difficulté mesurée des textes
+# (les 初级 se lisent comme les textes marqués HSK 2, les 高级 un cran au-dessus des HSK 4)
+LIBELLE_HSK = {"初中级": 3, "中高级": 5, "初级": 2, "中级": 4, "高级": 5}
 
 
-def ecrire(nom, rangs, paquet=None):
+def niveau_carte(paquet: str, r) -> int:
+    """Niveau HSK qui range la note dans son sous-paquet. Vocabulaire, phrases, exercices : niveau HSK 3.0 officiel
+    (étiquette HSK3.0::n) ; grammaire, lecture, écoute : niveau écrit sur la carte (le premier d'une fourchette)."""
+    if paquet in ("Vocabulaire", "Phrases", "Exercices"):
+        return niveau_hsk(r[3])
+    from corrections_contenu import NIVEAUX
+    if (paquet, r[0]) in NIVEAUX:
+        return int(NIVEAUX[(paquet, r[0])])
+    t = html.unescape(re.sub(r"<rt[^>]*>[^<]*</rt>|<[^>]+>", " ", r[0]))[:300]
+    m = re.search(r"HSK ?(\d)", t)
+    if m:
+        return int(m.group(1))
+    return next((v for k, v in LIBELLE_HSK.items() if k in t), None)
+
+
+def sous_paquet(paquet: str, r) -> str:
+    """Nom du sous-paquet d'après le niveau HSK de la note."""
+    niv = niveau_carte(paquet, r)
+    return f"Chinois::{paquet}::" + (SOUS_PAQUETS[niv] if niv else "8 · Hors HSK")
+
+
+def ecrire(nom, rangs, paquet):
     SORTIE.mkdir(exist_ok=True)
     with open(SORTIE / nom, "w", encoding="utf-8", newline="") as f:
-        f.write("#separator:tab\n#html:true\n#tags column:4\n")
-        if paquet == "Vocabulaire":
-            f.write("#deck column:5\n")
-            rangs = [r[:4] + [sous_paquet(r[3])] for r in rangs]
+        f.write("#separator:tab\n#html:true\n#tags column:4\n#deck column:5\n")
+        rangs = [r[:4] + [sous_paquet(paquet, r)] for r in rangs]
         csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
 
 
@@ -185,9 +201,15 @@ def segment_pinyin(verso: str):
     return None
 
 
+TRAD_CARTE = {("Vocabulaire", "卷"): "捲"}  # caractère seul à plusieurs formes : celle du sens de la carte (卷 = 内卷)
+
+
 def corriger_trad(recto: str, verso: str, paquet: str) -> str:
     """Refait la forme traditionnelle à partir du recto, si l'ancienne correspondait bien au recto."""
     simple = html.unescape(re.sub(r"<[^>]+>", "", recto)).strip()
+    if (paquet, simple) in TRAD_CARTE:
+        stats[(paquet, "forme traditionnelle imposée (caractère à plusieurs formes)")] += 1
+        return TRAD.sub(lambda m: m.group(1) + TRAD_CARTE[(paquet, simple)] + m.group(3), verso, count=1)
 
     def sub(m):
         if CJK.findall(VERS_SIMP.convert(m.group(2))) != CJK.findall(VERS_SIMP.convert(simple)):
@@ -221,6 +243,42 @@ def corriger_nombres_tronques(segment: str, recto_nu: str, paquet: str) -> str:
             return m.group(0).replace(f">{v}<", f">{cible}<")
         return m.group(0)
     return NOMBRE_SPAN.sub(sub, segment)
+
+
+LATIN_OU_NOMBRE = re.compile(r"[A-Za-z0-9][A-Za-z0-9%+.\-]*")
+
+
+def ligne_pinyin_mixte(recto_nu: str, segment: str) -> str:
+    """Refait la ligne de pinyin d'une phrase qui contient des mots latins ou des nombres (offer, B站, 4K, 1978) :
+    le générateur d'origine en perdait ou en coupait une partie, et la ligne n'était pas relue (les syllabes ne
+    s'alignaient plus sur les caractères). Chaque mot latin ou nombre devient une syllabe à part, sans ton."""
+    from contenu_cours import lire_phrase
+    it = iter(lire_phrase(recto_nu))
+    morceaux, i = [], 0
+    while i < len(recto_nu):
+        c = recto_nu[i]
+        m = LATIN_OU_NOMBRE.match(recto_nu, i)
+        if CJK.match(c):
+            morceaux.append(("syl", next(it)))
+            i += 1
+        elif m:
+            morceaux.append(("latin", m.group(0)))
+            i = m.end()
+        else:
+            if not c.isspace():
+                morceaux.append(("ponct", c))
+            i += 1
+    sortie = ""
+    for genre, t in morceaux:
+        if genre == "ponct":
+            sortie += t
+            continue
+        balise = f'<span class="t{ton(t)}">{t}</span>' if genre == "syl" else f'<span class="t0">{t}</span>'
+        sortie += ("" if not sortie or sortie[-1] in "，。！？、；：“”《》（）\"" else " ") + balise
+    premier = SPAN.search(segment)
+    if premier and premier.group(2)[:1].isupper():  # la phrase commençait par une majuscule : on la garde
+        sortie = SPAN.sub(lambda s: f'<span class="t{s.group(1)}">{s.group(2)[:1].upper() + s.group(2)[1:]}</span>', sortie, count=1)
+    return sortie
 
 
 def corriger_mots_latins_casses(segment: str, paquet: str) -> str:
@@ -274,11 +332,39 @@ def corriger_ruby_sans_classe(champ: str, paquet: str) -> str:
     return RUBY_SANS_CLASSE.sub(sub, champ)
 
 
+RUBY_UN = re.compile(r'<ruby>(.)<rt class="t\d">([^<]*)</rt></ruby>')
+SEPARATEUR_TRADUCTION = re.compile(r" - |\s{2,}(?=[A-Za-zÀ-ÿ\"«(])")
+
+
+def reparer_exemples_interrompus(verso: str, paquet: str) -> str:
+    """Défaut du générateur d'origine (Vocabulaire) : dans une phrase d'exemple, l'annotation pinyin s'arrête souvent
+    à la première virgule (坏(huài)了(le)，水管漏水不得了…), un caractère se retrouve parfois dans l'annotation de la
+    virgule (<ruby>，<rt>,也</rt></ruby>) et le tiret avant la traduction manque. On réannote toute la phrase."""
+    from contenu_cours import ruby
+
+    def une_ligne(ligne):
+        m = SEPARATEUR_TRADUCTION.search(ligne)
+        chinois, suite = (ligne[:m.start()], " - " + ligne[m.end():]) if m else (ligne, "")
+        if "<ruby>" not in chinois:
+            return ligne
+        perdu = any(CJK.search(l) for _, l in RUBY_UN.findall(chinois))
+        if not perdu and not re.search(r"</ruby>[^A-Za-z<]*[一-鿿]{2,}", re.sub(r"</ruby><ruby>", "", chinois)):
+            return ligne
+        texte = RUBY_UN.sub(lambda r: r.group(1) + "".join(CJK.findall(r.group(2))), chinois)
+        stats[(paquet, "phrase d'exemple réannotée (annotation interrompue)")] += 1
+        return ruby(texte) + suite
+
+    def un_bloc(b):
+        return b.group(1) + "<br>".join(une_ligne(l) for l in b.group(2).split("<br>")) + b.group(3)
+    return re.sub(r"(<b>Exemple :</b>)(.*?)(</div>)", un_bloc, verso)
+
+
 def traiter_note(paquet: str, r):
     recto, verso = r[0], r[1]
     if paquet == "Vocabulaire":
         recto, verso = corriger_ruby_multi(recto, paquet), corriger_ruby_multi(verso, paquet)
         recto, verso = corriger_ruby_sans_classe(recto, paquet), corriger_ruby_sans_classe(verso, paquet)
+        verso = reparer_exemples_interrompus(verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):
         verso = corriger_trad(recto, verso, paquet)
     if paquet in ("Phrases", "Vocabulaire"):
@@ -290,7 +376,20 @@ def traiter_note(paquet: str, r):
             if paquet == "Vocabulaire" and "..." in segment:  # structures (连…也…) : « lián... yě... » -> « lián… yě… »
                 segment = segment.replace("...", "…")
                 stats[(paquet, "points de suspension normalisés dans le pinyin")] += 1
-            verso = verso[:d] + corriger_spans(segment, recto_nu, paquet + " (entrée)") + verso[f:]
+            if (paquet == "Phrases" and LATIN_OU_NOMBRE.search(recto_nu)
+                    and len(SPAN.findall(segment)) != len(CJK.findall(recto_nu))):
+                # refaite entièrement (lectures déjà relues) : corriger_spans découperait « emo » en « e mo »
+                segment = ligne_pinyin_mixte(recto_nu, segment)
+                stats[(paquet, "ligne de pinyin refaite (mots latins ou nombres)")] += 1
+            else:
+                segment = corriger_spans(segment, recto_nu, paquet + " (entrée)")
+            verso = verso[:d] + segment + verso[f:]
+            if paquet == "Phrases":  # mise en page : la phrase simplifiée répétée, ou une ligne vide, avant la traduction
+                apres = verso[d + len(segment):]
+                m = re.match(r"<br>(?:" + re.escape(html.escape(recto_nu, quote=False)) + "|" + re.escape(recto_nu) + r")?(?=<br>[^<])", apres)
+                if m and m.end() > 0 and (apres[4:m.end()] or apres[m.end():m.end() + 8] != "<br><br>"):
+                    verso = verso[:d + len(segment)] + apres[m.end():]
+                    stats[(paquet, "ligne en trop avant la traduction retirée")] += 1
     if paquet == "Grammaire":
         def exemple(m):
             phrase, pinyin = m.group(2).strip(), m.group(4)
@@ -373,6 +472,18 @@ class Lexique:
             for c in mot:
                 self.car[c] = min(niveau, self.car.get(c, 99))
 
+    def officiel(self, texte: str) -> int:
+        """Niveau HSK 3.0 où l'on connaît tous les mots de la phrase (7 = 7-9). Noms propres et nombres ignorés ;
+        un mot absent de la liste prend le niveau de son caractère le plus difficile."""
+        import jieba.posseg as pseg
+        niveaux = []
+        for mot, nature in pseg.cut("".join(c for c in texte if CJK.match(c) or c in "，。！？、；：")):
+            if not CJK.search(mot) or nature in ("nr", "nrfg", "nrt", "ns", "nt", "nz", "m"):
+                continue
+            n = self.mot.get(mot) or self.mot.get(mot + "儿")
+            niveaux.append(n or max(self.car.get(c, 7) for c in mot if CJK.match(c)))
+        return max(niveaux, default=1)
+
     def niveau(self, texte: str) -> float:
         """Niveau estimé d'un texte : on regarde les 15 % de mots les plus difficiles."""
         import jieba
@@ -449,6 +560,27 @@ def niveaux_officiels(rangs):
             stats[("Vocabulaire", "niveau HSK 3.0 : corrigé ou attribué")] += 1
 
 
+def niveaux_phrases_exercices(paquets, lex):
+    """Phrases et exercices : les niveaux d'origine (Phrases_HSK1…9) ne suivaient pas la liste officielle
+    (une citation de Fan Zhongyan en HSK 1). Étiquette HSK3.0::n = niveau où l'on connaît tous les mots."""
+    for nom in ("Grammaire", "Lecture", "Ecoute"):  # niveau écrit sur la carte : étiquette pour ranger les notes déjà importées
+        for r in paquets[nom]:
+            n = niveau_carte(nom, r)
+            garde = [t for t in r[3].split() if not t.startswith("HSK::")]
+            r[3] = " ".join(([f"HSK::{n}"] if n else []) + garde)
+    for nom in ("Phrases", "Exercices"):
+        for r in paquets[nom]:
+            texte = r[0]
+            if "exercice_traditionnel" in r[3].split():  # recto en caractères non simplifiés : on mesure le mot simplifié
+                m = re.search(r"Réponse : ([一-鿿]+)", r[1])
+                texte = m.group(1) if m else ""
+            n = lex.officiel(html.unescape(re.sub(r"<[^>]+>", " ", texte)))
+            etiquette = "HSK3.0::" + ("7-9" if n == 7 else str(n))
+            garde = [t for t in r[3].split() if not re.fullmatch(r"Phrases_HSK\d|HSK3\.0::\S+", t)]
+            r[3] = " ".join([etiquette] + garde)
+            stats[(nom, f"niveau HSK 3.0 : {etiquette[8:]}")] += 1
+
+
 def niveau_hsk(etiquettes: str, defaut=None):
     m = re.search(r"(?<!\S)HSK3\.0::(\d)", etiquettes)
     if m:
@@ -482,10 +614,11 @@ def trier(paquet, rangs, lex: Lexique):
             i, r = ir
             genre = next((e for e in r[3].split() if e.startswith("exercice")), "")
             malus = 2 if genre in ("exercice_chengyu", "exercice_registre") else 0
+            niv = niveau_hsk(r[3], 9)
             if genre == "exercice_traditionnel":  # le recto est en caractères non simplifiés : niveau du mot simplifié
                 m = re.search(r"Réponse : ([一-鿿]+)", r[1])
-                return (round(lex.niveau(m.group(1)) if m else 3), TYPES_EXO.index(genre), i)
-            return (round(lex.niveau(texte(r)) + malus), TYPES_EXO.index(genre) if genre in TYPES_EXO else 99, i)
+                return (niv, round(lex.niveau(m.group(1)) if m else 3), TYPES_EXO.index(genre), i)
+            return (niv + malus, round(lex.niveau(texte(r)) + malus), TYPES_EXO.index(genre) if genre in TYPES_EXO else 99, i)
     else:  # Grammaire, Lecture, Ecoute : le niveau est écrit sur la carte
         def cle(ir):
             i, r = ir
@@ -504,18 +637,30 @@ def trier(paquet, rangs, lex: Lexique):
 CLASSIFICATEURS_LONGS = set("公斤 公里 公分 公顷 平方米 立方米 千克 毫米 厘米 分钟 小时 人次 架次 千米 毫升 光年".split())
 
 
-def garder_anciens_rectos(originaux, paquets):
-    """Anki reconnaît une note par son recto : une note d'origine dont le recto n'est plus dans le fichier resterait
-    dans la collection sans rien signaler. Quelle que soit l'étape qui a changé ce recto, on la garde avec
-    le verso « Carte remplacée » et l'étiquette a_supprimer (corrections_contenu le fait déjà pour ses corrections)."""
-    from corrections_contenu import REMPLACEE
-    for nom, rangs in originaux.items():
-        presents = {r[0] for r in paquets[nom]}
-        for r in rangs:
-            if r[0] not in presents:
-                presents.add(r[0])
-                paquets[nom].append([r[0], REMPLACEE, r[2], (r[3] + " a_supprimer").strip()])
-                stats[(nom, "recto modifié : ancienne carte gardée avec a_supprimer")] += 1
+def lire_publies():
+    """Les fichiers corrigés tels qu'ils ont été produits la dernière fois (ce que l'utilisateur a pu importer)."""
+    publies = {}
+    for p in SORTIE.glob("Chinois__*.txt"):
+        lignes = [l for l in p.read_text(encoding="utf-8").splitlines() if l and not l.startswith("#")]
+        publies[p.name[len("Chinois__"):-4]] = [r[:4] for r in csv.reader(lignes, delimiter="\t", quotechar='"')]
+    return publies
+
+
+def garder_anciens_rectos(originaux, publies, paquets):
+    """Anki reconnaît une note par son recto : une note dont le recto n'est plus dans le fichier resterait dans la
+    collection sans rien signaler. Quelle que soit l'étape qui a changé ou retiré ce recto, on garde la note avec
+    un verso qui le dit et l'étiquette a_supprimer. Cela vaut pour les notes d'origine comme pour celles de la
+    dernière version produite (cartes ajoutées ou déjà corrigées une première fois)."""
+    from corrections_contenu import REMPLACEE, RETIREE
+    for source, verso, famille in ((originaux, REMPLACEE, "recto d'origine"), (publies, RETIREE, "recto déjà publié")):
+        for nom, rangs in source.items():
+            presents = {r[0] for r in paquets[nom]}
+            for r in rangs:
+                if r[0] not in presents:
+                    presents.add(r[0])
+                    etiquettes = [t for t in r[3].split() if t not in ("corrige_2026", "a_supprimer")] + ["a_supprimer"]
+                    paquets[nom].append([r[0], verso, r[2], " ".join(etiquettes)])
+                    stats[(nom, f"{famille} disparu : ancienne carte gardée avec a_supprimer")] += 1
 
 
 # ------------------------------------------------------------------ programme principal
@@ -524,12 +669,17 @@ def main():
 
     paquets = {p.name[len("Chinois__"):-4]: lire(p.name) for p in sorted(SOURCE.glob("Chinois__*.txt"))}
     originaux = {k: [list(r) for r in v] for k, v in paquets.items()}
+    publies = lire_publies()
     avant = {k: len(v) for k, v in paquets.items()}
     paquets["Exercices"] = nettoyer_exercices(paquets["Exercices"])
     import corrections_contenu as cc
     for nom, rangs in paquets.items():
         paquets[nom] = [n for r in rangs for n in cc.appliquer(nom, r[0], traiter_note(nom, r))]
         print(f"{nom} : pinyin relu, contenu corrigé", flush=True)
+    for r in paquets["Vocabulaire"]:  # une correction de relecture a pu insérer du chinois sans annotation dans un exemple
+        repare = reparer_exemples_interrompus(r[1], "Vocabulaire")
+        if repare != r[1]:
+            r[1] = corriger_ruby(repare, "Vocabulaire")
     for r in paquets["Vocabulaire"]:  # « classificateur » posé sur un nom qui n'en est pas un (la note cite juste son 量词)
         mot = r[0].strip()
         if "classificateur" in r[3].split() and len(CJK.findall(mot)) >= 2 and mot not in CLASSIFICATEURS_LONGS:
@@ -539,9 +689,10 @@ def main():
         for r in rangs:
             r[3] = " ".join(r[3].split())
     ajouts = ajouter_contenu(paquets)
-    garder_anciens_rectos(originaux, paquets)
+    garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()
+    niveaux_phrases_exercices(paquets, lex)
     for nom in paquets:
         paquets[nom] = trier(nom, paquets[nom], lex)
         ecrire(f"Chinois__{nom}.txt", paquets[nom], nom)

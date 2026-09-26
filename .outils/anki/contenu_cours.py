@@ -545,15 +545,18 @@ def ajouter_contenu(paquets):
     bilan["Vocabulaire : mots déjà présents étiquetés pour un thème à venir"] = etiquetes_avance
 
     # exercices : reconnaître les caractères non simplifiés (exigé par le programme de renforcement écrit)
+    from corriger_decks import niveau_officiel, vers_trad
     rectos = {r[0] for r in paquets["Exercices"]}
     neuves, vus = [], set()
     for r in paquets["Vocabulaire"]:
         mot = r[0].strip()
-        niveau = re.search(r"\bHSK([123])\b", r[3])
-        if not (niveau or "cours_L2" in r[3].split()) or not re.fullmatch(r"[一-鿿]{1,4}", mot) or mot in vus:
+        if not re.fullmatch(r"[一-鿿]{1,4}", mot) or mot in vus:
             continue
-        trad = VERS_TRAD.convert(mot)
-        if trad == mot:
+        if not (niveau_officiel(mot) in (1, 2, 3) or "cours_L2" in r[3].split()):  # niveau HSK 3.0 officiel
+            continue
+        trad = vers_trad(mot)
+        # 着 -> 著 : mais 著 existe aussi en simplifié (著名) ; la question aurait deux réponses
+        if trad == mot or VERS_SIMP.convert(trad) != mot:
             continue
         lignes = re.sub(r"<div class=\"exemple-bloc\".*", "", r[1]).split("<br>")
         pinyin = " ".join(re.findall(r'<span class="t\d">([^<]+)</span>', lignes[1])) if len(lignes) > 1 else ""

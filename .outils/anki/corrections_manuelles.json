@@ -1,0 +1,115 @@
+{
+ "_note": "Corrections faites à la main (hors relecture par tranches). Même format que corrections_contenu.json ; \"seule\": true remplace les corrections de relecture de la même note.",
+ "corrections": [
+  {
+   "paquet": "Vocabulaire",
+   "cle": "765cc1f0a875711d",
+   "apercu": "不是…的",
+   "id": "manuel-2026-09-26",
+   "gravite": "mineur",
+   "probleme": "Premier exemple : phrase complète sans ponctuation finale (le second exemple en a une).",
+   "champ": "VERSO",
+   "ancien": "来的 - Ce n'est pas en avion que je suis venu",
+   "nouveau": "来的。 - Ce n'est pas en avion que je suis venu."
+  },
+  {
+   "paquet": "Exercices",
+   "cle": "3355cabd7aadd238",
+   "apercu": "他___努力了，___没有成功",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Réponse fausse (没有 en double) et deux bonnes réponses : 虽然…但是 convient aussi bien que 既然…即使. On garde 虽然/但是 et on remplace le choix ambigu par 因为/所以.",
+   "seule": true,
+   "refaire": {
+    "recto": "Choisissez le bon mot de liaison :<br><br>他___努力了，___没有成功，这已经足够值得尊重了。<br><br>Choix : 不但/也 / 虽然/但是 / 因为/所以",
+    "verso": "<b>Réponse : 虽然/但是</b><br><br>他<b>虽然</b>努力了，<b>但是</b>没有成功，这已经足够值得尊重了。<br><br><div class=\"exemple-bloc\"><b>Explication :</b> 虽然…但是… = bien que… (concession) : il a fait des efforts, mais n'a pas réussi. 不但…也… ajoute une idée (non seulement… mais aussi) et 因为…所以… exprime une cause : ni l'un ni l'autre ne s'accorde avec 没有成功.</div>"
+   }
+  },
+  {
+   "paquet": "Exercices",
+   "cle": "8091dee59419b0d3",
+   "apercu": "他的英语说得非常___",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Énoncé corrigé (一点儿也不结巴) mais verso resté sur l'ancienne phrase (几乎没有口音).",
+   "seule": true,
+   "refaire": {
+    "recto": "Complétez la phrase :<br><br>他的英语说得非常___，一点儿也不结巴。<br><br>Choix : 流利 / 便宜 / 热闹",
+    "verso": "<b>Réponse : 流利</b><br><br>他的英语说得非常<b>流利</b>，一点儿也不结巴。<br><br><div class=\"exemple-bloc\"><b>Explication :</b> 流利 = couramment, avec aisance (结巴 = bégayer). 便宜 = bon marché, 热闹 = animé : sans rapport avec la façon de parler.</div>"
+   }
+  },
+  {
+   "paquet": "Exercices",
+   "cle": "63d1a894537a0da3",
+   "apercu": "他能跑那么快，___偶然的",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Le trou est suivi de 是 alors que les choix (不是 / 没是) le contiennent déjà : 不是是偶然的.",
+   "seule": true,
+   "refaire": {
+    "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他能跑那么快，___偶然的，一定是训练有素。<br><br>Choix : 没是 / 不是",
+    "verso": "<b>Réponse : 不是</b><br><br>他能跑那么快，<b>不是</b>偶然的，一定是训练有素。<br><br><div class=\"exemple-bloc\"><b>Explication :</b> 是 se nie toujours avec 不 (不是) ; 没是 n'existe pas. 不是偶然的 = ce n'est pas un hasard.</div>"
+   }
+  },
+  {
+   "paquet": "Exercices",
+   "cle": "4e6b1b5721f9ff88",
+   "apercu": "她曾经去___北京",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Énoncé complété par 曾经, verso resté sans.",
+   "champ": "VERSO",
+   "ancien": "她去[ 过 ]北京，觉得特别有意思。",
+   "nouveau": "她曾经去[ 过 ]北京，觉得特别有意思。"
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "306bb588818b59dd",
+   "apercu": "还钱",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Au sens de « rendre », 还 se lit huán (note, exemple 什么时候还我, citation).",
+   "seule": true,
+   "refaire": {
+    "verso": "<span class=\"hanzi-trad\">還錢</span><br><span class=\"t2\">huán</span> <span class=\"t2\">qián</span><br>rembourser, rendre l'argent<br><br><div class=\"exemple-bloc\"><b>Notes :</b><ruby>还<rt class=\"t2\">huán</rt></ruby> = rendre ; <ruby>欠<rt class=\"t4\">qiàn</rt></ruby><ruby>债<rt class=\"t4\">zhài</rt></ruby><ruby>还<rt class=\"t2\">huán</rt></ruby><ruby>钱<rt class=\"t2\">qián</rt></ruby> = dettes à rembourser</div><br><br><div class=\"exemple-bloc\"><b>Exemple :</b><ruby>你<rt class=\"t3\">nǐ</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby><ruby>次<rt class=\"t4\">cì</rt></ruby><ruby>借<rt class=\"t4\">jiè</rt></ruby><ruby>我<rt class=\"t3\">wǒ</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>两<rt class=\"t3\">liǎng</rt></ruby><ruby>百<rt class=\"t3\">bǎi</rt></ruby><ruby>块<rt class=\"t4\">kuài</rt></ruby>，<ruby>什<rt class=\"t2\">shén</rt></ruby><ruby>么<rt class=\"t0\">me</rt></ruby><ruby>时<rt class=\"t2\">shí</rt></ruby><ruby>候<rt class=\"t0\">hou</rt></ruby><ruby>还<rt class=\"t2\">huán</rt></ruby><ruby>我<rt class=\"t3\">wǒ</rt></ruby>？ - Les deux cents yuans que tu m'as empruntés la dernière fois — quand tu me rembourses ?<br>\"<ruby>还<rt class=\"t2\">huán</rt></ruby>\"<ruby>在<rt class=\"t4\">zài</rt></ruby>\"<ruby>还<rt class=\"t2\">huán</rt></ruby><ruby>钱<rt class=\"t2\">qián</rt></ruby>\"<ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>读<rt class=\"t2\">dú</rt></ruby>（<ruby>第<rt class=\"t4\">dì</rt></ruby><ruby>二<rt class=\"t4\">èr</rt></ruby><ruby>声<rt class=\"t1\">shēng</rt></ruby>）<ruby>表<rt class=\"t3\">biǎo</rt></ruby><ruby>示<rt class=\"t4\">shì</rt></ruby><ruby>归<rt class=\"t1\">guī</rt></ruby><ruby>还<rt class=\"t2\">huán</rt></ruby>，<ruby>不<rt class=\"t2\">bú</rt></ruby><ruby>要<rt class=\"t4\">yào</rt></ruby><ruby>与<rt class=\"t3\">yǔ</rt></ruby>（<ruby>还<rt class=\"t2\">hái</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby>/<ruby>还<rt class=\"t2\">hái</rt></ruby><ruby>好<rt class=\"t3\">hǎo</rt></ruby>）<ruby>混<rt class=\"t4\">hùn</rt></ruby><ruby>淆<rt class=\"t2\">xiáo</rt></ruby>。 (\"Huán\" zài \"huán qián\" zhōng dú huán biǎoshì guīhuán, bùyào yǔ hái (háishì/hái hǎo) hùnxiáo.)<br>Dans \"<ruby>还<rt class=\"t2\">huán</rt></ruby><ruby>钱<rt class=\"t2\">qián</rt></ruby>\", <ruby>还<rt class=\"t2\">huán</rt></ruby> se prononce huán (2e ton) = rendre/rembourser — à ne pas confondre avec hái.</div>"
+   }
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "0f77c81da314bc3a",
+   "apercu": "感动",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Un discours ne « s'émeut » pas : 他的演讲太让人感动了.",
+   "seule": true,
+   "champ": "VERSO",
+   "ancien": "他的演讲太感动了",
+   "nouveau": "他的演讲太让人感动了"
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "53495f240b96ee95",
+   "apercu": "神奇",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Traduction restée en partie en anglais (zero to hero), point final manquant.",
+   "seule": true,
+   "champ": "VERSO",
+   "ancien": "学会了 - Ses progres sont miraculeux — zero to hero en un mois.",
+   "nouveau": "学会了。 - Ses progrès sont miraculeux — parti de zéro, il a tout appris en un mois."
+  },
+  {
+   "paquet": "Phrases",
+   "cle": "5ed52ff327ef6276",
+   "apercu": "知之为知之，不知为不知，是知也。",
+   "id": "manuel-2026-09-26",
+   "gravite": "erreur",
+   "probleme": "Dans 不知为不知 comme dans 知之为知之, 为 = « être, considérer comme » se lit wéi.",
+   "pinyin": {
+    "mot": "不知为不知",
+    "caractere": "为",
+    "lecture_juste": "wéi"
+   }
+  }
+ ]
+}

@@ -34155,17 +34155,6 @@
    "champ": "VERSO",
    "ancien": "演出结束 [yǎn chū jié shù]，观guān众热烈鼓掌。 [zhòng rè liè gǔ zhǎng]",
    "nouveau": "演出结束，观众热烈鼓掌。 [yǎn chū jié shù guān zhòng rè liè gǔ zhǎng]"
-  },
-  {
-   "paquet": "Vocabulaire",
-   "cle": "765cc1f0a875711d",
-   "apercu": "不是…的",
-   "id": "manuel-2026-09-26",
-   "gravite": "mineur",
-   "probleme": "Premier exemple : phrase complète sans ponctuation finale (le second exemple en a une).",
-   "champ": "VERSO",
-   "ancien": "来的 - Ce n'est pas en avion que je suis venu",
-   "nouveau": "来的。 - Ce n'est pas en avion que je suis venu."
   }
  ]
 }
