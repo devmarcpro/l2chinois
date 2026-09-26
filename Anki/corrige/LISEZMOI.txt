@@ -50,7 +50,8 @@ CE QUI A CHANGE
   etiquetes pour des themes du programme pas encore couverts dans le coffre (dynasties Song a Qing, pensee
   chinoise, vocabulaire de discussion). Les mots des cours deja presents ont recu les etiquettes cours_L2 et L2_<cours>.
 - Vocabulaire decoupe en sous-paquets par niveau (colonne "deck" du fichier) :
-  Chinois::Vocabulaire::0 · Cours L2 (mots des cours sans niveau HSK), 1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK.
+  Chinois::Vocabulaire::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9, 8 · Hors HSK. Les mots des cours sans niveau HSK
+  vont dans 8 · Hors HSK (on les retrouve avec la recherche tag:cours_L2).
 - Chaque fichier est range du plus facile au plus difficile.
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
 
@@ -75,8 +76,10 @@ SOUS-PAQUETS DU VOCABULAIRE
 - Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
   seules les notes nouvelles vont directement dans leur sous-paquet.
 - Pour ranger les anciennes : Parcourir > chercher   tag:HSK1   > tout selectionner > Cartes > Changer de paquet >
-  Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK2 -> 2 · HSK 2, etc. ; tag:hors_HSK -> 8 · Hors HSK ;
-  tag:cours_L2 -tag:HSK1 -tag:HSK2 -tag:HSK3 -tag:HSK4 -tag:HSK5 -tag:HSK6 -tag:HSK7 -tag:HSK8 -tag:HSK9 -tag:hors_HSK -> 0 · Cours L2.
+  Chinois::Vocabulaire::1 · HSK 1. Puis tag:HSK2 -> 2 · HSK 2, etc. ;
+  "deck:Chinois::Vocabulaire" -tag:HSK1 -tag:HSK2 -tag:HSK3 -tag:HSK4 -tag:HSK5 -tag:HSK6 -tag:HSK7 -tag:HSK8 -tag:HSK9 -> 8 · Hors HSK.
+- Si un ancien import a cree le sous-paquet "0 · Cours L2" : chercher   "deck:Chinois::Vocabulaire::0 · Cours L2"
+  > tout selectionner > Cartes > Changer de paquet > 8 · Hors HSK, puis supprimer le sous-paquet vide.
 - Autre solution si tu n'as encore rien revise dans le vocabulaire : supprimer le paquet et importer le fichier corrige.
 
 L'ORDRE DES NOUVELLES CARTES

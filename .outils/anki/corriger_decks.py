@@ -108,8 +108,6 @@ def sous_paquet(etiquettes: str) -> str:
     niv = niveau_hsk(etiquettes)
     if niv:
         return "Chinois::Vocabulaire::" + SOUS_PAQUETS[niv]
-    if "cours_L2" in etiquettes.split():
-        return "Chinois::Vocabulaire::0 · Cours L2"
     return "Chinois::Vocabulaire::8 · Hors HSK"
 
 
