@@ -158,19 +158,14 @@ QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
   francais -> chinois). Colonne 3 -> "Ajouter le verso" (elle est vide).
 - Grammaire, Exercices, Phrases, Lecture, Ecriture : PAS le type du vocabulaire (son recto affiche le premier
-  champ en caracteres de 100 px et il cree une carte inverse pour chaque note : sur un exercice ou un texte,
-  ca donnerait des cartes absurdes). Ni "Basique" tel quel (pas de couleur des tons, blocs d'exemple
-  ecrases a 30 % de la largeur). Creer une fois pour toutes un type "Chinois (texte)" :
-    a. Outils > Gerer les types de notes > Ajouter > "Cloner : Basique" > nom : Chinois (texte).
-    b. Cartes... > onglet Style : remplacer tout par le contenu du fichier style_chinois_texte.css (ce dossier).
-       Les modeles du recto ({{Recto}}) et du verso ({{FrontSide}} <hr id=answer> {{Verso}}) restent tels quels.
-  Colonne 3 -> (rien).
-- Ecoute : un type "Chinois (ecoute)", pour ENTENDRE le texte sans le lire :
-    a. Cloner "Chinois (texte)" > nom : Chinois (ecoute).
-    b. Modele du recto :   {{Recto}} {{tts zh_CN:Recto}}
-       Modele du verso :   {{Recto}} <hr id=answer> {{Verso}}      (sans tts : pas de relecture au verso)
-    c. Style : a la fin, enlever /* et */ autour de   .ecoute-texte { display: none; }
-  Il faut une voix chinoise installee (voir ECOUTER LE CHINOIS plus bas). Colonne 3 -> (rien).
+  champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
+  carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
+  tel quel (pas de couleur des tons, blocs d'exemple ecrases a 30 % de la largeur).
+  -> type "Chinois (texte)", a creer une fois pour toutes. Colonne 3 -> (rien).
+- Ecoute : type "Chinois (ecoute)" (le texte est lu par la synthese vocale et cache au recto ; il faut une voix
+  chinoise installee, voir ECOUTER LE CHINOIS plus bas). Colonne 3 -> (rien).
+- Les modeles et le style de ces deux types, prets a coller, sont dans TYPES_DE_NOTES.txt (ce dossier). Ils
+  reprennent l'apparence du type du vocabulaire (polices, couleurs des tons, bouton あ pour cacher le pinyin).
 
 ETAPES
 1. Faire d'abord une sauvegarde : Fichier > Exporter > "Collection Anki (.colpkg)".
@@ -213,14 +208,14 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
 - Il faut une voix chinoise sur l'appareil : Windows > Parametres > Heure et langue > Voix > Ajouter des voix >
   Chinois (simplifie, Chine) ; Android (AnkiDroid) : moteur de synthese Google avec le chinois installe ;
   iPhone (AnkiMobile) : Reglages > Accessibilite > Contenu enonce > Voix > Chinois.
-- VRAIE ECOUTE avec le paquet Ecoute : mettre {{tts zh_CN:Recto}} dans le modele du RECTO (on entend le texte
-  sans le lire), et si le texte s'affiche quand meme au recto, ajouter dans l'onglet Style :
-      .ecoute-texte { display: none; }
+- VRAIE ECOUTE avec le paquet Ecoute : c'est ce que fait le type "Chinois (ecoute)" de TYPES_DE_NOTES.txt
+  ({{tts zh_CN:Recto}} dans le modele du recto, texte cache au recto par .ecoute-texte { display: none; }).
   Le verso montre le texte, la traduction et les reponses aux questions. Les dialogues ajoutes (男：/ 女：)
   sont ecrits pour etre ecoutes ainsi : la voix lit d'abord le niveau et le titre, puis "nan" / "nü" avant
   chaque replique, ce qui annonce qui parle.
-- Pour le vocabulaire et les phrases, mettre {{tts zh_CN:Recto}} au VERSO : on lit d'abord, puis on entend
-  la prononciation pour verifier.
+- Pour le vocabulaire (et les phrases, type "Chinois (texte)"), ajouter {{tts zh_CN:Recto}} au debut du modele
+  du VERSO : on lit d'abord, puis on entend la prononciation pour verifier. Dans le type du vocabulaire, le
+  mettre juste apres la premiere ligne <div class="hanzi">{{Recto}}</div> du verso.
 
 L'ORDRE DES NOUVELLES CARTES
 - Anki presente les nouvelles cartes dans l'ordre ou elles ont ete creees. Les notes ajoutees arrivent donc

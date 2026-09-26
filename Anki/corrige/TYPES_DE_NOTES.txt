@@ -1,0 +1,169 @@
+TYPES DE NOTES POUR LES PAQUETS AUTRES QUE LE VOCABULAIRE
+=========================================================
+
+Le vocabulaire garde son type "Basique (carte inversee optionnelle)". Les deux types ci-dessous reprennent
+son apparence (memes polices, memes couleurs de tons, meme bouton あ pour cacher / montrer le pinyin, meme
+reglage memorise d'une carte a l'autre), mais sans les caracteres geants du recto ni la carte inverse.
+
+Creation (une seule fois) : Outils > Gerer les types de notes > Ajouter > "Cloner : Basique" > nom ci-dessous,
+puis Cartes... : coller le modele du recto, le modele du verso et le style (remplacer tout le contenu).
+
+- "Chinois (texte)"  : Grammaire, Exercices, Phrases, Lecture, Ecriture.
+- "Chinois (ecoute)" : Ecoute (le texte est lu par la synthese vocale et cache au recto).
+
+A l'import : colonne 1 -> Recto, colonne 2 -> Verso, colonne 3 -> (rien).
+
+
+########## "Chinois (texte)" : MODELE DU RECTO ##########
+
+<div class="texte">{{Recto}}</div>
+
+
+########## "Chinois (texte)" : MODELE DU VERSO ##########
+
+<div class="texte">{{Recto}}</div>
+<hr id="answer">
+<div class="texte">{{Verso}}</div>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## "Chinois (ecoute)" : MODELE DU RECTO ##########
+
+<div class="texte">{{Recto}}</div>
+{{tts zh_CN:Recto}}
+
+
+########## "Chinois (ecoute)" : MODELE DU VERSO ##########
+(meme verso que "Chinois (texte)" : sans {{FrontSide}}, pour que l'audio ne soit pas relu)
+
+<div class="texte">{{Recto}}</div>
+<hr id="answer">
+<div class="texte">{{Verso}}</div>
+
+<div id="ruby-toggle" title="Pinyin on/off">あ</div>
+<script>
+(function () {
+  var card = document.querySelector('.card');
+  var btn = document.getElementById('ruby-toggle');
+  if (!card || !btn) return;
+  function appliquer(cache) {
+    card.classList.toggle('ruby-hidden', cache);
+    btn.classList.toggle('active', cache);
+  }
+  try { appliquer(localStorage.getItem('rubyVisible') === '0'); } catch (e) {}
+  btn.addEventListener('click', function () {
+    var cache = !card.classList.contains('ruby-hidden');
+    appliquer(cache);
+    try { localStorage.setItem('rubyVisible', cache ? '0' : '1'); } catch (e) {}
+  });
+})();
+</script>
+
+
+########## STYLE (le meme pour les deux types ; pour "Chinois (ecoute)", enlever /* et */ a la derniere ligne) ##########
+
+.card {
+  font-family: "Segoe UI", "Microsoft YaHei", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  line-height: 1.6;
+}
+
+.t1 { color: #e74c3c; }
+.t2 { color: #c9950c; }
+.t3 { color: #27ae60; }
+.t4 { color: #2980b9; }
+.t0 { color: #95a5a6; }
+
+@font-face {
+  font-family: "ExempleFont";
+  src: local("AR PL UKai CN"), local("AR PL UKai TW"), local("AR PL UKai"),
+       local("KaiTi"), local("STKaiti"), local("楷体");
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF,
+                 U+2A700-2B73F, U+3000-303F, U+FF00-FFEF;
+}
+
+.texte {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hanzi-trad {
+  font-family: "AR PL UKai CN", "AR PL UKai TW", "KaiTi", serif;
+  font-size: 26px;
+  color: #999;
+  letter-spacing: 3px;
+}
+
+.exemple-bloc {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  width: fit-content;
+  margin: 8px auto;
+  max-width: 90%;
+  font-size: 22px;
+  display: block;
+  line-height: 2;
+}
+
+ruby { ruby-align: center; }
+ruby rt {
+  font-size: 0.5em;
+  line-height: 1;
+  font-family: "Segoe UI", "Arial", sans-serif;
+  opacity: 0.55;
+}
+
+/* bouton あ : cache le pinyin de la reponse (rubis et lignes de pinyin en couleur), pas celui de la question
+   (le recto du paquet Ecriture donne la lecture a trouver) */
+.card.ruby-hidden #answer ~ .texte ruby rt,
+.card.ruby-hidden #answer ~ .texte span.t0, .card.ruby-hidden #answer ~ .texte span.t1,
+.card.ruby-hidden #answer ~ .texte span.t2, .card.ruby-hidden #answer ~ .texte span.t3,
+.card.ruby-hidden #answer ~ .texte span.t4 { display: none; }
+
+#ruby-toggle {
+  position: fixed;
+  left: 8px;
+  top: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.3;
+  user-select: none;
+  z-index: 200;
+  transition: opacity 0.2s;
+  padding: 5px 4px;
+  border-radius: 4px;
+}
+#ruby-toggle:hover, #ruby-toggle.active { opacity: 0.9; }
+
+/* paquet Ecoute */
+.ecoute-label { font-size: 18px; color: #888; }
+.ecoute-audio { font-size: 48px; margin: 10px 0; }
+.ecoute-texte, .ecoute-reveal { text-align: left; font-size: 26px; line-height: 1.9; }
+
+/* .ecoute-texte { display: none; } */
