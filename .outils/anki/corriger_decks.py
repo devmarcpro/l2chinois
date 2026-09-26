@@ -459,7 +459,7 @@ FREQ = {"tres_frequent(1)": 1, "frequent(2)": 2, "assez_frequent(3)": 3, "moins_
 TYPES_EXO = ["exercice_ton", "exercice_pinyin", "exercice_hanzi", "exercice_caracteres", "exercice_classificateur", "exercice_negation",
              "exercice_remplir", "exercice_ordre", "exercice_antonyme", "exercice_aspect", "exercice_structure", "exercice_correction",
              "exercice_traduction", "exercice_traditionnel", "exercice_liaison", "exercice_potentiel", "exercice_directionnel", "exercice_reduplication",
-             "exercice_verbe", "exercice_contexte", "exercice_expression", "exercice_registre", "exercice_chengyu"]
+             "exercice_verbe", "exercice_contexte", "exercice_expression", "exercice_registre", "exercice_chengyu", "exercice_theme"]
 NIVEAU_LIBELLE = {"初级": 1.5, "初中级": 2.5, "中级": 3.5, "中高级": 4.5, "高级": 5.5}
 
 

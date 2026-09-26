@@ -87,6 +87,72 @@ def exercice_grammaire(e):
     return None
 
 
+def _en_gras(phrase_trou: str, reponse: str) -> str:
+    """Phrase complète avec la réponse en gras (« X/Y » pour une structure à deux trous)."""
+    parties = reponse.split("/") if phrase_trou.count("___") == 2 else [reponse]
+    rendu = _texte(phrase_trou)
+    for p in parties:
+        rendu = rendu.replace("___", f"<b>{_texte(p.strip())}</b>", 1)
+    return rendu
+
+
+def exercices_rediges(e):
+    """Exercices rédigés pour une fiche : choix entre trois formes, phrase fautive à corriger."""
+    notes = []
+    for x in e["exercices"]:
+        explication = f'<div class="exemple-bloc"><b>Explication :</b> {_texte(x["explication"])} ({_texte(x["titre_fiche"])})</div>'
+        if x["type"] == "choix":
+            recto = (f"Choisissez la bonne forme :<br><br>{_texte(x['phrase_trou'])}<br><br>"
+                     f"Choix : {' / '.join(_texte(c) for c in x['choix'])}")
+            verso = (f"<b>Réponse : {_texte(x['reponse'])}</b><br><br>{_en_gras(x['phrase_trou'], x['reponse'])}<br>"
+                     f"<i>{_texte(x['traduction'])}</i><br><br>{explication}")
+            notes.append([recto, verso, "", "exercice_structure deck_v2 ajout_2026 HSK_officiel"])
+        elif x["type"] == "correction":
+            recto = f"Trouvez et corrigez l'erreur dans cette phrase :<br><br>{_texte(x['phrase_fautive'])}"
+            verso = (f"<b>Phrase correcte :</b><br>{_texte(x['phrase'])}<br><i>{_texte(x['traduction'])}</i><br><br>{explication}")
+            notes.append([recto, verso, "", "exercice_correction deck_v2 ajout_2026 HSK_officiel"])
+    return notes
+
+
+def carte_theme(e):
+    """Thème (français -> chinois) : la phrase française d'un exemple de la fiche, la structure à employer en indice."""
+    from contenu_cours import spans_par_mot
+    structure = e["titre"].partition(" — ")[0]
+    x = e["exemples"][1] if len(e["exemples"]) > 1 else e["exemples"][0]
+    recto = f"Traduisez en chinois (structure : {_texte(structure)}) :<br><br><i>{_texte(x['fr'])}</i>"
+    verso = (f"<b>Traduction :</b><br>{x['zh']}<br><small>{spans_par_mot(x['zh'])}</small><br><br>"
+             f'<div class="exemple-bloc"><b>Structure :</b> {_texte(e["titre"])}</div>')
+    return [recto, verso, "", "exercice_theme deck_v2 ajout_2026 HSK_officiel"]
+
+
+def _libelle(n: int) -> str:
+    return "HSK 7-9" if n == 7 else f"HSK {n}"
+
+
+def _corps_texte(e) -> str:
+    """Traduction, questions (réponses en chinois) et mots clés, comme les textes de lecture et d'écoute existants."""
+    questions = "<br><br>".join(f"<b>Q :</b> {_texte(q['q'])}<br><b>R :</b> {_texte(q['r'])}" for q in e["questions"])
+    mots = " · ".join(f"{_texte(m['mot'])} {_texte(m['pinyin'])} = {_texte(m['sens'])}" for m in e["mots_cles"])
+    traduction = "<br>".join(_texte(l) for l in e["traduction"].split("\n"))
+    return (f'<div class="exemple-bloc" style="text-align:left"><b>Traduction :</b><br><i>{traduction}</i><br><br>'
+            f"<b>Questions :</b><br>{questions}<br><br><b>Mots clés :</b><br>{mots}</div>")
+
+
+def note_lecture(e):
+    texte = "<br>".join(_texte(l) for l in e["texte"].split("\n"))
+    recto = (f'<div style="text-align:left;font-size:20px;color:#888;margin-bottom:8px">📖 {_texte(e["titre"])} | {_libelle(e["niveau"])}</div>'
+             f'<div style="text-align:left;font-size:28px;line-height:1.8">{texte}</div>')
+    return [recto, _corps_texte(e), "", "lecture deck_v2 ajout_2026 texte_gradue"]
+
+
+def note_ecoute(e):
+    texte = "<br>".join(_texte(l) for l in e["texte"].split("\n"))
+    recto = (f'<div class="ecoute-label">{_libelle(e["niveau"])} · {_texte(e["titre"])}</div><div class="ecoute-audio">🔊</div>'
+             f'<div class="ecoute-texte">{texte}</div>')
+    verso = f'<div class="ecoute-reveal">{texte}</div><br>{_corps_texte(e)}'
+    return [recto, verso, "", "ecoute deck_v2 ajout_2026 texte_gradue"]
+
+
 def ajouter_hsk(paquets):
     """Ajoute les mots et les fiches de grammaire du programme officiel. Renvoie le bilan."""
     from contenu_cours import note_grammaire
@@ -116,4 +182,30 @@ def ajouter_hsk(paquets):
                             if not e.get("couvert_par") and e.get("titre")) if x and x[0] not in rectos]
         paquets["Exercices"] += exos
         bilan["Exercices : structures du programme officiel à compléter"] = len(exos)
+        fiches = [e for e in json.loads(f.read_text(encoding="utf-8")) if not e.get("couvert_par") and e.get("titre")]
+        rectos |= {x[0] for x in exos}
+        themes = [t for t in (carte_theme(e) for e in fiches) if t[0] not in rectos]
+        rectos |= {t[0] for t in themes}
+        paquets["Exercices"] += themes
+        bilan["Exercices : thème (français -> chinois) sur les structures"] = len(themes)
+        fe = DONNEES / "exercices_grammaire.json"
+        if fe.exists():
+            titres_fiche = {e["id"]: e["titre"] for e in fiches}
+            rediges = []
+            for e in json.loads(fe.read_text(encoding="utf-8")):
+                for x in e["exercices"]:
+                    x["titre_fiche"] = titres_fiche.get(e["id"], "")
+                for n in exercices_rediges(e):
+                    if n[0] not in rectos:
+                        rectos.add(n[0])
+                        rediges.append(n)
+            paquets["Exercices"] += rediges
+            bilan["Exercices : choix et corrections sur les structures du programme officiel"] = len(rediges)
+    for paquet, fichier, fabrique in (("Lecture", "lecture.json", note_lecture), ("Ecoute", "ecoute.json", note_ecoute)):
+        f = DONNEES / fichier
+        if f.exists():
+            presents = {r[0] for r in paquets[paquet]}
+            neuves = [n for n in (fabrique(e) for e in json.loads(f.read_text(encoding="utf-8"))) if n[0] not in presents]
+            paquets[paquet] += neuves
+            bilan[f"{paquet} : textes gradués ajoutés"] = len(neuves)
     return bilan

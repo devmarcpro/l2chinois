@@ -53,8 +53,13 @@ CE QUI A CHANGE
   * Grammaire : 487 fiches, une par point du programme de grammaire officiel du nouvel examen HSK (2025),
     du HSK 1 au HSK 7-9 : explication, formule, pieges, trois exemples traduits. Les 99 points deja traites
     par une fiche existante n'ont pas ete doubles.
-  * Exercices : 184 exercices "completez" tires de ces fiches (la structure est remplacee par un trou, le sens
-    francais sert d'indice), seulement quand la reponse est sans ambiguite.
+  * Exercices sur chaque structure du programme officiel :
+    - 184 "completez" (la structure est remplacee par un trou, le sens francais sert d'indice) ;
+    - 969 exercices rediges : pour chaque fiche, un choix entre trois formes (les deux fausses sont des erreurs
+      d'apprenant plausibles) et une phrase fautive a corriger, avec explication ; les exercices ou une seconde
+      reponse aurait pu etre acceptee ont ete ecartes ;
+    - 487 cartes de THEME (francais -> chinois) : une phrase francaise a traduire avec la structure indiquee,
+      reponse avec pinyin au verso (etiquette exercice_theme). Toute traduction juste qui emploie la structure compte.
   * Textes : .outils/anki/donnees_hsk/ ; programme de grammaire : github.com/krmanik/HSK-3.0 (d'apres le
     document officiel du ministere chinois de l'Education et le 新版HSK考试大纲).
 - Pinyin : 不得 en fin de proposition (吃不得, 马虎不得, 进也进不得) se lit bu de ; 舍不得, 巴不得, 顾不得...
