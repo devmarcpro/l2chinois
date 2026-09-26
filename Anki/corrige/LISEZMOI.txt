@@ -75,13 +75,16 @@ CE QUI A CHANGE
       reponse aurait pu etre acceptee ont ete ecartes ;
     - 487 cartes de THEME (francais -> chinois) : une phrase francaise a traduire avec la structure indiquee,
       reponse avec pinyin au verso (etiquette exercice_theme). Toute traduction juste qui emploie la structure compte.
-  * Lecture : 42 textes gradues (10 en HSK 1, 4 par niveau du HSK 2 au HSK 5, 10 en HSK 6, 6 en HSK 7-9), ecrits
-    avec les mots du niveau (au plus trois mots du niveau suivant) : recits, dialogues, puis articles (memoire,
-    mots d'emprunt, pollution lumineuse, peinture chinoise...). Au verso : traduction, trois questions avec
-    reponse en chinois, mots cles avec pinyin et sens. Etiquette texte_gradue.
-  * Ecoute : 24 dialogues gradues (4 par niveau du HSK 1 au HSK 6 : achats, medecin, logement, entretien,
-    reclamation, emission de radio...), repliques annoncees par 男：(homme) / 女：(femme), faits pour etre
-    ecoutes avec la synthese vocale (voir ECOUTER LE CHINOIS plus bas). Meme verso que la lecture.
+  * Lecture : 92 textes gradues (16 en HSK 1, 12 par niveau du HSK 2 au HSK 5, 16 en HSK 6, 12 en HSK 7-9),
+    ecrits avec les mots du niveau (au plus trois mots du niveau suivant) : recits, messages, courriels, avis,
+    dialogues, puis articles et essais (sommeil, medecine chinoise, dialectes, les deux noms du the, jardins de
+    Suzhou, traduction de la poesie, 节气...). Au verso : traduction, trois questions avec reponse en chinois,
+    mots cles avec pinyin et sens. Etiquette texte_gradue.
+  * Ecoute : 54 textes gradues (8 par niveau du HSK 1 au HSK 6 : achats, medecin, logement, entretien,
+    reclamation, mariage, stage a l'etranger, emission de radio... ; 6 en HSK 7-9 : entretiens et exposes sur
+    l'education, le vieillissement, les langues regionales, l'ethique scientifique...), repliques annoncees
+    par 男：(homme) / 女：(femme), faits pour etre ecoutes avec la synthese vocale (voir ECOUTER LE CHINOIS plus
+    bas). Meme verso que la lecture.
   * Classificateurs : 338 exercices (etiquette exercice_classificateur) sur les noms du HSK 1 a 6 qui ont un
     classificateur propre (一匹马, 一把伞, 一场雨, 一副手套...) : une phrase avec un trou et trois choix ; les deux
     mauvais sont impossibles avec ce nom, les autres classificateurs possibles sont donnes au verso. Les noms

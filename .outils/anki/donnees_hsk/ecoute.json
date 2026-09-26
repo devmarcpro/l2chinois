@@ -168,6 +168,179 @@
   ]
  },
  {
+  "titre": "书店在哪儿",
+  "niveau": 1,
+  "texte": "男：请问，这里有书店吗？\n女：有。你看，前边有一个大超市，看见了吗？\n男：看见了。书店在超市里边吗？\n女：不在里边，在超市的后边。\n男：远不远？我想走路去。\n女：不远，走路五分钟。",
+  "traduction": "Homme : Excusez-moi, il y a une librairie par ici ?\nFemme : Oui. Regardez, il y a un grand supermarché là-devant, vous le voyez ?\nHomme : Oui, je le vois. La librairie est dans le supermarché ?\nFemme : Non, pas dedans, elle est derrière le supermarché.\nHomme : C'est loin ? Je voudrais y aller à pied.\nFemme : Non, c'est à cinq minutes à pied.",
+  "questions": [
+   {
+    "q": "男的想去哪儿？",
+    "r": "书店。"
+   },
+   {
+    "q": "书店在哪儿？",
+    "r": "在超市的后边。"
+   },
+   {
+    "q": "走路去书店要几分钟？",
+    "r": "五分钟。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "请问",
+    "pinyin": "qǐngwèn",
+    "sens": "excusez-moi (pour poser une question)"
+   },
+   {
+    "mot": "书店",
+    "pinyin": "shūdiàn",
+    "sens": "librairie"
+   },
+   {
+    "mot": "后边",
+    "pinyin": "hòubian",
+    "sens": "derrière"
+   },
+   {
+    "mot": "远",
+    "pinyin": "yuǎn",
+    "sens": "loin"
+   },
+   {
+    "mot": "走路",
+    "pinyin": "zǒulù",
+    "sens": "marcher, aller à pied"
+   }
+  ]
+ },
+ {
+  "titre": "苹果怎么卖",
+  "niveau": 1,
+  "texte": "女：您好，苹果怎么卖？\n男：两块钱一个。你看，都很大，也很好吃。\n女：好，我买六个。鸡蛋怎么卖？\n男：鸡蛋一块钱一个。\n女：我要十个鸡蛋。多少钱？\n男：二十二块。给我二十块吧。",
+  "traduction": "Femme : Bonjour, combien coûtent les pommes ?\nHomme : Deux yuans pièce. Regardez, elles sont toutes grosses, et très bonnes.\nFemme : Bien, j'en prends six. Et les œufs, combien coûtent-ils ?\nHomme : Un yuan l'œuf.\nFemme : Je voudrais dix œufs. Ça fait combien ?\nHomme : Vingt-deux yuans. Donnez-moi vingt yuans.",
+  "questions": [
+   {
+    "q": "苹果多少钱一个？",
+    "r": "两块钱一个。"
+   },
+   {
+    "q": "女的买了几个苹果？",
+    "r": "六个。"
+   },
+   {
+    "q": "女的要给多少钱？",
+    "r": "二十块。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "卖",
+    "pinyin": "mài",
+    "sens": "vendre"
+   },
+   {
+    "mot": "块",
+    "pinyin": "kuài",
+    "sens": "yuan (unité monétaire, à l'oral)"
+   },
+   {
+    "mot": "鸡蛋",
+    "pinyin": "jīdàn",
+    "sens": "œuf"
+   },
+   {
+    "mot": "多少",
+    "pinyin": "duōshao",
+    "sens": "combien"
+   }
+  ]
+ },
+ {
+  "titre": "一杯热咖啡",
+  "niveau": 1,
+  "texte": "男：您好！您想喝什么？\n女：我要一杯热咖啡，再要一个面包。\n男：好的。您在这儿吃吗？\n女：不在这儿吃，我回公司吃。多少钱？\n男：咖啡十八块，面包七块，二十五块。\n女：好的，给您三十块。",
+  "traduction": "Homme : Bonjour ! Qu'est-ce que vous voulez boire ?\nFemme : Je voudrais un café chaud, et aussi un petit pain.\nHomme : Très bien. Vous mangez ici ?\nFemme : Non, pas ici, je retourne manger au bureau. C'est combien ?\nHomme : Le café fait dix-huit yuans, le petit pain sept, ça fait vingt-cinq yuans.\nFemme : D'accord, voici trente yuans.",
+  "questions": [
+   {
+    "q": "女的要了什么？",
+    "r": "一杯热咖啡和一个面包。"
+   },
+   {
+    "q": "女的要在哪儿吃？",
+    "r": "在公司。"
+   },
+   {
+    "q": "咖啡和面包多少钱？",
+    "r": "二十五块。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "杯",
+    "pinyin": "bēi",
+    "sens": "classificateur : tasse, verre"
+   },
+   {
+    "mot": "咖啡",
+    "pinyin": "kāfēi",
+    "sens": "café"
+   },
+   {
+    "mot": "面包",
+    "pinyin": "miànbāo",
+    "sens": "pain"
+   },
+   {
+    "mot": "公司",
+    "pinyin": "gōngsī",
+    "sens": "entreprise, société"
+   }
+  ]
+ },
+ {
+  "titre": "朋友的电话",
+  "niveau": 1,
+  "texte": "女：喂，你在做什么呢？\n男：我在家里看电视。有什么事吗？\n女：明天星期六，我们去看电影吧。\n男：好啊！几点的电影？\n女：下午三点的。我们两点半在电影院门口见，怎么样？\n男：好的，明天见！",
+  "traduction": "Femme : Allô, qu'est-ce que tu fais ?\nHomme : Je regarde la télé à la maison. Qu'est-ce qu'il y a ?\nFemme : Demain, c'est samedi, allons au cinéma.\nHomme : Avec plaisir ! Le film est à quelle heure ?\nFemme : À trois heures de l'après-midi. On se retrouve à deux heures et demie devant le cinéma, ça te va ?\nHomme : D'accord, à demain !",
+  "questions": [
+   {
+    "q": "男的现在在做什么？",
+    "r": "在家里看电视。"
+   },
+   {
+    "q": "他们明天去做什么？",
+    "r": "去看电影。"
+   },
+   {
+    "q": "他们几点在电影院门口见？",
+    "r": "两点半。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "喂",
+    "pinyin": "wéi",
+    "sens": "allô"
+   },
+   {
+    "mot": "电视",
+    "pinyin": "diànshì",
+    "sens": "télévision"
+   },
+   {
+    "mot": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "sens": "cinéma (la salle)"
+   },
+   {
+    "mot": "门口",
+    "pinyin": "ménkǒu",
+    "sens": "entrée, devant la porte"
+   }
+  ]
+ },
+ {
   "titre": "下雪了",
   "niveau": 2,
   "texte": "女：你看，外面下雪了！\n男：真的？早上还是晴天呢。\n女：手机上说，明天还有雪，比今天还冷。\n男：那我们明天还去爬山吗？\n女：下雪了，山上的路不好走，我们别去了。\n男：好吧。那我们明天在家看电影，怎么样？\n女：好啊，我去买一些水果和奶茶。",
@@ -336,6 +509,184 @@
   ]
  },
  {
+  "titre": "妈妈的礼物",
+  "niveau": 2,
+  "texte": "女：下个星期是我妈妈的生日，我想给她买个礼物，你说送什么好呢？\n男：送衣服怎么样？这个商场里的衣服都很漂亮。\n女：她的衣服已经很多了。\n男：那送一块手表吧。你看这块白色的，不太大，很好看。\n女：真的很好看！多少钱？\n男：五百八十块。\n女：有点儿贵，但是我妈妈一定会喜欢。就买这块吧！",
+  "traduction": "Femme : La semaine prochaine, c'est l'anniversaire de ma mère. Je voudrais lui acheter un cadeau. À ton avis, qu'est-ce que je devrais lui offrir ?\nHomme : Et si tu lui offrais des vêtements ? Les vêtements de ce centre commercial sont tous très jolis.\nFemme : Elle a déjà beaucoup de vêtements.\nHomme : Alors offre-lui une montre. Regarde celle-ci, la blanche : elle n'est pas trop grande, elle est très jolie.\nFemme : Elle est vraiment jolie ! Combien coûte-t-elle ?\nHomme : Cinq cent quatre-vingts yuans.\nFemme : C'est un peu cher, mais ma mère va sûrement l'aimer. Je prends celle-là !",
+  "questions": [
+   {
+    "q": "女的想给谁买礼物？",
+    "r": "给她妈妈。"
+   },
+   {
+    "q": "女的为什么不送衣服？",
+    "r": "她妈妈的衣服已经很多了。"
+   },
+   {
+    "q": "那块手表多少钱？",
+    "r": "五百八十块。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "生日",
+    "pinyin": "shēngrì",
+    "sens": "anniversaire"
+   },
+   {
+    "mot": "礼物",
+    "pinyin": "lǐwù",
+    "sens": "cadeau"
+   },
+   {
+    "mot": "送",
+    "pinyin": "sòng",
+    "sens": "offrir"
+   },
+   {
+    "mot": "手表",
+    "pinyin": "shǒubiǎo",
+    "sens": "montre"
+   },
+   {
+    "mot": "商场",
+    "pinyin": "shāngchǎng",
+    "sens": "centre commercial"
+   }
+  ]
+ },
+ {
+  "titre": "借书",
+  "niveau": 2,
+  "texte": "男：您好，我想借这三本书。\n女：好的，你的学生卡给我一下。\n男：给您。这些书能借多长时间？\n女：这两本能借一个月，这本新书能借两个星期。\n男：这本新书我两个星期可能看不完，能多借几天吗？\n女：没问题，你在网上再借一个星期就可以了。\n男：太好了，谢谢您！\n女：不客气。别忘了，我们这里星期天不开门。",
+  "traduction": "Homme : Bonjour, je voudrais emprunter ces trois livres.\nFemme : D'accord, votre carte d'étudiant, s'il vous plaît.\nHomme : Tenez. Ces livres, je peux les emprunter combien de temps ?\nFemme : Ces deux-là, un mois ; ce nouveau livre, deux semaines.\nHomme : Ce nouveau livre, je n'aurai peut-être pas fini de le lire en deux semaines. Je peux le garder quelques jours de plus ?\nFemme : Pas de problème, il suffit de le réemprunter pour une semaine de plus sur Internet.\nHomme : Super, merci beaucoup !\nFemme : De rien. N'oubliez pas : chez nous, c'est fermé le dimanche.",
+  "questions": [
+   {
+    "q": "男的想借几本书？",
+    "r": "三本。"
+   },
+   {
+    "q": "那本新书能借多长时间？",
+    "r": "两个星期。"
+   },
+   {
+    "q": "这里星期几不开门？",
+    "r": "星期天。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "借",
+    "pinyin": "jiè",
+    "sens": "emprunter ; prêter"
+   },
+   {
+    "mot": "本",
+    "pinyin": "běn",
+    "sens": "classificateur des livres, des cahiers"
+   },
+   {
+    "mot": "网上",
+    "pinyin": "wǎngshàng",
+    "sens": "sur Internet, en ligne"
+   },
+   {
+    "mot": "忘",
+    "pinyin": "wàng",
+    "sens": "oublier"
+   }
+  ]
+ },
+ {
+  "titre": "课不上了",
+  "niveau": 2,
+  "texte": "女：教室里怎么没有人？下午不是有汉语课吗？\n男：今天下午的课不上了，你不知道吗？\n女：不知道啊，为什么？\n男：老师生病了，早上在网上告诉大家了。\n女：我起床晚了，还没看手机呢。那今天的课什么时候上？\n男：老师说下个星期五上午上。\n女：好。那我们现在做什么？\n男：下个星期要考试了，我们就在这儿复习吧。",
+  "traduction": "Femme : Pourquoi il n'y a personne dans la salle ? On n'a pas cours de chinois cet après-midi ?\nHomme : Le cours de cet après-midi n'a pas lieu, tu n'es pas au courant ?\nFemme : Non, je ne savais pas ! Pourquoi ?\nHomme : La professeure est malade, elle a prévenu tout le monde sur Internet ce matin.\nFemme : Je me suis levée tard, je n'ai pas encore regardé mon téléphone. Alors, le cours d'aujourd'hui, il aura lieu quand ?\nHomme : La professeure a dit qu'il aurait lieu vendredi prochain, le matin.\nFemme : D'accord. Alors, qu'est-ce qu'on fait maintenant ?\nHomme : On a un examen la semaine prochaine, révisons ici.",
+  "questions": [
+   {
+    "q": "今天下午的课为什么不上了？",
+    "r": "因为老师生病了。"
+   },
+   {
+    "q": "女的为什么不知道？",
+    "r": "她起床晚了，还没看手机。"
+   },
+   {
+    "q": "今天的课什么时候上？",
+    "r": "下个星期五上午。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "教室",
+    "pinyin": "jiàoshì",
+    "sens": "salle de classe"
+   },
+   {
+    "mot": "生病",
+    "pinyin": "shēngbìng",
+    "sens": "tomber malade, être malade"
+   },
+   {
+    "mot": "告诉",
+    "pinyin": "gàosu",
+    "sens": "dire, informer"
+   },
+   {
+    "mot": "考试",
+    "pinyin": "kǎoshì",
+    "sens": "examen ; passer un examen"
+   },
+   {
+    "mot": "复习",
+    "pinyin": "fùxí",
+    "sens": "réviser"
+   }
+  ]
+ },
+ {
+  "titre": "看牙",
+  "niveau": 2,
+  "texte": "男：喂，您好！我这几天牙很疼，想找医生看看。\n女：好的。您想哪天来？\n男：明天上午可以吗？\n女：对不起，明天上午的号已经没有了。下午三点可以吗？\n男：下午我要上班。星期四上午呢？\n女：星期四上午九点半可以。请您早来十分钟。\n男：好的，没问题。谢谢！\n女：不客气，星期四见。",
+  "traduction": "Homme : Allô, bonjour ! J'ai très mal aux dents depuis quelques jours, je voudrais qu'un médecin m'examine.\nFemme : D'accord. Quel jour voulez-vous venir ?\nHomme : Demain matin, c'est possible ?\nFemme : Désolée, il n'y a plus de rendez-vous demain matin. Trois heures de l'après-midi, ça vous va ?\nHomme : L'après-midi, je travaille. Et jeudi matin ?\nFemme : Jeudi matin à neuf heures et demie, c'est possible. Venez dix minutes en avance, s'il vous plaît.\nHomme : D'accord, pas de problème. Merci !\nFemme : De rien, à jeudi.",
+  "questions": [
+   {
+    "q": "男的怎么了？",
+    "r": "他这几天牙很疼。"
+   },
+   {
+    "q": "男的下午为什么不能去？",
+    "r": "他要上班。"
+   },
+   {
+    "q": "男的什么时候去看牙？",
+    "r": "星期四上午九点半。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "牙",
+    "pinyin": "yá",
+    "sens": "dent"
+   },
+   {
+    "mot": "疼",
+    "pinyin": "téng",
+    "sens": "avoir mal, faire mal"
+   },
+   {
+    "mot": "号",
+    "pinyin": "hào",
+    "sens": "numéro ; ici : place, rendez-vous (chez le médecin)"
+   },
+   {
+    "mot": "上班",
+    "pinyin": "shàngbān",
+    "sens": "travailler, aller au travail"
+   }
+  ]
+ },
+ {
   "titre": "感冒了",
   "niveau": 3,
   "texte": "男：你哪儿不舒服？\n女：医生，我头很疼，还有点儿发烧，晚上也睡不好。\n男：什么时候开始的？\n女：前天晚上。那天下大雨，我没带伞，在雨里走了二十分钟。\n男：我给你检查一下……是感冒了，问题不大。\n女：要吃药吗？我后天有考试。\n男：我给你开点儿药，一天三次，饭后吃。这几天多喝水，早点儿睡觉，考试前应该就好了。\n女：好的，谢谢医生！",
@@ -500,6 +851,194 @@
     "mot": "附近",
     "pinyin": "fùjìn",
     "sens": "à proximité, dans les environs"
+   }
+  ]
+ },
+ {
+  "titre": "去理发",
+  "niveau": 3,
+  "texte": "女：您好，我想理发。要等多长时间？\n男：现在人不多，不用等。请坐这边，您想要什么样的？\n女：天气越来越热了，我想要短一点儿的，到耳朵下边就可以了。\n男：好的。前边的头发呢？也要短一点儿吗？\n女：前边的不用动，跟现在一样就行。\n男：好了，您看看，满意吗？\n女：很满意，看起来年轻多了！多少钱？\n男：三十八块。欢迎下次再来！",
+  "traduction": "Femme : Bonjour, je voudrais me faire couper les cheveux. Il faut attendre combien de temps ?\nHomme : Il n'y a pas beaucoup de monde en ce moment, pas besoin d'attendre. Asseyez-vous ici. Qu'est-ce que vous voulez comme coupe ?\nFemme : Il fait de plus en plus chaud, je voudrais quelque chose d'un peu plus court : jusque sous les oreilles, ça ira.\nHomme : Très bien. Et les cheveux de devant ? Un peu plus courts aussi ?\nFemme : Devant, ne touchez à rien, comme maintenant, c'est bien.\nHomme : Voilà, regardez. Vous êtes satisfaite ?\nFemme : Très satisfaite, j'ai l'air beaucoup plus jeune ! C'est combien ?\nHomme : Trente-huit yuans. Au plaisir de vous revoir !",
+  "questions": [
+   {
+    "q": "女的为什么想要短一点儿的头发？",
+    "r": "因为天气越来越热了。"
+   },
+   {
+    "q": "女的想让前边的头发怎么样？",
+    "r": "跟现在一样，不用动。"
+   },
+   {
+    "q": "理发要多少钱？",
+    "r": "三十八块。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "理发",
+    "pinyin": "lǐfà",
+    "sens": "se faire couper les cheveux ; couper les cheveux"
+   },
+   {
+    "mot": "头发",
+    "pinyin": "tóufa",
+    "sens": "cheveux"
+   },
+   {
+    "mot": "短",
+    "pinyin": "duǎn",
+    "sens": "court"
+   },
+   {
+    "mot": "耳朵",
+    "pinyin": "ěrduo",
+    "sens": "oreille"
+   },
+   {
+    "mot": "满意",
+    "pinyin": "mǎnyì",
+    "sens": "satisfait"
+   }
+  ]
+ },
+ {
+  "titre": "订房间",
+  "niveau": 3,
+  "texte": "男：喂，您好！我想订一个房间。\n女：好的。请问您哪天到？住几个晚上？\n男：下个星期五到，住两个晚上。要一张大床的。\n女：好的，一个晚上四百二十块，有早饭。\n男：有没有安静一点儿的房间？我不想住在马路旁边。\n女：没问题，给您一个十二层的，从房间里还能看见公园。\n男：太好了！我来的时候要带什么吗？\n女：请带好您的身份证。对了，早饭是七点到十点，在一层。",
+  "traduction": "Homme : Allô, bonjour ! Je voudrais réserver une chambre.\nFemme : Très bien. Quel jour arrivez-vous ? Pour combien de nuits ?\nHomme : J'arrive vendredi prochain, pour deux nuits. Une chambre avec un grand lit.\nFemme : D'accord, c'est quatre cent vingt yuans la nuit, petit-déjeuner compris.\nHomme : Vous auriez une chambre un peu plus calme ? Je ne veux pas être du côté de la rue.\nFemme : Pas de problème, je vous donne une chambre au douzième étage ; de la chambre, on voit même le parc.\nHomme : Super ! Je dois apporter quelque chose quand je viendrai ?\nFemme : Pensez bien à apporter votre carte d'identité. Ah oui, le petit-déjeuner est servi de sept heures à dix heures, au rez-de-chaussée.",
+  "questions": [
+   {
+    "q": "男的要住几个晚上？",
+    "r": "两个晚上。"
+   },
+   {
+    "q": "房间一个晚上多少钱？",
+    "r": "四百二十块。"
+   },
+   {
+    "q": "早饭在几层？",
+    "r": "在一层。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "订",
+    "pinyin": "dìng",
+    "sens": "réserver"
+   },
+   {
+    "mot": "安静",
+    "pinyin": "ānjìng",
+    "sens": "calme, silencieux"
+   },
+   {
+    "mot": "层",
+    "pinyin": "céng",
+    "sens": "étage"
+   },
+   {
+    "mot": "身份证",
+    "pinyin": "shēnfènzhèng",
+    "sens": "carte d'identité"
+   },
+   {
+    "mot": "早饭",
+    "pinyin": "zǎofàn",
+    "sens": "petit-déjeuner"
+   }
+  ]
+ },
+ {
+  "titre": "您的快递到了",
+  "niveau": 3,
+  "texte": "男：喂，您好！我是送快递的。您的东西到了，您现在在家吗？\n女：不在，我在公司上班呢，晚上七点以后才回家。\n男：那我把东西放在楼下的小超市，可以吗？\n女：可以。里面是几个碗，请您小心一点儿。\n男：好的，放心吧。超市晚上九点关门，您早点儿去拿。\n女：知道了。去拿的时候要带什么吗？\n男：不用带什么，告诉他们您的手机号码就可以了。\n女：好的，谢谢您！",
+  "traduction": "Homme : Allô, bonjour ! Je suis le livreur. Votre colis est arrivé, vous êtes chez vous en ce moment ?\nFemme : Non, je suis au travail, je ne rentre qu'après sept heures du soir.\nHomme : Alors je laisse le colis à la petite supérette en bas de chez vous, ça vous va ?\nFemme : D'accord. Il y a quelques bols dedans, faites un peu attention, s'il vous plaît.\nHomme : Très bien, ne vous inquiétez pas. La supérette ferme à neuf heures du soir, allez le chercher sans trop tarder.\nFemme : Entendu. Je dois apporter quelque chose pour le récupérer ?\nHomme : Pas besoin d'apporter quoi que ce soit, il suffit de leur donner votre numéro de téléphone.\nFemme : D'accord, merci beaucoup !",
+  "questions": [
+   {
+    "q": "男的是做什么的？",
+    "r": "送快递的。"
+   },
+   {
+    "q": "男的把东西放在哪儿？",
+    "r": "楼下的小超市。"
+   },
+   {
+    "q": "超市晚上几点关门？",
+    "r": "晚上九点。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "快递",
+    "pinyin": "kuàidì",
+    "sens": "livraison express ; colis"
+   },
+   {
+    "mot": "楼下",
+    "pinyin": "lóuxià",
+    "sens": "en bas (de l'immeuble)"
+   },
+   {
+    "mot": "小心",
+    "pinyin": "xiǎoxīn",
+    "sens": "faire attention"
+   },
+   {
+    "mot": "放心",
+    "pinyin": "fàngxīn",
+    "sens": "être tranquille, ne pas s'inquiéter"
+   },
+   {
+    "mot": "号码",
+    "pinyin": "hàomǎ",
+    "sens": "numéro"
+   }
+  ]
+ },
+ {
+  "titre": "草地上的午饭",
+  "niveau": 3,
+  "texte": "女：这个周末天气不错，我们去公园吃午饭吧？就坐在草地上吃。\n男：好啊！我们带什么吃的？\n女：我今天晚上做点儿包子，你去超市买些水果和饮料。\n男：没问题。再买一个西瓜吧，大家都爱吃。\n女：西瓜太重了，不好拿，买点儿香蕉和苹果就行了。\n男：好的。那我们几点在哪儿见？\n女：星期六上午十一点，在公园东门见吧。\n男：好。对了，太阳可能会很大，别忘了带帽子。",
+  "traduction": "Femme : Ce week-end, il va faire beau. Et si on allait déjeuner au parc ? On mangerait assis dans l'herbe.\nHomme : Bonne idée ! Qu'est-ce qu'on apporte à manger ?\nFemme : Ce soir, je prépare des baozi ; toi, va au supermarché acheter des fruits et des boissons.\nHomme : Pas de problème. Achetons aussi une pastèque, tout le monde aime ça.\nFemme : Une pastèque, c'est trop lourd, pas pratique à porter. Achète des bananes et des pommes, ça suffira.\nHomme : D'accord. Alors, on se retrouve à quelle heure, et où ?\nFemme : Samedi à onze heures du matin, à l'entrée est du parc.\nHomme : D'accord. Au fait, il risque d'y avoir beaucoup de soleil, n'oublie pas ton chapeau.",
+  "questions": [
+   {
+    "q": "他们打算在哪儿吃午饭？",
+    "r": "在公园的草地上。"
+   },
+   {
+    "q": "女的为什么不想买西瓜？",
+    "r": "西瓜太重了，不好拿。"
+   },
+   {
+    "q": "他们几点见面？",
+    "r": "星期六上午十一点。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "草地",
+    "pinyin": "cǎodì",
+    "sens": "pelouse, herbe"
+   },
+   {
+    "mot": "饮料",
+    "pinyin": "yǐnliào",
+    "sens": "boisson"
+   },
+   {
+    "mot": "西瓜",
+    "pinyin": "xīguā",
+    "sens": "pastèque"
+   },
+   {
+    "mot": "重",
+    "pinyin": "zhòng",
+    "sens": "lourd"
+   },
+   {
+    "mot": "帽子",
+    "pinyin": "màozi",
+    "sens": "chapeau, casquette"
    }
   ]
  },
@@ -692,6 +1231,194 @@
   ]
  },
  {
+  "titre": "帮忙看孩子",
+  "niveau": 4,
+  "texte": "女：明天下午你有空吗？我要去公司加班，想请你帮我照顾一下儿子。\n男：没问题。他几点吃饭？有什么要注意的吗？\n女：他十二点吃饭，吃完要睡一个小时。千万别给他吃巧克力，他吃了就兴奋得睡不着。\n男：好的。他醒了以后，我可以带他去楼下公园玩吗？\n女：可以，不过记得给他多穿件外套，最近降温了。还有，他特别喜欢问问题，你得有耐心。\n男：我会的。要是他哭着找妈妈怎么办？\n女：你就给我打电话，或者给他讲个故事，他很快就会安静下来。\n男：好，你放心去吧，我保证把他照顾好。",
+  "traduction": "Femme : Tu es libre demain après-midi ? Je dois aller faire des heures supplémentaires au bureau, et j'aimerais te demander de t'occuper un peu de mon fils.\nHomme : Pas de problème. À quelle heure est-ce qu'il mange ? Y a-t-il des choses auxquelles je dois faire attention ?\nFemme : Il mange à midi, et après le repas il dort une heure. Surtout, ne lui donne pas de chocolat : quand il en mange, il est tellement excité qu'il n'arrive plus à dormir.\nHomme : D'accord. Et quand il sera réveillé, je pourrai l'emmener jouer au parc en bas de l'immeuble ?\nFemme : Oui, mais pense à lui mettre une veste en plus, les températures ont baissé ces derniers temps. Et puis, il adore poser des questions, il faudra que tu sois patient.\nHomme : Je le serai. Et s'il se met à pleurer en réclamant sa maman, qu'est-ce que je fais ?\nFemme : Tu m'appelles, ou alors tu lui racontes une histoire : il se calmera très vite.\nHomme : Bon, vas-y l'esprit tranquille, je te promets que je vais bien m'occuper de lui.",
+  "questions": [
+   {
+    "q": "女的明天下午为什么需要别人帮忙？",
+    "r": "她要去公司加班，没人照顾儿子。"
+   },
+   {
+    "q": "女的为什么不让儿子吃巧克力？",
+    "r": "儿子吃了会兴奋得睡不着。"
+   },
+   {
+    "q": "如果孩子哭着找妈妈，女的让男的怎么做？",
+    "r": "给她打电话，或者给孩子讲个故事。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "加班",
+    "pinyin": "jiābān",
+    "sens": "faire des heures supplémentaires"
+   },
+   {
+    "mot": "千万",
+    "pinyin": "qiānwàn",
+    "sens": "surtout, à tout prix (dans une recommandation)"
+   },
+   {
+    "mot": "兴奋",
+    "pinyin": "xīngfèn",
+    "sens": "excité, surexcité"
+   },
+   {
+    "mot": "降温",
+    "pinyin": "jiàngwēn",
+    "sens": "(la température) baisser"
+   },
+   {
+    "mot": "耐心",
+    "pinyin": "nàixīn",
+    "sens": "patience ; patient"
+   }
+  ]
+ },
+ {
+  "titre": "菜上错了",
+  "niveau": 4,
+  "texte": "男：服务员，麻烦你过来一下。\n女：先生，请问有什么需要？\n男：我们已经等了四十多分钟了，菜还没上齐。而且这条鱼是凉的，味道也有点儿咸。\n女：真抱歉，今天客人特别多，厨房太忙了。鱼我马上让厨师重新给您做一份。\n男：另外，我点的是西红柿鸡蛋汤，你们上的是牛肉汤。\n女：实在对不起，是我们弄错了。汤我现在就给您换。\n男：好吧。我们一会儿还有事，希望能快一点儿。\n女：一定。为了向您道歉，今天的饮料免费，鱼的钱也不收了。\n男：那好吧，谢谢你。",
+  "traduction": "Homme : Excusez-moi, vous pouvez venir un instant, s'il vous plaît ?\nFemme : Monsieur, que puis-je faire pour vous ?\nHomme : Ça fait déjà plus de quarante minutes que nous attendons, et tous les plats ne sont pas encore arrivés. En plus, ce poisson est froid, et il est un peu trop salé.\nFemme : Je suis vraiment désolée, il y a énormément de clients aujourd'hui et la cuisine est débordée. Je demande tout de suite au cuisinier de vous refaire le poisson.\nHomme : Autre chose : j'avais commandé une soupe tomates-œufs, et vous nous avez servi une soupe de bœuf.\nFemme : Toutes mes excuses, c'est nous qui nous sommes trompés. Je vous change la soupe tout de suite.\nHomme : Bon. Nous avons quelque chose à faire tout à l'heure, j'espère que ça pourra aller un peu plus vite.\nFemme : Certainement. Pour nous excuser, les boissons vous sont offertes aujourd'hui, et le poisson ne vous sera pas facturé.\nHomme : Bon, très bien, merci.",
+  "questions": [
+   {
+    "q": "男的对那条鱼有什么不满意？",
+    "r": "鱼是凉的，味道也有点儿咸。"
+   },
+   {
+    "q": "饭馆把什么上错了？",
+    "r": "男的点的是西红柿鸡蛋汤，饭馆上的是牛肉汤。"
+   },
+   {
+    "q": "为了道歉，饭馆会怎么做？",
+    "r": "今天的饮料免费，鱼的钱也不收了。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "抱歉",
+    "pinyin": "bàoqiàn",
+    "sens": "désolé ; regretter"
+   },
+   {
+    "mot": "齐",
+    "pinyin": "qí",
+    "sens": "au complet (上齐 : tous les plats servis)"
+   },
+   {
+    "mot": "重新",
+    "pinyin": "chóngxīn",
+    "sens": "de nouveau, à nouveau"
+   },
+   {
+    "mot": "道歉",
+    "pinyin": "dàoqiàn",
+    "sens": "s'excuser, présenter ses excuses"
+   },
+   {
+    "mot": "免费",
+    "pinyin": "miǎnfèi",
+    "sens": "gratuit"
+   }
+  ]
+ },
+ {
+  "titre": "学英语的烦恼",
+  "niveau": 4,
+  "texte": "男：听说你在学英语，学得怎么样了？\n女：唉，语法太复杂了，生词也总是记不住，我都想放弃了。\n男：刚开始都这样。你每天花多少时间学习？\n女：周末一次学三四个小时，平时工作忙，基本没时间。\n男：我觉得这样效果不好。学语言最好每天都练，哪怕只有二十分钟。\n女：可是一个人练口语太难了，没有人跟我说话。\n男：你可以在网上找个外国朋友，你教他汉语，他教你英语，互相帮助。\n女：这个主意不错！我还可以多看英文电影，提高听力。\n男：对，多听多说，慢慢就有感觉了。",
+  "traduction": "Homme : Il paraît que tu apprends l'anglais. Comment ça avance ?\nFemme : Oh là là, la grammaire est trop compliquée, et je n'arrive jamais à retenir le vocabulaire. J'ai presque envie de laisser tomber.\nHomme : Au début, c'est toujours comme ça. Combien de temps est-ce que tu y consacres par jour ?\nFemme : Le week-end, j'étudie trois ou quatre heures d'affilée ; en semaine, j'ai beaucoup de travail, je n'ai pratiquement pas le temps.\nHomme : À mon avis, ce n'est pas très efficace. Pour apprendre une langue, le mieux est de pratiquer tous les jours, même si ce n'est que vingt minutes.\nFemme : Mais pratiquer l'oral toute seule, c'est trop difficile, je n'ai personne à qui parler.\nHomme : Tu pourrais trouver un ami étranger sur Internet : tu lui apprends le chinois, il t'apprend l'anglais, et vous vous aidez mutuellement.\nFemme : C'est une bonne idée ! Je peux aussi regarder davantage de films en anglais pour améliorer ma compréhension orale.\nHomme : Oui, écoute beaucoup, parle beaucoup, et petit à petit ça va venir.",
+  "questions": [
+   {
+    "q": "女的学英语遇到了什么困难？",
+    "r": "语法太复杂，生词总是记不住。"
+   },
+   {
+    "q": "男的觉得女的的学习方法有什么问题？",
+    "r": "她只在周末学，平时不练；应该每天都练。"
+   },
+   {
+    "q": "男的建议女的怎么练口语？",
+    "r": "在网上找个外国朋友，互相教对方语言。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "语法",
+    "pinyin": "yǔfǎ",
+    "sens": "grammaire"
+   },
+   {
+    "mot": "放弃",
+    "pinyin": "fàngqì",
+    "sens": "abandonner, renoncer"
+   },
+   {
+    "mot": "效果",
+    "pinyin": "xiàoguǒ",
+    "sens": "effet, résultat"
+   },
+   {
+    "mot": "哪怕",
+    "pinyin": "nǎpà",
+    "sens": "même si"
+   },
+   {
+    "mot": "互相",
+    "pinyin": "hùxiāng",
+    "sens": "mutuellement, l'un l'autre"
+   }
+  ]
+ },
+ {
+  "titre": "半夜的钢琴声",
+  "niveau": 4,
+  "texte": "女：您好，我住在楼下，不好意思打扰您了。\n男：没关系，有什么事吗？\n女：最近几天晚上十二点以后，您家好像总有人弹钢琴，还有人走来走去，我怎么也睡不着。\n男：真对不起！我儿子马上要参加钢琴比赛，每天练习到很晚。我们没想到楼下听得这么清楚。\n女：我理解，孩子练习也很重要。不过我每天早上六点就要起床上班。\n男：这样吧，以后我让他十点以前练完。我们在家走路也会注意轻一点儿。\n女：太感谢了！祝您儿子比赛顺利。\n男：谢谢！以后有什么问题，您直接来敲门就行。",
+  "traduction": "Femme : Bonjour, j'habite à l'étage en dessous. Excusez-moi de vous déranger.\nHomme : Ce n'est rien. Qu'est-ce qui vous amène ?\nFemme : Ces derniers jours, après minuit, on dirait qu'il y a toujours quelqu'un qui joue du piano chez vous, et quelqu'un qui marche de long en large : je n'arrive pas du tout à dormir.\nHomme : Je suis vraiment désolé ! Mon fils va bientôt participer à un concours de piano, il s'entraîne tous les jours jusqu'à très tard. Nous ne pensions pas qu'on l'entendrait aussi nettement à l'étage du dessous.\nFemme : Je comprends, c'est important aussi que l'enfant s'entraîne. Mais moi, je dois me lever tous les matins à six heures pour aller travailler.\nHomme : Écoutez, désormais je lui demanderai d'avoir fini avant dix heures. Et à la maison, nous ferons aussi attention à marcher plus doucement.\nFemme : Merci beaucoup ! Je souhaite bonne chance à votre fils pour le concours.\nHomme : Merci ! Si à l'avenir il y a le moindre problème, venez directement frapper à notre porte.",
+  "questions": [
+   {
+    "q": "女的为什么来找男的？",
+    "r": "晚上十二点以后他家有人弹钢琴、走来走去，她睡不着。"
+   },
+   {
+    "q": "男的的儿子为什么每天练到很晚？",
+    "r": "他马上要参加钢琴比赛。"
+   },
+   {
+    "q": "男的答应怎么解决这个问题？",
+    "r": "让儿子十点以前练完，在家走路也轻一点儿。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "打扰",
+    "pinyin": "dǎrǎo",
+    "sens": "déranger"
+   },
+   {
+    "mot": "钢琴",
+    "pinyin": "gāngqín",
+    "sens": "piano"
+   },
+   {
+    "mot": "理解",
+    "pinyin": "lǐjiě",
+    "sens": "comprendre"
+   },
+   {
+    "mot": "顺利",
+    "pinyin": "shùnlì",
+    "sens": "sans encombre, bien se passer"
+   },
+   {
+    "mot": "敲门",
+    "pinyin": "qiāomén",
+    "sens": "frapper à la porte"
+   }
+  ]
+ },
+ {
   "titre": "耳机退货",
   "niveau": 5,
   "texte": "女：您好，这里是客户服务中心，请问有什么可以帮您？\n男：你好，我上周在你们网站上买了一副耳机，才用了三天，左边就没声音了。\n女：非常抱歉给您带来麻烦。请问您的订单号是多少？\n男：是六八三五二零。我想退货。\n女：好的，查到了。您的商品还在保修期内，我们可以免费给您换一副新的，也可以直接把钱退给您，您看哪种方式更方便？\n男：还是退钱吧，这个牌子我已经没信心了。\n女：理解。那麻烦您把耳机寄回来，费用由我们承担。收到货以后，我们会在三到五个工作日内把钱退到您的账户里。\n男：包装盒我已经扔了，还能退吗？\n女：没关系，您在退货申请里说明一下原因就行。\n男：好的，谢谢。",
@@ -880,6 +1607,194 @@
   ]
  },
  {
+  "titre": "婚礼怎么办",
+  "niveau": 5,
+  "texte": "女：婚礼的日子定下来了吗？\n男：定了，十月三号。不过酒店说大厅已经被预订了，只剩一个小一点儿的。\n女：小一点儿没关系，我本来就不想请太多人。你那边的亲戚名单列好了吗？\n男：我妈给了我一份，八十多个人，好多我连面都没见过。\n女：这么多？我觉得婚礼应该简单一点儿，只请关系近的亲戚和朋友。\n男：我也这么想，可是我妈说，这些年别人家办婚礼，我们都去了，这次不请不合适。\n女：那我们各退一步吧：人数控制在一百以内，省下来的钱用来旅行结婚。\n男：好主意。我晚上回去跟我妈好好商量商量。对了，摄影师和主持人你联系了吗？\n女：摄影师已经约好了，主持人还在比较，下周就能决定。\n男：辛苦你了，剩下的事交给我吧。",
+  "traduction": "Femme : La date du mariage est fixée ?\nHomme : Oui, le 3 octobre. Mais l'hôtel dit que la grande salle est déjà réservée ; il ne reste qu'une salle un peu plus petite.\nFemme : Un peu plus petite, ce n'est pas grave, de toute façon je ne voulais pas inviter trop de monde. Et la liste des invités de ta famille, elle est prête ?\nHomme : Ma mère m'en a donné une : plus de quatre-vingts personnes, dont beaucoup que je n'ai même jamais vues.\nFemme : Autant ? À mon avis, le mariage devrait être plus simple : on n'invite que les parents et les amis proches.\nHomme : C'est aussi ce que je pense, mais ma mère dit que ces dernières années, quand les autres familles ont organisé des mariages, nous y sommes allés à chaque fois, et que ne pas les inviter cette fois-ci, ça ne se fait pas.\nFemme : Alors faisons chacun un pas vers l'autre : on limite le nombre d'invités à moins de cent, et l'argent économisé, on s'en sert pour faire un voyage de noces.\nHomme : Bonne idée. Ce soir, en rentrant, j'en discuterai sérieusement avec ma mère. Au fait, tu as contacté le photographe et le maître de cérémonie ?\nFemme : Pour le photographe, c'est réglé ; pour le maître de cérémonie, je suis encore en train de comparer, je pourrai décider la semaine prochaine.\nHomme : Merci pour tout ce travail, je m'occupe du reste.",
+  "questions": [
+   {
+    "q": "关于举行婚礼的大厅，可以知道什么？",
+    "r": "大厅已经被预订了，只剩一个小一点儿的。"
+   },
+   {
+    "q": "女的对婚礼有什么看法？",
+    "r": "应该简单一点儿，只请关系近的亲戚和朋友。"
+   },
+   {
+    "q": "男的晚上回去打算做什么？",
+    "r": "跟他妈妈好好商量请客的人数。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "预订",
+    "pinyin": "yùdìng",
+    "sens": "réserver"
+   },
+   {
+    "mot": "亲戚",
+    "pinyin": "qīnqi",
+    "sens": "parents, membres de la famille"
+   },
+   {
+    "mot": "控制",
+    "pinyin": "kòngzhì",
+    "sens": "contrôler, limiter"
+   },
+   {
+    "mot": "商量",
+    "pinyin": "shāngliang",
+    "sens": "discuter, se concerter"
+   },
+   {
+    "mot": "摄影师",
+    "pinyin": "shèyǐngshī",
+    "sens": "photographe"
+   }
+  ]
+ },
+ {
+  "titre": "选哪所大学",
+  "niveau": 5,
+  "texte": "男：上哪所大学，你想好了吗？\n女：还没决定。按我的分数，可以去一所名牌大学读历史，也可以去一所普通大学读计算机。\n男：你自己更喜欢哪个？\n女：其实我对计算机更感兴趣，而且以后好找工作。可是大家都说名牌大学的机会更多。\n男：学校有名当然重要，但是专业决定了你四年学什么，甚至以后做什么。\n女：可要是我去了普通学校，别人会不会看不起我？\n男：别太在乎别人的看法。我认识很多人，是从普通学校毕业的，但是靠自己的能力，一样发展得很好。\n女：那您的意思是让我选计算机？\n男：我只是给你建议，最后还是得你自己拿主意。你可以先去两个学校看看，再跟老师聊聊。\n女：好，这个周末我就去参观一下。",
+  "traduction": "Homme : Tu as décidé dans quelle université tu vas aller ?\nFemme : Je n'ai pas encore décidé. Avec mes notes, je peux aller dans une université prestigieuse pour étudier l'histoire, ou bien dans une université ordinaire pour étudier l'informatique.\nHomme : Et toi, qu'est-ce qui te plaît le plus ?\nFemme : En fait, l'informatique m'intéresse davantage, et en plus, plus tard, ce sera plus facile de trouver du travail. Mais tout le monde dit qu'une université prestigieuse offre plus d'opportunités.\nHomme : La réputation de l'établissement compte, bien sûr, mais c'est la filière qui décide de ce que tu vas étudier pendant quatre ans, et même de ce que tu feras ensuite.\nFemme : Mais si je vais dans une université ordinaire, est-ce que les autres ne vont pas me regarder de haut ?\nHomme : Ne fais pas trop attention à l'avis des autres. Je connais beaucoup de gens qui sont sortis d'universités ordinaires, et qui, grâce à leurs propres compétences, ont fait tout aussi bien leur chemin.\nFemme : Donc, ce que vous voulez dire, c'est que je devrais choisir l'informatique ?\nHomme : Je ne fais que te donner un conseil ; au bout du compte, c'est à toi de décider. Tu peux d'abord aller voir les deux universités, puis en parler avec tes professeurs.\nFemme : D'accord, j'irai les visiter dès ce week-end.",
+  "questions": [
+   {
+    "q": "女的现在有哪两个选择？",
+    "r": "去名牌大学读历史，或者去普通大学读计算机。"
+   },
+   {
+    "q": "女的担心什么？",
+    "r": "担心去了普通学校，别人会看不起她。"
+   },
+   {
+    "q": "男的建议女的接下来怎么做？",
+    "r": "先去两个学校看看，再跟老师聊聊，最后自己拿主意。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "名牌",
+    "pinyin": "míngpái",
+    "sens": "marque célèbre ; (université) prestigieuse"
+   },
+   {
+    "mot": "专业",
+    "pinyin": "zhuānyè",
+    "sens": "spécialité, filière d'études"
+   },
+   {
+    "mot": "甚至",
+    "pinyin": "shènzhì",
+    "sens": "voire, et même"
+   },
+   {
+    "mot": "在乎",
+    "pinyin": "zàihu",
+    "sens": "se soucier de, tenir compte de"
+   },
+   {
+    "mot": "靠",
+    "pinyin": "kào",
+    "sens": "compter sur ; grâce à"
+   }
+  ]
+ },
+ {
+  "titre": "报告前电脑坏了",
+  "niveau": 5,
+  "texte": "男：糟糕，电脑屏幕突然黑了，怎么按都没反应！\n女：别急，是不是没电了？你插上电源试试。\n男：插上了，还是没反应。下午两点我就要给客户做报告，现在已经十二点半了！\n女：你的文件在别的地方存过吗？\n男：昨天晚上我把文件发到了自己的邮箱，可是今天上午又改了不少内容，那部分都没保存下来。\n女：那先用我的电脑把昨天的文件下载下来，你凭记忆把改过的地方加上去。\n男：只能这样了。可是这台电脑还能修好吗？里面有很多重要资料。\n女：楼下就有修电脑的店，我帮你送过去，你专心准备报告。\n男：太感谢你了！以后重要的文件，我一定多存几个地方。\n女：现在说这些没用，抓紧时间吧。",
+  "traduction": "Homme : Zut, l'écran de l'ordinateur est subitement devenu noir, et j'ai beau appuyer partout, rien ne réagit !\nFemme : Pas de panique, ce n'est pas la batterie qui est vide ? Branche-le sur le secteur pour voir.\nHomme : C'est branché, et il ne réagit toujours pas. À deux heures cet après-midi, je dois faire une présentation devant un client, et il est déjà midi et demi !\nFemme : Ton fichier, tu l'as enregistré ailleurs ?\nHomme : Hier soir, je me le suis envoyé sur ma boîte mail, mais ce matin j'ai encore modifié pas mal de contenu, et cette partie-là n'a pas été sauvegardée.\nFemme : Alors télécharge d'abord le fichier d'hier sur mon ordinateur, et tu rajoutes de mémoire les passages que tu avais modifiés.\nHomme : On n'a pas le choix. Mais est-ce que cet ordinateur pourra encore être réparé ? Il y a beaucoup de documents importants dedans.\nFemme : Il y a une boutique de réparation d'ordinateurs juste en bas, je m'occupe de l'y déposer ; toi, concentre-toi sur la préparation de ta présentation.\nHomme : Merci infiniment ! À l'avenir, mes fichiers importants, je les enregistrerai à plusieurs endroits, c'est sûr.\nFemme : Ça ne sert à rien d'en parler maintenant, ne perds pas de temps.",
+  "questions": [
+   {
+    "q": "男的遇到了什么麻烦？",
+    "r": "电脑屏幕突然黑了，怎么按都没反应，可是下午两点他要给客户做报告。"
+   },
+   {
+    "q": "男的的文件为什么有一部分找不回来了？",
+    "r": "今天上午改的内容没保存下来，邮箱里只有昨天晚上的文件。"
+   },
+   {
+    "q": "女的打算怎么帮男的？",
+    "r": "把自己的电脑给他用，再帮他把坏电脑送到楼下修。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "糟糕",
+    "pinyin": "zāogāo",
+    "sens": "zut ! ; catastrophique"
+   },
+   {
+    "mot": "反应",
+    "pinyin": "fǎnyìng",
+    "sens": "réaction ; réagir"
+   },
+   {
+    "mot": "客户",
+    "pinyin": "kèhù",
+    "sens": "client"
+   },
+   {
+    "mot": "保存",
+    "pinyin": "bǎocún",
+    "sens": "conserver ; sauvegarder (un fichier)"
+   },
+   {
+    "mot": "凭",
+    "pinyin": "píng",
+    "sens": "en s'appuyant sur, grâce à"
+   }
+  ]
+ },
+ {
+  "titre": "网上卖旧相机",
+  "niveau": 5,
+  "texte": "男：你好，我在网上看到你要卖一台相机，还在吗？\n女：还在。这台相机我买了两年了，平时用得不多，看起来跟新的差不多。\n男：你写的价格是三千五，能不能便宜一点儿？\n女：这已经是最低价了。当时我花了六千多才买下来。\n男：可是听说这个牌子下个月就要出新产品了，到时候旧的肯定会降价。三千怎么样？\n女：三千太低了。这样吧，三千三，快递费我出，再送你一个相机包。\n男：行。不过收到以后我要先检查一下，没问题了再确认收货，可以吗？\n女：当然可以，网站就是这么规定的。如果有质量问题，七天之内可以退货。\n男：好，那我现在就付钱。\n女：好的，我今天下午就给你寄过去。",
+  "traduction": "Homme : Bonjour, j'ai vu sur Internet que vous vendiez un appareil photo. Il est toujours disponible ?\nFemme : Oui. Je l'ai acheté il y a deux ans, je ne m'en sers pas beaucoup, il a l'air presque neuf.\nHomme : Le prix que vous avez indiqué, c'est trois mille cinq cents. Vous pourriez baisser un peu ?\nFemme : C'est déjà mon prix le plus bas. À l'époque, je l'avais payé plus de six mille.\nHomme : Mais il paraît que cette marque sort un nouveau produit le mois prochain ; à ce moment-là, les anciens modèles vont forcément baisser. Qu'est-ce que vous diriez de trois mille ?\nFemme : Trois mille, c'est trop bas. Écoutez : trois mille trois cents, je paie les frais d'envoi, et je vous offre en plus une housse pour l'appareil.\nHomme : D'accord. Mais une fois reçu, je voudrais d'abord le vérifier, et je ne confirmerai la réception que s'il n'y a pas de problème. Ça vous va ?\nFemme : Bien sûr, c'est ce que prévoit le règlement du site. S'il y a un problème de qualité, vous pouvez le retourner sous sept jours.\nHomme : Bien, alors je paie tout de suite.\nFemme : Parfait, je vous l'envoie cet après-midi même.",
+  "questions": [
+   {
+    "q": "女的的相机怎么样？",
+    "r": "买了两年了，用得不多，看起来跟新的差不多。"
+   },
+   {
+    "q": "男的为什么认为相机应该再便宜一点儿？",
+    "r": "这个牌子下个月要出新产品，到时候旧的会降价。"
+   },
+   {
+    "q": "最后两个人谈好的条件是什么？",
+    "r": "三千三，女的出快递费，还送一个相机包。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "牌子",
+    "pinyin": "páizi",
+    "sens": "marque"
+   },
+   {
+    "mot": "降价",
+    "pinyin": "jiàngjià",
+    "sens": "baisser le prix, être soldé"
+   },
+   {
+    "mot": "确认",
+    "pinyin": "quèrèn",
+    "sens": "confirmer"
+   },
+   {
+    "mot": "质量",
+    "pinyin": "zhìliàng",
+    "sens": "qualité"
+   },
+   {
+    "mot": "规定",
+    "pinyin": "guīdìng",
+    "sens": "règle ; stipuler"
+   }
+  ]
+ },
+ {
   "titre": "回乡种茶的年轻人",
   "niveau": 6,
   "texte": "女：欢迎来到我们的节目。听说您大学毕业后放弃了城里收入很高的工作，回老家种茶。当时家里人支持吗？\n男：几乎没人理解。父母辛辛苦苦供我读书，就是希望我离开农村，我却回来了，他们觉得很没面子。\n女：那您为什么还是坚持回来了？\n男：我们村的茶叶品质其实很好，但一直没什么名气，只能低价卖给外地商人。我想试试能不能改变这种局面。\n女：这几年效果怎么样？\n男：我们注册了自己的品牌，在网上直播卖茶，还请游客来茶园摘茶叶。现在茶叶的价格翻了一倍多。\n女：过程中最大的困难是什么？\n男：是观念的转变。老一辈习惯了传统种法，不愿意冒险。我只好先在自家茶园做示范，大家看到了收益，才慢慢跟着做。\n女：对想回乡创业的年轻人，您有什么建议？\n男：别光凭一时的热情。要先了解当地的情况，找准方向，还要做好吃苦的准备。",
@@ -1064,6 +1979,506 @@
     "mot": "答复",
     "pinyin": "dáfù",
     "sens": "réponse (officielle), répondre"
+   }
+  ]
+ },
+ {
+  "titre": "方案是谁做的",
+  "niveau": 6,
+  "texte": "女：我实在受不了了。上周的方案明明是我加了好几天班做出来的，可在会上，同组的那个同事却说成是他的想法。\n男：先冷静一下。你确定他是故意的吗？会不会只是没表达清楚？\n女：他从开始到最后一直在说“我”，一次也没提到我。领导还当场表扬了他。\n男：这件事确实让人委屈。不过要是你直接在办公室跟他吵，别人只会觉得你小气。\n女：那我就只能默默接受吗？\n男：当然不是。我建议你先单独找他谈一谈，把你的感受说清楚，看看他怎么解释。\n女：要是他不承认呢？\n男：那你就把方案的修改记录和邮件整理好，找机会主动跟领导汇报工作进展。事实摆在那里，领导心里自然明白。\n女：有道理。与其自己生气，不如拿出证据。\n男：对。另外，以后合作之前，最好先把分工写清楚，发邮件让大家确认，这样就不会再有类似的误会了。",
+  "traduction": "Femme : Je n'en peux vraiment plus. Le projet de la semaine dernière, c'est clairement moi qui l'ai fait, en faisant des heures supplémentaires pendant plusieurs jours ; et pourtant, en réunion, ce collègue de notre équipe l'a présenté comme son idée.\nHomme : Calme-toi d'abord. Tu es sûre qu'il l'a fait exprès ? Ce ne serait pas simplement qu'il s'est mal exprimé ?\nFemme : Du début à la fin, il n'a fait que dire « je », il ne m'a pas mentionnée une seule fois. Et le chef l'a félicité sur-le-champ.\nHomme : C'est vrai que c'est injuste pour toi. Mais si tu te disputes avec lui directement au bureau, les autres vont juste te trouver mesquine.\nFemme : Alors je n'ai plus qu'à encaisser sans rien dire ?\nHomme : Bien sûr que non. Je te conseille d'abord d'aller lui parler en tête à tête, de lui dire clairement ce que tu ressens, et de voir comment il s'explique.\nFemme : Et s'il ne reconnaît pas les faits ?\nHomme : Alors rassemble l'historique des modifications du projet et les e-mails, et saisis une occasion d'aller de toi-même faire le point avec le chef sur l'avancement de ton travail. Les faits sont là, le chef comprendra de lui-même.\nFemme : Tu as raison. Plutôt que de rester en colère dans mon coin, mieux vaut sortir des preuves.\nHomme : Exactement. Et puis, à l'avenir, avant de travailler ensemble, mieux vaut d'abord mettre par écrit la répartition des tâches et envoyer un e-mail pour que tout le monde la confirme : comme ça, ce genre de malentendu ne se reproduira plus.",
+  "questions": [
+   {
+    "q": "女的为什么生气？",
+    "r": "她做的方案，同组的同事在会上说成是自己的想法。"
+   },
+   {
+    "q": "男的为什么不同意女的在办公室跟那个同事吵？",
+    "r": "因为别人只会觉得她小气。"
+   },
+   {
+    "q": "如果那个同事不承认，男的建议女的怎么做？",
+    "r": "整理好修改记录和邮件，主动找领导汇报工作进展。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "明明",
+    "pinyin": "míngmíng",
+    "sens": "manifestement, pourtant bel et bien"
+   },
+   {
+    "mot": "委屈",
+    "pinyin": "wěiqu",
+    "sens": "se sentir lésé, victime d'une injustice"
+   },
+   {
+    "mot": "小气",
+    "pinyin": "xiǎoqi",
+    "sens": "mesquin, radin"
+   },
+   {
+    "mot": "汇报",
+    "pinyin": "huìbào",
+    "sens": "rendre compte, faire un rapport (à un supérieur)"
+   },
+   {
+    "mot": "与其",
+    "pinyin": "yǔqí",
+    "sens": "plutôt que (与其……不如……)"
+   }
+  ]
+ },
+ {
+  "titre": "垃圾分类难不难",
+  "niveau": 6,
+  "texte": "女：各位听众，欢迎收听《绿色生活》。今天我们请到了一位研究垃圾处理的专家。您好！\n男：主持人好，大家好。\n女：很多城市都在推行垃圾分类，可不少居民觉得太麻烦，分不清楚。您怎么看？\n男：刚开始觉得麻烦很正常，任何习惯的养成都需要一个过程。其实只要记住几个大类，大部分问题就能解决。\n女：也有人怀疑，自己辛辛苦苦分好了，结果垃圾车一来，又全部混在一起。\n男：这种情况过去确实存在，所以光靠居民还不够，运输和处理也必须跟上。现在很多城市已经做到分类运输、分类处理，居民也可以进行监督。\n女：那对普通家庭来说，除了分类，还能做些什么？\n男：最根本的是从源头减少垃圾。比如购物时自己带袋子，少点外卖，旧衣服捐出去，而不是直接扔掉。\n女：看来环保并不遥远，就藏在日常生活的细节里。\n男：没错，每个人多做一点儿，积累起来就是巨大的改变。",
+  "traduction": "Femme : Chers auditeurs, bienvenue dans « Vivre vert ». Nous recevons aujourd'hui un spécialiste du traitement des déchets. Bonjour !\nHomme : Bonjour à vous, et bonjour à tous.\nFemme : Beaucoup de villes mettent en place le tri des déchets, mais de nombreux habitants trouvent cela trop compliqué et n'arrivent pas à s'y retrouver. Qu'en pensez-vous ?\nHomme : Il est tout à fait normal de trouver cela compliqué au début : toute habitude met du temps à s'installer. En réalité, il suffit de retenir quelques grandes catégories pour régler la plupart des problèmes.\nFemme : Certains se demandent aussi si, après avoir fait le tri avec beaucoup d'efforts, tout ne se retrouve pas mélangé dès que le camion-poubelle arrive.\nHomme : Cela s'est effectivement produit par le passé ; c'est pourquoi les habitants ne peuvent pas tout faire seuls : le transport et le traitement doivent suivre. Aujourd'hui, beaucoup de villes pratiquent déjà le transport et le traitement séparés, et les habitants peuvent aussi exercer un contrôle.\nFemme : Et pour une famille ordinaire, en dehors du tri, que peut-on faire d'autre ?\nHomme : Le plus fondamental, c'est de réduire les déchets à la source. Par exemple, apporter son propre sac quand on fait ses courses, commander moins de plats à emporter, donner ses vieux vêtements au lieu de les jeter directement.\nFemme : L'écologie n'est donc pas si lointaine : elle se cache dans les détails de la vie quotidienne.\nHomme : Tout à fait. Si chacun en fait un peu plus, cela finit par produire un changement énorme.",
+  "questions": [
+   {
+    "q": "很多居民对垃圾分类有什么看法？",
+    "r": "觉得太麻烦，分不清楚。"
+   },
+   {
+    "q": "专家认为普通家庭除了分类还能做什么？",
+    "r": "从源头减少垃圾，比如自己带袋子、少点外卖、把旧衣服捐出去。"
+   },
+   {
+    "q": "女的最后一句话是什么意思？",
+    "r": "环保并不遥远，就在日常生活的细节里。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "推行",
+    "pinyin": "tuīxíng",
+    "sens": "mettre en œuvre, généraliser (une mesure)"
+   },
+   {
+    "mot": "居民",
+    "pinyin": "jūmín",
+    "sens": "habitant, résident"
+   },
+   {
+    "mot": "监督",
+    "pinyin": "jiāndū",
+    "sens": "surveiller, contrôler"
+   },
+   {
+    "mot": "源头",
+    "pinyin": "yuántóu",
+    "sens": "source, origine"
+   },
+   {
+    "mot": "积累",
+    "pinyin": "jīlěi",
+    "sens": "accumuler"
+   }
+  ]
+ },
+ {
+  "titre": "去法国实习",
+  "niveau": 6,
+  "texte": "男：听说你拿到了法国那家公司的实习机会，恭喜啊！\n女：谢谢。不过我还在犹豫要不要去。\n男：为什么？这么难得的机会，好多人抢都抢不到。\n女：实习期是半年，没有工资，只提供住宿补贴。巴黎的物价那么高，光生活费就是一笔不小的开支。\n男：确实是个现实问题。那你父母是什么意见？\n女：他们倒是很支持，说钱的事不用我操心。可我都这么大了，不想再给家里增加负担。\n男：我理解你的心情。但你换个角度想想，这半年的经历对你以后找工作很有帮助，算是一种投资。\n女：我也这么想过。而且我的法语只停留在课本上，要是能在当地工作和生活，进步肯定会很快。\n男：如果实在担心钱，你可以先申请学校的交流奖学金，周末再找份兼职。\n女：好主意，我明天就去国际处问问申请条件。",
+  "traduction": "Homme : Il paraît que tu as décroché un stage dans cette entreprise en France, félicitations !\nFemme : Merci. Mais j'hésite encore à y aller.\nHomme : Pourquoi ? C'est une occasion rare, beaucoup de gens se battent pour en avoir une sans y arriver.\nFemme : Le stage dure six mois, il n'est pas rémunéré, seule une indemnité de logement est prévue. Les prix sont tellement élevés à Paris que rien que le coût de la vie représente une dépense considérable.\nHomme : C'est vrai que c'est un problème concret. Et tes parents, qu'est-ce qu'ils en pensent ?\nFemme : Eux, ils me soutiennent à fond, ils disent que je n'ai pas à me soucier de l'argent. Mais à mon âge, je ne veux plus être une charge supplémentaire pour ma famille.\nHomme : Je comprends ce que tu ressens. Mais vois les choses sous un autre angle : ces six mois d'expérience t'aideront beaucoup à trouver du travail plus tard, c'est en quelque sorte un investissement.\nFemme : J'y ai pensé aussi. Et puis mon français n'a pas dépassé le stade du manuel ; si je pouvais travailler et vivre sur place, je progresserais sûrement très vite.\nHomme : Si l'argent t'inquiète vraiment, tu peux d'abord demander une bourse d'échange auprès de ton université, et trouver en plus un petit boulot le week-end.\nFemme : Bonne idée, dès demain je vais au service des relations internationales me renseigner sur les conditions de candidature.",
+  "questions": [
+   {
+    "q": "女的为什么还在犹豫？",
+    "r": "实习没有工资，只有住宿补贴，巴黎生活费太高。"
+   },
+   {
+    "q": "女的的父母是什么态度？",
+    "r": "很支持，说钱的事不用她操心。"
+   },
+   {
+    "q": "女的明天最可能做什么？",
+    "r": "去国际处问奖学金的申请条件。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "犹豫",
+    "pinyin": "yóuyù",
+    "sens": "hésiter"
+   },
+   {
+    "mot": "补贴",
+    "pinyin": "bǔtiē",
+    "sens": "allocation, indemnité"
+   },
+   {
+    "mot": "负担",
+    "pinyin": "fùdān",
+    "sens": "charge, fardeau"
+   },
+   {
+    "mot": "角度",
+    "pinyin": "jiǎodù",
+    "sens": "angle, point de vue"
+   },
+   {
+    "mot": "兼职",
+    "pinyin": "jiānzhí",
+    "sens": "emploi à temps partiel, petit boulot"
+   }
+  ]
+ },
+ {
+  "titre": "老厨师的坚持",
+  "niveau": 6,
+  "texte": "女：今天我们来到了一家开了三十年的老饭馆，采访这里的厨师。师傅，您做菜多少年了？\n男：我十六岁就在饭馆打工，从洗菜、切菜开始学，到现在快四十年了。\n女：听说您做的红烧肉特别有名，很多客人专门从外地赶过来。有什么秘诀吗？\n男：说出来其实一点儿也不神秘，就是不怕麻烦。肉一定要选当天的新鲜猪肉，每一步都不能省，光用小火慢慢煮就得一个半小时。\n女：现在很多饭店都用工厂提前做好的菜，出菜又快又稳定，您没考虑过吗？\n男：有人劝过我，说这样能省一半的人工。可我觉得，那样做出来的菜少了一份用心，老顾客一尝就知道。\n女：您教过不少年轻厨师，对他们最看重的是什么？\n男：技术可以慢慢练，但态度必须认真。我常跟他们说，厨师要对得起客人吃的每一口饭。\n女：最后，您有什么话想对年轻厨师说？\n男：别急着出名。把一道普普通通的菜做好，比会做一百道复杂的菜更难得。",
+  "traduction": "Femme : Nous sommes aujourd'hui dans un vieux restaurant ouvert depuis trente ans, pour interviewer le cuisinier de la maison. Chef, depuis combien d'années faites-vous la cuisine ?\nHomme : À seize ans, je travaillais déjà dans un restaurant ; j'ai commencé par laver et couper les légumes, et ça va bientôt faire quarante ans.\nFemme : Il paraît que votre porc braisé à la sauce soja est très célèbre, et que beaucoup de clients viennent exprès d'autres villes. Quel est votre secret ?\nHomme : À vrai dire, il n'a rien de mystérieux : il suffit de ne pas avoir peur de se donner du mal. Il faut absolument choisir du porc frais du jour, ne sauter aucune étape ; rien que la cuisson lente à feu doux prend une heure et demie.\nFemme : Aujourd'hui, beaucoup de restaurants utilisent des plats préparés à l'avance en usine : le service est rapide et la qualité constante. Vous n'y avez jamais songé ?\nHomme : On a essayé de m'en convaincre, en me disant que ça permettrait d'économiser la moitié de la main-d'œuvre. Mais je trouve que les plats faits comme ça manquent de soin, et les habitués s'en rendent compte dès la première bouchée.\nFemme : Vous avez formé beaucoup de jeunes cuisiniers. Qu'est-ce qui compte le plus pour vous chez eux ?\nHomme : La technique, on peut la travailler petit à petit, mais l'attitude doit être sérieuse. Je leur dis souvent qu'un cuisinier doit être à la hauteur de chaque bouchée que mange le client.\nFemme : Pour finir, qu'aimeriez-vous dire aux jeunes cuisiniers ?\nHomme : Ne soyez pas pressés de devenir célèbres. Réussir un plat tout simple est plus rare que de savoir faire cent plats compliqués.",
+  "questions": [
+   {
+    "q": "男的认为做好红烧肉的秘诀是什么？",
+    "r": "不怕麻烦：选当天的新鲜猪肉，每一步都不省，用小火慢慢煮一个半小时。"
+   },
+   {
+    "q": "男的为什么不用工厂提前做好的菜？",
+    "r": "他觉得那样做出来的菜少了一份用心，老顾客一尝就知道。"
+   },
+   {
+    "q": "对年轻厨师，男的最看重什么？",
+    "r": "态度，必须认真。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "采访",
+    "pinyin": "cǎifǎng",
+    "sens": "interviewer (journaliste)"
+   },
+   {
+    "mot": "秘诀",
+    "pinyin": "mìjué",
+    "sens": "secret, recette (du succès)"
+   },
+   {
+    "mot": "稳定",
+    "pinyin": "wěndìng",
+    "sens": "stable, constant"
+   },
+   {
+    "mot": "用心",
+    "pinyin": "yòngxīn",
+    "sens": "soin, application ; appliqué"
+   },
+   {
+    "mot": "对得起",
+    "pinyin": "duìdeqǐ",
+    "sens": "être à la hauteur de, ne pas décevoir"
+   }
+  ]
+ },
+ {
+  "titre": "减负之后",
+  "niveau": 7,
+  "texte": "女：各位听众，欢迎收听本期节目。近年来，“减负”一直是家长们热议的话题。今天我们请到了一位长期研究基础教育的学者。您认为，学生的负担真的减下来了吗？\n男：应该说，作业量和校外培训确实有所减少，但家长的焦虑并没有随之消失。不少家庭表面上顺应了政策，私下里仍在想方设法给孩子“加码”。\n女：为什么会出现这种局面呢？\n男：归根结底，是评价方式没有根本改变。只要升学主要看分数，竞争就不可避免。这就好比在剧场里看戏，前排有人站了起来，后排的人为了看清楚，也只好跟着站起来。最后大家都站着，谁也没看得更清楚，反而都更累了。\n女：这个比喻很形象。那么，作为家长，怎样才能不随波逐流呢？\n男：不可否认，这需要很大的定力。首先，要了解孩子的特点，因材施教，而不是盲目攀比；其次，要明白急于求成往往适得其反。一个对学习失去兴趣的孩子，即使分数一时提高了，后劲也未必足。\n女：换句话说，比起眼前的分数，更重要的是保护孩子的好奇心。\n男：没错。教育是一场马拉松，而不是百米冲刺。",
+  "traduction": "Femme : Chers auditeurs, bienvenue dans cette émission. Ces dernières années, l'« allègement de la charge scolaire » est un sujet dont les parents débattent sans cesse. Nous recevons aujourd'hui un chercheur qui étudie depuis longtemps l'enseignement primaire et secondaire. Selon vous, la charge des élèves a-t-elle vraiment diminué ?\nHomme : Disons que la quantité de devoirs et les cours privés hors de l'école ont effectivement diminué, mais l'anxiété des parents n'a pas disparu pour autant. Beaucoup de familles se conforment en apparence à cette politique, mais en privé, elles cherchent toujours par tous les moyens à « en rajouter » pour leurs enfants.\nFemme : Comment en est-on arrivé là ?\nHomme : Au fond, c'est parce que le mode d'évaluation n'a pas fondamentalement changé. Tant que le passage dans le cycle suivant dépend surtout des notes, la compétition est inévitable. C'est comme au théâtre : si quelqu'un se lève au premier rang, les spectateurs derrière lui, pour bien voir, n'ont d'autre choix que de se lever à leur tour. Au bout du compte, tout le monde est debout, personne ne voit mieux, et tout le monde est plus fatigué.\nFemme : L'image est très parlante. Alors, en tant que parent, comment éviter de suivre le mouvement ?\nHomme : Il est indéniable que cela demande beaucoup de fermeté. D'abord, il faut connaître les particularités de son enfant et adapter l'éducation à ses aptitudes, au lieu de se comparer aveuglément aux autres ; ensuite, il faut comprendre que vouloir des résultats trop vite est souvent contre-productif. Un enfant qui a perdu le goût d'apprendre, même si ses notes montent un moment, risque de manquer de souffle sur la durée.\nFemme : Autrement dit, plus que les notes immédiates, ce qui compte, c'est de préserver la curiosité de l'enfant.\nHomme : Exactement. L'éducation est un marathon, pas un sprint de cent mètres.",
+  "questions": [
+   {
+    "q": "男的认为家长的焦虑没有消失，根本原因是什么？",
+    "r": "评价方式没有根本改变，升学主要还是看分数。"
+   },
+   {
+    "q": "男的用剧场看戏的比喻想说明什么？",
+    "r": "一个人加码，别人只好跟着加码，结果谁也没得到好处，大家反而都更累。"
+   },
+   {
+    "q": "男的说“教育是一场马拉松”，是什么意思？",
+    "r": "教育要着眼长远，不能只追求眼前的分数。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "减负",
+    "pinyin": "jiǎnfù",
+    "sens": "alléger la charge (scolaire)"
+   },
+   {
+    "mot": "焦虑",
+    "pinyin": "jiāolǜ",
+    "sens": "anxiété ; anxieux"
+   },
+   {
+    "mot": "随波逐流",
+    "pinyin": "suíbōzhúliú",
+    "sens": "suivre le courant, faire comme tout le monde"
+   },
+   {
+    "mot": "因材施教",
+    "pinyin": "yīncáishījiào",
+    "sens": "adapter l'enseignement aux aptitudes de chacun"
+   },
+   {
+    "mot": "急于求成",
+    "pinyin": "jíyúqiúchéng",
+    "sens": "vouloir réussir trop vite"
+   },
+   {
+    "mot": "适得其反",
+    "pinyin": "shìdéqífǎn",
+    "sens": "produire l'effet inverse, être contre-productif"
+   }
+  ]
+ },
+ {
+  "titre": "积极老龄化",
+  "niveau": 7,
+  "texte": "女：各位好。今天我想和大家谈谈人口老龄化。按照国际通行的标准，一个国家或地区六十五岁及以上人口的比例超过百分之七，就进入了老龄化社会；超过百分之十四，则进入深度老龄化社会。如今，越来越多的国家已经跨过了这道门槛。\n女：提起老龄化，很多人首先想到的是负担：劳动力减少，养老金压力增大，医疗和照护需求急剧上升。这些担忧并非杞人忧天，但如果只盯着问题，就难免以偏概全。\n女：事实上，与几十年前相比，今天的老年人普遍更长寿、更健康，受教育程度也更高。世界卫生组织早在二十多年前就提出了“积极老龄化”的理念，主张从健康、参与和保障三个方面支持老年人。换句话说，老年人不应仅仅被视为被照顾的对象，他们同样可以继续学习和工作，参与社区事务，发挥余热。\n女：与此同时，“银发经济”正在悄然兴起。适老化改造、智能养老设备、老年旅游和老年教育，都蕴含着巨大的潜力。\n女：归根结底，老龄化既是挑战，也是机遇。关键在于，社会能否未雨绸缪，及早调整观念和制度，让每个人都能老有所养、老有所为。",
+  "traduction": "Femme : Bonjour à tous. Aujourd'hui, j'aimerais vous parler du vieillissement de la population. Selon les critères internationaux couramment admis, quand, dans un pays ou une région, la proportion des personnes de soixante-cinq ans et plus dépasse sept pour cent, on entre dans une société vieillissante ; au-delà de quatorze pour cent, dans une société profondément vieillie. Aujourd'hui, de plus en plus de pays ont déjà franchi ce seuil.\nFemme : Quand on parle de vieillissement, beaucoup pensent d'abord à un fardeau : une main-d'œuvre qui diminue, une pression accrue sur les retraites, des besoins en soins médicaux et en accompagnement qui montent en flèche. Ces inquiétudes ne sont pas des craintes imaginaires, mais si l'on ne regarde que les problèmes, on risque fort de prendre la partie pour le tout.\nFemme : En réalité, par rapport à il y a quelques décennies, les personnes âgées d'aujourd'hui vivent généralement plus longtemps, sont en meilleure santé et plus instruites. Il y a déjà plus de vingt ans, l'Organisation mondiale de la santé a proposé le concept de « vieillissement actif », qui prône de soutenir les personnes âgées sur trois plans : la santé, la participation et la sécurité. Autrement dit, les personnes âgées ne doivent pas être vues seulement comme des personnes à prendre en charge ; elles peuvent elles aussi continuer à apprendre et à travailler, participer à la vie de leur quartier et mettre à profit l'énergie qui leur reste.\nFemme : Parallèlement, l'« économie des seniors » (littéralement « économie des cheveux d'argent ») est en train d'émerger discrètement. Les aménagements adaptés aux personnes âgées, les appareils intelligents d'aide aux aînés, le tourisme et l'éducation pour les seniors recèlent tous un immense potentiel.\nFemme : Au fond, le vieillissement est à la fois un défi et une chance. Tout dépend de la capacité de la société à anticiper, à ajuster tôt ses mentalités et ses institutions, pour que chacun, dans sa vieillesse, soit pris en charge et puisse encore se rendre utile.",
+  "questions": [
+   {
+    "q": "按照国际通行的标准，什么情况下算是进入了深度老龄化社会？",
+    "r": "六十五岁及以上人口的比例超过百分之十四。"
+   },
+   {
+    "q": "说话人认为，只把老龄化看作负担有什么问题？",
+    "r": "只盯着问题，难免以偏概全，忽视了老龄化带来的机遇。"
+   },
+   {
+    "q": "“发挥余热”在这里是什么意思？",
+    "r": "老年人继续用自己的知识和能力为社会做贡献。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "老龄化",
+    "pinyin": "lǎolínghuà",
+    "sens": "vieillissement (de la population)"
+   },
+   {
+    "mot": "门槛",
+    "pinyin": "ménkǎn",
+    "sens": "seuil"
+   },
+   {
+    "mot": "杞人忧天",
+    "pinyin": "qǐrényōutiān",
+    "sens": "s'inquiéter sans raison (comme l'homme de Qi qui craignait que le ciel ne tombe)"
+   },
+   {
+    "mot": "以偏概全",
+    "pinyin": "yǐpiāngàiquán",
+    "sens": "prendre la partie pour le tout, généraliser abusivement"
+   },
+   {
+    "mot": "蕴含",
+    "pinyin": "yùnhán",
+    "sens": "contenir, receler"
+   },
+   {
+    "mot": "未雨绸缪",
+    "pinyin": "wèiyǔchóumóu",
+    "sens": "réparer le toit avant la pluie, prendre ses précautions à l'avance"
+   }
+  ]
+ },
+ {
+  "titre": "留住乡音",
+  "niveau": 7,
+  "texte": "男：今天是国际母语日，我们来聊聊方言和地方语言的保护。有人说，推广普通话是大势所趋，方言衰落是自然规律，没必要刻意保护。您怎么看？\n女：推广通用语和保护方言并不矛盾，两者完全可以相辅相成。通用语解决的是沟通问题，而方言承载的是一个地方的历史记忆和文化认同。许多地方戏曲和民歌，一旦离开了方言，就失去了原汁原味。\n男：可现实是，年轻人在学校、在单位都说普通话，方言的使用场合越来越少，保护起来恐怕力不从心吧？\n女：不可否认，难度确实很大。所以当务之急是抢救性记录。2015年，我国启动了中国语言资源保护工程，在各地为方言录音录像，建立数据库。这样，即使有一天某种方言没人说了，后人也还能听到它的声音。\n男：可光存进数据库，会不会只是成了“博物馆里的标本”？\n女：您说到点子上了。语言要活下去，关键还是得有人用。法国的一些做法值得借鉴：比如在图卢兹，街道名牌上同时写着法语和当地的奥克语，还有学校开设双语课程。\n男：换句话说，要让方言重新回到日常生活中。\n女：对，其中家庭尤为重要。父母在家跟孩子多说说方言，比什么都管用。",
+  "traduction": "Homme : Aujourd'hui, c'est la Journée internationale de la langue maternelle ; parlons donc de la protection des dialectes et des langues régionales. Certains disent que la promotion du putonghua est une tendance irréversible, que le déclin des dialectes est une loi naturelle et qu'il est inutile de chercher à les protéger. Qu'en pensez-vous ?\nFemme : Promouvoir la langue commune et protéger les dialectes n'ont rien de contradictoire ; les deux peuvent tout à fait se compléter. La langue commune règle le problème de la communication, tandis que les dialectes portent la mémoire historique et l'identité culturelle d'un lieu. Beaucoup d'opéras locaux et de chants populaires, une fois coupés de leur dialecte, perdent leur saveur authentique.\nHomme : Mais la réalité, c'est que les jeunes parlent putonghua à l'école comme au travail, et que les occasions d'utiliser les dialectes se font de plus en plus rares. Les protéger, n'est-ce pas au-dessus de nos forces ?\nFemme : Il est indéniable que c'est très difficile. C'est pourquoi l'urgence est de les enregistrer pour les sauver. En 2015, notre pays a lancé le Projet de protection des ressources linguistiques de la Chine, qui enregistre les dialectes en audio et en vidéo dans les différentes régions et constitue des bases de données. Ainsi, même si un jour plus personne ne parle tel ou tel dialecte, les générations futures pourront encore entendre sa voix.\nHomme : Mais une fois stockés dans une base de données, les dialectes ne risquent-ils pas de devenir de simples « spécimens de musée » ?\nFemme : Vous touchez au cœur du problème. Pour qu'une langue survive, l'essentiel, c'est encore qu'on s'en serve. Certaines pratiques françaises méritent qu'on s'en inspire : à Toulouse, par exemple, les plaques de rue sont écrites à la fois en français et en occitan, la langue locale, et certaines écoles proposent des cours bilingues.\nHomme : Autrement dit, il faut que les dialectes retrouvent leur place dans la vie quotidienne.\nFemme : Oui, et la famille compte tout particulièrement. Rien n'est plus efficace que des parents qui parlent davantage le dialecte avec leurs enfants à la maison.",
+  "questions": [
+   {
+    "q": "女的怎么看推广普通话和保护方言的关系？",
+    "r": "两者并不矛盾，完全可以相辅相成。"
+   },
+   {
+    "q": "女的认为保护方言的当务之急是什么？",
+    "r": "抢救性记录：为方言录音录像，建立数据库。"
+   },
+   {
+    "q": "男的说的“博物馆里的标本”指的是什么？",
+    "r": "方言只被保存在数据库里，却没有人再使用，失去了生命力。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "大势所趋",
+    "pinyin": "dàshìsuǒqū",
+    "sens": "tendance générale irréversible"
+   },
+   {
+    "mot": "相辅相成",
+    "pinyin": "xiāngfǔxiāngchéng",
+    "sens": "se compléter mutuellement"
+   },
+   {
+    "mot": "承载",
+    "pinyin": "chéngzài",
+    "sens": "porter, être porteur de"
+   },
+   {
+    "mot": "原汁原味",
+    "pinyin": "yuánzhīyuánwèi",
+    "sens": "authentique, avec sa saveur d'origine"
+   },
+   {
+    "mot": "当务之急",
+    "pinyin": "dāngwùzhījí",
+    "sens": "priorité absolue, tâche la plus urgente"
+   },
+   {
+    "mot": "借鉴",
+    "pinyin": "jièjiàn",
+    "sens": "s'inspirer de, prendre exemple sur"
+   }
+  ]
+ },
+ {
+  "titre": "科学需要刹车吗",
+  "niveau": 7,
+  "texte": "男：大家好。今天我想和各位探讨一个古老而又常新的问题：科学研究应不应该有边界？\n男：有人主张，科学的使命就是探索未知，研究本身无所谓对错，真正需要约束的只是技术的应用。这种观点在过去或许说得通，如今却越来越站不住脚了。从前，一项发现从实验室走向大规模应用，往往要经历几十年；而今天，基因编辑、人工智能等领域从研究到应用的距离越来越短，很多时候，研究本身就已经在改变世界。\n男：不过，强调伦理并不意味着因噎废食。历史上有一个耐人寻味的先例：1975年，一批科学家在美国阿西洛马召开会议，专门讨论刚刚兴起的基因重组技术可能带来的风险，并为相关实验提出了一套安全准则。他们没有等出了事再亡羊补牢，而是防患于未然，自己给自己踩了刹车。\n男：由此可见，伦理与创新并非水火不容。首先，科学家自身要心存敬畏；其次，伦理审查应当贯穿研究的全过程，而不是事后补办的手续；再次，公众也有权了解并参与讨论，因为这些技术最终会影响到每一个人。\n男：说到底，刹车不是为了让车停下来，而是为了让它开得更远、更稳。",
+  "traduction": "Homme : Bonjour à tous. Aujourd'hui, j'aimerais examiner avec vous une question à la fois ancienne et toujours nouvelle : la recherche scientifique doit-elle avoir des limites ?\nHomme : Certains soutiennent que la mission de la science est d'explorer l'inconnu, que la recherche en elle-même n'est ni bonne ni mauvaise, et que seules les applications techniques doivent vraiment être encadrées. Ce point de vue se tenait peut-être autrefois, mais il est de moins en moins défendable aujourd'hui. Jadis, il fallait souvent plusieurs décennies pour qu'une découverte passe du laboratoire à une application à grande échelle ; aujourd'hui, dans des domaines comme l'édition génomique ou l'intelligence artificielle, la distance entre la recherche et l'application ne cesse de se réduire, et bien souvent, la recherche elle-même transforme déjà le monde.\nHomme : Cependant, insister sur l'éthique ne signifie pas renoncer à tout par peur du risque. L'histoire offre un précédent qui donne à réfléchir : en 1975, un groupe de scientifiques s'est réuni à Asilomar, aux États-Unis, pour discuter spécialement des risques que pouvait présenter la toute nouvelle technique de recombinaison génétique, et a proposé un ensemble de règles de sécurité pour les expériences concernées. Ils n'ont pas attendu qu'un accident se produise pour réparer les dégâts après coup ; ils ont prévenu le danger avant qu'il ne survienne, en actionnant eux-mêmes le frein.\nHomme : On voit donc qu'éthique et innovation ne sont pas incompatibles comme l'eau et le feu. Premièrement, les scientifiques eux-mêmes doivent garder un respect mêlé de crainte ; deuxièmement, l'examen éthique doit accompagner la recherche tout au long du processus, et non être une formalité réglée après coup ; troisièmement, le public a lui aussi le droit d'être informé et de participer au débat, car ces technologies finiront par toucher chacun d'entre nous.\nHomme : Au fond, le frein ne sert pas à arrêter la voiture, mais à lui permettre d'aller plus loin et de rouler plus sûrement.",
+  "questions": [
+   {
+    "q": "说话人为什么认为“只需约束技术应用”的观点越来越站不住脚了？",
+    "r": "如今从研究到应用的距离越来越短，研究本身就已经在改变世界。"
+   },
+   {
+    "q": "说话人举阿西洛马会议的例子，想说明什么？",
+    "r": "科学家可以主动防范风险，伦理与创新并不对立。"
+   },
+   {
+    "q": "最后一句“刹车不是为了让车停下来”是什么意思？",
+    "r": "伦理约束不是要阻止科学发展，而是让它发展得更长远、更稳健。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "伦理",
+    "pinyin": "lúnlǐ",
+    "sens": "éthique"
+   },
+   {
+    "mot": "因噎废食",
+    "pinyin": "yīnyēfèishí",
+    "sens": "renoncer à manger de peur de s'étouffer ; tout abandonner par excès de prudence"
+   },
+   {
+    "mot": "亡羊补牢",
+    "pinyin": "wángyángbǔláo",
+    "sens": "réparer l'enclos après la perte du mouton ; réagir après coup"
+   },
+   {
+    "mot": "防患于未然",
+    "pinyin": "fánghuànyúwèirán",
+    "sens": "prévenir le mal avant qu'il n'arrive"
+   },
+   {
+    "mot": "敬畏",
+    "pinyin": "jìngwèi",
+    "sens": "respect mêlé de crainte, révérence"
+   },
+   {
+    "mot": "贯穿",
+    "pinyin": "guànchuān",
+    "sens": "traverser de part en part, être présent tout au long de"
+   }
+  ]
+ },
+ {
+  "titre": "从拥有到使用",
+  "niveau": 7,
+  "texte": "女：今天我们来讨论共享经济。您一直很看好这种模式，能先谈谈理由吗？\n男：共享经济的核心在于“使用权比所有权更重要”。一辆私家车一天中大部分时间都停在那里，一把电钻据说一辈子只用十几分钟。把这些闲置资源盘活，既省钱又环保，何乐而不为？\n女：理念我完全赞同，但现实中不少所谓的“共享”并非名副其实。比如共享单车、共享充电宝，东西都是企业自己投放的，本质上是分时租赁，跟分享闲置资源关系不大。\n男：叫法可以商榷，但它们确实方便了出行。“最后一公里”的难题，很大程度上就是靠共享单车解决的。\n女：便利是真的，代价也是真的。前些年，资本一哄而上，企业为了抢占市场拼命投放车辆，结果一些城市出现了成片的“单车坟场”，造成了惊人的浪费。这恰恰与环保的初衷背道而驰。\n男：这一点我承认。不过，新兴行业在起步阶段难免泥沙俱下，经过优胜劣汰，如今市场已经理性多了。\n女：没错，所以我认为关键在于规则：平台要对用户的安全负责，网约车之类的平台还要保障司机的权益，监管也不能缺位。\n男：说到底，我们争论的不是要不要共享，而是怎样共享得更好。\n女：这个结论我同意。",
+  "traduction": "Femme : Aujourd'hui, nous allons parler de l'économie du partage. Vous avez toujours cru en ce modèle ; pouvez-vous d'abord nous dire pourquoi ?\nHomme : Le cœur de l'économie du partage, c'est que « le droit d'usage compte plus que la propriété ». Une voiture particulière reste garée la plus grande partie de la journée, et une perceuse, dit-on, ne sert qu'une quinzaine de minutes dans toute sa vie. Remettre en circulation ces ressources inutilisées permet à la fois d'économiser et de protéger l'environnement : pourquoi s'en priver ?\nFemme : J'adhère complètement à l'idée, mais dans la réalité, bien des prétendus « partages » ne méritent pas leur nom. Prenez les vélos ou les batteries externes en libre-service : ce sont les entreprises elles-mêmes qui les mettent en circulation ; c'est au fond de la location à la durée, qui n'a pas grand-chose à voir avec le partage de ressources inutilisées.\nHomme : Le nom est discutable, mais ces services facilitent réellement les déplacements. Le problème du « dernier kilomètre » a été résolu en grande partie grâce aux vélos en libre-service.\nFemme : La commodité est réelle, mais le prix à payer l'est aussi. Il y a quelques années, les capitaux se sont rués en masse sur ce secteur ; pour conquérir le marché, les entreprises ont déployé des vélos à outrance, si bien que des « cimetières de vélos » entiers sont apparus dans certaines villes, un gaspillage effarant. Cela va exactement à l'encontre de l'intention écologique de départ.\nHomme : Ça, je le reconnais. Mais un secteur émergent, à ses débuts, mêle forcément le bon et le mauvais ; après une sélection où les meilleurs l'emportent, le marché est aujourd'hui bien plus rationnel.\nFemme : Tout à fait, c'est pourquoi je pense que l'essentiel, ce sont les règles : les plateformes doivent répondre de la sécurité des usagers, celles de VTC doivent en plus garantir les droits de leurs chauffeurs, et la régulation ne doit pas faire défaut.\nHomme : Au fond, notre désaccord ne porte pas sur la question de partager ou non, mais sur la façon de mieux partager.\nFemme : Sur cette conclusion, je suis d'accord.",
+  "questions": [
+   {
+    "q": "男的认为共享经济的核心是什么？",
+    "r": "使用权比所有权更重要，要把闲置资源盘活。"
+   },
+   {
+    "q": "女的为什么说不少“共享”并非名副其实？",
+    "r": "东西是企业自己投放的，本质上是分时租赁，不是分享闲置资源。"
+   },
+   {
+    "q": "两人最后达成了什么共识？",
+    "r": "争论的不是要不要共享，而是怎样共享得更好。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "闲置",
+    "pinyin": "xiánzhì",
+    "sens": "inutilisé, laissé à l'abandon"
+   },
+   {
+    "mot": "名副其实",
+    "pinyin": "míngfùqíshí",
+    "sens": "digne de son nom, qui mérite son nom"
+   },
+   {
+    "mot": "初衷",
+    "pinyin": "chūzhōng",
+    "sens": "intention initiale"
+   },
+   {
+    "mot": "背道而驰",
+    "pinyin": "bèidào'érchí",
+    "sens": "aller en sens contraire, aller à l'encontre de"
+   },
+   {
+    "mot": "优胜劣汰",
+    "pinyin": "yōushèngliètài",
+    "sens": "sélection où les meilleurs l'emportent et les plus faibles sont éliminés"
+   },
+   {
+    "mot": "监管",
+    "pinyin": "jiānguǎn",
+    "sens": "surveiller, réglementer ; régulation"
+   }
+  ]
+ },
+ {
+  "titre": "屏幕时代的深度阅读",
+  "niveau": 7,
+  "texte": "女：各位听众，大家好。如今，我们每天在手机上浏览的文字，恐怕比从前的人一个月读的书还多。可是，读得多，就一定读得好吗？\n女：不少研究发现，面对篇幅较长、信息密集的文章，人们在纸上阅读时的理解效果往往略好于在屏幕上。研究者认为，原因之一在于阅读习惯：在屏幕上，我们更容易跳读、扫读，走马观花，只顾寻找关键词，而不是逐字逐句地思考。久而久之，这种浅尝辄止的习惯还可能潜移默化地影响我们读纸质书的方式。\n女：不过，把问题全都归咎于屏幕，未免失之偏颇。电子阅读自有其优势：随时随地都能读，检索方便，还能让偏远地区的读者接触到海量的图书。问题的关键不在于用什么读，而在于怎么读。\n女：有认知科学家提出，理想的读者应当兼具两种能力：既能在信息的海洋中快速筛选，又能在需要时沉下心来深度阅读。换句话说，我们要学会在两种模式之间自如切换。\n女：具体来说，读重要的书时，不妨把手机放远一点，关掉消息提醒，给自己留出一段完整的时间。深度阅读的能力就像肌肉，越练越强，长期不用就会萎缩。\n女：归根结底，屏幕只是工具，真正决定阅读质量的，是我们的注意力。",
+  "traduction": "Femme : Chers auditeurs, bonjour. Aujourd'hui, les textes que nous parcourons chaque jour sur notre téléphone sont sans doute plus abondants que ce que l'on lisait autrefois en un mois. Mais lire beaucoup, est-ce forcément bien lire ?\nFemme : De nombreuses études ont montré que, face à des textes longs et denses en informations, la compréhension est souvent légèrement meilleure quand on lit sur papier que sur écran. Selon les chercheurs, l'une des raisons tient aux habitudes de lecture : sur écran, nous avons davantage tendance à sauter des passages, à balayer le texte, à survoler les pages en ne cherchant que les mots-clés, au lieu de réfléchir mot à mot, phrase par phrase. À la longue, cette habitude de rester en surface risque même d'influencer insensiblement notre façon de lire les livres papier.\nFemme : Toutefois, rejeter toute la faute sur les écrans serait quelque peu partial. La lecture numérique a ses propres avantages : on peut lire partout et à tout moment, la recherche y est facile, et elle permet aux lecteurs des régions reculées d'accéder à une immense quantité de livres. La clé du problème n'est pas le support, mais la manière de lire.\nFemme : Certains spécialistes des sciences cognitives ont avancé l'idée que le lecteur idéal devrait posséder deux capacités à la fois : savoir trier rapidement dans l'océan des informations et, quand il le faut, se poser pour lire en profondeur. Autrement dit, nous devons apprendre à passer aisément d'un mode à l'autre.\nFemme : Concrètement, quand on lit un livre important, mieux vaut éloigner un peu son téléphone, couper les notifications et se réserver un moment sans interruption. La capacité de lecture approfondie est comme un muscle : plus on l'exerce, plus elle se renforce ; si on ne s'en sert pas pendant longtemps, elle s'atrophie.\nFemme : Au fond, l'écran n'est qu'un outil ; ce qui détermine vraiment la qualité de notre lecture, c'est notre attention.",
+  "questions": [
+   {
+    "q": "根据说话人提到的研究，纸质阅读在什么情况下效果略好？",
+    "r": "阅读篇幅较长、信息密集的文章时。"
+   },
+   {
+    "q": "说话人认为，问题的关键是什么？",
+    "r": "不在于用什么读，而在于怎么读。"
+   },
+   {
+    "q": "“深度阅读的能力就像肌肉”是什么意思？",
+    "r": "这种能力要经常练习，越练越强，长期不用就会退化。"
+   }
+  ],
+  "mots_cles": [
+   {
+    "mot": "走马观花",
+    "pinyin": "zǒumǎguānhuā",
+    "sens": "regarder les fleurs du haut de son cheval ; survoler superficiellement"
+   },
+   {
+    "mot": "浅尝辄止",
+    "pinyin": "qiǎnchángzhézhǐ",
+    "sens": "s'arrêter après y avoir à peine goûté ; rester superficiel"
+   },
+   {
+    "mot": "潜移默化",
+    "pinyin": "qiányímòhuà",
+    "sens": "influencer insensiblement"
+   },
+   {
+    "mot": "归咎",
+    "pinyin": "guījiù",
+    "sens": "imputer la faute à, rejeter la responsabilité sur"
+   },
+   {
+    "mot": "筛选",
+    "pinyin": "shāixuǎn",
+    "sens": "trier, filtrer, sélectionner"
+   },
+   {
+    "mot": "萎缩",
+    "pinyin": "wěisuō",
+    "sens": "s'atrophier, dépérir"
    }
   ]
  }
