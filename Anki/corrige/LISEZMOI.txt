@@ -49,6 +49,10 @@ CE QUI A CHANGE
   "e" cyrilliques caches dans imprevu et Dynastie...). Detail : .outils/anki/donnees_hsk/accents.json.
   Comme les cartes d'Ecriture reprennent le sens des mots, 46 d'entre elles ont un recto corrige : l'ancienne
   version reste avec l'etiquette a_supprimer.
+- 儿 dans le pinyin, uniformise (144 notes) : « ér » quand 儿 est un mot ou garde son sens (儿子, 儿童, 女儿,
+  婴儿, 托儿所), « r » colle a la syllabe precedente quand c'est le suffixe de retroflexion (一点儿 yìdiǎnr,
+  哪儿 nǎr, 一会儿 yíhuìr), comme dans l'orthographe officielle du pinyin. Avant : un melange de « yī diǎn ér »,
+  « nǎ r » et « huì er ».
 - Pinyin commencant par une majuscule accentuee (欧洲 Ōu zhōu, 圣诞节...) : la syllabe s'affichait sans la
   couleur de son ton ; pinyin mis en minuscules.
 - Verifie avec .outils/anki/simuler_import.py : les 7 fichiers s'importent sans probleme (aucun champ manquant,

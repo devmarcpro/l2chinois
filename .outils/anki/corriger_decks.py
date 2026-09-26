@@ -699,6 +699,8 @@ def main():
     ajouts.update(contenu_hsk.ajouter_hsk(paquets))
     import accents
     accents.appliquer(paquets, stats)  # avant le paquet Écriture, qui reprend les sens du vocabulaire
+    import erhua
+    erhua.normaliser(paquets, stats)  # 儿 : ér quand c'est un mot (儿子, 女儿), r collé quand c'est un suffixe (一点儿)
     import ecriture
     ajouts.update(ecriture.ajouter_ecriture(paquets, publies))
     garder_anciens_rectos(originaux, publies, paquets)
