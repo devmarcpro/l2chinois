@@ -700,7 +700,7 @@ def main():
     import accents
     accents.appliquer(paquets, stats)  # avant le paquet Écriture, qui reprend les sens du vocabulaire
     import ecriture
-    ajouts.update(ecriture.ajouter_ecriture(paquets))
+    ajouts.update(ecriture.ajouter_ecriture(paquets, publies))
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()

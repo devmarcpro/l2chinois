@@ -56,9 +56,11 @@ CE QUI A CHANGE
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
 - PROGRAMME OFFICIEL DU HSK, pour tout revoir avec Anki sans dependre des cours (etiquette HSK_officiel) :
-  * Vocabulaire : les 3 137 mots de la liste officielle HSK 3.0 des niveaux 1 a 6 qui manquaient sont ajoutes
-    (sens, phrase d'exemple traduite, note d'usage, pinyin relu mot par mot) : le paquet contient maintenant
-    TOUTE la liste officielle des niveaux 1 a 6.
+  * Vocabulaire : les 7 691 mots de la liste officielle HSK 3.0 qui manquaient sont ajoutes (3 137 des niveaux
+    1 a 6, puis les 4 554 des niveaux 7-9) : sens, phrase d'exemple traduite, note d'usage (lecture d'un
+    caractere a plusieurs lectures, registre, sens litteral des chengyu, mot proche a ne pas confondre),
+    pinyin relu mot par mot. Le paquet contient maintenant TOUTE la liste officielle, du HSK 1 au HSK 7-9
+    (11 714 -> 16 268 notes ; sous-paquet 7 · HSK 7-9 : 5 533 mots).
   * Grammaire : 487 fiches, une par point du programme de grammaire officiel du nouvel examen HSK (2025),
     du HSK 1 au HSK 7-9 : explication, formule, pieges, trois exemples traduits. Les 99 points deja traites
     par une fiche existante n'ont pas ete doubles.
@@ -86,7 +88,8 @@ CE QUI A CHANGE
     caractere seul et trois mots de la liste officielle ou il est remplace par ＿ (ex. ＿校 xuéxiào — ecole).
     On l'ecrit sur papier (ou au doigt), puis on retourne : caractere en grand, forme traditionnelle, nombre de
     traits, cle, mots complets. Les cartes vont des caracteres des mots les plus simples aux plus rares.
-    3 caracteres (纲 凶 昌) attendent le vocabulaire HSK 7-9 pour avoir un mot d'exemple.
+    Une carte deja publiee garde son recto et son verso quand le vocabulaire s'enrichit (sinon Anki y verrait
+    une carte nouvelle). Les 3 derniers caracteres (纲 凶 昌) ont ete ajoutes avec le vocabulaire HSK 7-9.
     Traits et cles : base Unihan (Unicode) ; listes officielles : github.com/krmanik/HSK-3.0.
   * Textes : .outils/anki/donnees_hsk/ ; programme de grammaire : github.com/krmanik/HSK-3.0 (d'apres le
     document officiel du ministere chinois de l'Education et le 新版HSK考试大纲).

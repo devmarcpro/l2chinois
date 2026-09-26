@@ -96,8 +96,15 @@ def note_ecriture(car, info, seul, exemples):
     return [recto, verso, "", f"ecriture ecriture::{bande} HSK_officiel ajout_2026"]
 
 
-def ajouter_ecriture(paquets):
-    """Crée ou complète le paquet Ecriture. Renvoie le bilan."""
+def ajouter_ecriture(paquets, publies=None):
+    """Crée ou complète le paquet Ecriture. Renvoie le bilan.
+    Une carte déjà publiée garde son recto et son verso : de nouveaux mots au vocabulaire changeraient les mots
+    d'exemple, donc le recto, et Anki y verrait une nouvelle carte (l'ancienne resterait avec a_supprimer)."""
+    deja = {}
+    for r in (publies or {}).get("Ecriture", []):
+        m = re.search(r'font-size:96px;line-height:1.1">(.)<', r[1])
+        if m and "a_supprimer" not in r[3].split():
+            deja[m.group(1)] = list(r[:4])
     f = DONNEES / "caracteres.json"
     if not f.exists():
         return {}
@@ -120,7 +127,8 @@ def ajouter_ecriture(paquets):
             sans_mot.append(car)
             continue
         premier = min([m["niveau"] for m in ([seul] if seul else []) + exemples])
-        notes.append(((info["ecriture"], premier, info["niveau"], -len(par_car.get(car, []))), note_ecriture(car, info, seul, exemples)))
+        note = deja.get(car) or note_ecriture(car, info, seul, exemples)
+        notes.append(((info["ecriture"], premier, info["niveau"], -len(par_car.get(car, []))), note))
     notes.sort(key=lambda x: x[0])
     rangs = paquets.setdefault("Ecriture", [])
     presents = {r[0] for r in rangs}
