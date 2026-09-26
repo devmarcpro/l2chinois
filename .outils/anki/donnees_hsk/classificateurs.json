@@ -1,0 +1,5478 @@
+[
+{
+"mot": "书店",
+"sens": "librairie",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"条",
+"家",
+"张"
+],
+"exemple": "学校旁边有两家书店。",
+"traduction": "Il y a deux librairies à côté de l'école.",
+"explication": "家 sert à compter les commerces et les entreprises (magasins, restaurants, sociétés). 条 (objets longs) et 张 (objets plats) ne s'emploient pas pour un lieu.",
+"aussi": []
+},
+{
+"mot": "事",
+"sens": "affaire, chose (à faire ou à dire)",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"件",
+"张"
+],
+"exemple": "我有一件事想问你。",
+"traduction": "J'ai une chose à te demander.",
+"explication": "件 compte les affaires et les événements, ainsi que les vêtements du haut. 条 et 张 désignent des objets longs ou plats et ne conviennent pas à une affaire.",
+"aussi": []
+},
+{
+"mot": "人",
+"sens": "personne (membre d'une famille)",
+"classificateur": "口",
+"pinyin": "kǒu",
+"choix": [
+"张",
+"本",
+"口"
+],
+"exemple": "我家一共有五口人。",
+"traduction": "Nous sommes cinq en tout dans ma famille.",
+"explication": "口 compte les membres d'un foyer, surtout dans la question 你家有几口人？ Ailleurs, on compte les gens avec 个 (ou 位 par politesse) ; 张 et 本 (objets plats, livres) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "先生",
+"sens": "monsieur",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"位",
+"张",
+"本"
+],
+"exemple": "门口有一位先生找您。",
+"traduction": "Il y a un monsieur à la porte qui vous demande.",
+"explication": "位 est le classificateur poli des personnes (先生, 老师, 客人…). 张 et 本 servent aux objets plats et aux livres, jamais aux personnes.",
+"aussi": []
+},
+{
+"mot": "公司",
+"sens": "entreprise, société",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"张",
+"本",
+"家"
+],
+"exemple": "他在一家大公司工作。",
+"traduction": "Il travaille dans une grande entreprise.",
+"explication": "家 compte les entreprises et les commerces. 张 et 本 sont réservés aux objets plats et aux livres.",
+"aussi": []
+},
+{
+"mot": "医生",
+"sens": "médecin",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"条",
+"位",
+"本"
+],
+"exemple": "这位医生对病人很好。",
+"traduction": "Ce médecin est très gentil avec ses patients.",
+"explication": "位 est le classificateur respectueux des personnes ; 名 se dit aussi, surtout à l'écrit, et 个 à l'oral. 条 et 本 ne comptent jamais des personnes.",
+"aussi": [
+"名"
+]
+},
+{
+"mot": "医院",
+"sens": "hôpital",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"张",
+"条"
+],
+"exemple": "这附近有一家医院吗？",
+"traduction": "Y a-t-il un hôpital près d'ici ?",
+"explication": "家 compte les établissements (hôpitaux, magasins, hôtels) ; 所 et 座 sont aussi possibles. 张 et 条 désignent des objets plats ou longs, pas des bâtiments.",
+"aussi": [
+"所",
+"座"
+]
+},
+{
+"mot": "午饭",
+"sens": "déjeuner",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"张",
+"顿",
+"本"
+],
+"exemple": "我请你吃一顿午饭吧。",
+"traduction": "Je t'invite à déjeuner.",
+"explication": "顿 compte les repas (饭, 午饭, 晚饭). 份 est aussi possible pour une portion ou un plateau-repas ; 张 et 本 ne s'emploient jamais pour un repas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "商店",
+"sens": "magasin",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"本",
+"条",
+"家"
+],
+"exemple": "我家旁边有一家商店。",
+"traduction": "Il y a un magasin à côté de chez moi.",
+"explication": "家 compte les commerces et les entreprises. 本 (livres) et 条 (objets longs) sont impossibles pour un magasin.",
+"aussi": []
+},
+{
+"mot": "大学",
+"sens": "université",
+"classificateur": "所",
+"pinyin": "suǒ",
+"choix": [
+"所",
+"张",
+"条"
+],
+"exemple": "这个城市有三所大学。",
+"traduction": "Cette ville compte trois universités.",
+"explication": "所 compte les établissements comme les écoles, les universités ou les hôpitaux. 张 et 条 désignent des objets plats ou longs et ne conviennent pas à une institution.",
+"aussi": []
+},
+{
+"mot": "女士",
+"sens": "madame, dame",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"张",
+"本",
+"位"
+],
+"exemple": "那位女士是我的老师。",
+"traduction": "Cette dame est ma professeure.",
+"explication": "位 est le classificateur poli des personnes ; avec 女士, on l'emploie presque toujours. 张 et 本 servent aux objets plats et aux livres.",
+"aussi": []
+},
+{
+"mot": "学校",
+"sens": "école",
+"classificateur": "所",
+"pinyin": "suǒ",
+"choix": [
+"件",
+"所",
+"张"
+],
+"exemple": "我家附近有两所学校。",
+"traduction": "Il y a deux écoles près de chez moi.",
+"explication": "所 compte les écoles et les autres établissements. 件 (affaires, vêtements) et 张 (objets plats) sont impossibles ici.",
+"aussi": []
+},
+{
+"mot": "工作",
+"sens": "emploi, travail",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"份",
+"张",
+"条"
+],
+"exemple": "他找到了一份新工作。",
+"traduction": "Il a trouvé un nouveau travail.",
+"explication": "份 compte un emploi, un poste ; 项 s'emploie pour une tâche précise (一项工作). 张 et 条 ne s'emploient pas avec 工作.",
+"aussi": [
+"项"
+]
+},
+{
+"mot": "店",
+"sens": "boutique",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"条",
+"家",
+"本"
+],
+"exemple": "这家店的东西很便宜。",
+"traduction": "Les articles de cette boutique sont très bon marché.",
+"explication": "家 compte les boutiques, les restaurants et les entreprises. 条 et 本 ne conviennent pas à un lieu.",
+"aussi": []
+},
+{
+"mot": "房间",
+"sens": "chambre, pièce",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"张",
+"间",
+"条"
+],
+"exemple": "这间房间又大又干净。",
+"traduction": "Cette chambre est grande et propre.",
+"explication": "间 compte les pièces (chambres, salles, bureaux) ; à l'oral, on dit aussi très souvent 个. 张 et 条 désignent des objets plats ou longs.",
+"aussi": []
+},
+{
+"mot": "手机",
+"sens": "téléphone portable",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"部",
+"张",
+"条"
+],
+"exemple": "他买了一部新手机。",
+"traduction": "Il a acheté un nouveau téléphone portable.",
+"explication": "部 compte les téléphones et certains appareils, ainsi que les films ; 台 se dit aussi, et 个 est très courant à l'oral. 张 et 条 sont impossibles pour un téléphone.",
+"aussi": [
+"台"
+]
+},
+{
+"mot": "早饭",
+"sens": "petit-déjeuner",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"本",
+"张",
+"顿"
+],
+"exemple": "妈妈给我做了一顿早饭。",
+"traduction": "Maman m'a préparé un petit-déjeuner.",
+"explication": "顿 compte les repas, du petit-déjeuner au dîner ; 份 compte une portion. 本 et 张 servent aux livres et aux objets plats.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "时间",
+"sens": "période de temps",
+"classificateur": "段",
+"pinyin": "duàn",
+"choix": [
+"张",
+"段",
+"本"
+],
+"exemple": "我在北京住了一段时间。",
+"traduction": "J'ai habité à Pékin pendant un certain temps.",
+"explication": "段 compte une portion de temps, de route ou de texte. 张 et 本 désignent des objets concrets et ne s'emploient pas avec 时间.",
+"aussi": []
+},
+{
+"mot": "晚饭",
+"sens": "dîner",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"顿",
+"条",
+"本"
+],
+"exemple": "我们一起吃了一顿晚饭。",
+"traduction": "Nous avons dîné ensemble.",
+"explication": "顿 compte les repas ; 份 compte une portion. 条 et 本 ne s'emploient jamais pour un repas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "桌子",
+"sens": "table, bureau",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"把",
+"张",
+"本"
+],
+"exemple": "教室里有二十张桌子。",
+"traduction": "Il y a vingt tables dans la salle de classe.",
+"explication": "张 compte les objets à surface plane : tables, lits, feuilles, billets. 把 sert aux objets qu'on saisit par une poignée ou un dossier (chaises, parapluies) et ne va pas avec 桌子.",
+"aussi": []
+},
+{
+"mot": "椅子",
+"sens": "chaise",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"本",
+"件",
+"把"
+],
+"exemple": "房间里只有一把椅子。",
+"traduction": "Il n'y a qu'une chaise dans la pièce.",
+"explication": "把 compte les objets qu'on saisit par une poignée ou un dossier : chaises, parapluies, couteaux, clés. 本 et 件 (livres, vêtements) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "歌",
+"sens": "chanson",
+"classificateur": "首",
+"pinyin": "shǒu",
+"choix": [
+"张",
+"首",
+"本"
+],
+"exemple": "她唱了一首中文歌。",
+"traduction": "Elle a chanté une chanson chinoise.",
+"explication": "首 compte les chansons et les poèmes ; 支 se dit aussi pour une chanson. 张 et 本 sont impossibles (一张 désignerait un disque, pas une chanson).",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "火车",
+"sens": "train",
+"classificateur": "列",
+"pinyin": "liè",
+"choix": [
+"本",
+"列",
+"张"
+],
+"exemple": "一列火车开进了车站。",
+"traduction": "Un train est entré en gare.",
+"explication": "列 compte les trains, vus comme une file de wagons ; 趟 compte un train en tant que trajet ou service régulier. 本 et 张 sont impossibles.",
+"aussi": [
+"趟"
+]
+},
+{
+"mot": "牛奶",
+"sens": "lait",
+"classificateur": "杯",
+"pinyin": "bēi",
+"choix": [
+"杯",
+"张",
+"条"
+],
+"exemple": "我每天早上喝一杯牛奶。",
+"traduction": "Chaque matin, je bois un verre de lait.",
+"explication": "杯 est un classificateur de contenant : « un verre de ». On dit aussi 一瓶牛奶 (une bouteille) ou 一盒牛奶 (une brique) ; 张 et 条 ne comptent pas un liquide.",
+"aussi": [
+"瓶",
+"盒"
+]
+},
+{
+"mot": "猫",
+"sens": "chat",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"条",
+"本",
+"只"
+],
+"exemple": "她家有两只可爱的猫。",
+"traduction": "Chez elle, il y a deux chats adorables.",
+"explication": "只 compte la plupart des petits animaux (chats, oiseaux, lapins). 条 sert aux poissons, aux serpents et parfois aux chiens, mais jamais aux chats ; 本 est réservé aux livres.",
+"aussi": []
+},
+{
+"mot": "电影院",
+"sens": "cinéma (salle)",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"张",
+"家",
+"条"
+],
+"exemple": "学校附近新开了一家电影院。",
+"traduction": "Un cinéma vient d'ouvrir près de l'école.",
+"explication": "家 compte les établissements commerciaux ; 座 peut s'employer pour le bâtiment lui-même. 张 et 条 sont impossibles pour un lieu.",
+"aussi": [
+"座"
+]
+},
+{
+"mot": "电脑",
+"sens": "ordinateur",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"台",
+"条",
+"张"
+],
+"exemple": "办公室里有五台电脑。",
+"traduction": "Il y a cinq ordinateurs dans le bureau.",
+"explication": "台 compte les machines et les appareils (ordinateurs, téléviseurs, réfrigérateurs). 条 et 张 ne conviennent pas à un appareil.",
+"aussi": []
+},
+{
+"mot": "电视",
+"sens": "télévision (poste)",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"张",
+"台",
+"本"
+],
+"exemple": "我们家只有一台电视。",
+"traduction": "Nous n'avons qu'une télévision à la maison.",
+"explication": "台 compte les appareils électriques : téléviseurs, ordinateurs, machines. 张 et 本 sont impossibles pour un poste de télévision.",
+"aussi": []
+},
+{
+"mot": "电视机",
+"sens": "téléviseur",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"本",
+"台",
+"条"
+],
+"exemple": "我家有两台电视机。",
+"traduction": "Nous avons deux téléviseurs à la maison.",
+"explication": "台 compte les appareils électriques et les machines. 本 et 条 sont impossibles pour un téléviseur.",
+"aussi": []
+},
+{
+"mot": "病",
+"sens": "maladie",
+"classificateur": "场",
+"pinyin": "cháng",
+"choix": [
+"张",
+"本",
+"场"
+],
+"exemple": "去年他生了一场大病。",
+"traduction": "L'an dernier, il a fait une grave maladie.",
+"explication": "场 (prononcé cháng) compte un épisode qui se déroule dans la durée : une maladie, une pluie, une chute de neige. 张 et 本 désignent des objets plats et des livres.",
+"aussi": []
+},
+{
+"mot": "老师",
+"sens": "professeur",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"条",
+"位",
+"本"
+],
+"exemple": "我们班来了一位新老师。",
+"traduction": "Un nouveau professeur est arrivé dans notre classe.",
+"explication": "位 est le classificateur poli, tout indiqué pour un professeur ; 个 est plus familier. 条 et 本 ne comptent jamais des personnes.",
+"aussi": []
+},
+{
+"mot": "茶",
+"sens": "thé",
+"classificateur": "杯",
+"pinyin": "bēi",
+"choix": [
+"张",
+"杯",
+"本"
+],
+"exemple": "下午我喜欢喝一杯茶。",
+"traduction": "L'après-midi, j'aime boire une tasse de thé.",
+"explication": "杯 est un classificateur de contenant : « une tasse de ». 壶 (une théière de) est aussi possible ; 张 et 本 ne comptent pas une boisson.",
+"aussi": [
+"壶"
+]
+},
+{
+"mot": "菜",
+"sens": "plat (cuisiné)",
+"classificateur": "道",
+"pinyin": "dào",
+"choix": [
+"道",
+"张",
+"条"
+],
+"exemple": "今天妈妈做了四道菜。",
+"traduction": "Aujourd'hui, maman a préparé quatre plats.",
+"explication": "道 compte les plats d'un repas (et aussi les questions d'exercice) ; 盘 (« une assiette de ») et 个 sont aussi courants. 张 et 条 ne conviennent pas à un plat.",
+"aussi": [
+"盘"
+]
+},
+{
+"mot": "课",
+"sens": "cours (séance)",
+"classificateur": "节",
+"pinyin": "jié",
+"choix": [
+"张",
+"节",
+"条"
+],
+"exemple": "今天上午有四节课。",
+"traduction": "Ce matin, il y a quatre heures de cours.",
+"explication": "节 compte les séances de cours ; 门 compte les matières (这学期有五门课) et 堂 une séance, dans un registre plus soutenu. 张 et 条 sont impossibles avec 课.",
+"aussi": [
+"门",
+"堂"
+]
+},
+{
+"mot": "超市",
+"sens": "supermarché",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"本",
+"条"
+],
+"exemple": "我家楼下有一家超市。",
+"traduction": "Il y a un supermarché en bas de chez moi.",
+"explication": "家 compte les commerces : supermarchés, magasins, restaurants. 本 et 条 sont impossibles pour un lieu.",
+"aussi": []
+},
+{
+"mot": "车",
+"sens": "voiture, véhicule",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"只",
+"辆",
+"本"
+],
+"exemple": "门口停着一辆白色的车。",
+"traduction": "Une voiture blanche est garée devant la porte.",
+"explication": "辆 compte les véhicules à roues : voitures, bus, vélos. 只 (animaux) et 本 (livres) sont impossibles pour un véhicule.",
+"aussi": []
+},
+{
+"mot": "钱",
+"sens": "somme d'argent",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"条",
+"笔",
+"本"
+],
+"exemple": "他向朋友借了一笔钱。",
+"traduction": "Il a emprunté une somme d'argent à un ami.",
+"explication": "笔 compte une somme d'argent ou une transaction. 块 s'emploie aussi, mais comme unité monétaire (十块钱 = dix yuans) ; 条 et 本 sont impossibles.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "雨",
+"sens": "pluie",
+"classificateur": "场",
+"pinyin": "cháng",
+"choix": [
+"场",
+"张",
+"条"
+],
+"exemple": "昨天下了一场大雨。",
+"traduction": "Hier, il a beaucoup plu.",
+"explication": "场 (prononcé cháng) compte un phénomène qui dure un certain temps : pluie, neige, maladie ; 阵 désigne une averse brève. 张 et 条 sont impossibles.",
+"aussi": [
+"阵"
+]
+},
+{
+"mot": "雪",
+"sens": "neige",
+"classificateur": "场",
+"pinyin": "cháng",
+"choix": [
+"本",
+"场",
+"张"
+],
+"exemple": "今年冬天下了三场雪。",
+"traduction": "Il a neigé trois fois cet hiver.",
+"explication": "场 (prononcé cháng) compte un épisode de pluie ou de neige, du début à la fin. 本 et 张 servent aux livres et aux objets plats.",
+"aussi": []
+},
+{
+"mot": "饭",
+"sens": "repas",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"张",
+"条",
+"顿"
+],
+"exemple": "周末我请你吃一顿饭。",
+"traduction": "Ce week-end, je t'invite à manger.",
+"explication": "顿 compte les repas ; pour le riz cuit, on dit 一碗饭 « un bol de riz ». 张 et 条 ne s'emploient jamais avec 饭.",
+"aussi": [
+"碗"
+]
+},
+{
+"mot": "饭店",
+"sens": "restaurant, hôtel",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"条",
+"张"
+],
+"exemple": "这家饭店的菜很好吃。",
+"traduction": "Les plats de ce restaurant sont délicieux.",
+"explication": "家 compte les restaurants, les hôtels et les magasins. 条 et 张 sont impossibles pour un établissement.",
+"aussi": []
+},
+{
+"mot": "事情",
+"sens": "affaire, chose",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"张",
+"件",
+"条"
+],
+"exemple": "我想告诉你一件事情。",
+"traduction": "Je voudrais te dire quelque chose.",
+"explication": "件 compte les affaires et les événements (事情, 事) ainsi que les vêtements du haut. 张 et 条 désignent des objets concrets plats ou longs.",
+"aussi": []
+},
+{
+"mot": "体育场",
+"sens": "stade",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"座",
+"张",
+"本"
+],
+"exemple": "我们城市有一座很大的体育场。",
+"traduction": "Notre ville a un très grand stade.",
+"explication": "座 compte les grandes constructions fixes : bâtiments, ponts, stades, montagnes ; à l'oral, 个 est aussi courant. 张 et 本 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "咖啡",
+"sens": "café (boisson)",
+"classificateur": "杯",
+"pinyin": "bēi",
+"choix": [
+"本",
+"杯",
+"张"
+],
+"exemple": "我每天要喝两杯咖啡。",
+"traduction": "Je bois deux cafés par jour.",
+"explication": "杯 est un classificateur de contenant : « une tasse de ». 本 et 张 ne comptent pas une boisson.",
+"aussi": []
+},
+{
+"mot": "商场",
+"sens": "centre commercial",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"条",
+"家",
+"本"
+],
+"exemple": "这附近有两家大商场。",
+"traduction": "Il y a deux grands centres commerciaux près d'ici.",
+"explication": "家 compte les commerces, du petit magasin au grand centre commercial ; 座 peut désigner le bâtiment. 条 et 本 sont impossibles.",
+"aussi": [
+"座"
+]
+},
+{
+"mot": "地",
+"sens": "terrain, parcelle",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"块",
+"本",
+"条"
+],
+"exemple": "他家在城外有一块地。",
+"traduction": "Sa famille possède un terrain hors de la ville.",
+"explication": "块 compte les morceaux et les parcelles (terrain, gâteau, pierre) ; 片 désigne une étendue plus vaste. 本 et 条 ne conviennent pas à un terrain.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "床",
+"sens": "lit",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"把",
+"本"
+],
+"exemple": "这个房间里有两张床。",
+"traduction": "Il y a deux lits dans cette chambre.",
+"explication": "张 compte les objets à surface plane : lits, tables, feuilles. 把 (objets à poignée) et 本 (livres) sont impossibles avec 床.",
+"aussi": []
+},
+{
+"mot": "手",
+"sens": "main",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"本",
+"只",
+"张"
+],
+"exemple": "她一只手拿着手机。",
+"traduction": "Elle tient son téléphone d'une main.",
+"explication": "只 compte un élément d'une paire (une main, un œil, une chaussure) ; pour les deux mains, on dit 一双手. 本 et 张 sont impossibles.",
+"aussi": [
+"双"
+]
+},
+{
+"mot": "手表",
+"sens": "montre",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"条",
+"块",
+"张"
+],
+"exemple": "这块手表是爸爸送我的。",
+"traduction": "Cette montre, c'est mon père qui me l'a offerte.",
+"explication": "块 compte les montres et les morceaux de matière (pierre, gâteau, savon) ; 只 est aussi possible pour une montre. 条 et 张 sont impossibles.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "教室",
+"sens": "salle de classe",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"张",
+"本"
+],
+"exemple": "这层楼有五间教室。",
+"traduction": "Il y a cinq salles de classe à cet étage.",
+"explication": "间 compte les pièces d'un bâtiment : salles, chambres, bureaux. 张 et 本 désignent des objets plats et des livres.",
+"aussi": []
+},
+{
+"mot": "机票",
+"sens": "billet d'avion",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"本",
+"条",
+"张"
+],
+"exemple": "我买了两张去上海的机票。",
+"traduction": "J'ai acheté deux billets d'avion pour Shanghai.",
+"explication": "张 compte les objets plats et minces : billets, cartes, photos, feuilles. 本 (livres) et 条 (objets longs) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "楼",
+"sens": "bâtiment, immeuble",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"座",
+"张",
+"条"
+],
+"exemple": "学校里新建了两座大楼。",
+"traduction": "On a construit deux nouveaux bâtiments dans l'école.",
+"explication": "座 compte les grandes constructions : bâtiments, ponts, montagnes ; 栋 est aussi très courant pour un immeuble. 张 et 条 sont impossibles.",
+"aussi": [
+"栋"
+]
+},
+{
+"mot": "画",
+"sens": "tableau, peinture",
+"classificateur": "幅",
+"pinyin": "fú",
+"choix": [
+"本",
+"幅",
+"只"
+],
+"exemple": "墙上挂着一幅中国画。",
+"traduction": "Une peinture chinoise est accrochée au mur.",
+"explication": "幅 compte les tableaux, les peintures et les grandes images ; 张 est aussi possible pour un dessin sur papier. 本 et 只 sont impossibles.",
+"aussi": [
+"张"
+]
+},
+{
+"mot": "眼睛",
+"sens": "yeux (la paire)",
+"classificateur": "双",
+"pinyin": "shuāng",
+"choix": [
+"张",
+"双",
+"条"
+],
+"exemple": "她有一双漂亮的大眼睛。",
+"traduction": "Elle a de beaux grands yeux.",
+"explication": "双 compte ce qui va par paire : yeux, mains, chaussures, baguettes. Pour un seul œil, on dit 一只眼睛 ; 张 et 条 sont impossibles.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "票",
+"sens": "billet, ticket",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"本",
+"条"
+],
+"exemple": "我这儿还有两张票。",
+"traduction": "Il me reste encore deux billets.",
+"explication": "张 compte les objets plats et minces : billets, tickets, photos. 本 et 条 ne conviennent pas à un billet.",
+"aussi": []
+},
+{
+"mot": "笔",
+"sens": "stylo, crayon",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"支"
+],
+"exemple": "你能借我一支笔吗？",
+"traduction": "Tu peux me prêter un stylo ?",
+"explication": "支 compte les objets fins et rigides comme les stylos, les crayons ou les cigarettes. 张 et 本 sont impossibles pour un stylo.",
+"aussi": []
+},
+{
+"mot": "红茶",
+"sens": "thé noir",
+"classificateur": "杯",
+"pinyin": "bēi",
+"choix": [
+"条",
+"杯",
+"本"
+],
+"exemple": "请给我来一杯红茶。",
+"traduction": "Un thé noir, s'il vous plaît.",
+"explication": "杯 est un classificateur de contenant : « une tasse de ». 壶 (une théière de) est aussi possible ; 条 et 本 ne comptent pas une boisson.",
+"aussi": [
+"壶"
+]
+},
+{
+"mot": "裤子",
+"sens": "pantalon",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"条",
+"本",
+"张"
+],
+"exemple": "我想买一条新裤子。",
+"traduction": "Je voudrais acheter un nouveau pantalon.",
+"explication": "条 compte les objets longs, dont les vêtements du bas (pantalons, jupes) ; 件 est réservé aux vêtements du haut. 本 et 张 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "路",
+"sens": "route, chemin",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"件",
+"条",
+"本"
+],
+"exemple": "学校前面有一条小路。",
+"traduction": "Il y a un petit chemin devant l'école.",
+"explication": "条 compte les choses longues et étroites : routes, rivières, poissons, pantalons. 件 et 本 sont impossibles pour une route.",
+"aussi": []
+},
+{
+"mot": "运动",
+"sens": "sport, exercice physique",
+"classificateur": "项",
+"pinyin": "xiàng",
+"choix": [
+"张",
+"条",
+"项"
+],
+"exemple": "游泳是一项很好的运动。",
+"traduction": "La natation est un très bon sport.",
+"explication": "项 compte les éléments d'une liste : sports, tâches, projets ; 种 (« une sorte de ») se dit aussi. 张 et 条 sont impossibles.",
+"aussi": [
+"种"
+]
+},
+{
+"mot": "门",
+"sens": "porte",
+"classificateur": "扇",
+"pinyin": "shàn",
+"choix": [
+"扇",
+"本",
+"条"
+],
+"exemple": "教室有前后两扇门。",
+"traduction": "La salle de classe a deux portes, l'une devant, l'autre derrière.",
+"explication": "扇 compte les portes et les fenêtres (les battants) ; 道 est aussi possible pour une porte. 本 et 条 sont impossibles.",
+"aussi": [
+"道"
+]
+},
+{
+"mot": "音乐会",
+"sens": "concert",
+"classificateur": "场",
+"pinyin": "chǎng",
+"choix": [
+"张",
+"场",
+"本"
+],
+"exemple": "晚上我们去听一场音乐会。",
+"traduction": "Ce soir, nous allons écouter un concert.",
+"explication": "场 (prononcé chǎng) compte les spectacles et les rencontres sportives : concerts, films, matchs. 张 compte les billets de concert, pas le concert lui-même ; 本 est impossible.",
+"aussi": []
+},
+{
+"mot": "题",
+"sens": "question, exercice",
+"classificateur": "道",
+"pinyin": "dào",
+"choix": [
+"件",
+"道",
+"本"
+],
+"exemple": "老师给了我们五道题。",
+"traduction": "Le professeur nous a donné cinq exercices.",
+"explication": "道 compte les questions d'exercice ou d'examen (et aussi les plats) ; à l'oral, 个 est courant. 件 et 本 sont impossibles avec 题.",
+"aussi": []
+},
+{
+"mot": "饭馆",
+"sens": "restaurant",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"本",
+"张",
+"家"
+],
+"exemple": "我们去那家饭馆吃饭吧。",
+"traduction": "Allons manger dans ce restaurant-là.",
+"explication": "家 compte les restaurants, les magasins et les entreprises. 本 et 张 ne conviennent pas à un établissement.",
+"aussi": []
+},
+{
+"mot": "鱼",
+"sens": "poisson",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"条",
+"本",
+"张"
+],
+"exemple": "他今天买了两条鱼。",
+"traduction": "Il a acheté deux poissons aujourd'hui.",
+"explication": "条 compte les choses longues et souples : poissons, serpents, routes, rivières. 本 et 张 sont impossibles pour un poisson.",
+"aussi": []
+},
+{
+"mot": "鸟",
+"sens": "oiseau",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"条",
+"只",
+"本"
+],
+"exemple": "树上有两只漂亮的小鸟。",
+"traduction": "Il y a deux jolis petits oiseaux dans l'arbre.",
+"explication": "只 compte les oiseaux et la plupart des petits animaux. 条 sert aux poissons et aux serpents, pas aux oiseaux ; 本 est réservé aux livres.",
+"aussi": []
+},
+{
+"mot": "上衣",
+"sens": "haut, veste",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"件",
+"本",
+"双"
+],
+"exemple": "她买了一件红色的上衣。",
+"traduction": "Elle a acheté un haut rouge.",
+"explication": "件 compte les vêtements du haut (chemises, vestes, manteaux) ; les pantalons et les jupes prennent 条. 本 et 双 sont impossibles pour un haut.",
+"aussi": []
+},
+{
+"mot": "伞",
+"sens": "parapluie",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"张",
+"把",
+"本"
+],
+"exemple": "下雨了，我带了一把伞。",
+"traduction": "Il pleut, j'ai pris un parapluie.",
+"explication": "把 compte les objets munis d'une poignée : parapluies, chaises, couteaux, clés. 张 et 本 ne conviennent pas à un parapluie.",
+"aussi": []
+},
+{
+"mot": "冰",
+"sens": "glace (morceau)",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"本",
+"张",
+"块"
+],
+"exemple": "杯子里放了两块冰。",
+"traduction": "On a mis deux glaçons dans le verre.",
+"explication": "块 compte les morceaux de matière solide : glace, pierre, gâteau, savon. 本 et 张 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "冰箱",
+"sens": "réfrigérateur",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"台",
+"张",
+"条"
+],
+"exemple": "我们家买了一台新冰箱。",
+"traduction": "Nous avons acheté un nouveau réfrigérateur.",
+"explication": "台 compte les appareils et les machines : réfrigérateurs, ordinateurs, téléviseurs. 张 et 条 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "办公室",
+"sens": "bureau (pièce)",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"条",
+"间",
+"本"
+],
+"exemple": "这间办公室又大又亮。",
+"traduction": "Ce bureau est grand et lumineux.",
+"explication": "间 compte les pièces d'un bâtiment : bureaux, chambres, salles. 条 et 本 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "动物",
+"sens": "animal",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"只",
+"本",
+"张"
+],
+"exemple": "我在路上看见了一只小动物。",
+"traduction": "J'ai vu un petit animal sur la route.",
+"explication": "只 compte la plupart des animaux, surtout les petits ; certains ont leur propre classificateur (条 pour les poissons, 头 pour les bœufs), et 种 sert à parler d'une espèce. 本 et 张 sont impossibles.",
+"aussi": [
+"种"
+]
+},
+{
+"mot": "勺子",
+"sens": "cuillère",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"本",
+"把",
+"条"
+],
+"exemple": "服务员，请给我一把勺子。",
+"traduction": "S'il vous plaît, pourriez-vous m'apporter une cuillère ?",
+"explication": "把 compte les objets qu'on tient par un manche : cuillères, couteaux, parapluies. 本 et 条 sont impossibles pour une cuillère.",
+"aussi": []
+},
+{
+"mot": "卡",
+"sens": "carte (bancaire, etc.)",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "我在银行办了一张卡。",
+"traduction": "Je me suis fait faire une carte à la banque.",
+"explication": "张 compte les objets plats et minces : cartes, billets, photos, feuilles. 条 et 本 ne conviennent pas à une carte.",
+"aussi": []
+},
+{
+"mot": "啤酒",
+"sens": "bière",
+"classificateur": "瓶",
+"pinyin": "píng",
+"choix": [
+"张",
+"瓶",
+"条"
+],
+"exemple": "他一个人喝了三瓶啤酒。",
+"traduction": "Il a bu trois bières à lui tout seul.",
+"explication": "瓶 est un classificateur de contenant : « une bouteille de ». On dit aussi 一杯啤酒 (un verre) ou 一罐啤酒 (une canette) ; 张 et 条 sont impossibles.",
+"aussi": [
+"杯",
+"罐"
+]
+},
+{
+"mot": "地图",
+"sens": "carte (géographique)",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"张",
+"件"
+],
+"exemple": "墙上有一张中国地图。",
+"traduction": "Il y a une carte de la Chine au mur.",
+"explication": "张 compte les objets plats comme les cartes, les photos et les feuilles ; 幅 est aussi possible pour une grande carte. 条 et 件 sont impossibles.",
+"aussi": [
+"幅"
+]
+},
+{
+"mot": "城市",
+"sens": "ville",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"张",
+"条",
+"座"
+],
+"exemple": "上海是一座很大的城市。",
+"traduction": "Shanghai est une très grande ville.",
+"explication": "座 compte les villes et les grandes constructions (montagnes, ponts, bâtiments) ; à l'oral, 个 est aussi très fréquent. 张 et 条 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "外语",
+"sens": "langue étrangère",
+"classificateur": "门",
+"pinyin": "mén",
+"choix": [
+"门",
+"张",
+"条"
+],
+"exemple": "我哥哥会说两门外语。",
+"traduction": "Mon grand frère parle deux langues étrangères.",
+"explication": "门 compte les langues, les matières et les disciplines (一门课, 一门外语) ; 种 (« une sorte de ») est aussi courant. 张 et 条 sont impossibles.",
+"aussi": [
+"种"
+]
+},
+{
+"mot": "大衣",
+"sens": "manteau",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"双",
+"件"
+],
+"exemple": "天冷了，他穿上了一件大衣。",
+"traduction": "Il fait froid : il a mis un manteau.",
+"explication": "件 compte les vêtements du haut : manteaux, chemises, pulls. 双 (paires) et 条 (pantalons, jupes) ne conviennent pas à un manteau.",
+"aussi": []
+},
+{
+"mot": "字典",
+"sens": "dictionnaire",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"本",
+"张",
+"支"
+],
+"exemple": "我买了一本汉语字典。",
+"traduction": "J'ai acheté un dictionnaire de chinois.",
+"explication": "本 compte les livres et les objets reliés : dictionnaires, cahiers, magazines ; 部 s'emploie aussi pour un gros dictionnaire, à l'écrit. 张 et 支 sont impossibles.",
+"aussi": [
+"部"
+]
+},
+{
+"mot": "客人",
+"sens": "invité, client",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"只",
+"位",
+"本"
+],
+"exemple": "今天家里来了两位客人。",
+"traduction": "Aujourd'hui, deux invités sont venus à la maison.",
+"explication": "位 est le classificateur poli des personnes, tout naturel pour des invités. 只 (animaux) et 本 (livres) ne comptent jamais des personnes.",
+"aussi": []
+},
+{
+"mot": "宾馆",
+"sens": "hôtel",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"张",
+"本",
+"家"
+],
+"exemple": "我们住在一家小宾馆里。",
+"traduction": "Nous logeons dans un petit hôtel.",
+"explication": "家 compte les hôtels, les restaurants et les commerces. 张 et 本 sont impossibles pour un établissement.",
+"aussi": []
+},
+{
+"mot": "屋子",
+"sens": "pièce, chambre",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"条",
+"张"
+],
+"exemple": "这间屋子又小又干净。",
+"traduction": "Cette pièce est petite et propre.",
+"explication": "间 compte les pièces et les petites maisons. 条 et 张 sont impossibles pour une pièce.",
+"aussi": []
+},
+{
+"mot": "山",
+"sens": "montagne",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"本",
+"座",
+"张"
+],
+"exemple": "我们家后面有一座山。",
+"traduction": "Il y a une montagne derrière chez nous.",
+"explication": "座 compte les grandes masses fixes : montagnes, bâtiments, ponts, villes. 本 et 张 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "护照",
+"sens": "passeport",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "桌子上有一本护照。",
+"traduction": "Il y a un passeport sur la table.",
+"explication": "本 compte les objets reliés en livret : livres, cahiers, passeports. 张 (une seule feuille) et 条 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "报纸",
+"sens": "journal",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"份",
+"本",
+"条"
+],
+"exemple": "爸爸每天都买一份报纸。",
+"traduction": "Papa achète un journal tous les jours.",
+"explication": "份 compte un exemplaire de journal ou de document ; 张 compte une feuille de journal. 本 (livres reliés) et 条 sont impossibles.",
+"aussi": [
+"张"
+]
+},
+{
+"mot": "板",
+"sens": "planche",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"双",
+"块",
+"本"
+],
+"exemple": "他找来了一块木板。",
+"traduction": "Il est allé chercher une planche.",
+"explication": "块 compte les morceaux de matière, plats ou épais : planches, pierres, gâteaux. 双 (paires) et 本 (livres) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "校长",
+"sens": "directeur (d'école), président (d'université)",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"位",
+"条",
+"张"
+],
+"exemple": "我们学校来了一位新校长。",
+"traduction": "Un nouveau directeur est arrivé dans notre école.",
+"explication": "位 est le classificateur poli des personnes, adapté à un directeur. 条 et 张 ne comptent jamais des personnes.",
+"aussi": []
+},
+{
+"mot": "汽车",
+"sens": "voiture",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"张",
+"辆",
+"条"
+],
+"exemple": "他们家有两辆汽车。",
+"traduction": "Leur famille possède deux voitures.",
+"explication": "辆 compte les véhicules à roues : voitures, bus, vélos. 张 et 条 sont impossibles pour une voiture.",
+"aussi": []
+},
+{
+"mot": "沙发",
+"sens": "canapé",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"本",
+"双",
+"张"
+],
+"exemple": "客厅里有一张大沙发。",
+"traduction": "Il y a un grand canapé dans le salon.",
+"explication": "张 compte les meubles à surface plane : canapés, lits, tables ; 套 désigne un ensemble de canapés. 本 et 双 sont impossibles.",
+"aussi": [
+"套"
+]
+},
+{
+"mot": "河",
+"sens": "rivière, fleuve",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"只",
+"条",
+"本"
+],
+"exemple": "这座城市有两条河。",
+"traduction": "Cette ville est traversée par deux rivières.",
+"explication": "条 compte les choses longues et étroites : rivières, routes, poissons. 只 et 本 sont impossibles pour une rivière.",
+"aussi": []
+},
+{
+"mot": "洗衣机",
+"sens": "machine à laver",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"本",
+"台",
+"条"
+],
+"exemple": "我家新买了一台洗衣机。",
+"traduction": "Nous venons d'acheter une nouvelle machine à laver.",
+"explication": "台 sert pour les machines et les appareils (ordinateur, télévision, climatiseur…). 本 (livres) et 条 (objets longs et souples) ne conviennent pas à un appareil.",
+"aussi": []
+},
+{
+"mot": "灯",
+"sens": "lampe",
+"classificateur": "盏",
+"pinyin": "zhǎn",
+"choix": [
+"双",
+"本",
+"盏"
+],
+"exemple": "房间里只有一盏小灯。",
+"traduction": "Il n'y a qu'une petite lampe dans la pièce.",
+"explication": "盏 est le classificateur des lampes (à l'origine, les petites coupelles à huile) ; à l'oral on entend aussi 个. 本 (livres) et 双 (paires) n'ont aucun rapport avec une lampe.",
+"aussi": []
+},
+{
+"mot": "照片",
+"sens": "photo",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"件",
+"条"
+],
+"exemple": "这张照片是在北京拍的。",
+"traduction": "Cette photo a été prise à Pékin.",
+"explication": "张 s'emploie pour les objets plats à surface étendue : papier, photos, billets, tables, lits. 件 (vêtements, affaires) et 条 (objets longs) ne vont pas.",
+"aussi": []
+},
+{
+"mot": "牙",
+"sens": "dent",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"张",
+"条",
+"颗"
+],
+"exemple": "我的孩子昨天掉了一颗牙。",
+"traduction": "Mon enfant a perdu une dent hier.",
+"explication": "颗 sert pour les petits objets ronds ou compacts : dents, perles, étoiles. 张 et 条 ne s'emploient pas pour une dent ; pour la denture entière on dit 一口牙.",
+"aussi": []
+},
+{
+"mot": "牙刷",
+"sens": "brosse à dents",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"张",
+"把",
+"本"
+],
+"exemple": "我要买两把新牙刷。",
+"traduction": "Je dois acheter deux brosses à dents neuves.",
+"explication": "把 s'emploie pour les objets qu'on tient par un manche : couteau, parapluie, chaise, brosse. 支 est aussi courant pour une brosse à dents ; 张 et 本 sont impossibles.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "牛",
+"sens": "vache, bœuf",
+"classificateur": "头",
+"pinyin": "tóu",
+"choix": [
+"头",
+"匹",
+"张"
+],
+"exemple": "爷爷家里养了三头牛。",
+"traduction": "Grand-père élève trois vaches.",
+"explication": "头 (littéralement « tête ») compte le gros bétail : vaches, cochons, éléphants. 匹 est réservé aux chevaux et 张 aux objets plats.",
+"aussi": []
+},
+{
+"mot": "电梯",
+"sens": "ascenseur",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"本",
+"条",
+"部"
+],
+"exemple": "这座大楼有四部电梯。",
+"traduction": "Cet immeuble a quatre ascenseurs.",
+"explication": "部 s'emploie pour certains appareils (ascenseurs, téléphones portables) ainsi que pour les films et les œuvres ; 台 est aussi correct pour un ascenseur. 本 et 条 ne conviennent pas.",
+"aussi": [
+"台"
+]
+},
+{
+"mot": "白菜",
+"sens": "chou chinois",
+"classificateur": "棵",
+"pinyin": "kē",
+"choix": [
+"条",
+"棵",
+"本"
+],
+"exemple": "妈妈买了两棵大白菜。",
+"traduction": "Maman a acheté deux choux chinois.",
+"explication": "棵 compte les plantes entières : arbres, herbes, choux ; il porte la clé de l'arbre 木. 条 (objets longs) et 本 (livres) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "矿泉水",
+"sens": "eau minérale",
+"classificateur": "瓶",
+"pinyin": "píng",
+"choix": [
+"双",
+"本",
+"瓶"
+],
+"exemple": "请给我两瓶矿泉水。",
+"traduction": "Deux bouteilles d'eau minérale, s'il vous plaît.",
+"explication": "瓶 (« bouteille ») est un classificateur de contenant : on compte le liquide par son récipient, comme avec 杯 (verre) ou 箱 (caisse). 双 (paire) et 本 (livre) n'ont aucun sens ici.",
+"aussi": [
+"杯",
+"箱"
+]
+},
+{
+"mot": "礼物",
+"sens": "cadeau",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"份",
+"条",
+"张"
+],
+"exemple": "这是我送给你的一份礼物。",
+"traduction": "Voici un cadeau que je t'offre.",
+"explication": "份 s'emploie pour ce qu'on donne ou reçoit comme un tout (cadeau, repas, journal, emploi) ; 件 est aussi courant pour un cadeau. 条 et 张 ne conviennent pas.",
+"aussi": [
+"件"
+]
+},
+{
+"mot": "空调",
+"sens": "climatiseur",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"张",
+"台",
+"双"
+],
+"exemple": "教室里装了两台空调。",
+"traduction": "On a installé deux climatiseurs dans la salle de classe.",
+"explication": "台 compte les appareils et les machines. 张 (objets plats) et 双 (paires) ne s'appliquent pas à un appareil.",
+"aussi": []
+},
+{
+"mot": "笔记本",
+"sens": "carnet, cahier",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"条",
+"双",
+"本"
+],
+"exemple": "我在书店买了三本笔记本。",
+"traduction": "J'ai acheté trois carnets à la librairie.",
+"explication": "本 compte tout ce qui est relié : livres, cahiers, carnets, magazines. Pour un ordinateur portable (aussi appelé 笔记本), on dit 台. 条 et 双 ne vont pas.",
+"aussi": []
+},
+{
+"mot": "米",
+"sens": "riz (grain de riz)",
+"classificateur": "粒",
+"pinyin": "lì",
+"choix": [
+"粒",
+"张",
+"条"
+],
+"exemple": "他的碗里一粒米也没剩。",
+"traduction": "Il n'a pas laissé un seul grain de riz dans son bol.",
+"explication": "粒 compte les très petits grains : riz, sable, graines, comprimés. 张 et 条 sont impossibles ; pour une quantité de riz, on emploie plutôt une mesure comme 斤 ou 袋.",
+"aussi": []
+},
+{
+"mot": "羊",
+"sens": "mouton, chèvre",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"匹",
+"只",
+"张"
+],
+"exemple": "他家养了二十只羊。",
+"traduction": "Sa famille élève vingt moutons.",
+"explication": "只 est le classificateur général des animaux, surtout petits et moyens : chats, oiseaux, moutons ; 头 se rencontre aussi. 匹 est réservé aux chevaux et 张 aux objets plats.",
+"aussi": [
+"头"
+]
+},
+{
+"mot": "耳朵",
+"sens": "oreille",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"只"
+],
+"exemple": "兔子的两只耳朵很长。",
+"traduction": "Le lapin a de très longues oreilles.",
+"explication": "只 compte un élément d'une paire du corps : une oreille, un œil, une main. Pour la paire entière on dit 对 ou 双. 张 et 本 ne conviennent pas.",
+"aussi": [
+"对",
+"双"
+]
+},
+{
+"mot": "脚",
+"sens": "pied",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"只",
+"条",
+"张"
+],
+"exemple": "他的一只脚受伤了。",
+"traduction": "Il s'est blessé à un pied.",
+"explication": "只 compte un seul pied (comme une main ou une chaussure) ; pour les deux on dit 一双脚. 条 est réservé aux jambes (一条腿), pas aux pieds, et 张 aux objets plats.",
+"aussi": [
+"双"
+]
+},
+{
+"mot": "脸",
+"sens": "visage",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"张",
+"本"
+],
+"exemple": "她有一张漂亮的脸。",
+"traduction": "Elle a un joli visage.",
+"explication": "Le visage est vu comme une surface plate : on dit 一张脸, comme 一张纸 ou 一张嘴. 条 et 本 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "腿",
+"sens": "jambe",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"本",
+"条"
+],
+"exemple": "我踢球的时候伤了一条腿。",
+"traduction": "Je me suis blessé à une jambe en jouant au foot.",
+"explication": "条 compte les choses longues et étroites : jambes, rues, rivières, poissons, pantalons. 张 et 本 ne vont pas avec une jambe.",
+"aussi": []
+},
+{
+"mot": "自行车",
+"sens": "vélo",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"辆",
+"条",
+"本"
+],
+"exemple": "我昨天买了一辆新自行车。",
+"traduction": "Hier, j'ai acheté un nouveau vélo.",
+"explication": "辆 compte les véhicules à roues : voitures, bus, vélos. 条 et 本 ne s'emploient pas pour un véhicule.",
+"aussi": []
+},
+{
+"mot": "船",
+"sens": "bateau",
+"classificateur": "艘",
+"pinyin": "sōu",
+"choix": [
+"辆",
+"艘",
+"张"
+],
+"exemple": "远处的海上有两艘船。",
+"traduction": "Au loin, il y a deux bateaux sur la mer.",
+"explication": "艘 est le classificateur spécialisé des bateaux et navires ; 条 et 只 sont aussi courants pour un bateau. 辆 est réservé aux véhicules à roues et 张 aux objets plats.",
+"aussi": [
+"条",
+"只"
+]
+},
+{
+"mot": "草地",
+"sens": "pelouse, prairie",
+"classificateur": "片",
+"pinyin": "piàn",
+"choix": [
+"本",
+"双",
+"片"
+],
+"exemple": "学校后面有一片草地。",
+"traduction": "Il y a une pelouse derrière l'école.",
+"explication": "片 s'emploie pour les étendues (prairie, forêt, mer) et les objets minces (feuille, tranche) ; 块 est aussi possible pour une parcelle d'herbe. 本 et 双 ne conviennent pas.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "蛋糕",
+"sens": "gâteau (une part)",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"块",
+"本",
+"双"
+],
+"exemple": "妈妈给了我一块蛋糕。",
+"traduction": "Maman m'a donné une part de gâteau.",
+"explication": "块 compte les morceaux compacts : une part de gâteau, un morceau de viande, un savon ; 片 convient pour une tranche. Un gâteau entier se compte plutôt avec 个. 本 et 双 sont impossibles.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "行李",
+"sens": "bagage",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"件",
+"张"
+],
+"exemple": "我这次只带了一件行李。",
+"traduction": "Cette fois, je n'ai pris qu'un seul bagage.",
+"explication": "件 compte les objets et affaires pris un par un (un bagage, un meuble) et les vêtements du haut. 条 et 张 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "街",
+"sens": "rue",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"座",
+"本",
+"条"
+],
+"exemple": "这条街上有很多饭馆。",
+"traduction": "Il y a beaucoup de restaurants dans cette rue.",
+"explication": "Les rues, routes et rivières sont longues et étroites, d'où 条. 座 s'emploie pour les grandes constructions fixes (pont, montagne, ville) et 本 pour les livres.",
+"aussi": []
+},
+{
+"mot": "衬衣",
+"sens": "chemise",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"件",
+"张",
+"条"
+],
+"exemple": "他今天穿了一件白衬衣。",
+"traduction": "Aujourd'hui, il porte une chemise blanche.",
+"explication": "件 compte les vêtements du haut (chemise, pull, manteau). 条 s'emploie pour les pantalons et les jupes, 张 pour les objets plats.",
+"aussi": []
+},
+{
+"mot": "衬衫",
+"sens": "chemise, chemisier",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"双",
+"件"
+],
+"exemple": "我想买两件新衬衫。",
+"traduction": "Je voudrais acheter deux nouvelles chemises.",
+"explication": "件 s'emploie pour les vêtements qui couvrent le haut du corps ; attention au piège 条, qui sert pour les pantalons et les jupes. 双 compte les paires (chaussures, chaussettes).",
+"aussi": []
+},
+{
+"mot": "裙子",
+"sens": "jupe",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"双",
+"条",
+"张"
+],
+"exemple": "这条红裙子真漂亮！",
+"traduction": "Cette jupe rouge est vraiment jolie !",
+"explication": "Les vêtements du bas, longs et souples (jupe, pantalon), se comptent avec 条 ; à l'oral on entend aussi 件. 双 (paires) et 张 (objets plats) ne vont pas.",
+"aussi": [
+"件"
+]
+},
+{
+"mot": "词典",
+"sens": "dictionnaire",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "这本词典对学汉语很有用。",
+"traduction": "Ce dictionnaire est très utile pour apprendre le chinois.",
+"explication": "本 compte les livres et tout ouvrage relié ; 部 est aussi possible pour un gros ouvrage. 张 et 条 ne conviennent pas.",
+"aussi": [
+"部"
+]
+},
+{
+"mot": "语言",
+"sens": "langue",
+"classificateur": "门",
+"pinyin": "mén",
+"choix": [
+"门",
+"张",
+"条"
+],
+"exemple": "学好一门语言需要很长时间。",
+"traduction": "Bien apprendre une langue demande beaucoup de temps.",
+"explication": "门 s'emploie pour les disciplines qu'on étudie : langues, matières, cours, techniques. 种 (« sorte ») est aussi très courant. 张 et 条 sont impossibles.",
+"aussi": [
+"种"
+]
+},
+{
+"mot": "课文",
+"sens": "texte (de leçon)",
+"classificateur": "篇",
+"pinyin": "piān",
+"choix": [
+"首",
+"篇",
+"张"
+],
+"exemple": "这篇课文有点儿难。",
+"traduction": "Ce texte est un peu difficile.",
+"explication": "篇 compte les textes écrits : articles, rédactions, textes de leçon. 首 est réservé aux poèmes et aux chansons, 张 aux feuilles et objets plats.",
+"aussi": []
+},
+{
+"mot": "课本",
+"sens": "manuel scolaire",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"篇",
+"条",
+"本"
+],
+"exemple": "我的书包里有三本课本。",
+"traduction": "Il y a trois manuels dans mon cartable.",
+"explication": "本 compte ce qui est relié en volume : livres, manuels, cahiers. 篇 compte un texte (un article, une leçon), pas le livre entier ; 条 est pour les objets longs.",
+"aussi": []
+},
+{
+"mot": "运动员",
+"sens": "athlète, sportif",
+"classificateur": "名",
+"pinyin": "míng",
+"choix": [
+"名",
+"只",
+"张"
+],
+"exemple": "这次比赛有两百名运动员参加。",
+"traduction": "Deux cents athlètes participent à cette compétition.",
+"explication": "名 compte les personnes selon leur fonction ou leur statut (étudiants, soldats, athlètes), surtout à l'écrit ; 位 est aussi possible et 个 courant à l'oral. 只 est réservé aux animaux et 张 aux objets plats.",
+"aussi": [
+"位"
+]
+},
+{
+"mot": "酒",
+"sens": "alcool, vin",
+"classificateur": "杯",
+"pinyin": "bēi",
+"choix": [
+"本",
+"杯",
+"张"
+],
+"exemple": "他晚饭时喝了两杯酒。",
+"traduction": "Il a bu deux verres d'alcool au dîner.",
+"explication": "杯 (« verre, tasse ») compte une boisson par son récipient, comme 瓶 (bouteille). 本 et 张 ne peuvent pas compter un liquide.",
+"aussi": [
+"瓶"
+]
+},
+{
+"mot": "铅笔",
+"sens": "crayon",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"条",
+"张",
+"支"
+],
+"exemple": "我向同学借了一支铅笔。",
+"traduction": "J'ai emprunté un crayon à un camarade.",
+"explication": "支 compte les objets fins et rigides en forme de bâton : stylos, crayons, cigarettes ; 根 est aussi courant à l'oral. 条 s'emploie pour ce qui est long et souple, 张 pour ce qui est plat.",
+"aussi": [
+"枝",
+"根"
+]
+},
+{
+"mot": "银行",
+"sens": "banque",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"本",
+"条"
+],
+"exemple": "我家附近有两家银行。",
+"traduction": "Il y a deux banques près de chez moi.",
+"explication": "家 compte les établissements commerciaux : banques, hôtels, restaurants, magasins, entreprises. 本 et 条 ne s'emploient pas pour un établissement.",
+"aussi": []
+},
+{
+"mot": "雨衣",
+"sens": "imperméable",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"件",
+"双"
+],
+"exemple": "下雨了，你带一件雨衣吧。",
+"traduction": "Il pleut, prends un imperméable.",
+"explication": "Comme les autres vêtements qui couvrent le haut du corps, l'imperméable se compte avec 件. 条 (pantalons, jupes) et 双 (paires) ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "鞋",
+"sens": "chaussure",
+"classificateur": "双",
+"pinyin": "shuāng",
+"choix": [
+"件",
+"张",
+"双"
+],
+"exemple": "这双鞋我只穿过一次。",
+"traduction": "Je n'ai porté cette paire de chaussures qu'une seule fois.",
+"explication": "双 compte les objets qui vont par paires : chaussures, chaussettes, baguettes, mains. Une seule chaussure se dit 一只鞋. 件 et 张 sont impossibles.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "风",
+"sens": "vent (coup de vent)",
+"classificateur": "阵",
+"pinyin": "zhèn",
+"choix": [
+"阵",
+"张",
+"本"
+],
+"exemple": "外面突然刮起了一阵大风。",
+"traduction": "Dehors, un violent coup de vent s'est soudain levé.",
+"explication": "阵 compte les phénomènes brefs qui arrivent par vagues : un coup de vent, une averse, un éclat de rire ; 股 s'emploie aussi pour un courant d'air. 张 et 本 ne peuvent pas compter du vent.",
+"aussi": [
+"股"
+]
+},
+{
+"mot": "马",
+"sens": "cheval",
+"classificateur": "匹",
+"pinyin": "pǐ",
+"choix": [
+"辆",
+"匹",
+"张"
+],
+"exemple": "草原上有几匹马在跑。",
+"traduction": "Quelques chevaux courent dans la prairie.",
+"explication": "匹 est le classificateur des chevaux (et des rouleaux de tissu). 辆 compte les véhicules, par exemple une calèche (马车), mais pas le cheval lui-même ; 张 compte les objets plats.",
+"aussi": []
+},
+{
+"mot": "马路",
+"sens": "rue, route",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"座",
+"张",
+"条"
+],
+"exemple": "过这条马路要小心。",
+"traduction": "Il faut faire attention en traversant cette rue.",
+"explication": "条 compte les voies longues et étroites : rues, routes, rivières. 座 sert pour les grandes constructions (pont, bâtiment) et 张 pour les surfaces plates.",
+"aussi": []
+},
+{
+"mot": "鸡",
+"sens": "poule, poulet",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"只",
+"头",
+"张"
+],
+"exemple": "奶奶家养了十几只鸡。",
+"traduction": "Grand-mère élève une bonne dizaine de poules.",
+"explication": "只 est le classificateur habituel des volailles, des oiseaux et des petits animaux. 头 compte le gros bétail (vaches, cochons) et 张 les objets plats.",
+"aussi": []
+},
+{
+"mot": "黑板",
+"sens": "tableau noir",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"条",
+"块",
+"本"
+],
+"exemple": "教室前面有一块大黑板。",
+"traduction": "Il y a un grand tableau noir à l'avant de la salle de classe.",
+"explication": "块 compte les objets en forme de plaque ou de morceau : tableau, montre, savon, pierre. 条 (objets longs) et 本 (livres) ne vont pas.",
+"aussi": []
+},
+{
+"mot": "光",
+"sens": "lumière, rayon lumineux",
+"classificateur": "道",
+"pinyin": "dào",
+"choix": [
+"本",
+"张",
+"道"
+],
+"exemple": "一道光从窗外照了进来。",
+"traduction": "Un rayon de lumière est entré par la fenêtre.",
+"explication": "道 compte ce qui forme une ligne ou un trait : un rayon de lumière, un éclair, une question d'examen ; 束 s'emploie pour un faisceau. 本 et 张 ne peuvent pas compter de la lumière.",
+"aussi": [
+"束"
+]
+},
+{
+"mot": "作文",
+"sens": "rédaction",
+"classificateur": "篇",
+"pinyin": "piān",
+"choix": [
+"篇",
+"首",
+"双"
+],
+"exemple": "老师让我们写一篇作文。",
+"traduction": "Le professeur nous a demandé d'écrire une rédaction.",
+"explication": "篇 compte les textes rédigés : rédactions, articles, textes de leçon. 首 est réservé aux poèmes et aux chansons, 双 aux paires.",
+"aussi": []
+},
+{
+"mot": "公路",
+"sens": "route",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"辆",
+"条",
+"本"
+],
+"exemple": "这条公路通到海边。",
+"traduction": "Cette route mène au bord de la mer.",
+"explication": "条 compte les voies longues et étroites (routes, rues, rivières). 辆 compte les véhicules qui roulent sur la route, pas la route elle-même ; 本 compte les livres.",
+"aussi": []
+},
+{
+"mot": "刷子",
+"sens": "brosse",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"条",
+"双",
+"把"
+],
+"exemple": "他用一把旧刷子洗鞋。",
+"traduction": "Il lave ses chaussures avec une vieille brosse.",
+"explication": "把 compte les objets munis d'un manche ou qu'on tient à la main : brosses, couteaux, parapluies, chaises. 条 et 双 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "午餐",
+"sens": "déjeuner (repas)",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"顿",
+"张",
+"条"
+],
+"exemple": "我们一起吃了一顿午餐。",
+"traduction": "Nous avons déjeuné ensemble.",
+"explication": "顿 compte les repas qu'on prend (一顿饭). 份 est possible pour une portion ou un plateau-repas. 张 et 条 sont impossibles.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "早餐",
+"sens": "petit-déjeuner",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"本",
+"顿",
+"双"
+],
+"exemple": "妈妈给我们做了一顿早餐。",
+"traduction": "Maman nous a préparé un petit-déjeuner.",
+"explication": "顿 est le classificateur des repas : 一顿饭, 一顿早餐. 份 s'emploie pour une portion servie. 本 et 双 ne vont pas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "晚餐",
+"sens": "dîner",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"条",
+"本",
+"顿"
+],
+"exemple": "这顿晚餐花了我三百块钱。",
+"traduction": "Ce dîner m'a coûté trois cents yuans.",
+"explication": "On compte les repas avec 顿 (un dîner, un bon repas) ; 份 convient pour une portion. 条 compte les objets longs, 本 les livres.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "厨房",
+"sens": "cuisine (pièce)",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"本",
+"条"
+],
+"exemple": "我们家有一间很小的厨房。",
+"traduction": "Nous avons une toute petite cuisine.",
+"explication": "间 compte les pièces d'une maison : chambres, cuisines, salles de classe ; 个 s'entend aussi. 本 et 条 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "叶子",
+"sens": "feuille (de plante)",
+"classificateur": "片",
+"pinyin": "piàn",
+"choix": [
+"本",
+"片",
+"双"
+],
+"exemple": "树上只剩下几片叶子了。",
+"traduction": "Il ne reste plus que quelques feuilles sur l'arbre.",
+"explication": "片 compte les choses minces et plates : feuilles d'arbre, tranches de pain, comprimés. 本 (livres) et 双 (paires) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "回信",
+"sens": "lettre de réponse",
+"classificateur": "封",
+"pinyin": "fēng",
+"choix": [
+"本",
+"双",
+"封"
+],
+"exemple": "我给他写了一封回信。",
+"traduction": "Je lui ai répondu par une lettre.",
+"explication": "封 compte les lettres et les courriels, ce qu'on met sous enveloppe (le caractère signifie « sceller »). 本 et 双 n'ont aucun rapport avec une lettre.",
+"aussi": []
+},
+{
+"mot": "图",
+"sens": "schéma, image",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "老师在黑板上画了一张图。",
+"traduction": "Le professeur a dessiné un schéma au tableau.",
+"explication": "张 compte les objets plats (feuilles, cartes, photos, schémas) ; 幅 est aussi employé pour les tableaux et les grandes images. 条 et 本 ne vont pas.",
+"aussi": [
+"幅"
+]
+},
+{
+"mot": "图片",
+"sens": "image, illustration",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"首",
+"张",
+"双"
+],
+"exemple": "这篇文章里有五张图片。",
+"traduction": "Il y a cinq images dans cet article.",
+"explication": "张 s'emploie pour tout ce qui est plat et mince : images, photos, papiers, billets ; 幅 se dit aussi. 首 compte les chansons et les poèmes, 双 les paires.",
+"aussi": [
+"幅"
+]
+},
+{
+"mot": "城",
+"sens": "ville (fortifiée)",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"张",
+"本",
+"座"
+],
+"exemple": "这是一座古老的城。",
+"traduction": "C'est une ville ancienne.",
+"explication": "座 compte les grandes choses fixes et massives : villes, montagnes, ponts, bâtiments. 张 (objets plats) et 本 (livres) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "外套",
+"sens": "manteau, veste",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"件",
+"条",
+"双"
+],
+"exemple": "天冷了，多穿一件外套吧。",
+"traduction": "Il fait froid, mets donc une veste en plus.",
+"explication": "件 compte les vêtements du haut : manteaux, chemises, pulls. 条 est réservé aux pantalons et aux jupes, 双 aux paires.",
+"aussi": []
+},
+{
+"mot": "大楼",
+"sens": "grand immeuble",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"张",
+"座",
+"条"
+],
+"exemple": "那座大楼有三十层。",
+"traduction": "Cet immeuble a trente étages.",
+"explication": "座 compte les grandes constructions fixes (immeubles, ponts, montagnes) ; 栋 est aussi très courant pour un bâtiment. 张 et 条 sont impossibles.",
+"aussi": [
+"栋",
+"幢"
+]
+},
+{
+"mot": "奖学金",
+"sens": "bourse d'études",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"本",
+"条",
+"笔"
+],
+"exemple": "她得到了一笔奖学金。",
+"traduction": "Elle a obtenu une bourse d'études.",
+"explication": "笔 compte les sommes d'argent et les transactions : une bourse, un revenu, une affaire ; 份 et 项 se disent aussi pour une bourse. 本 et 条 ne vont pas.",
+"aussi": [
+"份",
+"项"
+]
+},
+{
+"mot": "学院",
+"sens": "institut, faculté",
+"classificateur": "所",
+"pinyin": "suǒ",
+"choix": [
+"所",
+"张",
+"条"
+],
+"exemple": "这个城市有十几所学院。",
+"traduction": "Cette ville compte plus d'une dizaine d'établissements d'enseignement supérieur.",
+"explication": "所 compte les établissements, surtout d'enseignement, et les bâtiments : écoles, universités, hôpitaux. 张 et 条 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "家具",
+"sens": "meuble",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"张",
+"件",
+"双"
+],
+"exemple": "我们买了几件新家具。",
+"traduction": "Nous avons acheté quelques meubles neufs.",
+"explication": "件 compte les meubles un par un ; 套 compte un ensemble assorti. Le piège 张 sert pour une table ou un lit précis, mais pas pour le mot général 家具 ; 双 compte les paires.",
+"aussi": [
+"套"
+]
+},
+{
+"mot": "小说",
+"sens": "roman",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"张",
+"首",
+"本"
+],
+"exemple": "我这个月看了两本小说。",
+"traduction": "Ce mois-ci, j'ai lu deux romans.",
+"explication": "本 compte un livre ; 部 s'emploie aussi pour une œuvre longue et 篇 pour une nouvelle. 张 (objets plats) et 首 (chansons, poèmes) ne conviennent pas.",
+"aussi": [
+"部",
+"篇"
+]
+},
+{
+"mot": "工厂",
+"sens": "usine",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"本",
+"条"
+],
+"exemple": "他在一家工厂工作。",
+"traduction": "Il travaille dans une usine.",
+"explication": "家 compte les entreprises et les établissements : usines, banques, hôtels ; 座 est possible quand on pense au bâtiment. 本 et 条 sont impossibles.",
+"aussi": [
+"座"
+]
+},
+{
+"mot": "巧克力",
+"sens": "chocolat",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"张",
+"块",
+"双"
+],
+"exemple": "我给弟弟买了一块巧克力。",
+"traduction": "J'ai acheté un morceau de chocolat à mon petit frère.",
+"explication": "块 compte les morceaux et les tablettes : chocolat, gâteau, savon ; 颗 s'emploie pour un chocolat en forme de bonbon. 张 et 双 sont impossibles.",
+"aussi": [
+"颗"
+]
+},
+{
+"mot": "心",
+"sens": "cœur",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"本",
+"张",
+"颗"
+],
+"exemple": "她有一颗善良的心。",
+"traduction": "Elle a bon cœur.",
+"explication": "颗 compte les petits objets ronds (perle, dent, étoile) et, par image, le cœur. 张 et 本 ne vont pas.",
+"aussi": []
+},
+{
+"mot": "收入",
+"sens": "revenu",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"笔",
+"张",
+"本"
+],
+"exemple": "这是一笔不小的收入。",
+"traduction": "C'est un revenu non négligeable.",
+"explication": "笔 compte les sommes d'argent : revenus, dépenses, dettes, prêts ; 份 s'emploie aussi pour un revenu régulier. 张 et 本 ne conviennent pas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "教授",
+"sens": "professeur (d'université)",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"只",
+"位",
+"本"
+],
+"exemple": "这位教授教我们历史。",
+"traduction": "Ce professeur nous enseigne l'histoire.",
+"explication": "位 est le classificateur poli des personnes (professeur, invité, monsieur) ; 名 et 个 sont aussi possibles. 只 compte les animaux et 本 les livres : jamais une personne.",
+"aussi": [
+"名"
+]
+},
+{
+"mot": "文件",
+"sens": "document",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"双",
+"首",
+"份"
+],
+"exemple": "请把这份文件交给经理。",
+"traduction": "Remettez ce document au directeur, s'il vous plaît.",
+"explication": "份 compte les documents, les journaux et les exemplaires. 双 (paires) et 首 (chansons, poèmes) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "旅馆",
+"sens": "hôtel",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"家",
+"本",
+"条"
+],
+"exemple": "我们住在一家小旅馆里。",
+"traduction": "Nous logeons dans un petit hôtel.",
+"explication": "家 compte les commerces et les établissements : hôtels, restaurants, banques, magasins. 本 et 条 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "日记",
+"sens": "journal intime (une page)",
+"classificateur": "篇",
+"pinyin": "piān",
+"choix": [
+"首",
+"篇",
+"双"
+],
+"exemple": "我每天晚上写一篇日记。",
+"traduction": "Chaque soir, j'écris une page de mon journal.",
+"explication": "篇 compte un texte écrit : une page de journal, un article, une rédaction ; le carnet entier se compte avec 本. 首 (poèmes, chansons) et 双 (paires) ne vont pas.",
+"aussi": [
+"本"
+]
+},
+{
+"mot": "杂志",
+"sens": "magazine",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"张",
+"首",
+"本"
+],
+"exemple": "桌子上放着几本杂志。",
+"traduction": "Il y a quelques magazines sur la table.",
+"explication": "本 compte les publications reliées : livres, magazines, cahiers ; 期 s'emploie pour un numéro et 份 pour un exemplaire. 张 et 首 sont impossibles.",
+"aussi": [
+"份",
+"期"
+]
+},
+{
+"mot": "森林",
+"sens": "forêt",
+"classificateur": "片",
+"pinyin": "piàn",
+"choix": [
+"片",
+"本",
+"条"
+],
+"exemple": "村子后面有一片森林。",
+"traduction": "Il y a une forêt derrière le village.",
+"explication": "片 compte les grandes étendues : forêts, prairies, mers, nuages. 本 et 条 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "毛巾",
+"sens": "serviette de toilette",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"件",
+"条",
+"双"
+],
+"exemple": "我在超市买了两条毛巾。",
+"traduction": "J'ai acheté deux serviettes au supermarché.",
+"explication": "条 compte les objets longs et souples : serviettes, pantalons, écharpes ; 块 est aussi possible pour une petite serviette. Le piège 件 sert pour les vêtements, 双 pour les paires.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "毛衣",
+"sens": "pull",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"双",
+"件"
+],
+"exemple": "妈妈给我买了一件毛衣。",
+"traduction": "Maman m'a acheté un pull.",
+"explication": "件 compte les vêtements du haut : pulls, chemises, manteaux. 条 s'utilise pour les pantalons et les jupes, 双 pour les paires.",
+"aussi": []
+},
+{
+"mot": "江",
+"sens": "fleuve",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"条",
+"座",
+"张"
+],
+"exemple": "城市中间有一条大江。",
+"traduction": "Un grand fleuve traverse la ville.",
+"explication": "Les cours d'eau sont longs et étroits : 一条江, 一条河. 座 compte les montagnes et les ponts, 张 les objets plats.",
+"aussi": []
+},
+{
+"mot": "烟",
+"sens": "cigarette",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"张",
+"根",
+"双"
+],
+"exemple": "他一天要抽十几根烟。",
+"traduction": "Il fume plus d'une dizaine de cigarettes par jour.",
+"explication": "根 compte les objets fins et allongés : cigarettes, baguettes, cheveux, bâtons ; 支 est aussi courant pour une cigarette. 张 et 双 sont impossibles.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "牙膏",
+"sens": "dentifrice (tube)",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"双",
+"张",
+"支"
+],
+"exemple": "我去超市买了两支牙膏。",
+"traduction": "Je suis allé acheter deux tubes de dentifrice au supermarché.",
+"explication": "支 compte les objets allongés comme un tube de dentifrice, un stylo ou une cigarette ; 管 (« tube ») est aussi courant. 张 et 双 ne conviennent pas.",
+"aussi": [
+"管"
+]
+},
+{
+"mot": "生命",
+"sens": "vie",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"条",
+"张",
+"本"
+],
+"exemple": "医生救回了一条生命。",
+"traduction": "Le médecin a sauvé une vie.",
+"explication": "条 s'emploie par image pour une vie (一条命, 一条生命), qu'on se représente comme un fil. 张 et 本 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "生意",
+"sens": "affaire commerciale",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"张",
+"笔",
+"首"
+],
+"exemple": "他们刚做成了一笔大生意。",
+"traduction": "Ils viennent de conclure une grosse affaire.",
+"explication": "笔 compte les sommes d'argent et les transactions : une affaire, un revenu, un prêt ; 单 s'entend aussi dans le commerce. 张 et 首 sont impossibles.",
+"aussi": [
+"单"
+]
+},
+{
+"mot": "电灯",
+"sens": "lampe électrique",
+"classificateur": "盏",
+"pinyin": "zhǎn",
+"choix": [
+"本",
+"条",
+"盏"
+],
+"exemple": "客厅里亮着两盏电灯。",
+"traduction": "Deux lampes sont allumées dans le salon.",
+"explication": "盏 est le classificateur des lampes et des lumières. 本 et 条 n'ont rien à voir avec une lampe.",
+"aussi": []
+},
+{
+"mot": "电视剧",
+"sens": "série télévisée",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"部",
+"本",
+"首"
+],
+"exemple": "我最近在看一部中国电视剧。",
+"traduction": "En ce moment, je regarde une série télévisée chinoise.",
+"explication": "部 compte les œuvres longues : films, séries, romans. 本 est réservé aux livres imprimés et 首 aux chansons.",
+"aussi": []
+},
+{
+"mot": "相片",
+"sens": "photo",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"张",
+"封"
+],
+"exemple": "桌子上有三张相片。",
+"traduction": "Il y a trois photos sur la table.",
+"explication": "张 sert aux objets plats qu'on étale : photos, feuilles, billets, tables. 封 est réservé aux lettres et 条 aux objets longs et souples, ce qui ne convient pas à une photo.",
+"aussi": []
+},
+{
+"mot": "科学",
+"sens": "science",
+"classificateur": "门",
+"pinyin": "mén",
+"choix": [
+"首",
+"门",
+"张"
+],
+"exemple": "心理学是一门年轻的科学。",
+"traduction": "La psychologie est une science jeune.",
+"explication": "门 compte les disciplines, les matières et les langues (一门课, 一门外语). 首 (chansons, poèmes) et 张 (objets plats) ne s'appliquent pas à une science.",
+"aussi": []
+},
+{
+"mot": "窗户",
+"sens": "fenêtre",
+"classificateur": "扇",
+"pinyin": "shàn",
+"choix": [
+"张",
+"扇",
+"本"
+],
+"exemple": "这个房间有两扇窗户。",
+"traduction": "Cette pièce a deux fenêtres.",
+"explication": "扇 compte les battants qui s'ouvrent : portes et fenêtres. 个 se dit aussi à l'oral ; 张 et 本 sont exclus, une fenêtre n'étant ni une feuille ni un livre.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "经历",
+"sens": "expérience vécue",
+"classificateur": "段",
+"pinyin": "duàn",
+"choix": [
+"段",
+"张",
+"把"
+],
+"exemple": "那是一段难忘的经历。",
+"traduction": "C'était une expérience inoubliable.",
+"explication": "段 découpe une portion de temps, de texte ou de vie : 一段时间, 一段经历. 次 est aussi possible pour un épisode ponctuel ; 张 et 把 n'ont rien à voir.",
+"aussi": [
+"次"
+]
+},
+{
+"mot": "老虎",
+"sens": "tigre",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"张",
+"只",
+"本"
+],
+"exemple": "动物园里有两只老虎。",
+"traduction": "Il y a deux tigres au zoo.",
+"explication": "只 compte la plupart des animaux. 头 se rencontre aussi pour un grand fauve ; 张 (objets plats) et 本 (livres) sont impossibles.",
+"aussi": [
+"头"
+]
+},
+{
+"mot": "胳膊",
+"sens": "bras",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "他摔断了一条胳膊。",
+"traduction": "Il s'est cassé un bras en tombant.",
+"explication": "条 sert aux choses longues et fines : bras, jambes, routes, rivières, pantalons. 只 est aussi courant pour l'un des deux bras ; 张 et 本 sont impossibles.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "街道",
+"sens": "rue",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"座",
+"本",
+"条"
+],
+"exemple": "这条街道每天都很干净。",
+"traduction": "Cette rue est propre tous les jours.",
+"explication": "条 compte les choses longues et étroites comme les rues, les routes et les rivières. 座 sert aux bâtiments, aux ponts et aux montagnes, pas à une rue.",
+"aussi": []
+},
+{
+"mot": "表格",
+"sens": "formulaire",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"条",
+"辆"
+],
+"exemple": "请填一下这张表格。",
+"traduction": "Veuillez remplir ce formulaire.",
+"explication": "张 sert aux feuilles et aux objets plats ; 份 est aussi courant pour un formulaire vu comme un document. 条 (objet long) et 辆 (véhicule) ne vont pas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "袜子",
+"sens": "chaussettes",
+"classificateur": "双",
+"pinyin": "shuāng",
+"choix": [
+"顶",
+"双",
+"本"
+],
+"exemple": "我昨天买了三双袜子。",
+"traduction": "Hier, j'ai acheté trois paires de chaussettes.",
+"explication": "双 compte les paires d'objets qui vont ensemble : chaussettes, chaussures, baguettes. 只 désigne une seule chaussette ; 顶 est réservé aux chapeaux et aux tentes.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "话剧",
+"sens": "pièce de théâtre",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"首",
+"张",
+"部"
+],
+"exemple": "他一共写了三部话剧。",
+"traduction": "Il a écrit trois pièces de théâtre en tout.",
+"explication": "部 compte les œuvres d'une certaine ampleur : films, romans, pièces de théâtre. 场, 台 ou 出 s'emploient aussi, surtout pour une représentation ; 首 est réservé aux chansons et aux poèmes.",
+"aussi": [
+"场",
+"台",
+"出"
+]
+},
+{
+"mot": "说明书",
+"sens": "mode d'emploi",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"首",
+"本",
+"辆"
+],
+"exemple": "盒子里有一本说明书。",
+"traduction": "Il y a un mode d'emploi dans la boîte.",
+"explication": "本 compte ce qui est relié comme un livre ; si le mode d'emploi est une simple feuille, on dit 张 ou 份. 首 (chansons) et 辆 (véhicules) sont exclus.",
+"aussi": [
+"份",
+"张"
+]
+},
+{
+"mot": "课程",
+"sens": "cours, matière",
+"classificateur": "门",
+"pinyin": "mén",
+"choix": [
+"把",
+"门",
+"张"
+],
+"exemple": "这学期我选了五门课程。",
+"traduction": "Ce semestre, j'ai choisi cinq cours.",
+"explication": "门 compte les matières et les disciplines : 一门课, 一门课程, 一门外语. 张 (objets plats) et 把 (objets à poignée) ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "费用",
+"sens": "frais, dépense",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"张",
+"笔",
+"座"
+],
+"exemple": "这笔费用对我来说太高了。",
+"traduction": "Pour moi, cette dépense est trop élevée.",
+"explication": "笔 compte les sommes d'argent et les transactions : 一笔钱, 一笔费用. 张 conviendrait à un billet ou à une facture, pas à une somme ; 座 sert aux bâtiments.",
+"aussi": [
+"项"
+]
+},
+{
+"mot": "资料",
+"sens": "document, documentation",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"双",
+"份",
+"辆"
+],
+"exemple": "老师给了我一份资料。",
+"traduction": "Le professeur m'a donné un document.",
+"explication": "份 compte les documents, les copies et les exemplaires (dossier, journal, rapport). 双 (paires) et 辆 (véhicules) sont hors de propos.",
+"aussi": []
+},
+{
+"mot": "道路",
+"sens": "route",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"件",
+"条",
+"本"
+],
+"exemple": "这条道路又宽又直。",
+"traduction": "Cette route est large et droite.",
+"explication": "条 compte ce qui est long et étroit : routes, rues, rivières. 件 sert aux vêtements du haut et aux affaires, pas aux routes.",
+"aussi": []
+},
+{
+"mot": "钢琴",
+"sens": "piano",
+"classificateur": "架",
+"pinyin": "jià",
+"choix": [
+"架",
+"本",
+"条"
+],
+"exemple": "客厅里有一架钢琴。",
+"traduction": "Il y a un piano dans le salon.",
+"explication": "架 s'emploie pour les pianos, les avions et certains appareils montés sur un bâti. 台 est aussi correct (machines, instruments) ; 本 et 条 sont impossibles.",
+"aussi": [
+"台"
+]
+},
+{
+"mot": "顾客",
+"sens": "client",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"只",
+"位",
+"张"
+],
+"exemple": "店里刚来了两位顾客。",
+"traduction": "Deux clients viennent d'entrer dans la boutique.",
+"explication": "位 est le classificateur poli pour les personnes, très fréquent dans les commerces. 个 et 名 se disent aussi ; 只 est réservé aux animaux et serait insultant.",
+"aussi": [
+"个",
+"名"
+]
+},
+{
+"mot": "餐厅",
+"sens": "restaurant",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"件",
+"家",
+"本"
+],
+"exemple": "学校旁边有两家餐厅。",
+"traduction": "Il y a deux restaurants à côté de l'école.",
+"explication": "家 compte les commerces et les entreprises : restaurants, magasins, hôtels, sociétés. 个 et 间 (la salle) sont aussi possibles ; 件 et 本 ne vont pas.",
+"aussi": [
+"个",
+"间"
+]
+},
+{
+"mot": "饼干",
+"sens": "biscuit",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"本",
+"块",
+"双"
+],
+"exemple": "我早上吃了两块饼干。",
+"traduction": "Ce matin, j'ai mangé deux biscuits.",
+"explication": "块 compte les morceaux et les petits objets compacts : un biscuit, un gâteau, un savon. 片 (tranche fine) est aussi possible ; 双 et 本 sont exclus.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "鲜花",
+"sens": "fleur (fraîche)",
+"classificateur": "朵",
+"pinyin": "duǒ",
+"choix": [
+"首",
+"朵",
+"张"
+],
+"exemple": "花瓶里有三朵鲜花。",
+"traduction": "Il y a trois fleurs dans le vase.",
+"explication": "朵 compte les fleurs une par une (et les nuages). Pour un bouquet on dit 束, pour une tige 枝 ; 首 (chansons) et 张 (objets plats) ne vont pas.",
+"aussi": [
+"束",
+"枝"
+]
+},
+{
+"mot": "买卖",
+"sens": "affaire commerciale",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"笔",
+"张",
+"条"
+],
+"exemple": "他做成了一笔大买卖。",
+"traduction": "Il a conclu une grosse affaire.",
+"explication": "笔 compte les affaires et les sommes d'argent : 一笔钱, 一笔买卖, 一笔交易. 张 et 条 ne s'emploient pas pour une transaction.",
+"aussi": [
+"桩"
+]
+},
+{
+"mot": "事故",
+"sens": "accident",
+"classificateur": "起",
+"pinyin": "qǐ",
+"choix": [
+"张",
+"起",
+"本"
+],
+"exemple": "昨天这里发生了一起事故。",
+"traduction": "Un accident s'est produit ici hier.",
+"explication": "起 compte les événements soudains, surtout les accidents et les affaires (vocabulaire des informations). 次 et 场 sont aussi possibles ; 张 et 本 sont impossibles.",
+"aussi": [
+"次",
+"场"
+]
+},
+{
+"mot": "交易",
+"sens": "transaction",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"双",
+"笔",
+"本"
+],
+"exemple": "这是一笔很大的交易。",
+"traduction": "C'est une très grosse transaction.",
+"explication": "笔 compte les transactions et les sommes d'argent. 双 (paires) et 本 (livres) sont clairement hors de propos.",
+"aussi": []
+},
+{
+"mot": "代表",
+"sens": "délégué, représentant",
+"classificateur": "名",
+"pinyin": "míng",
+"choix": [
+"只",
+"张",
+"名"
+],
+"exemple": "有五十名代表参加了会议。",
+"traduction": "Cinquante délégués ont participé à la réunion.",
+"explication": "名 compte les personnes dans un cadre officiel ou dans un effectif (délégués, étudiants, employés). 位 (poli) et 个 se disent aussi ; 只 et 张 ne s'emploient jamais pour une personne.",
+"aussi": [
+"位",
+"个"
+]
+},
+{
+"mot": "企业",
+"sens": "entreprise",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"张",
+"家",
+"条"
+],
+"exemple": "他在一家大企业工作。",
+"traduction": "Il travaille dans une grande entreprise.",
+"explication": "家 compte les entreprises, les magasins, les restaurants et les hôtels. 个 se dit aussi ; 张 et 条 ne conviennent pas à une société.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "便条",
+"sens": "petit mot (écrit)",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"本",
+"双",
+"张"
+],
+"exemple": "他在桌上留了一张便条。",
+"traduction": "Il a laissé un mot sur la table.",
+"explication": "张 sert aux feuilles de papier et aux objets plats : un mot, un billet, une photo. 本 supposerait un carnet relié, 双 une paire.",
+"aussi": []
+},
+{
+"mot": "保险",
+"sens": "assurance",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"把",
+"份",
+"辆"
+],
+"exemple": "他给自己买了一份保险。",
+"traduction": "Il a souscrit une assurance pour lui-même.",
+"explication": "份 compte les documents et les « parts » : contrats, polices d'assurance, rapports, cadeaux. 把 (objets à poignée) et 辆 (véhicules) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "光线",
+"sens": "rayon de lumière",
+"classificateur": "道",
+"pinyin": "dào",
+"choix": [
+"本",
+"张",
+"道"
+],
+"exemple": "一道光线从窗户照进来。",
+"traduction": "Un rayon de lumière entre par la fenêtre.",
+"explication": "道 compte les rayons, les traits et les lignes (一道光). 束 (faisceau) et 条 se disent aussi ; 本 et 张 ne vont pas.",
+"aussi": [
+"束",
+"条"
+]
+},
+{
+"mot": "兔子",
+"sens": "lapin",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"棵",
+"只",
+"本"
+],
+"exemple": "她家里养了两只兔子。",
+"traduction": "Elle a deux lapins chez elle.",
+"explication": "只 compte la plupart des petits et moyens animaux. 棵 est réservé aux arbres et aux plantes, 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "公寓",
+"sens": "appartement",
+"classificateur": "套",
+"pinyin": "tào",
+"choix": [
+"条",
+"套",
+"本"
+],
+"exemple": "他在市中心买了一套公寓。",
+"traduction": "Il a acheté un appartement en centre-ville.",
+"explication": "套 compte les ensembles complets : un appartement, un costume, une série de livres. 间 et 个 se rencontrent aussi ; 条 et 本 sont impossibles.",
+"aussi": [
+"间",
+"个"
+]
+},
+{
+"mot": "剪刀",
+"sens": "ciseaux",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"张",
+"条",
+"把"
+],
+"exemple": "请给我一把剪刀，好吗？",
+"traduction": "Tu peux me donner une paire de ciseaux ?",
+"explication": "把 compte les objets qu'on prend par une poignée : ciseaux, couteaux, parapluies, chaises. 张 (objets plats) et 条 (objets longs et souples) ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "剪子",
+"sens": "ciseaux",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"支",
+"把",
+"本"
+],
+"exemple": "抽屉里有两把剪子。",
+"traduction": "Il y a deux paires de ciseaux dans le tiroir.",
+"explication": "把 compte les objets qu'on tient par une poignée : ciseaux, couteaux, clés. 支 sert aux objets fins comme les stylos, pas aux ciseaux ; 本 est pour les livres.",
+"aussi": []
+},
+{
+"mot": "协议",
+"sens": "accord (signé)",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"把",
+"辆",
+"份"
+],
+"exemple": "两家公司签了一份协议。",
+"traduction": "Les deux entreprises ont signé un accord.",
+"explication": "份 compte les documents : un accord signé, un contrat, un rapport. 项 est aussi courant (一项协议) ; 把 et 辆 sont exclus.",
+"aussi": [
+"项"
+]
+},
+{
+"mot": "卧室",
+"sens": "chambre à coucher",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"所",
+"间",
+"本"
+],
+"exemple": "我们家一共有两间卧室。",
+"traduction": "Chez nous, il y a deux chambres en tout.",
+"explication": "间 compte les pièces d'une maison : chambre, bureau, salle. 个 se dit aussi ; 所 compte des bâtiments entiers (école, hôpital), pas une pièce.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "叉子",
+"sens": "fourchette",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"条",
+"把",
+"张"
+],
+"exemple": "服务员拿来两把叉子。",
+"traduction": "Le serveur a apporté deux fourchettes.",
+"explication": "把 compte les ustensiles tenus par un manche : fourchettes, couteaux, cuillères. 条 et 张 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "吸管",
+"sens": "paille (pour boire)",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"张",
+"本",
+"根"
+],
+"exemple": "请再给我一根吸管。",
+"traduction": "Donnez-moi encore une paille, s'il vous plaît.",
+"explication": "根 compte les objets longs et fins : pailles, cheveux, bâtons, cordes. 支 est aussi possible ; 张 et 本 sont impossibles.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "图书",
+"sens": "livres (de bibliothèque)",
+"classificateur": "册",
+"pinyin": "cè",
+"choix": [
+"张",
+"册",
+"条"
+],
+"exemple": "这个图书馆有十万册图书。",
+"traduction": "Cette bibliothèque possède cent mille livres.",
+"explication": "册 compte les volumes, surtout dans les bibliothèques et les chiffres officiels ; à l'oral on dit aussi 本. 张 et 条 sont impossibles pour des livres.",
+"aussi": [
+"本"
+]
+},
+{
+"mot": "土地",
+"sens": "terrain, terre",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"本",
+"双",
+"块"
+],
+"exemple": "他家在村里有一块土地。",
+"traduction": "Sa famille possède un terrain au village.",
+"explication": "块 compte les parcelles et les morceaux : un terrain, une pierre, un gâteau. 片 (étendue) est aussi courant ; 本 et 双 sont exclus.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "墙",
+"sens": "mur",
+"classificateur": "面",
+"pinyin": "miàn",
+"choix": [
+"张",
+"面",
+"本"
+],
+"exemple": "教室里的这面墙是白色的。",
+"traduction": "Ce mur de la salle de classe est blanc.",
+"explication": "面 compte les surfaces planes dressées : murs, miroirs, drapeaux. 堵 et 道 sont aussi possibles pour un mur ; 张 et 本 ne vont pas.",
+"aussi": [
+"堵",
+"道"
+]
+},
+{
+"mot": "大事",
+"sens": "événement important",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"只",
+"件",
+"张"
+],
+"exemple": "今天发生了一件大事。",
+"traduction": "Il s'est passé quelque chose d'important aujourd'hui.",
+"explication": "件 compte les affaires, les événements et les vêtements du haut (一件事). 只 (animaux) et 张 (objets plats) ne s'emploient pas pour un événement.",
+"aussi": []
+},
+{
+"mot": "大象",
+"sens": "éléphant",
+"classificateur": "头",
+"pinyin": "tóu",
+"choix": [
+"头",
+"张",
+"本"
+],
+"exemple": "动物园里有两头大象。",
+"traduction": "Il y a deux éléphants au zoo.",
+"explication": "头 compte les gros animaux : éléphants, bœufs, cochons. 只 se dit aussi ; 张 et 本 sont impossibles pour un animal.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "夫妇",
+"sens": "couple marié",
+"classificateur": "对",
+"pinyin": "duì",
+"choix": [
+"对",
+"本",
+"张"
+],
+"exemple": "楼上住着一对老夫妇。",
+"traduction": "Un vieux couple habite à l'étage au-dessus.",
+"explication": "对 compte les couples et les paires de deux éléments complémentaires : un couple, deux amoureux, des boucles d'oreilles. 张 et 本 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "婚礼",
+"sens": "mariage (cérémonie)",
+"classificateur": "场",
+"pinyin": "chǎng",
+"choix": [
+"首",
+"场",
+"张"
+],
+"exemple": "上周我参加了一场婚礼。",
+"traduction": "La semaine dernière, j'ai assisté à un mariage.",
+"explication": "场 compte les événements qui se déroulent dans la durée : mariages, matchs, films, pluies. 个 se dit aussi ; 首 (chansons) et 张 ne vont pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "实验室",
+"sens": "laboratoire",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"条",
+"本",
+"间"
+],
+"exemple": "学校新建了两间实验室。",
+"traduction": "L'école a construit deux nouveaux laboratoires.",
+"explication": "间 compte les pièces et les salles : chambre, bureau, laboratoire. 个 se dit aussi ; 条 et 本 sont exclus.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "宿舍",
+"sens": "chambre d'internat",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"张",
+"本"
+],
+"exemple": "这间宿舍住着四个学生。",
+"traduction": "Quatre étudiants logent dans cette chambre.",
+"explication": "间 compte les pièces, ici une chambre de résidence universitaire. 个 se dit aussi ; 张 et 本 ne conviennent pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "尺子",
+"sens": "règle (instrument)",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"张",
+"把",
+"本"
+],
+"exemple": "他在文具店买了一把尺子。",
+"traduction": "Il a acheté une règle à la papeterie.",
+"explication": "把 compte les petits instruments qu'on prend en main : règles, ciseaux, couteaux. 根 est parfois employé pour une longue règle ; 张 et 本 sont exclus.",
+"aussi": [
+"根"
+]
+},
+{
+"mot": "工程",
+"sens": "projet de construction, chantier",
+"classificateur": "项",
+"pinyin": "xiàng",
+"choix": [
+"双",
+"项",
+"张"
+],
+"exemple": "这项工程花了三年时间。",
+"traduction": "Ce chantier a pris trois ans.",
+"explication": "项 compte les projets, les tâches et les éléments d'une liste (一项工作, 一项工程). 个 se dit aussi ; 双 et 张 ne conviennent pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "床单",
+"sens": "drap",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"本",
+"双",
+"条"
+],
+"exemple": "妈妈买了两条新床单。",
+"traduction": "Maman a acheté deux draps neufs.",
+"explication": "条 compte les pièces de tissu longues et souples : draps, serviettes, couvertures, pantalons. 张 est aussi possible pour un drap ; 本 et 双 sont exclus.",
+"aussi": [
+"张"
+]
+},
+{
+"mot": "影片",
+"sens": "film",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"首",
+"部",
+"本"
+],
+"exemple": "这部影片很受欢迎。",
+"traduction": "Ce film a beaucoup de succès.",
+"explication": "部 compte les œuvres d'une certaine ampleur : films, romans, séries. 首 est réservé aux chansons et aux poèmes, 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "戏",
+"sens": "pièce (théâtre, opéra)",
+"classificateur": "出",
+"pinyin": "chū",
+"choix": [
+"张",
+"出",
+"双"
+],
+"exemple": "昨天我们看了一出戏。",
+"traduction": "Hier, nous avons vu une pièce.",
+"explication": "出 compte les pièces de théâtre et les opéras chinois (一出戏). 场, 台 et 部 sont aussi possibles ; 张 et 双 sont exclus.",
+"aussi": [
+"场",
+"台",
+"部"
+]
+},
+{
+"mot": "扇子",
+"sens": "éventail",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"条",
+"本",
+"把"
+],
+"exemple": "她手里拿着一把扇子。",
+"traduction": "Elle tient un éventail à la main.",
+"explication": "把 compte les objets qu'on tient par un manche : éventails, parapluies, couteaux. 条 et 本 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "手套",
+"sens": "gants",
+"classificateur": "副",
+"pinyin": "fù",
+"choix": [
+"顶",
+"副",
+"本"
+],
+"exemple": "妈妈给我买了一副手套。",
+"traduction": "Maman m'a acheté une paire de gants.",
+"explication": "副 compte les objets qui forment une paire ou un ensemble : gants, lunettes, jeu de cartes. 双 se dit aussi pour les gants ; 顶 est réservé aux chapeaux.",
+"aussi": [
+"双",
+"只"
+]
+},
+{
+"mot": "手指",
+"sens": "doigt",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"本",
+"根",
+"张"
+],
+"exemple": "他向我伸出了两根手指。",
+"traduction": "Il m'a montré deux doigts.",
+"explication": "根 compte les objets longs et fins : doigts, cheveux, bâtons, cordes. 个 se dit aussi à l'oral ; 张 et 本 sont impossibles.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "报告",
+"sens": "rapport",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"份",
+"辆",
+"双"
+],
+"exemple": "经理让我写一份报告。",
+"traduction": "Le directeur m'a demandé d'écrire un rapport.",
+"explication": "份 compte les documents et les exemplaires : rapports, contrats, journaux. 篇 (texte rédigé) et 个 se disent aussi ; 辆 et 双 sont exclus.",
+"aussi": [
+"篇",
+"个"
+]
+},
+{
+"mot": "报道",
+"sens": "reportage, article",
+"classificateur": "篇",
+"pinyin": "piān",
+"choix": [
+"首",
+"篇",
+"把"
+],
+"exemple": "我读了一篇有趣的报道。",
+"traduction": "J'ai lu un reportage intéressant.",
+"explication": "篇 compte les textes rédigés : articles, reportages, rédactions. 条 se dit aussi pour une brève ; 首 est réservé aux poèmes et aux chansons.",
+"aussi": [
+"条",
+"则"
+]
+},
+{
+"mot": "拖鞋",
+"sens": "chaussons",
+"classificateur": "双",
+"pinyin": "shuāng",
+"choix": [
+"双",
+"顶",
+"本"
+],
+"exemple": "门口放着两双拖鞋。",
+"traduction": "Deux paires de chaussons sont posées à l'entrée.",
+"explication": "双 compte les paires : chaussures, chaussettes, baguettes. 只 désigne un seul chausson ; 顶 est réservé aux chapeaux.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "摄像机",
+"sens": "caméra",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"条",
+"台",
+"本"
+],
+"exemple": "他上个月买了一台摄像机。",
+"traduction": "Il a acheté une caméra le mois dernier.",
+"explication": "台 compte les machines et les appareils : ordinateurs, télévisions, caméras. 部 est aussi possible ; 条 et 本 sont exclus.",
+"aussi": [
+"部"
+]
+},
+{
+"mot": "救护车",
+"sens": "ambulance",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"艘",
+"辆",
+"本"
+],
+"exemple": "门口停着一辆救护车。",
+"traduction": "Une ambulance est garée devant la porte.",
+"explication": "辆 compte les véhicules à roues : voitures, bus, vélos, ambulances. 艘 est réservé aux bateaux, 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "教材",
+"sens": "manuel scolaire",
+"classificateur": "本",
+"pinyin": "běn",
+"choix": [
+"双",
+"本",
+"首"
+],
+"exemple": "老师给了我们两本教材。",
+"traduction": "Le professeur nous a donné deux manuels.",
+"explication": "本 compte les livres et les cahiers. Pour une collection complète on dit 套 ; 首 (chansons) et 双 (paires) sont hors de propos.",
+"aussi": [
+"套"
+]
+},
+{
+"mot": "昆虫",
+"sens": "insecte",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"只",
+"棵",
+"本"
+],
+"exemple": "树叶上有一只小昆虫。",
+"traduction": "Il y a un petit insecte sur la feuille.",
+"explication": "只 compte la plupart des animaux, y compris les insectes. 棵 sert aux arbres et 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "暴雨",
+"sens": "pluie torrentielle",
+"classificateur": "场",
+"pinyin": "chǎng",
+"choix": [
+"场",
+"张",
+"本"
+],
+"exemple": "昨天晚上下了一场暴雨。",
+"traduction": "Hier soir, il est tombé une pluie torrentielle.",
+"explication": "场 compte les phénomènes qui ont une durée : pluies, neiges, matchs, films. 阵 (averse brève) se dit aussi ; 张 et 本 sont impossibles.",
+"aussi": [
+"阵"
+]
+},
+{
+"mot": "木头",
+"sens": "morceau de bois",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"张",
+"块",
+"本"
+],
+"exemple": "门口的地上有一块木头。",
+"traduction": "Il y a un morceau de bois par terre devant la porte.",
+"explication": "块 compte les morceaux compacts : un bout de bois, une pierre, un savon. 根 se dit pour une bûche ou un bâton ; 张 et 本 sont exclus.",
+"aussi": [
+"根"
+]
+},
+{
+"mot": "机器",
+"sens": "machine",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"本",
+"条",
+"台"
+],
+"exemple": "工厂新买了三台机器。",
+"traduction": "L'usine a acheté trois nouvelles machines.",
+"explication": "台 compte les machines et les appareils (ordinateurs, télévisions). 部 est aussi possible ; 条 et 本 ne vont pas.",
+"aussi": [
+"部"
+]
+},
+{
+"mot": "桃树",
+"sens": "pêcher (arbre)",
+"classificateur": "棵",
+"pinyin": "kē",
+"choix": [
+"朵",
+"棵",
+"本"
+],
+"exemple": "院子里有两棵桃树。",
+"traduction": "Il y a deux pêchers dans la cour.",
+"explication": "棵 compte les arbres et les plantes. 朵 compte les fleurs une à une, pas l'arbre entier ; 本 est pour les livres.",
+"aussi": [
+"株"
+]
+},
+{
+"mot": "橡皮",
+"sens": "gomme",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"双",
+"块",
+"本"
+],
+"exemple": "你能借我一块橡皮吗？",
+"traduction": "Tu peux me prêter une gomme ?",
+"explication": "块 compte les petits objets compacts : une gomme, un savon, un morceau de gâteau. 双 et 本 sont impossibles.",
+"aussi": []
+},
+{
+"mot": "毛笔",
+"sens": "pinceau (à calligraphie)",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"支"
+],
+"exemple": "爷爷送给我两支毛笔。",
+"traduction": "Mon grand-père m'a offert deux pinceaux.",
+"explication": "支 compte les objets fins et longs, en particulier les stylos, crayons et pinceaux. 张 et 本 sont exclus.",
+"aussi": []
+},
+{
+"mot": "牙齿",
+"sens": "dent",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"条",
+"颗",
+"张"
+],
+"exemple": "爷爷已经掉了两颗牙齿。",
+"traduction": "Grand-père a déjà perdu deux dents.",
+"explication": "颗 compte les petits objets ronds ou compacts : dents, graines, étoiles, bonbons. 条 et 张 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "牛仔裤",
+"sens": "jean",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"双",
+"本",
+"条"
+],
+"exemple": "我在商店买了一条牛仔裤。",
+"traduction": "J'ai acheté un jean au magasin.",
+"explication": "条 compte les pantalons, les jupes et les autres objets longs. Contrairement à l'anglais « a pair of jeans », on ne dit pas 双 ; 本 est exclu.",
+"aussi": []
+},
+{
+"mot": "猪",
+"sens": "cochon",
+"classificateur": "头",
+"pinyin": "tóu",
+"choix": [
+"件",
+"头",
+"本"
+],
+"exemple": "他家里养了三头猪。",
+"traduction": "Sa famille élève trois cochons.",
+"explication": "头 compte les gros animaux d'élevage : cochons, bœufs, éléphants. 口 et 只 se disent aussi ; 件 (affaires, vêtements) et 本 (livres) sont impossibles.",
+"aussi": [
+"口",
+"只"
+]
+},
+{
+"mot": "猴子",
+"sens": "singe",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"只",
+"棵",
+"本"
+],
+"exemple": "那棵树上有两只猴子。",
+"traduction": "Il y a deux singes dans cet arbre.",
+"explication": "只 compte la plupart des animaux. 棵 est pour les arbres (comme dans la phrase) et 本 pour les livres.",
+"aussi": []
+},
+{
+"mot": "玫瑰",
+"sens": "rose (fleur)",
+"classificateur": "朵",
+"pinyin": "duǒ",
+"choix": [
+"张",
+"朵",
+"本"
+],
+"exemple": "他送给她一朵红玫瑰。",
+"traduction": "Il lui a offert une rose rouge.",
+"explication": "朵 compte les fleurs une par une. 枝 (une tige) et 束 (un bouquet) sont aussi courants ; 张 et 本 sont impossibles.",
+"aussi": [
+"枝",
+"束"
+]
+},
+{
+"mot": "玻璃",
+"sens": "vitre, verre",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"块",
+"本",
+"双"
+],
+"exemple": "窗户上的一块玻璃碎了。",
+"traduction": "Une vitre de la fenêtre s'est brisée.",
+"explication": "块 compte les morceaux et les plaques : une vitre, une pierre, un gâteau. 片 se dit aussi ; 本 et 双 ne vont pas.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "电池",
+"sens": "pile",
+"classificateur": "节",
+"pinyin": "jié",
+"choix": [
+"张",
+"节",
+"本"
+],
+"exemple": "我在超市买了四节电池。",
+"traduction": "J'ai acheté quatre piles au supermarché.",
+"explication": "节 compte les piles cylindriques et les éléments d'une série (一节课, 一节车厢). 块 se dit pour une batterie plate de téléphone ; 张 et 本 sont exclus.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "病房",
+"sens": "chambre d'hôpital",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"张",
+"双"
+],
+"exemple": "这个医院二楼有十间病房。",
+"traduction": "Au premier étage de cet hôpital, il y a dix chambres.",
+"explication": "间 compte les pièces et les chambres. 个 se dit aussi ; 张 et 双 sont exclus.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "石头",
+"sens": "pierre",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"张",
+"本",
+"块"
+],
+"exemple": "他从地上捡起一块石头。",
+"traduction": "Il a ramassé une pierre par terre.",
+"explication": "块 compte les morceaux compacts : pierres, gâteaux, savons. 颗 est possible pour un petit caillou ; 张 et 本 ne vont pas.",
+"aussi": [
+"颗"
+]
+},
+{
+"mot": "种子",
+"sens": "graine",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"颗",
+"张",
+"本"
+],
+"exemple": "我在花盆里种了三颗种子。",
+"traduction": "J'ai planté trois graines dans le pot.",
+"explication": "颗 compte les petits objets ronds : graines, dents, étoiles, perles. 粒 se dit aussi ; 张 et 本 sont exclus.",
+"aussi": [
+"粒"
+]
+},
+{
+"mot": "竹子",
+"sens": "bambou (tige)",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"张",
+"根",
+"本"
+],
+"exemple": "他手里拿着一根竹子。",
+"traduction": "Il tient une tige de bambou à la main.",
+"explication": "根 compte les objets longs et fins comme une tige de bambou ; pour la plante vivante on dit aussi 棵. 张 et 本 ne vont pas.",
+"aussi": [
+"棵"
+]
+},
+{
+"mot": "纪录片",
+"sens": "documentaire",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"首",
+"部",
+"件"
+],
+"exemple": "昨天晚上我看了一部纪录片。",
+"traduction": "Hier soir, j'ai regardé un documentaire.",
+"explication": "部 compte les films, les séries et les romans. 首 est réservé aux chansons et 件 aux affaires et aux vêtements.",
+"aussi": []
+},
+{
+"mot": "翅膀",
+"sens": "aile",
+"classificateur": "对",
+"pinyin": "duì",
+"choix": [
+"对",
+"本",
+"杯"
+],
+"exemple": "这只鸟有一对漂亮的翅膀。",
+"traduction": "Cet oiseau a une belle paire d'ailes.",
+"explication": "对 compte les paires de deux éléments symétriques : ailes, boucles d'oreilles, couples. 双 et 只 (une seule aile) se disent aussi ; 本 et 杯 sont hors de propos.",
+"aussi": [
+"双",
+"只"
+]
+},
+{
+"mot": "胡同",
+"sens": "ruelle (hutong)",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"座",
+"条",
+"本"
+],
+"exemple": "我家住在一条小胡同里。",
+"traduction": "J'habite dans une petite ruelle.",
+"explication": "条 compte ce qui est long et étroit : ruelles, rues, rivières. 座 est réservé aux bâtiments, aux ponts et aux montagnes.",
+"aussi": []
+},
+{
+"mot": "书房",
+"sens": "bureau (pièce)",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"条",
+"间",
+"本"
+],
+"exemple": "他的新家有一间书房。",
+"traduction": "Sa nouvelle maison a un bureau.",
+"explication": "间 compte les pièces d'une maison. 个 se dit aussi ; 条 et 本 ne conviennent pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "书桌",
+"sens": "bureau (meuble)",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"把",
+"张",
+"本"
+],
+"exemple": "我的房间里有一张书桌。",
+"traduction": "Il y a un bureau dans ma chambre.",
+"explication": "张 compte les meubles à surface plane : tables, bureaux, lits. 把 compte les chaises, pas les tables ; 本 est pour les livres.",
+"aussi": []
+},
+{
+"mot": "虎",
+"sens": "tigre",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"匹",
+"只",
+"张"
+],
+"exemple": "这只虎是从东北来的。",
+"traduction": "Ce tigre vient du Nord-Est de la Chine.",
+"explication": "只 sert pour la plupart des animaux ; pour les grands fauves on dit aussi 头. 匹 est réservé aux chevaux (et aux rouleaux de tissu), 张 aux objets plats.",
+"aussi": [
+"头"
+]
+},
+{
+"mot": "虫子",
+"sens": "insecte, petite bête",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"张",
+"把",
+"只"
+],
+"exemple": "树叶上有一只虫子。",
+"traduction": "Il y a une petite bête sur la feuille.",
+"explication": "只 compte les petits animaux et les insectes ; pour un ver ou une chenille, on dit aussi 条. 张 sert aux objets plats et 把 aux objets qu'on tient par un manche.",
+"aussi": [
+"条"
+]
+},
+{
+"mot": "蛇",
+"sens": "serpent",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"条",
+"匹"
+],
+"exemple": "路边突然出现了一条蛇。",
+"traduction": "Un serpent est soudain apparu au bord du chemin.",
+"explication": "条 s'emploie pour ce qui est long et souple : serpents, poissons, rues, rivières. 匹 est réservé aux chevaux, 张 aux objets plats.",
+"aussi": []
+},
+{
+"mot": "蝴蝶",
+"sens": "papillon",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"条",
+"张",
+"只"
+],
+"exemple": "花园里飞来一只蝴蝶。",
+"traduction": "Un papillon est arrivé dans le jardin.",
+"explication": "只 compte les oiseaux, les insectes et les petits animaux. 条 va aux choses longues et souples (poissons, serpents), 张 aux objets plats.",
+"aussi": []
+},
+{
+"mot": "被子",
+"sens": "couette, couverture",
+"classificateur": "床",
+"pinyin": "chuáng",
+"choix": [
+"床",
+"双",
+"把"
+],
+"exemple": "冬天我要盖两床被子。",
+"traduction": "En hiver, je dors sous deux couettes.",
+"explication": "床 (« lit ») sert de classificateur pour la literie : couettes, couvertures ; 条 est aussi très courant. 双 compte les paires et 把 les objets à poignée.",
+"aussi": [
+"条"
+]
+},
+{
+"mot": "西餐",
+"sens": "repas occidental",
+"classificateur": "顿",
+"pinyin": "dùn",
+"choix": [
+"张",
+"顿",
+"条"
+],
+"exemple": "周末我们去吃了一顿西餐。",
+"traduction": "Ce week-end, nous sommes allés manger un repas occidental.",
+"explication": "顿 compte les repas (一顿饭) ; 份 désigne une portion ou un menu. 张 (objets plats) et 条 (objets longs) ne conviennent pas à un repas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "计算机",
+"sens": "ordinateur",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"条",
+"本",
+"台"
+],
+"exemple": "实验室里有二十台计算机。",
+"traduction": "Il y a vingt ordinateurs dans le laboratoire.",
+"explication": "台 compte les machines et appareils (ordinateurs, télévisions, machines à laver). 条 et 本 ne s'appliquent pas à un appareil.",
+"aussi": []
+},
+{
+"mot": "论文",
+"sens": "article scientifique, mémoire",
+"classificateur": "篇",
+"pinyin": "piān",
+"choix": [
+"篇",
+"首",
+"条"
+],
+"exemple": "她这学期写了两篇论文。",
+"traduction": "Ce semestre, elle a écrit deux articles.",
+"explication": "篇 compte les textes écrits : articles, rédactions, mémoires. 首 est réservé aux poèmes et aux chansons, 条 aux choses longues ou aux messages courts.",
+"aussi": []
+},
+{
+"mot": "试卷",
+"sens": "copie d'examen, sujet d'examen",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"张",
+"把"
+],
+"exemple": "老师发给每人一张试卷。",
+"traduction": "Le professeur a distribué une copie d'examen à chacun.",
+"explication": "张 compte les feuilles et les objets plats ; 份 s'emploie aussi pour un exemplaire de document. 条 va aux objets longs et 把 aux objets à poignée.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "货物",
+"sens": "marchandises",
+"classificateur": "批",
+"pinyin": "pī",
+"choix": [
+"首",
+"条",
+"批"
+],
+"exemple": "这批货物明天到上海。",
+"traduction": "Ce lot de marchandises arrive demain à Shanghai.",
+"explication": "批 désigne un lot, une cargaison qui arrive ou part en même temps ; 件 compte un colis isolé. 首 est réservé aux poèmes et chansons, 条 aux choses longues.",
+"aussi": [
+"件"
+]
+},
+{
+"mot": "路线",
+"sens": "itinéraire",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"本",
+"条",
+"只"
+],
+"exemple": "去机场有两条路线。",
+"traduction": "Il y a deux itinéraires pour aller à l'aéroport.",
+"explication": "条 s'emploie pour tout ce qui s'étire en longueur : routes, lignes, itinéraires. 本 compte les livres et 只 les animaux.",
+"aussi": []
+},
+{
+"mot": "车祸",
+"sens": "accident de la route",
+"classificateur": "场",
+"pinyin": "cháng",
+"choix": [
+"场",
+"张",
+"条"
+],
+"exemple": "他在一场车祸中受了伤。",
+"traduction": "Il a été blessé dans un accident de voiture.",
+"explication": "场 (cháng) s'emploie pour un événement qui a un début et une fin : un accident, une averse, une maladie ; 起 et 次 sont aussi courants pour un accident. 张 et 条 comptent des objets concrets.",
+"aussi": [
+"起",
+"次"
+]
+},
+{
+"mot": "邮局",
+"sens": "bureau de poste",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"条",
+"家",
+"张"
+],
+"exemple": "学校附近有一家邮局。",
+"traduction": "Il y a un bureau de poste près de l'école.",
+"explication": "家 compte les commerces, entreprises et établissements (magasins, banques, hôtels) ; 个 s'entend aussi à l'oral. 条 et 张 comptent des objets, pas des établissements.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "邮票",
+"sens": "timbre",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"张",
+"条",
+"把"
+],
+"exemple": "我在邮局买了三张邮票。",
+"traduction": "J'ai acheté trois timbres à la poste.",
+"explication": "张 compte les objets plats comme les feuilles, les billets et les timbres ; 枚, plus soutenu, est courant chez les collectionneurs. 条 (objets longs) et 把 (objets à poignée) ne conviennent pas.",
+"aussi": [
+"枚"
+]
+},
+{
+"mot": "酒吧",
+"sens": "bar",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"本",
+"只",
+"家"
+],
+"exemple": "这条街上有好几家酒吧。",
+"traduction": "Il y a plusieurs bars dans cette rue.",
+"explication": "家 compte les commerces et établissements ; 间 et 个 sont aussi employés. 本 est pour les livres et 只 pour les animaux.",
+"aussi": [
+"间",
+"个"
+]
+},
+{
+"mot": "铁路",
+"sens": "voie ferrée",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"条",
+"本"
+],
+"exemple": "这里新修了一条铁路。",
+"traduction": "On a construit une nouvelle voie ferrée ici.",
+"explication": "条 s'emploie pour ce qui est long : routes, voies ferrées, rivières. 张 (objets plats) et 本 (livres) sont impossibles ici.",
+"aussi": []
+},
+{
+"mot": "锁",
+"sens": "serrure, cadenas",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"条",
+"张",
+"把"
+],
+"exemple": "大门上挂着一把锁。",
+"traduction": "Un cadenas est accroché au portail.",
+"explication": "把 compte les objets qu'on saisit avec la main ou qui ont une poignée : serrures, clés, chaises, couteaux. 条 et 张 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "锅",
+"sens": "marmite, wok",
+"classificateur": "口",
+"pinyin": "kǒu",
+"choix": [
+"口",
+"条",
+"张"
+],
+"exemple": "妈妈新买了一口锅。",
+"traduction": "Maman a acheté une nouvelle marmite.",
+"explication": "口 s'emploie pour les récipients à large ouverture (marmites, puits, jarres) ; à l'oral on entend aussi 个 ou 只. 条 et 张 ne conviennent pas à un récipient.",
+"aussi": [
+"个",
+"只"
+]
+},
+{
+"mot": "问卷",
+"sens": "questionnaire",
+"classificateur": "份",
+"pinyin": "fèn",
+"choix": [
+"首",
+"份",
+"条"
+],
+"exemple": "请每位同学填一份问卷。",
+"traduction": "Chaque étudiant est prié de remplir un questionnaire.",
+"explication": "份 compte les exemplaires de documents (journaux, formulaires, questionnaires) ; 张 s'emploie si c'est une simple feuille. 首 est réservé aux poèmes et chansons, 条 aux choses longues.",
+"aussi": [
+"张"
+]
+},
+{
+"mot": "队伍",
+"sens": "équipe, troupe",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"支"
+],
+"exemple": "这支队伍非常年轻。",
+"traduction": "Cette équipe est très jeune.",
+"explication": "支 compte les équipes, troupes et formations organisées (armée, équipe de sport) ; pour une file d'attente, on dit plutôt 条. 张 (objets plats) et 本 (livres) sont impossibles.",
+"aussi": [
+"条"
+]
+},
+{
+"mot": "雾",
+"sens": "brouillard",
+"classificateur": "场",
+"pinyin": "cháng",
+"choix": [
+"条",
+"场",
+"本"
+],
+"exemple": "今天早上起了一场大雾。",
+"traduction": "Ce matin, un épais brouillard s'est levé.",
+"explication": "场 (cháng) s'emploie pour les phénomènes météo qui durent un certain temps : pluie, neige, brouillard ; 阵 insiste sur un épisode bref. 条 et 本 comptent des objets.",
+"aussi": [
+"阵"
+]
+},
+{
+"mot": "领带",
+"sens": "cravate",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"件",
+"条",
+"只"
+],
+"exemple": "这条领带是妈妈送的。",
+"traduction": "Cette cravate est un cadeau de ma mère.",
+"explication": "条 s'emploie pour les objets longs et souples : cravates, écharpes, pantalons. Piège : 件 compte les vêtements du haut (chemises, manteaux), pas les cravates.",
+"aussi": []
+},
+{
+"mot": "餐馆",
+"sens": "restaurant",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"张",
+"家",
+"只"
+],
+"exemple": "学校旁边新开了一家餐馆。",
+"traduction": "Un restaurant vient d'ouvrir à côté de l'école.",
+"explication": "家 compte les commerces et établissements (restaurants, magasins, hôtels) ; 间 et 个 sont aussi employés. 张 et 只 ne s'appliquent pas à un lieu.",
+"aussi": [
+"间",
+"个"
+]
+},
+{
+"mot": "饼",
+"sens": "galette",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"本",
+"张"
+],
+"exemple": "早饭我吃了一张饼。",
+"traduction": "Au petit déjeuner, j'ai mangé une galette.",
+"explication": "张 compte les objets plats et minces : feuilles, tables, galettes ; 块 désigne un morceau et 个 une petite galette ronde. 条 et 本 ne conviennent pas.",
+"aussi": [
+"块",
+"个"
+]
+},
+{
+"mot": "黄瓜",
+"sens": "concombre",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"张",
+"根",
+"只"
+],
+"exemple": "我去市场买了三根黄瓜。",
+"traduction": "Je suis allé au marché acheter trois concombres.",
+"explication": "根 compte les objets longs et fins : concombres, baguettes, bâtons ; 条 est aussi courant. 张 (objets plats) et 只 (animaux) sont impossibles.",
+"aussi": [
+"条"
+]
+},
+{
+"mot": "鼓",
+"sens": "tambour",
+"classificateur": "面",
+"pinyin": "miàn",
+"choix": [
+"面",
+"条",
+"本"
+],
+"exemple": "舞台上放着一面鼓。",
+"traduction": "Un tambour est posé sur la scène.",
+"explication": "面 (« surface ») compte les objets à face plate : tambours, drapeaux, miroirs. 条 (objets longs) et 本 (livres) ne vont pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "龙",
+"sens": "dragon",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"本",
+"条"
+],
+"exemple": "这幅画上有一条龙。",
+"traduction": "Il y a un dragon sur ce tableau.",
+"explication": "条 s'emploie pour les êtres longs et sinueux : dragons, serpents, poissons. 张 compte les objets plats et 本 les livres.",
+"aussi": []
+},
+{
+"mot": "乐器",
+"sens": "instrument de musique",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"件",
+"本"
+],
+"exemple": "博物馆里有一件古代乐器。",
+"traduction": "Il y a un instrument de musique ancien au musée.",
+"explication": "件 compte les objets individuels (vêtements, bagages, instruments) ; 门 s'emploie quand on parle d'apprendre un instrument (学一门乐器). 条 et 本 ne conviennent pas.",
+"aussi": [
+"门"
+]
+},
+{
+"mot": "井",
+"sens": "puits",
+"classificateur": "口",
+"pinyin": "kǒu",
+"choix": [
+"张",
+"口",
+"条"
+],
+"exemple": "我们村子里有一口井。",
+"traduction": "Il y a un puits dans notre village.",
+"explication": "口 s'emploie pour ce qui a une ouverture : puits, marmites, et aussi les membres d'une famille ; 眼 est une variante plus écrite pour les puits. 张 et 条 sont impossibles.",
+"aussi": [
+"眼"
+]
+},
+{
+"mot": "人家",
+"sens": "foyer, famille (maisonnée)",
+"classificateur": "户",
+"pinyin": "hù",
+"choix": [
+"户",
+"条",
+"张"
+],
+"exemple": "山脚下住着几户人家。",
+"traduction": "Quelques familles vivent au pied de la montagne.",
+"explication": "户 compte les foyers, les ménages (一户人家) ; 家 est aussi possible. 条 et 张 comptent des objets concrets, pas des familles.",
+"aussi": [
+"家"
+]
+},
+{
+"mot": "仪器",
+"sens": "appareil, instrument (scientifique)",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"辆",
+"台",
+"本"
+],
+"exemple": "实验室新买了一台仪器。",
+"traduction": "Le laboratoire a acheté un nouvel appareil.",
+"explication": "台 compte les machines et appareils (ordinateurs, instruments de mesure). Piège : 辆 est réservé aux véhicules à roues, et 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "内衣",
+"sens": "sous-vêtement",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"双",
+"本",
+"件"
+],
+"exemple": "我在商店买了两件内衣。",
+"traduction": "J'ai acheté deux sous-vêtements au magasin.",
+"explication": "件 compte les vêtements du haut et les pièces de vêtement en général ; 套 désigne un ensemble. 双 est réservé aux paires (chaussures, chaussettes), 本 aux livres.",
+"aussi": [
+"套"
+]
+},
+{
+"mot": "军队",
+"sens": "armée",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"支",
+"条",
+"张"
+],
+"exemple": "这支军队非常强大。",
+"traduction": "Cette armée est très puissante.",
+"explication": "支 compte les troupes, équipes et formations organisées. 条 (choses longues) et 张 (objets plats) ne vont pas avec une armée.",
+"aussi": []
+},
+{
+"mot": "账",
+"sens": "compte (à régler), dette",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"只",
+"笔",
+"首"
+],
+"exemple": "这笔账我们以后再算。",
+"traduction": "Ce compte-là, nous le réglerons plus tard.",
+"explication": "笔 compte les sommes d'argent et les opérations financières (一笔钱, une dette, un compte à régler) ; 本 compte un livre de comptes. 只 (animaux) et 首 (poèmes) sont impossibles.",
+"aussi": [
+"本"
+]
+},
+{
+"mot": "剑",
+"sens": "épée",
+"classificateur": "把",
+"pinyin": "bǎ",
+"choix": [
+"张",
+"条",
+"把"
+],
+"exemple": "他的墙上挂着一把剑。",
+"traduction": "Une épée est accrochée à son mur.",
+"explication": "把 compte les objets à poignée : épées, couteaux, clés, chaises ; 口 est plus littéraire. 张 (objets plats) et 条 (objets longs et souples) ne vont pas.",
+"aussi": [
+"口"
+]
+},
+{
+"mot": "喜剧",
+"sens": "comédie",
+"classificateur": "部",
+"pinyin": "bù",
+"choix": [
+"部",
+"条",
+"张"
+],
+"exemple": "我昨天看了一部喜剧。",
+"traduction": "Hier, j'ai regardé une comédie.",
+"explication": "部 compte les œuvres d'une certaine ampleur : films, romans, séries ; 出 et 场 comptent une pièce de théâtre ou une représentation. 条 et 张 ne conviennent pas.",
+"aussi": [
+"出",
+"场"
+]
+},
+{
+"mot": "国旗",
+"sens": "drapeau national",
+"classificateur": "面",
+"pinyin": "miàn",
+"choix": [
+"条",
+"面",
+"本"
+],
+"exemple": "学校门口挂着一面国旗。",
+"traduction": "Un drapeau national flotte à l'entrée de l'école.",
+"explication": "面 compte les objets à face plate : drapeaux, miroirs, tambours. 条 va aux choses longues et souples, 本 aux livres.",
+"aussi": []
+},
+{
+"mot": "圆珠笔",
+"sens": "stylo à bille",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"支"
+],
+"exemple": "桌上放着两支圆珠笔。",
+"traduction": "Il y a deux stylos à bille sur la table.",
+"explication": "支 compte les objets longs et fins comme les stylos, les crayons ou les cigarettes. 张 compte les objets plats et 本 les livres.",
+"aussi": []
+},
+{
+"mot": "塔",
+"sens": "tour, pagode",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"条",
+"座",
+"张"
+],
+"exemple": "那座塔有一千多年了。",
+"traduction": "Cette pagode a plus de mille ans.",
+"explication": "座 compte les grandes constructions fixes : montagnes, ponts, tours, bâtiments. 条 et 张 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "大街",
+"sens": "grande rue, avenue",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"座",
+"条",
+"本"
+],
+"exemple": "这条大街每天都很热闹。",
+"traduction": "Cette avenue est animée tous les jours.",
+"explication": "条 s'emploie pour ce qui s'étire en longueur : rues, routes, rivières. Piège : 座 compte les constructions massives (ponts, tours), pas une rue.",
+"aussi": []
+},
+{
+"mot": "夫人",
+"sens": "madame, épouse (respectueux)",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"位",
+"只",
+"张"
+],
+"exemple": "这位夫人是我们的新邻居。",
+"traduction": "Cette dame est notre nouvelle voisine.",
+"explication": "位 est le classificateur poli pour les personnes, indispensable avec un terme respectueux comme 夫人. 只 (animaux) et 张 (objets plats) seraient impossibles, voire insultants.",
+"aussi": []
+},
+{
+"mot": "岛",
+"sens": "île",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"条",
+"张",
+"座"
+],
+"exemple": "这座岛上住着很多人。",
+"traduction": "Beaucoup de gens vivent sur cette île.",
+"explication": "座 compte les grandes masses fixes : montagnes, ponts, îles, bâtiments ; 个 est aussi courant à l'oral. 条 et 张 ne conviennent pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "录音机",
+"sens": "magnétophone",
+"classificateur": "台",
+"pinyin": "tái",
+"choix": [
+"台",
+"条",
+"本"
+],
+"exemple": "我家还有一台录音机。",
+"traduction": "Nous avons encore un magnétophone à la maison.",
+"explication": "台 compte les machines et appareils. 条 (choses longues) et 本 (livres) ne vont pas avec un appareil.",
+"aussi": []
+},
+{
+"mot": "心脏",
+"sens": "cœur (organe)",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"张",
+"颗",
+"条"
+],
+"exemple": "医生给他换了一颗心脏。",
+"traduction": "Les médecins lui ont greffé un nouveau cœur.",
+"explication": "颗 compte les objets petits et ronds (grains, perles, dents) et aussi le cœur (一颗心) ; 个 est possible à l'oral. 张 et 条 sont impossibles.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "报社",
+"sens": "journal (entreprise de presse)",
+"classificateur": "家",
+"pinyin": "jiā",
+"choix": [
+"份",
+"家",
+"条"
+],
+"exemple": "她在一家报社工作。",
+"traduction": "Elle travaille dans un journal.",
+"explication": "家 compte les entreprises et établissements : un journal en tant qu'entreprise, une banque, une usine. Piège : 份 compte un exemplaire de journal (一份报纸), pas l'entreprise de presse.",
+"aussi": []
+},
+{
+"mot": "摩托车",
+"sens": "moto",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"条",
+"辆",
+"张"
+],
+"exemple": "他新买了一辆摩托车。",
+"traduction": "Il vient d'acheter une moto.",
+"explication": "辆 compte les véhicules à roues : voitures, vélos, motos ; 部 s'entend aussi. 条 et 张 ne vont pas.",
+"aussi": [
+"部"
+]
+},
+{
+"mot": "教堂",
+"sens": "église",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"座",
+"条",
+"张"
+],
+"exemple": "那座教堂已经有三百年了。",
+"traduction": "Cette église a déjà trois cents ans.",
+"explication": "座 compte les grands bâtiments et constructions ; 间 s'emploie parfois pour une petite chapelle. 条 et 张 ne conviennent pas.",
+"aussi": [
+"间"
+]
+},
+{
+"mot": "文物",
+"sens": "objet ancien, pièce archéologique",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"条",
+"件",
+"辆"
+],
+"exemple": "这件文物有两千年的历史。",
+"traduction": "Cet objet ancien a deux mille ans d'histoire.",
+"explication": "件 compte les objets individuels : bagages, vêtements, objets d'art ou pièces anciennes. 条 (choses longues) et 辆 (véhicules) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "曲",
+"sens": "air, morceau de musique",
+"classificateur": "首",
+"pinyin": "shǒu",
+"choix": [
+"张",
+"首",
+"本"
+],
+"exemple": "她为我们弹了一首曲子。",
+"traduction": "Elle nous a joué un morceau.",
+"explication": "首 compte les chansons, les poèmes et les morceaux de musique ; 支 est aussi employé. 张 (objets plats) et 本 (livres) ne vont pas.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "果树",
+"sens": "arbre fruitier",
+"classificateur": "棵",
+"pinyin": "kē",
+"choix": [
+"朵",
+"张",
+"棵"
+],
+"exemple": "院子里种着三棵果树。",
+"traduction": "Trois arbres fruitiers sont plantés dans la cour.",
+"explication": "棵 compte les arbres et les plantes. Piège : 朵 compte les fleurs, pas les arbres ; 张 compte les objets plats.",
+"aussi": []
+},
+{
+"mot": "枪",
+"sens": "fusil, arme à feu",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"支",
+"张",
+"本"
+],
+"exemple": "士兵手里拿着一支枪。",
+"traduction": "Le soldat tient un fusil à la main.",
+"explication": "支 compte les objets longs et fins, dont les fusils ; 把 est très courant, surtout pour les armes de poing, et 杆 existe aussi. 张 et 本 sont impossibles.",
+"aussi": [
+"把",
+"杆"
+]
+},
+{
+"mot": "楼房",
+"sens": "immeuble",
+"classificateur": "栋",
+"pinyin": "dòng",
+"choix": [
+"条",
+"栋",
+"张"
+],
+"exemple": "路边新建了几栋楼房。",
+"traduction": "On a construit quelques nouveaux immeubles au bord de la route.",
+"explication": "栋 compte les bâtiments et immeubles ; 座 et 幢 sont aussi employés. 条 et 张 ne conviennent pas.",
+"aussi": [
+"座",
+"幢"
+]
+},
+{
+"mot": "民歌",
+"sens": "chanson populaire",
+"classificateur": "首",
+"pinyin": "shǒu",
+"choix": [
+"篇",
+"首",
+"张"
+],
+"exemple": "她给我们唱了一首民歌。",
+"traduction": "Elle nous a chanté une chanson populaire.",
+"explication": "首 compte les chansons et les poèmes ; 支 s'emploie aussi pour les chansons. Piège : 篇 compte les textes en prose (articles, rédactions), pas les chansons.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "水库",
+"sens": "réservoir, lac de barrage",
+"classificateur": "座",
+"pinyin": "zuò",
+"choix": [
+"座",
+"条",
+"张"
+],
+"exemple": "村子附近有一座水库。",
+"traduction": "Il y a un réservoir près du village.",
+"explication": "座 compte les grandes constructions fixes : barrages, ponts, montagnes ; 个 s'entend aussi. 条 et 张 ne vont pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "沟",
+"sens": "fossé",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"张",
+"条",
+"座"
+],
+"exemple": "路两边各有一条沟。",
+"traduction": "Il y a un fossé de chaque côté de la route.",
+"explication": "条 s'emploie pour ce qui s'étire en longueur : fossés, rivières, routes ; 道 est aussi possible. 张 et 座 ne conviennent pas.",
+"aussi": [
+"道"
+]
+},
+{
+"mot": "浴室",
+"sens": "salle de bains",
+"classificateur": "间",
+"pinyin": "jiān",
+"choix": [
+"间",
+"张",
+"条"
+],
+"exemple": "这套房子有两间浴室。",
+"traduction": "Cet appartement a deux salles de bains.",
+"explication": "间 compte les pièces d'une maison : chambres, cuisines, salles de bains ; 个 est aussi courant. 张 et 条 ne conviennent pas.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "火柴",
+"sens": "allumette",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"条",
+"张",
+"根"
+],
+"exemple": "他在黑暗中划了一根火柴。",
+"traduction": "Il a craqué une allumette dans le noir.",
+"explication": "根 compte les objets longs, fins et rigides : allumettes, baguettes, cheveux ; 支 se dit aussi. Piège : 条 s'emploie surtout pour les choses longues et souples, pas pour une allumette.",
+"aussi": [
+"支"
+]
+},
+{
+"mot": "狮子",
+"sens": "lion",
+"classificateur": "头",
+"pinyin": "tóu",
+"choix": [
+"头",
+"条",
+"张"
+],
+"exemple": "动物园里有两头狮子。",
+"traduction": "Il y a deux lions au zoo.",
+"explication": "头 compte les grands animaux (bœufs, éléphants, lions) ; 只 est aussi très courant. 条 (serpents, poissons, chiens) et 张 ne conviennent pas.",
+"aussi": [
+"只"
+]
+},
+{
+"mot": "珍珠",
+"sens": "perle",
+"classificateur": "颗",
+"pinyin": "kē",
+"choix": [
+"块",
+"颗",
+"张"
+],
+"exemple": "他送给妻子一颗珍珠。",
+"traduction": "Il a offert une perle à sa femme.",
+"explication": "颗 compte les petits objets ronds : perles, bonbons, dents, étoiles ; 粒 est aussi possible. Piège : 块 compte les morceaux et les blocs, pas les perles.",
+"aussi": [
+"粒"
+]
+},
+{
+"mot": "田",
+"sens": "champ (cultivé)",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"张",
+"本",
+"块"
+],
+"exemple": "爷爷在村里有两块田。",
+"traduction": "Grand-père a deux champs au village.",
+"explication": "块 compte les parcelles de terrain et les morceaux ; 片 insiste sur une grande étendue. 张 et 本 ne conviennent pas.",
+"aussi": [
+"片"
+]
+},
+{
+"mot": "电车",
+"sens": "tramway, trolleybus",
+"classificateur": "辆",
+"pinyin": "liàng",
+"choix": [
+"架",
+"辆",
+"张"
+],
+"exemple": "路口停着一辆电车。",
+"traduction": "Un tramway est arrêté au carrefour.",
+"explication": "辆 compte les véhicules à roues. Piège : 架 compte les avions et les machines montées sur un support, pas les véhicules ; 张 compte les objets plats.",
+"aussi": []
+},
+{
+"mot": "皮",
+"sens": "peau (d'animal), fourrure",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"双",
+"张",
+"本"
+],
+"exemple": "这张皮可以做一件大衣。",
+"traduction": "Avec cette peau, on peut faire un manteau.",
+"explication": "张 compte les objets plats et étendus : feuilles, peaux, fourrures ; 块 désigne un morceau de cuir. 双 (paires) et 本 (livres) ne conviennent pas.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "砖",
+"sens": "brique",
+"classificateur": "块",
+"pinyin": "kuài",
+"choix": [
+"张",
+"块",
+"本"
+],
+"exemple": "工人搬来了一百块砖。",
+"traduction": "Les ouvriers ont apporté cent briques.",
+"explication": "块 compte les morceaux et les objets en forme de bloc : briques, pierres, savons. 张 (objets plats et minces) et 本 (livres) ne vont pas.",
+"aussi": []
+},
+{
+"mot": "笑脸",
+"sens": "visage souriant",
+"classificateur": "张",
+"pinyin": "zhāng",
+"choix": [
+"条",
+"本",
+"张"
+],
+"exemple": "她对谁都是一张笑脸。",
+"traduction": "Elle a un visage souriant pour tout le monde.",
+"explication": "张 compte les objets plats et aussi les visages (一张脸) ; 副 insiste sur l'expression du visage. 条 et 本 ne conviennent pas.",
+"aussi": [
+"副"
+]
+},
+{
+"mot": "箭",
+"sens": "flèche",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"支",
+"条"
+],
+"exemple": "他向远处射出了一支箭。",
+"traduction": "Il a tiré une flèche au loin.",
+"explication": "支 compte les objets longs et fins : flèches, stylos, cigarettes ; 根 s'entend aussi. Piège : 张 compte l'arc (一张弓), pas la flèche.",
+"aussi": [
+"根"
+]
+},
+{
+"mot": "线",
+"sens": "fil (à coudre)",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"根",
+"张",
+"本"
+],
+"exemple": "我需要一根线来缝扣子。",
+"traduction": "J'ai besoin d'un fil pour coudre un bouton.",
+"explication": "根 compte les objets longs et fins comme un fil, une aiguille ou un cheveu ; 条 est aussi courant, surtout pour une ligne tracée. 张 et 本 ne conviennent pas.",
+"aussi": [
+"条"
+]
+},
+{
+"mot": "老太太",
+"sens": "vieille dame",
+"classificateur": "位",
+"pinyin": "wèi",
+"choix": [
+"只",
+"位",
+"张"
+],
+"exemple": "门口站着一位老太太。",
+"traduction": "Une vieille dame se tient à la porte.",
+"explication": "位 est le classificateur poli pour les personnes ; 个 est aussi courant à l'oral. 只 (animaux) et 张 (objets plats) sont impossibles pour une personne.",
+"aussi": [
+"个"
+]
+},
+{
+"mot": "老鼠",
+"sens": "souris, rat",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"头",
+"只",
+"张"
+],
+"exemple": "厨房里有一只老鼠。",
+"traduction": "Il y a une souris dans la cuisine.",
+"explication": "只 compte la plupart des petits animaux. Piège : 头 est réservé aux grands animaux (bœufs, cochons, éléphants), et 张 aux objets plats.",
+"aussi": []
+},
+{
+"mot": "耳环",
+"sens": "boucle d'oreille",
+"classificateur": "对",
+"pinyin": "duì",
+"choix": [
+"对",
+"条",
+"本"
+],
+"exemple": "妈妈送给我一对耳环。",
+"traduction": "Maman m'a offert une paire de boucles d'oreilles.",
+"explication": "对 compte les paires d'objets assortis (boucles d'oreilles, couples) ; 副 est aussi possible, et 只 pour une seule boucle. 条 et 本 ne conviennent pas.",
+"aussi": [
+"副",
+"只"
+]
+},
+{
+"mot": "背心",
+"sens": "débardeur, gilet",
+"classificateur": "件",
+"pinyin": "jiàn",
+"choix": [
+"双",
+"件",
+"张"
+],
+"exemple": "夏天他常穿一件白背心。",
+"traduction": "En été, il porte souvent un débardeur blanc.",
+"explication": "件 compte les vêtements du haut : chemises, pulls, débardeurs. Piège : 双 est réservé aux paires (chaussures, chaussettes) ; 张 aux objets plats.",
+"aussi": []
+},
+{
+"mot": "草原",
+"sens": "prairie, steppe",
+"classificateur": "片",
+"pinyin": "piàn",
+"choix": [
+"张",
+"条",
+"片"
+],
+"exemple": "这片草原上有很多牛羊。",
+"traduction": "Il y a beaucoup de bœufs et de moutons dans cette prairie.",
+"explication": "片 compte les grandes étendues : prairies, forêts, mers, ou toute vaste surface. 张 et 条 ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "蜜蜂",
+"sens": "abeille",
+"classificateur": "只",
+"pinyin": "zhī",
+"choix": [
+"条",
+"只",
+"张"
+],
+"exemple": "花上停着一只蜜蜂。",
+"traduction": "Une abeille est posée sur la fleur.",
+"explication": "只 compte les insectes et les petits animaux. 条 (choses longues et souples) et 张 (objets plats) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "诗歌",
+"sens": "poème",
+"classificateur": "首",
+"pinyin": "shǒu",
+"choix": [
+"首",
+"张",
+"条"
+],
+"exemple": "这首诗歌写得非常美。",
+"traduction": "Ce poème est magnifiquement écrit.",
+"explication": "首 compte les poèmes et les chansons. 张 (objets plats) et 条 (choses longues) ne vont pas.",
+"aussi": []
+},
+{
+"mot": "象棋",
+"sens": "jeu d'échecs chinois",
+"classificateur": "副",
+"pinyin": "fù",
+"choix": [
+"条",
+"副",
+"张"
+],
+"exemple": "我给弟弟买了一副象棋。",
+"traduction": "J'ai acheté un jeu d'échecs chinois à mon petit frère.",
+"explication": "副 compte les ensembles d'objets qui vont ensemble : jeux d'échecs, jeux de cartes, lunettes ; 盘 compte une partie jouée (下一盘象棋). 条 et 张 ne conviennent pas.",
+"aussi": [
+"盘"
+]
+},
+{
+"mot": "财产",
+"sens": "fortune, biens",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"张",
+"条",
+"笔"
+],
+"exemple": "老人留下了一笔财产。",
+"traduction": "Le vieil homme a laissé une fortune.",
+"explication": "笔 compte les sommes d'argent : fortune, dette, prêt ; 份 désigne une part. 张 et 条 ne vont pas.",
+"aussi": [
+"份"
+]
+},
+{
+"mot": "贷款",
+"sens": "prêt, emprunt",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"笔",
+"张",
+"首"
+],
+"exemple": "他向银行申请了一笔贷款。",
+"traduction": "Il a demandé un prêt à la banque.",
+"explication": "笔 compte les sommes d'argent et les opérations financières (一笔钱). 张 (objets plats) et 首 (poèmes, chansons) sont impossibles.",
+"aussi": []
+},
+{
+"mot": "轮船",
+"sens": "bateau à vapeur, navire",
+"classificateur": "艘",
+"pinyin": "sōu",
+"choix": [
+"辆",
+"艘",
+"架"
+],
+"exemple": "河上开来了一艘轮船。",
+"traduction": "Un bateau arrive sur le fleuve.",
+"explication": "艘 compte les navires et les bateaux ; à l'oral on dit aussi 条 ou 只. Pièges : 辆 compte les véhicules à roues et 架 les avions.",
+"aussi": [
+"条",
+"只"
+]
+},
+{
+"mot": "遗产",
+"sens": "héritage",
+"classificateur": "笔",
+"pinyin": "bǐ",
+"choix": [
+"条",
+"本",
+"笔"
+],
+"exemple": "他得到了一笔遗产。",
+"traduction": "Il a reçu un héritage.",
+"explication": "笔 compte les sommes d'argent (un héritage en argent) ; 份 désigne une part et 项 un élément du patrimoine culturel. 条 et 本 ne conviennent pas.",
+"aussi": [
+"份",
+"项"
+]
+},
+{
+"mot": "金牌",
+"sens": "médaille d'or",
+"classificateur": "枚",
+"pinyin": "méi",
+"choix": [
+"枚",
+"张",
+"条"
+],
+"exemple": "她在这次比赛中得了两枚金牌。",
+"traduction": "Elle a remporté deux médailles d'or lors de cette compétition.",
+"explication": "枚 compte les petits objets plats et ronds : médailles, pièces, badges ; 块 est aussi courant à l'oral. 张 et 条 ne conviennent pas.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "铜牌",
+"sens": "médaille de bronze",
+"classificateur": "枚",
+"pinyin": "méi",
+"choix": [
+"条",
+"张",
+"枚"
+],
+"exemple": "他在比赛中拿到了一枚铜牌。",
+"traduction": "Il a obtenu une médaille de bronze à la compétition.",
+"explication": "枚 compte les petits objets plats et ronds : médailles, pièces, badges ; 块 est aussi courant à l'oral. 条 et 张 ne conviennent pas.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "银牌",
+"sens": "médaille d'argent",
+"classificateur": "枚",
+"pinyin": "méi",
+"choix": [
+"本",
+"枚",
+"张"
+],
+"exemple": "我们队一共获得了三枚银牌。",
+"traduction": "Notre équipe a remporté en tout trois médailles d'argent.",
+"explication": "枚 compte les petits objets plats et ronds : médailles, pièces, badges ; 块 est aussi courant à l'oral. 本 et 张 ne conviennent pas.",
+"aussi": [
+"块"
+]
+},
+{
+"mot": "针",
+"sens": "aiguille",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"根",
+"条",
+"张"
+],
+"exemple": "妈妈用一根针缝扣子。",
+"traduction": "Maman coud un bouton avec une aiguille.",
+"explication": "根 compte les objets longs et fins : aiguilles, cheveux, baguettes. Piège : 条 s'emploie plutôt pour les choses longues et souples (rues, poissons, pantalons) ; 张 pour les objets plats.",
+"aussi": []
+},
+{
+"mot": "钢笔",
+"sens": "stylo-plume",
+"classificateur": "支",
+"pinyin": "zhī",
+"choix": [
+"张",
+"本",
+"支"
+],
+"exemple": "爸爸送了我一支钢笔。",
+"traduction": "Papa m'a offert un stylo-plume.",
+"explication": "支 compte les instruments d'écriture et autres objets longs et fins. 张 (objets plats) et 本 (livres) ne conviennent pas.",
+"aussi": []
+},
+{
+"mot": "项链",
+"sens": "collier",
+"classificateur": "条",
+"pinyin": "tiáo",
+"choix": [
+"双",
+"条",
+"张"
+],
+"exemple": "他送给女朋友一条项链。",
+"traduction": "Il a offert un collier à sa petite amie.",
+"explication": "条 s'emploie pour les objets longs et souples : colliers, cravates, écharpes ; 串 compte un collier de perles enfilées. Piège : 双 est réservé aux paires.",
+"aussi": [
+"串"
+]
+},
+{
+"mot": "香肠",
+"sens": "saucisse",
+"classificateur": "根",
+"pinyin": "gēn",
+"choix": [
+"张",
+"双",
+"根"
+],
+"exemple": "早饭我吃了两根香肠。",
+"traduction": "Au petit déjeuner, j'ai mangé deux saucisses.",
+"explication": "根 compte les objets longs et fins : saucisses, baguettes, bâtons ; 条 est aussi courant. 张 (objets plats) et 双 (paires) ne conviennent pas.",
+"aussi": [
+"条"
+]
+}
+]

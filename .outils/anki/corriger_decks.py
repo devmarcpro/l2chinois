@@ -125,6 +125,9 @@ def niveau_carte(paquet: str, r) -> int:
 
 def sous_paquet(paquet: str, r) -> str:
     """Nom du sous-paquet d'après le niveau HSK de la note."""
+    if paquet == "Ecriture":
+        import ecriture
+        return ecriture.sous_paquet(r)
     niv = niveau_carte(paquet, r)
     return f"Chinois::{paquet}::" + (SOUS_PAQUETS[niv] if niv else "8 · Hors HSK")
 
@@ -574,6 +577,7 @@ def niveaux_phrases_exercices(paquets, lex):
             if "exercice_traditionnel" in r[3].split():  # recto en caractères non simplifiés : on mesure le mot simplifié
                 m = re.search(r"Réponse : ([一-鿿]+)", r[1])
                 texte = m.group(1) if m else ""
+            texte = texte.replace("(量词)", "")  # terme de la consigne, pas de la question (mettait tout en HSK 4)
             n = lex.officiel(html.unescape(re.sub(r"<[^>]+>", " ", texte)))
             etiquette = "HSK3.0::" + ("7-9" if n == 7 else str(n))
             garde = [t for t in r[3].split() if not re.fullmatch(r"Phrases_HSK\d|HSK3\.0::\S+", t)]
@@ -597,6 +601,8 @@ def trier(paquet, rangs, lex: Lexique):
     def texte(r, i=0):
         return html.unescape(re.sub(r"<rt[^>]*>[^<]*</rt>|<[^>]+>", " ", r[i]))
 
+    if paquet == "Ecriture":  # déjà rangé par ecriture.py (bande d'écriture, niveau des mots, nombre de mots)
+        return rangs
     if paquet == "Vocabulaire":
         def cle(ir):
             i, r = ir
@@ -691,6 +697,8 @@ def main():
     ajouts = ajouter_contenu(paquets)
     import contenu_hsk
     ajouts.update(contenu_hsk.ajouter_hsk(paquets))
+    import ecriture
+    ajouts.update(ecriture.ajouter_ecriture(paquets))
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()
@@ -701,7 +709,7 @@ def main():
 
     print("\n=== notes : avant -> après")
     for nom in paquets:
-        print(f"  {nom:12} {avant[nom]:5} -> {len(paquets[nom]):5}")
+        print(f"  {nom:12} {avant.get(nom, 0):5} -> {len(paquets[nom]):5}")
     print("\n=== corrections de contenu")
     print(f"  appliquées : {cc.bilan['appliquées']}, cartes remplacées (recto changé) : {cc.bilan['cartes remplacées']}, échecs : {len(cc.bilan['échecs'])}")
     for e in cc.bilan["échecs"]:

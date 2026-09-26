@@ -14,7 +14,7 @@ from pathlib import Path
 csv.field_size_limit(10**8)
 VAULT = Path(__file__).resolve().parents[2]
 SORTIE = VAULT / "Anki" / "corrige"
-ATTENDUS = {"Ecoute": 5, "Exercices": 5, "Grammaire": 5, "Lecture": 5, "Phrases": 5, "Vocabulaire": 5}  # 5e colonne : sous-paquet
+ATTENDUS = {"Ecoute": 5, "Ecriture": 5, "Exercices": 5, "Grammaire": 5, "Lecture": 5, "Phrases": 5, "Vocabulaire": 5}  # 5e colonne : sous-paquet
 
 
 class VerifHTML(html.parser.HTMLParser):
@@ -140,8 +140,9 @@ def main():
             problemes.append(f"{n_recto_vide} lignes ont un premier champ (recto) vide")
         # une note d'origine dont le recto a disparu resterait dans la collection sans étiquette a_supprimer
         sys.path.insert(0, str(Path(__file__).parent))
-        from corriger_decks import lire
-        perdus = [r[0] for r in lire(f"Chinois__{paquet}.txt") if r[0].strip() and r[0].strip() not in rectos]
+        from corriger_decks import lire, SOURCE
+        origine = lire(f"Chinois__{paquet}.txt") if (SOURCE / f"Chinois__{paquet}.txt").exists() else []  # Ecriture : pas de fichier d'origine
+        perdus = [r[0] for r in origine if r[0].strip() and r[0].strip() not in rectos]
         if perdus:
             problemes.append(f"{len(perdus)} rectos d'origine absents (carte modifiee sans garder l'ancienne avec a_supprimer) : {perdus[:3]}")
         perdus = [r for r in rectos_publies(paquet) if r.strip() and r.strip() not in rectos]
@@ -158,7 +159,7 @@ def main():
         for p in problemes:
             print("   -", p)
         total_problemes += len(problemes)
-    print(f"\n{'Aucun probleme detecte : les six fichiers sont prets a etre importes.' if total_problemes == 0 else str(total_problemes) + ' point(s) au total, voir le detail ci-dessus.'}")
+    print(f"\n{'Aucun probleme detecte : les sept fichiers sont prets a etre importes.' if total_problemes == 0 else str(total_problemes) + ' point(s) au total, voir le detail ci-dessus.'}")
     return total_problemes
 
 

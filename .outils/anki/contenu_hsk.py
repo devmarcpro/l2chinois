@@ -2,7 +2,9 @@
 """Contenu ajouté pour couvrir le programme officiel du HSK (et non les cours) :
 - donnees_hsk/vocabulaire.json : mots de la liste officielle HSK 3.0 absents du paquet (sens, exemple, traduction, note) ;
 - donnees_hsk/grammaire.json : une fiche par point du programme de grammaire officiel (HSK 2025), sauf ceux
-  qu'une fiche existante traitait déjà ("couvert_par").
+  qu'une fiche existante traitait déjà ("couvert_par") ; exercices_grammaire.json : choix et phrases à corriger ;
+- donnees_hsk/classificateurs.json : classificateur à choisir pour les noms du HSK 1-6 ;
+- donnees_hsk/lecture.json, ecoute.json : textes et dialogues gradués.
 Textes rédigés puis relus ; le pinyin et la forme traditionnelle sont calculés ici.
 Programme de grammaire : github.com/krmanik/HSK-3.0 (d'après le document officiel du ministère et le 新版HSK考试大纲).
 """
@@ -114,6 +116,25 @@ def exercices_rediges(e):
     return notes
 
 
+def exercice_classificateur(e):
+    """Classificateur à choisir dans une phrase (donnees_hsk/classificateurs.json : noms du HSK 1-6 qui ont un
+    classificateur propre ; les deux mauvais choix sont impossibles avec ce nom, les autres bonnes réponses sont
+    dans « aussi »)."""
+    phrase, cl = e["exemple"], e["classificateur"]
+    fin = phrase.index(e["mot"])
+    debut = phrase.rfind(cl, 0, fin)
+    if debut < 0:
+        debut = phrase.index(cl)
+    trou = phrase[:debut] + "___" + phrase[debut + len(cl):]
+    recto = (f"Choisissez le bon classificateur (量词) pour {_texte(e['mot'])} ({_texte(e['sens'])}) :<br><br>"
+             f"{_texte(trou)}<br><br>Choix : {' / '.join(_texte(c) for c in e['choix'])}")
+    aussi = f" Aussi possible : {'、'.join(_texte(a) for a in e['aussi'])}." if e["aussi"] else ""
+    verso = (f"<b>Réponse : {_texte(cl)}</b> ({_texte(e['pinyin'])})<br><br>{_en_gras(trou, cl)}<br>"
+             f"<i>{_texte(e['traduction'])}</i><br><br>"
+             f'<div class="exemple-bloc"><b>Explication :</b> {_texte(e["explication"])}{aussi}</div>')
+    return [recto, verso, "", "exercice_classificateur deck_v2 ajout_2026 HSK_officiel"]
+
+
 def carte_theme(e):
     """Thème (français -> chinois) : la phrase française d'un exemple de la fiche, la structure à employer en indice."""
     from contenu_cours import spans_par_mot
@@ -201,6 +222,12 @@ def ajouter_hsk(paquets):
                         rediges.append(n)
             paquets["Exercices"] += rediges
             bilan["Exercices : choix et corrections sur les structures du programme officiel"] = len(rediges)
+    f = DONNEES / "classificateurs.json"
+    if f.exists():
+        rectos = {r[0] for r in paquets["Exercices"]}
+        neuves = [n for n in (exercice_classificateur(e) for e in json.loads(f.read_text(encoding="utf-8"))) if n[0] not in rectos]
+        paquets["Exercices"] += neuves
+        bilan["Exercices : classificateurs des noms du programme officiel"] = len(neuves)
     for paquet, fichier, fabrique in (("Lecture", "lecture.json", note_lecture), ("Ecoute", "ecoute.json", note_ecoute)):
         f = DONNEES / fichier
         if f.exists():

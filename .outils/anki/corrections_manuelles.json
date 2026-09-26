@@ -110,6 +110,17 @@
     "caractere": "为",
     "lecture_juste": "wéi"
    }
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "bba9eefd5d396653",
+   "apercu": "清真寺",
+   "id": "manuel-2026-09-26",
+   "gravite": "mineur",
+   "probleme": "Accent manquant dans le sens (vu sur la carte d'écriture de 寺).",
+   "champ": "VERSO",
+   "ancien": "mosquee",
+   "nouveau": "mosquée"
   }
  ]
 }

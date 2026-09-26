@@ -3,7 +3,7 @@ PAQUETS ANKI CORRIGES (generes par .outils/anki/corriger_decks.py)
 
 Les fichiers d'origine (dossier Anki/) ne sont pas modifies. Pour tout regenerer :
     python .outils/anki/corriger_decks.py
-Pour verifier hors ligne que les 6 fichiers s'importeront sans probleme (champs, HTML bien forme) :
+Pour verifier hors ligne que les 7 fichiers s'importeront sans probleme (champs, HTML bien forme) :
     python .outils/anki/simuler_import.py
 
 CE QUI A CHANGE
@@ -42,7 +42,7 @@ CE QUI A CHANGE
   pinyin jamais relue et abimee (mots latins et chiffres perdus, "19世纪" lu "1 shì jì", sandhi de 一 absent,
   长达 lu zhǎng) : refaites. Mise en page uniformisee : 81 phrases repetaient la phrase chinoise ou avaient une
   ligne vide avant la traduction. 不知为不知 : 为 lu wéi.
-- Verifie avec .outils/anki/simuler_import.py : les 6 fichiers s'importent sans probleme (aucun champ manquant,
+- Verifie avec .outils/anki/simuler_import.py : les 7 fichiers s'importent sans probleme (aucun champ manquant,
   aucune balise HTML mal fermee).
 - Exercices de ton : doublons supprimes, caracteres a plusieurs lectures regroupes sur une seule carte,
   erreurs corrigees (颇, 省, "1e ton"), paires de mots de liaison remises chacune dans son trou (虽然…但).
@@ -67,6 +67,18 @@ CE QUI A CHANGE
   * Ecoute : 24 dialogues gradues (4 par niveau du HSK 1 au HSK 6 : achats, medecin, logement, entretien,
     reclamation, emission de radio...), repliques annoncees par 男：(homme) / 女：(femme), faits pour etre
     ecoutes avec la synthese vocale (voir ECOUTER LE CHINOIS plus bas). Meme verso que la lecture.
+  * Classificateurs : 338 exercices (etiquette exercice_classificateur) sur les noms du HSK 1 a 6 qui ont un
+    classificateur propre (一匹马, 一把伞, 一场雨, 一副手套...) : une phrase avec un trou et trois choix ; les deux
+    mauvais sont impossibles avec ce nom, les autres classificateurs possibles sont donnes au verso. Les noms
+    qu'on compte presque toujours avec 个 ont ete laisses de cote.
+  * NOUVEAU PAQUET "Ecriture" (fichier Chinois__Ecriture.txt) : ecrire de memoire les 1 200 caracteres de la
+    liste officielle d'ecriture manuscrite du HSK 3.0 (手写汉字表 : 300 pour les niveaux 1-3, 400 pour 4-6,
+    500 pour 7-9 ; sous-paquets 1 · HSK 1-3, 2 · HSK 4-6, 3 · HSK 7-9). Recto : la lecture, le sens du
+    caractere seul et trois mots de la liste officielle ou il est remplace par ＿ (ex. ＿校 xuéxiào — ecole).
+    On l'ecrit sur papier (ou au doigt), puis on retourne : caractere en grand, forme traditionnelle, nombre de
+    traits, cle, mots complets. Les cartes vont des caracteres des mots les plus simples aux plus rares.
+    3 caracteres (纲 凶 昌) attendent le vocabulaire HSK 7-9 pour avoir un mot d'exemple.
+    Traits et cles : base Unihan (Unicode) ; listes officielles : github.com/krmanik/HSK-3.0.
   * Textes : .outils/anki/donnees_hsk/ ; programme de grammaire : github.com/krmanik/HSK-3.0 (d'apres le
     document officiel du ministere chinois de l'Education et le 新版HSK考试大纲).
 - Pinyin : 不得 en fin de proposition (吃不得, 马虎不得, 进也进不得) se lit bu de ; 舍不得, 巴不得, 顾不得...
@@ -101,8 +113,12 @@ CE QUI A CHANGE
 - Grammaire, lecture, ecoute : le niveau est ecrit sur la carte (recto) et reste celui-la ; etiquette HSK::n.
   Une fourchette ("HSK 3-4") compte pour son premier niveau. Ecoute notee 初级 / 初中级 / 中级 / 高级 :
   HSK 2 / 3 / 4 / 5, d'apres la difficulte mesuree de ces textes comparee a ceux notes en HSK.
-- LES SIX PAQUETS sont decoupes en sous-paquets par niveau (colonne "deck" du fichier) :
-  Chinois::<Paquet>::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9 (et 8 · Hors HSK pour le vocabulaire).
+- LES SEPT PAQUETS sont decoupes en sous-paquets par niveau (colonne "deck" du fichier) :
+  Chinois::<Paquet>::1 · HSK 1 ... 6 · HSK 6, 7 · HSK 7-9 (et 8 · Hors HSK pour le vocabulaire) ;
+  Chinois::Ecriture::1 · HSK 1-3, 2 · HSK 4-6, 3 · HSK 7-9 (les trois tranches de la liste d'ecriture).
+- Exercices de classificateurs : le mot 量词 de la consigne comptait dans le calcul du niveau et mettait les 95
+  anciens exercices en HSK 4 ; ils sont maintenant au niveau de la question (一___书 : HSK 1). Pour les ranger
+  dans ta collection, voir SOUS-PAQUETS PAR NIVEAU (etiquettes HSK3.0::n).
   Tous les mots des cours se retrouvent avec la recherche tag:cours_L2.
 - Chaque fichier est range du plus facile au plus difficile.
 - journal_des_corrections.txt : le detail des syllabes modifiees (3000 premiers cas par famille).
@@ -124,7 +140,9 @@ IMPORTER DANS ANKI (ordinateur)
    Le premier champ des notes existantes n'a pas ete touche : Anki met donc tes cartes a jour
    sans toucher a ta progression, et cree seulement les notes ajoutees.
    Le sous-paquet est lu dans le fichier (colonne deck) : ne pas forcer le paquet dans la fenetre d'import.
-4. Recommencer pour les six fichiers.
+4. Recommencer pour les sept fichiers.
+5. Chinois__Ecriture.txt est un paquet nouveau : type de note "Basique" (ou le meme que les autres paquets),
+   rien a mettre a jour, les sous-paquets sont crees tout seuls.
 
 SOUS-PAQUETS PAR NIVEAU
 - Une note deja presente dans ta collection n'est PAS deplacee par l'import (Anki garde son paquet actuel) ;
