@@ -31,12 +31,83 @@ HyperTTS, remplacer cette ligne du modele du recto par le champ ou HyperTTS ecri
 
 <div class="texte">{{Recto}}</div>
 
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+
 
 ########## "Chinois (texte)" : MODELE DU VERSO ##########
 
 <div class="texte">{{Recto}}</div>
 <hr id="answer">
 <div class="texte">{{Verso}}</div>
+
+<script>
+(function () {
+  // recto : lignes tout en chinois agrandies, « Choix : a / b / c » en etiquettes
+  var R = document.querySelector('.texte');
+  if (!R || R.getAttribute('data-mis')) return;
+  R.setAttribute('data-mis', '1');
+  var CJK = /[\u3400-\u9fff]/;
+  var ZH = /^[\u3400-\u9fff\u3000-\u303f\uff00-\uffef_\u2026\u00b7\u2014\s]+$/;
+  var parts = R.innerHTML.split(/<br\s*\/?>/i);
+  var pleines = parts.filter(function (p) { return p.trim(); }).length;
+  R.innerHTML = parts.map(function (p) {
+    var t = p.trim();
+    if (!t || t.indexOf('<') !== -1) return p;
+    if (/^Choix\s*:/.test(t)) {
+      return '<div class="choix">' + t.replace(/^Choix\s*:\s*/, '').split(' / ').map(function (o) {
+        return '<span class="option">' + o + '</span>';
+      }).join('') + '</div>';
+    }
+    if (ZH.test(t) && CJK.test(t)) {
+      var n = (t.match(/[㐀-鿿]/g) || []).length;  // phrase seule : plus grande si elle est courte
+      var taille = pleines !== 1 ? '' : n <= 10 ? ' zh-seule' : n <= 20 ? ' zh-moyenne' : '';
+      return '<span class="zh-ligne' + taille + '">' + t + '</span>';
+    }
+    return p;
+  }).join('<br>');
+})();
+</script>
+<script>
+(function () {
+  // verso d'une phrase (forme traditionnelle, pinyin, traduction) : traduction en plus grand
+  var V = document.querySelector('#answer ~ .texte');
+  if (!V || V.getAttribute('data-mis')) return;
+  V.setAttribute('data-mis', '1');
+  if (!/^\s*<span class="hanzi-trad">/.test(V.innerHTML)) return;
+  var p = V.innerHTML.split(/<br\s*\/?>/i);
+  if (p.length > 2 && p[2].trim() && p[2].indexOf('<') === -1) {
+    p[2] = '<div class="traduction">' + p[2] + '</div>';
+    while (p.length > 4 && !p[3].trim() && !p[4].trim()) p.splice(3, 1);  // pas de grand vide apres la traduction
+    V.innerHTML = p.join('<br>');
+  }
+})();
+</script>
 
 <div id="ruby-toggle" title="Pinyin on/off">あ</div>
 <script>
@@ -79,6 +150,7 @@ HyperTTS, remplacer cette ligne du modele du recto par le champ ou HyperTTS ecri
        local("KaiTi"), local("STKaiti"), local("楷体");
   unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF,
                  U+2A700-2B73F, U+3000-303F, U+FF00-FFEF;
+  size-adjust: 115%;
 }
 
 .texte {
@@ -144,6 +216,28 @@ ruby rt {
 .ecoute-label { font-size: 18px; color: #888; }
 .ecoute-audio { font-size: 48px; margin: 10px 0; }
 .ecoute-texte, .ecoute-reveal { text-align: left; font-size: 26px; line-height: 1.9; }
+
+/* recto : caractere isole (exercices de ton, de pinyin...), lignes en chinois, choix */
+.hanzi {
+  font-family: "AR PL UKai CN", "AR PL UKai TW", "AR PL UKai", "KaiTi", "STKaiti", "楷体", "SimKai", serif;
+  font-size: 90px;
+  line-height: 1.2;
+}
+.zh-ligne { font-family: "ExempleFont", serif; font-size: 1.45em; }
+.zh-seule { font-size: 2em; }
+.zh-moyenne { font-size: 1.7em; }
+.choix { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 8px auto 0; max-width: 90%; }
+.option {
+  font-family: "ExempleFont", "Segoe UI", "Arial", sans-serif;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  padding: 2px 14px;
+}
+.nightMode .option, .night_mode .option { border-color: #666; }
+
+/* verso : reponse et traduction en evidence */
+#answer ~ .texte > b:first-child { font-size: 1.2em; }
+.traduction { font-size: 1.3em; margin: 4px 0; }
 
 
 ########## "Chinois (ecoute)" : MODELE DU RECTO ##########
