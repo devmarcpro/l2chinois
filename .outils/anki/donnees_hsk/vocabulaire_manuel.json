@@ -165,7 +165,7 @@
   "sens": "calme et doux ; posé, réservé (caractère)",
   "exemple": "她是一个很文静的女孩子。",
   "traduction": "C'est une fille très calme et posée.",
-  "note": "Qualifie le tempérament d'une personne ; ≠ 安静 (silencieux, pour un lieu ou un moment)."
+  "note": "Qualifie le tempérament d'une personne ; ≠ 安静 (calme, silencieux : un lieu, un moment, ou quelqu'un qui ne fait pas de bruit)."
  },
  {
   "mot": "卡拉OK",
@@ -716,7 +716,7 @@
   "pinyin": "huáng niú",
   "sens": "(fam.) revendeur de billets à la sauvette ; bœuf, vache",
   "exemple": "春节前，火车站外面有很多黄牛卖票。",
-  "traduction": "Avant la fête du Printemps, beaucoup de revendeurs vendent des billets devant la gare.",
+  "traduction": "Avant la fête du Printemps, il y a beaucoup de revendeurs de billets à la sauvette devant la gare.",
   "note": "Au propre, bovin ; au figuré (souvent entre guillemets), revendeur au marché noir, surtout de billets de train."
  },
  {
@@ -754,7 +754,7 @@
  {
   "mot": "脚下",
   "pinyin": "jiǎo xià",
-  "sens": "sous les pieds ; au pied de (une montagne)",
+  "sens": "sous les pieds ; au pied (d'une montagne)",
   "exemple": "小心脚下！",
   "traduction": "Attention où tu mets les pieds !",
   "note": "Aussi dans 山脚下 (au pied de la montagne) ; 小心脚下 est un avertissement courant."
@@ -1066,9 +1066,9 @@
  {
   "mot": "说破嘴皮",
   "pinyin": "shuō pò zuǐ pí",
-  "sens": "s'user la salive ; parler en vain jusqu'à épuisement",
-  "exemple": "我说破嘴皮，他还是不听。",
-  "traduction": "J'ai eu beau m'user la salive, il ne veut toujours rien entendre.",
+  "sens": "user sa salive ; parler en vain jusqu'à épuisement",
+  "exemple": "我都说破嘴皮了，他还是不听。",
+  "traduction": "J'ai eu beau user ma salive, il ne veut toujours rien entendre.",
   "note": "Familier ; aussi 说破了嘴皮 ou 磨破嘴皮."
  },
  {
@@ -1515,8 +1515,8 @@
   "mot": "切掉",
   "pinyin": "qiē diào",
   "sens": "couper ; enlever (en coupant)",
-  "exemple": "这块苹果坏了，把它切掉吧。",
-  "traduction": "Ce morceau de pomme est abîmé, coupe-le.",
+  "exemple": "这个苹果坏了一块，把它切掉吧。",
+  "traduction": "Il y a un morceau abîmé sur cette pomme, coupe-le.",
   "note": "掉 marque l'élimination (cf. 改掉, 扔掉)."
  },
  {

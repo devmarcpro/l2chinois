@@ -873,6 +873,7 @@
    "francais": "Suivez cette rue tout droit et vous verrez la banque.",
    "chinois": "沿这条路一直往前走，就能看到银行。",
    "variantes": [
+    "沿着这条路一直往前走，就能看到银行。",
     "沿这条路一直走，就能看到银行。",
     "沿这条街一直往前走，就能看到银行。"
    ]
@@ -3940,10 +3941,10 @@
   },
   "utiliser": {
    "consigne": "Dites ce qu'une personne étudie (verbe + objet), en indiquant le lieu",
-   "francais": "Il apprend l'anglais à Shanghai.",
-   "chinois": "他在上海学英语。",
+   "francais": "Il apprend le japonais à Shanghai.",
+   "chinois": "他在上海学日语。",
    "variantes": [
-    "他在上海学习英语。"
+    "他在上海学习日语。"
    ]
   }
  },
@@ -4220,8 +4221,7 @@
    "chinois": "我爸爸和妈妈都是老师。",
    "variantes": [
     "我爸爸和我妈妈都是老师。",
-    "我父亲和母亲都是老师。",
-    "我爸爸妈妈都是老师。"
+    "我父亲和母亲都是老师。"
    ]
   }
  },
@@ -4365,10 +4365,10 @@
  },
  "(Sujet +) V (+ objet) + 的 + nom — proposition relative": {
   "comprendre": {
-   "phrase_gras": "那个**看书的**人是谁？",
+   "phrase_gras": "那个**说汉语的**人是谁？",
    "question": "",
-   "reponse": "看书的 « qui lit » : le groupe verbal suivi de 的 se place avant le nom 人 et le détermine, comme une relative française.",
-   "traduction": "Qui est la personne qui lit ?"
+   "reponse": "说汉语的 « qui parle chinois » : le groupe verbal suivi de 的 se place avant le nom 人 et le détermine, comme une relative française.",
+   "traduction": "Qui est la personne qui parle chinois ?"
   },
   "utiliser": {
    "consigne": "Déterminez un nom par une action (« le… où / que… »), placée avant lui",
@@ -4446,7 +4446,7 @@
    "phrase_gras": "你**会不会**说英语？",
    "question": "",
    "reponse": "会不会 (verbe affirmatif + verbe nié) forme une question oui / non, sans 吗.",
-   "traduction": "Tu sais parler anglais, oui ou non ?"
+   "traduction": "Est-ce que tu sais parler anglais ?"
   },
   "utiliser": {
    "consigne": "Posez une question oui / non en juxtaposant la forme affirmative et la forme négative du verbe, sans particule finale",
@@ -4509,7 +4509,7 @@
    "traduction": "Je t'offre un paquet de thé."
   },
   "utiliser": {
-   "consigne": "Dites combien d'une chose vous voulez acheter, en la comptant par son emballage",
+   "consigne": "Dites quelle quantité d'un produit vous voulez acheter, en le comptant par son emballage",
    "francais": "Je voudrais acheter deux paquets de thé vert.",
    "chinois": "我想买两包绿茶。",
    "variantes": []
@@ -4608,7 +4608,7 @@
    "francais": "Donnez-moi une assiette de baozi, s'il vous plaît.",
    "chinois": "给我一盘包子吧。",
    "variantes": [
-    "我想买一盘包子。"
+    "给我一盘包子。"
    ]
   }
  },
@@ -4756,7 +4756,9 @@
    "consigne": "Donnez la date d'aujourd'hui, sans verbe",
    "francais": "Aujourd'hui, c'est le 5 mai.",
    "chinois": "今天五月五号。",
-   "variantes": []
+   "variantes": [
+    "今天五月五日。"
+   ]
   }
  },
  "去 / 来 + lieu + verbe — se déplacer pour faire quelque chose (连动句)": {
@@ -4983,7 +4985,8 @@
    "francais": "Allons voir un film ensemble.",
    "chinois": "我们一起去看电影吧。",
    "variantes": [
-    "我们一起看电影吧。"
+    "我们一起看电影吧。",
+    "我们一块儿去看电影吧。"
    ]
   }
  },
@@ -5018,7 +5021,8 @@
    "chinois": "别在这儿抽烟！",
    "variantes": [
     "不要在这儿抽烟！",
-    "别在这里抽烟！"
+    "别在这里抽烟！",
+    "不要在这里抽烟！"
    ]
   }
  },
@@ -5050,7 +5054,9 @@
    "consigne": "Racontez qu'on a réfléchi un bref instant avant de décider",
    "francais": "Après avoir réfléchi un instant, finalement je n'y vais pas.",
    "chinois": "我想了想，还是不去了。",
-   "variantes": []
+   "variantes": [
+    "我想了一下，还是不去了。"
+   ]
   }
  },
  "一起 + verbe — ensemble (adverbe)": {
@@ -5065,7 +5071,8 @@
    "francais": "Ils habitent ensemble tous les deux.",
    "chinois": "他们两个人住在一起。",
    "variantes": [
-    "他们两个住在一起。"
+    "他们两个住在一起。",
+    "他们两个人一起住。"
    ]
   }
  },
@@ -5133,7 +5140,8 @@
    "francais": "Maman ne me laisse pas sortir le soir.",
    "chinois": "妈妈不让我晚上出门。",
    "variantes": [
-    "晚上妈妈不让我出门。"
+    "晚上妈妈不让我出门。",
+    "我妈妈不让我晚上出门。"
    ]
   }
  },
@@ -5273,7 +5281,7 @@
    "traduction": "Comme ton jardin est beau !"
   },
   "utiliser": {
-   "consigne": "Exclamez-vous sur un plat que vous goûtez et que vous trouvez vraiment délicieux",
+   "consigne": "Exclamez-vous sur un plat que vous goûtez, avec une tournure en « comme… ! » (ni « vraiment » ni « trop »)",
    "francais": "Comme ce plat est bon !",
    "chinois": "这个菜多好吃啊！",
    "variantes": [
@@ -5533,7 +5541,8 @@
    "francais": "Je lis dans ma chambre.",
    "chinois": "我在房间里看书。",
    "variantes": [
-    "我在我的房间里看书。"
+    "我在我的房间里看书。",
+    "我在卧室里看书。"
    ]
   }
  },
@@ -5627,7 +5636,8 @@
    "chinois": "到银行往左拐。",
    "variantes": [
     "到了银行往左拐。",
-    "到银行往左走。"
+    "到银行往左走。",
+    "到银行向左拐。"
    ]
   }
  },
@@ -5801,7 +5811,7 @@
    "traduction": "Je vais t'offrir un livre."
   },
   "utiliser": {
-   "consigne": "Un verbe suivi directement de deux objets : la personne, puis la chose (sans préposition)",
+   "consigne": "Dites que vous voulez offrir quelque chose à quelqu'un, avec le verbe suivi directement de la personne puis de la chose (sans préposition)",
    "francais": "Je voudrais offrir un pull à ma mère.",
    "chinois": "我想送妈妈一件毛衣。",
    "variantes": [
@@ -6201,7 +6211,9 @@
    "francais": "Tu dois absolument prendre ton médicament aujourd'hui.",
    "chinois": "你今天一定要吃药。",
    "variantes": [
-    "今天你一定要吃药。"
+    "今天你一定要吃药。",
+    "你今天必须吃药。",
+    "今天你必须吃药。"
    ]
   }
  },
@@ -7008,10 +7020,10 @@
   "utiliser": {
    "consigne": "Demandez si l'action est terminée (résultat : fini)",
    "francais": "Tu as fini tes devoirs ?",
-   "chinois": "你做完作业了吗？",
+   "chinois": "你做完功课了吗？",
    "variantes": [
-    "你作业做完了吗？",
-    "作业你做完了吗？"
+    "你功课做完了吗？",
+    "功课你做完了吗？"
    ]
   }
  },
@@ -7104,7 +7116,8 @@
    "francais": "Nous devons apprendre les uns des autres.",
    "chinois": "我们要互相学习。",
    "variantes": [
-    "我们应该互相学习。"
+    "我们应该互相学习。",
+    "我们要相互学习。"
    ]
   }
  },
@@ -7473,10 +7486,12 @@
    "traduction": "Tire un peu la chaise vers l'avant, s'il te plaît."
   },
   "utiliser": {
-   "consigne": "Dites que vous avez fini de lire la totalité de ces livres, l'objet étant placé avant le verbe",
+   "consigne": "Dites que vous avez fini de lire la totalité de ces livres, en plaçant l'objet avant le verbe à l'aide d'une préposition",
    "francais": "J'ai fini de lire tous ces livres.",
    "chinois": "我把这些书都看完了。",
-   "variantes": []
+   "variantes": [
+    "我把这些书都读完了。"
+   ]
   }
  },
  "选 / 收 + qqn + 当 / 做 / 为 + rôle — élire, prendre qqn comme…": {
@@ -7632,9 +7647,11 @@
   },
   "utiliser": {
    "consigne": "Rassurez quelqu'un en promettant une solution simple (« …, c'est tout »)",
-   "francais": "Ne t'en fais pas, j'en rachèterai un, c'est tout.",
+   "francais": "Ne t'en fais pas, je rachèterai un livre, c'est tout.",
    "chinois": "别着急，我再买一本就是了。",
-   "variantes": []
+   "variantes": [
+    "别着急，我再买一本书就是了。"
+   ]
   }
  },
  "你 + verbe + 你的（吧）— continue, ne t'occupe pas de moi": {
@@ -7822,7 +7839,9 @@
    "consigne": "Décrivez ce qui se trouve à un endroit et dans quelle position, en commençant par le lieu",
    "francais": "Deux personnes se tiennent devant la porte.",
    "chinois": "门外站着两个人。",
-   "variantes": []
+   "variantes": [
+    "门前站着两个人。"
+   ]
   }
  },
  "描述一个人 — décrire une personne": {
@@ -7892,7 +7911,7 @@
   },
   "utiliser": {
    "consigne": "Dites qu'une chose a quitté un lieu, en commençant la phrase par le lieu",
-   "francais": "Une voiture est partie d'en bas de l'immeuble.",
+   "francais": "Une voiture qui était en bas de l'immeuble est partie.",
    "chinois": "楼下开走了一辆汽车。",
    "variantes": [
     "楼下开走了一辆车。"
@@ -7995,7 +8014,7 @@
    "francais": "Il a été fâché plusieurs jours à cause de cette affaire.",
    "chinois": "他为这件事生气了好几天。",
    "variantes": [
-    "他为了这件事生气了好几天。"
+    "他因为这件事生气了好几天。"
    ]
   }
  },
@@ -8855,7 +8874,7 @@
   "comprendre": {
    "phrase_gras": "周末我**或者**在家看书，**或者**去看电影。",
    "question": "",
-   "reponse": "或者…或者… présente, dans une affirmation, deux possibilités qui alternent : soit…, soit….",
+   "reponse": "或者…或者… présente, dans une affirmation, deux possibilités qui alternent : « soit…, soit… ».",
    "traduction": "Le week-end, soit je lis à la maison, soit je vais au cinéma."
   },
   "utiliser": {
@@ -9248,7 +9267,9 @@
    "variantes": [
     "虽然他很累，但是还在工作。",
     "他虽然很累，可是还在工作。",
-    "他虽然很累，但还在工作。"
+    "他虽然很累，但还在工作。",
+    "虽然他很累，但是他还在工作。",
+    "他虽然很累，却还在工作。"
    ]
   }
  },

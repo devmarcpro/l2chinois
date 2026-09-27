@@ -7,3 +7,5 @@ _site/
 __pycache__/
 # manuels en PDF (droits d'auteur, trop gros pour GitHub) : jamais dans le depot
 Anki/*.pdf
+# cartes et transcriptions tirees des manuels (droits d'auteur) : jamais dans le depot public
+Anki/prive/

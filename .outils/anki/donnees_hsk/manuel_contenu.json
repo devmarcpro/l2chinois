@@ -875,8 +875,8 @@
      "r": "她喝果汁。"
     },
     {
-     "q": "女的买面条还是买包子？",
-     "r": "她也买包子。"
+     "q": "女的也买包子吗？",
+     "r": "对，她也买包子。"
     }
    ],
    "mots_cles": [
@@ -1951,7 +1951,7 @@
     ],
     "reponse": "往",
     "phrase": "你往前走，银行就在左边。",
-    "traduction": "Avance, la banque est juste sur ta gauche.",
+    "traduction": "Va tout droit, la banque est juste sur ta gauche.",
     "explication": "往 + direction + verbe : « vers ». 往前走 « aller tout droit, vers l'avant ». 离 indique une distance, 到 un point d'arrivée."
    },
    {
@@ -2358,7 +2358,7 @@
     },
     {
      "q": "王先生明天可以去上班吗？",
-     "r": "最好别去，他应该在家休息两天。"
+     "r": "大夫说他最好别去，应该在家休息两天。"
     }
    ],
    "mots_cles": [
@@ -2896,7 +2896,7 @@
    {
     "reponse": "这本书我还没看呢。",
     "question": "这本书你看了没有？",
-    "traduction": "Ce livre, tu l'as lu ? — Pas encore.",
+    "traduction": "Ce livre, tu l'as lu ? — Non, je ne l'ai pas encore lu.",
     "explication": "Question affirmative-négative sur une action accomplie : verbe + 了 + 没有 ? La réponse négative est 还没…呢, sans 了."
    },
    {
@@ -3748,7 +3748,7 @@
     "reponse": "完",
     "phrase": "我已经做完功课了，可以出去玩儿吗？",
     "traduction": "J'ai déjà fini mes devoirs, je peux sortir jouer ?",
-    "explication": "完 indique que l'action est terminée (做完 : finir de faire) ; 会 (apprendre à) et 懂 (comprendre) ne vont pas avec 做功课."
+    "explication": "完 indique que l'action est terminée (做完 : finir de faire) ; 会 (savoir, maîtriser : 学会) et 懂 (comprendre) ne vont pas avec 做功课."
    },
    {
     "phrase_trou": "他在云南住___一个月，昨天刚回来。",
@@ -5236,7 +5236,7 @@
     "explication": "把 + objet + 放在 + lieu : 在 suit directement le verbe et introduit l'endroit où l'objet se retrouve."
    },
    {
-    "phrase_lettres": "昨天 A 我 B 把 旧衣服 都 C 卖 D 。",
+    "phrase_lettres": "昨天 A 我 B 把旧衣服都 C 卖 D。",
     "mot": "了",
     "reponse": "D",
     "phrase": "昨天我把旧衣服都卖了。",
