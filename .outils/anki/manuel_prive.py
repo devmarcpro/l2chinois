@@ -74,7 +74,8 @@ def notes_lecon(d):
         zh = _lignes(t.get("zh"))
         titre = t.get("titre") or t.get("id") or ""
         if not zh and t.get("resume"):  # texte long, non recopié : à relire (ou réécouter) dans le livre
-            piste = f" (piste {_t(t['piste'])})" if t.get("piste") else ""
+            num = re.sub(r"\D", "", str(t.get("piste") or ""))
+            piste = f" (piste {num})" if num else ""
             geste = "Réécoutez" if t.get("partie") == "oral" else "Relisez"
             recto = (f'<small>Manuel · {lib}</small><br><br>{geste} dans le manuel{piste} :<br><br>'
                      f'<b>{_t(titre)}</b><br><br>Puis racontez-le en chinois avec vos mots.')
@@ -220,7 +221,7 @@ def main():
         def pret(n):  # rang public à partir duquel la note peut venir : après les mots de la leçon qu'elle emploie
             r = 0
             for w, l in m.mots(nu(n[0]) + " " + nu(n[1])):
-                if l == i and w in rang_mot:
+                if w in rang_mot:  # un mot (ou une expression) dont la carte est dans cette leçon
                     r = max(r, rang_mot[w])
             return r
 
@@ -253,6 +254,13 @@ def main():
                 audio, tts = "", "tts::aucun"
             else:
                 audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
+                reponse = n[1].split("<br>")[0]
+                if genre == "Exercices" and re.search(r"[a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]{2,}", nu(reponse)):
+                    # réponse en pinyin ou en français : on fait entendre le chinois de l'énoncé, pas la réponse
+                    enonce = n[0].split("<br><br>")[-1]
+                    zh = "".join(re.findall(r"[一-鿿，。！？、；：]+", nu(enonce)))
+                    if len(re.findall(r"[一-鿿]", zh)) >= 1:
+                        audio, tts = zh.strip("，、；："), "tts::reponse"
             fichiers[genre].append([n[0], n[1], n[2] + " " + tts, paquet, audio])
             rangement.append((n[0], paquet, rang))
     # rectos disparus depuis la dernière version : gardés avec a_supprimer
