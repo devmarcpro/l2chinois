@@ -83,6 +83,8 @@ class Manuel:
         if len(mot) == 3 and mot[1] in "没不" and mot[0] == mot[2]:  # 有没有, 是不是 : question A不A
             return max(self.lecon_mot(mot[0]), self.voc.get(mot[1], INF))
         n = hsk30().get(mot)
+        if len(CJK.findall(mot)) >= 4 and n is None:  # chengyu, expression figée : il faut l'avoir apprise
+            return INF
         if n and n >= 5 and len(mot) > 1:  # mot d'un niveau au-delà du manuel (un caractère seul : d'après ce caractère)
             return INF
         return max((self.car.get(c, INF) for c in CJK.findall(mot)), default=0)
@@ -95,16 +97,19 @@ class Manuel:
             # « 不挤 bù jǐ … 5. 挤 » donnerait « 不挤挤 » ; les simples espaces (entre les rubis) sont ôtées
             coupe = re.sub(r"[^一-鿿，。！？、；：]*[A-Za-zÀ-ÿ0-9][^一-鿿，。！？、；：]*", "，", texte)
             propre = "".join(c for c in coupe if CJK.match(c) or c in "，。！？、；：")
+            from corriger_decks import hsk30
+            # jieba prend parfois un mot courant pour un nom propre (富, 墨, 太阳 : nr / ns) : un mot du manuel ou
+            # de la liste HSK reste un mot
             self._cache[texte] = [(m, self.lecon_mot(m)) for m, nature in pseg.cut(propre)
-                                  if CJK.search(m) and nature not in NATURES_IGNOREES]
+                                  if CJK.search(m) and (nature not in NATURES_IGNOREES or m in self.voc or hsk30().get(m))]
         return self._cache[texte]
 
     def lecon_texte(self, texte: str, tolerance: float = 0.0) -> int:
         """Leçon où l'on connaît tous les mots du texte (ou tous sauf une petite part, pour les longs textes
         dont les mots clés sont donnés au verso)."""
         niveaux = sorted(l for _, l in self.mots(texte))
-        if not niveaux:
-            return 0
+        if not niveaux:  # que des noms propres ou des nombres : leçon 1 s'il n'y a pas de chinois, sinon inconnue
+            return INF if any(c not in "一二三四五六七八九十百千万零两〇" for c in CJK.findall(texte)) else 0
         k = max(0, int(len(niveaux) * (1 - tolerance) + 0.999) - 1)
         return niveaux[k]
 
@@ -196,6 +201,7 @@ def ranger(paquets):
                 lecon = m.index[voulue.group(1)] if lecon >= INF else max(lecon, m.index[voulue.group(1)])
             groupes[("lecon", lecon) if lecon < INF else ("apres", _niveau_apres(nom, r))].append(e)
 
+    plafonner(groupes, m)
     resultat, rang = {}, 0
     blocs = [(m.paquet(i), entrelacer(ordonner(groupes.get(("lecon", i), [])))) for i in range(len(m.lecons))]
     apres = [e for n in APRES for e in groupes.get(("apres", n), [])]
@@ -206,6 +212,40 @@ def ranger(paquets):
             rang += PAS_RANG
             resultat[(e["nom"], e["r"][0])] = (paquet, rang)
     return resultat, m, groupes
+
+
+# Exercices d'une leçon : au plus tant de chaque genre, les mieux liés à la leçon (exercice d'une fiche de la leçon,
+# puis le plus de mots nouveaux de la leçon) ; les autres passent après le manuel (demande de l'utilisateur,
+# 27/09/2026 : trop d'exercices par leçon, jusqu'à 126 exercices de classificateurs dans une seule).
+PLAFONDS = {"exercice_ordre": 8, "exercice_structure": 8, "exercice_correction": 6, "exercice_classificateur": 4,
+            "exercice_nombres": 6}
+PLAFOND_AUTRES = 3  # genres du paquet d'origine (négation, chengyu, registre…), ton et pinyin en contexte
+SANS_PLAFOND = ("exercice_placer", "exercice_choix", "exercice_question", "exercice_fusion", "exercice_mots")  # écrits pour la leçon
+
+
+def plafonner(groupes, m):
+    deplaces = 0
+    for cle in [c for c in groupes if c[0] == "lecon"]:
+        i, elements = cle[1], groupes[cle]
+        par = defaultdict(list)
+        for e in elements:
+            if e["nom"] != "Exercices":
+                continue
+            g = next((t for t in e["r"][3].split() if t.startswith("exercice_")), "exercice_?")
+            if g in SANS_PLAFOND or (g == "exercice_pinyin" and "manuel::" in e["r"][3]):
+                continue
+            par[g].append(e)
+        for g, liste in par.items():
+            n = PLAFONDS.get(g, PLAFOND_AUTRES)
+            if len(liste) <= n:
+                continue
+            liste.sort(key=lambda e: (not (e["fiche"] and m.gram.get(e["fiche"]) == i),
+                                      -sum(1 for w in set(e["mots"]) if m.lecon_mot(w) == i), _cle_melange(e["r"][0])))
+            for e in liste[n:]:
+                elements.remove(e)
+                groupes[("apres", _niveau_apres("Exercices", e["r"]))].append(e)
+                deplaces += 1
+    return deplaces
 
 
 TAILLE_PALIER = 450  # notes par palier de la suite du parcours (à peu près une leçon du manuel)

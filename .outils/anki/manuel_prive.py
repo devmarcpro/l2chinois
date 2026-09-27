@@ -65,6 +65,14 @@ def _bloc_traduction(zh_lignes, fr_lignes, pinyin_imprime=None, propose=False):
     return s + "</div>"
 
 
+def _tri():
+    """Tri des exercices (manuel/tri_exercices.json : leçon -> indice de l'exercice -> garder / limiter / retirer) :
+    seuls les items qui valent une carte (demande de l'utilisateur, 27/09/2026 : trop d'exercices, séries
+    répétitives, exercices qui demandent le livre)."""
+    f = PRIVE / "manuel" / "tri_exercices.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def notes_lecon(d):
     """(genre de fichier, note) pour une leçon transcrite."""
     lecon = d["lecon"]
@@ -118,14 +126,19 @@ def notes_lecon(d):
                 verso = (f"{_pinyin(zh)}<br><i>{_t(ex['fr'])}</i>{propose}<br><br>"
                          f'<div class="exemple-bloc" style="text-align:left"><b>{_t(titre)}</b><br>{_t(expl)}</div>')
                 out.append(("Grammaire", [recto, verso, _etiquettes(lecon, f"manuel_{rubrique}")]))
-    for x in d.get("exercices", []):
+    tri = _tri().get(lecon, {})
+    for j, x in enumerate(d.get("exercices", [])):
         if re.search(r"[ÉéE]coutez|enregistrement|entendez", str(x.get("consigne", ""))):
             continue  # exercices d'écoute : sans l'enregistrement, la carte n'a pas de sens
+        decision = tri.get(str(j), {})
+        if decision.get("decision") == "retirer":
+            continue
+        gardes = set(decision.get("garder", [])) if decision.get("decision") == "limiter" else None
         dictee = str(x.get("consigne", "")).startswith("Dictée")
         for k, it in enumerate(x.get("items", []), 1):
             rep = str(it.get("reponse", "")).strip()
             enonce = str(it.get("enonce", "")).strip()
-            if not rep or not enonce or x.get("type") == "reponse_libre":
+            if not rep or not enonce or x.get("type") == "reponse_libre" or (gardes is not None and k not in gardes):
                 continue
             if dictee:  # dictée : la phrase se fait entendre au recto (audio HyperTTS), on l'écrit en caractères
                 texte = _t(rep)
@@ -211,7 +224,7 @@ def main():
     fichiers = {g: [] for g in ("Textes", "Ecoute", "Grammaire", "Exercices")}
     rangement = []
     par_lecon = {}  # leçon -> [(genre, note)] ; l'introduction (leçons a, b) passe en tête de la leçon 1
-    for chemin in sorted((PRIVE / "manuel").glob("*.json"), key=lambda c: (c.stem.replace("Lab", "L00"))):
+    for chemin in sorted((PRIVE / "manuel").glob("P?-L*.json"), key=lambda c: (c.stem.replace("Lab", "L00"))):
         d = json.loads(chemin.read_text(encoding="utf-8"))
         i = m.index.get("P1-L01" if d["lecon"] == "P1-Lab" else d["lecon"])
         if i is not None:

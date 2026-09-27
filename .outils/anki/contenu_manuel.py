@@ -172,6 +172,8 @@ def notes_redigees(d):
     for x in d.get("pinyin", []):
         recto = f"Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>{_t(x['pinyin'])}</i>"
         verso = f"<b>{_t(x['phrase'])}</b><br><i>{_t(x['traduction'])}</i>"
+        if re.search(r"\btā(men)?\b", x["pinyin"], re.I) and re.search("[他她它]", x["phrase"]):
+            verso += "<br><br><small>tā s'écrit 他 (il), 她 (elle) ou 它 (chose, animal) : le pinyin seul ne tranche pas.</small>"
         ex.append([recto, verso, "", _etiquettes(lecon, "exercice_pinyin")])
     for x in d.get("choix", []):
         choix = " / ".join(_t(c) for c in x["choix"])

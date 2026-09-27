@@ -439,7 +439,9 @@ def importer(col, dossier, journal):
             log = col.import_csv(ImportCsvRequest(path=temp, metadata=md)).log
         finally:
             os.remove(temp)
-        journal.append(f"{libelle} ({nt['name']}) : {len(log.new)} nouvelles notes, {len(log.updated)} mises à jour"
+        # Anki range les notes mises à jour (repérées par leur recto) dans first_field_match, les inchangées dans duplicate
+        journal.append(f"{libelle} ({nt['name']}) : {len(log.new)} nouvelles notes, "
+                       f"{len(log.updated) + len(log.first_field_match)} mises à jour"
                        + (f", {len(log.conflicting)} en conflit de type" if log.conflicting else ""))
     audio_perime(col, avant, journal)
     n = len(col.find_notes(RECHERCHE_SANS_AUDIO))

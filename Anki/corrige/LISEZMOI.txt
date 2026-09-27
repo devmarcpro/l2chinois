@@ -72,6 +72,12 @@ CARTES TIREES DU MANUEL (dossier Anki/prive, sur ton ordinateur seulement ; depu
   manuel, intercales entre les cartes publiques (jamais avant les mots qu'elles emploient). Environ 6 000 notes :
   2 500 exemples de grammaire, lexicologie et phrases types ("Que veut dire cette phrase ?", traduction
   proposee quand le livre n'en donne pas), 3 300 items d'exercices, 93 dialogues a ecouter, 75 textes.
+- Exercices tries le 27/09 (trop nombreux, beaucoup inutiles sur une carte) : 937 items gardes sur 3 300
+  (20 a 35 par lecon), les plus productifs (themes, transformations, phrases a completer, choix entre mots
+  proches) ; retires : ce qui demande le livre (dessin, tableau, texte d'une page, enregistrement), les
+  reponses libres, les recherches au dictionnaire, le traditionnel -> simplifie, et les series repetitives
+  reduites a 2 a 4 items (les onze annees a lire, les tetrasyllabes...). Choix dans
+  Anki/prive/manuel/tri_exercices.json ; les dictees sont devenues des cartes d'ecoute (audio au recto).
 - Les textes longs ne sont pas recopies : la carte demande de les relire (ou reecouter, piste du CD) dans le
   livre et de les raconter en chinois ; son verso donne un resume et les mots cles.
 - Ce dossier est exclu de git (.gitignore) : rien n'en part sur GitHub (droits d'auteur). Apres une nouvelle
@@ -395,6 +401,17 @@ PLAN DE TRAVAIL (ordre du manuel)
    couper dans Outils > Preferences > Revision si besoin). Il adapte les intervalles a ta memoire et reduit
    le nombre de revisions. Apres 3 ou 4 semaines (un bon millier de revisions de chinois) : options du paquet
    Chinois > FSRS > "Optimiser", pour caler ses parametres sur TA memoire.
+
+EXERCICES PAR LECON (depuis le 27/09)
+- Retires partout : traditionnel -> simplifie (les cartes de vocabulaire montrent deja le traditionnel), ton ou
+  pinyin d'un caractere isole ("De quel ton est ce caractere ? 郑" : la carte du mot le demande deja). Restent
+  les caracteres a plusieurs lectures dans un mot (好 dans 你好), 一 / 不 selon le ton suivant, les paires
+  minimales.
+- Dans une lecon : au plus 8 phrases a remettre dans l'ordre, 8 "bonne structure", 6 phrases a corriger,
+  4 classificateurs, 6 exercices de nombres et 3 de chaque autre genre, en gardant ceux de la grammaire de la
+  lecon et ceux qui emploient le plus ses mots nouveaux ; le reste passe apres le manuel. Un exercice sur un
+  chengyu ou un mot absent du manuel va lui aussi apres le manuel. Resultat : 30 a 70 exercices publics par
+  lecon (au lieu de 50 a 220).
 
 RAPPEL ACTIF (chercher la reponse avant de la voir)
 - Toutes les cartes posent une question : mot (sens et pinyin, puis francais -> chinois), phrase (lecture,

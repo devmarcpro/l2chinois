@@ -732,6 +732,8 @@ def main():
     ajouts.update(contenu_manuel.ajouter_caracteres(paquets))  # des caractères aux mots
     import finitions  # couleurs de ton, annotations mal posées, forme traditionnelle, retouches relues
     ajouts.update(finitions.appliquer(paquets, stats))
+    import tri_exercices  # exercices sans intérêt propre (traditionnel, ton d'un caractère isolé) : retirés
+    ajouts.update(tri_exercices.appliquer(paquets, stats))
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()
