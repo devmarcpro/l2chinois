@@ -3,8 +3,8 @@
 
 Un sous-paquet par leçon (Chinois::1 · Premier niveau::L01 · …), qui mélange tous les types de cartes dans un ordre
 d'apprentissage : une carte n'arrive qu'une fois vus les mots qu'elle contient, la fiche d'un point de grammaire
-avant ses exercices, les textes en fin de leçon. Ce qui dépasse le manuel va dans « 3 · Après le manuel », par
-niveau HSK, rangé de la même façon.
+avant ses exercices, les textes en fin de leçon. Ce qui dépasse le manuel (HSK 5 à 9, hors HSK) forme la suite du
+parcours : « 3 · Après le manuel::S01… », des paliers de la taille d'une leçon, construits de la même façon.
 
 Données : donnees_hsk/manuel.json
 - "lecons" : les 28 leçons (sommaire de l'éditeur) ;
@@ -26,7 +26,7 @@ import hashlib
 import html
 import json
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 DONNEES = Path(__file__).parent / "donnees_hsk"
@@ -190,22 +190,159 @@ def ranger(paquets):
                 lecon = m.index[voulue.group(1)] if lecon >= INF else max(lecon, m.index[voulue.group(1)])
             groupes[("lecon", lecon) if lecon < INF else ("apres", _niveau_apres(nom, r))].append(e)
 
-    ordre_groupes = [("lecon", i) for i in range(len(m.lecons))] + [("apres", n) for n in APRES] + [("supprimer",)]
     resultat, rang = {}, 0
-    for g in ordre_groupes:
-        if g == ("supprimer",):
-            paquet = A_SUPPRIMER
-        elif g[0] == "lecon":
-            paquet = m.paquet(g[1])
-        else:
-            paquet = "Chinois::3 · Après le manuel::" + APRES[g[1]]
-        suite = ordonner(groupes.get(g, []), rapide=g[0] != "lecon")
-        if g[0] == "lecon":
-            suite = entrelacer(suite)
+    blocs = [(m.paquet(i), entrelacer(ordonner(groupes.get(("lecon", i), [])))) for i in range(len(m.lecons))]
+    apres = [e for n in APRES for e in groupes.get(("apres", n), [])]
+    blocs += suite_du_parcours(apres, m)
+    blocs.append((A_SUPPRIMER, groupes.get(("supprimer",), [])))
+    for paquet, suite in blocs:
         for e in suite:
             rang += PAS_RANG
             resultat[(e["nom"], e["r"][0])] = (paquet, rang)
     return resultat, m, groupes
+
+
+TAILLE_PALIER = 450  # notes par palier de la suite du parcours (à peu près une leçon du manuel)
+
+
+def _frequences():
+    """Utilité d'un mot : sa fréquence d'usage en chinois d'aujourd'hui (paquet wordfreq : sous-titres, Wikipédia,
+    web… ; « pip install wordfreq »), sinon celle du dictionnaire de jieba, plus ancien."""
+    cache = {}
+    try:
+        from wordfreq import zipf_frequency
+
+        def f(w):
+            if w not in cache:
+                cache[w] = zipf_frequency(re.sub(r"[^一-鿿]", "", w), "zh")
+            return cache[w]
+    except ImportError:
+        import math
+        import jieba
+
+        def f(w):
+            if w not in cache:
+                n = jieba.get_FREQ(re.sub(r"[^一-鿿]", "", w)) or 0
+                cache[w] = math.log10(n) + 1 if n else 0.0
+            return cache[w]
+    return f
+BANDES = {5: "HSK 5", 6: "HSK 6", 7: "HSK 7-9", 8: "Hors HSK"}
+
+
+def suite_du_parcours(elements, m):
+    """Tout ce qui dépasse le manuel (mots HSK 5 à 9 et hors HSK, et les phrases, exercices, fiches, textes et
+    caractères qui les emploient) : la suite du parcours, en paliers de la taille d'une leçon, construits comme les
+    leçons. Les cartes passent de la plus facile à la plus difficile (niveau HSK de leurs mots nouveaux, puis
+    nombre de mots nouveaux) ; avant chacune, les mots qu'elle demande ; un mot qui ne sert à aucune carte vient
+    à la fin de son niveau. Chaque palier est ensuite mélangé comme une leçon (entrelacer).
+    Renvoie [(nom du sous-paquet, éléments dans l'ordre)]."""
+    from corriger_decks import hsk30
+    mots = {e["mot"]: e for e in elements if e["nom"] == "Vocabulaire"}
+    utilite = _frequences()  # mot -> fréquence d'usage (échelle zipf : 7 = « 的 », 3 = rare, 0 = inconnu)
+    import statistics
+    seuils = {b: statistics.median([utilite(w) for w, n in hsk30().items() if n and max(5, min(n, 7)) == b] or [0])
+              for b in (5, 6, 7)}
+
+    def bande_mot(w):
+        n = hsk30().get(w)
+        if n is not None:
+            return max(5, min(n, 7))
+        # hors HSK : par utilité, aussi courant qu'un mot typique du HSK 5, du HSK 6, du HSK 7-9, ou rare
+        f = utilite(w)
+        return next((b for b in (5, 6, 7) if f >= seuils[b]), 8)
+
+    def bande_element(e):
+        if e["nom"] == "Vocabulaire":
+            return bande_mot(e["mot"])
+        n = _niveau_apres(e["nom"], e["r"])
+        return 8 if n is None else max(5, min(n, 7))
+
+    fiches = {e.get("titre"): e for e in elements if e["nom"] == "Grammaire"}
+    cartes = [e for e in elements if e["nom"] not in ("Vocabulaire", "Ecriture")]
+    ecriture = [e for e in elements if e["nom"] == "Ecriture"]
+    besoin = {}
+    for e in cartes:
+        besoin[id(e)] = [w for w in dict.fromkeys(e["mots"]) if w in mots and w != e.get("mot")]
+    cle = {}
+    for e in cartes:
+        bandes = sorted(bande_mot(w) for w in besoin[id(e)])
+        if e["texte"]:  # un texte : niveau de 90 % de ses mots (les mots clés sont au verso), sans tirer ses mots
+            b = bandes[int(len(bandes) * 0.9)] if bandes else bande_element(e)
+            besoin[id(e)] = []
+        else:
+            b = max(bandes + [bande_element(e)])
+        cle[id(e)] = (b, e["texte"])
+    suite, vus, places = [], set(), set()
+
+    def placer(e):
+        if id(e) in places:
+            return
+        places.add(id(e))
+        if e.get("fiche") in fiches:  # un exercice après la fiche de sa structure
+            placer(fiches[e["fiche"]])
+        for w in besoin.get(id(e), []):
+            if w not in vus:
+                vus.add(w)
+                places.add(id(mots[w]))
+                suite.append(mots[w])
+        suite.append(e)
+
+    for b in sorted(BANDES):
+        debut_bande = len(suite)
+        reste = [e for e in cartes if cle[id(e)] == (b, False) and id(e) not in places]
+        while reste:  # à chaque pas, la carte qui demande le moins de mots nouveaux
+            e = min(reste, key=lambda e: (sum(1 for w in besoin[id(e)] if w not in vus), e["i"]))
+            placer(e)
+            reste = [x for x in reste if id(x) not in places]
+        # mots de ce niveau qui ne servent à aucune carte, et textes : répartis régulièrement dans tout le niveau
+        seuls = sorted((e for w, e in mots.items() if bande_mot(w) == b and w not in vus),
+                       key=lambda e: -utilite(e["mot"]))  # du plus courant au plus rare
+        for e in seuls:
+            vus.add(e["mot"])
+            places.add(id(e))
+        textes = [e for e in cartes if cle[id(e)] == (b, True) and id(e) not in places]
+        for e in textes:
+            places.add(id(e))
+        if textes:  # un texte tous les n éléments, dans la seconde moitié du niveau
+            seuls = seuls + []
+            pas = max(1, (len(seuls) + len(suite) - debut_bande) // (2 * len(textes)))
+            milieu = len(seuls) // 2
+            for k, e in enumerate(textes):
+                seuls.insert(min(len(seuls), milieu + k * (pas + 1)), e)
+        bande = suite[debut_bande:]
+        if seuls and bande:
+            fusion, k = [], 0
+            for j, e in enumerate(bande):
+                fusion.append(e)
+                while k < len(seuls) and (k + 1) * len(bande) <= (j + 1) * (len(seuls) + 1):
+                    fusion.append(seuls[k])
+                    k += 1
+            fusion += seuls[k:]
+            suite[debut_bande:] = fusion
+        else:
+            suite.extend(seuls)
+    # caractères à écrire : juste après le premier mot qui les contient
+    position = {}
+    for k, e in enumerate(suite):
+        if e["nom"] == "Vocabulaire":
+            for c in e["mot"]:
+                position.setdefault(c, k)
+    apres_mot = defaultdict(list)
+    for e in ecriture:
+        apres_mot[position.get(e.get("car"), len(suite) - 1)].append(e)
+    suite = [x for k, e in enumerate(suite) for x in [e] + apres_mot.get(k, [])]
+    # paliers
+    blocs, debut = [], 0
+    while debut < len(suite):
+        fin = min(len(suite), debut + TAILLE_PALIER)
+        if len(suite) - fin < TAILLE_PALIER // 3:  # pas de tout petit dernier palier
+            fin = len(suite)
+        palier = suite[debut:fin]
+        bandes = Counter(bande_mot(e["mot"]) for e in palier if e["nom"] == "Vocabulaire")
+        nom = BANDES[bandes.most_common(1)[0][0]] if bandes else "révision"
+        blocs.append((f"Chinois::3 · Après le manuel::S{len(blocs) + 1:02d} · {nom}", entrelacer(palier, seuil=0)))
+        debut = fin
+    return blocs
 
 
 PAS_RANG = 10  # rangs espacés : les cartes privées tirées du manuel (manuel_prive.py) s'intercalent entre eux
@@ -224,7 +361,7 @@ def _genre(e) -> str:
     return next((t for t in e["r"][3].split() if t.startswith("exercice_")), e["nom"])
 
 
-def entrelacer(suite):
+def entrelacer(suite, seuil=None):
     """Mélange les familles (mots, grammaire, phrases, exercices, écriture) sur toute la leçon, sans casser l'ordre
     d'apprentissage : une carte ne passe jamais avant les mots qu'elle emploie ni un exercice avant sa fiche, et
     deux exercices du même genre ne se suivent pas si un autre est disponible. À chaque pas, on prend la famille la
@@ -249,6 +386,7 @@ def entrelacer(suite):
     familles = {}
     for e in suite:
         familles.setdefault(_flux(e), []).append(e)
+    attendu = Counter(d for e in suite if e["nom"] != "Vocabulaire" for d in deps[id(e)])  # mot -> cartes qui l'attendent
     total = {f: len(l) for f, l in familles.items()}
     places = {f: 0 for f in familles}
     fait, resultat, dernier_genre = set(), [], None
@@ -263,15 +401,21 @@ def entrelacer(suite):
         t = len(resultat)
         choix = None
         ordre = sorted(familles, key=lambda f: -retard(f, t))
-        if len(resultat) >= 2 and _flux(resultat[-1]) == _flux(resultat[-2]):  # pas trois fois de suite la même famille
-            ordre = [f for f in ordre if f != _flux(resultat[-1])] + [_flux(resultat[-1])]
+        if len(resultat) >= 2 and _flux(resultat[-1]) == _flux(resultat[-2]):
+            # pas trois fois de suite la même famille, tant qu'une autre n'est pas déjà en avance sur sa part
+            # (sinon une famille minoritaire s'épuiserait au début et laisserait une longue fin d'une seule famille)
+            f0 = _flux(resultat[-1])
+            limite = -1e9 if seuil is None else seuil  # leçons : toujours ; suite du parcours (surtout des mots) : souple
+            ordre = [f for f in ordre if f != f0 and retard(f, t) > limite] + [f0] + \
+                    [f for f in ordre if f != f0 and retard(f, t) <= limite]
         for f in ordre:
             if f == "texte" and t < debut_textes and len(familles) > 1:
                 continue
             prets = [e for e in familles[f] if id(e) not in fait and deps[id(e)] <= fait]
             if not prets:
                 continue
-            prets.sort(key=lambda e: pos[id(e)])
+            # un mot attendu par une carte encore à placer passe avant un mot qui ne sert à rien d'autre
+            prets.sort(key=lambda e: (f == "mot" and not attendu.get(id(e)), pos[id(e)]))
             if f == "exercice" and dernier_genre:
                 autre = [e for e in prets[:6] if _genre(e) != dernier_genre]
                 prets = autre or prets
@@ -280,6 +424,9 @@ def entrelacer(suite):
         if choix is None:  # dépendance hors d'atteinte (ne devrait pas arriver) : ordre d'origine
             choix = next(e for e in suite if id(e) not in fait)
         fait.add(id(choix))
+        if choix["nom"] != "Vocabulaire":
+            for d in deps[id(choix)]:
+                attendu[d] -= 1
         places[_flux(choix)] += 1
         if choix["nom"] == "Exercices":
             dernier_genre = _genre(choix)

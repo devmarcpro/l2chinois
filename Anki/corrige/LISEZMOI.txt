@@ -11,7 +11,7 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
   (Inalco, L'Asiatheque), premier et deuxieme niveau, dans l'ordre du manuel :
       Chinois::1 · Premier niveau::L01 · Se presenter et presenter ... L14 · Comparer
       Chinois::2 · Deuxieme niveau::L01 · Remise a niveau ... L14 · Revision et approfondissement (3)
-      Chinois::3 · Apres le manuel::1 · HSK 4, 2 · HSK 5, 3 · HSK 6, 4 · HSK 7-9, 5 · Hors HSK
+      Chinois::3 · Apres le manuel::S01 · HSK 5 ... S39 · Hors HSK   (la suite du parcours, voir plus bas)
       Chinois::9 · A supprimer   (anciennes versions de cartes deja remplacees : a supprimer)
 - Chaque lecon MELANGE tous les types : mots, fiches de grammaire, phrases, exercices, textes a lire et a
   ecouter, caracteres a ecrire. Ordre d'apprentissage dans la lecon (depuis le 27/09) :
@@ -36,7 +36,15 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
     * les phrases, exercices et textes : dans la premiere lecon ou tous leurs mots sont connus ; un exercice sur
       une structure, jamais avant la fiche de cette structure.
 - Premier niveau : 4 252 notes (environ 6 900 cartes) ; deuxieme niveau : 4 451 notes (environ 7 100 cartes) ;
-  le reste (niveaux HSK 5 a 9, hors HSK) est dans "3 · Apres le manuel", range de la meme facon par niveau.
+  le reste (niveaux HSK 5 a 9, hors HSK) forme la SUITE DU PARCOURS, "3 · Apres le manuel" (depuis le 27/09) :
+  39 paliers de 450 notes (la taille d'une lecon), S01 a S39, construits comme les lecons. Les cartes y vont de
+  la plus facile a la plus difficile : niveau HSK de leurs mots nouveaux (5, puis 6, puis 7-9, puis le reste),
+  puis nombre de mots nouveaux ; chaque mot arrive juste avant la premiere carte qui l'emploie ; les mots qui
+  ne servent a aucune carte sont repartis dans tout leur niveau, du plus courant au plus rare. Les mots hors HSK
+  sont ranges par UTILITE (frequence d'usage en chinois d'aujourd'hui, liste wordfreq : sous-titres, Wikipedia,
+  web) : un mot hors HSK aussi courant qu'un mot typique du HSK 5 arrive avec le HSK 5 (香港, B站, AA制...),
+  les mots rares (termes techniques, noms propres peu connus) en dernier. Chaque palier est melange comme une
+  lecon (il reste surtout du vocabulaire : la liste HSK 7-9 et le hors HSK sont des milliers de mots).
 - NOUVEAUX EXERCICES sur le modele des exercices ecrits du manuel (etiquette manuel::P1-L03...), rediges lecon
   par lecon avec le seul vocabulaire des lecons deja vues (672 exercices, 24 par lecon) :
     * placer un mot au bon endroit (A, B, C ou D) : exercice_placer ;
