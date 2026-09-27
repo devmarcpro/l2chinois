@@ -61,7 +61,7 @@ def note_vocabulaire_hsk(e):
     if e.get("note"):
         verso += f'<br><br><div class="exemple-bloc"><b>Notes :</b>{imposer_mot(ruby(_texte(e["note"])), mot, lectures)}</div>'
     verso += f'<br><br><div class="exemple-bloc"><b>Exemple :</b>{imposer_mot(ruby(e["exemple"]), mot, lectures)} - {_texte(e["traduction"])}</div>'
-    return [mot, verso, "", "ajout_2026 HSK_officiel"]
+    return [mot, verso, "", e.get("etiquettes", "ajout_2026 HSK_officiel")]
 
 
 TROP_COURANTS = set("的了是在有不一和也都就很")
@@ -220,6 +220,13 @@ def ajouter_hsk(paquets):
         neuves = [note_vocabulaire_hsk(e) for e in json.loads(f.read_text(encoding="utf-8")) if e["mot"] not in presents]
         paquets["Vocabulaire"] += neuves
         bilan["Vocabulaire : mots du HSK officiel ajoutés"] = len(neuves)
+    f = DONNEES / "vocabulaire_manuel.json"  # mots des textes du manuel de la fac absents du HSK (rédigés)
+    if f.exists():
+        presents = {r[0].strip() for r in paquets["Vocabulaire"]}
+        neuves = [note_vocabulaire_hsk(dict(e, etiquettes="ajout_2026 manuel_fac"))
+                  for e in json.loads(f.read_text(encoding="utf-8")) if e["mot"] not in presents]
+        paquets["Vocabulaire"] += neuves
+        bilan["Vocabulaire : mots du manuel de la fac ajoutés"] = len(neuves)
     f = DONNEES / "grammaire.json"
     if f.exists():
         titres = {re.sub(r"<[^>]+>", "", r[0]) for r in paquets["Grammaire"]}

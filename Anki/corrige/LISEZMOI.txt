@@ -22,14 +22,18 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
     * les textes en fin de lecon.
   Une carte n'arrive jamais avant les mots qu'elle contient (noms propres et nombres mis a part).
 - Ce qui va dans une lecon :
-    * les mots : ceux du HSK 1 a 3 au premier niveau, ceux du HSK 4 au deuxieme, chacun dans la lecon ou l'on
-      en a besoin (theme du texte de la lecon, point de grammaire) ; les mots qu'emploient les corriges et les
-      textes du manuel du premier niveau sont a leur premiere lecon du manuel ;
-    * les fiches de grammaire : d'apres le sommaire du manuel (是…的 en L11, 过 en L12, 比 en L14, 把 en L04 du
-      deuxieme niveau, 被 en L10...), les autres selon la fonction de la lecon ;
+    * les mots du manuel : a la lecon ou le manuel les introduit, d'apres les index lexicaux des deux volumes
+      (premier niveau : premiere apparition, a l'oral ou a l'ecrit ; deuxieme niveau : index des mots et
+      vocabulaire de la comprehension orale). Environ 2 000 mots, dont 197 absents du HSK ajoutes avec une
+      carte redigee (etiquette manuel_fac : noms de lieux, expressions des textes...) ;
+    * les autres mots du HSK 1 a 3 au premier niveau, ceux du HSK 4 au deuxieme, chacun dans la lecon ou l'on
+      en a besoin (theme de la lecon, point de grammaire) ;
+    * les fiches de grammaire : a la lecon ou le manuel traite le point, d'apres l'index grammatical du premier
+      niveau et le sommaire du deuxieme (是…的 en L11, 过 en L12, 比 en L14, 把 en L04 du deuxieme niveau,
+      被 en L10...) ; les points que le manuel ne traite pas, selon la fonction de la lecon ;
     * les phrases, exercices et textes : dans la premiere lecon ou tous leurs mots sont connus ; un exercice sur
       une structure, jamais avant la fiche de cette structure.
-- Premier niveau : 4 522 notes (environ 7 000 cartes) ; deuxieme niveau : 3 373 notes (environ 4 800 cartes) ;
+- Premier niveau : 4 252 notes (environ 6 900 cartes) ; deuxieme niveau : 4 451 notes (environ 7 100 cartes) ;
   le reste (niveaux HSK 5 a 9, hors HSK) est dans "3 · Apres le manuel", range de la meme facon par niveau.
 - NOUVEAUX EXERCICES sur le modele des exercices ecrits du manuel (etiquette manuel::P1-L03...), rediges lecon
   par lecon avec le seul vocabulaire des lecons deja vues (672 exercices, 24 par lecon) :
@@ -76,7 +80,7 @@ METTRE EN PLACE OU A JOUR : EN UN CLIC
 Pour chaque nouvelle version des fichiers : reinstaller le module s'il a change, puis relancer Outils > "Chinois :
 tout mettre en place ou a jour" (ce qui est deja en place ne bouge pas). "Chinois : importer les fichiers et
 ranger" fait la meme chose sans sauvegarde, sans reglages et sans supprimer "9 · A supprimer".
-Teste sur une copie de ta collection (mise a jour du 27/09) : tout en 41 s, 295 cartes deja revisees intactes, un second passage ne
+Teste sur une copie de ta collection (mise a jour du 27/09) : tout en 16 s, 295 cartes deja revisees intactes, un second passage ne
 change plus rien.
 
 LE DETAIL, POUR LE FAIRE A LA MAIN

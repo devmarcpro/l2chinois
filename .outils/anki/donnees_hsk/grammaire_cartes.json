@@ -334,19 +334,19 @@
  },
  "不管怎样说 — quoi qu'il en soit, en tout cas": {
   "comprendre": {
-   "phrase_gras": "**不管怎样说**，他也是为了你好。",
+   "phrase_gras": "**不管怎样说**，他也是为你好。",
    "question": "",
    "reponse": "Formule de transition figée, « quoi qu'il en soit » : après les objections, on revient à ce qui reste vrai (il fait ça pour ton bien).",
    "traduction": "Quoi qu'il en soit, il fait ça pour ton bien."
   },
   "utiliser": {
    "consigne": "Transition figée en tête de phrase (« quoi qu'on en dise ») pour revenir à l'essentiel",
-   "francais": "Quoi qu'on en dise, cet échec est de ma responsabilité.",
-   "chinois": "不管怎样说，这次失败是我的责任。",
+   "francais": "Quoi qu'on en dise, dans cette affaire, c'est moi qui ai eu tort.",
+   "chinois": "不管怎样说，这件事是我不对。",
    "variantes": [
-    "不管怎么说，这次失败是我的责任。",
-    "不管怎样说，这次失败都是我的责任。",
-    "不管怎么说，这次失败都是我的责任。"
+    "不管怎么说，这件事是我不对。",
+    "不管怎样说，这件事都是我不对。",
+    "不管怎么说，这件事都是我不对。"
    ]
   }
  },
@@ -551,11 +551,12 @@
    "traduction": "Sur cette question, j'ai quelques remarques."
   },
   "utiliser": {
-   "consigne": "Présentez ce envers quoi il adopte une attitude (« vis-à-vis de », et non « au sujet de »)",
-   "francais": "Vis-à-vis de ce problème, il adopte une attitude réservée.",
-   "chinois": "对于这个问题，他持保留态度。",
+   "consigne": "Dites ce qu'il pense d'une décision, en traduisant « vis-à-vis de » (et non « au sujet de »)",
+   "francais": "Vis-à-vis de cette décision, il se montre très mécontent.",
+   "chinois": "对于这个决定，他很不满意。",
    "variantes": [
-    "他对于这个问题持保留态度。"
+    "他对于这个决定很不满意。",
+    "对于这个决定，他非常不满意。"
    ]
   }
  },
@@ -584,8 +585,8 @@
   },
   "utiliser": {
    "consigne": "Style écrit : négation forte (« n'est nullement »), deux fois",
-   "francais": "Le succès n'est nullement une fin, et l'échec n'est pas non plus une catastrophe.",
-   "chinois": "成功并非终点，失败也并非末日。",
+   "francais": "L'examen n'est nullement un but en soi, et le résultat n'est pas tout non plus.",
+   "chinois": "考试并非目的，结果也并非一切。",
    "variantes": []
   }
  },
@@ -754,10 +755,10 @@
   },
   "utiliser": {
    "consigne": "Rapportez une information sans préciser la source (« il paraît que »), avec le composé formé sur « selon »",
-   "francais": "Il paraît que le canard laqué de ce restaurant est très réputé.",
-   "chinois": "据说这家饭馆的烤鸭特别有名。",
+   "francais": "Il paraît que les raviolis de ce restaurant sont très réputés.",
+   "chinois": "据说这家饭馆的饺子特别有名。",
    "variantes": [
-    "据说这家饭馆的烤鸭很有名。"
+    "据说这家饭馆的饺子很有名。"
    ]
   }
  },
@@ -862,18 +863,18 @@
  },
  "朝 / 沿（着）— vers, en direction de / le long de": {
   "comprendre": {
-   "phrase_gras": "她**朝**我笑了笑，就转身走了。",
+   "phrase_gras": "她**朝**我笑了笑，就走开了。",
    "question": "",
    "reponse": "朝 + personne indique vers qui le geste (le sourire) est orienté.",
-   "traduction": "Elle m'a adressé un sourire, puis s'est retournée et est partie."
+   "traduction": "Elle m'a adressé un sourire, puis elle s'est éloignée."
   },
   "utiliser": {
    "consigne": "Indiquez le chemin que l'on suit (« le long de »)",
    "francais": "Suivez cette rue tout droit et vous verrez la banque.",
-   "chinois": "沿着这条路一直往前走，就能看到银行。",
+   "chinois": "沿这条路一直往前走，就能看到银行。",
    "variantes": [
-    "沿着这条路一直走，就能看到银行。",
-    "沿着这条街一直往前走，就能看到银行。"
+    "沿这条路一直走，就能看到银行。",
+    "沿这条街一直往前走，就能看到银行。"
    ]
   }
  },
@@ -1749,9 +1750,9 @@
   "utiliser": {
    "consigne": "Annoncer qu'on s'arrête là, en fixant le point final (« jusqu'ici, et pas plus loin »)",
    "francais": "Le cours d'aujourd'hui s'arrête là ; révisez bien chez vous.",
-   "chinois": "今天的课就到这里为止，大家回去好好复习。",
+   "chinois": "今天的课就到此为止，大家回去好好复习。",
    "variantes": [
-    "今天的课就到此为止，大家回去好好复习。"
+    "今天的课就到这里为止，大家回去好好复习。"
    ]
   }
  },
@@ -3417,9 +3418,10 @@
   "utiliser": {
    "consigne": "Exprimer l'intention de faire une chose à fond, sur un ton oral et énergique (verbe + complément, sans particule de degré)",
    "francais": "Les examens sont finis, allons nous amuser à fond à la mer !",
-   "chinois": "考完试了，我们去海边玩个痛快吧！",
+   "chinois": "考完试了，我们去海边玩个够吧！",
    "variantes": [
-    "考完试了，咱们去海边玩个痛快吧！"
+    "考完试了，咱们去海边玩个够吧！",
+    "考完试了，我们去海边玩个开心吧！"
    ]
   }
  },
@@ -3883,7 +3885,7 @@
  },
  "的 (de) — possession et déterminant du nom": {
   "comprendre": {
-   "phrase_gras": "这是王老师**的**汽车。",
+   "phrase_gras": "这是王老师**的**车。",
    "question": "",
    "reponse": "的 relie le possesseur (王老师) à ce qu'il possède : « la voiture du professeur Wang ». Le possesseur se place avant le nom.",
    "traduction": "C'est la voiture du professeur Wang."
@@ -3931,10 +3933,10 @@
  },
  "动宾短语 — groupe verbe + objet": {
   "comprendre": {
-   "phrase_gras": "我们下午在大学**学习汉语**。",
+   "phrase_gras": "我们上午在大学**学习汉语**。",
    "question": "",
-   "reponse": "学习汉语 est un groupe verbe + objet : l'objet suit le verbe, tandis que le temps (下午) et le lieu (在大学) se placent avant tout le groupe.",
-   "traduction": "L'après-midi, nous étudions le chinois à l'université."
+   "reponse": "学习汉语 est un groupe verbe + objet : l'objet suit le verbe, tandis que le temps (上午) et le lieu (在大学) se placent avant tout le groupe.",
+   "traduction": "Le matin, nous étudions le chinois à l'université."
   },
   "utiliser": {
    "consigne": "Dites ce qu'une personne étudie (verbe + objet), en indiquant le lieu",
@@ -3999,17 +4001,17 @@
  },
  "非主谓句 — phrase sans sujet (下雨了！谢谢！)": {
   "comprendre": {
-   "phrase_gras": "**谢谢**！**再见**！",
-   "question": "Quel est le sujet de ces phrases ?",
-   "reponse": "Il n'y en a pas : ce sont des phrases sans sujet, des formules de politesse réduites à un seul mot.",
-   "traduction": "Merci ! Au revoir !"
+   "phrase_gras": "**晚安**！",
+   "question": "Quel est le sujet de cette phrase ?",
+   "reponse": "Il n'y en a pas : c'est une phrase sans sujet, une formule de politesse réduite à un seul mot.",
+   "traduction": "Bonne nuit !"
   },
   "utiliser": {
-   "consigne": "Répondez à des excuses par une formule toute faite, sans sujet",
-   "francais": "— Pardon ! — Ce n'est pas grave.",
-   "chinois": "对不起！——没关系。",
+   "consigne": "Répondez à « Comment vas-tu ? » par une formule toute faite, sans sujet",
+   "francais": "— Comment vas-tu ? — Couci-couça.",
+   "chinois": "你好吗？——马马虎虎。",
    "variantes": [
-    "对不起！——没什么。"
+    "你怎么样？——马马虎虎。"
    ]
   }
  },
@@ -4035,11 +4037,11 @@
    "traduction": "Je suis français, et toi ?"
   },
   "utiliser": {
-   "consigne": "Demandez confirmation de ce que vous supposez (« …, n'est-ce pas ? »)",
-   "francais": "Vous êtes le professeur Wang, n'est-ce pas ?",
-   "chinois": "您是王老师吧？",
+   "consigne": "Posez une question fermée (réponse oui / non) en ajoutant une particule à la fin de la phrase affirmative",
+   "francais": "Vous êtes le professeur Wang ?",
+   "chinois": "您是王老师吗？",
    "variantes": [
-    "你是王老师吧？"
+    "你是王老师吗？"
    ]
   }
  },
@@ -4115,35 +4117,35 @@
   },
   "utiliser": {
    "consigne": "Indiquez le rang d'une personne dans une série (nombre ordinal)",
-   "francais": "La deuxième fille est ma petite sœur.",
-   "chinois": "第二个女孩儿是我妹妹。",
+   "francais": "La deuxième personne est mon grand frère.",
+   "chinois": "第二个人是我哥哥。",
    "variantes": [
-    "第二个女孩儿是我的妹妹。"
+    "第二个人是我的哥哥。"
    ]
   }
  },
  "—们 / —边 — suffixes du pluriel et de la localisation": {
   "comprendre": {
-   "phrase_gras": "房间**里边**有一只猫。",
-   "question": "À quoi sert 边 ici ?",
-   "reponse": "边 s'ajoute à 里 pour former un mot de lieu, 里边 « à l'intérieur » : 房间里边 = « dans la chambre ».",
-   "traduction": "Il y a un chat dans la chambre."
+   "phrase_gras": "老师**们**都很忙。",
+   "question": "À quoi sert 们 ici ?",
+   "reponse": "们 s'ajoute à un nom de personne pour en marquer le pluriel : 老师们 = « les professeurs ».",
+   "traduction": "Les professeurs sont tous très occupés."
   },
   "utiliser": {
    "consigne": "Saluez un groupe de personnes (pluriel d'un nom de personne)",
-   "francais": "Bonjour, les enfants !",
-   "chinois": "孩子们好！",
+   "francais": "Bonjour, les camarades !",
+   "chinois": "同学们好！",
    "variantes": [
-    "孩子们，你们好！"
+    "同学们，你们好！"
    ]
   }
  },
  "这儿 / 那儿 / 这些 / 那些 / 有的 — démonstratifs de lieu et de pluriel": {
   "comprendre": {
-   "phrase_gras": "**这些**书都是我的。",
-   "question": "Pourquoi n'y a-t-il pas de classificateur (本) après 这些 ?",
-   "reponse": "这些 « ces » marque le pluriel : 些 remplace le classificateur.",
-   "traduction": "Ces livres sont tous à moi."
+   "phrase_gras": "**这儿**的房间都很漂亮。",
+   "question": "Que désigne 这儿 ?",
+   "reponse": "这儿 « ici » : démonstratif de lieu, près de celui qui parle (那儿 « là-bas », plus loin). Il se place devant 的 comme un nom de lieu.",
+   "traduction": "Les chambres d'ici sont toutes très jolies."
   },
   "utiliser": {
    "consigne": "Dites que certains font une chose et d'autres une autre",
@@ -4163,12 +4165,11 @@
    "traduction": "J'ai deux amis chinois."
   },
   "utiliser": {
-   "consigne": "Donnez un prix à trois chiffres",
-   "francais": "Cette chaise coûte cent cinq yuans.",
-   "chinois": "这把椅子一百零五块。",
+   "consigne": "Donnez un nombre à trois chiffres avec un zéro au milieu",
+   "francais": "Notre université a cent cinq professeurs.",
+   "chinois": "我们大学有一百零五个老师。",
    "variantes": [
-    "这把椅子一百零五元。",
-    "这把椅子一百零五块钱。"
+    "我们的大学有一百零五个老师。"
    ]
   }
  },
@@ -4215,12 +4216,12 @@
   },
   "utiliser": {
    "consigne": "Reliez deux noms de personnes par « et » pour en faire un seul sujet",
-   "francais": "Mon grand frère et ma grande sœur sont tous les deux étudiants.",
-   "chinois": "我哥哥和姐姐都是大学生。",
+   "francais": "Mon père et ma mère sont tous les deux professeurs.",
+   "chinois": "我爸爸和妈妈都是老师。",
    "variantes": [
-    "我哥哥和我姐姐都是大学生。",
-    "我哥哥和姐姐都是学生。",
-    "我哥哥姐姐都是大学生。"
+    "我爸爸和我妈妈都是老师。",
+    "我父亲和母亲都是老师。",
+    "我爸爸妈妈都是老师。"
    ]
   }
  },
@@ -4247,27 +4248,26 @@
   },
   "utiliser": {
    "consigne": "Précisez un nom par une petite phrase « sujet + verbe » placée devant lui",
-   "francais": "C'est le livre que lit mon père.",
-   "chinois": "这是我爸爸看的书。",
+   "francais": "C'est un professeur que connaît mon père.",
+   "chinois": "这是我爸爸认识的老师。",
    "variantes": [
-    "这是我的爸爸看的书。"
+    "这是我的爸爸认识的老师。",
+    "这是我父亲认识的老师。"
    ]
   }
  },
  "数量短语 — nombre + classificateur": {
   "comprendre": {
-   "phrase_gras": "你有几个孩子？——我有**两个**。",
+   "phrase_gras": "你有几个哥哥？——我有**两个**。",
    "question": "Pourquoi n'y a-t-il pas de nom après 两个 ?",
-   "reponse": "Le groupe nombre + classificateur (两个) peut s'employer seul quand on sait de quoi on parle (les enfants).",
-   "traduction": "Tu as combien d'enfants ? — J'en ai deux."
+   "reponse": "Le groupe nombre + classificateur (两个) peut s'employer seul quand on sait de quoi on parle (les grands frères).",
+   "traduction": "Tu as combien de grands frères ? — J'en ai deux."
   },
   "utiliser": {
-   "consigne": "Comptez des objets : nombre et mot de mesure devant le nom",
-   "francais": "J'ai trois livres de chinois.",
-   "chinois": "我有三本汉语书。",
-   "variantes": [
-    "我有三本中文书。"
-   ]
+   "consigne": "Comptez des animaux : nombre et mot de mesure devant le nom",
+   "francais": "J'ai trois chats.",
+   "chinois": "我有三只猫。",
+   "variantes": []
   }
  },
  "动词、形容词作谓语 — verbe ou adjectif comme prédicat, sans 是": {
@@ -4278,11 +4278,11 @@
    "traduction": "Cette chambre-ci est grande, celle-là est petite."
   },
   "utiliser": {
-   "consigne": "Dites comment se sent une personne, avec un adjectif comme prédicat",
-   "francais": "Maman est fatiguée.",
-   "chinois": "妈妈很累。",
+   "consigne": "Dites dans quel état est une personne, avec un adjectif comme prédicat",
+   "francais": "Maman est très occupée.",
+   "chinois": "妈妈很忙。",
    "variantes": [
-    "我妈妈很累。"
+    "我妈妈很忙。"
    ]
   }
  },
@@ -4326,10 +4326,8 @@
   "utiliser": {
    "consigne": "Insistez sur un degré très élevé (« extrêmement »)",
    "francais": "Ce professeur est extrêmement célèbre.",
-   "chinois": "这位老师非常有名。",
-   "variantes": [
-    "这个老师非常有名。"
-   ]
+   "chinois": "这个老师非常有名。",
+   "variantes": []
   }
  },
  "自己 — soi-même (pronom réfléchi)": {
@@ -4351,16 +4349,18 @@
  },
  "条 / 位 / 间 / 名 — classificateurs (objets longs, personnes, pièces)": {
   "comprendre": {
-   "phrase_gras": "这**间**厨房很小。",
+   "phrase_gras": "这**间**房间很小。",
    "question": "Pourquoi 间 ?",
    "reponse": "间 est le classificateur des pièces d'un bâtiment (chambre, cuisine…).",
-   "traduction": "Cette cuisine est petite."
+   "traduction": "Cette chambre est petite."
   },
   "utiliser": {
-   "consigne": "Demandez qui est une personne, en la désignant avec respect (mot de mesure de politesse)",
-   "francais": "Qui est ce monsieur ?",
-   "chinois": "这位先生是谁？",
-   "variantes": []
+   "consigne": "Donnez le nombre d'étudiants d'une université avec le mot de mesure des personnes propre à la langue soutenue",
+   "francais": "Notre université compte trois mille étudiants.",
+   "chinois": "我们大学有三千名学生。",
+   "variantes": [
+    "我们的大学有三千名学生。"
+   ]
   }
  },
  "(Sujet +) V (+ objet) + 的 + nom — proposition relative": {
@@ -4372,10 +4372,11 @@
   },
   "utiliser": {
    "consigne": "Déterminez un nom par une action (« le… où / que… »), placée avant lui",
-   "francais": "La maison où habite mon grand-père est très grande.",
-   "chinois": "我爷爷住的房子很大。",
+   "francais": "La maison où habitent mes parents est très grande.",
+   "chinois": "我父母住的房子很大。",
    "variantes": [
-    "我爷爷住的房子非常大。"
+    "我父母住的房子非常大。",
+    "我爸爸妈妈住的房子很大。"
    ]
   }
  },
@@ -4388,8 +4389,8 @@
   },
   "utiliser": {
    "consigne": "Décrivez une partie du corps d'une personne : la personne, puis la partie, puis l'adjectif, sans mot de liaison",
-   "francais": "Ma petite sœur a de grands yeux.",
-   "chinois": "我妹妹眼睛很大。",
+   "francais": "Ma mère a de grands yeux.",
+   "chinois": "我妈妈眼睛很大。",
    "variantes": []
   }
  },
@@ -4415,12 +4416,12 @@
    "traduction": "Dans la chambre, il y a un lit et deux chaises."
   },
   "utiliser": {
-   "consigne": "Comptez des véhicules avec leur mot de mesure spécifique",
-   "francais": "Mon père a deux voitures.",
-   "chinois": "我爸爸有两辆汽车。",
+   "consigne": "Comptez des meubles à surface plane avec leur mot de mesure spécifique",
+   "francais": "Il y a deux tables dans ma chambre.",
+   "chinois": "我的房间里有两张桌子。",
    "variantes": [
-    "我爸爸有两辆车。",
-    "我的爸爸有两辆汽车。"
+    "我房间里有两张桌子。",
+    "我的房间有两张桌子。"
    ]
   }
  },
@@ -4442,16 +4443,18 @@
  },
  "V 不 V — question par alternative": {
   "comprendre": {
-   "phrase_gras": "你明天**去不去**商店？",
+   "phrase_gras": "你**会不会**说英语？",
    "question": "",
-   "reponse": "去不去 (verbe affirmatif + verbe nié) forme une question oui / non, sans 吗.",
-   "traduction": "Tu vas au magasin demain, oui ou non ?"
+   "reponse": "会不会 (verbe affirmatif + verbe nié) forme une question oui / non, sans 吗.",
+   "traduction": "Tu sais parler anglais, oui ou non ?"
   },
   "utiliser": {
    "consigne": "Posez une question oui / non en juxtaposant la forme affirmative et la forme négative du verbe, sans particule finale",
-   "francais": "Est-ce que tu bois du café ?",
-   "chinois": "你喝不喝咖啡？",
-   "variantes": []
+   "francais": "Est-ce que tu connais Xiao Wang ?",
+   "chinois": "你认识不认识小王？",
+   "variantes": [
+    "你认不认识小王？"
+   ]
   }
  },
  "一杯 + boisson — classificateur emprunté 杯": {
@@ -4507,24 +4510,24 @@
   },
   "utiliser": {
    "consigne": "Dites combien d'une chose vous voulez acheter, en la comptant par son emballage",
-   "francais": "Je voudrais acheter deux paquets de raviolis.",
-   "chinois": "我想买两包饺子。",
+   "francais": "Je voudrais acheter deux paquets de thé vert.",
+   "chinois": "我想买两包绿茶。",
    "variantes": []
   }
  },
  "但是 / 但 / 那 — mais ; alors, dans ce cas": {
   "comprendre": {
-   "phrase_gras": "这件衣服很漂亮，**但是**很贵。",
+   "phrase_gras": "你今天很忙？**那**我们明天去吧。",
    "question": "",
-   "reponse": "但是 « mais » ouvre la seconde proposition et marque l'opposition avec la première.",
-   "traduction": "Ce vêtement est très joli, mais il est cher."
+   "reponse": "那 « alors, dans ce cas », en tête de la seconde proposition, tire la conséquence de ce qui vient d'être dit.",
+   "traduction": "Tu es occupé aujourd'hui ? Alors allons-y demain."
   },
   "utiliser": {
    "consigne": "Tirez la conséquence de ce que vient de dire l'autre (« alors, dans ce cas »)",
-   "francais": "Tu n'aimes pas le thé ? Alors bois du café.",
-   "chinois": "你不喜欢喝茶？那喝咖啡吧。",
+   "francais": "Tu n'aimes pas le thé ? Alors bois du jus de fruits.",
+   "chinois": "你不喜欢喝茶？那喝果汁吧。",
    "variantes": [
-    "你不喜欢喝茶？那你喝咖啡吧。"
+    "你不喜欢喝茶？那你喝果汁吧。"
    ]
   }
  },
@@ -4547,15 +4550,15 @@
  },
  "……什么的 — et cetera (fin d'énumération)": {
   "comprendre": {
-   "phrase_gras": "我想买水果、牛奶**什么的**。",
+   "phrase_gras": "我想买茶、牛奶**什么的**。",
    "question": "",
    "reponse": "什么的 clôt l'énumération : « ce genre de choses, etc. » (tournure orale).",
-   "traduction": "Je voudrais acheter des fruits, du lait, ce genre de choses."
+   "traduction": "Je voudrais acheter du thé, du lait, ce genre de choses."
   },
   "utiliser": {
    "consigne": "Terminez une énumération à l'oral par « etc. »",
-   "francais": "J'aime manger des raviolis, des nouilles, etc.",
-   "chinois": "我喜欢吃饺子、面条什么的。",
+   "francais": "J'aime lire, écouter de la musique, etc.",
+   "chinois": "我喜欢看书、听音乐什么的。",
    "variantes": []
   }
  },
@@ -4595,17 +4598,17 @@
  },
  "一碗 / 一盘 + nom — récipients employés comme classificateurs": {
   "comprendre": {
-   "phrase_gras": "我想吃一**碗**面条。",
+   "phrase_gras": "给我一**碗**面条吧。",
    "question": "Que compte 一碗 ici : le bol lui-même ou son contenu ?",
    "reponse": "Son contenu : 碗 « bol » sert de classificateur pour les nouilles (« un bol de nouilles ») ; le bol lui-même serait 一个碗.",
-   "traduction": "Je voudrais manger un bol de nouilles."
+   "traduction": "Donnez-moi un bol de nouilles, s'il vous plaît."
   },
   "utiliser": {
    "consigne": "Dites quelle quantité d'un plat vous voulez, en le comptant par le récipient (« une assiette de… »)",
-   "francais": "Je voudrais manger une assiette de raviolis.",
-   "chinois": "我想吃一盘饺子。",
+   "francais": "Donnez-moi une assiette de baozi, s'il vous plaît.",
+   "chinois": "给我一盘包子吧。",
    "variantes": [
-    "我要一盘饺子。"
+    "我想买一盘包子。"
    ]
   }
  },
@@ -4617,46 +4620,45 @@
    "traduction": "Je ne bois que du thé vert."
   },
   "utiliser": {
-   "consigne": "Donnez le total d'un prix (« en tout »)",
-   "francais": "Ces fruits coûtent trente-cinq yuans en tout.",
-   "chinois": "这些水果一共三十五块。",
+   "consigne": "Proposez d'aller quelque part ensemble, avec le « ensemble » familier de l'oral",
+   "francais": "Allons ensemble au magasin.",
+   "chinois": "我们一块儿去商店吧。",
    "variantes": [
-    "这些水果一共三十五块钱。",
-    "这些水果一共三十五元。"
+    "我们一块儿去商店，好吗？"
    ]
   }
  },
  "可是 / 可 — mais (opposition orale)": {
   "comprendre": {
-   "phrase_gras": "我喜欢喝咖啡，**可是**我妈妈不喜欢。",
+   "phrase_gras": "我喜欢喝茶，**可是**我妈妈不喜欢。",
    "question": "",
    "reponse": "可是 « mais », plus oral que 但是, ouvre la seconde proposition pour marquer l'opposition.",
-   "traduction": "J'aime le café, mais ma mère ne l'aime pas."
+   "traduction": "J'aime le thé, mais ma mère ne l'aime pas."
   },
   "utiliser": {
    "consigne": "Opposez deux idées avec le « mais » familier de l'oral",
-   "francais": "Je voudrais acheter ce livre, mais je n'ai pas d'argent.",
-   "chinois": "我想买这本书，可是我没有钱。",
+   "francais": "Je voudrais acheter ce livre, mais il est cher.",
+   "chinois": "我想买这本书，可是很贵。",
    "variantes": [
-    "我想买这本书，可是没有钱。",
-    "我想买这本书，可我没有钱。"
+    "我想买这本书，可是这本书很贵。",
+    "我很想买这本书，可是很贵。"
    ]
   }
  },
  "在 (zài) — être à / se trouver à": {
   "comprendre": {
-   "phrase_gras": "我的书**在**桌子上。",
+   "phrase_gras": "我妈妈**在**北京。",
    "question": "Quel est le rôle de 在 ici ?",
-   "reponse": "在 est ici le verbe principal : « se trouver » + lieu (« est sur la table »).",
-   "traduction": "Mon livre est sur la table."
+   "reponse": "在 est ici le verbe principal : « se trouver » + lieu (« est à Pékin »).",
+   "traduction": "Ma mère est à Pékin."
   },
   "utiliser": {
    "consigne": "Dites où une personne fait une action (le lieu avant le verbe)",
-   "francais": "Ma grande sœur fait ses études à Pékin.",
-   "chinois": "我姐姐在北京学习。",
+   "francais": "Mon fils fait ses études à Pékin.",
+   "chinois": "我儿子在北京学习。",
    "variantes": [
-    "我的姐姐在北京学习。",
-    "我姐姐在北京上学。"
+    "我的儿子在北京学习。",
+    "我儿子在北京上学。"
    ]
   }
  },
@@ -4751,28 +4753,26 @@
    "traduction": "Demain, ce n'est pas dimanche."
   },
   "utiliser": {
-   "consigne": "Donnez l'âge d'une personne, sans verbe",
-   "francais": "Mon grand-père a quatre-vingts ans cette année.",
-   "chinois": "我爷爷今年八十岁。",
-   "variantes": [
-    "我的爷爷今年八十岁。"
-   ]
+   "consigne": "Donnez la date d'aujourd'hui, sans verbe",
+   "francais": "Aujourd'hui, c'est le 5 mai.",
+   "chinois": "今天五月五号。",
+   "variantes": []
   }
  },
  "去 / 来 + lieu + verbe — se déplacer pour faire quelque chose (连动句)": {
   "comprendre": {
-   "phrase_gras": "我们**去商店买**水果吧。",
+   "phrase_gras": "我们**去商店买**牛奶吧。",
    "question": "",
-   "reponse": "去商店 (déplacement) est suivi de 买水果 (but), sans mot de liaison : le second groupe dit pourquoi on se déplace.",
-   "traduction": "Allons au magasin acheter des fruits."
+   "reponse": "去商店 (déplacement) est suivi de 买牛奶 (but), sans mot de liaison : le second groupe dit pourquoi on se déplace.",
+   "traduction": "Allons au magasin acheter du lait."
   },
   "utiliser": {
-   "consigne": "Dites qu'une personne vient dans un pays dans un but précis, sans traduire « pour »",
-   "francais": "Il vient en Chine pour apprendre le chinois.",
-   "chinois": "他来中国学习汉语。",
+   "consigne": "Dites qu'une personne va dans un pays dans un but précis, sans traduire « pour »",
+   "francais": "Il va en Chine pour apprendre le chinois.",
+   "chinois": "他去中国学习汉语。",
    "variantes": [
-    "他来中国学汉语。",
-    "他来中国学习中文。"
+    "他去中国学汉语。",
+    "他去中国学习中文。"
    ]
   }
  },
@@ -4826,7 +4826,7 @@
  },
  "时间词的位置 — position des expressions de temps": {
   "comprendre": {
-   "phrase_gras": "我**明天**要去北京。",
+   "phrase_gras": "我**明天**去北京。",
    "question": "Où se place l'expression de temps 明天 ?",
    "reponse": "Après le sujet et devant le verbe (elle pourrait aussi venir en tête de phrase), jamais après le verbe comme en français.",
    "traduction": "Je vais à Pékin demain."
@@ -4859,10 +4859,10 @@
  },
  "这么 / 那么 / 这样 / 那样 / 每 — si, ainsi ; chaque": {
   "comprendre": {
-   "phrase_gras": "这个书包怎么**这么**贵？",
-   "question": "Que signifie 这么 devant l'adjectif ?",
-   "reponse": "这么 + adjectif = « si, tellement » : il insiste sur le degré de ce qu'on a sous les yeux.",
-   "traduction": "Comment ce cartable peut-il être si cher ?"
+   "phrase_gras": "那个书包怎么**那么**贵？",
+   "question": "Que signifie 那么 devant l'adjectif ?",
+   "reponse": "那么 + adjectif = « si, tellement » : il insiste sur le degré de ce dont on parle (ce qui est là-bas, ou dont il vient d'être question).",
+   "traduction": "Comment ce cartable-là peut-il être si cher ?"
   },
   "utiliser": {
    "consigne": "Dites qu'une action se répète tous les jours (« chaque »)",
@@ -4891,10 +4891,10 @@
  },
  "Sujet + groupe nominal sans 是（今天星期五）— prédicat nominal": {
   "comprendre": {
-   "phrase_gras": "我妹妹今年**十八岁**。",
+   "phrase_gras": "现在**八点半**。",
    "question": "Où est le verbe dans cette phrase ?",
-   "reponse": "Il n'y en a pas : le groupe nominal 十八岁 sert directement de prédicat (l'âge), sans 是.",
-   "traduction": "Ma petite sœur a dix-huit ans cette année."
+   "reponse": "Il n'y en a pas : le groupe nominal 八点半 sert directement de prédicat (l'heure), sans 是.",
+   "traduction": "Il est huit heures et demie."
   },
   "utiliser": {
    "consigne": "Dites quel jour on sera demain, sans verbe « être »",
@@ -4930,14 +4930,14 @@
   },
   "utiliser": {
    "consigne": "Dites qu'on fait souvent quelque chose, sans idée de reproche",
-   "francais": "Le week-end, je vais souvent voir mes grands-parents.",
-   "chinois": "周末我常常去看爷爷奶奶。",
+   "francais": "Le week-end, je vais souvent voir mes parents.",
+   "chinois": "周末我常常去看爸爸妈妈。",
    "variantes": [
-    "我周末常常去看爷爷奶奶。",
-    "周末我经常去看爷爷奶奶。",
-    "我周末经常去看爷爷奶奶。",
-    "周末我常去看爷爷奶奶。",
-    "我周末常去看爷爷奶奶。"
+    "我周末常常去看爸爸妈妈。",
+    "周末我经常去看爸爸妈妈。",
+    "我周末经常去看爸爸妈妈。",
+    "周末我常去看爸爸妈妈。",
+    "我周末常去看爸爸妈妈。"
    ]
   }
  },
@@ -4973,17 +4973,17 @@
  },
  "吧 (suggestion) / 呢 (question, action en cours) — particules de fin de phrase": {
   "comprendre": {
-   "phrase_gras": "妈妈在做饭**呢**。",
+   "phrase_gras": "妈妈在看书**呢**。",
    "question": "Que marque 呢 en fin de phrase ici ?",
-   "reponse": "Une action en cours (avec 在) : maman est en train de faire à manger.",
-   "traduction": "Maman est en train de faire à manger."
+   "reponse": "Une action en cours (avec 在) : maman est en train de lire.",
+   "traduction": "Maman est en train de lire."
   },
   "utiliser": {
    "consigne": "Proposez de faire quelque chose ensemble",
-   "francais": "Allons manger ensemble.",
-   "chinois": "我们一起去吃饭吧。",
+   "francais": "Allons voir un film ensemble.",
+   "chinois": "我们一起去看电影吧。",
    "variantes": [
-    "咱们一起去吃饭吧。"
+    "我们一起看电影吧。"
    ]
   }
  },
@@ -5007,27 +5007,27 @@
  },
  "别 / 不要 — interdiction": {
   "comprendre": {
-   "phrase_gras": "**别**看手机**了**，我们吃饭吧。",
+   "phrase_gras": "**别**看电视**了**，我们吃饭吧。",
    "question": "Que signifie 别…了 ici ?",
    "reponse": "« Arrête de… » : on demande d'arrêter une action en cours.",
-   "traduction": "Arrête de regarder ton téléphone, mangeons."
+   "traduction": "Arrête de regarder la télé, mangeons."
   },
   "utiliser": {
-   "consigne": "Rappelez à quelqu'un de ne pas oublier quelque chose, sous forme d'interdiction",
-   "francais": "N'oublie pas ton téléphone !",
-   "chinois": "别忘了带手机！",
+   "consigne": "Interdisez à quelqu'un de fumer à cet endroit, sur un ton direct",
+   "francais": "Ne fume pas ici !",
+   "chinois": "别在这儿抽烟！",
    "variantes": [
-    "不要忘了带手机！",
-    "别忘了你的手机！"
+    "不要在这儿抽烟！",
+    "别在这里抽烟！"
    ]
   }
  },
  "V + 一下 / verbe redoublé — faire un peu, essayer": {
   "comprendre": {
-   "phrase_gras": "你**试一试**这件衣服。",
+   "phrase_gras": "你**试一试**这件毛衣。",
    "question": "Quel sens donne la forme 试一试 ?",
    "reponse": "Le verbe redoublé (A一A) marque un essai, une action brève, et adoucit le ton : « essaie donc ».",
-   "traduction": "Essaie donc ce vêtement."
+   "traduction": "Essaie donc ce pull."
   },
   "utiliser": {
    "consigne": "Demandez poliment à quelqu'un de patienter un instant",
@@ -5041,10 +5041,10 @@
  },
  "A了A (看了看、想了想) — verbe redoublé pour une action brève passée": {
   "comprendre": {
-   "phrase_gras": "他**看了看**手表，说：“走吧。”",
+   "phrase_gras": "他**看了看**我，说：“走吧。”",
    "question": "",
    "reponse": "A了A : une action brève déjà faite, « il a jeté un coup d'œil ».",
-   "traduction": "Il a jeté un coup d'œil à sa montre et a dit : « On y va. »"
+   "traduction": "Il m'a jeté un coup d'œil et a dit : « On y va. »"
   },
   "utiliser": {
    "consigne": "Racontez qu'on a réfléchi un bref instant avant de décider",
@@ -5055,10 +5055,10 @@
  },
  "一起 + verbe — ensemble (adverbe)": {
   "comprendre": {
-   "phrase_gras": "周末我常和朋友**一起**去看电影。",
+   "phrase_gras": "星期天我常和朋友**一起**去看电影。",
    "question": "",
    "reponse": "一起 = ensemble : adverbe placé devant le verbe, après 和 + personne.",
-   "traduction": "Le week-end, je vais souvent au cinéma avec des amis."
+   "traduction": "Le dimanche, je vais souvent au cinéma avec des amis."
   },
   "utiliser": {
    "consigne": "Dites que deux personnes vivent au même endroit",
@@ -5131,9 +5131,9 @@
   "utiliser": {
    "consigne": "Dites qu'une personne n'autorise pas quelqu'un à faire quelque chose",
    "francais": "Maman ne me laisse pas sortir le soir.",
-   "chinois": "妈妈不让我晚上出去。",
+   "chinois": "妈妈不让我晚上出门。",
    "variantes": [
-    "晚上妈妈不让我出去。"
+    "晚上妈妈不让我出门。"
    ]
   }
  },
@@ -5189,55 +5189,56 @@
  },
  "能不能再说一遍？— demander de répéter ou d'expliquer": {
   "comprendre": {
-   "phrase_gras": "对不起，**能不能再说一遍**？",
+   "phrase_gras": "老师，您**能不能再**跟我们**说一遍**？",
    "question": "Que demande-t-on ici ?",
-   "reponse": "De répéter : « pourriez-vous le redire encore une fois ? ».",
-   "traduction": "Pardon, pouvez-vous répéter ?"
+   "reponse": "De répéter : « pourriez-vous nous le redire encore une fois ? ».",
+   "traduction": "Professeur, pourriez-vous nous le répéter ?"
   },
   "utiliser": {
    "consigne": "Dites que vous n'avez pas compris ce qu'on vous a dit (problème de compréhension, pas d'écoute)",
-   "francais": "Pardon, je n'ai pas compris.",
-   "chinois": "对不起，我没听懂。",
+   "francais": "Je n'ai pas compris.",
+   "chinois": "我没听懂。",
    "variantes": [
-    "对不起，我没有听懂。",
-    "不好意思，我没听懂。"
+    "我没有听懂。"
    ]
   }
  },
  "别人 / 咱们 — les autres ; nous (toi compris)": {
   "comprendre": {
-   "phrase_gras": "不要用**别人**的东西。",
+   "phrase_gras": "我们是法国人，你是中国人，**咱们**都是学生。",
    "question": "",
-   "reponse": "别人 = les autres, autrui : pronom employé seul (ici suivi de 的 : « les affaires des autres »).",
-   "traduction": "N'utilise pas les affaires des autres."
+   "reponse": "咱们 = nous, toi compris : il inclut forcément l'interlocuteur ; 我们, au début, ne désigne que ceux qui parlent.",
+   "traduction": "Nous, nous sommes français, toi, tu es chinois : nous sommes tous étudiants."
   },
   "utiliser": {
-   "consigne": "Dites « on se voit demain » avec un « nous » oral qui inclut forcément votre interlocuteur",
-   "francais": "On se voit demain !",
-   "chinois": "咱们明天见！",
-   "variantes": []
+   "consigne": "Proposez d'aller voir un film ensemble demain, avec un « nous » oral qui inclut forcément votre interlocuteur",
+   "francais": "Allons voir un film ensemble demain !",
+   "chinois": "咱们明天一起去看电影吧！",
+   "variantes": [
+    "明天咱们一起去看电影吧！"
+   ]
   }
  },
  "太…了 — trop, tellement": {
   "comprendre": {
-   "phrase_gras": "这个菜**太**好吃**了**。",
+   "phrase_gras": "你的房间**太**漂亮**了**。",
    "question": "太…了 exprime-t-il ici un excès ou une exclamation ?",
-   "reponse": "Une exclamation : le plat est vraiment délicieux (et non « trop » bon).",
-   "traduction": "Ce plat est vraiment délicieux !"
+   "reponse": "Une exclamation : la chambre est vraiment très belle (et non « trop » belle).",
+   "traduction": "Ta chambre est vraiment magnifique !"
   },
   "utiliser": {
    "consigne": "Dites qu'une chose est excessive (« trop »)",
-   "francais": "Ce vêtement est trop cher.",
-   "chinois": "这件衣服太贵了。",
+   "francais": "Cette chemise est trop chère.",
+   "chinois": "这件衬衫太贵了。",
    "variantes": []
   }
  },
  "我觉得 / 我认为 — donner son avis à l'oral": {
   "comprendre": {
-   "phrase_gras": "我**认为**这个说法不太对。",
-   "question": "Quel ton donne 我认为, par rapport à 我觉得 ?",
-   "reponse": "Un avis plus affirmé et un peu plus soutenu (« je considère que ») ; 我觉得 est neutre.",
-   "traduction": "Je pense que cette affirmation n'est pas tout à fait exacte."
+   "phrase_gras": "你**觉得**汉语怎么样？",
+   "question": "Que demande-t-on ici ?",
+   "reponse": "L'avis de l'interlocuteur : 你觉得…怎么样？ = « qu'est-ce que tu penses de… ? » ; on répond par 我觉得…, la façon neutre et courante de donner son avis.",
+   "traduction": "Qu'est-ce que tu penses du chinois ?"
   },
   "utiliser": {
    "consigne": "Donnez votre avis sur un film, sur un ton neutre et courant",
@@ -5266,16 +5267,18 @@
  },
  "多 / 好 + adjectif (+ 啊) ; 最 — quel… ! ; le plus": {
   "comprendre": {
-   "phrase_gras": "你的女儿**多**可爱**啊**！",
+   "phrase_gras": "你的花园**多**漂亮**啊**！",
    "question": "",
-   "reponse": "多 + adjectif + 啊 : exclamation, « comme elle est… ! ».",
-   "traduction": "Comme ta fille est mignonne !"
+   "reponse": "多 + adjectif + 啊 : exclamation, « comme il est… ! ».",
+   "traduction": "Comme ton jardin est beau !"
   },
   "utiliser": {
-   "consigne": "Dites quel plat vous aimez le plus",
-   "francais": "Ce que je préfère manger, ce sont les raviolis.",
-   "chinois": "我最喜欢吃饺子。",
-   "variantes": []
+   "consigne": "Exclamez-vous sur un plat que vous goûtez et que vous trouvez vraiment délicieux",
+   "francais": "Comme ce plat est bon !",
+   "chinois": "这个菜多好吃啊！",
+   "variantes": [
+    "这个菜好好吃啊！"
+   ]
   }
  },
  "的 / 呢 / 啊 / 吧 en fin d'affirmation — certitude, insistance, exclamation, supposition": {
@@ -5313,10 +5316,10 @@
  },
  "V + 得 + complément de degré": {
   "comprendre": {
-   "phrase_gras": "她说**得很流利**。",
+   "phrase_gras": "她说**得很清楚**。",
    "question": "",
-   "reponse": "得 + 很流利 : complément de degré qui juge la manière de parler (« couramment »).",
-   "traduction": "Elle parle couramment."
+   "reponse": "得 + 很清楚 : complément de degré qui juge la manière de parler (« clairement »).",
+   "traduction": "Elle parle très clairement."
   },
   "utiliser": {
    "consigne": "Jugez la manière dont quelqu'un fait une action (sa vitesse)",
@@ -5352,11 +5355,12 @@
    "traduction": "Les plats de ce restaurant sont délicieux, mais un peu chers."
   },
   "utiliser": {
-   "consigne": "Corrigez une idée reçue (« en réalité »)",
-   "francais": "Tout le monde dit que le chinois est difficile ; en fait, il n'est pas très difficile.",
-   "chinois": "大家都说汉语很难，其实不太难。",
+   "consigne": "Ajoutez une réserve légère, sur un ton adouci (« mais »), après un souhait",
+   "francais": "J'ai très envie d'y aller, mais je n'ai pas le temps.",
+   "chinois": "我很想去，不过没有时间。",
    "variantes": [
-    "大家都说汉语很难，其实汉语不太难。"
+    "我很想去，不过我没有时间。",
+    "我很想去，可是没有时间。"
    ]
   }
  },
@@ -5427,18 +5431,17 @@
  },
  "V (+ objet) / adjectif + prédicat — un verbe ou un adjectif comme sujet": {
   "comprendre": {
-   "phrase_gras": "**游泳**对身体很好。",
+   "phrase_gras": "**坐地铁**很方便。",
    "question": "Quel est le sujet de cette phrase ?",
-   "reponse": "Le verbe 游泳 lui-même, sans aucune marque : « nager, c'est… ».",
-   "traduction": "Nager, c'est très bon pour la santé."
+   "reponse": "Le groupe verbal 坐地铁 lui-même, sans aucune marque : « prendre le métro, c'est… ».",
+   "traduction": "Prendre le métro, c'est très pratique."
   },
   "utiliser": {
    "consigne": "Portez un jugement sur une activité, en la prenant comme sujet de la phrase",
-   "francais": "Apprendre le chinois, c'est très intéressant.",
-   "chinois": "学汉语很有意思。",
+   "francais": "Prendre un taxi, c'est très cher.",
+   "chinois": "打车很贵。",
    "variantes": [
-    "学中文很有意思。",
-    "学习汉语很有意思。"
+    "坐出租车很贵。"
    ]
   }
  },
@@ -5482,11 +5485,11 @@
    "traduction": "Après une journée de marche, je suis mort de fatigue."
   },
   "utiliser": {
-   "consigne": "Dites qu'un plat est délicieux au plus haut degré, avec une forme placée après l'adjectif",
-   "francais": "Ce plat est absolument délicieux !",
-   "chinois": "这个菜好吃极了！",
+   "consigne": "Dites qu'un plat est excellent au plus haut degré, avec une forme placée après l'adjectif",
+   "francais": "Ce plat est absolument excellent !",
+   "chinois": "这个菜好极了！",
    "variantes": [
-    "这个菜好吃极了。"
+    "这个菜好吃极了！"
    ]
   }
  },
@@ -5520,10 +5523,10 @@
  },
  "上 / 下 / 里 / 外 / 前 / 后 — mots de localisation": {
   "comprendre": {
-   "phrase_gras": "你的手机在桌子**上**。",
+   "phrase_gras": "你的笔在桌子**上**。",
    "question": "",
    "reponse": "上 placé après le nom = « sur » : 桌子上, sur la table.",
-   "traduction": "Ton téléphone est sur la table."
+   "traduction": "Ton stylo est sur la table."
   },
   "utiliser": {
    "consigne": "Dites dans quelle pièce vous faites une action",
@@ -5620,12 +5623,11 @@
   },
   "utiliser": {
    "consigne": "Indiquez dans quelle direction tourner",
-   "francais": "Au carrefour, tournez à gauche.",
-   "chinois": "到路口往左拐。",
+   "francais": "À la banque, tournez à gauche.",
+   "chinois": "到银行往左拐。",
    "variantes": [
-    "在路口往左拐。",
-    "到了路口往左拐。",
-    "到路口往左走。"
+    "到了银行往左拐。",
+    "到银行往左走。"
    ]
   }
  },
@@ -5684,11 +5686,11 @@
    "traduction": "Le professeur est gentil avec nous."
   },
   "utiliser": {
-   "consigne": "Dites qu'une activité est bonne pour la santé",
-   "francais": "Le sport, c'est très bon pour la santé.",
-   "chinois": "运动对身体很好。",
+   "consigne": "Dites qu'un membre de votre famille se montre gentil avec vous",
+   "francais": "Mon grand frère est très gentil avec moi.",
+   "chinois": "哥哥对我很好。",
    "variantes": [
-    "运动对身体好。"
+    "我哥哥对我很好。"
    ]
   }
  },
@@ -5711,10 +5713,10 @@
  },
  "得 — trois usages à distinguer": {
   "comprendre": {
-   "phrase_gras": "明天有考试，我**得**早点儿起床。",
+   "phrase_gras": "明天早上有课，我**得**早点儿起床。",
    "question": "Comment se lit 得 ici, et que veut-il dire ?",
    "reponse": "Il se lit děi : « devoir, il faut », une obligation pratique.",
-   "traduction": "Demain j'ai un examen, je dois me lever un peu plus tôt."
+   "traduction": "Demain matin j'ai cours, je dois me lever un peu plus tôt."
   },
   "utiliser": {
    "consigne": "Décrivez la manière dont quelqu'un court (jugement sur la vitesse)",
@@ -5725,7 +5727,7 @@
  },
  "请假条 — le mot d'excuse (demande de congé)": {
   "comprendre": {
-   "phrase_gras": "王老师，我生病了，想**请假**一天。",
+   "phrase_gras": "王老师，我病了，想**请假**一天。",
    "question": "Que demande l'élève ?",
    "reponse": "Un congé d'un jour : 请假 + durée (on dit aussi 请一天假).",
    "traduction": "Professeur Wang, je suis malade, je voudrais demander un jour de congé."
@@ -5743,17 +5745,18 @@
  },
  "应该 / 该 / 得 / 需要 / 愿意 — verbes modaux (devoir, avoir besoin, vouloir bien)": {
   "comprendre": {
-   "phrase_gras": "你不**应该**这样跟妈妈说话。",
+   "phrase_gras": "你不**应该**那么晚睡觉。",
    "question": "",
-   "reponse": "不应该 + verbe = « tu ne devrais pas » : un reproche, au nom d'une obligation morale.",
-   "traduction": "Tu ne devrais pas parler comme ça à ta mère."
+   "reponse": "不应该 + verbe = « tu ne devrais pas » : un reproche, au nom de ce qu'il est bon de faire.",
+   "traduction": "Tu ne devrais pas te coucher si tard."
   },
   "utiliser": {
-   "consigne": "Dites que quelqu'un accepte volontiers de rendre service (« vouloir bien »)",
-   "francais": "Il veut bien nous aider.",
-   "chinois": "他愿意帮我们。",
+   "consigne": "Dites qu'il se fait tard et que vous devez partir (obligation pratique, à l'oral)",
+   "francais": "Il se fait tard, je dois y aller.",
+   "chinois": "不早了，我得走了。",
    "variantes": [
-    "他很愿意帮我们。"
+    "不早了，我该走了。",
+    "太晚了，我得走了。"
    ]
   }
  },
@@ -5799,10 +5802,10 @@
   },
   "utiliser": {
    "consigne": "Un verbe suivi directement de deux objets : la personne, puis la chose (sans préposition)",
-   "francais": "Le professeur Wang nous enseigne le chinois.",
-   "chinois": "王老师教我们汉语。",
+   "francais": "Je voudrais offrir un pull à ma mère.",
+   "chinois": "我想送妈妈一件毛衣。",
    "variantes": [
-    "王老师教我们中文。"
+    "我想送我妈妈一件毛衣。"
    ]
   }
  },
@@ -5909,10 +5912,10 @@
  },
  "V + 给 + personne + chose（送给 / 借给 / 还给）— double objet": {
   "comprendre": {
-   "phrase_gras": "他**卖给**我两个杯子。",
+   "phrase_gras": "他**送给**我两个杯子。",
    "question": "",
-   "reponse": "给, collé au verbe 卖, introduit le destinataire (我) ; la chose vient ensuite : « vendre à quelqu'un ».",
-   "traduction": "Il m'a vendu deux verres."
+   "reponse": "给, collé au verbe 送, introduit le destinataire (我) ; la chose vient ensuite : « offrir à quelqu'un ».",
+   "traduction": "Il m'a offert deux verres."
   },
   "utiliser": {
    "consigne": "Demander qu'on vous prête quelque chose : le destinataire est marqué juste après le verbe, puis vient la chose",
@@ -5932,11 +5935,12 @@
    "traduction": "J'ai bien dormi hier soir."
   },
   "utiliser": {
-   "consigne": "Dire combien de cours on a eus aujourd'hui, en coupant en deux le verbe « avoir cours »",
-   "francais": "Aujourd'hui, j'ai eu deux cours.",
-   "chinois": "今天我上了两节课。",
+   "consigne": "Dire qu'on a eu cours toute la journée, en coupant en deux le verbe « avoir cours »",
+   "francais": "Aujourd'hui, j'ai eu cours toute la journée.",
+   "chinois": "今天我上了一天课。",
    "variantes": [
-    "我今天上了两节课。"
+    "我今天上了一天课。",
+    "今天我上了一天的课。"
    ]
   }
  },
@@ -5993,12 +5997,12 @@
   },
   "utiliser": {
    "consigne": "Dire qu'un événement va arriver très bientôt (imminence)",
-   "francais": "Ce sera bientôt les vacances.",
-   "chinois": "快要放假了。",
+   "francais": "Le cours va bientôt finir.",
+   "chinois": "快要下课了。",
    "variantes": [
-    "快放假了。",
-    "要放假了。",
-    "就要放假了。"
+    "快下课了。",
+    "要下课了。",
+    "就要下课了。"
    ]
   }
  },
@@ -6093,11 +6097,11 @@
   },
   "utiliser": {
    "consigne": "Dire qu'une chose est impossible (et pas seulement « peut-être pas »)",
-   "francais": "Il est déjà minuit : impossible qu'il vienne.",
-   "chinois": "已经十二点了，他不可能来了。",
+   "francais": "Il est minuit maintenant : impossible qu'il vienne.",
+   "chinois": "现在十二点了，他不可能来了。",
    "variantes": [
-    "已经十二点了，他不可能来。",
-    "现在已经十二点了，他不可能来了。"
+    "现在十二点了，他不可能来。",
+    "都十二点了，他不可能来了。"
    ]
   }
  },
@@ -6127,12 +6131,11 @@
   },
   "utiliser": {
    "consigne": "Dire qu'une chose attendue n'a pas encore eu lieu",
-   "francais": "Mon petit frère n'est pas encore rentré.",
-   "chinois": "我弟弟还没回来呢。",
+   "francais": "Mon petit frère n'est pas encore rentré à la maison.",
+   "chinois": "我弟弟还没回家呢。",
    "variantes": [
-    "弟弟还没回来呢。",
-    "我弟弟还没回家呢。",
-    "我弟弟还没回来。"
+    "弟弟还没回家呢。",
+    "我弟弟还没回家。"
    ]
   }
  },
@@ -6177,28 +6180,28 @@
    "traduction": "Attends une seconde, j'arrive tout de suite."
   },
   "utiliser": {
-   "consigne": "Dire qu'une action dure sans interruption depuis un moment donné",
-   "francais": "Depuis ce matin, il travaille sans arrêt.",
-   "chinois": "从早上到现在，他一直在工作。",
+   "consigne": "Dire qu'une action a duré sans interruption pendant un certain temps",
+   "francais": "Ce matin, il a travaillé sans arrêt.",
+   "chinois": "今天上午他一直在工作。",
    "variantes": [
-    "他从早上到现在一直在工作。"
+    "他今天上午一直在工作。",
+    "上午他一直在工作。"
    ]
   }
  },
  "大概 / 好像 / 一定 / 必须 — adverbes de probabilité et d'obligation": {
   "comprendre": {
-   "phrase_gras": "外面**好像**下雨了。",
+   "phrase_gras": "他今天**一定**很忙。",
    "question": "",
-   "reponse": "好像 exprime une impression, « on dirait que » : il semble qu'il pleuve dehors.",
-   "traduction": "On dirait qu'il pleut dehors."
+   "reponse": "一定 exprime ici une forte probabilité, « sûrement, à coup sûr » : il est certainement très occupé aujourd'hui.",
+   "traduction": "Il est sûrement très occupé aujourd'hui."
   },
   "utiliser": {
    "consigne": "Exprimer une obligation absolue",
    "francais": "Tu dois absolument prendre ton médicament aujourd'hui.",
-   "chinois": "你今天必须吃药。",
+   "chinois": "你今天一定要吃药。",
    "variantes": [
-    "今天你必须吃药。",
-    "你今天一定要吃药。"
+    "今天你一定要吃药。"
    ]
   }
  },
@@ -6221,19 +6224,19 @@
  },
  "（在）…以前 / 以后 / 前 / 后 — avant / après (repère dans le temps)": {
   "comprendre": {
-   "phrase_gras": "吃饭**以前**要洗手。",
+   "phrase_gras": "睡觉**以前**我常看书。",
    "question": "",
-   "reponse": "以前 se place après l'action qui sert de repère : 吃饭以前 = avant de manger (ordre inverse du français).",
-   "traduction": "Avant de manger, il faut se laver les mains."
+   "reponse": "以前 se place après l'action qui sert de repère : 睡觉以前 = avant de dormir (ordre inverse du français).",
+   "traduction": "Avant de dormir, je lis souvent."
   },
   "utiliser": {
    "consigne": "Situer une action après une autre (le repère vient en premier)",
-   "francais": "Après le travail, je vais faire des courses.",
-   "chinois": "下班以后我去买东西。",
+   "francais": "Après le travail, je vais au cinéma.",
+   "chinois": "下班以后我去看电影。",
    "variantes": [
-    "下班后我去买东西。",
-    "我下班以后去买东西。",
-    "我下班后去买东西。"
+    "下班后我去看电影。",
+    "我下班以后去看电影。",
+    "我下班后去看电影。"
    ]
   }
  },
@@ -6365,18 +6368,18 @@
  },
  "当然 / 终于 / 才 / 就 — adverbes de ton (bien sûr, enfin, insistance)": {
   "comprendre": {
-   "phrase_gras": "等了一个小时，车**终于**来了。",
+   "phrase_gras": "等了很长时间，车**才**来。",
    "question": "",
-   "reponse": "终于 = « enfin » : le bus arrive après une longue attente.",
-   "traduction": "Après une heure d'attente, le bus est enfin arrivé."
+   "reponse": "才 = « seulement alors, pas avant » : le bus n'arrive qu'après une longue attente (plus tard qu'on ne l'espérait).",
+   "traduction": "Le bus n'est arrivé qu'après une longue attente."
   },
   "utiliser": {
    "consigne": "Affirmer que c'est une évidence (« bien sûr »)",
-   "francais": "Bien sûr que je te crois !",
-   "chinois": "我当然相信你！",
+   "francais": "Bien sûr que je le connais !",
+   "chinois": "我当然认识他！",
    "variantes": [
-    "我当然相信你。",
-    "当然，我相信你！"
+    "我当然认识他。",
+    "当然，我认识他！"
    ]
   }
  },
@@ -6399,10 +6402,10 @@
  },
  "一会儿…，一会儿… — tantôt…, tantôt…": {
   "comprendre": {
-   "phrase_gras": "他**一会儿**看书，**一会儿**看手机。",
+   "phrase_gras": "他**一会儿**看书，**一会儿**看电视。",
    "question": "",
-   "reponse": "一会儿…，一会儿… : deux actions qui alternent sans cesse ; tantôt son livre, tantôt son téléphone.",
-   "traduction": "Il regarde tantôt son livre, tantôt son téléphone."
+   "reponse": "一会儿…，一会儿… : deux actions qui alternent sans cesse ; tantôt son livre, tantôt la télévision.",
+   "traduction": "Tantôt il lit, tantôt il regarde la télévision."
   },
   "utiliser": {
    "consigne": "Deux états qui alternent rapidement (« tantôt…, tantôt… »)",
@@ -6529,18 +6532,17 @@
  },
  "有 / 没有 + nom + verbe (连谓短语) — avoir le temps, l'argent de…": {
   "comprendre": {
-   "phrase_gras": "我今天**没有**时间**看电视**。",
+   "phrase_gras": "我**有**一件事**想问**你。",
    "question": "",
-   "reponse": "Deux verbes se suivent sans mot de liaison (没有时间 + 看电视) : « ne pas avoir le temps de regarder la télé ».",
-   "traduction": "Aujourd'hui, je n'ai pas le temps de regarder la télé."
+   "reponse": "Deux groupes verbaux se suivent sans mot de liaison (有一件事 + 想问你) : le second dit ce qu'on veut faire de la chose, « j'ai une chose à te demander ».",
+   "traduction": "J'ai quelque chose à te demander."
   },
   "utiliser": {
-   "consigne": "Dire qu'on n'a pas l'argent nécessaire pour faire quelque chose",
-   "francais": "Je n'ai pas d'argent pour acheter une voiture.",
-   "chinois": "我没有钱买车。",
+   "consigne": "Dire qu'on n'a pas la chose nécessaire pour faire quelque chose",
+   "francais": "Je n'ai pas de livre à lire.",
+   "chinois": "我没有书看。",
    "variantes": [
-    "我没钱买车。",
-    "我没有钱买汽车。"
+    "我没书看。"
    ]
   }
  },
@@ -6596,10 +6598,10 @@
  },
  "Adjectif + quantité（大了一点儿 / 晚了十分钟）— écart précis": {
   "comprendre": {
-   "phrase_gras": "你的手表**快了五分钟**。",
+   "phrase_gras": "火车**晚了二十分钟**。",
    "question": "",
-   "reponse": "L'adjectif suivi d'une quantité précise l'écart : ta montre est en avance de cinq minutes.",
-   "traduction": "Ta montre avance de cinq minutes."
+   "reponse": "L'adjectif suivi d'une quantité précise l'écart : le train a vingt minutes de retard.",
+   "traduction": "Le train a vingt minutes de retard."
   },
   "utiliser": {
    "consigne": "Dire qu'une chose dépasse un peu la bonne mesure (adjectif suivi d'une petite quantité)",
@@ -6700,11 +6702,11 @@
   },
   "utiliser": {
    "consigne": "Dire que deux choses sont identiques",
-   "francais": "Mon téléphone est le même que le tien.",
-   "chinois": "我的手机跟你的一样。",
+   "francais": "Mon ordinateur est le même que le tien.",
+   "chinois": "我的电脑跟你的一样。",
    "variantes": [
-    "我的手机和你的一样。",
-    "我的手机跟你的手机一样。"
+    "我的电脑和你的一样。",
+    "我的电脑跟你的电脑一样。"
    ]
   }
  },
@@ -6863,8 +6865,10 @@
   "utiliser": {
    "consigne": "Dites qu'un sentiment atteint un degré extrême (« on ne peut plus »), avec un complément de degré qui termine la phrase, sans exagération familière",
    "francais": "Maman était terriblement inquiète.",
-   "chinois": "妈妈担心得不得了。",
-   "variantes": []
+   "chinois": "妈妈着急得不得了。",
+   "variantes": [
+    "妈妈急得不得了。"
+   ]
   }
  },
  "V/Adj. + 得 + groupe verbal — au point de…": {
@@ -6892,10 +6896,10 @@
   },
   "utiliser": {
    "consigne": "Décrivez l'effet de la faim sur une partie du corps, avec une petite phrase complète (« tellement… que… »)",
-   "francais": "J'ai tellement faim que j'en ai mal au ventre.",
-   "chinois": "我饿得肚子都疼了。",
+   "francais": "J'ai tellement faim que j'en ai mal à la tête.",
+   "chinois": "我饿得头都疼了。",
    "variantes": [
-    "我饿得肚子疼。"
+    "我饿得头疼。"
    ]
   }
  },
@@ -6915,10 +6919,10 @@
  },
  "X 得要命 / 得要死 — terriblement, à en mourir": {
   "comprendre": {
-   "phrase_gras": "搬了一天家，我累**得要命**。",
+   "phrase_gras": "工作了一天，我累**得要命**。",
    "question": "",
    "reponse": "得要命, après l'adjectif, exprime un degré extrême avec exagération : « fatigué à en mourir ».",
-   "traduction": "Après une journée de déménagement, je suis mort de fatigue."
+   "traduction": "Après une journée de travail, je suis mort de fatigue."
   },
   "utiliser": {
    "consigne": "Exagérez une douleur « à en mourir », avec un complément introduit par une particule (pas la forme courte collée à l'adjectif)",
@@ -6931,10 +6935,10 @@
  },
  "还 / 再 / 又 — encore": {
   "comprendre": {
-   "phrase_gras": "他**又**迟到了。",
+   "phrase_gras": "他**又**感冒了。",
    "question": "又, 再 ou 还 : pourquoi 又 ici ?",
    "reponse": "又 + V + 了 : l'action s'est de nouveau produite, dans le passé ; 再 servirait pour une répétition à venir.",
-   "traduction": "Il est encore arrivé en retard."
+   "traduction": "Il a encore attrapé un rhume."
   },
   "utiliser": {
    "consigne": "Dites qu'une action se répétera plus tard (répétition à venir)",
@@ -6996,10 +7000,10 @@
  },
  "V + 到 / 见 / 完 / 好 — compléments de résultat": {
   "comprendre": {
-   "phrase_gras": "我找**到**我的手机了。",
+   "phrase_gras": "我找**到**我的钱包了。",
    "question": "",
    "reponse": "到 est un complément de résultat : chercher → trouver, l'action a abouti.",
-   "traduction": "J'ai retrouvé mon téléphone."
+   "traduction": "J'ai retrouvé mon portefeuille."
   },
   "utiliser": {
    "consigne": "Demandez si l'action est terminée (résultat : fini)",
@@ -7079,11 +7083,12 @@
    "traduction": "Pourquoi est-ce que tu oublies tout le temps tes clés ?"
   },
   "utiliser": {
-   "consigne": "Dites que vous allez refaire l'action entièrement, en recommençant depuis le début",
-   "francais": "Ce caractère est mal écrit, je vais le refaire depuis le début.",
-   "chinois": "这个字写得不好，我要重新写。",
+   "consigne": "Dites que cela vous arrive de temps à autre, mais rarement (adverbe de faible fréquence)",
+   "francais": "Il m'arrive, de temps en temps, d'aller au cinéma.",
+   "chinois": "我偶尔去看电影。",
    "variantes": [
-    "这个字写得不好，我要重新写一遍。"
+    "我偶尔也去看电影。",
+    "我偶尔会去看电影。"
    ]
   }
  },
@@ -7095,11 +7100,11 @@
    "traduction": "Il ne répond pas à ma question, et c'est exprès."
   },
   "utiliser": {
-   "consigne": "Dites que l'action est réciproque : chacun aide l'autre",
-   "francais": "Nous devons nous entraider.",
-   "chinois": "我们要互相帮助。",
+   "consigne": "Dites que l'action est réciproque : chacun apprend de l'autre",
+   "francais": "Nous devons apprendre les uns des autres.",
+   "chinois": "我们要互相学习。",
    "variantes": [
-    "我们应该互相帮助。"
+    "我们应该互相学习。"
    ]
   }
  },
@@ -7121,10 +7126,10 @@
  },
  "表扬 / 批评 + qqn + V — féliciter, reprocher à qqn de faire qqch": {
   "comprendre": {
-   "phrase_gras": "老师**表扬**他帮助同学。",
+   "phrase_gras": "老师**表扬**他认真听讲。",
    "question": "",
-   "reponse": "表扬 + personne + verbe : 他 est félicité et c'est lui qui fait l'action qui justifie l'éloge (aider ses camarades).",
-   "traduction": "Le professeur l'a félicité d'aider ses camarades."
+   "reponse": "表扬 + personne + verbe : 他 est félicité et c'est lui qui fait l'action qui justifie l'éloge (écouter attentivement en cours).",
+   "traduction": "Le professeur l'a félicité d'écouter attentivement en cours."
   },
   "utiliser": {
    "consigne": "Dites qu'on lui reproche ce qu'il fait, la personne critiquée étant aussi celle qui agit (sans mot de cause)",
@@ -7228,9 +7233,9 @@
  },
  "无论/不管…都/也… — quoi que / quel que soit": {
   "comprendre": {
-   "phrase_gras": "**无论**多忙，**都**要吃饭。",
+   "phrase_gras": "**不管**多忙，**都**要吃饭。",
    "question": "",
-   "reponse": "无论…都 : quelle que soit la condition (même très occupé), la conclusion ne change pas.",
+   "reponse": "不管…都 : quelle que soit la condition (même très occupé), la conclusion ne change pas.",
    "traduction": "Si occupé qu'on soit, il faut manger."
   },
   "utiliser": {
@@ -7245,10 +7250,10 @@
  },
  "V着V着 — tout en V-ant / alors qu'on était en train de V (un changement survient)": {
   "comprendre": {
-   "phrase_gras": "他**走着走着**，突然停了下来。",
+   "phrase_gras": "他**走着走着**，忽然想起了一件事。",
    "question": "",
-   "reponse": "V着V着 : pendant une action qui dure (marcher), un changement survient (il s'arrête soudain).",
-   "traduction": "Alors qu'il marchait, il s'est soudain arrêté."
+   "reponse": "V着V着 : pendant une action qui dure (marcher), un changement survient (il se souvient soudain de quelque chose).",
+   "traduction": "Alors qu'il marchait, il s'est soudain souvenu de quelque chose."
   },
   "utiliser": {
    "consigne": "Pendant une action qui dure (parler), un changement survient peu à peu",
@@ -7262,10 +7267,10 @@
  },
  "并 / 而 / 与 — et (conjonctions écrites)": {
   "comprendre": {
-   "phrase_gras": "她是一个聪明**而**可爱的女孩。",
+   "phrase_gras": "他写完了文章，**并**交给了老师。",
    "question": "",
-   "reponse": "而 (écrit) relie deux adjectifs qui s'additionnent : intelligente et adorable.",
-   "traduction": "C'est une fille intelligente et adorable."
+   "reponse": "并 (écrit) relie deux actions successives du même sujet : il a fini son article, puis l'a remis au professeur.",
+   "traduction": "Il a fini d'écrire son article et l'a remis au professeur."
   },
   "utiliser": {
    "consigne": "Reliez deux personnes avec une conjonction de style écrit (pas celle de l'oral)",
@@ -7278,17 +7283,17 @@
  },
  "此外 / 并且 / 而 — en outre, et de plus, alors que": {
   "comprendre": {
-   "phrase_gras": "南方人爱吃米饭，**而**北方人爱吃面条。",
+   "phrase_gras": "这家饭馆的菜很好吃，**并且**不贵。",
    "question": "",
-   "reponse": "而 entre deux propositions marque le contraste : « alors que, tandis que ».",
-   "traduction": "Les gens du Sud aiment le riz, alors que ceux du Nord préfèrent les nouilles."
+   "reponse": "并且 relie deux propositions et ajoute une information qui va dans le même sens : « et en plus ».",
+   "traduction": "Les plats de ce restaurant sont bons, et en plus ils ne sont pas chers."
   },
   "utiliser": {
    "consigne": "Ajoutez un nouvel argument en ouvrant une nouvelle proposition (« en outre »), style écrit",
-   "francais": "Ici, les transports sont pratiques ; en outre, les choses ne sont pas chères.",
-   "chinois": "这里交通很方便，此外，东西也不贵。",
+   "francais": "Ici, on est tout près du métro ; en outre, les choses ne sont pas chères.",
+   "chinois": "这里离地铁站很近，此外，东西也不贵。",
    "variantes": [
-    "这里交通很方便，此外，东西也很便宜。"
+    "这里离地铁站很近，此外，东西也很便宜。"
    ]
   }
  },
@@ -7314,10 +7319,12 @@
    "traduction": "Elle a dit joyeusement : « Super ! »"
   },
   "utiliser": {
-   "consigne": "Indiquez la manière (lentement, adjectif redoublé) devant le verbe, avec la particule qui convient",
-   "francais": "Rentrons tranquillement à pied.",
-   "chinois": "我们慢慢地走回家吧。",
-   "variantes": []
+   "consigne": "Indiquez la manière (bien, adjectif redoublé) devant le verbe, avec la particule qui convient",
+   "francais": "Il faut que tu te reposes bien.",
+   "chinois": "你要好好地休息。",
+   "variantes": [
+    "你应该好好地休息。"
+   ]
   }
  },
  "把 (bǎ) — structure de disposition": {
@@ -7388,10 +7395,12 @@
    "traduction": "Elle a très bien nettoyé la chambre."
   },
   "utiliser": {
-   "consigne": "Décrivez l'état de l'objet après l'action (en désordre), l'objet étant placé avant le verbe",
-   "francais": "Les enfants ont mis la salle de classe en désordre.",
-   "chinois": "孩子们把教室弄得很乱。",
-   "variantes": []
+   "consigne": "Décrivez l'état de l'objet après l'action (bien en ordre), l'objet étant placé avant le verbe",
+   "francais": "Les enfants ont très bien rangé la salle de classe.",
+   "chinois": "孩子们把教室收拾得很整齐。",
+   "variantes": [
+    "孩子们把教室收拾得整整齐齐的。"
+   ]
   }
  },
  "随着…（的发展）— avec / au fur et à mesure que": {
@@ -7419,9 +7428,11 @@
   },
   "utiliser": {
    "consigne": "Suggérez poliment une action légère, faite « un peu », sur un objet précis placé avant le verbe (verbe redoublé)",
-   "francais": "Fais donc un peu le ménage dans ta chambre.",
-   "chinois": "你把房间打扫打扫吧。",
-   "variantes": []
+   "francais": "Range donc un peu ta chambre.",
+   "chinois": "你把房间收拾收拾吧。",
+   "variantes": [
+    "你把房间收拾一下吧。"
+   ]
   }
  },
  "把 + objet + V + 了 — action menée à son terme (manger, vendre, oublier…)": {
@@ -7456,10 +7467,10 @@
  },
  "把 + objet + adverbial + V — place des adverbes dans la phrase en 把": {
   "comprendre": {
-   "phrase_gras": "请把椅子**往前**搬一搬。",
+   "phrase_gras": "请把椅子**往前**拉一拉。",
    "question": "",
    "reponse": "往前 (direction) se place obligatoirement entre l'objet de 把 et le verbe, car il porte sur l'action.",
-   "traduction": "Avance un peu la chaise, s'il te plaît."
+   "traduction": "Tire un peu la chaise vers l'avant, s'il te plaît."
   },
   "utiliser": {
    "consigne": "Dites que vous avez fini de lire la totalité de ces livres, l'objet étant placé avant le verbe",
@@ -7522,11 +7533,11 @@
    "traduction": "Cette grosse pluie a abîmé toutes les fleurs."
   },
   "utiliser": {
-   "consigne": "Présentez un phénomène naturel comme la cause qui agit sur un objet (la route bloquée)",
-   "francais": "La neige a bloqué la route.",
-   "chinois": "大雪把路堵住了。",
+   "consigne": "Présentez un phénomène naturel comme la cause qui agit sur un objet (l'arbre renversé)",
+   "francais": "Le vent violent a renversé l'arbre.",
+   "chinois": "大风把树刮倒了。",
    "variantes": [
-    "大雪把路都堵住了。"
+    "风把树刮倒了。"
    ]
   }
  },
@@ -7614,10 +7625,10 @@
  },
  "X就是了 — il suffit de…, c'est tout": {
   "comprendre": {
-   "phrase_gras": "有什么问题，你直接问我**就是了**。",
+   "phrase_gras": "有什么问题，你问我**就是了**。",
    "question": "",
    "reponse": "就是了 en fin de phrase donne un ton rassurant : « tu n'as qu'à…, c'est tout ».",
-   "traduction": "Si tu as une question, tu n'as qu'à me la poser directement."
+   "traduction": "Si tu as une question, tu n'as qu'à me la poser, c'est tout."
   },
   "utiliser": {
    "consigne": "Rassurez quelqu'un en promettant une solution simple (« …, c'est tout »)",
@@ -7730,10 +7741,12 @@
    "traduction": "Nous devrions tous prendre exemple sur lui."
   },
   "utiliser": {
-   "consigne": "Précisez le thème du livre avec une préposition (« au sujet de… »)",
-   "francais": "J'ai emprunté un livre sur l'histoire de la Chine.",
-   "chinois": "我借了一本关于中国历史的书。",
-   "variantes": []
+   "consigne": "Dites pour qui l'on agit, avec une préposition (« pour, au service de »)",
+   "francais": "Je suis très heureux de pouvoir être au service de tous.",
+   "chinois": "我很高兴能为大家服务。",
+   "variantes": [
+    "能为大家服务，我很高兴。"
+   ]
   }
  },
  "向 + direction + verbe — vers (direction du mouvement)": {
@@ -7800,15 +7813,15 @@
  },
  "Lieu + V着 + nom — phrase d'existence": {
   "comprendre": {
-   "phrase_gras": "墙上挂**着**一张地图。",
+   "phrase_gras": "教室里坐**着**很多学生。",
    "question": "",
-   "reponse": "Lieu + V着 + nom : décrit ce qui se trouve à cet endroit et dans quelle position (accrochée).",
-   "traduction": "Une carte est accrochée au mur."
+   "reponse": "Lieu + V着 + nom : décrit ce qui se trouve à cet endroit et dans quelle position (assis).",
+   "traduction": "Beaucoup d'étudiants sont assis dans la salle de classe."
   },
   "utiliser": {
    "consigne": "Décrivez ce qui se trouve à un endroit et dans quelle position, en commençant par le lieu",
-   "francais": "Deux personnes se tiennent à l'entrée.",
-   "chinois": "门口站着两个人。",
+   "francais": "Deux personnes se tiennent devant la porte.",
+   "chinois": "门外站着两个人。",
    "variantes": []
   }
  },
@@ -7879,9 +7892,11 @@
   },
   "utiliser": {
    "consigne": "Dites qu'une chose a quitté un lieu, en commençant la phrase par le lieu",
-   "francais": "Une voiture est partie de devant l'entrée.",
-   "chinois": "门口开走了一辆车。",
-   "variantes": []
+   "francais": "Une voiture est partie d'en bas de l'immeuble.",
+   "chinois": "楼下开走了一辆汽车。",
+   "variantes": [
+    "楼下开走了一辆车。"
+   ]
   }
  },
  "既…又… — à la fois… et… (并列关系, écrit)": {
@@ -7910,10 +7925,11 @@
   },
   "utiliser": {
    "consigne": "Dites qu'un lieu est rempli, en employant le nom de ce lieu comme classificateur",
-   "francais": "Toute une foule d'invités a rempli la maison.",
-   "chinois": "家里来了一屋子客人。",
+   "francais": "La salle de classe était remplie d'élèves.",
+   "chinois": "教室里坐了一教室的学生。",
    "variantes": [
-    "家里来了一屋子的客人。"
+    "教室里坐了一教室学生。",
+    "教室里有一教室的学生。"
    ]
   }
  },
@@ -7959,19 +7975,20 @@
   },
   "utiliser": {
    "consigne": "Exprimez le but en tête de phrase",
-   "francais": "Pour la santé, nous devrions manger moins salé.",
-   "chinois": "为了健康，我们应该少吃盐。",
+   "francais": "Pour ne pas être en retard, il se lève à six heures tous les jours.",
+   "chinois": "为了不迟到，他每天六点起床。",
    "variantes": [
-    "为了身体健康，我们应该少吃盐。"
+    "为了不迟到，他每天早上六点起床。",
+    "为了不迟到，他每天六点就起床。"
    ]
   }
  },
  "为 + cause / 为了 + but — à cause de, pour": {
   "comprendre": {
-   "phrase_gras": "别**为**我担心，我在这儿很好。",
+   "phrase_gras": "别**为**我着急，我在这儿很好。",
    "question": "为 introduit-il ici une cause ou un but ?",
    "reponse": "Une cause : devant un verbe de sentiment, 为 introduit ce qui provoque l'inquiétude (« pour moi, à cause de moi »).",
-   "traduction": "Ne t'inquiète pas pour moi, je vais très bien ici."
+   "traduction": "Ne te fais pas de souci pour moi, je vais très bien ici."
   },
   "utiliser": {
    "consigne": "Dites à cause de quoi il est fâché, en plaçant la cause devant le verbe de sentiment",
@@ -7984,18 +8001,17 @@
  },
  "在…上 / 下 / 中 — sur le plan de, sous l'effet de, au cours de": {
   "comprendre": {
-   "phrase_gras": "**在**大家的帮助**下**，他找到了工作。",
+   "phrase_gras": "**在**朋友的介绍**下**，他找到了工作。",
    "question": "",
-   "reponse": "在…下 pose la condition qui a rendu l'action possible : « avec l'aide de tout le monde ».",
-   "traduction": "Avec l'aide de tout le monde, il a trouvé du travail."
+   "reponse": "在…下 pose la condition qui a rendu l'action possible : « grâce à la recommandation d'un ami ».",
+   "traduction": "Grâce à la recommandation d'un ami, il a trouvé du travail."
   },
   "utiliser": {
    "consigne": "Situez l'action dans un domaine (« sur le plan de… »), en tête de phrase",
    "francais": "Pour les études, il m'aide souvent.",
-   "chinois": "在学习上，他常常帮助我。",
+   "chinois": "在学习上，他常常帮我。",
    "variantes": [
-    "在学习上，他经常帮助我。",
-    "在学习上，他常常帮我。"
+    "在学习上，他经常帮我。"
    ]
   }
  },
@@ -8025,10 +8041,10 @@
   },
   "utiliser": {
    "consigne": "Terminez un e-mail formel par un souhait poli pour le travail du destinataire",
-   "francais": "Je vous souhaite une bonne continuation dans votre travail !",
-   "chinois": "祝您工作顺利！",
+   "francais": "Je vous souhaite beaucoup de satisfaction dans votre travail !",
+   "chinois": "祝您工作愉快！",
    "variantes": [
-    "祝工作顺利！"
+    "祝工作愉快！"
    ]
   }
  },
@@ -8268,10 +8284,10 @@
  },
  "各 / 各位 / 各种 / 任何 / 此 — chaque, divers, n'importe quel, ce": {
   "comprendre": {
-   "phrase_gras": "**任何**问题**都**可以问我。",
+   "phrase_gras": "**各位**老师，**各位**同学，大家好！",
    "question": "",
-   "reponse": "任何 = n'importe quel, repris par 都 : toutes les questions sans exception.",
-   "traduction": "Tu peux me poser n'importe quelle question."
+   "reponse": "各位 = chacun de vous : formule polie pour s'adresser à tout un groupe (« chers professeurs, chers étudiants »).",
+   "traduction": "Chers professeurs, chers étudiants, bonjour à tous !"
   },
   "utiliser": {
    "consigne": "Dites « toutes sortes de »",
@@ -8291,19 +8307,19 @@
   },
   "utiliser": {
    "consigne": "Comptez ce tableau avec le classificateur qui lui est propre",
-   "francais": "Un tableau est accroché au mur.",
-   "chinois": "墙上挂着一幅画。",
+   "francais": "Un tableau est accroché dans la chambre.",
+   "chinois": "房间里挂着一幅画。",
    "variantes": [
-    "墙上挂了一幅画。"
+    "房间里挂了一幅画。"
    ]
   }
  },
  "场 / 顿 / 趟 — classificateurs verbaux": {
   "comprendre": {
-   "phrase_gras": "我明天要去**一趟**银行。",
+   "phrase_gras": "老师把他批评了**一顿**。",
    "question": "",
-   "reponse": "趟 compte un déplacement, un aller-retour : faire un saut à la banque.",
-   "traduction": "Demain, je dois faire un saut à la banque."
+   "reponse": "顿 compte les repas, mais aussi les réprimandes : le professeur lui a passé un savon.",
+   "traduction": "Le professeur l'a sévèrement réprimandé."
   },
   "utiliser": {
    "consigne": "Comptez cette pluie avec le classificateur verbal des événements qui durent un certain temps",
@@ -8373,10 +8389,10 @@
   },
   "utiliser": {
    "consigne": "Rassurez : ce n'est pas ce qui manque (expression d'abondance)",
-   "francais": "Ne t'en fais pas, les occasions ne manquent pas.",
-   "chinois": "别担心，机会有的是。",
+   "francais": "Sois tranquille, les occasions ne manquent pas.",
+   "chinois": "放心吧，机会有的是。",
    "variantes": [
-    "别担心，有的是机会。"
+    "放心吧，有的是机会。"
    ]
   }
  },
@@ -8399,7 +8415,7 @@
  },
  "A 不如 B（+ adjectif）— A est moins … que B": {
   "comprendre": {
-   "phrase_gras": "坐公交车**不如**坐地铁快。",
+   "phrase_gras": "坐公共汽车**不如**坐地铁快。",
    "question": "",
    "reponse": "A 不如 B + adjectif : A est moins … que B ; ici, le bus est moins rapide que le métro.",
    "traduction": "Prendre le bus est moins rapide que prendre le métro."
@@ -8533,10 +8549,10 @@
  },
  "V + 起来 — commencer à / semble… (complément directionnel figuratif)": {
   "comprendre": {
-   "phrase_gras": "她突然哭**起来**了。",
+   "phrase_gras": "听到这个消息，她哭**起来**了。",
    "question": "起来 a-t-il ici le sens de « commencer à » ou de « sembler » ?",
    "reponse": "« Commencer à » : 起来 marque le début de l'action, elle s'est mise à pleurer.",
-   "traduction": "Elle s'est soudainement mise à pleurer."
+   "traduction": "En apprenant cette nouvelle, elle s'est mise à pleurer."
   },
   "utiliser": {
    "consigne": "Donnez l'impression que produit ce plat quand on le sent (« à l'odeur, il semble… »)",
@@ -8669,17 +8685,17 @@
  },
  "对…有益/有害/有影响 — avoir un effet sur": {
   "comprendre": {
-   "phrase_gras": "多听中文歌**对**学汉语很**有帮助**。",
+   "phrase_gras": "多听中文歌**对**学汉语很**有益**。",
    "question": "",
-   "reponse": "对 + domaine + 有帮助 = être utile à : écouter des chansons aide à apprendre le chinois.",
+   "reponse": "对 + domaine + 有益 = être bon, utile pour : écouter des chansons aide à apprendre le chinois.",
    "traduction": "Écouter souvent des chansons chinoises est très utile pour apprendre le chinois."
   },
   "utiliser": {
-   "consigne": "Dites que quelque chose a une influence sur quelqu'un, avec la préposition qui introduit la personne touchée",
-   "francais": "Cette décision a une influence sur tout le monde.",
-   "chinois": "这个决定对大家都有影响。",
+   "consigne": "Dites que quelque chose est nuisible, avec la préposition qui introduit ce qui est touché",
+   "francais": "Fumer est nuisible à la santé.",
+   "chinois": "抽烟对身体有害。",
    "variantes": [
-    "这个决定对每个人都有影响。"
+    "抽烟对身体很有害。"
    ]
   }
  },
@@ -8794,10 +8810,10 @@
   },
   "utiliser": {
    "consigne": "Formez un nom de processus en « -isation »",
-   "francais": "Avec le développement de l'urbanisation, la population rurale diminue de plus en plus.",
-   "chinois": "随着城市化的发展，农村人口越来越少。",
+   "francais": "Avec l'accélération de l'urbanisation, la population rurale diminue de plus en plus.",
+   "chinois": "随着城市化的加快，农村人口越来越少。",
    "variantes": [
-    "随着城市化的发展，农村的人口越来越少。"
+    "随着城市化的加快，农村的人口越来越少。"
    ]
   }
  },
@@ -8845,9 +8861,9 @@
   "utiliser": {
    "consigne": "Proposez deux possibilités équivalentes dans une affirmation, avec « ou » répété",
    "francais": "Soit tu viens, soit j'y vais : les deux me vont.",
-   "chinois": "或者你来，或者我去，都可以。",
+   "chinois": "或者你来，或者我去，都行。",
    "variantes": [
-    "或者你来，或者我去，都行。"
+    "或者你来我这儿，或者我去你那儿，都行。"
    ]
   }
  },
@@ -8877,19 +8893,19 @@
   "utiliser": {
    "consigne": "Imposez un choix entre deux options qui s'excluent",
    "francais": "Soit tu acceptes, soit tu refuses.",
-   "chinois": "你要么接受，要么拒绝。",
+   "chinois": "你要么答应，要么拒绝。",
    "variantes": [
-    "要么你接受，要么你拒绝。",
-    "要么接受，要么拒绝。"
+    "要么你答应，要么你拒绝。",
+    "要么答应，要么拒绝。"
    ]
   }
  },
  "不得不 — être obligé de / ne pas pouvoir ne pas": {
   "comprendre": {
-   "phrase_gras": "他**不得不**接受这个结果。",
+   "phrase_gras": "他**不得不**离开自己的家乡。",
    "question": "",
-   "reponse": "不得不 = ne pas pouvoir ne pas : il est contraint d'accepter, bon gré mal gré.",
-   "traduction": "Il a été obligé d'accepter ce résultat."
+   "reponse": "不得不 = ne pas pouvoir ne pas : il est contraint de partir, bon gré mal gré.",
+   "traduction": "Il a été obligé de quitter sa région natale."
   },
   "utiliser": {
    "consigne": "Dites qu'on a été contraint de faire quelque chose, avec une double négation",
@@ -9220,20 +9236,19 @@
  },
  "虽然…但是/却… — bien que…cependant…": {
   "comprendre": {
-   "phrase_gras": "她**虽然**年轻，经验**却**很丰富。",
+   "phrase_gras": "这个菜**虽然**很贵，**但是**很好吃。",
    "question": "",
-   "reponse": "虽然 concède un fait (elle est jeune) ; 却, placé après le sujet de la seconde proposition, introduit le contraste : elle a beaucoup d'expérience.",
-   "traduction": "Bien qu'elle soit jeune, elle a beaucoup d'expérience."
+   "reponse": "虽然 concède un fait (le plat est cher) ; 但是, en tête de la seconde proposition, introduit le contraste : il est très bon.",
+   "traduction": "Bien que ce plat soit cher, il est très bon."
   },
   "utiliser": {
    "consigne": "Exprimez une concession : un fait reconnu, puis la réalité qui va contre (« bien que…, … »), avec un mot de liaison dans chaque proposition",
-   "francais": "Bien qu'il soit très fatigué, il veut continuer à travailler.",
-   "chinois": "他虽然很累，但是还想继续工作。",
+   "francais": "Bien qu'il soit très fatigué, il est encore en train de travailler.",
+   "chinois": "他虽然很累，但是还在工作。",
    "variantes": [
-    "虽然他很累，但是还想继续工作。",
-    "他虽然很累，可是还想继续工作。",
-    "他虽然很累，但还想继续工作。",
-    "他虽然很累，却还想继续工作。"
+    "虽然他很累，但是还在工作。",
+    "他虽然很累，可是还在工作。",
+    "他虽然很累，但还在工作。"
    ]
   }
  },
@@ -9417,21 +9432,21 @@
    "traduction": "D'après la météo, il va pleuvoir demain."
   },
   "utiliser": {
-   "consigne": "Indiquez l'œuvre ou le document sur lequel une chose s'appuie (« d'après »)",
-   "francais": "Ce film a été tourné d'après un roman.",
-   "chinois": "这个电影是根据一本小说拍的。",
+   "consigne": "Indiquez ce sur quoi une œuvre s'appuie (« d'après »)",
+   "francais": "Ce roman a été écrit d'après une histoire vraie.",
+   "chinois": "这本小说是根据一件真事写的。",
    "variantes": [
-    "这部电影是根据一本小说拍的。",
-    "这个电影是根据小说拍的。"
+    "这本小说是根据真事写的。",
+    "这部小说是根据一件真事写的。"
    ]
   }
  },
  "在 + qqn + 看来 — selon qqn, à ses yeux": {
   "comprendre": {
-   "phrase_gras": "**在**父母**看来**，孩子永远是孩子。",
+   "phrase_gras": "**在**父母**看来**，孩子不管多大都还是孩子。",
    "question": "",
    "reponse": "在…看来 présente l'opinion comme le point de vue des parents : à leurs yeux.",
-   "traduction": "Aux yeux des parents, un enfant reste toujours un enfant."
+   "traduction": "Aux yeux des parents, un enfant reste un enfant, quel que soit son âge."
   },
   "utiliser": {
    "consigne": "Donnez votre avis en le présentant comme votre point de vue (« à mes yeux »), en tête de phrase",
@@ -9496,17 +9511,17 @@
  },
  "是 + jugement + 的 — affirmer un avis avec conviction": {
   "comprendre": {
-   "phrase_gras": "他**是**不会同意**的**。",
+   "phrase_gras": "他**是**不会来**的**。",
    "question": "Ici, 是…的 met-il en relief une circonstance d'une action passée ?",
-   "reponse": "Non : il encadre un jugement pour l'affirmer avec conviction (il ne sera pas d'accord, j'en suis sûr).",
-   "traduction": "Il ne sera jamais d'accord, j'en suis sûr."
+   "reponse": "Non : il encadre un jugement pour l'affirmer avec conviction (il ne viendra pas, j'en suis sûr).",
+   "traduction": "Il ne viendra pas, j'en suis sûr."
   },
   "utiliser": {
    "consigne": "Rassurez quelqu'un en affirmant avec conviction qu'une chose est possible (tournure d'insistance qui encadre le jugement)",
-   "francais": "Ce problème peut tout à fait être résolu.",
-   "chinois": "这个问题是可以解决的。",
+   "francais": "Le chinois, on peut tout à fait arriver à bien l'apprendre.",
+   "chinois": "中文是可以学好的。",
    "variantes": [
-    "这个问题是能解决的。"
+    "中文是能学好的。"
    ]
   }
  },
@@ -9537,12 +9552,12 @@
   },
   "utiliser": {
    "consigne": "Exprimez une condition suffisante (« du moment que…, il suffit que… »)",
-   "francais": "Du moment qu'on persévère, on réussira.",
-   "chinois": "只要坚持，就能成功。",
+   "francais": "Du moment qu'on persévère, on arrivera à bien apprendre le chinois.",
+   "chinois": "只要坚持，就能学好中文。",
    "variantes": [
-    "只要坚持，就会成功。",
-    "只要我们坚持，就能成功。",
-    "只要坚持下去，就能成功。"
+    "只要坚持，就会学好中文。",
+    "只要我们坚持，就能学好中文。",
+    "只要坚持下去，就能学好中文。"
    ]
   }
  },
@@ -9584,17 +9599,17 @@
  },
  "对…来说 vs 对…而言 — pour quelqu'un / selon": {
   "comprendre": {
-   "phrase_gras": "**对**初学者**而言**，这本书太难了。",
-   "question": "Pourquoi 而言 et non 来说 ?",
-   "reponse": "Même sens (« pour les débutants ») : 对…而言 est simplement plus soutenu, plus écrit ; à l'oral on dirait 对…来说.",
+   "phrase_gras": "**对**初学者**来说**，这本书太难了。",
+   "question": "De quel point de vue ce jugement est-il vrai ?",
+   "reponse": "Du point de vue des débutants : 对…来说 (« pour… ») indique pour qui le jugement vaut. C'est la tournure courante, à l'oral comme à l'écrit.",
    "traduction": "Pour les débutants, ce livre est trop difficile."
   },
   "utiliser": {
    "consigne": "Dites pour qui une chose est vraie (« pour moi »), dans un registre courant",
-   "francais": "Pour moi, la santé est plus importante que l'argent.",
-   "chinois": "对我来说，健康比钱更重要。",
+   "francais": "Pour moi, le temps est plus important que l'argent.",
+   "chinois": "对我来说，时间比钱更重要。",
    "variantes": [
-    "对我来说，健康比钱重要。"
+    "对我来说，时间比钱重要。"
    ]
   }
  },
@@ -10081,7 +10096,7 @@
  },
  "虽…，但/可/却/也… — bien que (forme écrite avec 虽)": {
   "comprendre": {
-   "phrase_gras": "他**虽**已年过六十，**却**仍然每天坚持跑步。",
+   "phrase_gras": "他**虽**已年过六十，**却**仍每天坚持跑步。",
    "question": "",
    "reponse": "虽, forme écrite de 虽然 placée après le sujet, concède un fait (il a plus de soixante ans) ; 却 introduit ce qui va contre : il court encore tous les jours.",
    "traduction": "Bien qu'il ait déjà plus de soixante ans, il continue à courir tous les jours."

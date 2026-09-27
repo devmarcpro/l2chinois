@@ -1,0 +1,1578 @@
+[
+ {
+  "mot": "北面",
+  "pinyin": "běi miàn",
+  "sens": "nord ; côté nord (de)",
+  "exemple": "学校的北面有一个公园。",
+  "traduction": "Au nord de l'école, il y a un parc.",
+  "note": "Synonyme de 北边 ; sur le même modèle : 南面, 东面, 西面."
+ },
+ {
+  "mot": "特别是",
+  "pinyin": "tè bié shì",
+  "sens": "surtout ; en particulier",
+  "exemple": "我喜欢吃水果，特别是苹果。",
+  "traduction": "J'aime les fruits, surtout les pommes.",
+  "note": "Met en avant un élément après une idée générale ; se place en tête du second membre de phrase."
+ },
+ {
+  "mot": "得病",
+  "pinyin": "dé bìng",
+  "sens": "tomber malade ; contracter une maladie (v.)",
+  "exemple": "他得病了，今天没来上课。",
+  "traduction": "Il est tombé malade, il n'est pas venu en cours aujourd'hui.",
+  "note": "Verbe séparable : 得了一场大病 ; plus courant à l'oral : 生病."
+ },
+ {
+  "mot": "从。。。到。。。",
+  "pinyin": "cóng dào",
+  "sens": "de... à... ; depuis... jusqu'à...",
+  "exemple": "我从八点到十二点上课。",
+  "traduction": "J'ai cours de huit heures à midi.",
+  "note": "S'emploie pour le temps comme pour l'espace : 从北京到上海 (de Pékin à Shanghai)."
+ },
+ {
+  "mot": "打网球",
+  "pinyin": "dǎ wǎng qiú",
+  "sens": "jouer au tennis",
+  "exemple": "周末我常常和朋友打网球。",
+  "traduction": "Le week-end, je joue souvent au tennis avec des amis.",
+  "note": "打 s'emploie pour les sports de balle joués à la main ou à la raquette (打篮球, 打乒乓球), mais on dit 踢足球."
+ },
+ {
+  "mot": "多大",
+  "pinyin": "duō dà",
+  "sens": "quel âge ; quelle taille, quelle grandeur",
+  "exemple": "你今年多大？",
+  "traduction": "Quel âge as-tu cette année ?",
+  "note": "Pour l'âge d'un jeune ou d'un adulte ; à un enfant on demande 几岁, à une personne âgée 多大年纪."
+ },
+ {
+  "mot": "麦当劳",
+  "pinyin": "mài dāng láo",
+  "sens": "McDonald's",
+  "exemple": "我们中午去麦当劳吃饭吧。",
+  "traduction": "Allons manger chez McDonald's à midi.",
+  "note": "Nom de marque transcrit d'après le son ; KFC se dit 肯德基."
+ },
+ {
+  "mot": "什么的",
+  "pinyin": "shén me de",
+  "sens": "etc. ; et ainsi de suite (oral)",
+  "exemple": "我买了苹果、牛奶、面包什么的。",
+  "traduction": "J'ai acheté des pommes, du lait, du pain, etc.",
+  "note": "Oral, en fin d'énumération ; à l'écrit on dit plutôt 等 ou 等等."
+ },
+ {
+  "mot": "伦敦",
+  "pinyin": "lún dūn",
+  "sens": "Londres",
+  "exemple": "我哥哥在伦敦工作。",
+  "traduction": "Mon grand frère travaille à Londres.",
+  "note": ""
+ },
+ {
+  "mot": "老二",
+  "pinyin": "lǎo èr",
+  "sens": "le deuxième enfant (d'une fratrie)",
+  "exemple": "我家有三个孩子，我是老二。",
+  "traduction": "Nous sommes trois enfants dans ma famille ; je suis le deuxième.",
+  "note": "Sur le même modèle : 老大 (l'aîné), 老三 (le troisième)… ; le plus jeune se dit 老小."
+ },
+ {
+  "mot": "法文",
+  "pinyin": "fǎ wén",
+  "sens": "français (langue, surtout écrite)",
+  "exemple": "这本书是法文的。",
+  "traduction": "Ce livre est en français.",
+  "note": "法文 insiste sur l'écrit, 法语 sur la langue parlée ; dans l'usage courant, les deux se remplacent souvent."
+ },
+ {
+  "mot": "理发师",
+  "pinyin": "lǐ fà shī",
+  "sens": "coiffeur, coiffeuse",
+  "exemple": "我姐姐是理发师。",
+  "traduction": "Ma grande sœur est coiffeuse.",
+  "note": "理发 (couper les cheveux) + 师 (maître d'un métier), comme 厨师 (cuisinier)."
+ },
+ {
+  "mot": "分公司",
+  "pinyin": "fēn gōng sī",
+  "sens": "filiale ; succursale (d'une entreprise)",
+  "exemple": "他在北京的分公司工作。",
+  "traduction": "Il travaille à la filiale de Pékin.",
+  "note": "分 + nom = une branche de… : 分店 (succursale d'un magasin), 分校 (annexe d'une école)."
+ },
+ {
+  "mot": "卢浮宫",
+  "pinyin": "lú fú gōng",
+  "sens": "le Louvre (musée)",
+  "exemple": "我们明天去卢浮宫参观。",
+  "traduction": "Demain, nous allons visiter le Louvre.",
+  "note": "宫 = palais : le Louvre était un palais royal."
+ },
+ {
+  "mot": "贵姓",
+  "pinyin": "guì xìng",
+  "sens": "votre nom de famille (formule de politesse)",
+  "exemple": "您贵姓？",
+  "traduction": "Quel est votre nom de famille, s'il vous plaît ?",
+  "note": "Sert seulement à demander poliment le nom de l'autre ; on répond 我姓王, jamais 我贵姓."
+ },
+ {
+  "mot": "很少",
+  "pinyin": "hěn shǎo",
+  "sens": "rarement ; très peu (de)",
+  "exemple": "他很少喝咖啡。",
+  "traduction": "Il boit rarement du café.",
+  "note": "Devant un verbe : rarement (很少去) ; en prédicat : il y a peu de (人很少)."
+ },
+ {
+  "mot": "广东话",
+  "pinyin": "guǎng dōng huà",
+  "sens": "cantonais (langue)",
+  "exemple": "他会说广东话。",
+  "traduction": "Il sait parler cantonais.",
+  "note": "Synonyme plus savant : 粤语 ; 广东 = province du Guangdong (Canton)."
+ },
+ {
+  "mot": "画画儿",
+  "pinyin": "huà huà ér",
+  "sens": "dessiner ; peindre, faire de la peinture",
+  "exemple": "我妹妹很喜欢画画儿。",
+  "traduction": "Ma petite sœur adore dessiner.",
+  "note": "Verbe séparable (verbe 画 + nom 画儿) : 画一张画儿."
+ },
+ {
+  "mot": "金黄",
+  "pinyin": "jīn huáng",
+  "sens": "doré ; jaune d'or",
+  "exemple": "秋天的树叶是金黄的。",
+  "traduction": "En automne, les feuilles sont dorées.",
+  "note": "Souvent suivi de 色 : 金黄色 ; se dit des blés, des feuilles d'automne, d'un plat bien doré."
+ },
+ {
+  "mot": "南京",
+  "pinyin": "nán jīng",
+  "sens": "Nankin (Nanjing)",
+  "exemple": "我去过南京。",
+  "traduction": "Je suis déjà allé à Nankin.",
+  "note": "Littéralement « capitale du Sud », par opposition à 北京 « capitale du Nord » ; chef-lieu du Jiangsu."
+ },
+ {
+  "mot": "文静",
+  "pinyin": "wén jìng",
+  "sens": "calme et doux ; posé, réservé (caractère)",
+  "exemple": "她是一个很文静的女孩子。",
+  "traduction": "C'est une fille très calme et posée.",
+  "note": "Qualifie le tempérament d'une personne ; ≠ 安静 (silencieux, pour un lieu ou un moment)."
+ },
+ {
+  "mot": "卡拉OK",
+  "pinyin": "kǎ lā OK",
+  "sens": "karaoké",
+  "exemple": "周末我们去唱卡拉OK吧！",
+  "traduction": "Allons chanter au karaoké ce week-end !",
+  "note": "S'emploie avec 唱 : 唱卡拉OK ; familièrement : 唱K."
+ },
+ {
+  "mot": "开门",
+  "pinyin": "kāi mén",
+  "sens": "ouvrir la porte ; ouvrir (magasin, établissement)",
+  "exemple": "这个商店早上九点开门。",
+  "traduction": "Ce magasin ouvre à neuf heures du matin.",
+  "note": "Verbe séparable : 开了门 ; contraire : 关门 (fermer)."
+ },
+ {
+  "mot": "刻钟",
+  "pinyin": "kè zhōng",
+  "sens": "quart d'heure",
+  "exemple": "我等了你一刻钟。",
+  "traduction": "Je t'ai attendu un quart d'heure.",
+  "note": "S'emploie après un nombre pour une durée : 一刻钟, 三刻钟 ; pour dire l'heure, 八点一刻 (sans 钟)."
+ },
+ {
+  "mot": "奶酪",
+  "pinyin": "nǎi lào",
+  "sens": "fromage",
+  "exemple": "法国人很喜欢吃奶酪。",
+  "traduction": "Les Français aiment beaucoup le fromage.",
+  "note": "Synonyme : 芝士 (emprunt à l'anglais « cheese »)."
+ },
+ {
+  "mot": "马赛",
+  "pinyin": "mǎ sài",
+  "sens": "Marseille",
+  "exemple": "马赛在法国的南部。",
+  "traduction": "Marseille se trouve dans le sud de la France.",
+  "note": ""
+ },
+ {
+  "mot": "右面",
+  "pinyin": "yòu mian",
+  "sens": "droite ; à droite ; côté droit",
+  "exemple": "银行在书店的右面。",
+  "traduction": "La banque est à droite de la librairie.",
+  "note": "Synonyme : 右边 ; contraire : 左面."
+ },
+ {
+  "mot": "圣母院",
+  "pinyin": "shèng mǔ yuàn",
+  "sens": "Notre-Dame (cathédrale)",
+  "exemple": "巴黎圣母院很有名。",
+  "traduction": "Notre-Dame de Paris est très célèbre.",
+  "note": "Nom complet : 巴黎圣母院 ; 圣母 = la Vierge."
+ },
+ {
+  "mot": "尼斯",
+  "pinyin": "ní sī",
+  "sens": "Nice (ville)",
+  "exemple": "我去过尼斯，那儿的海很漂亮。",
+  "traduction": "Je suis déjà allé à Nice, la mer y est très belle.",
+  "note": ""
+ },
+ {
+  "mot": "水牛",
+  "pinyin": "shuǐ niú",
+  "sens": "buffle (d'eau)",
+  "exemple": "村子里有很多水牛。",
+  "traduction": "Il y a beaucoup de buffles dans le village.",
+  "note": "Classificateur 头 (一头水牛) ; ≠ 黄牛 (bœuf, vache)."
+ },
+ {
+  "mot": "日文",
+  "pinyin": "rì wén",
+  "sens": "japonais (langue, surtout écrite)",
+  "exemple": "这本书是日文的，我看不懂。",
+  "traduction": "Ce livre est en japonais, je ne le comprends pas.",
+  "note": "Comme 法文 / 法语 : 日文 insiste sur l'écrit, 日语 sur la langue parlée."
+ },
+ {
+  "mot": "试试",
+  "pinyin": "shì shi",
+  "sens": "essayer (un peu) ; tenter",
+  "exemple": "这件衣服很漂亮，你试试吧！",
+  "traduction": "Ce vêtement est très joli, essaie-le !",
+  "note": "Redoublement de 试 : adoucit l'action ; équivaut à 试一试 ou 试一下."
+ },
+ {
+  "mot": "写字",
+  "pinyin": "xiě zì",
+  "sens": "écrire (des caractères)",
+  "exemple": "他写字写得很漂亮。",
+  "traduction": "Il a une très belle écriture.",
+  "note": "Verbe séparable : 写了三个字 ; avec un complément de degré, on répète le verbe : 写字写得很好."
+ },
+ {
+  "mot": "信纸",
+  "pinyin": "xìn zhǐ",
+  "sens": "papier à lettres",
+  "exemple": "我买了一些信纸和信封。",
+  "traduction": "J'ai acheté du papier à lettres et des enveloppes.",
+  "note": "Classificateur 张 (一张信纸) ; 信封 = enveloppe."
+ },
+ {
+  "mot": "安居乐业",
+  "pinyin": "ān jū lè yè",
+  "sens": "vivre en paix et travailler dans la joie ; mener une vie paisible",
+  "exemple": "老百姓都希望安居乐业。",
+  "traduction": "Les gens ordinaires souhaitent tous vivre en paix et travailler sereinement.",
+  "note": "Expression à quatre caractères (成语), registre soutenu ; décrit une société stable et prospère."
+ },
+ {
+  "mot": "八零后",
+  "pinyin": "bā líng hòu",
+  "sens": "génération des années 1980 ; personne née dans les années 1980",
+  "exemple": "我哥哥是八零后。",
+  "traduction": "Mon grand frère est de la génération des années 80.",
+  "note": "S'écrit d'habitude 80后 ; de même 90后, 00后 pour les générations suivantes."
+ },
+ {
+  "mot": "白糖",
+  "pinyin": "bái táng",
+  "sens": "sucre blanc ; sucre en poudre",
+  "exemple": "我喝咖啡不放白糖。",
+  "traduction": "Je ne mets pas de sucre dans mon café.",
+  "note": "≠ 红糖 (sucre roux), 冰糖 (sucre candi)."
+ },
+ {
+  "mot": "办公桌",
+  "pinyin": "bàn gōng zhuō",
+  "sens": "bureau (meuble)",
+  "exemple": "我的办公桌上有一台电脑。",
+  "traduction": "Il y a un ordinateur sur mon bureau.",
+  "note": "Le meuble ; la pièce où l'on travaille se dit 办公室."
+ },
+ {
+  "mot": "暴风雪",
+  "pinyin": "bào fēng xuě",
+  "sens": "tempête de neige ; blizzard",
+  "exemple": "昨天晚上有暴风雪，飞机都不能起飞。",
+  "traduction": "Hier soir, il y a eu une tempête de neige : aucun avion n'a pu décoller.",
+  "note": "暴风 (tempête) + 雪 (neige) ; de même 暴风雨 (tempête de pluie, orage violent)."
+ },
+ {
+  "mot": "北郊",
+  "pinyin": "běi jiāo",
+  "sens": "banlieue nord ; environs nord (d'une ville)",
+  "exemple": "他家住在北京的北郊。",
+  "traduction": "Sa famille habite dans la banlieue nord de Pékin.",
+  "note": "郊 = banlieue, environs (郊区) ; de même 南郊, 东郊, 西郊."
+ },
+ {
+  "mot": "笔记本电脑",
+  "pinyin": "bǐ jì běn diàn nǎo",
+  "sens": "ordinateur portable",
+  "exemple": "我买了一台新的笔记本电脑。",
+  "traduction": "J'ai acheté un nouvel ordinateur portable.",
+  "note": "Souvent abrégé en 笔记本 (qui veut aussi dire « cahier ») ; classificateur 台."
+ },
+ {
+  "mot": "表兄妹",
+  "pinyin": "biǎo xiōng mèi",
+  "sens": "cousin et cousine",
+  "exemple": "他们俩是表兄妹。",
+  "traduction": "Ils sont cousins tous les deux.",
+  "note": "表 : cousins par une femme de la famille (côté mère, ou sœur du père) ; 堂 : cousins par les frères du père (堂兄妹)."
+ },
+ {
+  "mot": "并不",
+  "pinyin": "bìng bù",
+  "sens": "pas du tout ; nullement ; (en réalité) ne... pas",
+  "exemple": "这个问题并不难。",
+  "traduction": "Cette question n'est pas du tout difficile.",
+  "note": "并 renforce la négation pour contredire une idée reçue ; s'emploie aussi devant 没有 : 我并没有忘记。"
+ },
+ {
+  "mot": "不合",
+  "pinyin": "bù hé",
+  "sens": "ne pas convenir à ; ne pas correspondre à",
+  "exemple": "这个菜不合我的口味。",
+  "traduction": "Ce plat n'est pas à mon goût.",
+  "note": "Suivi d'un nom : 不合口味 (pas au goût de), 不合要求 (ne pas répondre aux exigences)."
+ },
+ {
+  "mot": "不巧",
+  "pinyin": "bù qiǎo",
+  "sens": "malheureusement ; pas de chance, ça tombe mal",
+  "exemple": "真不巧，他刚出去了。",
+  "traduction": "Pas de chance, il vient juste de sortir.",
+  "note": "Souvent dans 真不巧 ou 不巧的是… ; contraire : 真巧 (quelle coïncidence)."
+ },
+ {
+  "mot": "不时地",
+  "pinyin": "bù shí de",
+  "sens": "de temps en temps ; par moments",
+  "exemple": "他一边看书，一边不时地看看手表。",
+  "traduction": "Tout en lisant, il regarde sa montre de temps en temps.",
+  "note": "Plutôt écrit ; 地 relie l'adverbe au verbe et peut s'omettre : 不时看表."
+ },
+ {
+  "mot": "不是。。。就是。。。",
+  "pinyin": "bú shì jiù shì",
+  "sens": "soit... soit... ; ou bien... ou bien...",
+  "exemple": "周末他不是看书，就是看电影。",
+  "traduction": "Le week-end, soit il lit, soit il regarde un film.",
+  "note": "Il n'y a que ces deux possibilités ; ≠ 不是。。。而是。。。 (non pas... mais...)."
+ },
+ {
+  "mot": "不停地",
+  "pinyin": "bù tíng de",
+  "sens": "sans arrêt ; sans cesse",
+  "exemple": "孩子不停地哭。",
+  "traduction": "L'enfant pleure sans arrêt.",
+  "note": "地 relie l'adverbe au verbe qui suit ; synonyme : 一直."
+ },
+ {
+  "mot": "布鞋",
+  "pinyin": "bù xié",
+  "sens": "chaussures en tissu",
+  "exemple": "爷爷喜欢穿布鞋。",
+  "traduction": "Grand-père aime porter des chaussures en tissu.",
+  "note": "布 = tissu, étoffe ; classificateur 双 (一双布鞋)."
+ },
+ {
+  "mot": "餐巾",
+  "pinyin": "cān jīn",
+  "sens": "serviette de table",
+  "exemple": "请把餐巾放在桌子上。",
+  "traduction": "Pose la serviette sur la table, s'il te plaît.",
+  "note": "Serviette en papier : 餐巾纸 ; ≠ 毛巾 (serviette de toilette)."
+ },
+ {
+  "mot": "茶树",
+  "pinyin": "chá shù",
+  "sens": "théier",
+  "exemple": "山上有很多茶树。",
+  "traduction": "Il y a beaucoup de théiers sur la montagne.",
+  "note": "Classificateur 棵 (一棵茶树) ; ses feuilles donnent le thé (茶叶)."
+ },
+ {
+  "mot": "长篇小说",
+  "pinyin": "cháng piān xiǎo shuō",
+  "sens": "roman",
+  "exemple": "他写了一部长篇小说。",
+  "traduction": "Il a écrit un roman.",
+  "note": "Classificateur 部 ; ≠ 短篇小说 (nouvelle), 中篇小说 (court roman)."
+ },
+ {
+  "mot": "出门在外",
+  "pinyin": "chū mén zài wài",
+  "sens": "être loin de chez soi ; être en voyage",
+  "exemple": "出门在外，要注意身体。",
+  "traduction": "Quand on est loin de chez soi, il faut prendre soin de sa santé.",
+  "note": "Expression figée, souvent en tête de phrase ; 出门 = sortir, partir de chez soi."
+ },
+ {
+  "mot": "床头",
+  "pinyin": "chuáng tóu",
+  "sens": "tête de lit ; chevet",
+  "exemple": "我的手机放在床头。",
+  "traduction": "Mon téléphone est posé à mon chevet.",
+  "note": "Table de chevet : 床头柜 ; ≠ 床尾 (pied du lit)."
+ },
+ {
+  "mot": "春晚",
+  "pinyin": "chūn wǎn",
+  "sens": "gala de la fête du Printemps (émission télévisée du réveillon)",
+  "exemple": "大年三十晚上，我们全家一起看春晚。",
+  "traduction": "Le soir du réveillon, toute la famille regarde ensemble le gala du Nouvel An.",
+  "note": "Abréviation de 春节联欢晚会, diffusé par la télévision centrale (CCTV) le soir du réveillon."
+ },
+ {
+  "mot": "从。。。起",
+  "pinyin": "cóng qǐ",
+  "sens": "à partir de ; dès",
+  "exemple": "从明天起，我每天早上跑步。",
+  "traduction": "À partir de demain, je cours tous les matins.",
+  "note": "Marque le point de départ dans le temps ; variante : 从。。。开始 (从下个月开始)."
+ },
+ {
+  "mot": "村子",
+  "pinyin": "cūn zi",
+  "sens": "village",
+  "exemple": "他们的村子在山下。",
+  "traduction": "Leur village est au pied de la montagne.",
+  "note": "Plus oral que 村 ; 农村 désigne la campagne en général, 村子 un village précis."
+ },
+ {
+  "mot": "打的",
+  "pinyin": "dǎ dī",
+  "sens": "prendre un taxi",
+  "exemple": "太晚了，我们打的回家吧。",
+  "traduction": "Il est trop tard, rentrons en taxi.",
+  "note": "Oral, verbe séparable (打了个的) ; 的 (dī) vient de 的士 (taxi) ; synonyme : 坐出租车."
+ },
+ {
+  "mot": "打蛋机",
+  "pinyin": "dǎ dàn jī",
+  "sens": "batteur électrique (pour les œufs)",
+  "exemple": "用打蛋机把鸡蛋打一下。",
+  "traduction": "Bats les œufs avec le batteur.",
+  "note": "打鸡蛋 = battre des œufs ; 机 = machine, appareil."
+ },
+ {
+  "mot": "大年三十",
+  "pinyin": "dà nián sān shí",
+  "sens": "réveillon du Nouvel An chinois ; dernier jour de l'année lunaire",
+  "exemple": "大年三十晚上，全家人一起吃饭。",
+  "traduction": "Le soir du réveillon, toute la famille dîne ensemble.",
+  "note": "Le 30 du dernier mois lunaire ; appelé aussi 除夕."
+ },
+ {
+  "mot": "大声地",
+  "pinyin": "dà shēng de",
+  "sens": "à voix haute ; fort",
+  "exemple": "请大声地读课文。",
+  "traduction": "Lisez le texte à voix haute, s'il vous plaît.",
+  "note": "地 peut s'omettre : 大声说 ; contraire : 小声地 (à voix basse)."
+ },
+ {
+  "mot": "袋子",
+  "pinyin": "dài zi",
+  "sens": "sac ; sachet",
+  "exemple": "我把苹果放在袋子里了。",
+  "traduction": "J'ai mis les pommes dans le sac.",
+  "note": "Sac en plastique : 塑料袋 ; ≠ 包 (sac à main, cartable)."
+ },
+ {
+  "mot": "蛋黄",
+  "pinyin": "dàn huáng",
+  "sens": "jaune d'œuf",
+  "exemple": "我只吃蛋黄，不吃蛋清。",
+  "traduction": "Je ne mange que le jaune, pas le blanc.",
+  "note": "Contraire : 蛋清 ou 蛋白 (blanc d'œuf)."
+ },
+ {
+  "mot": "蛋清",
+  "pinyin": "dàn qīng",
+  "sens": "blanc d'œuf",
+  "exemple": "把蛋清和蛋黄分开。",
+  "traduction": "Sépare le blanc du jaune.",
+  "note": "Synonyme : 蛋白 ; contraire : 蛋黄 (jaune d'œuf)."
+ },
+ {
+  "mot": "正当。。。的时候",
+  "pinyin": "zhèng dāng de shí hou",
+  "sens": "juste au moment où... ; alors que...",
+  "exemple": "正当我要出门的时候，电话响了。",
+  "traduction": "Juste au moment où j'allais sortir, le téléphone a sonné.",
+  "note": "正 insiste sur la simultanéité ; sans 正 : 当。。。的时候 (quand...) ; 正当 zhèngdàng (4e ton) veut dire « légitime »."
+ },
+ {
+  "mot": "到。。。为止",
+  "pinyin": "dào wéi zhǐ",
+  "sens": "jusqu'à ; jusqu'à ce que",
+  "exemple": "到今天为止，我已经学了五百个汉字。",
+  "traduction": "Jusqu'à aujourd'hui, j'ai appris cinq cents caractères.",
+  "note": "Marque une limite dans le temps ou la quantité ; fréquent : 到目前为止 (jusqu'à présent)."
+ },
+ {
+  "mot": "等等",
+  "pinyin": "děng děng",
+  "sens": "etc. ; et cetera",
+  "exemple": "我们买了苹果、香蕉、西瓜等等。",
+  "traduction": "Nous avons acheté des pommes, des bananes, des pastèques, etc.",
+  "note": "En fin d'énumération, plus écrit que 什么的 ; 等等 peut aussi être le verbe « attendre un peu » : 等等我！"
+ },
+ {
+  "mot": "低处",
+  "pinyin": "dī chù",
+  "sens": "endroit bas ; en bas",
+  "exemple": "水往低处流。",
+  "traduction": "L'eau coule vers le bas.",
+  "note": "处 (chù) = endroit : 高处 (hauteur), 远处, 近处 ; proverbe : 人往高处走，水往低处流."
+ },
+ {
+  "mot": "点击",
+  "pinyin": "diǎn jī",
+  "sens": "cliquer (sur)",
+  "exemple": "请点击这里。",
+  "traduction": "Cliquez ici, s'il vous plaît.",
+  "note": "Vocabulaire informatique ; 点击率 = nombre de clics, de vues."
+ },
+ {
+  "mot": "叮铃铃",
+  "pinyin": "dīng līng līng",
+  "sens": "dring (bruit de sonnerie, de clochette)",
+  "exemple": "叮铃铃，电话响了！",
+  "traduction": "Dring, dring ! Le téléphone sonne !",
+  "note": "Onomatopée ; 铃 (normalement líng, sonnette) se lit ici au 1er ton, comme dans le manuel."
+ },
+ {
+  "mot": "动手术",
+  "pinyin": "dòng shǒu shù",
+  "sens": "opérer ; se faire opérer",
+  "exemple": "医生说他要动手术。",
+  "traduction": "Le médecin dit qu'il doit se faire opérer.",
+  "note": "Verbe séparable : 动了一次手术 ; se dit du chirurgien (给病人动手术) comme du patient."
+ },
+ {
+  "mot": "法定",
+  "pinyin": "fǎ dìng",
+  "sens": "légal ; fixé par la loi",
+  "exemple": "春节是中国的法定假日。",
+  "traduction": "La fête du Printemps est un jour férié en Chine.",
+  "note": "S'emploie devant un nom : 法定假日 (jour férié), 法定年龄 (âge légal)."
+ },
+ {
+  "mot": "法式",
+  "pinyin": "fǎ shì",
+  "sens": "à la française ; de style français",
+  "exemple": "我很喜欢吃法式面包。",
+  "traduction": "J'aime beaucoup le pain français.",
+  "note": "式 = style, modèle : 中式 (à la chinoise), 西式 (à l'occidentale)."
+ },
+ {
+  "mot": "饭菜",
+  "pinyin": "fàn cài",
+  "sens": "repas ; plats (riz et plats d'accompagnement)",
+  "exemple": "妈妈做的饭菜很好吃。",
+  "traduction": "Les plats que prépare maman sont délicieux.",
+  "note": "Désigne la nourriture d'un repas dans son ensemble : 饭 = riz, repas ; 菜 = plat."
+ },
+ {
+  "mot": "饭后酒",
+  "pinyin": "fàn hòu jiǔ",
+  "sens": "digestif (alcool servi après le repas)",
+  "exemple": "法国人有时候喝一点儿饭后酒。",
+  "traduction": "Les Français boivent parfois un petit digestif.",
+  "note": "Contraire : 饭前酒 (apéritif) ; on dit aussi 餐后酒."
+ },
+ {
+  "mot": "房主",
+  "pinyin": "fáng zhǔ",
+  "sens": "propriétaire (d'un logement)",
+  "exemple": "房主每个月来收房租。",
+  "traduction": "Le propriétaire vient toucher le loyer chaque mois.",
+  "note": "Synonyme : 房东 (propriétaire qui loue) ; 房租 = loyer."
+ },
+ {
+  "mot": "分清",
+  "pinyin": "fēn qīng",
+  "sens": "distinguer clairement ; faire la différence entre",
+  "exemple": "学汉语要分清四个声调。",
+  "traduction": "Pour apprendre le chinois, il faut bien distinguer les quatre tons.",
+  "note": "Verbe + complément de résultat ; forme longue : 分清楚 ; forme potentielle : 分不清 (ne pas arriver à distinguer)."
+ },
+ {
+  "mot": "福字",
+  "pinyin": "fú zì",
+  "sens": "caractère 福 (« bonheur ») affiché au Nouvel An",
+  "exemple": "过春节的时候，很多人在门上贴福字。",
+  "traduction": "Pendant la fête du Printemps, beaucoup de gens collent le caractère « bonheur » sur leur porte.",
+  "note": "On le colle souvent à l'envers, car 福倒了 (le bonheur est renversé) se prononce comme 福到了 (le bonheur arrive)."
+ },
+ {
+  "mot": "各种各样",
+  "pinyin": "gè zhǒng gè yàng",
+  "sens": "de toutes sortes ; varié",
+  "exemple": "商店里有各种各样的水果。",
+  "traduction": "Dans le magasin, il y a des fruits de toutes sortes.",
+  "note": "Expression à quatre caractères, suivie de 的 devant un nom ; plus simple : 各种."
+ },
+ {
+  "mot": "共用",
+  "pinyin": "gòng yòng",
+  "sens": "partager ; utiliser en commun",
+  "exemple": "我们两个人共用一个厨房。",
+  "traduction": "Nous partageons une cuisine à deux.",
+  "note": "Plutôt écrit ; à l'oral : 一起用."
+ },
+ {
+  "mot": "古树",
+  "pinyin": "gǔ shù",
+  "sens": "arbre ancien ; arbre centenaire",
+  "exemple": "这棵古树已经有五百年了。",
+  "traduction": "Ce vieil arbre a déjà cinq cents ans.",
+  "note": "Classificateur 棵 ; 古 = ancien (古代, 古老)."
+ },
+ {
+  "mot": "刮胡子",
+  "pinyin": "guā hú zi",
+  "sens": "se raser ; raser la barbe",
+  "exemple": "爸爸每天早上刮胡子。",
+  "traduction": "Papa se rase tous les matins.",
+  "note": "Verbe séparable : 刮了胡子 ; 胡子 = barbe, moustache."
+ },
+ {
+  "mot": "广东人",
+  "pinyin": "guǎng dōng rén",
+  "sens": "Cantonais (habitant ou originaire du Guangdong)",
+  "exemple": "他是广东人，会说广东话。",
+  "traduction": "Il est cantonais, il parle cantonais.",
+  "note": "Sur le même modèle : 北京人, 上海人."
+ },
+ {
+  "mot": "哈哈大笑",
+  "pinyin": "hā hā dà xiào",
+  "sens": "éclater de rire ; rire aux éclats",
+  "exemple": "听了他的话，大家都哈哈大笑。",
+  "traduction": "En entendant ce qu'il a dit, tout le monde a éclaté de rire.",
+  "note": "Expression à quatre caractères ; 哈哈 imite le rire."
+ },
+ {
+  "mot": "汉族",
+  "pinyin": "hàn zú",
+  "sens": "les Han (ethnie majoritaire de Chine)",
+  "exemple": "中国人口最多的民族是汉族。",
+  "traduction": "L'ethnie la plus nombreuse de Chine est celle des Han.",
+  "note": "族 = ethnie ; les autres ethnies sont les 少数民族 (minorités ethniques)."
+ },
+ {
+  "mot": "好好学习，天天向上",
+  "pinyin": "hǎo hǎo xué xí tiān tiān xiàng shàng",
+  "sens": "« bien étudier et progresser chaque jour » (slogan scolaire)",
+  "exemple": "老师希望我们好好学习，天天向上。",
+  "traduction": "Le professeur espère que nous étudierons bien et progresserons chaque jour.",
+  "note": "Slogan écrit par Mao Zedong en 1951 pour les écoliers, encore affiché dans les écoles ; souvent repris avec humour."
+ },
+ {
+  "mot": "嘿嘿",
+  "pinyin": "hēi hēi",
+  "sens": "hé hé (petit rire gêné ou malicieux)",
+  "exemple": "他没说话，只是嘿嘿地笑。",
+  "traduction": "Il n'a rien dit, il s'est contenté de rire d'un air gêné.",
+  "note": "Onomatopée ; ≠ 哈哈 (rire franc)."
+ },
+ {
+  "mot": "湖北",
+  "pinyin": "hú běi",
+  "sens": "Hubei (province du centre de la Chine)",
+  "exemple": "我的朋友是湖北人。",
+  "traduction": "Mon ami est originaire du Hubei.",
+  "note": "Littéralement « au nord du lac » (le lac Dongting) ; chef-lieu : 武汉 (Wuhan) ; ≠ 湖南 (Hunan)."
+ },
+ {
+  "mot": "华夏",
+  "pinyin": "huá xià",
+  "sens": "la Chine (nom ancien, littéraire)",
+  "exemple": "华夏文化有五千年的历史。",
+  "traduction": "La culture chinoise a cinq mille ans d'histoire.",
+  "note": "Registre soutenu ; 华 se retrouve dans 中华, 华人."
+ },
+ {
+  "mot": "黄牛",
+  "pinyin": "huáng niú",
+  "sens": "(fam.) revendeur de billets à la sauvette ; bœuf, vache",
+  "exemple": "春节前，火车站外面有很多黄牛卖票。",
+  "traduction": "Avant la fête du Printemps, beaucoup de revendeurs vendent des billets devant la gare.",
+  "note": "Au propre, bovin ; au figuré (souvent entre guillemets), revendeur au marché noir, surtout de billets de train."
+ },
+ {
+  "mot": "黄土",
+  "pinyin": "huáng tǔ",
+  "sens": "lœss ; terre jaune",
+  "exemple": "这里到处都是黄土。",
+  "traduction": "Ici, il y a de la terre jaune partout.",
+  "note": "Le 黄土高原 (plateau de lœss) du nord de la Chine donne sa couleur au 黄河 (fleuve Jaune)."
+ },
+ {
+  "mot": "既。。。也。。。",
+  "pinyin": "jì yě",
+  "sens": "à la fois... et... ; non seulement... mais aussi...",
+  "exemple": "他既会说英语，也会说法语。",
+  "traduction": "Il parle à la fois anglais et français.",
+  "note": "Variante : 既。。。又。。。, surtout devant des adjectifs (既便宜又好看)."
+ },
+ {
+  "mot": "技术员",
+  "pinyin": "jì shù yuán",
+  "sens": "technicien, technicienne",
+  "exemple": "我爸爸是工厂的技术员。",
+  "traduction": "Mon père est technicien dans une usine.",
+  "note": "员 = agent, employé : 服务员, 售货员, 演员."
+ },
+ {
+  "mot": "家乡话",
+  "pinyin": "jiā xiāng huà",
+  "sens": "parler de sa région natale ; dialecte natal",
+  "exemple": "他和妈妈说家乡话。",
+  "traduction": "Avec sa mère, il parle le dialecte de sa région.",
+  "note": "家乡 = pays natal ; ≠ 普通话 (le mandarin standard)."
+ },
+ {
+  "mot": "脚下",
+  "pinyin": "jiǎo xià",
+  "sens": "sous les pieds ; au pied de (une montagne)",
+  "exemple": "小心脚下！",
+  "traduction": "Attention où tu mets les pieds !",
+  "note": "Aussi dans 山脚下 (au pied de la montagne) ; 小心脚下 est un avertissement courant."
+ },
+ {
+  "mot": "近处",
+  "pinyin": "jìn chù",
+  "sens": "endroit proche ; tout près",
+  "exemple": "远处是山，近处是河。",
+  "traduction": "Au loin, des montagnes ; tout près, une rivière.",
+  "note": "Contraire : 远处 (au loin) ; 处 = endroit."
+ },
+ {
+  "mot": "惊叫",
+  "pinyin": "jīng jiào",
+  "sens": "pousser un cri (de peur ou de surprise)",
+  "exemple": "看到那只大狗，她惊叫了一声。",
+  "traduction": "En voyant ce gros chien, elle a poussé un cri.",
+  "note": "Plutôt écrit ; 惊 = effrayé, surpris (吃惊)."
+ },
+ {
+  "mot": "酒杯",
+  "pinyin": "jiǔ bēi",
+  "sens": "verre à vin ; verre (pour l'alcool)",
+  "exemple": "桌子上放着四个酒杯。",
+  "traduction": "Il y a quatre verres à vin sur la table.",
+  "note": "杯 = verre, tasse : 茶杯 (tasse à thé), 杯子 (verre)."
+ },
+ {
+  "mot": "举例子",
+  "pinyin": "jǔ lì zi",
+  "sens": "donner un exemple",
+  "exemple": "你能举例子说明一下吗？",
+  "traduction": "Peux-tu l'expliquer avec un exemple ?",
+  "note": "Verbe séparable : 举个例子, 举了两个例子."
+ },
+ {
+  "mot": "开胃酒",
+  "pinyin": "kāi wèi jiǔ",
+  "sens": "apéritif (boisson)",
+  "exemple": "吃饭以前，我们先喝一点开胃酒。",
+  "traduction": "Avant le repas, nous prenons d'abord un petit apéritif.",
+  "note": "开胃 = ouvrir l'appétit ; cf. 开胃菜 (entrée)."
+ },
+ {
+  "mot": "开药方",
+  "pinyin": "kāi yào fāng",
+  "sens": "prescrire des médicaments ; faire une ordonnance",
+  "exemple": "医生正在给病人开药方。",
+  "traduction": "Le médecin est en train de rédiger une ordonnance pour le malade.",
+  "note": "Verbe séparable : 开了一个药方 ; plus courant à l'oral : 开药."
+ },
+ {
+  "mot": "课间休息",
+  "pinyin": "kè jiān xiū xi",
+  "sens": "pause entre deux cours ; récréation",
+  "exemple": "课间休息的时候，我们去买咖啡。",
+  "traduction": "Pendant la pause entre deux cours, nous allons acheter un café.",
+  "note": "课间 = entre deux cours."
+ },
+ {
+  "mot": "扣扣子",
+  "pinyin": "kòu kòu zi",
+  "sens": "boutonner ; fermer ses boutons",
+  "exemple": "这个孩子还不会自己扣扣子。",
+  "traduction": "Cet enfant ne sait pas encore se boutonner tout seul.",
+  "note": "Verbe séparable : 扣好扣子 ; 扣 (v.) = boutonner, 扣子 (n.) = bouton."
+ },
+ {
+  "mot": "扣子",
+  "pinyin": "kòu zi",
+  "sens": "bouton (de vêtement)",
+  "exemple": "我的衬衫掉了一个扣子。",
+  "traduction": "Ma chemise a perdu un bouton.",
+  "note": "Cl. 个 ou 颗 ; un bouton d'appareil se dit 按钮."
+ },
+ {
+  "mot": "拉肚子",
+  "pinyin": "lā dù zi",
+  "sens": "avoir la diarrhée",
+  "exemple": "我今天拉肚子，不能去上课了。",
+  "traduction": "J'ai la diarrhée aujourd'hui, je ne peux pas aller en cours.",
+  "note": "Familier ; verbe séparable : 拉了三天肚子."
+ },
+ {
+  "mot": "老年化",
+  "pinyin": "lǎo nián huà",
+  "sens": "vieillissement (de la population)",
+  "exemple": "中国人口老年化的问题越来越严重。",
+  "traduction": "Le problème du vieillissement de la population chinoise est de plus en plus grave.",
+  "note": "Dans la langue officielle, on dit plus souvent 老龄化 (lǎolínghuà)."
+ },
+ {
+  "mot": "老外",
+  "pinyin": "lǎo wài",
+  "sens": "étranger (familier)",
+  "exemple": "这个老外的汉语说得很好。",
+  "traduction": "Cet étranger parle très bien chinois.",
+  "note": "Familier, pas forcément péjoratif ; plus neutre : 外国人."
+ },
+ {
+  "mot": "里昂",
+  "pinyin": "lǐ áng",
+  "sens": "Lyon",
+  "exemple": "我坐火车从巴黎去里昂。",
+  "traduction": "Je vais de Paris à Lyon en train.",
+  "note": ""
+ },
+ {
+  "mot": "旅行包",
+  "pinyin": "lǚ xíng bāo",
+  "sens": "sac de voyage",
+  "exemple": "他背着一个大旅行包去火车站。",
+  "traduction": "Il part à la gare avec un gros sac de voyage sur le dos.",
+  "note": "Cf. 行李箱 (valise) et 背包 (sac à dos)."
+ },
+ {
+  "mot": "绿油油",
+  "pinyin": "lǜ yóu yóu",
+  "sens": "d'un vert éclatant ; vert et luisant",
+  "exemple": "下过雨以后，草地绿油油的。",
+  "traduction": "Après la pluie, la pelouse est d'un vert éclatant.",
+  "note": "Adjectif redoublé de type ABB, souvent suivi de 的 ; jamais précédé de 很."
+ },
+ {
+  "mot": "脉",
+  "pinyin": "mài",
+  "sens": "pouls",
+  "exemple": "中医先给他号了脉。",
+  "traduction": "Le médecin chinois lui a d'abord pris le pouls.",
+  "note": "号脉 ou 把脉 = prendre le pouls ; plus courant dans la langue parlée : 脉搏 (màibó)."
+ },
+ {
+  "mot": "没有用",
+  "pinyin": "méi yǒu yòng",
+  "sens": "inutile ; ça ne sert à rien",
+  "exemple": "你跟他说也没有用，他不会听的。",
+  "traduction": "Ça ne sert à rien de lui en parler, il n'écoutera pas.",
+  "note": "Forme courte : 没用 ; contraire : 有用."
+ },
+ {
+  "mot": "末班车",
+  "pinyin": "mò bān chē",
+  "sens": "dernier bus ; dernier train (de la journée)",
+  "exemple": "快走吧，末班车十一点就开了。",
+  "traduction": "Dépêchons-nous, le dernier bus part à 23 heures.",
+  "note": "Contraire : 头班车 (premier bus) ; au figuré : la dernière chance."
+ },
+ {
+  "mot": "奶糖",
+  "pinyin": "nǎi táng",
+  "sens": "bonbon au lait",
+  "exemple": "小孩子都喜欢吃奶糖。",
+  "traduction": "Tous les enfants adorent les bonbons au lait.",
+  "note": "Marque célèbre : 大白兔奶糖 (bonbons Lapin blanc)."
+ },
+ {
+  "mot": "奶油",
+  "pinyin": "nǎi yóu",
+  "sens": "crème ; crème chantilly",
+  "exemple": "这个蛋糕上有很多奶油。",
+  "traduction": "Il y a beaucoup de crème sur ce gâteau.",
+  "note": "Le beurre se dit 黄油."
+ },
+ {
+  "mot": "年轻人",
+  "pinyin": "nián qīng rén",
+  "sens": "jeune ; les jeunes",
+  "exemple": "现在很多年轻人喜欢在网上买东西。",
+  "traduction": "Aujourd'hui, beaucoup de jeunes aiment faire leurs achats en ligne.",
+  "note": "Cf. 中年人 (personne d'âge mûr) et 老年人 (personne âgée)."
+ },
+ {
+  "mot": "农村人",
+  "pinyin": "nóng cūn rén",
+  "sens": "habitant de la campagne ; rural",
+  "exemple": "很多农村人去大城市工作。",
+  "traduction": "Beaucoup de gens de la campagne vont travailler dans les grandes villes.",
+  "note": "Contraire : 城里人 (citadin)."
+ },
+ {
+  "mot": "怦怦",
+  "pinyin": "pēng pēng",
+  "sens": "(onomat.) boum-boum (battements du cœur)",
+  "exemple": "我紧张得心怦怦直跳。",
+  "traduction": "J'étais si nerveux que mon cœur battait à tout rompre.",
+  "note": "Presque toujours avec 心 : 心怦怦（地）跳."
+ },
+ {
+  "mot": "平米",
+  "pinyin": "píng mǐ",
+  "sens": "mètre carré",
+  "exemple": "我的房间只有十五平米。",
+  "traduction": "Ma chambre ne fait que quinze mètres carrés.",
+  "note": "Abréviation orale de 平方米."
+ },
+ {
+  "mot": "奇形怪状",
+  "pinyin": "qí xíng guài zhuàng",
+  "sens": "aux formes étranges ; biscornu",
+  "exemple": "山上有很多奇形怪状的石头。",
+  "traduction": "Sur la montagne, il y a beaucoup de rochers aux formes étranges.",
+  "note": "Chengyu ; souvent suivi de 的 devant un nom."
+ },
+ {
+  "mot": "亲如手足",
+  "pinyin": "qīn rú shǒu zú",
+  "sens": "être comme des frères ; très proches",
+  "exemple": "他们两个人亲如手足。",
+  "traduction": "Tous les deux sont comme des frères.",
+  "note": "Chengyu ; 手足 (les mains et les pieds) désigne ici les frères."
+ },
+ {
+  "mot": "轻骑",
+  "pinyin": "qīng qí",
+  "sens": "cyclomoteur ; petite moto",
+  "exemple": "他每天骑轻骑去上班。",
+  "traduction": "Il va au travail tous les jours en cyclomoteur.",
+  "note": "Sens premier : cavalerie légère ; aujourd'hui, on dit plutôt 摩托车 ou 电动车."
+ },
+ {
+  "mot": "轻手轻脚",
+  "pinyin": "qīng shǒu qīng jiǎo",
+  "sens": "à pas de loup ; sans faire de bruit",
+  "exemple": "孩子睡着了，妈妈轻手轻脚地走出房间。",
+  "traduction": "L'enfant s'est endormi ; sa mère sort de la chambre à pas de loup.",
+  "note": "Souvent suivi de 地 + verbe."
+ },
+ {
+  "mot": "请稍等",
+  "pinyin": "qǐng shāo děng",
+  "sens": "un instant, s'il vous plaît ; veuillez patienter",
+  "exemple": "请稍等，经理马上就来。",
+  "traduction": "Un instant, s'il vous plaît, le directeur arrive tout de suite.",
+  "note": "Formule polie (accueil, téléphone) ; plus familier : 等一下."
+ },
+ {
+  "mot": "人口学家",
+  "pinyin": "rén kǒu xué jiā",
+  "sens": "démographe",
+  "exemple": "人口学家说，以后老人会越来越多。",
+  "traduction": "Selon les démographes, il y aura de plus en plus de personnes âgées à l'avenir.",
+  "note": "人口学 = démographie ; -家 = spécialiste (cf. 社会学家)."
+ },
+ {
+  "mot": "散场",
+  "pinyin": "sàn chǎng",
+  "sens": "(spectacle, séance) se terminer ; le public se disperse",
+  "exemple": "电影散场了，人们慢慢走出电影院。",
+  "traduction": "La séance est terminée, les gens sortent lentement du cinéma.",
+  "note": "Verbe séparable : 散了场 ; pour un film, un spectacle, un match."
+ },
+ {
+  "mot": "山石",
+  "pinyin": "shān shí",
+  "sens": "rochers ; pierres de montagne",
+  "exemple": "这里的山石都是红色的。",
+  "traduction": "Ici, les rochers de la montagne sont tous rouges.",
+  "note": "Désigne aussi les rochers décoratifs des jardins chinois."
+ },
+ {
+  "mot": "山头",
+  "pinyin": "shān tóu",
+  "sens": "sommet (d'une colline) ; colline",
+  "exemple": "我们爬上山头，看到了整个城市。",
+  "traduction": "Nous sommes montés au sommet de la colline et avons vu toute la ville.",
+  "note": "Proche de 山顶 (sommet)."
+ },
+ {
+  "mot": "闪闪发光",
+  "pinyin": "shǎn shǎn fā guāng",
+  "sens": "étinceler ; briller",
+  "exemple": "晚上，天上的星星闪闪发光。",
+  "traduction": "Le soir, les étoiles scintillent dans le ciel.",
+  "note": "Pour ce qui brille : étoiles, eau, or, yeux."
+ },
+ {
+  "mot": "商业化",
+  "pinyin": "shāng yè huà",
+  "sens": "commercialisation ; devenir commercial",
+  "exemple": "这个地方现在太商业化了。",
+  "traduction": "Cet endroit est devenu beaucoup trop commercial.",
+  "note": "Suffixe -化 : devenir, -isation (cf. 现代化)."
+ },
+ {
+  "mot": "社会学家",
+  "pinyin": "shè huì xué jiā",
+  "sens": "sociologue",
+  "exemple": "这位社会学家研究中国的家庭。",
+  "traduction": "Ce sociologue étudie la famille chinoise.",
+  "note": "社会学 = sociologie."
+ },
+ {
+  "mot": "身体健康",
+  "pinyin": "shēn tǐ jiàn kāng",
+  "sens": "bonne santé (vœu) ; être en bonne santé",
+  "exemple": "祝你新年快乐，身体健康！",
+  "traduction": "Je te souhaite une bonne année et une bonne santé !",
+  "note": "Formule de vœux très courante, après 祝."
+ },
+ {
+  "mot": "市中心",
+  "pinyin": "shì zhōng xīn",
+  "sens": "centre-ville",
+  "exemple": "我家离市中心不太远。",
+  "traduction": "Ma maison n'est pas très loin du centre-ville.",
+  "note": ""
+ },
+ {
+  "mot": "说破嘴皮",
+  "pinyin": "shuō pò zuǐ pí",
+  "sens": "s'user la salive ; parler en vain jusqu'à épuisement",
+  "exemple": "我说破嘴皮，他还是不听。",
+  "traduction": "J'ai eu beau m'user la salive, il ne veut toujours rien entendre.",
+  "note": "Familier ; aussi 说破了嘴皮 ou 磨破嘴皮."
+ },
+ {
+  "mot": "丝带",
+  "pinyin": "sī dài",
+  "sens": "ruban (de soie)",
+  "exemple": "这个礼物上有一条漂亮的丝带。",
+  "traduction": "Il y a un joli ruban sur ce cadeau.",
+  "note": "Cl. 条."
+ },
+ {
+  "mot": "四世同堂",
+  "pinyin": "sì shì tóng táng",
+  "sens": "quatre générations sous le même toit",
+  "exemple": "他们家四世同堂，一共有十几口人。",
+  "traduction": "Chez eux, quatre générations vivent sous le même toit : plus de dix personnes en tout.",
+  "note": "Chengyu ; c'est aussi le titre d'un roman de Lao She (老舍)."
+ },
+ {
+  "mot": "酸疼",
+  "pinyin": "suān téng",
+  "sens": "courbatu ; endolori ; avoir des courbatures",
+  "exemple": "爬了一天山，我的腿很酸疼。",
+  "traduction": "Après une journée de marche en montagne, j'ai des courbatures dans les jambes.",
+  "note": "Variante : 酸痛 (suāntòng)."
+ },
+ {
+  "mot": "堂兄妹",
+  "pinyin": "táng xiōng mèi",
+  "sens": "cousins et cousines (côté paternel)",
+  "exemple": "我和堂兄妹从小一起长大。",
+  "traduction": "Mes cousins et moi avons grandi ensemble.",
+  "note": "堂 : enfants des frères du père, qui portent le même nom de famille ; les autres cousins sont des 表兄妹."
+ },
+ {
+  "mot": "土话",
+  "pinyin": "tǔ huà",
+  "sens": "parler local ; patois",
+  "exemple": "我听不懂他们的土话。",
+  "traduction": "Je ne comprends pas leur patois.",
+  "note": "Cf. 方言 (dialecte) et 普通话 (mandarin standard)."
+ },
+ {
+  "mot": "玩笑",
+  "pinyin": "wán xiào",
+  "sens": "plaisanterie ; blague",
+  "exemple": "别生气，我只是开个玩笑。",
+  "traduction": "Ne te fâche pas, je plaisantais.",
+  "note": "Surtout dans 开玩笑 (plaisanter) : 别开玩笑了 !"
+ },
+ {
+  "mot": "万事如意",
+  "pinyin": "wàn shì rú yì",
+  "sens": "que tout se passe selon vos souhaits (vœu)",
+  "exemple": "祝您新年快乐，万事如意！",
+  "traduction": "Bonne année, et que tous vos vœux se réalisent !",
+  "note": "Formule de vœux (Nouvel An, anniversaire)."
+ },
+ {
+  "mot": "网虫",
+  "pinyin": "wǎng chóng",
+  "sens": "accro à Internet",
+  "exemple": "他是个网虫，每天上网十几个小时。",
+  "traduction": "C'est un accro d'Internet : il passe plus de dix heures par jour en ligne.",
+  "note": "Familier ; 虫 = insecte, ver."
+ },
+ {
+  "mot": "未成年",
+  "pinyin": "wèi chéng nián",
+  "sens": "mineur ; ne pas être majeur",
+  "exemple": "未成年的孩子不能喝酒。",
+  "traduction": "Les mineurs n'ont pas le droit de boire de l'alcool.",
+  "note": "未成年人 = un mineur ; 未 équivaut à 没有 (écrit)."
+ },
+ {
+  "mot": "未婚妻",
+  "pinyin": "wèi hūn qī",
+  "sens": "fiancée",
+  "exemple": "这是我的未婚妻，我们明年结婚。",
+  "traduction": "Voici ma fiancée, nous nous marions l'année prochaine.",
+  "note": "Le fiancé : 未婚夫."
+ },
+ {
+  "mot": "文笔",
+  "pinyin": "wén bǐ",
+  "sens": "style (d'écriture) ; plume",
+  "exemple": "这个作家的文笔很好。",
+  "traduction": "Cet écrivain a une très belle plume.",
+  "note": ""
+ },
+ {
+  "mot": "文学界",
+  "pinyin": "wén xué jiè",
+  "sens": "milieux littéraires ; monde des lettres",
+  "exemple": "他的小说在文学界很有名。",
+  "traduction": "Son roman est très connu dans les milieux littéraires.",
+  "note": "Suffixe -界 : milieu, monde (cf. 教育界, 电影界)."
+ },
+ {
+  "mot": "文学性",
+  "pinyin": "wén xué xìng",
+  "sens": "qualité littéraire ; valeur littéraire",
+  "exemple": "这本书很好看，但是文学性不高。",
+  "traduction": "Ce livre se lit bien, mais sa valeur littéraire est faible.",
+  "note": "Suffixe -性 : caractère, qualité (cf. 重要性)."
+ },
+ {
+  "mot": "五十年代",
+  "pinyin": "wǔ shí nián dài",
+  "sens": "les années cinquante",
+  "exemple": "我爷爷是五十年代出生的。",
+  "traduction": "Mon grand-père est né dans les années cinquante.",
+  "note": "S'écrit aussi 50年代 ; cf. 八零后."
+ },
+ {
+  "mot": "西服",
+  "pinyin": "xī fú",
+  "sens": "costume (occidental)",
+  "exemple": "他今天穿了一套黑西服。",
+  "traduction": "Aujourd'hui, il porte un costume noir.",
+  "note": "Cl. 套 ; synonyme : 西装."
+ },
+ {
+  "mot": "洗澡间",
+  "pinyin": "xǐ zǎo jiān",
+  "sens": "salle de bains ; salle de douche",
+  "exemple": "我们家有两个洗澡间。",
+  "traduction": "Chez nous, il y a deux salles de bains.",
+  "note": "Synonymes : 浴室, 卫生间 (qui désigne aussi les toilettes)."
+ },
+ {
+  "mot": "小红包",
+  "pinyin": "xiǎo hóng bāo",
+  "sens": "petite enveloppe rouge (contenant de l'argent)",
+  "exemple": "过年的时候，孩子们都能拿到小红包。",
+  "traduction": "Au Nouvel An, les enfants reçoivent tous des enveloppes rouges.",
+  "note": "红包 : enveloppe rouge offerte en cadeau ; 发红包 = en distribuer."
+ },
+ {
+  "mot": "鞋厂",
+  "pinyin": "xié chǎng",
+  "sens": "usine de chaussures",
+  "exemple": "他哥哥在一家鞋厂工作。",
+  "traduction": "Son grand frère travaille dans une usine de chaussures.",
+  "note": "厂 = usine (cf. 工厂) ; cl. 家."
+ },
+ {
+  "mot": "写生",
+  "pinyin": "xiě shēng",
+  "sens": "dessiner ou peindre d'après nature",
+  "exemple": "美术课的学生常常去公园写生。",
+  "traduction": "Les élèves du cours de dessin vont souvent dessiner d'après nature au parc.",
+  "note": "Souvent 去 + lieu + 写生 (aller dessiner sur le motif)."
+ },
+ {
+  "mot": "写手",
+  "pinyin": "xiě shǒu",
+  "sens": "auteur ; rédacteur (surtout en ligne)",
+  "exemple": "她是一个网络写手，每天都在网上写小说。",
+  "traduction": "C'est une auteure web : elle écrit des romans en ligne tous les jours.",
+  "note": "Moins prestigieux que 作家 (écrivain)."
+ },
+ {
+  "mot": "行礼",
+  "pinyin": "xíng lǐ",
+  "sens": "saluer (en s'inclinant) ; faire une révérence",
+  "exemple": "学生们向老师行礼。",
+  "traduction": "Les élèves saluent le professeur.",
+  "note": "Verbe séparable : 行了一个礼 ; ne pas confondre avec 行李 (xíngli, bagages)."
+ },
+ {
+  "mot": "烟头",
+  "pinyin": "yān tóu",
+  "sens": "mégot",
+  "exemple": "请不要把烟头扔在地上。",
+  "traduction": "Merci de ne pas jeter vos mégots par terre.",
+  "note": "烟 = cigarette, 头 = bout."
+ },
+ {
+  "mot": "阴历",
+  "pinyin": "yīn lì",
+  "sens": "calendrier lunaire",
+  "exemple": "今天是阴历八月十五，是中秋节。",
+  "traduction": "Aujourd'hui, c'est le 15e jour du 8e mois lunaire : c'est la fête de la mi-automne.",
+  "note": "Synonyme : 农历 ; contraire : 阳历 (calendrier solaire)."
+ },
+ {
+  "mot": "银白",
+  "pinyin": "yín bái",
+  "sens": "blanc argenté",
+  "exemple": "下雪以后，外面一片银白。",
+  "traduction": "Après la neige, dehors, tout est d'un blanc argenté.",
+  "note": "Souvent 银白色 ; cf. 金黄 (jaune doré)."
+ },
+ {
+  "mot": "有福同享，有难同当",
+  "pinyin": "yǒu fú tóng xiǎng yǒu nàn tóng dāng",
+  "sens": "partager le meilleur comme le pire ; être solidaires dans le bonheur comme dans le malheur",
+  "exemple": "我们是好朋友，有福同享，有难同当。",
+  "traduction": "Nous sommes de bons amis : nous partageons le meilleur comme le pire.",
+  "note": "Proverbe en deux parties ; 难 se lit ici nàn (malheur), et non nán."
+ },
+ {
+  "mot": "有礼貌",
+  "pinyin": "yǒu lǐ mào",
+  "sens": "poli ; bien élevé",
+  "exemple": "这个孩子很有礼貌。",
+  "traduction": "Cet enfant est très poli.",
+  "note": "Contraire : 没有礼貌 ; 对人有礼貌 = être poli avec les gens."
+ },
+ {
+  "mot": "有说有笑",
+  "pinyin": "yǒu shuō yǒu xiào",
+  "sens": "bavarder et rire gaiement",
+  "exemple": "他们一路上有说有笑，很开心。",
+  "traduction": "Tout le long du chemin, ils ont bavardé et ri, très contents.",
+  "note": "Structure 有 A 有 B (cf. 有吃有喝)."
+ },
+ {
+  "mot": "元宝",
+  "pinyin": "yuán bǎo",
+  "sens": "lingot (d'or ou d'argent, ancienne monnaie)",
+  "exemple": "饺子的样子很像元宝。",
+  "traduction": "Les raviolis chinois ont la forme d'un lingot.",
+  "note": "Lingot en forme de nacelle ; symbole de richesse au Nouvel An."
+ },
+ {
+  "mot": "岳父母",
+  "pinyin": "yuè fù mǔ",
+  "sens": "beaux-parents (parents de l'épouse)",
+  "exemple": "春节的时候，他和妻子去看岳父母。",
+  "traduction": "Pour la fête du Printemps, il va voir ses beaux-parents avec sa femme.",
+  "note": "岳父 = beau-père, 岳母 = belle-mère ; les parents du mari sont 公公 et 婆婆."
+ },
+ {
+  "mot": "云彩",
+  "pinyin": "yún cai",
+  "sens": "nuage",
+  "exemple": "今天天上一点儿云彩也没有。",
+  "traduction": "Aujourd'hui, il n'y a pas un seul nuage dans le ciel.",
+  "note": "Mot oral, synonyme de 云."
+ },
+ {
+  "mot": "在。。。看来",
+  "pinyin": "zài kàn lái",
+  "sens": "selon ; aux yeux de ; à l'avis de",
+  "exemple": "在我看来，这个办法不太好。",
+  "traduction": "À mon avis, cette méthode n'est pas très bonne.",
+  "note": "Introduit un point de vue : 在他看来 = selon lui ; cf. 我觉得."
+ },
+ {
+  "mot": "再也不",
+  "pinyin": "zài yě bù",
+  "sens": "ne plus jamais",
+  "exemple": "我再也不喝酒了。",
+  "traduction": "Je ne boirai plus jamais d'alcool.",
+  "note": "Souvent avec 了 final ; au passé : 再也没（有）+ verbe."
+ },
+ {
+  "mot": "扎针",
+  "pinyin": "zhā zhēn",
+  "sens": "faire de l'acupuncture ; poser des aiguilles",
+  "exemple": "他腰疼，去看中医扎针。",
+  "traduction": "Il a mal au dos, il va chez un médecin chinois se faire faire de l'acupuncture.",
+  "note": "Verbe séparable : 扎了几针 ; cf. 打针 (faire une piqûre)."
+ },
+ {
+  "mot": "站票",
+  "pinyin": "zhàn piào",
+  "sens": "billet sans place assise ; place debout",
+  "exemple": "坐票卖完了，我只买到了站票。",
+  "traduction": "Il n'y avait plus de places assises, je n'ai pu acheter qu'un billet debout.",
+  "note": "Contraire : 坐票 (place assise)."
+ },
+ {
+  "mot": "这一带",
+  "pinyin": "zhè yí dài",
+  "sens": "dans le coin ; les environs",
+  "exemple": "这一带有很多饭馆。",
+  "traduction": "Il y a beaucoup de restaurants dans le coin.",
+  "note": "一带 = région, environs ; cf. 附近."
+ },
+ {
+  "mot": "正巧",
+  "pinyin": "zhèng qiǎo",
+  "sens": "justement ; comme par hasard ; au bon moment",
+  "exemple": "我正想给你打电话，正巧你来了。",
+  "traduction": "J'allais justement t'appeler, et tu arrives pile à ce moment-là.",
+  "note": "Synonymes : 正好, 刚好."
+ },
+ {
+  "mot": "终点站",
+  "pinyin": "zhōng diǎn zhàn",
+  "sens": "terminus",
+  "exemple": "这辆车的终点站是火车站。",
+  "traduction": "Le terminus de ce bus est la gare.",
+  "note": "Contraire : 起点站 (station de départ)."
+ },
+ {
+  "mot": "中年人",
+  "pinyin": "zhōng nián rén",
+  "sens": "personne d'âge mûr",
+  "exemple": "这家店的客人大多是中年人。",
+  "traduction": "Les clients de ce magasin sont surtout des gens d'âge mûr.",
+  "note": "Cf. 年轻人 (jeune) et 老年人 (personne âgée)."
+ },
+ {
+  "mot": "中式",
+  "pinyin": "zhōng shì",
+  "sens": "de style chinois ; à la chinoise",
+  "exemple": "他喜欢中式的房子。",
+  "traduction": "Il aime les maisons de style chinois.",
+  "note": "Contraire : 西式 (à l'occidentale)."
+ },
+ {
+  "mot": "中下游",
+  "pinyin": "zhōng xià yóu",
+  "sens": "cours moyen et inférieur (d'un fleuve)",
+  "exemple": "长江中下游有很多大城市。",
+  "traduction": "Il y a beaucoup de grandes villes sur le cours moyen et inférieur du Yangzi.",
+  "note": "上游 = cours supérieur (amont) ; 下游 = cours inférieur (aval)."
+ },
+ {
+  "mot": "主菜",
+  "pinyin": "zhǔ cài",
+  "sens": "plat principal",
+  "exemple": "今天晚饭的主菜是鱼。",
+  "traduction": "Ce soir, le plat principal est du poisson.",
+  "note": "Cf. 开胃菜 (entrée) et 甜点 (dessert)."
+ },
+ {
+  "mot": "装模作样",
+  "pinyin": "zhuāng mú zuò yàng",
+  "sens": "faire des manières ; jouer la comédie ; faire semblant",
+  "exemple": "别装模作样了，我知道你没看过这本书。",
+  "traduction": "Arrête de jouer la comédie, je sais que tu n'as pas lu ce livre.",
+  "note": "Péjoratif ; 模 se lit ici mú."
+ },
+ {
+  "mot": "作法",
+  "pinyin": "zuò fǎ",
+  "sens": "façon de faire ; méthode ; procédé",
+  "exemple": "我不同意你的作法。",
+  "traduction": "Je ne suis pas d'accord avec ta façon de faire.",
+  "note": "Variante de 做法, plus courant aujourd'hui ; 做法 désigne aussi la recette d'un plat."
+ },
+ {
+  "mot": "冰激凌",
+  "pinyin": "bīng jī líng",
+  "sens": "glace ; crème glacée",
+  "exemple": "天太热了，我们去吃冰激凌吧！",
+  "traduction": "Il fait trop chaud, allons manger une glace !",
+  "note": "Aussi écrit 冰淇淋 (bīngqílín)."
+ },
+ {
+  "mot": "大小伙子",
+  "pinyin": "dà xiǎo huǒ zi",
+  "sens": "grand gaillard ; grand garçon",
+  "exemple": "你一个大小伙子，还怕打针？",
+  "traduction": "Un grand gaillard comme toi, tu as encore peur des piqûres ?",
+  "note": "Souvent dans un reproche ou une taquinerie ; 小伙子 = jeune homme."
+ },
+ {
+  "mot": "电子信箱",
+  "pinyin": "diàn zǐ xìn xiāng",
+  "sens": "boîte mail ; adresse électronique",
+  "exemple": "请把你的电子信箱告诉我。",
+  "traduction": "Donne-moi ton adresse e-mail, s'il te plaît.",
+  "note": "Aussi 电子邮箱 ou simplement 邮箱 ; un e-mail se dit 电子邮件."
+ },
+ {
+  "mot": "费心",
+  "pinyin": "fèi xīn",
+  "sens": "se donner de la peine ; (poli) merci de vous en occuper",
+  "exemple": "这件事让您费心了，谢谢！",
+  "traduction": "Merci de vous être donné tant de peine pour cette affaire !",
+  "note": "Formule de politesse ; verbe séparable : 费了不少心."
+ },
+ {
+  "mot": "改掉",
+  "pinyin": "gǎi diào",
+  "sens": "se débarrasser de (un défaut, une habitude) ; corriger",
+  "exemple": "你应该改掉晚睡的习惯。",
+  "traduction": "Tu devrais perdre l'habitude de te coucher tard.",
+  "note": "掉 : complément de résultat qui marque l'élimination (cf. 切掉, 扔掉)."
+ },
+ {
+  "mot": "和。。。打交道",
+  "pinyin": "hé dǎ jiāo dao",
+  "sens": "avoir affaire à ; traiter avec ; fréquenter",
+  "exemple": "我不喜欢和这种人打交道。",
+  "traduction": "Je n'aime pas avoir affaire à ce genre de personnes.",
+  "note": "On dit aussi 跟。。。打交道 ; 打交道 est séparable : 打过交道."
+ },
+ {
+  "mot": "即使。。。也。。。",
+  "pinyin": "jí shǐ yě",
+  "sens": "même si… (quand même)",
+  "exemple": "即使明天下雨，我也要去。",
+  "traduction": "Même s'il pleut demain, j'irai quand même.",
+  "note": "也 se place après le sujet de la seconde proposition ; plus oral : 就算。。。也。。。."
+ },
+ {
+  "mot": "记下",
+  "pinyin": "jì xià",
+  "sens": "noter ; prendre note de ; retenir",
+  "exemple": "请把我的电话号码记下来。",
+  "traduction": "Note mon numéro de téléphone, s'il te plaît.",
+  "note": "Souvent 记下来 ; 下 marque ici le résultat (fixer, garder)."
+ },
+ {
+  "mot": "烤模",
+  "pinyin": "kǎo mú",
+  "sens": "moule (à gâteau, pour le four)",
+  "exemple": "做蛋糕要用烤模。",
+  "traduction": "Pour faire un gâteau, il faut un moule.",
+  "note": "模 se lit mú ici (comme dans 模样), mais mó dans 模特."
+ },
+ {
+  "mot": "冷清",
+  "pinyin": "lěng qīng",
+  "sens": "désert ; peu animé ; morne",
+  "exemple": "下雨天，街上很冷清。",
+  "traduction": "Les jours de pluie, les rues sont désertes.",
+  "note": "Contraire : 热闹 (animé) ; forme redoublée : 冷冷清清."
+ },
+ {
+  "mot": "米纸",
+  "pinyin": "mǐ zhǐ",
+  "sens": "papier de riz ; feuille de riz (comestible)",
+  "exemple": "这种奶糖外面有一层米纸，可以吃。",
+  "traduction": "Ces bonbons au lait sont enveloppés d'une fine feuille de riz qui se mange.",
+  "note": "Comme sur les bonbons 大白兔 ; sert aussi à rouler les rouleaux de printemps."
+ },
+ {
+  "mot": "平房",
+  "pinyin": "píng fáng",
+  "sens": "maison de plain-pied ; maison sans étage",
+  "exemple": "以前这里都是平房，现在都是高楼。",
+  "traduction": "Avant, il n'y avait ici que des maisons basses ; maintenant, ce ne sont que des tours.",
+  "note": "Contraire : 楼房 (immeuble à étages)."
+ },
+ {
+  "mot": "切掉",
+  "pinyin": "qiē diào",
+  "sens": "couper ; enlever (en coupant)",
+  "exemple": "这块苹果坏了，把它切掉吧。",
+  "traduction": "Ce morceau de pomme est abîmé, coupe-le.",
+  "note": "掉 marque l'élimination (cf. 改掉, 扔掉)."
+ },
+ {
+  "mot": "沙拉",
+  "pinyin": "shā lā",
+  "sens": "salade (plat composé)",
+  "exemple": "我中午只吃了一份水果沙拉。",
+  "traduction": "À midi, je n'ai mangé qu'une salade de fruits.",
+  "note": "Aussi écrit 色拉 (sèlā) ; la salade verte (légume) se dit 生菜."
+ },
+ {
+  "mot": "书费",
+  "pinyin": "shū fèi",
+  "sens": "frais de livres ; frais de manuels",
+  "exemple": "这个学期的书费是三百块。",
+  "traduction": "Ce semestre, les frais de manuels s'élèvent à trois cents yuans.",
+  "note": "-费 = frais (cf. 学费, 车费)."
+ },
+ {
+  "mot": "鱼刺",
+  "pinyin": "yú cì",
+  "sens": "arête (de poisson)",
+  "exemple": "吃鱼的时候要小心鱼刺。",
+  "traduction": "Quand on mange du poisson, il faut faire attention aux arêtes.",
+  "note": "Cl. 根 ; 刺 seul = épine, écharde."
+ },
+ {
+  "mot": "原价",
+  "pinyin": "yuán jià",
+  "sens": "prix d'origine ; prix initial",
+  "exemple": "这件衣服原价两百块，现在只要一百块。",
+  "traduction": "Ce vêtement coûtait 200 yuans à l'origine ; maintenant, il n'en coûte plus que 100.",
+  "note": "Souvent sur les étiquettes de soldes, à côté de 现价 (prix actuel)."
+ },
+ {
+  "mot": "匀",
+  "pinyin": "yún",
+  "sens": "(adj.) homogène ; uniforme ; (v.) répartir ; céder une partie de",
+  "exemple": "把鸡蛋和牛奶拌匀。",
+  "traduction": "Mélangez les œufs et le lait jusqu'à obtenir un mélange homogène.",
+  "note": "Souvent complément de résultat : 拌匀, 搅匀 ; comme verbe : 匀给我一点 (m'en céder un peu)."
+ },
+ {
+  "mot": "找遍",
+  "pinyin": "zhǎo biàn",
+  "sens": "chercher partout ; fouiller partout",
+  "exemple": "我找遍了整个房间，也没找到钥匙。",
+  "traduction": "J'ai fouillé toute la pièce sans trouver mes clés.",
+  "note": "遍 = partout, dans tout (cf. 走遍, 看遍)."
+ },
+ {
+  "mot": "自夸",
+  "pinyin": "zì kuā",
+  "sens": "se vanter",
+  "exemple": "他很喜欢自夸，所以朋友不多。",
+  "traduction": "Il adore se vanter, c'est pour ça qu'il n'a pas beaucoup d'amis.",
+  "note": "Péjoratif ; cf. 夸 (complimenter) et 吹牛 (fanfaronner, familier)."
+ }
+]

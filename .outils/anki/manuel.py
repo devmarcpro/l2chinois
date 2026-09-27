@@ -8,9 +8,13 @@ niveau HSK, rangé de la même façon.
 
 Données : donnees_hsk/manuel.json
 - "lecons" : les 28 leçons (sommaire de l'éditeur) ;
-- "vocabulaire" : mot -> leçon (mots HSK 1 à 4 répartis par thème et par point de grammaire, mots relevés dans les
-  corrigés et les textes du manuel du premier niveau à leur première leçon) ;
-- "grammaire" : titre de fiche -> leçon ou "apres".
+- "vocabulaire" : mot -> leçon. Les mots des deux manuels sont à leur première leçon d'après leurs index lexicaux
+  (premier niveau : première apparition, à l'oral « py » ou à l'écrit ; deuxième niveau : index des mots et
+  vocabulaire de la compréhension orale) ; les autres mots HSK 1 à 4 sont répartis par thème et par point de
+  grammaire ;
+- "grammaire" : titre de fiche -> leçon ou "apres" (leçon où le manuel traite le point, d'après l'index
+  grammatical du premier niveau et le sommaire du deuxième ; sinon rangement par thème).
+Les manuels eux-mêmes (PDF) ne sont pas dans le dépôt : rien n'en est recopié ici.
 
 Anki ne change ni le paquet ni la position (ordre des nouvelles cartes) d'une note déjà importée : le fichier
 RANGEMENT.tsv (recto, paquet, rang) sert au module complémentaire « Ranger mon chinois », qui les range.
@@ -118,11 +122,12 @@ def _niveau_apres(nom, r):
 
 
 def _passage(nom, r) -> str:
-    """Le texte d'une carte de lecture ou d'écoute, sans la ligne de titre et de niveau (初级, HSK 4…)."""
+    """Le texte d'une carte de lecture ou d'écoute, sans la ligne de titre et de niveau (初级, HSK 4…) ni les
+    marques de locuteur des dialogues (男：/ 女：)."""
     if nom == "Ecoute":
         m = re.search(r'class="ecoute-texte">(.*?)</div>', r[0], re.S)
         if m:
-            return nu(m.group(1))
+            return re.sub(r"[男女][：:]", " ", nu(m.group(1)))
     return nu(re.sub(r"^<div[^>]*>.*?</div>", "", r[0], count=1, flags=re.S))
 
 
@@ -172,7 +177,9 @@ def ranger(paquets):
                         e["fiche"] = fiche
                         lecon = max(lecon, m.gram[fiche])
             voulue = re.search(r"(?<!\S)manuel::(P\d-L\d\d)", r[3])  # rédigé pour une leçon (contenu_manuel.py)
-            if voulue:
+            if voulue and {"exercice_mots", "exercice_nombres"} & set(r[3].split()):
+                lecon = m.index[voulue.group(1)]  # calculés d'après les mots déjà vus / sans vocabulaire : leur leçon
+            elif voulue:
                 lecon = m.index[voulue.group(1)] if lecon >= INF else max(lecon, m.index[voulue.group(1)])
             groupes[("lecon", lecon) if lecon < INF else ("apres", _niveau_apres(nom, r))].append(e)
 
