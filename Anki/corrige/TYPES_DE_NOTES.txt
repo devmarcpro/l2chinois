@@ -87,6 +87,38 @@ Avec HyperTTS a la place (fichiers audio, qui passent aussi sur le telephone a l
 })();
 </script>
 
+<!-- rappel actif v1 -->
+<div id="rc-verso" style="display:none">{{Verso}}</div>
+<script>
+(function () {
+  // rappel actif : chercher la réponse avant de voir les choix ; les questions d'un texte sont posées au recto
+  var c = document.querySelector('.texte .choix');
+  if (c && !document.getElementById('rc-choix')) {
+    c.style.display = 'none';
+    var b = document.createElement('div');
+    b.id = 'rc-choix';
+    b.textContent = 'Voir les choix';
+    b.style.cssText = 'display:inline-block;margin:10px 0;padding:4px 14px;border:1px solid #888;' +
+      'border-radius:14px;cursor:pointer;font-size:16px;opacity:.8';
+    b.onclick = function () { c.style.display = ''; b.parentNode.removeChild(b); };
+    c.parentNode.insertBefore(b, c);
+  }
+  var v = document.getElementById('rc-verso');
+  if (!v) return;
+  var qs = [], re = /<b>Q :<\/b>\s*([\s\S]*?)<br>\s*<b>R :<\/b>/g, m;
+  while ((m = re.exec(v.innerHTML))) qs.push(m[1]);
+  v.parentNode.removeChild(v);
+  if (!qs.length || document.getElementById('rc-questions')) return;
+  var d = document.createElement('div');
+  d.id = 'rc-questions';
+  d.style.cssText = 'text-align:left;margin-top:14px;font-size:22px;line-height:1.7';
+  d.innerHTML = '<b>Questions</b> (répondez avant de retourner la carte) :<br>' +
+    qs.map(function (q, i) { return (i + 1) + '. ' + q; }).join('<br>');
+  (document.querySelector('.texte') || document.body).appendChild(d);
+})();
+</script>
+<!-- /rappel actif -->
+
 
 ########## "Chinois (texte)" : MODELE DU VERSO ##########
 
@@ -870,6 +902,38 @@ ruby rt {
 
 <div class="texte">{{Recto}}</div>
 {{tts zh_CN:Recto}}
+
+<!-- rappel actif v1 -->
+<div id="rc-verso" style="display:none">{{Verso}}</div>
+<script>
+(function () {
+  // rappel actif : chercher la réponse avant de voir les choix ; les questions d'un texte sont posées au recto
+  var c = document.querySelector('.texte .choix');
+  if (c && !document.getElementById('rc-choix')) {
+    c.style.display = 'none';
+    var b = document.createElement('div');
+    b.id = 'rc-choix';
+    b.textContent = 'Voir les choix';
+    b.style.cssText = 'display:inline-block;margin:10px 0;padding:4px 14px;border:1px solid #888;' +
+      'border-radius:14px;cursor:pointer;font-size:16px;opacity:.8';
+    b.onclick = function () { c.style.display = ''; b.parentNode.removeChild(b); };
+    c.parentNode.insertBefore(b, c);
+  }
+  var v = document.getElementById('rc-verso');
+  if (!v) return;
+  var qs = [], re = /<b>Q :<\/b>\s*([\s\S]*?)<br>\s*<b>R :<\/b>/g, m;
+  while ((m = re.exec(v.innerHTML))) qs.push(m[1]);
+  v.parentNode.removeChild(v);
+  if (!qs.length || document.getElementById('rc-questions')) return;
+  var d = document.createElement('div');
+  d.id = 'rc-questions';
+  d.style.cssText = 'text-align:left;margin-top:14px;font-size:22px;line-height:1.7';
+  d.innerHTML = '<b>Questions</b> (répondez avant de retourner la carte) :<br>' +
+    qs.map(function (q, i) { return (i + 1) + '. ' + q; }).join('<br>');
+  (document.querySelector('.texte') || document.body).appendChild(d);
+})();
+</script>
+<!-- /rappel actif -->
 
 
 ########## "Chinois (ecoute)" : MODELE DU VERSO (sans FrontSide : l'audio n'est pas relu) ##########

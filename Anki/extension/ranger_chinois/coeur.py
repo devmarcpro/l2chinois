@@ -104,6 +104,8 @@ def reglages(col, bilan):
     conf["newSortOrder"] = 1  # tri : ordre de collecte (l'ordre d'apprentissage calculé)
     conf["newMix"] = 0  # nouvelles cartes mêlées aux révisions
     conf["interdayLearningMix"] = 0
+    if not conf.get("desiredRetention"):
+        conf["desiredRetention"] = 0.9  # FSRS : 90 % de chances de se souvenir le jour de la révision
     conf["new"]["bury"] = True  # cartes sœurs (lecture / thème / dictée d'une phrase…) pas le même jour
     conf["rev"]["bury"] = True
     conf["buryInterdayLearning"] = True
@@ -237,6 +239,64 @@ def preparer_types(col, dossier, journal):
             col.models.update_dict(audio)
             journal.append(f"Recto de « {audio['name']} » : l'audio HyperTTS (champ « Ajouter le verso ») remplace la synthèse vocale.")
     preparer_audio(col, journal)
+    preparer_rappel(col, journal)
+
+
+# ---------------------------------------------------------------- rappel actif (chercher avant de voir)
+RAPPEL_VERSION = "<!-- rappel actif v1 -->"
+RAPPEL = RAPPEL_VERSION + """
+<div id="rc-verso" style="display:none">{{Verso}}</div>
+<script>
+(function () {
+  // rappel actif : chercher la réponse avant de voir les choix ; les questions d'un texte sont posées au recto
+  var c = document.querySelector('.texte .choix');
+  if (c && !document.getElementById('rc-choix')) {
+    c.style.display = 'none';
+    var b = document.createElement('div');
+    b.id = 'rc-choix';
+    b.textContent = 'Voir les choix';
+    b.style.cssText = 'display:inline-block;margin:10px 0;padding:4px 14px;border:1px solid #888;' +
+      'border-radius:14px;cursor:pointer;font-size:16px;opacity:.8';
+    b.onclick = function () { c.style.display = ''; b.parentNode.removeChild(b); };
+    c.parentNode.insertBefore(b, c);
+  }
+  var v = document.getElementById('rc-verso');
+  if (!v) return;
+  var qs = [], re = /<b>Q :<\\/b>\\s*([\\s\\S]*?)<br>\\s*<b>R :<\\/b>/g, m;
+  while ((m = re.exec(v.innerHTML))) qs.push(m[1]);
+  v.parentNode.removeChild(v);
+  if (!qs.length || document.getElementById('rc-questions')) return;
+  var d = document.createElement('div');
+  d.id = 'rc-questions';
+  d.style.cssText = 'text-align:left;margin-top:14px;font-size:22px;line-height:1.7';
+  d.innerHTML = '<b>Questions</b> (répondez avant de retourner la carte) :<br>' +
+    qs.map(function (q, i) { return (i + 1) + '. ' + q; }).join('<br>');
+  (document.querySelector('.texte') || document.body).appendChild(d);
+})();
+</script>
+<!-- /rappel actif -->"""
+TYPES_RAPPEL = ("Chinois Texte", "Chinois (texte)", "Chinois Audio", "Chinois (ecoute)")
+
+
+def preparer_rappel(col, journal):
+    """Recto des exercices : choix cachés derrière « Voir les choix » (on cherche d'abord sans aide) ; recto des
+    textes de lecture et d'écoute : leurs questions (réponses au verso). Modèles seulement, sans changer les notes."""
+    import re
+    n = 0
+    for nom in TYPES_RAPPEL:
+        m = col.models.by_name(nom)
+        if not m:
+            continue
+        t = m["tmpls"][0]
+        if RAPPEL_VERSION in t["qfmt"]:
+            continue
+        q = re.sub(r"\n*<!-- rappel actif.*?<!-- /rappel actif -->\n*", "\n", t["qfmt"], flags=re.S)
+        t["qfmt"] = q.rstrip() + "\n\n" + RAPPEL + "\n"
+        col.models.update_dict(m)
+        n += 1
+    if n:
+        journal.append(f"Rappel actif : {n} modèles de recto mis à jour (choix cachés derrière un bouton, questions "
+                       "des textes au recto).")
 
 
 # ---------------------------------------------------------------- audio HyperTTS : un seul audio par note, le bon texte
@@ -399,6 +459,10 @@ def mettre_en_place(col, dossier, journal, supprimer=True):
                    + (f", {bilan['inconnues']} notes inconnues laissées en place" if bilan["inconnues"] else "") + ".")
     b2 = defaultdict(int)
     reglages(col, b2)
+    if not col.get_config("fsrs", False):  # planificateur FSRS (toute la collection), rétention 0,90
+        col.set_config("fsrs", True)
+        journal.append("FSRS activé pour la collection (Outils > Préférences > Révision pour le couper), "
+                       "rétention souhaitée 0,90 pour le chinois.")
     journal.append(f"Réglages « {GROUPE} » appliqués à {b2['paquets']} paquets ({b2['par_jour']} nouvelles cartes et {b2['revisions']} révisions par jour).")
     did = col.decks.id_for_name(RACINE + "::9 · À supprimer")
     if supprimer and did:

@@ -391,8 +391,21 @@ ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
   mettre juste apres la premiere ligne <div class="hanzi">{{Recto}}</div> du verso.
 
 PLAN DE TRAVAIL (ordre du manuel)
-1. Planificateur : Outils > Preferences > Revision > cocher FSRS, retention souhaitee 0,90. Il adapte les
-   intervalles a ta memoire et reduit le nombre de revisions.
+1. Planificateur : FSRS, retention souhaitee 0,90 (active par "tout mettre en place" depuis le 27/09 ; a
+   couper dans Outils > Preferences > Revision si besoin). Il adapte les intervalles a ta memoire et reduit
+   le nombre de revisions. Apres 3 ou 4 semaines (un bon millier de revisions de chinois) : options du paquet
+   Chinois > FSRS > "Optimiser", pour caler ses parametres sur TA memoire.
+
+RAPPEL ACTIF (chercher la reponse avant de la voir)
+- Toutes les cartes posent une question : mot (sens et pinyin, puis francais -> chinois), phrase (lecture,
+  theme, dictee), grammaire (comprendre, utiliser), exercices, caractere a ecrire a la main, texte a raconter.
+- Depuis le 27/09 : les choix d'un exercice ("Choix : a / b / c") sont caches derriere "Voir les choix" :
+  chercher d'abord sans aide, ne les ouvrir qu'en cas de blocage. Les questions d'un texte de lecture ou
+  d'ecoute sont posees au recto, sous le texte ou l'audio ; les reponses sont au verso.
+- La regle d'or : repondre VRAIMENT (a voix haute, ou en ecrivant) avant de retourner la carte, puis noter
+  honnetement : "A revoir" si la reponse n'etait pas complete ou juste, "Difficile" si elle a demande un gros
+  effort, "Correct" sinon, "Facile" seulement si elle est venue tout de suite. Ne pas hesiter a mettre
+  "A revoir" : c'est ce qui fait revenir la carte au bon moment.
 
 2. Deux pistes en parallele :
    - LE PARCOURS : cliquer sur "Chinois". Anki prend les nouvelles cartes lecon apres lecon, a partir de L01
