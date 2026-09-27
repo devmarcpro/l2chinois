@@ -15,7 +15,8 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
       Chinois::9 · A supprimer   (anciennes versions de cartes deja remplacees : a supprimer)
 - Chaque lecon MELANGE tous les types : mots, fiches de grammaire, phrases, exercices, textes a lire et a
   ecouter, caracteres a ecrire. Ordre d'apprentissage dans la lecon :
-    * pour chaque point de grammaire : les mots necessaires, la fiche, puis deux de ses exercices ;
+    * pour chaque point de grammaire : les mots necessaires, sa carte "Comprendre" (puis "Utiliser" le
+      lendemain), puis deux de ses exercices ;
     * ensuite, a chaque pas, la phrase ou l'exercice qui demande le moins de mots nouveaux, precede de ces mots ;
     * les caracteres a ecrire apres le premier mot qui les contient, repartis sur toute la lecon ;
     * les textes en fin de lecon.
@@ -45,12 +46,26 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
 - Pour le calcul : .outils/anki/manuel.py ; repartition dans donnees_hsk/manuel.json ; exercices et textes
   dans donnees_hsk/manuel_contenu.json.
 
-METTRE EN PLACE (une fois) : EN UN CLIC
+FICHES DE GRAMMAIRE : DES CARTES A QUESTIONS (depuis le 27/09/2026)
+- Une fiche n'est plus une carte "a lire" (un titre au recto, l'explication au verso) : chaque fiche donne deux
+  cartes ou il y a une reponse a trouver (type de note "Chinois (grammaire)") :
+    * "Comprendre" : une phrase chinoise, la structure en gras. Que veut dire la phrase, a quoi sert la partie
+      en gras ? Verso : la reponse, la phrase avec son pinyin et sa traduction ;
+    * "Utiliser" : ce qu'il faut exprimer et une phrase francaise a dire en chinois, SANS la structure. Verso :
+      la phrase attendue, son pinyin et les autres formulations acceptees.
+  La fiche complete (structure, explication, exemples) est au verso des deux cartes. Les deux cartes d'une fiche
+  ne tombent pas le meme jour : on comprend, puis on utilise, puis viennent les exercices.
+- Pour les fiches des lecons du manuel, les phrases n'emploient que des mots deja vus a cette lecon.
+- Les cartes de theme "Traduisez en chinois (structure : X)" faisaient doublon avec "Utiliser" : retirees.
+- Donnees : .outils/anki/donnees_hsk/grammaire_cartes.json ; construction : .outils/anki/grammaire_cartes.py.
+
+METTRE EN PLACE OU A JOUR : EN UN CLIC
 1. Installer le module "Ranger mon chinois" : double-cliquer sur ranger_chinois.ankiaddon (ce dossier), ou
    Outils > Modules > Installer depuis un fichier. Redemarrer Anki. (Code : Anki/extension/ranger_chinois.)
-2. Outils > "Chinois : tout mettre en place (premiere fois)", choisir RANGEMENT.tsv dans ce dossier. Le module :
+2. Outils > "Chinois : tout mettre en place ou a jour", choisir RANGEMENT.tsv dans ce dossier. Le module :
     * fait une sauvegarde complete (Fichier > Revenir a une sauvegarde pour revenir en arriere) ;
-    * cree le type "Chinois (phrase)" (blocs de TYPES_DE_NOTES.txt) et y passe les phrases deja importees ;
+    * cree les types "Chinois (phrase)" et "Chinois (grammaire)" (blocs de TYPES_DE_NOTES.txt) et passe
+      les phrases deja importees au premier ;
     * met les notes d'ecoute sur le type "Chinois Audio", dont le recto joue l'audio HyperTTS ;
     * importe les sept fichiers avec le type des notes deja presentes (sans les anciennes versions a_supprimer) ;
     * range tout dans l'ordre du manuel, applique les reglages conseilles (point 5 ci-dessous) ;
@@ -58,8 +73,10 @@ METTRE EN PLACE (une fois) : EN UN CLIC
    La progression des cartes deja revisees est gardee. Le changement de type de note oblige, a la synchronisation
    suivante, a choisir "Envoyer vers AnkiWeb" (synchroniser d'abord le telephone si on y a revise entre-temps).
 3. Generer avec HyperTTS l'audio des nouvelles phrases et des nouveaux dialogues (champ "Ajouter le verso" vide).
-Pour chaque nouvelle version des fichiers : Outils > "Chinois : importer les fichiers et ranger".
-Teste sur une copie de ta collection : tout en 18 s, 295 cartes deja revisees intactes, un second passage ne
+Pour chaque nouvelle version des fichiers : reinstaller le module s'il a change, puis relancer Outils > "Chinois :
+tout mettre en place ou a jour" (ce qui est deja en place ne bouge pas). "Chinois : importer les fichiers et
+ranger" fait la meme chose sans sauvegarde, sans reglages et sans supprimer "9 · A supprimer".
+Teste sur une copie de ta collection (mise a jour du 27/09) : tout en 41 s, 295 cartes deja revisees intactes, un second passage ne
 change plus rien.
 
 LE DETAIL, POUR LE FAIRE A LA MAIN
@@ -77,7 +94,8 @@ LE DETAIL, POUR LE FAIRE A LA MAIN
     * nouvelles cartes melees aux revisions ;
     * cartes soeurs enterrees (le mot et sa carte inverse, ou la lecture, le theme et la dictee d'une phrase,
       ne tombent pas le meme jour) ;
-    * 30 nouvelles cartes par jour, a changer dans les options du paquet Chinois.
+    * 150 nouvelles cartes et 300 revisions par jour (environ 2 h), a changer dans les options du paquet
+      Chinois (voir PLAN DE TRAVAIL, point 3).
 6. Supprimer le paquet Chinois::9 · A supprimer (cartes remplacees par une version corrigee).
 Apres chaque nouvel import fait a la main : relancer Outils > Ranger mon chinois.
 Teste sur une copie de ta collection (Anki 26.9) :
@@ -158,8 +176,8 @@ CE QUI A CHANGE
     - 969 exercices rediges : pour chaque fiche, un choix entre trois formes (les deux fausses sont des erreurs
       d'apprenant plausibles) et une phrase fautive a corriger, avec explication ; les exercices ou une seconde
       reponse aurait pu etre acceptee ont ete ecartes ;
-    - 487 cartes de THEME (francais -> chinois) : une phrase francaise a traduire avec la structure indiquee,
-      reponse avec pinyin au verso (etiquette exercice_theme). Toute traduction juste qui emploie la structure compte.
+    - (retirees le 27/09) 487 cartes de THEME "Traduisez en chinois (structure : X)" : remplacees par la carte
+      "Utiliser" des fiches de grammaire, qui ne donne pas la structure (voir FICHES DE GRAMMAIRE).
   * Lecture : 92 textes gradues (16 en HSK 1, 12 par niveau du HSK 2 au HSK 5, 16 en HSK 6, 12 en HSK 7-9),
     ecrits avec les mots du niveau (au plus trois mots du niveau suivant) : recits, messages, courriels, avis,
     dialogues, puis articles et essais (sommeil, medecine chinoise, dialectes, les deux noms du the, jardins de
@@ -262,7 +280,9 @@ QUEL TYPE DE NOTE ?
   seulement pour les phrases qui ont un audio). Voir TYPES_DE_NOTES.txt (creation et passage des phrases deja
   importees a ce type, progression gardee). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
   Parcourir > card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
-- Grammaire, Exercices, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
+- Grammaire : type "Chinois (grammaire)", deux cartes par fiche (voir FICHES DE GRAMMAIRE en tete) ; le
+  module "Ranger mon chinois" le cree tout seul.
+- Exercices, Lecture (et Ecriture, voir plus bas) : PAS le type du vocabulaire (son recto affiche le premier
   champ en caracteres de 100 px et son verso decoupe le champ Verso comme une fiche de mot ; il cree aussi une
   carte inverse pour chaque note : sur un exercice ou un texte, ca donnerait des cartes absurdes). Ni "Basique"
   tel quel (pas de couleur des tons, blocs d'exemple ecrases a 30 % de la largeur).
@@ -336,12 +356,17 @@ PLAN DE TRAVAIL (ordre du manuel)
      apres le cours. Quand le parcours arrive a cette lecon, ses cartes sont deja vues. Commencer la seance par
      la lecon du cours, puis continuer sur "Chinois" : les deux comptent dans la meme limite du jour.
 
-3. Rythme (nouvelles cartes par jour, options du paquet Chinois) :
-   - pendant la revision de la L1 : 40 a 60. Ce que tu sais deja passe vite : reponds "Facile" et la carte
-     ne revient pas avant plusieurs semaines. Les lecons 1 a 10 font environ 5 800 cartes : a 50 par jour,
-     un peu moins de quatre mois ;
-   - pour les lecons nouvelles : 20 a 30 ;
-   - les revisions du jour se stabilisent a environ 5 a 10 fois le nombre de nouvelles cartes du jour.
+3. Rythme (options du paquet Chinois, Limites quotidiennes) : 150 nouvelles cartes et 300 revisions par jour,
+   soit environ 2 h d'Anki par jour.
+   - La limite de revisions compte aussi les nouvelles cartes : si 250 revisions sont dues, Anki ne montre
+     plus que 50 nouvelles cartes ce jour-la. Les premiers jours, on voit donc 150 nouvelles cartes ; au bout
+     de quelques jours, les revisions prennent de la place et le nombre de nouvelles cartes baisse tout seul.
+     La charge reste autour de 300 cartes par jour, sans retard qui s'accumule.
+   - A long terme, les revisions du jour valent environ 5 a 10 fois le nombre de nouvelles cartes : avec 300
+     revisions, le rythme se stabilise vers 30 a 50 nouvelles cartes par jour.
+   - Ce que tu sais deja passe vite : reponds "Facile" et la carte ne revient pas avant plusieurs semaines.
+   - Pour garder 150 nouvelles cartes par jour quoi qu'il arrive : cocher "Les nouvelles cartes ignorent la
+     limite de revisions". Deconseille : les revisions grimpent alors vers 1 000 par jour.
    Pour alleger la revision de la L1 : Parcourir > deck:"Chinois::1 · Premier niveau" card:Theme > tout
    selectionner > Suspendre (les cartes de theme des phrases ; les remettre plus tard : Reactiver).
 

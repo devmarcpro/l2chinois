@@ -710,6 +710,8 @@ def main():
     ajouts.update(contenu_hsk.ajouter_hsk(paquets))
     import contenu_manuel  # exercices et textes par leçon du manuel de la fac, nombres en caractères
     ajouts.update(contenu_manuel.ajouter_manuel(paquets))
+    import grammaire_cartes  # fiches de grammaire -> deux cartes à questions (comprendre, utiliser)
+    ajouts.update(grammaire_cartes.transformer(paquets, stats))
     import accents
     accents.appliquer(paquets, stats)  # avant le paquet Écriture, qui reprend les sens du vocabulaire
     import erhua

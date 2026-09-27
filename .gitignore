@@ -5,3 +5,5 @@ _site/
 .obsidian/workspace*.json
 .trash/
 __pycache__/
+# manuels en PDF (droits d'auteur, trop gros pour GitHub) : jamais dans le depot
+Anki/*.pdf

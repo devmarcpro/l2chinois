@@ -65,6 +65,8 @@ class Manuel:
 
     def lecon_mot(self, mot: str) -> int:
         from corriger_decks import hsk30
+        if len(mot) == 3 and mot[1] in "没不" and mot[0] == mot[2] and mot[0] in self.voc:
+            return max(self.voc[mot[0]], self.voc.get(mot[1], INF))  # 有没有, 是不是 : connus avec 有 / 是 et 没 / 不
         for v in (mot, mot + "儿", mot[:-1] if mot.endswith("儿") and len(mot) > 1 else ""):
             if v in self.voc:
                 if len(v) > 1 and hsk30().get(v) is None:  # expression du paquet (喝茶, 坐地铁) : connue dès ses caractères
@@ -144,7 +146,7 @@ def ranger(paquets):
                 e["mot"] = nu(r[0])
                 lecon = m.voc.get(e["mot"], INF)
             elif nom == "Grammaire":
-                e["titre"] = titre_fiche(r[0])
+                e["titre"] = titre_fiche(r[0] if "#2980b9" in r[0] else r[1])  # cartes à questions : titre au verso
                 lecon = m.gram.get(e["titre"], INF)
                 e["mots"] = [w for w, _ in m.mots(re.sub(r"[（(].*?[）)]", "", e["titre"].split(" — ")[0]))]
             elif nom == "Ecriture":

@@ -182,17 +182,6 @@ def exercice_ordre(e):
     return [recto, verso, "", "exercice_ordre deck_v2 ajout_2026 HSK_officiel"]
 
 
-def carte_theme(e):
-    """Thème (français -> chinois) : la phrase française d'un exemple de la fiche, la structure à employer en indice."""
-    from contenu_cours import spans_par_mot
-    structure = e["titre"].partition(" — ")[0]
-    x = e["exemples"][1] if len(e["exemples"]) > 1 else e["exemples"][0]
-    recto = f"Traduisez en chinois (structure : {_texte(structure)}) :<br><br><i>{_texte(x['fr'])}</i>"
-    verso = (f"<b>Traduction :</b><br>{x['zh']}<br><small>{spans_par_mot(x['zh'])}</small><br><br>"
-             f'<div class="exemple-bloc"><b>Structure :</b> {_texte(e["titre"])}</div>')
-    return [recto, verso, "", "exercice_theme deck_v2 ajout_2026 HSK_officiel"]
-
-
 def _libelle(n: int) -> str:
     return "HSK 7-9" if n == 7 else f"HSK {n}"
 
@@ -252,10 +241,8 @@ def ajouter_hsk(paquets):
         bilan["Exercices : structures du programme officiel à compléter"] = len(exos)
         fiches = [e for e in json.loads(f.read_text(encoding="utf-8")) if not e.get("couvert_par") and e.get("titre")]
         rectos |= {x[0] for x in exos}
-        themes = [t for t in (carte_theme(e) for e in fiches) if t[0] not in rectos]
-        rectos |= {t[0] for t in themes}
-        paquets["Exercices"] += themes
-        bilan["Exercices : thème (français -> chinois) sur les structures"] = len(themes)
+        # cartes de thème (« Traduisez en chinois (structure : X) ») : retirées le 27/09/2026, la carte « Utiliser »
+        # des fiches de grammaire (grammaire_cartes.py) fait la même chose sans donner la structure
         fe = DONNEES / "exercices_grammaire.json"
         if fe.exists():
             titres_fiche = {e["id"]: e["titre"] for e in fiches}

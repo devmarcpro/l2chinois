@@ -5,6 +5,7 @@ from collections import defaultdict
 
 RACINE = "Chinois"
 GROUPE = "Chinois – manuel"
+NOUVELLES, REVISIONS = 150, 300  # limites du jour à la création du groupe (environ 2 h d'Anki par jour)
 
 
 def lire_rangement(chemin):
@@ -83,9 +84,10 @@ def reglages(col, bilan):
     conf = next((c for c in col.decks.all_config() if c["name"] == GROUPE), None)
     if conf is None:
         conf = col.decks.add_config(GROUPE, clone_from=col.decks.config_dict_for_deck_id(racine))
-        conf["new"]["perDay"] = 30
-        conf["rev"]["perDay"] = 9999
+        conf["new"]["perDay"], conf["rev"]["perDay"] = NOUVELLES, REVISIONS
         bilan["cree"] = 1
+    elif (conf["new"]["perDay"], conf["rev"]["perDay"]) == (30, 9999):  # anciennes limites du module, jamais retouchées
+        conf["new"]["perDay"], conf["rev"]["perDay"] = NOUVELLES, REVISIONS
     conf["newGatherPriority"] = 0  # collecte des nouvelles cartes : par paquet (leçon après leçon)
     conf["newSortOrder"] = 1  # tri : ordre de collecte (l'ordre d'apprentissage calculé)
     conf["newMix"] = 0  # nouvelles cartes mêlées aux révisions
@@ -101,18 +103,19 @@ def reglages(col, bilan):
             col.decks.save(d)
             bilan["paquets"] += 1
     bilan["par_jour"] = conf["new"]["perDay"]
+    bilan["revisions"] = conf["rev"]["perDay"]
     from anki.collection import OpChanges
     return OpChanges(deck_config=True, deck=True)  # réglages : non annulables, modifiables dans les options
 
 
-# ---------------------------------------------------------------- mise en place complète (première fois)
+# ---------------------------------------------------------------- mise en place complète (et mises à jour)
 FICHIERS = ("Vocabulaire", "Phrases", "Exercices", "Grammaire", "Lecture", "Ecoute", "Ecriture")
 TYPES = {  # type de note de chaque fichier : le premier nom qui existe dans la collection
     "Phrases": ("Chinois (phrase)",),
     "Ecoute": ("Chinois Audio", "Chinois (ecoute)"),
     "Ecriture": ("Chinois ecriture", "Chinois (ecriture)"),
     "Exercices": ("Chinois Texte", "Chinois (texte)"),
-    "Grammaire": ("Chinois Texte", "Chinois (texte)"),
+    "Grammaire": ("Chinois (grammaire)",),
     "Lecture": ("Chinois Texte", "Chinois (texte)"),
 }
 
@@ -190,6 +193,21 @@ def preparer_types(col, dossier, journal):
         col.models.add(phrase)
         phrase = col.models.by_name("Chinois (phrase)")
         journal.append("Type « Chinois (phrase) » créé (cartes Lecture, Theme, Dictee).")
+    if col.models.by_name("Chinois (grammaire)") is None:
+        b = _blocs(dossier)
+        g = lambda titre: b[("Chinois (grammaire)", titre)]
+        gram = col.models.copy(texte, add=False)
+        gram["name"] = "Chinois (grammaire)"
+        gram["css"] = g("STYLE")
+        gram["tmpls"][0]["name"] = "Comprendre"
+        gram["tmpls"][0]["qfmt"] = g("CARTE 1 COMPRENDRE, MODELE DU RECTO")
+        gram["tmpls"][0]["afmt"] = g("CARTE 1 COMPRENDRE, MODELE DU VERSO")
+        t = col.models.new_template("Utiliser")
+        t["qfmt"] = g("CARTE 2 UTILISER, MODELE DU RECTO")
+        t["afmt"] = g("CARTE 2 UTILISER, MODELE DU VERSO")
+        col.models.add_template(gram, t)
+        col.models.add(gram)
+        journal.append("Type « Chinois (grammaire) » créé (cartes Comprendre, Utiliser).")
     n = _changer_type(col, '"deck:Chinois::Phrases"', texte, phrase)
     if n:
         journal.append(f"{n} phrases passées au type « Chinois (phrase) » (progression gardée).")
@@ -244,7 +262,7 @@ def importer(col, dossier, journal):
 
 
 def mettre_en_place(col, dossier, journal, supprimer=True):
-    """Tout, la première fois : types de notes, import, rangement, réglages, paquet « À supprimer » vidé."""
+    """Tout, la première fois et à chaque nouvelle version : types de notes, import, rangement, réglages, paquet « À supprimer » vidé."""
     import os
     preparer_types(col, dossier, journal)
     importer(col, dossier, journal)
@@ -255,7 +273,7 @@ def mettre_en_place(col, dossier, journal, supprimer=True):
                    + (f", {bilan['inconnues']} notes inconnues laissées en place" if bilan["inconnues"] else "") + ".")
     b2 = defaultdict(int)
     reglages(col, b2)
-    journal.append(f"Réglages « {GROUPE} » appliqués à {b2['paquets']} paquets ({b2['par_jour']} nouvelles cartes par jour).")
+    journal.append(f"Réglages « {GROUPE} » appliqués à {b2['paquets']} paquets ({b2['par_jour']} nouvelles cartes et {b2['revisions']} révisions par jour).")
     did = col.decks.id_for_name(RACINE + "::9 · À supprimer")
     if supprimer and did:
         n = col.decks.card_count(did, include_subdecks=True)

@@ -9,9 +9,10 @@ paquet, rang) et, pour chaque note du paquet Chinois :
 Les paquets vides qui restent sont supprimés. Tout s'annule en une fois (Édition > Annuler).
 
 Menu Outils :
-- « Chinois : tout mettre en place (première fois) » : sauvegarde, type « Chinois (phrase) », notes d'écoute
-  sur le bon type, import des sept fichiers, rangement, réglages, suppression du paquet « 9 · À supprimer » ;
-- « Chinois : importer les fichiers et ranger » : après chaque nouvelle version des fichiers ;
+- « Chinois : tout mettre en place ou à jour » : sauvegarde, types « Chinois (phrase) » et « Chinois (grammaire) »,
+  notes d'écoute sur le bon type, import des sept fichiers, rangement, réglages, suppression du paquet
+  « 9 · À supprimer » ; à relancer pour chaque nouvelle version des fichiers ;
+- « Chinois : importer les fichiers et ranger » : la même chose sans sauvegarde, réglages ni suppression ;
 - « Ranger mon chinois (ordre du manuel) » : à relancer après chaque import fait à la main ;
 - « Chinois : appliquer les réglages conseillés » : groupe d'options « Chinois – manuel » (nouvelles cartes
   prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées).
@@ -24,7 +25,8 @@ from aqt.operations import CollectionOp
 from aqt.qt import QAction, QFileDialog
 from aqt.utils import askUser, showInfo, showWarning
 
-from .coeur import GROUPE, RACINE, importer, lire_rangement, mettre_en_place, ranger, reglages
+from .coeur import (GROUPE, NOUVELLES, RACINE, REVISIONS, importer, lire_rangement, mettre_en_place, preparer_types,
+                    ranger, reglages)
 
 
 def _config():
@@ -80,14 +82,15 @@ def lancer_reglages():
                    "- nouvelles cartes prises leçon par leçon, dans l'ordre d'apprentissage ;\n"
                    "- nouvelles cartes mêlées aux révisions ;\n"
                    "- cartes sœurs enterrées (pas le même jour).\n\n"
-                   "Le nombre de nouvelles cartes par jour (30 à la création) se règle ensuite dans les options "
-                   "du paquet Chinois."):
+                   f"Limites du jour ({NOUVELLES} nouvelles cartes et {REVISIONS} révisions à la création) : "
+                   "elles se règlent ensuite dans les options du paquet Chinois."):
         return
     bilan = defaultdict(int)
 
     def fini(_):
         showInfo(f"Groupe « {GROUPE} » {'créé et ' if bilan['cree'] else ''}appliqué à {bilan['paquets']} paquets.\n"
-                 f"Nouvelles cartes par jour : {bilan['par_jour']} (à changer dans les options du paquet Chinois).",
+                 f"Par jour : {bilan['par_jour']} nouvelles cartes et {bilan['revisions']} révisions "
+                 "(à changer dans les options du paquet Chinois).",
                  title="Ranger mon chinois")
 
     CollectionOp(parent=mw, op=lambda col: reglages(col, bilan)).success(fini).run_in_background()
@@ -100,7 +103,8 @@ def lancer_mise_en_place():
     dossier = os.path.dirname(chemin)
     if not askUser("Tout mettre en place dans le paquet « Chinois » ?\n\n"
                    "1. sauvegarde complète de la collection (Fichier > Revenir à une sauvegarde pour revenir en arrière) ;\n"
-                   "2. type « Chinois (phrase) » (lecture, thème, dictée) et phrases déjà importées passées à ce type ;\n"
+                   "2. types « Chinois (phrase) » (lecture, thème, dictée) et « Chinois (grammaire) » (comprendre, "
+                   "utiliser) ; phrases déjà importées passées au premier ;\n"
                    "3. notes d'écoute sur le type d'écoute, qui joue l'audio HyperTTS ;\n"
                    "4. import des sept fichiers du dossier " + dossier + " ;\n"
                    "5. rangement dans l'ordre du manuel et réglages conseillés ;\n"
@@ -131,6 +135,7 @@ def lancer_import():
     journal = []
 
     def op(col):
+        preparer_types(col, dossier, journal)
         importer(col, dossier, journal)
         bilan = defaultdict(int)
         changes = ranger(col, lire_rangement(chemin), bilan)
@@ -142,7 +147,7 @@ def lancer_import():
 
 
 def _menu():
-    for titre, fonction in (("Chinois : tout mettre en place (première fois)", lancer_mise_en_place),
+    for titre, fonction in (("Chinois : tout mettre en place ou à jour", lancer_mise_en_place),
                             ("Chinois : importer les fichiers et ranger", lancer_import),
                             ("Ranger mon chinois (ordre du manuel)", lancer_rangement),
                             ("Chinois : appliquer les réglages conseillés", lancer_reglages)):
