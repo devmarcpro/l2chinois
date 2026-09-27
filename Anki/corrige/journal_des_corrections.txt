@@ -801,6 +801,9 @@
 为	wèi -> wéi	mot 被视为	"龟的寿命非常长，有些品种的龟甚至能够活上百年，被视
 长	zhǎng -> cháng	mot 长寿	"龟的寿命非常长，有些品种的龟甚至能够活上百年，被视
 一	yī -> yì	mot 一流	双一流
+一	yī -> yì	mot 一流	进入双一流建设名单的高校将获得重点支持。 
+校	jiào -> xiào	mot 高校	进入双一流建设名单的高校将获得重点支持。 
+一	yī -> yì	mot 一流	双一流旨在提升中国高等教育的国际竞争力。 
 为	wèi -> wéi	mot 成为	数字化转型已成为各行各业应对市场挑战、提升竞争力的必
 行	xíng -> háng	mot 各行各业	数字化转型已成为各行各业应对市场挑战、提升竞争力的必
 应	yīng -> yìng	mot 应对	数字化转型已成为各行各业应对市场挑战、提升竞争力的必
@@ -1772,6 +1775,7 @@
 漂	piāo -> piào	mot 漂亮	黄花很漂亮。
 校	jiào -> xiào	mot 高校	是中国顶尖高校的两种标识。 
 识	zhì -> shí	mot 标识	是中国顶尖高校的两种标识。 
+挑	tiāo -> tiǎo	mot 挑战	人类命运共同体强调各国应当合作应对全球挑战。 
 一	yī -> yí	mot 一个	家里有一个储物间，专门用来放置各种杂物。 
 长	zhǎng -> cháng	mot 时长	这家公司太内卷了，大家都在互相攀比加班时长。 
 为	wèi -> wéi	mot 成为	年起成为中国最热网络词汇之一。 ("
@@ -2996,12 +3000,8 @@
 长	zhǎng -> cháng	mot 长达	"朱熹编订的儒家经典注释，在长达数百年的时间里都是科
 一	yī -> yì	mot 一口气	"经过整整六个月的拍摄，这部电视剧终于杀青，全体演职
 当	dāng -> dàng	mot 当天	"杀青当天，导演特意举办了一场杀青宴，感谢大家这段时
-仔	zǎi -> zǐ	mot 仔细	在做出重要决定之前，需要仔细权衡各种利弊得失。 
-的	de -> dì	mot 目的	"跟杠精争论根本没有意义，他们的目的不是讨论问题，而
-不	bù -> bú	mot 不是	"跟杠精争论根本没有意义，他们的目的不是讨论问题，而
-一	yī -> yí	mot 一个	《南京条约》是中国近代史上第一个不平等条约，对中国历
 
-##### accent manquant (2181 premiers cas)
+##### accent manquant (3000 premiers cas)
 个	ge -> gè	accent manquant (一个)	我有一个姐姐。
 亮	liang -> liàng	accent manquant (漂亮)	她很漂亮。
 得	de -> dé	accent manquant (值得)	他们住在宾馆里，房间很干净，早饭也很丰盛，服务不错，
@@ -3030,6 +3030,7 @@
 服	fu -> fú	accent manquant (衣服)	衣服
 服	fu -> fú	accent manquant (衣服)	试一试衣服
 识	shi -> shí	accent manquant (认识)	连一个字都不认识
+得	de -> dé	accent manquant (获得)	这家初创公司获得了
 是	shi -> shì	accent manquant (还是)	还是
 方	fang -> fāng	accent manquant (地方)	地方
 系	xi -> xì	accent manquant (没关系)	没关系
@@ -3236,6 +3237,67 @@
 阶	jie -> jiē	accent manquant	当前中美大国博弈进入新阶段。 
 段	duan -> duàn	accent manquant	当前中美大国博弈进入新阶段。 
 子	zi -> zǐ	accent manquant (老子)	老子的
+终	zhong -> zhōng	accent manquant	终身学习 
+身	shen -> shēn	accent manquant	终身学习 
+学	xue -> xué	accent manquant	终身学习 
+习	xi -> xí	accent manquant	终身学习 
+博	bo -> bó	accent manquant	 博学 
+学	xue -> xué	accent manquant	 博学 
+三	san -> sān	accent manquant	 三人行必有我师 
+人	ren -> rén	accent manquant	 三人行必有我师 
+行	xing -> xíng	accent manquant	 三人行必有我师 
+必	bi -> bì	accent manquant	 三人行必有我师 
+有	you -> yǒu	accent manquant	 三人行必有我师 
+我	wo -> wǒ	accent manquant	 三人行必有我师 
+师	shi -> shī	accent manquant	 三人行必有我师 
+好	hao -> hào	accent manquant (好学)	 好学 
+学	xue -> xué	accent manquant (好学)	 好学 
+好	hao -> hào	accent manquant (好学)	 谦虚好学 
+学	xue -> xué	accent manquant (好学)	 谦虚好学 
+谦	qian -> qiān	accent manquant	 谦虚好学 
+虚	xu -> xū	accent manquant	 谦虚好学 
+活	huo -> huó	accent manquant	活到老学到老，这是奶奶一生的信条。 
+到	dao -> dào	accent manquant	活到老学到老，这是奶奶一生的信条。 
+老	lao -> lǎo	accent manquant	活到老学到老，这是奶奶一生的信条。 
+学	xue -> xué	accent manquant	活到老学到老，这是奶奶一生的信条。 
+到	dao -> dào	accent manquant	活到老学到老，这是奶奶一生的信条。 
+老	lao -> lǎo	accent manquant	活到老学到老，这是奶奶一生的信条。 
+这	zhe -> zhè	accent manquant	活到老学到老，这是奶奶一生的信条。 
+是	shi -> shì	accent manquant	活到老学到老，这是奶奶一生的信条。 
+奶	nai -> nǎi	accent manquant	活到老学到老，这是奶奶一生的信条。 
+奶	nai -> nǎi	accent manquant	活到老学到老，这是奶奶一生的信条。 
+生	sheng -> shēng	accent manquant	活到老学到老，这是奶奶一生的信条。 
+信	xin -> xìn	accent manquant	活到老学到老，这是奶奶一生的信条。 
+条	tiao -> tiáo	accent manquant	活到老学到老，这是奶奶一生的信条。 
+百	bai -> bǎi	accent manquant	百折 
+折	zhe -> zhé	accent manquant	百折 
+挠	nao -> náo	accent manquant	 不挠 
+坚	jian -> jiān	accent manquant (坚韧不拔)	 坚韧不拔 
+韧	ren -> rèn	accent manquant (坚韧不拔)	 坚韧不拔 
+拔	ba -> bá	accent manquant (坚韧不拔)	 坚韧不拔 
+越	yue -> yuè	accent manquant	 越挫越勇 
+挫	cuo -> cuò	accent manquant	 越挫越勇 
+越	yue -> yuè	accent manquant	 越挫越勇 
+勇	yong -> yǒng	accent manquant	 越挫越勇 
+勇	yong -> yǒng	accent manquant	 勇往直前 
+往	wang -> wǎng	accent manquant	 勇往直前 
+直	zhi -> zhí	accent manquant	 勇往直前 
+前	qian -> qián	accent manquant	 勇往直前 
+她	ta -> tā	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+百	bai -> bǎi	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+折	zhe -> zhé	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+挠	nao -> náo	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+终	zhong -> zhōng	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+于	yu -> yú	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+在	zai -> zài	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+创	chuang -> chuàng	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+业	ye -> yè	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+道	dao -> dào	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+路	lu -> lù	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+上	shang -> shàng	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+取	qu -> qǔ	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+成	cheng -> chéng	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
+功	gong -> gōng	accent manquant	她百折不挠，终于在创业道路上取得了成功。 
 义	yi -> yì	accent manquant	义务植树 
 务	wu -> wù	accent manquant	义务植树 
 植	zhi -> zhí	accent manquant	义务植树 
@@ -3299,6 +3361,78 @@
 最	zui -> zuì	accent manquant	西安的明代城墙是全国保存最完整的。 
 完	wan -> wán	accent manquant	西安的明代城墙是全国保存最完整的。 
 整	zheng -> zhěng	accent manquant	西安的明代城墙是全国保存最完整的。 
+华	hua -> huá	accent manquant (华为)	华为 
+为	wei -> wéi	accent manquant (华为)	华为 
+腾	teng -> téng	accent manquant	 腾讯 
+讯	xun -> xùn	accent manquant	 腾讯 
+大	da -> dà	accent manquant	 大疆 
+疆	jiang -> jiāng	accent manquant	 大疆 
+山	san -> sān	accent manquant	 山寨 
+寨	zhai -> zhài	accent manquant	 山寨 
+电	dian -> diàn	accent manquant (电子)	 电子制造 
+子	zi -> zǐ	accent manquant (电子)	 电子制造 
+制	zhi -> zhì	accent manquant	 电子制造 
+造	zao -> zào	accent manquant	 电子制造 
+独	du -> dú	accent manquant	独立自主 
+立	li -> lì	accent manquant	独立自主 
+自	zi -> zì	accent manquant	独立自主 
+主	zhu -> zhǔ	accent manquant	独立自主 
+土	tu -> tǔ	accent manquant (土地)	 一方土地 
+地	di -> dì	accent manquant (土地)	 一方土地 
+方	fang -> fāng	accent manquant	 一方土地 
+负	fu -> fù	accent manquant (负重)	 肩负重任 
+重	zhong -> zhòng	accent manquant (负重)	 肩负重任 
+肩	jian -> jiān	accent manquant	 肩负重任 
+任	ren -> rèn	accent manquant	 肩负重任 
+人	ren -> rén	accent manquant	 人才 
+才	cai -> cái	accent manquant	 人才 
+挑	tiao -> tiǎo	accent manquant (挑大梁)	 挑大梁 
+大	da -> dà	accent manquant (挑大梁)	 挑大梁 
+梁	liang -> liáng	accent manquant (挑大梁)	 挑大梁 
+经	jing -> jīng	accent manquant	经过几年历练，他已经能独当一面了。 
+几	ji -> jǐ	accent manquant	经过几年历练，他已经能独当一面了。 
+年	nian -> nián	accent manquant	经过几年历练，他已经能独当一面了。 
+历	li -> lì	accent manquant	经过几年历练，他已经能独当一面了。 
+练	lian -> liàn	accent manquant	经过几年历练，他已经能独当一面了。 
+他	ta -> tā	accent manquant	经过几年历练，他已经能独当一面了。 
+已	yi -> yǐ	accent manquant	经过几年历练，他已经能独当一面了。 
+经	jing -> jīng	accent manquant	经过几年历练，他已经能独当一面了。 
+能	neng -> néng	accent manquant	经过几年历练，他已经能独当一面了。 
+独	du -> dú	accent manquant	经过几年历练，他已经能独当一面了。 
+当	dang -> dāng	accent manquant	经过几年历练，他已经能独当一面了。 
+面	mian -> miàn	accent manquant	经过几年历练，他已经能独当一面了。 
+诗	shi -> shī	accent manquant	诗佛 
+佛	fo -> fó	accent manquant	诗佛 
+山	shan -> shān	accent manquant	 山水诗 
+水	shui -> shuǐ	accent manquant	 山水诗 
+诗	shi -> shī	accent manquant	 山水诗 
+诗	shi -> shī	accent manquant	 诗中有画，画中有诗 
+中	zhong -> zhōng	accent manquant	 诗中有画，画中有诗 
+有	you -> yǒu	accent manquant	 诗中有画，画中有诗 
+画	hua -> huà	accent manquant	 诗中有画，画中有诗 
+画	hua -> huà	accent manquant	 诗中有画，画中有诗 
+中	zhong -> zhōng	accent manquant	 诗中有画，画中有诗 
+有	you -> yǒu	accent manquant	 诗中有画，画中有诗 
+诗	shi -> shī	accent manquant	 诗中有画，画中有诗 
+独	du -> dú	accent manquant	 独坐幽篁里 
+坐	zuo -> zuò	accent manquant	 独坐幽篁里 
+幽	you -> yōu	accent manquant	 独坐幽篁里 
+篁	huang -> huáng	accent manquant	 独坐幽篁里 
+里	li -> lǐ	accent manquant	 独坐幽篁里 
+别	bie -> bié	accent manquant (别业)	 辋川别业 
+业	ye -> yè	accent manquant (别业)	 辋川别业 
+辋	wang -> wǎng	accent manquant	 辋川别业 
+川	chuan -> chuān	accent manquant	 辋川别业 
+到	dao -> dào	accent manquant (到了)	王维的诗和画都达到了极高的境界。 
+王	wang -> wáng	accent manquant	王维的诗和画都达到了极高的境界。 
+维	wei -> wéi	accent manquant	王维的诗和画都达到了极高的境界。 
+诗	shi -> shī	accent manquant	王维的诗和画都达到了极高的境界。 
+画	hua -> huà	accent manquant	王维的诗和画都达到了极高的境界。 
+达	da -> dá	accent manquant	王维的诗和画都达到了极高的境界。 
+极	ji -> jí	accent manquant	王维的诗和画都达到了极高的境界。 
+高	gao -> gāo	accent manquant	王维的诗和画都达到了极高的境界。 
+境	jing -> jìng	accent manquant	王维的诗和画都达到了极高的境界。 
+界	jie -> jiè	accent manquant	王维的诗和画都达到了极高的境界。 
 棋	qi -> qí	accent manquant	棋盘 
 盘	pan -> pán	accent manquant	棋盘 
 棋	qi -> qí	accent manquant	 棋子 
@@ -3446,6 +3580,34 @@
 子	zi -> zǐ	accent manquant (量子)	中国在量子通信领域取得了重要突破，发射了世界首颗量子
 子	zi -> zǐ	accent manquant (电子)	电子 (
 识	shi -> shí	accent manquant (知识)	知识付费
+躺	tang -> tǎng	accent manquant	躺平 
+平	ping -> píng	accent manquant	躺平 
+内	nei -> nèi	accent manquant	 内卷 
+卷	juan -> juǎn	accent manquant	 内卷 
+佛	fo -> fó	accent manquant (佛系)	 佛系 
+系	xi -> xì	accent manquant (佛系)	 佛系 
+打	da -> dǎ	accent manquant (打工)	 打工人 
+工	gong -> gōng	accent manquant (打工)	 打工人 
+人	ren -> rén	accent manquant	 打工人 
+摸	mo -> mō	accent manquant	 摸鱼 
+鱼	yu -> yú	accent manquant	 摸鱼 
+这	zhe -> zhè	accent manquant (这些)	这些网络用语反映了中国年轻人的真实心态。 
+些	xie -> xiē	accent manquant (这些)	这些网络用语反映了中国年轻人的真实心态。 
+网	wang -> wǎng	accent manquant (网络)	这些网络用语反映了中国年轻人的真实心态。 
+络	luo -> luò	accent manquant (网络)	这些网络用语反映了中国年轻人的真实心态。 
+用	yong -> yòng	accent manquant (用语)	这些网络用语反映了中国年轻人的真实心态。 
+语	yu -> yǔ	accent manquant (用语)	这些网络用语反映了中国年轻人的真实心态。 
+中	zhong -> zhōng	accent manquant (中国)	这些网络用语反映了中国年轻人的真实心态。 
+国	guo -> guó	accent manquant (中国)	这些网络用语反映了中国年轻人的真实心态。 
+反	fan -> fǎn	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+映	ying -> yìng	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+年	nian -> nián	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+轻	qing -> qīng	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+人	ren -> rén	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+真	zhen -> zhēn	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+实	shi -> shí	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+心	xin -> xīn	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
+态	tai -> tài	accent manquant	这些网络用语反映了中国年轻人的真实心态。 
 系	xi -> xì	accent manquant (关系)	中欧关系
 三	san -> sān	accent manquant	三足乌 
 足	zu -> zú	accent manquant	三足乌 
@@ -3506,6 +3668,35 @@
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩是现存最大的灵长类动物。 
 猩	xing -> xīng	accent manquant (大猩猩)	大猩猩的栖息地因森林砍伐而急剧减少。 
+天	tian -> tiān	accent manquant	天道 
+道	dao -> dào	accent manquant	天道 
+酬	chou -> chóu	accent manquant	 酬勤 
+勤	qin -> qín	accent manquant	 酬勤 
+功	gong -> gōng	accent manquant (功夫)	 功夫不负有心人 
+有	you -> yǒu	accent manquant (有心人)	 功夫不负有心人 
+心	xin -> xīn	accent manquant (有心人)	 功夫不负有心人 
+人	ren -> rén	accent manquant (有心人)	 功夫不负有心人 
+夫	fu -> fū	accent manquant	 功夫不负有心人 
+负	fu -> fù	accent manquant	 功夫不负有心人 
+勤	qin -> qín	accent manquant (勤能补拙)	 勤能补拙 
+能	neng -> néng	accent manquant (勤能补拙)	 勤能补拙 
+补	bu -> bǔ	accent manquant (勤能补拙)	 勤能补拙 
+拙	zhuo -> zhuō	accent manquant (勤能补拙)	 勤能补拙 
+坚	jian -> jiān	accent manquant	 坚持 
+持	chi -> chí	accent manquant	 坚持 
+天	tian -> tiān	accent manquant	天道酬勤，只要努力就会有回报。 
+道	dao -> dào	accent manquant	天道酬勤，只要努力就会有回报。 
+酬	chou -> chóu	accent manquant	天道酬勤，只要努力就会有回报。 
+勤	qin -> qín	accent manquant	天道酬勤，只要努力就会有回报。 
+只	zhi -> zhǐ	accent manquant	天道酬勤，只要努力就会有回报。 
+要	yao -> yào	accent manquant	天道酬勤，只要努力就会有回报。 
+努	nu -> nǔ	accent manquant	天道酬勤，只要努力就会有回报。 
+力	li -> lì	accent manquant	天道酬勤，只要努力就会有回报。 
+就	jiu -> jiù	accent manquant	天道酬勤，只要努力就会有回报。 
+会	hui -> huì	accent manquant	天道酬勤，只要努力就会有回报。 
+有	you -> yǒu	accent manquant	天道酬勤，只要努力就会有回报。 
+回	hui -> huí	accent manquant	天道酬勤，只要努力就会有回报。 
+报	bao -> bào	accent manquant	天道酬勤，只要努力就会有回报。 
 玉	yu -> yù	accent manquant	玉兔 
 兔	tu -> tù	accent manquant	玉兔 
 中	zhong -> zhōng	accent manquant	 中秋节 
@@ -3540,7 +3731,63 @@
 瀚	han -> hàn	accent manquant	 浩瀚 
 星	xing -> xīng	accent manquant (星系)	 星系 
 系	xi -> xì	accent manquant (星系)	 星系 
+长	chang -> cháng	accent manquant (长征)	长征 
+征	zheng -> zhēng	accent manquant (长征)	长征 
+大	da -> dà	accent manquant (大跃进)	 大跃进 
+跃	yue -> yuè	accent manquant (大跃进)	 大跃进 
+进	jin -> jìn	accent manquant (大跃进)	 大跃进 
+文	wen -> wén	accent manquant (文化)	 文化大革命 
+化	hua -> huà	accent manquant (文化)	 文化大革命 
+大	da -> dà	accent manquant (大革命)	 文化大革命 
+革	ge -> gé	accent manquant (大革命)	 文化大革命 
+命	ming -> mìng	accent manquant (大革命)	 文化大革命 
+红	hong -> hóng	accent manquant	 红宝书 
+宝	bao -> bǎo	accent manquant	 红宝书 
+书	shu -> shū	accent manquant	 红宝书 
+人	ren -> rén	accent manquant	 人民英雄 
+民	min -> mín	accent manquant	 人民英雄 
+英	ying -> yīng	accent manquant	 人民英雄 
+雄	xiong -> xióng	accent manquant	 人民英雄 
 个	ge -> gè	accent manquant (一个)	这个沉浸式展览让参观者仿佛进入了另一个世界。 
+绳	sheng -> shéng	accent manquant	绳锯木断 
+锯	ju -> jù	accent manquant	绳锯木断 
+木	mu -> mù	accent manquant	绳锯木断 
+断	duan -> duàn	accent manquant	绳锯木断 
+持	chi -> chí	accent manquant	 持之以恒 
+之	zhi -> zhī	accent manquant	 持之以恒 
+以	yi -> yǐ	accent manquant	 持之以恒 
+恒	heng -> héng	accent manquant	 持之以恒 
+冰	bing -> bīng	accent manquant	 冰冻三尺非一日之寒 
+冻	dong -> dòng	accent manquant	 冰冻三尺非一日之寒 
+三	san -> sān	accent manquant	 冰冻三尺非一日之寒 
+尺	chi -> chǐ	accent manquant	 冰冻三尺非一日之寒 
+非	fei -> fēi	accent manquant	 冰冻三尺非一日之寒 
+日	ri -> rì	accent manquant	 冰冻三尺非一日之寒 
+之	zhi -> zhī	accent manquant	 冰冻三尺非一日之寒 
+寒	han -> hán	accent manquant	 冰冻三尺非一日之寒 
+功	gong -> gōng	accent manquant	 功到自然成 
+到	dao -> dào	accent manquant	 功到自然成 
+自	zi -> zì	accent manquant	 功到自然成 
+然	ran -> rán	accent manquant	 功到自然成 
+成	cheng -> chéng	accent manquant	 功到自然成 
+铁	tie -> tiě	accent manquant (铁杵磨成针)	 铁杵磨成针 
+杵	chu -> chǔ	accent manquant (铁杵磨成针)	 铁杵磨成针 
+磨	mo -> mó	accent manquant (铁杵磨成针)	 铁杵磨成针 
+成	cheng -> chéng	accent manquant (铁杵磨成针)	 铁杵磨成针 
+针	zhen -> zhēn	accent manquant (铁杵磨成针)	 铁杵磨成针 
+学	xue -> xué	accent manquant (学好)	学好一门语言需要滴水穿石的毅力。 
+好	hao -> hǎo	accent manquant (学好)	学好一门语言需要滴水穿石的毅力。 
+语	yu -> yǔ	accent manquant (语言)	学好一门语言需要滴水穿石的毅力。 
+言	yan -> yán	accent manquant (语言)	学好一门语言需要滴水穿石的毅力。 
+需	xu -> xū	accent manquant (需要)	学好一门语言需要滴水穿石的毅力。 
+要	yao -> yào	accent manquant (需要)	学好一门语言需要滴水穿石的毅力。 
+滴	di -> dī	accent manquant (滴水穿石)	学好一门语言需要滴水穿石的毅力。 
+水	shui -> shuǐ	accent manquant (滴水穿石)	学好一门语言需要滴水穿石的毅力。 
+穿	chuan -> chuān	accent manquant (滴水穿石)	学好一门语言需要滴水穿石的毅力。 
+石	shi -> shí	accent manquant (滴水穿石)	学好一门语言需要滴水穿石的毅力。 
+门	men -> mén	accent manquant	学好一门语言需要滴水穿石的毅力。 
+毅	yi -> yì	accent manquant	学好一门语言需要滴水穿石的毅力。 
+力	li -> lì	accent manquant	学好一门语言需要滴水穿石的毅力。 
 书	shu -> shū	accent manquant	书圣 
 圣	sheng -> shèng	accent manquant	书圣 
 兰	lan -> lán	accent manquant	 兰亭序 
@@ -3634,6 +3881,22 @@
 剂	ji -> jì	accent manquant	甘草几乎出现在所有中药方剂里。 
 里	li -> lǐ	accent manquant	甘草几乎出现在所有中药方剂里。 
 子	zi -> zǐ	accent manquant (电子)	电子 (
+祸	huo -> huò	accent manquant (祸从口出)	祸从口出 
+从	cong -> cóng	accent manquant (祸从口出)	祸从口出 
+口	kou -> kǒu	accent manquant (祸从口出)	祸从口出 
+出	chu -> chū	accent manquant (祸从口出)	祸从口出 
+饮	yin -> yǐn	accent manquant (饮食)	 饮食卫生 
+食	shi -> shí	accent manquant (饮食)	 饮食卫生 
+卫	wei -> wèi	accent manquant	 饮食卫生 
+生	sheng -> shēng	accent manquant	 饮食卫生 
+病	bing -> bìng	accent manquant	 病菌 
+菌	jun -> jùn	accent manquant	 病菌 
+谚	yan -> yàn	accent manquant	 谚语 
+语	yu -> yǔ	accent manquant	 谚语 
+洗	xi -> xǐ	accent manquant (洗手)	 饭前洗手 
+手	shou -> shǒu	accent manquant (洗手)	 饭前洗手 
+饭	fan -> fàn	accent manquant	 饭前洗手 
+前	qian -> qián	accent manquant	 饭前洗手 
 四	si -> sì	accent manquant	四象 
 象	xiang -> xiàng	accent manquant	四象 
 西	xi -> xī	accent manquant	 西方之神 
@@ -3691,6 +3954,47 @@
 源	yuan -> yuán	accent manquant	盘古开天辟地是中国神话的起源。 
 子	zi -> zǐ	accent manquant (老子)	 (老子), 
 亮	liang -> liàng	accent manquant (漂亮)	红烧肉要加一勺老抽才能让颜色漂亮。 
+改	gai -> gǎi	accent manquant	改革开放 
+革	ge -> gé	accent manquant	改革开放 
+开	kai -> kāi	accent manquant	改革开放 
+放	fang -> fàng	accent manquant	改革开放 
+经	jing -> jīng	accent manquant (经济特区)	 经济特区 
+济	ji -> jì	accent manquant (经济特区)	 经济特区 
+特	te -> tè	accent manquant (经济特区)	 经济特区 
+区	qu -> qū	accent manquant (经济特区)	 经济特区 
+社	she -> shè	accent manquant (社会主义)	 社会主义市场经济 
+会	hui -> huì	accent manquant (社会主义)	 社会主义市场经济 
+主	zhu -> zhǔ	accent manquant (社会主义)	 社会主义市场经济 
+义	yi -> yì	accent manquant (社会主义)	 社会主义市场经济 
+市	shi -> shì	accent manquant (市场经济)	 社会主义市场经济 
+场	chang -> chǎng	accent manquant (市场经济)	 社会主义市场经济 
+经	jing -> jīng	accent manquant (市场经济)	 社会主义市场经济 
+济	ji -> jì	accent manquant (市场经济)	 社会主义市场经济 
+国	guo -> guó	accent manquant	 一国两制 
+两	liang -> liǎng	accent manquant	 一国两制 
+制	zhi -> zhì	accent manquant	 一国两制 
+南	nan -> nán	accent manquant (南巡)	 南巡讲话 
+巡	xun -> xún	accent manquant (南巡)	 南巡讲话 
+讲	jiang -> jiǎng	accent manquant	 南巡讲话 
+话	hua -> huà	accent manquant	 南巡讲话 
+中	zhong -> zhōng	accent manquant (中国)	邓小平推行的改革开放政策使中国经济腾飞。 
+国	guo -> guó	accent manquant (中国)	邓小平推行的改革开放政策使中国经济腾飞。 
+经	jing -> jīng	accent manquant (经济)	邓小平推行的改革开放政策使中国经济腾飞。 
+济	ji -> jì	accent manquant (经济)	邓小平推行的改革开放政策使中国经济腾飞。 
+邓	deng -> dèng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+小	xiao -> xiǎo	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+平	ping -> píng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+推	tui -> tuī	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+行	xing -> xíng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+改	gai -> gǎi	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+革	ge -> gé	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+开	kai -> kāi	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+放	fang -> fàng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+政	zheng -> zhèng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+策	ce -> cè	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+使	shi -> shǐ	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+腾	teng -> téng	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
+飞	fei -> fēi	accent manquant	邓小平推行的改革开放政策使中国经济腾飞。 
 子	zi -> zǐ	accent manquant (弟子)	"师傅虽然平时对弟子要求严格，但是关键时刻总是会不顾
 子	zi -> zǐ	accent manquant (电子)	. 电子发票 
 子	zi -> zǐ	accent manquant (太子)	"在大臣们的联合逼迫下，年迈的皇帝最终被迫退位，将皇
@@ -3851,6 +4155,45 @@
 借	jie -> jiè	accent manquant	孙悟空去东海龙王那里借了宝贝。 
 宝	bao -> bǎo	accent manquant	孙悟空去东海龙王那里借了宝贝。 
 贝	bei -> bèi	accent manquant	孙悟空去东海龙王那里借了宝贝。 
+永	yong -> yǒng	accent manquant (永远)	 永远的神 
+远	yuan -> yuǎn	accent manquant (永远)	 永远的神 
+神	shen -> shén	accent manquant	 永远的神 
+网	wang -> wǎng	accent manquant (网络)	 网络流行语 
+络	luo -> luò	accent manquant (网络)	 网络流行语 
+流	liu -> liú	accent manquant (流行)	 网络流行语 
+行	xing -> xíng	accent manquant (流行)	 网络流行语 
+语	yu -> yǔ	accent manquant	 网络流行语 
+这	zhe -> zhè	accent manquant	 这道菜
+道	dao -> dào	accent manquant	 这道菜
+菜	cai -> cài	accent manquant	 这道菜
+拼	pin -> pīn	accent manquant	 拼音首字母 
+音	yin -> yīn	accent manquant	 拼音首字母 
+首	shou -> shǒu	accent manquant	 拼音首字母 
+字	zi -> zì	accent manquant	 拼音首字母 
+母	mu -> mǔ	accent manquant	 拼音首字母 
+年	nian -> nián	accent manquant (年度)	 年度流行语 
+度	du -> dù	accent manquant (年度)	 年度流行语 
+流	liu -> liú	accent manquant (流行)	 年度流行语 
+行	xing -> xíng	accent manquant (流行)	 年度流行语 
+语	yu -> yǔ	accent manquant	 年度流行语 
+这	zhe -> zhè	accent manquant	这家店的奶茶真的 
+家	jia -> jiā	accent manquant	这家店的奶茶真的 
+店	dian -> diàn	accent manquant	这家店的奶茶真的 
+奶	nai -> nǎi	accent manquant	这家店的奶茶真的 
+茶	cha -> chá	accent manquant	这家店的奶茶真的 
+真	zhen -> zhēn	accent manquant	这家店的奶茶真的 
+请	qing -> qǐng	accent manquant (请教)	请教 
+教	jiao -> jiào	accent manquant (请教)	请教 
+谦	qian -> qiān	accent manquant	 谦虚 
+虚	xu -> xū	accent manquant	 谦虚 
+懂	dong -> dǒng	accent manquant	 不懂就问 
+就	jiu -> jiù	accent manquant	 不懂就问 
+问	wen -> wèn	accent manquant	 不懂就问 
+面	mian -> miàn	accent manquant (面子)	 面子 
+好	hao -> hào	accent manquant (好学)	 好学多问 
+学	xue -> xué	accent manquant (好学)	 好学多问 
+多	duo -> duō	accent manquant	 好学多问 
+问	wen -> wèn	accent manquant	 好学多问 
 系	xi -> xì	accent manquant (关系)	两岸关系
 系	xi -> xì	accent manquant (关系)	中美关系
 望	wang -> wàng	accent manquant	望月怀乡 
@@ -3931,6 +4274,27 @@
 人	ren -> rén	accent manquant	他为了义气，不顾个人利益。 
 利	li -> lì	accent manquant	他为了义气，不顾个人利益。 
 益	yi -> yì	accent manquant	他为了义气，不顾个人利益。 
+之	zhi -> zhī	accent manquant	之 
+乎	hu -> hū	accent manquant	 乎 
+者	zhe -> zhě	accent manquant	 者 
+也	ya -> yǎ	accent manquant	 也 
+咬	yao -> yǎo	accent manquant (咬文嚼字)	 咬文嚼字 
+文	wen -> wén	accent manquant (咬文嚼字)	 咬文嚼字 
+嚼	jiao -> jiáo	accent manquant (咬文嚼字)	 咬文嚼字 
+字	zi -> zì	accent manquant (咬文嚼字)	 咬文嚼字 
+他	ta -> tā	accent manquant	他说话总是之乎者也，让人听不懂。 
+说	shuo -> shuō	accent manquant	他说话总是之乎者也，让人听不懂。 
+话	hua -> huà	accent manquant	他说话总是之乎者也，让人听不懂。 
+总	zong -> zǒng	accent manquant	他说话总是之乎者也，让人听不懂。 
+是	shi -> shì	accent manquant	他说话总是之乎者也，让人听不懂。 
+之	zhi -> zhī	accent manquant	他说话总是之乎者也，让人听不懂。 
+乎	hu -> hū	accent manquant	他说话总是之乎者也，让人听不懂。 
+者	zhe -> zhě	accent manquant	他说话总是之乎者也，让人听不懂。 
+也	ya -> yǎ	accent manquant	他说话总是之乎者也，让人听不懂。 
+让	rang -> ràng	accent manquant	他说话总是之乎者也，让人听不懂。 
+人	ren -> rén	accent manquant	他说话总是之乎者也，让人听不懂。 
+听	ting -> tīng	accent manquant	他说话总是之乎者也，让人听不懂。 
+懂	dong -> dǒng	accent manquant	他说话总是之乎者也，让人听不懂。 
 长	chang -> cháng	accent manquant (长寿)	长寿 
 寿	shou -> shòu	accent manquant (长寿)	长寿 
 丹	dan -> dān	accent manquant	 丹顶鹤 
@@ -4084,6 +4448,54 @@
 部	bu -> bù	accent manquant	史记是中国第一部纪传体通史。 
 通	tong -> tōng	accent manquant	史记是中国第一部纪传体通史。 
 史	shi -> shǐ	accent manquant	史记是中国第一部纪传体通史。 
+史	shi -> shǐ	accent manquant	史记 
+记	ji -> jì	accent manquant	史记 
+纪	ji -> jì	accent manquant (纪传体)	 纪传体 
+传	zhuan -> zhuàn	accent manquant (纪传体)	 纪传体 
+体	ti -> tǐ	accent manquant (纪传体)	 纪传体 
+宫	gong -> gōng	accent manquant	 宫刑 
+刑	xing -> xíng	accent manquant	 宫刑 
+忍	ren -> rěn	accent manquant (忍辱负重)	 忍辱负重 
+辱	ru -> rǔ	accent manquant (忍辱负重)	 忍辱负重 
+负	fu -> fù	accent manquant (忍辱负重)	 忍辱负重 
+重	zhong -> zhòng	accent manquant (忍辱负重)	 忍辱负重 
+历	li -> lì	accent manquant	 历史学家 
+史	shi -> shǐ	accent manquant	 历史学家 
+学	xue -> xué	accent manquant	 历史学家 
+家	jia -> jiā	accent manquant	 历史学家 
+中	zhong -> zhōng	accent manquant (中国)	司马迁是中国最伟大的历史学家。 
+国	guo -> guó	accent manquant (中国)	司马迁是中国最伟大的历史学家。 
+伟	wei -> wěi	accent manquant (伟大)	司马迁是中国最伟大的历史学家。 
+大	da -> dà	accent manquant (伟大)	司马迁是中国最伟大的历史学家。 
+司	Si -> Sī	accent manquant	司马迁是中国最伟大的历史学家。 
+马	ma -> mǎ	accent manquant	司马迁是中国最伟大的历史学家。 
+迁	qian -> qiān	accent manquant	司马迁是中国最伟大的历史学家。 
+是	shi -> shì	accent manquant	司马迁是中国最伟大的历史学家。 
+最	zui -> zuì	accent manquant	司马迁是中国最伟大的历史学家。 
+历	li -> lì	accent manquant	司马迁是中国最伟大的历史学家。 
+史	shi -> shǐ	accent manquant	司马迁是中国最伟大的历史学家。 
+学	xue -> xué	accent manquant	司马迁是中国最伟大的历史学家。 
+家	jia -> jiā	accent manquant	司马迁是中国最伟大的历史学家。 
+吃	chi -> chī	accent manquant	吃亏 
+亏	kui -> kuī	accent manquant	吃亏 
+福	fu -> fú	accent manquant	 福 
+塞	sai -> sài	accent manquant (塞翁失马)	 塞翁失马 
+翁	weng -> wēng	accent manquant (塞翁失马)	 塞翁失马 
+失	shi -> shī	accent manquant (塞翁失马)	 塞翁失马 
+马	ma -> mǎ	accent manquant (塞翁失马)	 塞翁失马 
+让	rang -> ràng	accent manquant	 让步 
+步	bu -> bù	accent manquant	 让步 
+计	ji -> jì	accent manquant	 计较 
+较	jiao -> jiào	accent manquant	 计较 
+做	zuo -> zuò	accent manquant	做人要大度，吃亏是福
+人	ren -> rén	accent manquant	做人要大度，吃亏是福
+要	yao -> yào	accent manquant	做人要大度，吃亏是福
+大	da -> dà	accent manquant	做人要大度，吃亏是福
+度	du -> dù	accent manquant	做人要大度，吃亏是福
+吃	chi -> chī	accent manquant	做人要大度，吃亏是福
+亏	kui -> kuī	accent manquant	做人要大度，吃亏是福
+是	shi -> shì	accent manquant	做人要大度，吃亏是福
+福	fu -> fú	accent manquant	做人要大度，吃亏是福
 射	she -> shè	accent manquant	射日 
 日	ri -> rì	accent manquant	射日 
 嫦	Chang -> Cháng	accent manquant	 嫦娥奔月 
@@ -4244,6 +4656,46 @@
 人	ren -> rén	accent manquant	孙悟空是中国最著名的神话人物之一。 
 物	wu -> wù	accent manquant	孙悟空是中国最著名的神话人物之一。 
 之	zhi -> zhī	accent manquant	孙悟空是中国最著名的神话人物之一。 
+干	gan -> gān	accent manquant (干杯)	干杯 
+杯	bei -> bēi	accent manquant (干杯)	干杯 
+转	zhuan -> zhuàn	accent manquant (转盘)	 转盘 
+盘	pan -> pán	accent manquant (转盘)	 转盘 
+压	ya -> yā	accent manquant	 压桌菜 
+桌	zhuo -> zhuō	accent manquant	 压桌菜 
+菜	cai -> cài	accent manquant	 压桌菜 
+待	dai -> dài	accent manquant (待客)	 待客之道 
+客	ke -> kè	accent manquant (待客)	 待客之道 
+之	zhi -> zhī	accent manquant	 待客之道 
+道	dao -> dào	accent manquant	 待客之道 
+敬	jing -> jìng	accent manquant	 敬酒 
+酒	jiu -> jiǔ	accent manquant	 敬酒 
+吒	zha -> zhā	accent manquant (哪吒)	哪吒 
+姜	Jiang -> Jiāng	accent manquant	 姜子牙 
+牙	ya -> yá	accent manquant	 姜子牙 
+纣	zhou -> zhòu	accent manquant	 纣王 
+王	wang -> wáng	accent manquant	 纣王 
+商	shang -> shāng	accent manquant	 商周之战 
+周	zhou -> zhōu	accent manquant	 商周之战 
+之	zhi -> zhī	accent manquant	 商周之战 
+战	zhan -> zhàn	accent manquant	 商周之战 
+封	feng -> fēng	accent manquant	 封神 
+神	shen -> shén	accent manquant	 封神 
+中	zhong -> zhōng	accent manquant (中国)	封神榜是中国古典神话小说的经典之作。 
+国	guo -> guó	accent manquant (中国)	封神榜是中国古典神话小说的经典之作。 
+小	xiao -> xiǎo	accent manquant (小说)	封神榜是中国古典神话小说的经典之作。 
+说	shuo -> shuō	accent manquant (小说)	封神榜是中国古典神话小说的经典之作。 
+封	Feng -> Fēng	accent manquant	封神榜是中国古典神话小说的经典之作。 
+神	shen -> shén	accent manquant	封神榜是中国古典神话小说的经典之作。 
+榜	bang -> bǎng	accent manquant	封神榜是中国古典神话小说的经典之作。 
+是	shi -> shì	accent manquant	封神榜是中国古典神话小说的经典之作。 
+古	gu -> gǔ	accent manquant	封神榜是中国古典神话小说的经典之作。 
+典	dian -> diǎn	accent manquant	封神榜是中国古典神话小说的经典之作。 
+神	shen -> shén	accent manquant	封神榜是中国古典神话小说的经典之作。 
+话	hua -> huà	accent manquant	封神榜是中国古典神话小说的经典之作。 
+经	jing -> jīng	accent manquant	封神榜是中国古典神话小说的经典之作。 
+典	dian -> diǎn	accent manquant	封神榜是中国古典神话小说的经典之作。 
+之	zhi -> zhī	accent manquant	封神榜是中国古典神话小说的经典之作。 
+作	zuo -> zuò	accent manquant	封神榜是中国古典神话小说的经典之作。 
 离	li -> lí	accent manquant (离骚)	离骚 
 骚	sao -> sāo	accent manquant (离骚)	离骚 
 端	duan -> duān	accent manquant (端午节)	 端午节 
@@ -4308,6 +4760,47 @@
 敬	jing -> jìng	accent manquant	岳飞是中国历史上最受尊敬的爱国将领。 
 爱	ai -> ài	accent manquant	岳飞是中国历史上最受尊敬的爱国将领。 
 国	guo -> guó	accent manquant	岳飞是中国历史上最受尊敬的爱国将领。 
+静	jing -> jìng	accent manquant	静夜思 
+夜	ye -> yè	accent manquant	静夜思 
+思	si -> sī	accent manquant	静夜思 
+床	chuang -> chuáng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+前	qian -> qián	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+明	ming -> míng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+月	yue -> yuè	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+光	guang -> guāng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+疑	yi -> yí	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+是	shi -> shì	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+上	shang -> shàng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+霜	shuang -> shuāng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+举	ju -> jǔ	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+头	tou -> tóu	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+望	wang -> wàng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+明	ming -> míng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+月	yue -> yuè	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+低	di -> dī	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+头	tou -> tóu	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+思	si -> sī	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+故	gu -> gù	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+乡	xiang -> xiāng	accent manquant	 床前明月光，疑是地上霜。举头望明月，低头思故乡。 
+思	si -> sī	accent manquant	 思乡 
+乡	xiang -> xiāng	accent manquant	 思乡 
+低	di -> dī	accent manquant (低头)	 举头低头 
+头	tou -> tóu	accent manquant (低头)	 举头低头 
+举	ju -> jǔ	accent manquant	 举头低头 
+头	tou -> tóu	accent manquant	 举头低头 
+中	zhong -> zhōng	accent manquant (中国)	这首诗是中国最广为人知的唐诗。 
+国	guo -> guó	accent manquant (中国)	这首诗是中国最广为人知的唐诗。 
+为	wei -> wéi	accent manquant (为人)	这首诗是中国最广为人知的唐诗。 
+人	ren -> rén	accent manquant (为人)	这首诗是中国最广为人知的唐诗。 
+这	zhe -> zhè	accent manquant	这首诗是中国最广为人知的唐诗。 
+首	shou -> shǒu	accent manquant	这首诗是中国最广为人知的唐诗。 
+诗	shi -> shī	accent manquant	这首诗是中国最广为人知的唐诗。 
+是	shi -> shì	accent manquant	这首诗是中国最广为人知的唐诗。 
+最	zui -> zuì	accent manquant	这首诗是中国最广为人知的唐诗。 
+广	guang -> guǎng	accent manquant	这首诗是中国最广为人知的唐诗。 
+知	zhi -> zhī	accent manquant	这首诗是中国最广为人知的唐诗。 
+唐	tang -> táng	accent manquant	这首诗是中国最广为人知的唐诗。 
+诗	shi -> shī	accent manquant	这首诗是中国最广为人知的唐诗。 
 照	zhao -> zhào	accent manquant	照壁 
 壁	bi -> bì	accent manquant	照壁 
 辟	bi -> bì	accent manquant (辟邪)	 辟邪 
@@ -4320,6 +4813,17 @@
 四	si -> sì	accent manquant (四合院)	 四合院 
 合	he -> hé	accent manquant (四合院)	 四合院 
 院	yuan -> yuàn	accent manquant (四合院)	 四合院 
+史	shi -> shǐ	accent manquant	史记 
+记	ji -> jì	accent manquant	史记 
+典	dian -> diǎn	accent manquant	 典故 
+故	gu -> gù	accent manquant	 典故 
+寓	yu -> yù	accent manquant	 寓言 
+言	yan -> yán	accent manquant	 寓言 
+战	zhan -> zhàn	accent manquant	 战国策 
+国	guo -> guó	accent manquant	 战国策 
+策	ce -> cè	accent manquant	 战国策 
+庄	zhuang -> zhuāng	accent manquant (庄子)	 庄子 
+子	zi -> zǐ	accent manquant (庄子)	 庄子 
 炒	chao -> chǎo	accent manquant	炒饭 
 饭	fan -> fàn	accent manquant	炒饭 
 隔	ge -> gé	accent manquant	 隔夜饭 
@@ -4351,6 +4855,8 @@
 欠	qian -> qiàn	accent manquant (打哈欠)	打哈欠
 子	zi -> zǐ	accent manquant (老子)	老子主张"无为而治"，认为最好的管理是不过度干预，让
 夫	fu -> fū	accent manquant (高尔夫球)	高尔夫球
+夫	fu -> fū	accent manquant (高尔夫球)	他喜欢在周末打高尔夫球。 
+夫	fu -> fū	accent manquant (高尔夫球)	高尔夫球在中国富人中很流行。 
 方	fang -> fāng	accent manquant (地方话)	地方话
 子	zi -> zǐ	accent manquant (孙子)	"奶奶只会说地方话，孙子孙女从小生活在城市，反而完全
 通	tong -> tōng	accent manquant	通货膨胀 
@@ -4410,8 +4916,6 @@
 息	xi -> xí	accent manquant	突然的消息让他手足无措。 
 系	xi -> xì	accent manquant (关系)	托关系
 量	liang -> liàng	accent manquant (能量)	暗能量
-澳	Ào -> Aò	accent manquant	澳门以赌场和旅游业闻名。 
-澳	Ào -> Aò	accent manquant	澳门于
 子	zi -> zǐ	accent manquant (电子)	"你有电子登机牌吗？ 
 食	shi -> shí	accent manquant (粮食)	粮食
 芦	lu -> lú	accent manquant (葫芦)	糖葫芦
@@ -4420,6 +4924,24 @@
 子	zi -> zǐ	accent manquant (子女)	重阳节是尊老敬老的节日，子女会陪老人登高、赏菊花。 
 子	zi -> zǐ	accent manquant (弟子)	他被少林派收为弟子，开始了严格的修炼生涯。 
 马	ma -> mǎ	accent manquant (马虎)	马马虎虎
+授	shou -> shòu	accent manquant	授人以鱼 
+人	ren -> rén	accent manquant	授人以鱼 
+以	yi -> yǐ	accent manquant	授人以鱼 
+鱼	yu -> yú	accent manquant	授人以鱼 
+授	shou -> shòu	accent manquant	 授人以渔 
+人	ren -> rén	accent manquant	 授人以渔 
+以	yi -> yǐ	accent manquant	 授人以渔 
+渔	yu -> yú	accent manquant	 授人以渔 
+自	zi -> zì	accent manquant (自力更生)	 自力更生 
+力	li -> lì	accent manquant (自力更生)	 自力更生 
+更	geng -> gēng	accent manquant (自力更生)	 自力更生 
+生	sheng -> shēng	accent manquant (自力更生)	 自力更生 
+教	jiao -> jiào	accent manquant	 教育本质 
+育	yu -> yù	accent manquant	 教育本质 
+本	ben -> běn	accent manquant	 教育本质 
+质	zhi -> zhì	accent manquant	 教育本质 
+鱼	yu -> yú	accent manquant	 鱼 
+渔	yu -> yú	accent manquant	 渔 
 嫦	Chang -> Cháng	accent manquant	嫦娥 
 娥	e -> é	accent manquant	嫦娥 
 玉	yu -> yù	accent manquant	 玉兔 
@@ -4509,6 +5031,77 @@
 欢	huan -> huān	accent manquant	斗蛐蛐是北京老一辈人喜欢的消遣。 
 消	xiao -> xiāo	accent manquant	斗蛐蛐是北京老一辈人喜欢的消遣。 
 遣	qian -> qiǎn	accent manquant	斗蛐蛐是北京老一辈人喜欢的消遣。 
+水	shui -> shuǐ	accent manquant (水调歌头)	水调歌头 
+调	diao -> diào	accent manquant (水调歌头)	水调歌头 
+歌	ge -> gē	accent manquant (水调歌头)	水调歌头 
+头	tou -> tóu	accent manquant (水调歌头)	水调歌头 
+苏	su -> sū	accent manquant	 苏轼 
+轼	shi -> shì	accent manquant	 苏轼 
+但	dan -> dàn	accent manquant	 但愿人长久，千里共婵娟 
+愿	yuan -> yuàn	accent manquant	 但愿人长久，千里共婵娟 
+人	ren -> rén	accent manquant	 但愿人长久，千里共婵娟 
+长	chang -> cháng	accent manquant	 但愿人长久，千里共婵娟 
+久	jiu -> jiǔ	accent manquant	 但愿人长久，千里共婵娟 
+千	qian -> qiān	accent manquant	 但愿人长久，千里共婵娟 
+里	li -> lǐ	accent manquant	 但愿人长久，千里共婵娟 
+共	gong -> gòng	accent manquant	 但愿人长久，千里共婵娟 
+婵	chan -> chán	accent manquant	 但愿人长久，千里共婵娟 
+娟	juan -> juān	accent manquant	 但愿人长久，千里共婵娟 
+中	zhong -> zhōng	accent manquant	 中秋节 
+秋	qiu -> qiū	accent manquant	 中秋节 
+节	jie -> jié	accent manquant	 中秋节 
+婵	chan -> chán	accent manquant	 婵娟 
+娟	juan -> juān	accent manquant	 婵娟 
+但	dan -> dàn	accent manquant	但愿人长久，千里共婵娟。 
+愿	yuan -> yuàn	accent manquant	但愿人长久，千里共婵娟。 
+人	ren -> rén	accent manquant	但愿人长久，千里共婵娟。 
+长	chang -> cháng	accent manquant	但愿人长久，千里共婵娟。 
+久	jiu -> jiǔ	accent manquant	但愿人长久，千里共婵娟。 
+千	qian -> qiān	accent manquant	但愿人长久，千里共婵娟。 
+里	li -> lǐ	accent manquant	但愿人长久，千里共婵娟。 
+共	gong -> gòng	accent manquant	但愿人长久，千里共婵娟。 
+婵	chan -> chán	accent manquant	但愿人长久，千里共婵娟。 
+娟	juan -> juān	accent manquant	但愿人长久，千里共婵娟。 
+春	chun -> chūn	accent manquant	春晓 
+晓	xiao -> xiǎo	accent manquant	春晓 
+春	chun -> chūn	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+眠	mian -> mián	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+觉	jue -> jué	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+晓	xiao -> xiǎo	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+处	chu -> chù	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+处	chu -> chù	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+闻	wen -> wén	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+啼	ti -> tí	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+鸟	niao -> niǎo	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+夜	ye -> yè	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+来	lai -> lái	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+风	feng -> fēng	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+雨	yu -> yǔ	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+声	sheng -> shēng	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+花	hua -> huā	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+落	luo -> luò	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+知	zhi -> zhī	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+多	duo -> duō	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+少	shao -> shǎo	accent manquant	 春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。 
+田	tian -> tián	accent manquant	 田园诗 
+园	yuan -> yuán	accent manquant	 田园诗 
+诗	shi -> shī	accent manquant	 田园诗 
+啼	ti -> tí	accent manquant	 啼鸟 
+鸟	niao -> niǎo	accent manquant	 啼鸟 
+觉	jue -> jué	accent manquant (不觉)	春眠不觉晓是中国小学生必背的古诗。 
+中	zhong -> zhōng	accent manquant (中国)	春眠不觉晓是中国小学生必背的古诗。 
+国	guo -> guó	accent manquant (中国)	春眠不觉晓是中国小学生必背的古诗。 
+春	chun -> chūn	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+眠	mian -> mián	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+晓	xiao -> xiǎo	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+是	shi -> shì	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+小	xiao -> xiǎo	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+学	xue -> xué	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+生	sheng -> shēng	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+必	bi -> bì	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+背	bei -> bèi	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+古	gu -> gǔ	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
+诗	shi -> shī	accent manquant	春眠不觉晓是中国小学生必背的古诗。 
 三	san -> sān	accent manquant	三国演义 
 国	guo -> guó	accent manquant	三国演义 
 演	yan -> yǎn	accent manquant	三国演义 
@@ -4653,6 +5246,44 @@
 钟	zhong -> zhōng	accent manquant	叫了一辆滴滴，司机五分钟后到。 
 后	hou -> hòu	accent manquant	叫了一辆滴滴，司机五分钟后到。 
 到	dao -> dào	accent manquant	叫了一辆滴滴，司机五分钟后到。 
+春	chun -> chūn	accent manquant	春望 
+望	wang -> wàng	accent manquant	春望 
+国	guo -> guó	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+破	po -> pò	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+山	shan -> shān	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+河	he -> hé	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+在	zai -> zài	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+城	cheng -> chéng	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+春	chun -> chūn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+草	cao -> cǎo	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+木	mu -> mù	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+深	shen -> shēn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+感	gan -> gǎn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+时	shi -> shí	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+花	hua -> huā	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+溅	jian -> jiàn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+泪	lei -> lèi	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+恨	hen -> hèn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+别	bie -> bié	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+鸟	niao -> niǎo	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+惊	jing -> jīng	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+心	xin -> xīn	accent manquant	 国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。 
+诗	shi -> shī	accent manquant	 诗圣 
+圣	sheng -> shèng	accent manquant	 诗圣 
+杜	du -> dù	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+甫	fu -> fǔ	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+诗	shi -> shī	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+反	fan -> fǎn	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+映	ying -> yìng	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+安	an -> ān	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+史	shi -> shǐ	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+之	zhi -> zhī	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+乱	luan -> luàn	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+时	shi -> shí	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+百	bai -> bǎi	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+姓	xing -> xìng	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+疾	ji -> jí	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
+苦	ku -> kǔ	accent manquant	杜甫的诗反映了安史之乱时百姓的疾苦。 
 焉	yan -> yān	accent manquant	焉知非福 
 知	zhi -> zhī	accent manquant	焉知非福 
 非	fei -> fēi	accent manquant	焉知非福 
@@ -4750,6 +5381,32 @@
 加	jia -> jiā	accent manquant	五四运动推广白话文，使文学更加普及。 
 普	pu -> pǔ	accent manquant	五四运动推广白话文，使文学更加普及。 
 及	ji -> jí	accent manquant	五四运动推广白话文，使文学更加普及。 
+盖	gai -> gài	accent manquant	盖因如此 
+因	yin -> yīn	accent manquant	盖因如此 
+如	ru -> rú	accent manquant	盖因如此 
+此	ci -> cǐ	accent manquant	盖因如此 
+大	da -> dà	accent manquant	 大盖 
+盖	gai -> gài	accent manquant	 大盖 
+盖	gai -> gài	accent manquant (盖世英雄)	 盖世英雄 
+世	shi -> shì	accent manquant (盖世英雄)	 盖世英雄 
+英	ying -> yīng	accent manquant (盖世英雄)	 盖世英雄 
+雄	xiong -> xióng	accent manquant (盖世英雄)	 盖世英雄 
+文	wen -> wén	accent manquant	 文言文 
+言	yan -> yán	accent manquant	 文言文 
+文	wen -> wén	accent manquant	 文言文 
+可	ke -> kě	accent manquant (可能)	 可能 
+能	neng -> néng	accent manquant (可能)	 可能 
+盖	gai -> gài	accent manquant	盖天下之事，有其必然之理。 
+天	tian -> tiān	accent manquant	盖天下之事，有其必然之理。 
+下	xia -> xià	accent manquant	盖天下之事，有其必然之理。 
+之	zhi -> zhī	accent manquant	盖天下之事，有其必然之理。 
+事	shi -> shì	accent manquant	盖天下之事，有其必然之理。 
+有	you -> yǒu	accent manquant	盖天下之事，有其必然之理。 
+其	qi -> qí	accent manquant	盖天下之事，有其必然之理。 
+必	bi -> bì	accent manquant	盖天下之事，有其必然之理。 
+然	ran -> rán	accent manquant	盖天下之事，有其必然之理。 
+之	zhi -> zhī	accent manquant	盖天下之事，有其必然之理。 
+理	li -> lǐ	accent manquant	盖天下之事，有其必然之理。 
 盘	pan -> pán	accent manquant	盘扣工艺 
 扣	kou -> kòu	accent manquant	盘扣工艺 
 工	gong -> gōng	accent manquant	盘扣工艺 
@@ -4805,6 +5462,29 @@
 说	yue -> yuè	accent manquant	学而时习之，不亦说乎矣？ 
 乎	hu -> hū	accent manquant	学而时习之，不亦说乎矣？ 
 矣	yi -> yǐ	accent manquant	学而时习之，不亦说乎矣？ 
+知	zhi -> zhī	accent manquant (知足)	知足 
+足	zu -> zú	accent manquant (知足)	知足 
+贪	tan -> tān	accent manquant (贪心不足)	 贪心不足 
+心	xin -> xīn	accent manquant (贪心不足)	 贪心不足 
+足	zu -> zú	accent manquant (贪心不足)	 贪心不足 
+老	lao -> lǎo	accent manquant (老子)	 老子 
+子	zi -> zǐ	accent manquant (老子)	 老子 
+适	shi -> shì	accent manquant (适可而止)	 适可而止 
+可	ke -> kě	accent manquant (适可而止)	 适可而止 
+而	er -> ér	accent manquant (适可而止)	 适可而止 
+止	zhi -> zhǐ	accent manquant (适可而止)	 适可而止 
+常	chang -> cháng	accent manquant	 常乐 
+乐	le -> lè	accent manquant	 常乐 
+知	zhi -> zhī	accent manquant	知足者常乐，不要总是不满足。 
+足	zu -> zú	accent manquant	知足者常乐，不要总是不满足。 
+者	zhe -> zhě	accent manquant	知足者常乐，不要总是不满足。 
+常	chang -> cháng	accent manquant	知足者常乐，不要总是不满足。 
+乐	le -> lè	accent manquant	知足者常乐，不要总是不满足。 
+要	yao -> yào	accent manquant	知足者常乐，不要总是不满足。 
+总	zong -> zǒng	accent manquant	知足者常乐，不要总是不满足。 
+是	shi -> shì	accent manquant	知足者常乐，不要总是不满足。 
+满	man -> mǎn	accent manquant	知足者常乐，不要总是不满足。 
+足	zu -> zú	accent manquant	知足者常乐，不要总是不满足。 
 礼	li -> lǐ	accent manquant	礼仪 
 仪	yi -> yí	accent manquant	礼仪 
 礼	li -> lǐ	accent manquant (礼崩乐坏)	 礼崩乐坏 
@@ -4837,6 +5517,78 @@
 是	shi -> shì	accent manquant	孔子强调礼是社会和谐的基础。 
 基	ji -> jī	accent manquant	孔子强调礼是社会和谐的基础。 
 础	chu -> chǔ	accent manquant	孔子强调礼是社会和谐的基础。 
+清	qing -> qīng	accent manquant (清明节)	清明节 
+明	ming -> míng	accent manquant (清明节)	清明节 
+节	jie -> jié	accent manquant (清明节)	清明节 
+祠	ci -> cí	accent manquant	 祠堂 
+堂	tang -> táng	accent manquant	 祠堂 
+牌	pai -> pái	accent manquant	 牌位 
+位	wei -> wèi	accent manquant	 牌位 
+家	jia -> jiā	accent manquant (家谱)	 家谱 
+谱	pu -> pǔ	accent manquant (家谱)	 家谱 
+祭	ji -> jì	accent manquant	 祭祖 
+祖	zu -> zǔ	accent manquant	 祭祖 
+清	qing -> qīng	accent manquant (清明节)	清明节是中国人祭祖扫墓的重要传统节日。 
+明	ming -> míng	accent manquant (清明节)	清明节是中国人祭祖扫墓的重要传统节日。 
+节	jie -> jié	accent manquant (清明节)	清明节是中国人祭祖扫墓的重要传统节日。 
+中	zhong -> zhōng	accent manquant (中国人)	清明节是中国人祭祖扫墓的重要传统节日。 
+国	guo -> guó	accent manquant (中国人)	清明节是中国人祭祖扫墓的重要传统节日。 
+人	ren -> rén	accent manquant (中国人)	清明节是中国人祭祖扫墓的重要传统节日。 
+扫	sao -> sǎo	accent manquant (扫墓)	清明节是中国人祭祖扫墓的重要传统节日。 
+墓	mu -> mù	accent manquant (扫墓)	清明节是中国人祭祖扫墓的重要传统节日。 
+重	zhong -> zhòng	accent manquant (重要)	清明节是中国人祭祖扫墓的重要传统节日。 
+要	yao -> yào	accent manquant (重要)	清明节是中国人祭祖扫墓的重要传统节日。 
+传	chuan -> chuán	accent manquant (传统)	清明节是中国人祭祖扫墓的重要传统节日。 
+统	tong -> tǒng	accent manquant (传统)	清明节是中国人祭祖扫墓的重要传统节日。 
+节	jie -> jié	accent manquant (节日)	清明节是中国人祭祖扫墓的重要传统节日。 
+日	ri -> rì	accent manquant (节日)	清明节是中国人祭祖扫墓的重要传统节日。 
+是	shi -> shì	accent manquant	清明节是中国人祭祖扫墓的重要传统节日。 
+祭	ji -> jì	accent manquant	清明节是中国人祭祖扫墓的重要传统节日。 
+祖	zu -> zǔ	accent manquant	清明节是中国人祭祖扫墓的重要传统节日。 
+病	bing -> bìng	accent manquant (病从口入)	病从口入 
+从	cong -> cóng	accent manquant (病从口入)	病从口入 
+口	kou -> kǒu	accent manquant (病从口入)	病从口入 
+入	ru -> rù	accent manquant (病从口入)	病从口入 
+祸	huo -> huò	accent manquant (祸从口出)	 祸从口出 
+从	cong -> cóng	accent manquant (祸从口出)	 祸从口出 
+口	kou -> kǒu	accent manquant (祸从口出)	 祸从口出 
+出	chu -> chū	accent manquant (祸从口出)	 祸从口出 
+言	yan -> yán	accent manquant	 言多必失 
+多	duo -> duō	accent manquant	 言多必失 
+必	bi -> bì	accent manquant	 言多必失 
+失	shi -> shī	accent manquant	 言多必失 
+慎	shen -> shèn	accent manquant	 慎言 
+言	yan -> yán	accent manquant	 慎言 
+口	kou -> kǒu	accent manquant	 口无遮拦 
+无	wu -> wú	accent manquant	 口无遮拦 
+遮	zhe -> zhē	accent manquant	 口无遮拦 
+拦	lan -> lán	accent manquant	 口无遮拦 
+愁	chou -> chóu	accent manquant	愁一愁白了头 
+愁	chou -> chóu	accent manquant	愁一愁白了头 
+白	bai -> bái	accent manquant	愁一愁白了头 
+头	tou -> tóu	accent manquant	愁一愁白了头 
+心	xin -> xīn	accent manquant	 心态 
+态	tai -> tài	accent manquant	 心态 
+乐	le -> lè	accent manquant (乐观)	 乐观 
+观	guan -> guān	accent manquant (乐观)	 乐观 
+养	yang -> yǎng	accent manquant	 养生 
+生	sheng -> shēng	accent manquant	 养生 
+幸	xing -> xìng	accent manquant	 幸福感 
+福	fu -> fú	accent manquant	 幸福感 
+感	gan -> gǎn	accent manquant	 幸福感 
+笑	xiao -> xiào	accent manquant	笑一笑十年少，多笑对健康有好处。 
+笑	xiao -> xiào	accent manquant	笑一笑十年少，多笑对健康有好处。 
+十	shi -> shí	accent manquant	笑一笑十年少，多笑对健康有好处。 
+年	nian -> nián	accent manquant	笑一笑十年少，多笑对健康有好处。 
+少	shao -> shào	accent manquant	笑一笑十年少，多笑对健康有好处。 
+多	duo -> duō	accent manquant	笑一笑十年少，多笑对健康有好处。 
+笑	xiao -> xiào	accent manquant	笑一笑十年少，多笑对健康有好处。 
+对	dui -> duì	accent manquant	笑一笑十年少，多笑对健康有好处。 
+健	jian -> jiàn	accent manquant	笑一笑十年少，多笑对健康有好处。 
+康	kang -> kāng	accent manquant	笑一笑十年少，多笑对健康有好处。 
+有	you -> yǒu	accent manquant	笑一笑十年少，多笑对健康有好处。 
+好	hao -> hǎo	accent manquant	笑一笑十年少，多笑对健康有好处。 
+处	chu -> chù	accent manquant	笑一笑十年少，多笑对健康有好处。 
 子	zi -> zǐ	accent manquant (电子)	对很多独居年轻人来说，吃饭时开一个电子榨菜是标配，短
 子	zi -> zǐ	accent manquant (诸子百家)	春秋战国时期的百家争鸣是中国思想史上最辉煌的时代，儒
 子	zi -> zǐ	accent manquant (子女)	数字时代里，很多老人在智能手机面前束手无策，需要子女
@@ -4875,6 +5627,30 @@
 缠	chan -> chán	accent manquant	 缠足鞋 
 足	zu -> zú	accent manquant	 缠足鞋 
 鞋	xie -> xié	accent manquant	 缠足鞋 
+苏	su -> sū	accent manquant (苏绣)	 苏绣 
+绣	xiu -> xiù	accent manquant (苏绣)	 苏绣 
+老	lao -> lǎo	accent manquant (老北京)	 老北京布鞋 
+北	bei -> běi	accent manquant (老北京)	 老北京布鞋 
+京	jing -> jīng	accent manquant (老北京)	 老北京布鞋 
+布	bu -> bù	accent manquant	 老北京布鞋 
+鞋	xie -> xié	accent manquant	 老北京布鞋 
+非	fei -> fēi	accent manquant	 非遗 
+遗	yi -> yí	accent manquant	 非遗 
+那	na -> nà	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+双	shuang -> shuāng	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+绣	xiu -> xiù	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+花	hua -> huā	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+鞋	xie -> xié	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+工	gong -> gōng	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+艺	yi -> yì	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+精	jing -> jīng	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+美	mei -> měi	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+令	ling -> lìng	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+人	ren -> rén	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+叹	tan -> tàn	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+为	wei -> wéi	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+观	guan -> guān	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
+止	zhi -> zhǐ	accent manquant	那双绣花鞋工艺精美，令人叹为观止。 
 青	qing -> qīng	accent manquant	青铜 
 铜	tong -> tóng	accent manquant	青铜 
 曾	Zeng -> Zéng	accent manquant	 曾侯乙编钟 
@@ -5003,6 +5779,12 @@
 道	dao -> dào	accent manquant	茶道 
 龙	long -> lóng	accent manquant	 龙井 
 井	jing -> jǐng	accent manquant	 龙井 
+普	pu -> pǔ	accent manquant	 普洱 
+洱	er -> ěr	accent manquant	 普洱 
+茶	cha -> chá	accent manquant	 茶壶 
+壶	hu -> hú	accent manquant	 茶壶 
+回	hui -> huí	accent manquant	 回甘 
+甘	gan -> gān	accent manquant	 回甘 
 斗	dou -> dǒu	accent manquant (斗笠)	斗笠 
 笠	li -> lì	accent manquant (斗笠)	斗笠 
 渔	yu -> yú	accent manquant	 渔翁 
@@ -5056,6 +5838,25 @@
 水	shui -> shuǐ	accent manquant	蛟龙号是中国首台深海载人潜水器。 
 器	qi -> qì	accent manquant	蛟龙号是中国首台深海载人潜水器。 
 子	zi -> zǐ	accent manquant (孔子)	 (孔子, 
+三	san -> sān	accent manquant	三国演义 
+国	guo -> guó	accent manquant	三国演义 
+演	yan -> yǎn	accent manquant	三国演义 
+义	yi -> yì	accent manquant	三国演义 
+空	kong -> kōng	accent manquant (空城计)	 空城计 
+城	cheng -> chéng	accent manquant (空城计)	 空城计 
+计	ji -> jì	accent manquant (空城计)	 空城计 
+草	cao -> cǎo	accent manquant	 草船借箭 
+船	chuan -> chuán	accent manquant	 草船借箭 
+借	jie -> jiè	accent manquant	 草船借箭 
+箭	jian -> jiàn	accent manquant	 草船借箭 
+足	zu -> zú	accent manquant	 足智多谋 
+智	zhi -> zhì	accent manquant	 足智多谋 
+多	duo -> duō	accent manquant	 足智多谋 
+谋	mou -> móu	accent manquant	 足智多谋 
+鞠	ju -> jū	accent manquant (鞠躬尽瘁)	 鞠躬尽瘁 
+躬	gong -> gōng	accent manquant (鞠躬尽瘁)	 鞠躬尽瘁 
+尽	jin -> jìn	accent manquant (鞠躬尽瘁)	 鞠躬尽瘁 
+瘁	cui -> cuì	accent manquant (鞠躬尽瘁)	 鞠躬尽瘁 
 子	zi -> zǐ	accent manquant (电子)	), 电子 (
 子	zi -> zǐ	accent manquant (老子)	 (老子, 
 子	zi -> zǐ	accent manquant (老子)	 老子 (
@@ -5159,6 +5960,36 @@
 独	du -> dú	accent manquant (独角)	 独角兽 
 角	jiao -> jiǎo	accent manquant (独角)	 独角兽 
 兽	shou -> shòu	accent manquant	 独角兽 
+楚	chu -> chǔ	accent manquant	楚辞 
+辞	ci -> cí	accent manquant	楚辞 
+离	li -> lí	accent manquant (离骚)	 离骚 
+骚	sao -> sāo	accent manquant (离骚)	 离骚 
+青	qing -> qīng	accent manquant	 青青子衿，悠悠我心兮 
+青	qing -> qīng	accent manquant	 青青子衿，悠悠我心兮 
+衿	jin -> jīn	accent manquant	 青青子衿，悠悠我心兮 
+悠	you -> yōu	accent manquant	 青青子衿，悠悠我心兮 
+悠	you -> yōu	accent manquant	 青青子衿，悠悠我心兮 
+我	wo -> wǒ	accent manquant	 青青子衿，悠悠我心兮 
+心	xin -> xīn	accent manquant	 青青子衿，悠悠我心兮 
+兮	xi -> xī	accent manquant	 青青子衿，悠悠我心兮 
+语	yu -> yǔ	accent manquant (语气)	 抒情语气 
+气	qi -> qì	accent manquant (语气)	 抒情语气 
+抒	shu -> shù	accent manquant	 抒情语气 
+情	qing -> qíng	accent manquant	 抒情语气 
+古	gu -> gǔ	accent manquant (古风)	 古风 
+风	feng -> fēng	accent manquant (古风)	 古风 
+语	yu -> yǔ	accent manquant (语气词)	兮是楚辞中最具特色的语气词。 
+气	qi -> qì	accent manquant (语气词)	兮是楚辞中最具特色的语气词。 
+词	ci -> cí	accent manquant (语气词)	兮是楚辞中最具特色的语气词。 
+兮	xi -> xī	accent manquant	兮是楚辞中最具特色的语气词。 
+是	shi -> shì	accent manquant	兮是楚辞中最具特色的语气词。 
+楚	chu -> chǔ	accent manquant	兮是楚辞中最具特色的语气词。 
+辞	ci -> cí	accent manquant	兮是楚辞中最具特色的语气词。 
+中	zhong -> zhōng	accent manquant	兮是楚辞中最具特色的语气词。 
+最	zui -> zuì	accent manquant	兮是楚辞中最具特色的语气词。 
+具	ju -> jù	accent manquant	兮是楚辞中最具特色的语气词。 
+特	te -> tè	accent manquant	兮是楚辞中最具特色的语气词。 
+色	se -> sè	accent manquant	兮是楚辞中最具特色的语气词。 
 雅	ya -> yǎ	accent manquant	雅 
 言	yan -> yán	accent manquant	 言 
 雅	ya -> yǎ	accent manquant (雅俗共赏)	 雅俗共赏 
@@ -5171,20 +6002,8 @@
 俗	su -> sú	accent manquant	 粗俗 
 书	shu -> shū	accent manquant (书面语)	 书面语 
 面	mian -> miàn	accent manquant (书面语)	 书面语 
-语	yu -> yǔ	accent manquant (书面语)	 书面语 
-孔	kong -> kǒng	accent manquant (孔子)	孔子诵读诗书时使用雅言。 
-子	zi -> zǐ	accent manquant (孔子)	孔子诵读诗书时使用雅言。 
-诵	song -> sòng	accent manquant (诵读)	孔子诵读诗书时使用雅言。 
-读	du -> dú	accent manquant (诵读)	孔子诵读诗书时使用雅言。 
-诗	shi -> shī	accent manquant	孔子诵读诗书时使用雅言。 
-书	shu -> shū	accent manquant	孔子诵读诗书时使用雅言。 
-时	shi -> shí	accent manquant	孔子诵读诗书时使用雅言。 
-使	shi -> shǐ	accent manquant	孔子诵读诗书时使用雅言。 
-用	yong -> yòng	accent manquant	孔子诵读诗书时使用雅言。 
-雅	ya -> yǎ	accent manquant	孔子诵读诗书时使用雅言。 
-言	yan -> yán	accent manquant	孔子诵读诗书时使用雅言。 
 
-##### ton neutre (2748 premiers cas)
+##### ton neutre (2756 premiers cas)
 欢	huān -> huan	ton neutre (喜欢)	我也喜欢吃饺子。
 道	dào -> dao	ton neutre (知道)	她也不知道。
 道	dào -> dao	ton neutre (知道)	连小孩都知道。
@@ -6975,6 +7794,7 @@
 得	dé -> de	ton neutre (记得)	"车险快到期了，记得提前办理续保手续，不然到期后可能
 烦	fán -> fan	ton neutre (麻烦)	"很多保险公司都提供自动续保服务，省去了客户每年重新
 事	shì -> shi	ton neutre (故事)	好的编舞不仅要求舞蹈动作优美，还要能够通过肢体语言讲
+欢	huān -> huan	ton neutre (喜欢)	夏天运动时，他喜欢穿背心跑步。 
 候	hòu -> hou	ton neutre (时候)	"换季的时候，她总会花一个下午的时间整理衣柜，把不再
 服	fú -> fu	ton neutre (衣服)	"换季的时候，她总会花一个下午的时间整理衣柜，把不再
 爷	yé -> ye	ton neutre (爷爷)	"爷爷年轻时最喜欢听评书，一个人坐在收音机前，能听上
@@ -7318,7 +8138,9 @@
 候	hòu -> hou	ton neutre (时候)	"她特意换了一个高精度的游戏鼠标，瞄准的时候手感明显
 生	shēng -> sheng	ton neutre (学生)	高考是中国学生最重要的考试，直接决定能上哪所大学。 
 上	shàng -> shang	ton neutre (早上)	他每天早上用电动剃须刀刮胡子。 
+欢	huān -> huan	ton neutre (喜欢)	周末她喜欢在家做华夫饼。 
 系	xì -> xi	ton neutre (关系)	南海问题是中国与周边国家关系的敏感议题。 
+欢	huān -> huan	ton neutre (喜欢)	他日常喜欢穿卡其色工装。 
 道	dào -> dao	ton neutre (知道)	卧槽，这个消息太突然了，我不知道该怎么反应 
 欢	huān -> huan	ton neutre (喜欢)	他喜欢穿宽松的卫衣和运动裤。 
 生	shēng -> sheng	ton neutre (学生)	学校卫衣是很多学生的最爱。 
@@ -7349,6 +8171,7 @@
 欢	huān -> huan	ton neutre (喜欢)	"她在旅行的时候特别喜欢购买当地的手工艺品，作为旅行
 候	hòu -> hou	ton neutre (时候)	"填写快递单的时候，一定要仔细核对收件人的姓名、电话
 得	dé -> de	ton neutre (说得过去)	"这个理由勉强说得过去，但还是有点牵强。" 
+欢	huān -> huan	ton neutre (喜欢)	他喜欢在周末打高尔夫球。 
 楚	chǔ -> chu	ton neutre (清楚)	"大家一起哄地说好，但其实很多人根本没听清楚在说什么
 息	xī -> xi	ton neutre (消息)	听到这个消息，我半信半疑。 
 息	xī -> xi	ton neutre (休息)	连续几天熬夜，身体有点吃不消了，得好好休息一下。 
@@ -7476,6 +8299,7 @@
 道	dào -> dao	ton neutre (知道)	说真的，这道菜我吃不太习惯，但我不想让主人知道。
 道	dào -> dao	ton neutre (知道)	"这么说来，你早就知道这件事，只是没告诉我们？" 
 诉	sù -> su	ton neutre (告诉)	"这么说来，你早就知道这件事，只是没告诉我们？" 
+欢	huān -> huan	ton neutre (喜欢)	中国有很多关于数字的迷信，比如不喜欢
 候	hòu -> hou	ton neutre (时候)	"停电的时候，第一步通常是检查配电箱，看看是不是某个
 看	kàn -> kan	ton neutre (看看)	"停电的时候，第一步通常是检查配电箱，看看是不是某个
 得	dé -> de	ton neutre (夺得)	中国运动员在本届奥运会上夺得了最多枚金牌。 
@@ -7622,6 +8446,7 @@
 得	dé -> de	ton neutre (觉得)	"她总是会耐心听完片尾曲再关掉视频，觉得这是对制作团
 西	xī -> xi	ton neutre (东西)	"别狐假虎威了，你老板不在这里，你算什么东西？ 
 欢	huān -> huan	ton neutre (喜欢)	"她特别喜欢玩狼人杀，因为这个游戏需要很强的逻辑推理
+明	míng -> ming	ton neutre (聪明)	动物园里的猩猩非常聪明，会使用工具。 
 候	hòu -> hou	ton neutre (时候)	"她出门旅行的时候，总会随身携带一张便携式瑜伽垫，方
 候	hòu -> hou	ton neutre (时候)	"挑选瑜伽垫的时候，厚度和防滑性能是两个非常重要的考
 道	dào -> dao	ton neutre (知道)	又输了就知道甩锅，先看看自己打得怎么样！ 
@@ -7714,6 +8539,7 @@
 欢	huān -> huan	ton neutre (喜欢)	你喜欢用辣的还是清汤火锅底料？ 
 候	hòu -> hou	ton neutre (时候)	梅雨季的时候，烘干机就派上大用场了。 
 欢	huān -> huan	ton neutre (喜欢)	他喜欢听独立音乐，觉得更有个性。 
+欢	huān -> huan	ton neutre (喜欢)	她喜欢用百香果做果汁。 
 生	shēng -> sheng	ton neutre (学生)	素质教育强调培养学生的综合能力，而不是仅仅追求考试成
 诉	sù -> su	ton neutre (告诉)	大学阶段最重要的能力之一是自主学习的能力，而不是等待
 候	hòu -> hou	ton neutre (时候)	"心态崩了的时候最好的办法就是先暂停一下，去做点别的
@@ -7819,7 +8645,7 @@
 系	xì -> xi	ton neutre (关系)	"这份入坑指南把复杂的人物关系和时间线整理得清清楚楚
 系	xì -> xi	ton neutre (关系)	共生关系
 系	xì -> xi	ton neutre (关系)	蜜蜂与花朵之间存在典型的共生关系：蜜蜂采蜜获得食物，
-睛	jīng -> jing	ton neutre (眼睛)	他凝视着她的眼睛，说：
+睛	jīng -> jing	ton neutre (眼睛)	他凝视着她的眼睛，说：我爱你。" 
 友	yǒu -> you	ton neutre (朋友)	他们之间的友谊不是刎颈之交，只是志同道合的普通朋友。
 得	dé -> de	ton neutre (懂得)	优秀的领导者懂得刚柔并济，既有原则又不失人情味。 
 方	fāng -> fang	ton neutre (地方)	前人失败的经历是我们宝贵的前车之鉴，避免在同样的地方
@@ -7924,6 +8750,7 @@
 候	hòu -> hou	ton neutre (时候)	"很多中国家庭在孩子出生或者结婚的时候，都会购买一些
 息	xī -> xi	ton neutre (休息)	发生脑震荡后需要充分休息。 
 欢	huān -> huan	ton neutre (喜欢)	她喜欢薰衣草香气，房间里摆满了薰衣草香包。 
+上	shàng -> shang	ton neutre (早上)	她每天早上都吃一个贝果。 
 友	yǒu -> you	ton neutre (朋友)	这个贱人出卖了朋友。 
 系	xì -> xi	ton neutre (关系)	 (关系) 
 系	xì -> xi	ton neutre (关系)	 关系 (
@@ -7934,7 +8761,7 @@
 生	shēng -> sheng	ton neutre (先生)	先生已逝，高山仰止，景行行止，学界同仁无不倍感惋惜。
 腐	fǔ -> fu	ton neutre (豆腐)	豆腐先走一下油，外皮会更香脆。 
 
-##### sandhi 一 (2663 premiers cas)
+##### sandhi 一 (2676 premiers cas)
 一	yī -> yì	sandhi 一	她一回家就睡觉。
 一	yī -> yí	sandhi 一	他一看到她就笑了。
 一	yī -> yì	sandhi 一	一说话她就紧张。
@@ -8789,6 +9616,8 @@
 一	yī -> yì	sandhi 一	 双相障碍一型 
 一	yī -> yí	sandhi 一	 (一带一路) 
 一	yī -> yí	sandhi 一	 (一带一路) 
+一	yī -> yí	sandhi 一	国家开发银行是一带一路"基础设施项目的主要融资机构之
+一	yī -> yí	sandhi 一	国家开发银行是一带一路"基础设施项目的主要融资机构之
 一	yī -> yí	sandhi 一	独当一面
 一	yī -> yí	sandhi 一	他把拍好的视频上传到平台，没想到一夜之间播放量就突破
 一	yī -> yí	sandhi 一	"你别光在群里自嗨了，把你的想法整理一下，发给所有人
@@ -9832,6 +10661,8 @@
 一	yī -> yí	sandhi 一	. 央视一套 
 一	yī -> yí	sandhi 一	失败是成功之母，每一次跌倒都是下一次成功的垫脚石 
 一	yī -> yí	sandhi 一	失败是成功之母，每一次跌倒都是下一次成功的垫脚石 
+一	yī -> yì	sandhi 一	来一杯芒果奶昔吧！ 
+一	yī -> yì	sandhi 一	她每天运动后都喝一杯蛋白质奶昔。 
 一	yī -> yì	sandhi 一	 (张一鸣) 
 一	yī -> yí	sandhi 一	亿年前的一次奇点爆炸。 
 一	yī -> yì	sandhi 一	宏观经济学研究一国整体经济运行规律。 
@@ -10235,18 +11066,22 @@
 一	yī -> yì	sandhi 一	他一生经历了很多波折，但总是随遇而安，从不怨天尤人。
 一	yī -> yì	sandhi 一	演员们谢幕时深深地鞠了一躬。 
 一	yī -> yí	sandhi 一	"慈禧太后非常喜欢颐和园，挪用海军经费修建了这座豪华
+一	yī -> yí	sandhi 一	秋天穿一件风衣既时尚又保暖。 
+一	yī -> yí	sandhi 一	她穿着一件驼色风衣走进了咖啡馆。 
 一	yī -> yì	sandhi 一	他从小的梦想就是当一名飞行员。 
 一	yī -> yì	sandhi 一	一包鱿鱼丝
 一	yī -> yì	sandhi 一	"她看电影的时候喜欢买一包鱿鱼丝当零食，嚼起来又香又
 一	yī -> yí	sandhi 一	"为了健身增肌，她每天都会吃一份水煮鸡胸肉，虽然口感
 一	yī -> yí	sandhi 一	"麦克风好像出问题了，大家都听不到我说话，我先退出会
 一	yī -> yì	sandhi 一	"成为一名麻醉师需要经过严格的专业培训，对药物剂量的
+一	yī -> yí	sandhi 一	他鼻梁上架着一副金丝眼镜。 
 一	yī -> yì	sandhi 一	旅行套装里应该包含一把指甲钳。 
 一	yī -> yí	sandhi 一	早产儿通常需要在暖箱中护理一段时间。 
 一	yī -> yí	sandhi 一	普洱茶以其独特的发酵工艺和陈化特性在世界茶叶市场上独
 一	yī -> yí	sandhi 一	他每月要还一万五千元的房贷月供。 
 一	yī -> yí	sandhi 一	一下好吧。 
 一	yī -> yì	sandhi 一	燃烧是一种典型的氧化还原反应 
+一	yī -> yì	sandhi 一	她买了一盒泡芙作为生日礼物。 
 一	yī -> yì	sandhi 一	 洗烘一体机 
 一	yī -> yì	sandhi 一	她点了一杯焦糖拿铁。 
 一	yī -> yí	sandhi 一	年，中国股市经历了一段牛市 
@@ -10371,6 +11206,7 @@
 一	yī -> yì	sandhi 一	"发疯文学"是一种网络写作风格，用夸张、错乱的文字表
 一	yī -> yì	sandhi 一	签署合同前，务必仔细阅读每一条合同条款。 
 一	yī -> yì	sandhi 一	"水葫芦是一种外来入侵植物，在中国很多水体中大量繁殖
+一	yī -> yì	sandhi 一	 五险一金" (
 一	yī -> yì	sandhi 一	她从小就梦想成为一名小说家。 
 一	yī -> yí	sandhi 一	"公司每年都会组织一次消防演习，检验应急预案在实际操
 一	yī -> yí	sandhi 一	"她收到新手机之后第一件事就是拍一段开箱视频，记录拆
@@ -10410,6 +11246,7 @@
 一	yī -> yì	sandhi 一	一鼓作气
 一	yī -> yì	sandhi 一	"任务已经完成了一半，我们要一鼓作气，今晚就全部做完
 一	yī -> yì	sandhi 一	学习外语，要一鼓作气，打好基础，中途放弃的话之前的努
+一	yī -> yí	sandhi 一	七夕节那天，他送给她一束玫瑰。 
 一	yī -> yì	sandhi 一	万无一失
 一	yī -> yì	sandhi 一	"这个计划已经反复推敲，应该万无一失了，放心去执行吧
 一	yī -> yì	sandhi 一	任何计划都不可能万无一失，必须有备用方案。
@@ -10446,6 +11283,7 @@
 一	yī -> yì	sandhi 一	"相信自己能做到，本身就有一种类似安慰剂效应的力量，
 一	yī -> yì	sandhi 一	"官方直播的画质和解说质量都很有保障，比一些个人转播
 一	yī -> yí	sandhi 一	定向越野结合了跑步和地图阅读能力，参赛者需要在最短时
+一	yī -> yì	sandhi 一	这位老工匠一生都献给了漆器制作。 
 一	yī -> yì	sandhi 一	"她烤了一盘巧克力豆饼干，香气弥漫了整间厨房，刚出炉
 一	yī -> yì	sandhi 一	"她烤了一盘巧克力豆饼干，香气弥漫了整间厨房，刚出炉
 一	yī -> yí	sandhi 一	"官方在公告中列出了几个已知问题，并承诺会在下一次更
@@ -10559,6 +11397,7 @@
 一	yī -> yí	sandhi 一	背水一战
 一	yī -> yí	sandhi 一	在谈判陷入僵局时，他选择了背水一战，提出了一个大胆的
 一	yī -> yì	sandhi 一	腊八节这天，家家户户都要熬一锅香浓的腊八粥。 
+一	yī -> yì	sandhi 一	一笼热腾腾的小笼包摆在桌上，香气四溢。 
 一	yī -> yí	sandhi 一	她穿着一套藏青色制服，看起来十分专业。 
 一	yī -> yí	sandhi 一	西溪湿地是杭州的一块生态宝地，以其丰富的水鸟和独特的
 一	yī -> yì	sandhi 一	走后门的风气在一些单位仍然存在。 
@@ -10595,11 +11434,12 @@
 一	yī -> yí	sandhi 一	叫花鸡是一道传统名菜，外焦里嫩。 
 一	yī -> yí	sandhi 一	市中心突然发生地陷，一辆汽车掉了下去。 
 一	yī -> yí	sandhi 一	年出现一次。 
+一	yī -> yì	sandhi 一	她在云南少数民族村寨进行了长达一年的田野调查。 
 一	yī -> yí	sandhi 一	豆腐先走一下油，外皮会更香脆。 
 一	yī -> yí	sandhi 一	多吃一块蛋糕的边际效益在递减。 
 一	yī -> yì	sandhi 一	今年农历有一个闰月，所以这一年共有十三个月。 
 
-##### sandhi 不 (767 premiers cas)
+##### sandhi 不 (774 premiers cas)
 不	bu -> bù	sandhi 不	字太小，我看不清楚。
 不	bu -> bú	sandhi 不	这个箱子我搬不动。
 不	bù -> bú	sandhi 不	即使失败，也不后悔。
@@ -10835,6 +11675,8 @@
 不	bù -> bú	sandhi 不	不入虎穴，焉得虎子，只有勇于尝试，才能获得成功。 
 不	bu -> bù	sandhi 不	 长生不老 
 不	bù -> bú	sandhi 不	近年来电动汽车销量迅速增长，充电基础设施也在不断完善
+不	bu -> bù	sandhi 不	 不挠 
+不	bu -> bù	sandhi 不	 坚韧不拔 
 不	bù -> bú	sandhi 不	 五岳归来不看山，黄山归来不看岳 
 不	bù -> bú	sandhi 不	 五岳归来不看山，黄山归来不看岳 
 不	bù -> bú	sandhi 不	三孩政策出台，但许多年轻人仍不愿生育 
@@ -10995,6 +11837,7 @@
 不	bù -> bú	sandhi 不	 不孕不育 (
 不	bu -> bù	sandhi 不	 不祥之兆 
 不	bù -> bú	sandhi 不	近年来，国漫质量不断提升。 
+不	bu -> bù	sandhi 不	 功夫不负有心人 
 不	bù -> bú	sandhi 不	知己知彼，百战不殆。— 《孙子兵法》 
 不	bù -> bú	sandhi 不	随着经济的发展，居民的生活水平不断上升。 
 不	bù -> bú	sandhi 不	不够大
@@ -11134,8 +11977,10 @@
 不	bù -> bú	sandhi 不	"作为一个颜控，她追星的标准跟其他粉丝不太一样，更看
 不	bù -> bú	sandhi 不	这位老学者一生坚守风骨，不为权势折腰，令人敬仰。 
 不	bù -> bú	sandhi 不	"她从小就有点龅牙，一直对自己的笑容不太自信，长大后
+不	bu -> bù	sandhi 不	 不懂就问 
 不	bu -> bù	sandhi 不	 不死药 
 不	bù -> bú	sandhi 不	 圈子不同，不必强融 (
+不	bù -> bú	sandhi 不	帕金森病多发于老年人，主要表现为手脚不自主地颤抖。 
 不	bù -> bú	sandhi 不	恕不奉陪
 不	bù -> bú	sandhi 不	 不奉陪 
 不	bù -> bú	sandhi 不	今晚还有要事，恕不奉陪。 
@@ -11268,7 +12113,9 @@
 不	bù -> bú	sandhi 不	这次输了不怪我，都是队友的问题。 
 不	bù -> bú	sandhi 不	他一生经历了很多波折，但总是随遇而安，从不怨天尤人。
 不	bù -> bú	sandhi 不	这份工作做得马马虎虎，不够认真。 
+不	bu -> bù	sandhi 不	春眠不觉晓是中国小学生必背的古诗。 
 不	bu -> bú	sandhi 不	 心不在焉 
+不	bu -> bù	sandhi 不	 贪心不足 
 不	bù -> bú	sandhi 不	他总是自以为是，不愿意听取他人的意见，最终导致了这次
 不	bù -> bú	sandhi 不	自我妨碍是指为了预先准备一个失败的借口，故意制造或声
 不	bù -> bú	sandhi 不	他的成功看似偶然，其实背后是多年的一分耕耘，一分收获
@@ -12009,7 +12856,7 @@
 不	bù -> bu	V一V / V不V	"她更喜欢玩单机游戏，享受不受打扰、专注沉浸在剧情故
 一	yī -> yi	V一V / V不V	"她每年都会专门去庙会尝一尝那些只有在这种场合才能吃
 
-##### 着 duratif (9 premiers cas)
+##### 着 duratif (10 premiers cas)
 着	zhuó -> zhe	着 duratif	他的视力不太好，看黑板上的字要眯着眼睛才行。
 着	zhāo -> zhe	着 duratif	敦煌莫高窟是世界上最大的佛教艺术宝库，里面保存着数百
 着	zhuó -> zhe	着 duratif	权力的更迭往往伴随着意识形态的重新建构。
@@ -12019,6 +12866,7 @@
 着	zhuó -> zhe	着 duratif	他的保单上明确写着意外受伤可以获得一定比例的赔偿金。
 着	zhāo -> zhe	着 duratif	"这个山洞里栖息着数千只蝙蝠，成为了当地一个独特的自
 着	zhuó -> zhe	着 duratif	中国主权财富基金在全球资产配置中发挥着重要作用 
+着	zhuó -> zhe	着 duratif	 鼻梁上架着眼镜 
 
 ##### 汗 (1 premiers cas)
 汗	hán -> hàn	汗	上课前，他发现自己忘带作业本了，急得满头大汗。
@@ -12026,7 +12874,7 @@
 ##### 拧开 (1 premiers cas)
 拧	níng -> nǐng	拧开	浴室的水龙头坏了，拧开后水哗哗地流个不停。
 
-##### 地 adverbial (313 premiers cas)
+##### 地 adverbial (315 premiers cas)
 地	dì -> de	地 adverbial	浴室的水龙头坏了，拧开后水哗哗地流个不停。
 地	dì -> de	地 adverbial	他慢慢地走进教室，坐下来，打开书本。
 地	dì -> de	地 adverbial	她认真地听着老师讲课，一点都不分心。
@@ -12230,6 +13078,8 @@
 地	dì -> de	地 adverbial	儿子考上了清华大学，父母高兴地办了升学宴。 
 地	dì -> de	地 adverbial	原产地证明
 地	dì -> de	地 adverbial	出口商品需提供原产地证明以享受关税优惠 
+地	dì -> de	地 adverbial	哈尔滨每年冬季的冰雪节吸引世界各地游客。 
+地	dì -> de	地 adverbial	帕金森病多发于老年人，主要表现为手脚不自主地颤抖。 
 地	dì -> de	地 adverbial	平遥古城是中国保存最完整的古代县城，完整地保留了明清
 地	dì -> de	地 adverbial	"茶馆里坐着一位说书人，绘声绘色地讲述着一段惊心动魄
 地	dì -> de	地 adverbial	"这位主持人的反应非常机智，每次遇到突发情况都能巧妙
@@ -12354,7 +13204,7 @@
 弹	dàn -> tán	弹 = jouer, rebondir	她从六岁开始学钢琴，现在弹得很好。 
 弹	dàn -> tán	弹 = jouer, rebondir	打开网站时弹出了很多广告弹窗，让人非常烦躁，只好安装
 
-##### 一 nombre / fin de mot (30 premiers cas)
+##### 一 nombre / fin de mot (32 premiers cas)
 一	yì -> yī	一 nombre / fin de mot	她参加了英语演讲比赛，获得了第一名。
 一	yì -> yī	一 nombre / fin de mot	邻居家的孩子太吵了，晚上十一点还在跑来跑去。
 一	yí -> yī	一 nombre / fin de mot	他们俩是死党，从小到大没有秘密，出了什么事都第一个打
@@ -12366,6 +13216,7 @@
 一	yí -> yī	一 nombre / fin de mot	他总是第一个来，从来不迟到。 
 一	yì -> yī	一 nombre / fin de mot	他得了第一名，父母非常为他骄傲。 
 一	yí -> yī	一 nombre / fin de mot	，下周一向客户展示。" 
+一	yi -> yī	一 nombre / fin de mot	 冰冻三尺非一日之寒 
 一	yí -> yī	一 nombre / fin de mot	地球是目前人类已知的唯一一个存在生命的星球。 
 一	yí -> yī	一 nombre / fin de mot	她是班里第一个交作业的学生。 
 一	yì -> yī	一 nombre / fin de mot	第一名 
@@ -12384,6 +13235,7 @@
 一	yí -> yī	一 nombre / fin de mot	比特币是基于区块链技术的第一个加密货币。 
 一	yí -> yī	一 nombre / fin de mot	老一辈人特别重视邻里关系，认为远亲不如近邻，有困难第
 一	yí -> yī	一 nombre / fin de mot	在谈判中，第一个报价往往会产生锚定效应，影响最终结果
+一	yì -> yī	一 nombre / fin de mot	第一名得
 一	yí -> yī	一 nombre / fin de mot	她是国家级非遗传承人，几十年如一日地坚守苗族刺绣技艺
 
 ##### 种 = planter (14 premiers cas)
@@ -12406,7 +13258,7 @@
 为	wèi -> wéi	职为	他在这家公司工作了十年，终于升职为部门经理。
 为	wèi -> wéi	职为	"宫保"得名于清朝官员丁宝桢，官职为"太子少保"，世
 
-##### 都 adverbe (17 premiers cas)
+##### 都 adverbe (18 premiers cas)
 都	dū -> dōu	都 adverbe	他外公今年八十岁了，身体还很硬朗，每天早上都会去公园
 都	dū -> dōu	都 adverbe	她每次遇到困难都会打电话给最好的朋友，说两句就觉得好
 都	dū -> dōu	都 adverbe	他表哥比他大五岁，表妹比他小三岁，每年春节全家都会聚
@@ -12421,6 +13273,7 @@
 都	dū -> dōu	都 adverbe	这道菜的精髓在于火候的掌握，早一秒晚一秒都会影响口感
 都	dū -> dōu	都 adverbe	家人的支持是他最大的力量，每当遇到困难，他都会想到家
 都	dū -> dōu	都 adverbe	过年时，家家户户都会挂上红色的中国结，象征吉祥如意。
+都	dou -> dōu	都 adverbe	王维的诗和画都达到了极高的境界。 
 都	dou -> dōu	都 adverbe	 到处都买不到 
 都	dū -> dōu	都 adverbe	每年五月，草莓音乐节都会吸引大量年轻人参加。 
 都	dou -> dōu	都 adverbe	扬州炒饭在全球各地的中餐馆里都有供应。 
@@ -12547,7 +13400,7 @@
 教	jiào -> jiāo	教 = enseigner	她经营了一个教汉语的微信公众号，每周发布学习资料，已
 教	jiào -> jiāo	教 = enseigner	"公司专门为员工开设了压力管理培训课程，教大家如何应
 
-##### 的 particule (22 premiers cas)
+##### 的 particule (23 premiers cas)
 的	dí -> de	的 particule	她是公司里的当红明星员工，连总裁都认识她，常常出现在
 的	dì -> de	的 particule	这个项目的预算被砍了一半，我们只能想办法节省开支。
 的	dì -> de	的 particule	投资人对这个项目的前景表示担忧，要求我们提供更详细的
@@ -12556,6 +13409,7 @@
 的	dì -> de	的 particule	她打破了这个项目的历史销售纪录，成为了部门的明星员工
 的	dí -> de	的 particule	"约好"强调事先约定的确认，比单纯的"约"更正式，表
 的	dì -> de	的 particule	宁夏贺兰山东麓近年来成为中国最受瞩目的葡萄酒产区之一
+的	dì -> de	的 particule	国家开发银行是一带一路"基础设施项目的主要融资机构之
 的	dì -> de	的 particule	政府采购项目的结果需要在官方网站上进行公示，接受公众
 的	dì -> de	的 particule	这个项目的风险很大，公司是否愿意承担这样的风险？ 
 的	dì -> de	的 particule	"这个项目的经济效益需要专业人员来评估。 
@@ -12748,9 +13602,10 @@
 ##### 变为 (1 premiers cas)
 为	wèi -> wéi	变为	循环经济通过减少废物和资源循环利用，将线性"生产-消
 
-##### 和 conjonction (8 premiers cas)
+##### 和 conjonction (9 premiers cas)
 和	huò -> hé	和 conjonction	糖尿病患者需要长期监测血糖水平，并通过饮食和药物加以
 和	he -> hé	和 conjonction	八仙各有自己的宝贝和神通。 
+和	he -> hé	和 conjonction	王维的诗和画都达到了极高的境界。 
 和	he -> hé	和 conjonction	爷爷最喜欢和邻居下棋。 
 和	huò -> hé	和 conjonction	"我父亲有糖尿病，需要每天监测血糖，根据数值来调整饮
 和	huó -> hé	和 conjonction	"这台烤箱功能很多，不仅可以烤蛋糕和面包，还能用来烤

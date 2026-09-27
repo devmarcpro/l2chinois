@@ -16,8 +16,10 @@ Menu Outils :
 - « Ranger mon chinois (ordre du manuel) » : à relancer après chaque import fait à la main ;
 - « Chinois : appliquer les réglages conseillés » : groupe d'options « Chinois – manuel » (nouvelles cartes
   prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées) ;
+- « Chinois : ajouter l'audio (Google Traduction) » : l'audio de chaque note qui n'en a pas, lu par la voix Google
+  Traduction (chinois) d'HyperTTS depuis le champ « Texte audio » ; s'arrête avec Échap, reprend où il en était ;
 - « Chinois : notes sans audio (HyperTTS) » : le navigateur sur les notes à doter d'un audio (champ « Texte audio »
-  rempli, « Ajouter le verso » vide) : tout sélectionner, puis HyperTTS.
+  rempli, « Ajouter le verso » vide), pour le faire à la main avec HyperTTS.
 """
 import os
 from collections import defaultdict
@@ -127,8 +129,8 @@ def lancer_mise_en_place():
         return mettre_en_place(col, dossier, journal)
 
     def fini(_):
-        showInfo("\n".join(journal) + "\n\nReste à faire : générer avec HyperTTS l'audio des nouvelles phrases et des "
-                 "nouveaux dialogues d'écoute (champ « Ajouter le verso » vide).", title="Ranger mon chinois")
+        showInfo("\n".join(journal), title="Ranger mon chinois")
+        lancer_audio()  # l'audio des notes qui n'en ont pas encore (demande confirmation)
 
     CollectionOp(parent=mw, op=op).success(fini).run_in_background()
 
@@ -152,6 +154,59 @@ def lancer_import():
     CollectionOp(parent=mw, op=op).success(lambda _: showInfo("\n".join(journal), title="Ranger mon chinois")).run_in_background()
 
 
+def lancer_audio():
+    """Audio Google Traduction des notes qui ont un texte à lire et pas encore d'audio, dans l'ordre d'étude."""
+    from .audio_auto import EN_PARALLELE, a_faire, generer, _gtts
+    try:
+        gtts = _gtts(mw)
+    except ImportError:
+        showWarning("L'audio automatique emploie la voix Google Traduction d'HyperTTS : installez d'abord HyperTTS "
+                    "(Outils > Modules > Obtenir des modules, code 111623432), redémarrez Anki, puis relancez.")
+        return
+    travail = a_faire(mw.col)
+    if not travail:
+        showInfo("Toutes les notes du paquet Chinois qui ont un texte à lire ont déjà leur audio.", title="Ranger mon chinois")
+        return
+    textes = len({t for _, t in travail})
+    minutes = max(1, round(textes * 0.6 / EN_PARALLELE / 60))
+    if not askUser(f"Ajouter l'audio de {len(travail)} notes du paquet Chinois ({textes} textes différents) ?\n\n"
+                   "- voix Google Traduction (chinois), comme les préréglages HyperTTS, lisant le champ « Texte audio » : "
+                   "le mot, la phrase, le dialogue ou la réponse, jamais la consigne ;\n"
+                   "- un seul audio par note, placé dans « Ajouter le verso » ; les audios déjà là ne sont pas touchés ;\n"
+                   "- d'abord les cartes déjà vues, puis les nouvelles dans l'ordre du manuel ;\n"
+                   f"- environ {minutes} min en tout, connexion Internet nécessaire ; Échap pour arrêter à tout moment : "
+                   "la fois suivante reprend là où on en était ;\n"
+                   "- les fichiers (10 à 30 Ko par phrase) partent sur AnkiWeb à la synchronisation suivante."):
+        return
+    mw.progress.start(max=len(travail), label="Audio Google Traduction…", immediate=True)
+
+    def progres(faits, total):
+        mw.taskman.run_on_main(lambda: mw.progress.update(
+            label=f"Audio Google Traduction : {faits} / {total} notes\n(Échap pour arrêter : la suite reprendra ici)",
+            value=faits, max=total))
+
+    def fini(futur):
+        mw.progress.finish()
+        try:
+            bilan = futur.result()
+        except Exception as e:
+            showWarning(f"Audio : arrêt sur une erreur ({e}). Ce qui a été fait est gardé ; relancez pour continuer.")
+            return
+        texte = (f"Audio ajouté à {bilan['notes']} notes sur {bilan['total']} "
+                 f"({bilan['demandes']} fichiers demandés à Google Traduction, {bilan['deja']} déjà présents).")
+        if bilan["vides"]:
+            texte += f"\n{bilan['vides']} notes sans rien à lire (ponctuation seule) : laissées sans audio."
+        if bilan["arret"]:
+            texte += f"\n\nArrêt : {bilan['arret']}. Relancez « Chinois : ajouter l'audio » pour continuer."
+        try:
+            mw.reset()
+        except Exception:
+            pass
+        showInfo(texte, title="Ranger mon chinois")
+
+    mw.taskman.run_in_background(lambda: generer(mw.col, travail, progres, mw.progress.want_cancel, gtts), fini)
+
+
 def lancer_sans_audio():
     """Le navigateur sur les notes qui ont un texte à lire et pas encore d'audio : tout sélectionner, puis HyperTTS."""
     from aqt import dialogs
@@ -160,6 +215,7 @@ def lancer_sans_audio():
 
 def _menu():
     for titre, fonction in (("Chinois : tout mettre en place ou à jour", lancer_mise_en_place),
+                            ("Chinois : ajouter l'audio (Google Traduction)", lancer_audio),
                             ("Chinois : notes sans audio (HyperTTS)", lancer_sans_audio),
                             ("Chinois : importer les fichiers et ranger", lancer_import),
                             ("Ranger mon chinois (ordre du manuel)", lancer_rangement),

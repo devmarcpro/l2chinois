@@ -97,13 +97,14 @@ METTRE EN PLACE OU A JOUR : EN UN CLIC
     * fait une sauvegarde complete (Fichier > Revenir a une sauvegarde pour revenir en arriere) ;
     * cree les types "Chinois (phrase)" et "Chinois (grammaire)" (blocs de TYPES_DE_NOTES.txt) et passe
       les phrases deja importees au premier ;
-    * met les notes d'ecoute sur le type "Chinois Audio", dont le recto joue l'audio HyperTTS ;
+    * met les notes d'ecoute sur le type "Chinois Audio", dont le recto joue l'audio (champ "Ajouter le verso") ;
     * importe les sept fichiers avec le type des notes deja presentes (sans les anciennes versions a_supprimer) ;
     * range tout dans l'ordre du manuel, applique les reglages conseilles (point 5 ci-dessous) ;
     * supprime le paquet "9 · A supprimer".
    La progression des cartes deja revisees est gardee. Le changement de type de note oblige, a la synchronisation
    suivante, a choisir "Envoyer vers AnkiWeb" (synchroniser d'abord le telephone si on y a revise entre-temps).
-3. Audio : Outils > "Chinois : notes sans audio (HyperTTS)", tout selectionner, HyperTTS (voir AUDIO plus bas).
+3. Audio : propose a la fin de la mise en place, ou Outils > "Chinois : ajouter l'audio (Google Traduction)"
+   (voir AUDIO plus bas).
 Pour chaque nouvelle version des fichiers : reinstaller le module s'il a change, puis relancer Outils > "Chinois :
 tout mettre en place ou a jour" (ce qui est deja en place ne bouge pas). "Chinois : importer les fichiers et
 ranger" fait la meme chose sans sauvegarde, sans reglages et sans supprimer "9 · A supprimer".
@@ -302,7 +303,7 @@ texte chinois que la carte doit faire entendre). Le module fait la correspondanc
 colonne 1 -> Recto, 2 -> Verso, 5 -> "Texte audio", et RIEN vers "Ajouter le verso" (ou est l'audio HyperTTS :
 la mise a jour doit le laisser intact).
 
-AUDIO (HyperTTS) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis le 27/09)
+AUDIO (voix Google Traduction) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis le 27/09)
 - Chaque type de note chinois a un champ "Texte audio" (ajoute par le module ; changement de structure : a la
   synchronisation suivante, choisir "Envoyer vers AnkiWeb"). Il contient seulement ce qu'il faut entendre,
   jamais la consigne ni le titre : le mot (vocabulaire), la phrase, le dialogue sans titre ni 男：/女：, le
@@ -312,26 +313,31 @@ AUDIO (HyperTTS) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis le 27/09)
   vocabulaire), sauf l'ecoute et la dictee, ou il est au recto (c'est l'exercice).
 - Etiquettes, pour trier les ajouts : tts::mot, tts::phrase, tts::dialogue, tts::texte, tts::reponse,
   tts::grammaire, tts::caractere (tts::aucun : rien a lire).
-- Preset HyperTTS (un seul suffit) : source = champ "Texte audio" ; cible = "Ajouter le verso", son seul, en
-  REMPLACANT le contenu ; voix chinoise ; aucune regle de texte n'est necessaire. (Un preset par etiquette si
-  tu veux une autre voix ou un autre debit pour les dialogues, par exemple.)
-- Ajout : Outils > "Chinois : notes sans audio (HyperTTS)" ouvre le navigateur sur exactement les notes a
-  traiter (texte audio rempli, "Ajouter le verso" vide) : tout selectionner > HyperTTS > ajout en lot. Une note
-  qui a deja son audio n'y figure pas : jamais deux audios. Pour un seul genre : ajouter tag:tts::dialogue (etc.)
-  a la recherche. Il y a beaucoup de notes (plus de 30 000) : le plus simple est d'avancer lecon par lecon, en
-  ajoutant par exemple   deck:"Chinois::1 · Premier niveau::L05*"   a la recherche (la lecon en cours, puis
-  la suivante).
+- AJOUT AUTOMATIQUE : Outils > "Chinois : ajouter l'audio (Google Traduction)" (aussi propose a la fin de
+  "tout mettre en place"). Le module fait lire le champ "Texte audio" de chaque note qui n'a pas encore d'audio
+  par la voix Google Traduction chinoise, celle des presets HyperTTS (meme moteur, la bibliotheque gTTS livree
+  avec HyperTTS : HyperTTS doit etre installe ; jamais de voix Windows), et met le fichier dans "Ajouter le
+  verso". Ordre : cartes deja vues, puis nouvelles dans l'ordre du manuel (les prochaines cartes ont leur audio
+  en premier). Environ 30 000 textes : un peu plus d'une heure en tout (4 demandes en parallele), Internet
+  necessaire ; Echap arrete, et la fois suivante reprend la ou on en etait. Un meme texte n'est demande qu'une
+  fois. Les fichiers (environ 15 Ko en moyenne, 400 a 450 Mo pour tout) partent sur AnkiWeb a la
+  synchronisation suivante : la premiere synchronisation des medias est longue.
+- A la main si besoin : Outils > "Chinois : notes sans audio (HyperTTS)" ouvre le navigateur sur exactement
+  les notes a traiter (texte audio rempli, "Ajouter le verso" vide) ; tout selectionner > HyperTTS > ajout en
+  lot avec un preset : source = champ "Texte audio", cible = "Ajouter le verso", son seul, voix Google
+  Translate "Chinese (Mandarin)" (zh-CN), aucune regle de texte. Une note qui a deja son audio n'y figure pas :
+  jamais deux audios.
 - Menage fait une fois par le module : les audios en double (389 mots avaient deux fois le meme fichier) sont
   ramenes a un seul, et les audios faits jusqu'ici en lisant le recto des exercices, de la grammaire, de
-  l'ecriture et de l'ecoute (consigne, titre, 男：/女： lus a voix haute) sont effaces, a refaire avec le
-  preset ci-dessus. Ensuite, a chaque mise a jour, une note dont le texte audio change perd son ancien audio
+  l'ecriture et de l'ecoute (consigne, titre, 男：/女： lus a voix haute) sont effaces, refaits par l'ajout
+  automatique. Ensuite, a chaque mise a jour, une note dont le texte audio change perd son ancien audio
   (elle revient dans "notes sans audio"). Outils > Verifier les medias supprime les fichiers devenus inutiles.
 
 QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2
   francais -> chinois).
 - Phrases : type "Chinois (phrase)", trois cartes par phrase : Lecture (chinois -> francais), Theme (francais
-  -> chinois, indice a la demande) et Dictee (on entend l'audio HyperTTS et on ecrit ou repete ; carte creee
+  -> chinois, indice a la demande) et Dictee (on entend l'audio et on ecrit ou repete ; carte creee
   seulement pour les phrases qui ont un audio). Voir TYPES_DE_NOTES.txt (creation et passage des phrases deja
   importees a ce type, progression gardee). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
   Parcourir > card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
@@ -375,28 +381,14 @@ NIVEAUX HSK (etiquettes)
   > tout selectionner > Notes > Supprimer des etiquettes > HSK1 HSK2 HSK3 HSK4 HSK5 HSK6 HSK7 HSK8 HSK9 hors_HSK
   Phrases_HSK1 Phrases_HSK2 Phrases_HSK3 Phrases_HSK4 Phrases_HSK5 Phrases_HSK6 Phrases_HSK7 Phrases_HSK8 Phrases_HSK9
 
-ECOUTER LE CHINOIS (synthese vocale d'Anki, sans fichier audio)
-- Anki sait lire un champ a voix haute. Pour l'activer sur un paquet : Outils > Gerer les types de notes > choisir le
-  type de note du paquet > Cartes. Dans le modele du verso, ajouter la ligne
-      {{tts zh_CN:Recto}}
-  en remplacant Recto par le nom du premier champ (celui qui contient le chinois : le mot, la phrase, le texte).
-  Plus lent : {{tts zh_CN speed=0.8:Recto}}. Un bouton de lecture apparait ; la lecture est automatique si
-  "Lire l'audio automatiquement" est coche dans les options du paquet.
-- Il faut une voix chinoise sur l'appareil : Windows > Parametres > Heure et langue > Voix > Ajouter des voix >
-  Chinois (simplifie, Chine) ; Android (AnkiDroid) : moteur de synthese Google avec le chinois installe ;
-  iPhone (AnkiMobile) : Reglages > Accessibilite > Contenu enonce > Voix > Chinois.
-- VRAIE ECOUTE avec le paquet Ecoute : c'est ce que fait le type "Chinois (ecoute)" de TYPES_DE_NOTES.txt
-  ({{tts zh_CN:Recto}} dans le modele du recto, texte cache au recto par .ecoute-texte { display: none; }).
-  Cet audio n'est stocke nulle part : Anki lit le champ Recto a voix haute au moment de la revision, avec la
-  voix chinoise de l'appareil (rien a voir avec le champ "Ajouter le verso" ni avec HyperTTS). Pour utiliser
-  plutot HyperTTS (source Recto, deux regles Regex pour ne pas lire le titre ni les 男：/女：), voir
-  TYPES_DE_NOTES.txt, paragraphe "Avec HyperTTS a la place".
-  Le verso montre le texte, la traduction et les reponses aux questions. Les dialogues ajoutes (男：/ 女：)
-  sont ecrits pour etre ecoutes ainsi : la voix lit d'abord le niveau et le titre, puis "nan" / "nü" avant
-  chaque replique, ce qui annonce qui parle.
-- Pour le vocabulaire (et les phrases, type "Chinois (texte)"), ajouter {{tts zh_CN:Recto}} au debut du modele
-  du VERSO : on lit d'abord, puis on entend la prononciation pour verifier. Dans le type du vocabulaire, le
-  mettre juste apres la premiere ligne <div class="hanzi">{{Recto}}</div> du verso.
+ECOUTER LE CHINOIS
+- Tout l'audio est un fichier (voix Google Traduction, voir AUDIO plus haut) dans le champ "Ajouter le verso" :
+  il passe sur le telephone a la synchronisation et sonne pareil partout. La synthese vocale de l'appareil
+  ({{tts zh_CN:...}} dans un modele de carte, voix Windows sur l'ordinateur) n'est plus employee : "tout mettre
+  en place" l'a retiree du recto de l'ecoute. Si un {{tts ...}} reste dans un modele (Outils > Gerer les types
+  de notes > Cartes), le supprimer, sinon la carte fait entendre deux voix.
+- Lecture automatique : cocher "Lire l'audio automatiquement" dans les options du paquet Chinois (l'ecoute et
+  la dictee jouent l'audio au recto, les autres cartes au verso).
 
 PLAN DE TRAVAIL (ordre du manuel)
 1. Planificateur : FSRS, retention souhaitee 0,90 (active par "tout mettre en place" depuis le 27/09 ; a

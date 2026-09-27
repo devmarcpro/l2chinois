@@ -15,7 +15,7 @@ from opencc import OpenCC
 VERS_SIMP = OpenCC("t2s")
 CJK = re.compile(r"[㐀-鿿]")
 DEBUT = set("儿子 儿童 儿女 儿科 儿媳 儿戏 儿时 儿孙 儿歌 儿化 儿郎 儿马".split())
-FIN = set("女儿 婴儿 幼儿 孤儿 少儿 胎儿 健儿 宠儿 男儿 孙儿 患儿 育儿 弃儿 侄儿 乳儿 小儿 托儿 生儿 血儿 犬儿".split())
+FIN = set("女儿 婴儿 幼儿 孤儿 少儿 胎儿 健儿 宠儿 男儿 孙儿 患儿 育儿 弃儿 侄儿 乳儿 小儿 托儿 生儿 血儿 犬儿 产儿".split())
 LECTURES_ER = {"ér", "er", "r", "ēr", "ěr", "èr"}
 RUBY = re.compile(r'<ruby>([儿兒])<rt class="t\d">([^<]*)</rt></ruby>')
 TOUT_RUBY = re.compile(r'<ruby>(.)<rt class="t\d">[^<]*</rt></ruby>')

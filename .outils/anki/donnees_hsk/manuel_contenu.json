@@ -205,8 +205,8 @@
   ],
   "lecture": {
    "titre": "我的朋友马丽",
-   "texte": "我叫王大海，是中国人，我家在北京。我是北京大学的学生，学习法国文学。\n马丽是我的朋友。她是法国人，住在巴黎。她也是大学生，学习汉语。她会说汉语，也会说英语。",
-   "traduction": "Je m'appelle Wang Dahai, je suis chinois et ma famille habite à Pékin. Je suis étudiant à l'Université de Pékin, j'étudie la littérature française.\nMa Li est mon amie. Elle est française et habite à Paris. Elle aussi est étudiante, elle apprend le chinois. Elle parle chinois, et elle parle aussi anglais.",
+   "texte": "我叫王大海，是中国人，我家在北京。我是北京大学的学生，学习法国文学。\n马丽是我的朋友。她是法国人，住在巴黎。她也是大学生，学习汉语。她会说汉语，也会说日语。",
+   "traduction": "Je m'appelle Wang Dahai, je suis chinois et ma famille habite à Pékin. Je suis étudiant à l'Université de Pékin, j'étudie la littérature française.\nMa Li est mon amie. Elle est française et habite à Paris. Elle aussi est étudiante, elle apprend le chinois. Elle parle chinois, et elle parle aussi japonais.",
    "questions": [
     {
      "q": "王大海是哪国人？",
@@ -366,9 +366,9 @@
     "traduction": "Ma chambre n'est pas très grande."
    },
    {
-    "pinyin": "Zhè běn shū fēicháng hǎokàn.",
-    "phrase": "这本书非常好看。",
-    "traduction": "Ce livre est vraiment très bien."
+    "pinyin": "Zhè zhāng zhuōzi fēicháng hǎokàn.",
+    "phrase": "这张桌子非常好看。",
+    "traduction": "Cette table est vraiment très belle."
    },
    {
     "pinyin": "Wǒ jiā yǒu liǎng ge fángjiān, méiyǒu huāyuán.",
@@ -662,14 +662,14 @@
   ],
   "pinyin": [
    {
-    "pinyin": "Nǐ hē chá háishi hē kāfēi?",
-    "phrase": "你喝茶还是喝咖啡？",
-    "traduction": "Tu bois du thé ou du café ?"
+    "pinyin": "Nǐ hē chá háishi hē niúnǎi?",
+    "phrase": "你喝茶还是喝牛奶？",
+    "traduction": "Tu bois du thé ou du lait ?"
    },
    {
-    "pinyin": "Wǒ bàba ài hē chá, wǒ māma ài hē kāfēi.",
-    "phrase": "我爸爸爱喝茶，我妈妈爱喝咖啡。",
-    "traduction": "Mon père adore le thé, ma mère adore le café."
+    "pinyin": "Wǒ bàba ài hē chá, wǒ māma ài hē guǒzhī.",
+    "phrase": "我爸爸爱喝茶，我妈妈爱喝果汁。",
+    "traduction": "Mon père adore le thé, ma mère adore les jus de fruits."
    },
    {
     "pinyin": "Nǐ xǐhuan bu xǐhuan zhè jiàn máoyī?",
@@ -697,13 +697,13 @@
    {
     "phrase_trou": "这件衬衫太大，有小___的吗？",
     "choix": [
-     "一点儿",
+     "一点点",
      "有点儿"
     ],
-    "reponse": "一点儿",
-    "phrase": "这件衬衫太大，有小一点儿的吗？",
+    "reponse": "一点点",
+    "phrase": "这件衬衫太大，有小一点点的吗？",
     "traduction": "Cette chemise est trop grande, vous en avez une un peu plus petite ?",
-    "explication": "一点儿 se place APRÈS l'adjectif pour dire « un peu plus… » (小一点儿). 有点儿 se place AVANT l'adjectif et marque un défaut (有点儿大 « un peu trop grand »)."
+    "explication": "一点点 « un (tout) petit peu » se place APRÈS l'adjectif pour dire « un peu plus… » (小一点点). 有点儿 se place AVANT l'adjectif et marque un défaut (有点儿大 « un peu trop grand »)."
    },
    {
     "phrase_trou": "我不喜欢红的，我喜欢蓝___。",
@@ -748,9 +748,9 @@
     "explication": "什么 + nom (什么颜色 « quelle couleur ») porte sur la couleur ; il prend la place de 蓝色."
    },
    {
-    "reponse": "我不喝咖啡，我喝茶。",
-    "question": "你喝咖啡还是喝茶？",
-    "traduction": "Tu bois du café ou du thé ? — Je ne bois pas de café, je bois du thé.",
+    "reponse": "我不喝牛奶，我喝茶。",
+    "question": "你喝牛奶还是喝茶？",
+    "traduction": "Tu bois du lait ou du thé ? — Je ne bois pas de lait, je bois du thé.",
     "explication": "Question alternative en 还是 : on propose deux possibilités, la réponse en choisit une."
    },
    {
@@ -812,8 +812,8 @@
   ],
   "lecture": {
    "titre": "生日礼物",
-   "texte": "明天是马丽的生日。今天下午，她妈妈和姐姐一起去商店买礼物。\n商店里的裙子真多，有红的，有黄的，也有蓝的。妈妈想买红的，姐姐说：“马丽最喜欢蓝色，买蓝的吧！”妈妈说：“好，买蓝的。”",
-   "traduction": "Demain, c'est l'anniversaire de Ma Li. Cet après-midi, sa mère et sa grande sœur vont ensemble au magasin acheter un cadeau.\nDans le magasin, il y a vraiment beaucoup de jupes : des rouges, des jaunes, et aussi des bleues. La mère veut acheter une rouge, mais la sœur dit : « Ma Li préfère le bleu, achetons une bleue ! » La mère répond : « D'accord, prenons une bleue. »",
+   "texte": "明天是马丽的生日。今天上午，她妈妈和姐姐一起去商店买礼物。\n商店里的裙子很多，有红的，有黄的，也有蓝的。妈妈想买红的，姐姐说：“马丽最喜欢蓝色，买蓝的吧！”妈妈说：“好，买蓝的。”",
+   "traduction": "Demain, c'est l'anniversaire de Ma Li. Ce matin, sa mère et sa grande sœur vont ensemble au magasin acheter un cadeau.\nDans le magasin, il y a beaucoup de jupes : des rouges, des jaunes, et aussi des bleues. La mère veut acheter une rouge, mais la sœur dit : « Ma Li préfère le bleu, achetons une bleue ! » La mère répond : « D'accord, prenons une bleue. »",
    "questions": [
     {
      "q": "明天是谁的生日？",
@@ -1097,7 +1097,7 @@
      "我坐地铁。",
      "我去公司。"
     ],
-    "mot": "坐 + moyen de transport + 去",
+    "mot": "坐…去",
     "phrase": "我坐地铁去公司。",
     "traduction": "Je vais au bureau en métro."
    },
@@ -1173,12 +1173,12 @@
   },
   "ecoute": {
    "titre": "去看电影",
-   "texte": "男：马丽，这个星期六你有时间吗？\n女：上午我要上课，下午有时间。你有事吗？\n男：我们下午一起去看电影，好吗？\n女：好啊！电影几点开始？\n男：三点半开始。我们三点去电影院，怎么样？\n女：好的。电影院离我家不远，我走路去。你怎么去？\n男：我家离电影院很远，我坐公共汽车去。\n女：好的，星期六再见！",
+   "texte": "男：马丽，这个星期六你有时间吗？\n女：上午我上课，下午有时间。你有事吗？\n男：我们下午一起去看电影，好吗？\n女：好啊！电影几点开始？\n男：三点半开始。我们三点去电影院，怎么样？\n女：好的。电影院离我家不远，我走路去。你怎么去？\n男：我家离电影院很远，我坐公共汽车去。\n女：好的，星期六再见！",
    "traduction": "H : Ma Li, tu as du temps ce samedi ?\nF : Le matin, j'ai cours, mais l'après-midi je suis libre. Il y a quelque chose ?\nH : Si on allait voir un film ensemble l'après-midi ?\nF : Avec plaisir ! Le film commence à quelle heure ?\nH : À trois heures et demie. On va au cinéma à trois heures, ça te va ?\nF : D'accord. Le cinéma n'est pas loin de chez moi, j'y vais à pied. Et toi, comment tu y vas ?\nH : Moi, j'habite loin du cinéma, je prends le bus.\nF : D'accord, à samedi !",
    "questions": [
     {
      "q": "马丽星期六上午做什么？",
-     "r": "她上午要上课。"
+     "r": "她上午上课。"
     },
     {
      "q": "电影几点开始？",
@@ -1401,7 +1401,7 @@
      "我请朋友。",
      "朋友来我家吃饭。"
     ],
-    "mot": "请 + personne + verbe",
+    "mot": "请",
     "phrase": "我请朋友来我家吃饭。",
     "traduction": "J'invite des amis à venir manger chez moi."
    },
@@ -1410,7 +1410,7 @@
      "大海说：“李江，你去买饮料吧。”",
      "李江去买饮料。"
     ],
-    "mot": "让 + personne + verbe",
+    "mot": "让",
     "phrase": "大海让李江去买饮料。",
     "traduction": "Dahai demande à Li Jiang d'aller acheter des boissons."
    },
@@ -1419,7 +1419,7 @@
      "我买一件礼物。",
      "礼物是给妈妈的。"
     ],
-    "mot": "给 + personne + verbe",
+    "mot": "给…买",
     "phrase": "我给妈妈买一件礼物。",
     "traduction": "J'achète un cadeau pour maman."
    }
@@ -1461,7 +1461,7 @@
     {
      "mot": "让",
      "pinyin": "ràng",
-     "sens": "demander à qqn de, laisser faire"
+     "sens": "demander à qqn de (faire), laisser (qqn faire)"
     },
     {
      "mot": "超市",
@@ -1477,8 +1477,8 @@
   },
   "ecoute": {
    "titre": "去喝咖啡",
-   "texte": "女：喂，李江，明天下午你有空吗？\n男：有空。有什么事儿？\n女：我想请你去喝咖啡，好不好？\n男：明天下午不行，我要跟妈妈去买东西。后天怎么样？\n女：后天我要上课。星期天上午呢？\n男：好的，星期天上午十点，行吗？\n女：行！你来我家吧，我们一起去。\n男：好，我一定去。星期天见！",
-   "traduction": "F : Allô, Li Jiang ? Tu es libre demain après-midi ?\nH : Oui. Qu'est-ce qu'il y a ?\nF : J'aimerais t'inviter à prendre un café, ça te dit ?\nH : Demain après-midi, ce n'est pas possible : je dois aller faire des courses avec ma mère. Et après-demain ?\nF : Après-demain, j'ai cours. Et dimanche matin ?\nH : D'accord : dimanche à dix heures du matin, ça te va ?\nF : Ça marche ! Viens chez moi, on ira ensemble.\nH : Entendu, je viendrai sans faute. À dimanche !",
+   "texte": "女：喂，李江，明天下午你有空吗？\n男：有什么事儿？\n女：我想请你去喝咖啡，好不好？\n男：明天下午不行，我要跟妈妈去买东西。后天怎么样？\n女：后天我要上课。星期天上午呢？\n男：好的，星期天上午十点，行吗？\n女：行！你来我家吧，我们一起去。\n男：好，我一定去。星期天见！",
+   "traduction": "F : Allô, Li Jiang ? Tu es libre demain après-midi ?\nH : Qu'est-ce qu'il y a ?\nF : J'aimerais t'inviter à prendre un café, ça te dit ?\nH : Demain après-midi, ce n'est pas possible : je dois aller faire des courses avec ma mère. Et après-demain ?\nF : Après-demain, j'ai cours. Et dimanche matin ?\nH : D'accord : dimanche à dix heures du matin, ça te va ?\nF : Ça marche ! Viens chez moi, on ira ensemble.\nH : Entendu, je viendrai sans faute. À dimanche !",
    "questions": [
     {
      "q": "女的想请李江做什么？",
@@ -1532,7 +1532,7 @@
     "reponse": "D",
     "phrase": "她写汉字写得很快。",
     "traduction": "Elle écrit les caractères très vite.",
-    "explication": "Avec un objet, on répète le verbe : V + O + V + 得 + complément de degré. 得 suit toujours le second verbe."
+    "explication": "Quand l'objet suit le verbe, on répète le verbe : V + O + V + 得 + complément de degré. 得 suit toujours le second verbe."
    },
    {
     "phrase_lettres": "这个 A 汉字 B 太 C 难写 D。",
@@ -1696,7 +1696,7 @@
      "他写汉字。",
      "他写得很好。"
     ],
-    "mot": "objet + verbe + 得 (verbe non répété)",
+    "mot": "汉字写得",
     "phrase": "他汉字写得很好。",
     "traduction": "Il écrit bien les caractères."
    },
@@ -1723,7 +1723,7 @@
      "她跳舞。",
      "她跳得好极了。"
     ],
-    "mot": "V + O + V + 得",
+    "mot": "得",
     "phrase": "她跳舞跳得好极了。",
     "traduction": "Elle danse extrêmement bien."
    }
@@ -2295,7 +2295,7 @@
    {
     "reponse": "我哥哥篮球打得很好。",
     "question": "你哥哥篮球打得怎么样？",
-    "traduction": "Ton frère joue bien au basket ? — Mon frère joue très bien au basket.",
+    "traduction": "Comment ton frère joue-t-il au basket ? — Mon frère joue très bien au basket.",
     "explication": "Verbe + 得 + 怎么样 : on demande un jugement sur la manière de faire (complément de degré)."
    },
    {
@@ -2311,7 +2311,7 @@
      "你身体不舒服。",
      "你明天在家休息吧。"
     ],
-    "mot": "…的话，就…",
+    "mot": "…的话，…就…",
     "phrase": "你身体不舒服的话，明天就在家休息吧。",
     "traduction": "Si tu ne te sens pas bien, reste te reposer à la maison demain."
    },
@@ -2462,7 +2462,7 @@
     "explication": "Verbe + 给 + personne + chose : double objet (借给, 送给, 还给). 给 suit directement le verbe."
    },
    {
-    "phrase_lettres": "A 机票 B 太 贵 了，所以 C 我们 D 坐 火车 去。",
+    "phrase_lettres": "A 机票 太 贵 了，B 所以 C 我们 D 坐 火车 去。",
     "mot": "因为",
     "reponse": "A",
     "phrase": "因为机票太贵了，所以我们坐火车去。",
@@ -2583,7 +2583,7 @@
    {
     "reponse": "因为天气不好，所以飞机晚点了。",
     "question": "飞机为什么晚点了？",
-    "traduction": "Pourquoi l'avion a-t-il du retard ? — Parce qu'il fait mauvais.",
+    "traduction": "Pourquoi l'avion a-t-il du retard ? — Comme il fait mauvais, l'avion a du retard.",
     "explication": "为什么 demande la cause ; la réponse commence par 因为."
    },
    {
@@ -3382,7 +3382,7 @@
     "mot": "一遍",
     "reponse": "D",
     "phrase": "这本书很好，我想再看一遍。",
-    "traduction": "Ce livre est très bien, j'ai envie de le relire une fois.",
+    "traduction": "Ce livre est très bien, j'ai envie de le lire encore une fois.",
     "explication": "Le classificateur verbal 一遍 (une fois, du début à la fin) suit le verbe : 看一遍."
    },
    {
@@ -3460,7 +3460,7 @@
     "explication": "Le suffixe 过 se nie avec 没 (没 + V + 过), jamais avec 不."
    },
    {
-    "phrase_trou": "我从来都不___喝奶茶。",
+    "phrase_trou": "我从来都不喝___奶茶。",
     "choix": [
      "过",
      "Ø"
@@ -3607,7 +3607,7 @@
   "ecoute": {
    "titre": "你见过大熊猫吗？",
    "texte": "男：你去过动物园吗？\n女：去过，我上个月刚去过一次。\n男：你见过大熊猫吗？\n女：见过。它们很可爱，一直在吃东西。\n男：我从来没见过大熊猫。\n女：真的吗？北京动物园就有啊。\n男：我来北京三个月了，还没去过动物园呢。\n女：那这个星期六我们一起去吧，我带上相机。\n男：好啊！我也想照几张照片。\n女：听说星期六是阴天，可能会下雨，别忘了带伞。",
-   "traduction": "Lui : Tu es déjà allée au zoo ?\nElle : Oui, j'y suis justement allée une fois le mois dernier.\nLui : Tu as vu des pandas géants ?\nElle : Oui. Ils sont adorables, ils n'arrêtent pas de manger.\nLui : Je n'ai jamais vu de panda géant.\nElle : C'est vrai ? Il y en a au zoo de Pékin, pourtant.\nLui : Ça fait trois mois que je suis à Pékin et je ne suis pas encore allé au zoo.\nElle : Alors allons-y ensemble ce samedi, j'emporterai mon appareil photo.\nLui : D'accord ! Moi aussi, je veux prendre quelques photos.\nElle : Il paraît que samedi le ciel sera couvert et qu'il risque de pleuvoir : n'oublie pas ton parapluie.",
+   "traduction": "Lui : Tu es déjà allée au zoo ?\nElle : Oui, j'y suis allée une fois, pas plus tard que le mois dernier.\nLui : Tu as vu des pandas géants ?\nElle : Oui. Ils sont adorables, ils n'arrêtent pas de manger.\nLui : Je n'ai jamais vu de panda géant.\nElle : C'est vrai ? Il y en a au zoo de Pékin, pourtant.\nLui : Ça fait trois mois que je suis à Pékin et je ne suis pas encore allé au zoo.\nElle : Alors allons-y ensemble ce samedi, j'emporterai mon appareil photo.\nLui : D'accord ! Moi aussi, je veux prendre quelques photos.\nElle : Il paraît que samedi le ciel sera couvert et qu'il risque de pleuvoir : n'oublie pas ton parapluie.",
    "questions": [
     {
      "q": "女的见过大熊猫吗？",
@@ -3816,7 +3816,7 @@
     "reponse": "我没去爬山，因为我有很多事要做。",
     "question": "你为什么没去爬山？",
     "traduction": "Pourquoi n'es-tu pas allé en randonnée ? — Je n'y suis pas allé parce que j'avais beaucoup de choses à faire.",
-    "explication": "为什么 demande la cause ; la réponse commence par 因为."
+    "explication": "为什么 demande la cause ; dans la réponse, c'est 因为 qui l'introduit."
    }
   ],
   "fusion": [
@@ -4053,7 +4053,7 @@
     "reponse": "更",
     "phrase": "北京的冬天比巴黎更冷。",
     "traduction": "L'hiver est encore plus froid à Pékin qu'à Paris.",
-    "explication": "Dans une phrase en 比, l'adjectif ne prend ni 很 ni 非常 ; on peut seulement le renforcer par 更 ou 还."
+    "explication": "Dans une phrase en 比, l'adjectif ne prend ni 很 ni 非常 ; pour le renforcer devant lui, on ne peut mettre que 更 ou 还."
    },
    {
     "phrase_trou": "我跟我姐姐___高，我们都是一米六五。",
@@ -4075,7 +4075,7 @@
     ],
     "reponse": "越",
     "phrase": "雨越下越大。",
-    "traduction": "Plus il pleut, plus la pluie devient forte.",
+    "traduction": "Il pleut de plus en plus fort.",
     "explication": "越…越… met deux termes en corrélation (越下越大) ; 越来越 ne se dédouble pas et s'emploie seul devant l'adjectif."
    },
    {
@@ -4156,7 +4156,7 @@
      "我姐姐二十岁。",
      "我十八岁。"
     ],
-    "mot": "比 + quantité",
+    "mot": "比",
     "phrase": "我姐姐比我大两岁。",
     "traduction": "Ma grande sœur a deux ans de plus que moi."
    }
@@ -4452,7 +4452,7 @@
      "他说得很好笑。",
      "大家都笑了。"
     ],
-    "mot": "得（+ sujet + prédicat）",
+    "mot": "得",
     "phrase": "他说得大家都笑了。",
     "traduction": "Il parlait de façon si drôle que tout le monde a ri."
    },
@@ -4596,7 +4596,7 @@
     "reponse": "A",
     "phrase": "我没听懂老师的问题。",
     "traduction": "Je n'ai pas compris la question du professeur.",
-    "explication": "Un verbe suivi d'un complément de résultat se nie avec 没, placé devant le verbe : 没听懂 ; on ne coupe jamais 听懂."
+    "explication": "Un verbe suivi d'un complément de résultat se nie avec 没, placé devant le verbe : 没听懂 ; 没 ne se met jamais entre le verbe et le résultat."
    },
    {
     "phrase_lettres": "我 A 还没 B 写 C 作业 D 呢。",
@@ -4752,7 +4752,7 @@
      "我写作业。",
      "作业写完了。"
     ],
-    "mot": "V + 完",
+    "mot": "完",
     "phrase": "我写完作业了。",
     "traduction": "J'ai fini mes devoirs."
    },
@@ -4761,7 +4761,7 @@
      "他上课不认真。",
      "老师批评了他。"
     ],
-    "mot": "批评 + qqn + V",
+    "mot": "批评",
     "phrase": "老师批评他上课不认真。",
     "traduction": "Le professeur lui a reproché de ne pas être attentif en cours."
    },
@@ -4787,7 +4787,7 @@
   "lecture": {
    "titre": "老是迟到的小王",
    "texte": "小王是个大学生，可是他有一个大问题：老是迟到。\n星期一早上，手机响了很多次，可是他太困了，完全没听见。他醒的时候，已经八点半了！他赶紧起床，没刷牙就出门了。路上又堵车，他急得差点儿哭了。\n他到教室的时候，老师已经点完名了。老师问他：“你怎么又迟到了？”小王说：“对不起，路上堵车。”老师说：“堵车？你家离学校只有两公里！”同学们都笑了。\n下课以后，小王想了想，决定以后每天早上六点半起床，不再迟到了。",
-   "traduction": "Xiao Wang est étudiant, mais il a un gros problème : il est toujours en retard.\nLundi matin, son téléphone a sonné plusieurs fois, mais il avait trop sommeil et n'a rien entendu du tout. Quand il s'est réveillé, il était déjà huit heures et demie ! Il s'est levé en vitesse et il est sorti sans se brosser les dents. En route, il y avait encore des bouchons ; il était si énervé qu'il a failli pleurer.\nQuand il est arrivé en classe, le professeur avait déjà fini l'appel. Le professeur lui a demandé : « Comment se fait-il que tu sois encore en retard ? » Xiao Wang a répondu : « Pardon, il y avait des bouchons. » Le professeur a dit : « Des bouchons ? Tu habites à deux kilomètres de l'école ! » Tous les camarades ont ri.\nAprès le cours, Xiao Wang a réfléchi et a décidé de se lever désormais tous les matins à six heures et demie, pour ne plus être en retard.",
+   "traduction": "Xiao Wang est étudiant, mais il a un gros problème : il est toujours en retard.\nLundi matin, son téléphone a sonné plusieurs fois, mais il avait trop sommeil et n'a rien entendu du tout. Quand il s'est réveillé, il était déjà huit heures et demie ! Il s'est levé en vitesse et il est sorti sans se brosser les dents. En route, il y avait encore des bouchons ; il était si paniqué qu'il a failli pleurer.\nQuand il est arrivé en classe, le professeur avait déjà fini l'appel. Le professeur lui a demandé : « Comment se fait-il que tu sois encore en retard ? » Xiao Wang a répondu : « Pardon, il y avait des bouchons. » Le professeur a dit : « Des bouchons ? Tu n'habites qu'à deux kilomètres de l'école ! » Tous les camarades ont ri.\nAprès le cours, Xiao Wang a réfléchi et a décidé de se lever désormais tous les matins à six heures et demie, pour ne plus être en retard.",
    "questions": [
     {
      "q": "小王为什么没听见手机响？",
@@ -4837,8 +4837,8 @@
   },
   "ecoute": {
    "titre": "会都开完了",
-   "texte": "女：你怎么又来晚了？会都开完了。\n男：真对不起，我的车在路上坏了。\n女：那你为什么不打电话告诉我？\n男：我的手机也没电了。\n女：你每次都有原因。那个文件你写好了没有？\n男：已经写好了，我昨天晚上写到十二点。\n女：可是经理看过了，说里面有好几个错误。\n男：真的吗？我马上重新写一遍。\n女：好，下午三点以前一定要写好。还有，别再迟到了！\n男：好的，我以后一定准时来。",
-   "traduction": "Femme : Comment se fait-il que tu arrives encore en retard ? La réunion est déjà finie.\nHomme : Je suis vraiment désolé, ma voiture est tombée en panne en route.\nFemme : Alors pourquoi tu ne m'as pas téléphoné pour me prévenir ?\nHomme : Mon portable était déchargé, lui aussi.\nFemme : Tu as toujours une bonne raison. Ce document, tu l'as terminé ?\nHomme : Oui, c'est fait : j'y ai travaillé hier soir jusqu'à minuit.\nFemme : Mais le directeur l'a lu, et il dit qu'il y a plusieurs erreurs dedans.\nHomme : C'est vrai ? Je le réécris tout de suite.\nFemme : Bien, il faut absolument qu'il soit prêt avant trois heures de l'après-midi. Et ne sois plus en retard !\nHomme : D'accord, désormais je viendrai à l'heure, c'est promis.",
+   "texte": "女：你怎么又来晚了？会都开完了。\n男：真对不起，我的车在路上坏了。\n女：那你为什么不打电话告诉我？\n男：我的手机也没电了。\n女：你每次都这么说。那个文件你写好了没有？\n男：已经写好了，我昨天晚上写到十二点。\n女：可是经理看过了，说里面有好几个错误。\n男：真的吗？我马上重新写一遍。\n女：好，下午三点以前一定要写好。还有，别再迟到了！\n男：好的，我以后一定准时来。",
+   "traduction": "Femme : Comment se fait-il que tu arrives encore en retard ? La réunion est déjà finie.\nHomme : Je suis vraiment désolé, ma voiture est tombée en panne en route.\nFemme : Alors pourquoi tu ne m'as pas téléphoné pour me prévenir ?\nHomme : Mon portable était déchargé, lui aussi.\nFemme : Tu dis ça à chaque fois. Ce document, tu l'as terminé ?\nHomme : Oui, c'est fait : j'y ai travaillé hier soir jusqu'à minuit.\nFemme : Mais le directeur l'a lu, et il dit qu'il y a plusieurs erreurs dedans.\nHomme : C'est vrai ? Je le réécris tout de suite.\nFemme : Bien, il faut absolument qu'il soit prêt avant trois heures de l'après-midi. Et ne sois plus en retard !\nHomme : D'accord, désormais je viendrai à l'heure, c'est promis.",
    "questions": [
     {
      "q": "男的为什么来晚了？",
@@ -4858,11 +4858,6 @@
      "mot": "坏",
      "pinyin": "huài",
      "sens": "tomber en panne, s'abîmer"
-    },
-    {
-     "mot": "原因",
-     "pinyin": "yuányīn",
-     "sens": "raison, cause"
     },
     {
      "mot": "错误",
@@ -5054,7 +5049,7 @@
      "他站着。",
      "他吃早饭。"
     ],
-    "mot": "V1着 + V2",
+    "mot": "着",
     "phrase": "他站着吃早饭。",
     "traduction": "Il prend son petit-déjeuner debout."
    },
@@ -5374,9 +5369,9 @@
      "他写“大”字。",
      "他写成了“太”字。"
     ],
-    "mot": "把…V成…",
+    "mot": "把…写成…",
     "phrase": "他把“大”字写成了“太”字。",
-    "traduction": "Il a écrit le caractère « 大 » comme « 太 »."
+    "traduction": "Il a écrit « 太 » au lieu de « 大 »."
    },
    {
     "phrases": [
@@ -5672,7 +5667,7 @@
      "我们都喝了葡萄酒。",
      "小李没喝。"
     ],
-    "mot": "除了…以外，都…",
+    "mot": "除了…以外…都…",
     "phrase": "除了小李以外，我们都喝了葡萄酒。",
     "traduction": "À part Xiao Li, nous avons tous bu du vin."
    },
@@ -5681,7 +5676,7 @@
      "他会说英语。",
      "他还会说法语。"
     ],
-    "mot": "除了…以外，还…",
+    "mot": "除了…以外…还…",
     "phrase": "除了英语以外，他还会说法语。",
     "traduction": "En plus de l'anglais, il parle aussi français."
    },
@@ -5758,7 +5753,7 @@
   "ecoute": {
    "titre": "谁请客？",
    "texte": "男：这顿饭真好吃！服务员，结账！\n女：别动，今天我请客。\n男：那怎么行？上次就是你请的，这次该我了。\n女：你来北京是客人，就别跟我客气了。\n男：在我们法国，朋友一起吃饭，常常是每个人付自己的。\n女：我听说过。不过在中国，朋友之间往往互相请客，这次我请，下次你请。\n男：那好吧，我接受。下次一定让我请你。\n女：没问题！下个星期六我们去吃北京小吃，你请客。\n男：好，那就说好了！",
-   "traduction": "Lui : Ce repas était vraiment délicieux ! Serveur, l'addition !\nElle : Ne bouge pas, aujourd'hui c'est moi qui invite.\nLui : Pas question ! La dernière fois, c'est déjà toi qui as payé, cette fois c'est mon tour.\nElle : Tu es mon invité à Pékin, alors ne fais pas de manières avec moi.\nLui : Chez nous, en France, quand des amis mangent ensemble, souvent chacun paie sa part.\nElle : J'en ai entendu parler. Mais en Chine, entre amis, on s'invite souvent à tour de rôle : cette fois c'est moi, la prochaine fois ce sera toi.\nLui : Bon, d'accord, j'accepte. La prochaine fois, laisse-moi absolument t'inviter.\nElle : Pas de problème ! Samedi prochain, on va manger des spécialités de rue pékinoises, et c'est toi qui invites.\nLui : Bien, c'est entendu !",
+   "traduction": "Lui : Ce repas était vraiment délicieux ! Serveur, l'addition !\nElle : Ne bouge pas, aujourd'hui c'est moi qui invite.\nLui : Pas question ! La dernière fois, c'est déjà toi qui as payé, cette fois c'est mon tour.\nElle : Tu es mon invité à Pékin, alors ne fais pas de manières avec moi.\nLui : Chez nous, en France, quand des amis mangent ensemble, souvent chacun paie sa part.\nElle : J'en ai entendu parler. Mais en Chine, entre amis, on s'invite souvent à tour de rôle : cette fois c'est moi, la prochaine fois ce sera toi.\nLui : Bon, d'accord, j'accepte. La prochaine fois, il faut absolument que tu me laisses t'inviter.\nElle : Pas de problème ! Samedi prochain, on va manger des spécialités de rue pékinoises, et c'est toi qui invites.\nLui : Bien, c'est entendu !",
    "questions": [
     {
      "q": "今天这顿饭是谁请客？",
@@ -6095,7 +6090,7 @@
     },
     {
      "mot": "京剧",
-     "pinyin": "Jīngjù",
+     "pinyin": "jīngjù",
      "sens": "opéra de Pékin"
     },
     {
@@ -6628,7 +6623,7 @@
      "请把你的地址告诉我。",
      "我可以给你寄月饼。"
     ],
-    "mot": "……，好 + verbe",
+    "mot": "好",
     "phrase": "请把你的地址告诉我，我好给你寄月饼。",
     "traduction": "Donne-moi ton adresse, que je puisse t'envoyer des gâteaux de lune."
    }
@@ -7504,7 +7499,7 @@
    {
     "reponse": "他读了三年硕士。",
     "question": "他读了几年硕士？",
-    "traduction": "Combien d'années a-t-il fait de master ? — Trois ans.",
+    "traduction": "Combien d'années a duré son master ? — Trois ans.",
     "explication": "几 + unité (年) demande un nombre ; la durée se place entre le verbe et l'objet."
    },
    {
@@ -7777,7 +7772,7 @@
     ],
     "reponse": "不如",
     "phrase": "与其花那么多钱买房子，不如租一个大一点儿的。",
-    "traduction": "Plutôt que de dépenser autant d'argent pour acheter, mieux vaut en louer un un peu plus grand.",
+    "traduction": "Plutôt que de dépenser autant d'argent pour acheter un logement, mieux vaut en louer un un peu plus grand.",
     "explication": "与其 A，不如 B : « plutôt que A, mieux vaut B ». 也 répond à 宁可, et 就 ne peut pas compléter 与其."
    },
    {
@@ -8014,7 +8009,7 @@
     "explication": "不但…而且… : « non seulement… mais aussi… ». 而且 ouvre la seconde proposition, en tête, avant 读者."
    },
    {
-    "phrase_lettres": "你 A 说 B 过 C 要 支持 我 D 吗 ？",
+    "phrase_lettres": "你 A 说 B 过 C 要 D 支持 我 吗 ？",
     "mot": "不是",
     "reponse": "A",
     "phrase": "你不是说过要支持我吗？",
@@ -8464,7 +8459,7 @@
      "这是一种糖。",
      "我小时候最喜欢吃这种糖。"
     ],
-    "mot": "的 (relative)",
+    "mot": "的",
     "phrase": "这是我小时候最喜欢吃的糖。",
     "traduction": "Ce sont les bonbons que je préférais quand j'étais petit."
    },
@@ -8475,7 +8470,7 @@
     ],
     "mot": "一…就…",
     "phrase": "我一看见这种糖，就想起了小时候。",
-    "traduction": "Dès que je vois ces bonbons, je repense à mon enfance."
+    "traduction": "Dès que j'ai vu ces bonbons, je me suis souvenu de mon enfance."
    },
    {
     "phrases": [
@@ -8544,7 +8539,7 @@
     },
     {
      "q": "这种奶糖现在有什么活动？",
-     "r": "正好打折，买两袋送一袋。"
+     "r": "现在打折，买两袋送一袋。"
     },
     {
      "q": "最后谁付钱？为什么？",

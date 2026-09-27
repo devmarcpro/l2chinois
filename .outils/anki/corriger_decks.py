@@ -96,6 +96,9 @@ def lire(nom):
             rangs.append([c[1:-1] if len(c) > 1 and c[0] == '"' and c[-1] == '"' else c for c in ligne.split("\t")])
     for r in rangs:
         r += [""] * (4 - len(r))
+        # attributs aux guillemets doublés (class=""t2"") dans certains exemples d'origine : sans eux, pas de
+        # couleur de ton, et les rubis échappent aux corrections de pinyin
+        r[:] = [re.sub(r'(\w+)=""([^"<>]*)""', r'\1="\2"', c) for c in r]
     return rangs
 
 
@@ -727,6 +730,8 @@ def main():
     ajouts.update(ecriture.ajouter_ecriture(paquets, publies))
     import contenu_manuel
     ajouts.update(contenu_manuel.ajouter_caracteres(paquets))  # des caractères aux mots
+    import finitions  # couleurs de ton, annotations mal posées, forme traditionnelle, retouches relues
+    ajouts.update(finitions.appliquer(paquets, stats))
     garder_anciens_rectos(originaux, publies, paquets)
     niveaux_officiels(paquets["Vocabulaire"])
     lex = Lexique()

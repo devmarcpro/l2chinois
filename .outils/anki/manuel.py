@@ -91,7 +91,10 @@ class Manuel:
         """Mots du texte (noms propres et nombres exclus), avec leur leçon."""
         if texte not in self._cache:
             import jieba.posseg as pseg
-            propre = "".join(c for c in texte if CJK.match(c) or c in "，。！？、；：")
+            # ce qui sépare deux morceaux de chinois (pinyin, français, chiffres) devient une virgule : sans elle,
+            # « 不挤 bù jǐ … 5. 挤 » donnerait « 不挤挤 » ; les simples espaces (entre les rubis) sont ôtées
+            coupe = re.sub(r"[^一-鿿，。！？、；：]*[A-Za-zÀ-ÿ0-9][^一-鿿，。！？、；：]*", "，", texte)
+            propre = "".join(c for c in coupe if CJK.match(c) or c in "，。！？、；：")
             self._cache[texte] = [(m, self.lecon_mot(m)) for m, nature in pseg.cut(propre)
                                   if CJK.search(m) and nature not in NATURES_IGNOREES]
         return self._cache[texte]
@@ -158,6 +161,9 @@ def ranger(paquets):
                 e["titre"] = titre_fiche(r[0] if "#2980b9" in r[0] else r[1])  # cartes à questions : titre au verso
                 lecon = m.gram.get(e["titre"], INF)
                 e["mots"] = [w for w, _ in m.mots(re.sub(r"[（(].*?[）)]", "", e["titre"].split(" — ")[0]))]
+                if "#2980b9" not in r[0]:  # carte à questions : après les mots de la leçon qu'emploient ses phrases
+                    phrases = nu(r[0]) + " " + " ".join(nu(z) for z in re.findall(r'<div class="g-zh">(.*?)</div>', r[1], re.S))
+                    e["mots"] += [w for w, _ in m.mots(phrases)]
             elif nom == "Ecriture":
                 e["car"] = _caractere_ecriture(r)
                 if e["car"] in m.car_manuel:  # le manuel le donne à écrire dans cette leçon

@@ -4087,9 +4087,9 @@
    "traduction": "Cette personne est mon professeur."
   },
   "utiliser": {
-   "consigne": "Désignez un livre éloigné (« ce… -là ») avec le bon mot de mesure",
-   "francais": "Ce livre-là est cher.",
-   "chinois": "那本书很贵。",
+   "consigne": "Désignez une table éloignée (« ce… -là ») avec le bon mot de mesure",
+   "francais": "Cette table-là est chère.",
+   "chinois": "那张桌子很贵。",
    "variantes": []
   }
  },
@@ -4312,7 +4312,8 @@
    "francais": "Le troisième livre est très intéressant.",
    "chinois": "第三本书很好看。",
    "variantes": [
-    "第三本书非常好看。"
+    "第三本书非常好看。",
+    "第三本书很有意思。"
    ]
   }
  },
@@ -4581,10 +4582,10 @@
  },
  "(是) A，还是 B — alternative entre deux propositions": {
   "comprendre": {
-   "phrase_gras": "你**是**喝茶，**还是**喝咖啡？",
+   "phrase_gras": "你**是**喝茶，**还是**喝牛奶？",
    "question": "",
    "reponse": "是…还是… propose un choix entre deux actions ; la phrase est déjà une question, on n'ajoute pas 吗.",
-   "traduction": "Tu bois du thé ou du café ?"
+   "traduction": "Tu bois du thé ou du lait ?"
   },
   "utiliser": {
    "consigne": "Demandez à quelqu'un de choisir entre deux moments pour une même action",
@@ -4670,7 +4671,7 @@
    "traduction": "Quel âge as-tu cette année ?"
   },
   "utiliser": {
-   "consigne": "Proposez une activité, puis demandez l'avis de l'autre en fin de phrase (« …, ça te dit ? »)",
+   "consigne": "Proposez une activité, puis demandez l'avis de l'autre avec un mot interrogatif en fin de phrase",
    "francais": "Et si on allait voir un film demain ?",
    "chinois": "明天我们去看电影，怎么样？",
    "variantes": [
@@ -4720,12 +4721,11 @@
    "traduction": "Comment se passe ton nouveau travail ?"
   },
   "utiliser": {
-   "consigne": "Donnez le prix d'un objet, sans verbe",
-   "francais": "Ce livre coûte trente yuans.",
-   "chinois": "这本书三十块。",
+   "consigne": "Donnez le jour de la semaine, sans verbe",
+   "francais": "Demain, c'est dimanche.",
+   "chinois": "明天星期天。",
    "variantes": [
-    "这本书三十块钱。",
-    "这本书三十元。"
+    "明天星期日。"
    ]
   }
  },
@@ -4789,7 +4789,9 @@
    "consigne": "Dites comment une personne se rend quelque part (à pied)",
    "francais": "Il va à l'école à pied tous les jours.",
    "chinois": "他每天走路去学校。",
-   "variantes": []
+   "variantes": [
+    "他每天都走路去学校。"
+   ]
   }
  },
  "年 / 月 / 号 / 星期 — dire la date": {
@@ -4969,7 +4971,9 @@
    "francais": "Je vais voir un film avec un ami.",
    "chinois": "我跟朋友一起去看电影。",
    "variantes": [
-    "我和朋友一起去看电影。"
+    "我和朋友一起去看电影。",
+    "我跟一个朋友一起去看电影。",
+    "我跟朋友去看电影。"
    ]
   }
  },
@@ -5157,7 +5161,9 @@
    "francais": "Ce soir, je téléphone à ma mère.",
    "chinois": "我今天晚上给妈妈打电话。",
    "variantes": [
-    "今天晚上我给妈妈打电话。"
+    "今天晚上我给妈妈打电话。",
+    "我晚上给妈妈打电话。",
+    "晚上我给妈妈打电话。"
    ]
   }
  },
@@ -5265,7 +5271,7 @@
    "traduction": "Je suis d'accord avec ce que tu dis."
   },
   "utiliser": {
-   "consigne": "Exprimez poliment un désaccord, puis donnez votre propre avis",
+   "consigne": "Exprimez votre désaccord, puis donnez votre propre avis",
    "francais": "Je ne suis pas d'accord, je trouve que c'est trop cher.",
    "chinois": "我不同意，我觉得太贵了。",
    "variantes": [
@@ -5558,7 +5564,9 @@
    "francais": "Après le cours, nous allons manger ensemble.",
    "chinois": "下课后我们一起去吃饭。",
    "variantes": [
-    "下课以后我们一起去吃饭。"
+    "下课以后我们一起去吃饭。",
+    "我们下课后一起去吃饭。",
+    "我们下课以后一起去吃饭。"
    ]
   }
  },
@@ -5620,7 +5628,9 @@
    "consigne": "Insistez sur la proximité d'un lieu (« juste à côté »)",
    "francais": "La banque est juste à côté de l'école.",
    "chinois": "银行就在学校旁边。",
-   "variantes": []
+   "variantes": [
+    "银行就在学校的旁边。"
+   ]
   }
  },
  "往 + direction / lieu + verbe — vers, en direction de": {
@@ -5670,7 +5680,9 @@
    "chinois": "我家在学校东边。",
    "variantes": [
     "我家在学校的东边。",
-    "我家在学校东面。"
+    "我家在学校东面。",
+    "我住在学校东边。",
+    "我住在学校的东边。"
    ]
   }
  },
@@ -5782,7 +5794,8 @@
    "francais": "Inutile de venir me chercher à la gare.",
    "chinois": "你不必来火车站接我。",
    "variantes": [
-    "你不必到火车站来接我。"
+    "你不必到火车站来接我。",
+    "不必来火车站接我。"
    ]
   }
  },
@@ -6471,7 +6484,8 @@
    "francais": "Je suis allé deux fois à Shanghai.",
    "chinois": "我去过两次上海。",
    "variantes": [
-    "我去过上海两次。"
+    "我去过上海两次。",
+    "我去了两次上海。"
    ]
   }
  },
@@ -6538,7 +6552,8 @@
    "chinois": "昨天我睡了十个小时。",
    "variantes": [
     "我昨天睡了十个小时。",
-    "昨天我睡了十个小时的觉。"
+    "昨天我睡了十个小时的觉。",
+    "昨天我睡了十个钟头。"
    ]
   }
  },
@@ -6586,7 +6601,8 @@
    "francais": "Ils sont mariés depuis dix ans.",
    "chinois": "他们结婚十年了。",
    "variantes": [
-    "他们已经结婚十年了。"
+    "他们已经结婚十年了。",
+    "他们结婚已经十年了。"
    ]
   }
  },
@@ -6734,7 +6750,8 @@
    "francais": "Ce vêtement est aussi cher que l'autre.",
    "chinois": "这件衣服跟那件一样贵。",
    "variantes": [
-    "这件衣服和那件一样贵。"
+    "这件衣服和那件一样贵。",
+    "这件衣服跟那件衣服一样贵。"
    ]
   }
  },
@@ -6812,7 +6829,7 @@
    "traduction": "Ils sont entrés tous les deux, l'un derrière l'autre."
   },
   "utiliser": {
-   "consigne": "Précisez la composition de ses deux enfants (un garçon et une fille) en une expression figée de quatre syllabes",
+   "consigne": "Précisez la composition de leurs deux enfants (un garçon et une fille) en une expression figée de quatre syllabes",
    "francais": "Ils ont deux enfants : un garçon et une fille.",
    "chinois": "他们有两个孩子，一男一女。",
    "variantes": [
@@ -6863,7 +6880,8 @@
    "francais": "J'ai terriblement mal à la tête.",
    "chinois": "我头疼得厉害。",
    "variantes": [
-    "我头疼死了。"
+    "我头疼死了。",
+    "我头疼得要命。"
    ]
   }
  },
@@ -6963,13 +6981,13 @@
  },
  "V + 错 / 懂 / 会 — compléments de résultat (erreur, compréhension, apprentissage)": {
   "comprendre": {
-   "phrase_gras": "老师的话，你听**懂**了吗？",
+   "phrase_gras": "我学**会**骑自行车了。",
    "question": "",
-   "reponse": "懂 est un complément de résultat : écouter → comprendre ce qu'on entend.",
-   "traduction": "As-tu compris ce que le professeur a dit ?"
+   "reponse": "会 est un complément de résultat : 学 (apprendre) + 会 (savoir faire) = apprendre jusqu'à savoir le faire.",
+   "traduction": "J'ai appris à faire du vélo."
   },
   "utiliser": {
-   "consigne": "Excusez-vous : l'action d'appeler a été faite de travers",
+   "consigne": "Excusez-vous : vous vous êtes trompé en appelant",
    "francais": "Pardon, je me suis trompé de numéro.",
    "chinois": "对不起，我打错电话了。",
    "variantes": [
@@ -7038,7 +7056,9 @@
    "consigne": "Demandez qu'on ferme la porte, en précisant le résultat de l'action (bien fermée)",
    "francais": "Ferme la porte, s'il te plaît.",
    "chinois": "请关上门。",
-   "variantes": []
+   "variantes": [
+    "请把门关上。"
+   ]
   }
  },
  "都…了 — déjà (insistance sur l'état actuel)": {
@@ -7059,16 +7079,18 @@
  },
  "到底 vs 究竟 (dans les questions) — au fond / en définitive": {
   "comprendre": {
-   "phrase_gras": "你**到底**想要什么？",
-   "question": "",
-   "reponse": "到底 exige une réponse définitive, sur un ton impatient : « au fond, enfin ».",
-   "traduction": "Mais qu'est-ce que tu veux, au fond ?"
+   "phrase_gras": "这个问题**究竟**应该怎么解决？",
+   "question": "Quelle différence de ton avec 到底 ?",
+   "reponse": "Même sens que 到底 (« au juste, en définitive ») dans une question, mais 究竟 est plus neutre et plus soutenu ; 到底, plus oral, marque souvent l'impatience.",
+   "traduction": "Comment faut-il, au juste, résoudre ce problème ?"
   },
   "utiliser": {
    "consigne": "Exigez une explication définitive, sur un ton neutre et plutôt soutenu (pas le mot oral et émotionnel)",
    "francais": "Que se passe-t-il au juste ?",
    "chinois": "这究竟是怎么回事？",
-   "variantes": []
+   "variantes": [
+    "究竟是怎么回事？"
+   ]
   }
  },
  "按时 / 从来 / 赶紧 / 忽然 / 将要 / 本来 — adverbes de temps": {
@@ -7130,7 +7152,7 @@
   },
   "utiliser": {
    "consigne": "Moquez-vous de quelqu'un qui n'est pas à la hauteur de son statut de professeur (« et ça se dit… ! »)",
-   "francais": "Et ça se dit professeur ! Il se trompe lui-même.",
+   "francais": "Et ça se dit professeur ! Lui-même s'est trompé.",
    "chinois": "还老师呢，自己都说错了。",
    "variantes": [
     "他还老师呢，自己都说错了。"
@@ -7164,7 +7186,8 @@
    "chinois": "请你拿一个杯子来。",
    "variantes": [
     "请你拿来一个杯子。",
-    "请拿一个杯子来。"
+    "请拿一个杯子来。",
+    "请给我拿一个杯子来。"
    ]
   }
  },
@@ -7196,7 +7219,8 @@
    "francais": "Il est sorti de la pièce.",
    "chinois": "他从房间里走出来了。",
    "variantes": [
-    "他从房间走出来了。"
+    "他从房间走出来了。",
+    "他从房间里出来了。"
    ]
   }
  },
@@ -7380,7 +7404,8 @@
    "francais": "Il a emmené l'enfant à l'école.",
    "chinois": "他把孩子送到学校了。",
    "variantes": [
-    "他把孩子送到学校去了。"
+    "他把孩子送到学校去了。",
+    "他把孩子带到学校了。"
    ]
   }
  },
@@ -7396,7 +7421,8 @@
    "francais": "Il a donné son vieux téléphone à son petit frère.",
    "chinois": "他把旧手机送给了弟弟。",
    "variantes": [
-    "他把旧手机送给弟弟了。"
+    "他把旧手机送给弟弟了。",
+    "他把旧手机给了弟弟。"
    ]
   }
  },
@@ -7459,7 +7485,9 @@
    "consigne": "Dites qu'une chose précise a été complètement oubliée, en la plaçant avant le verbe",
    "francais": "Il a oublié mon anniversaire.",
    "chinois": "他把我的生日忘了。",
-   "variantes": []
+   "variantes": [
+    "他把我的生日忘记了。"
+   ]
   }
  },
  "把 + objet + V + fréquence / durée — combien de fois, combien de temps": {
@@ -7537,7 +7565,9 @@
    "consigne": "Dites qu'il a dépensé tout son argent en livres, l'argent étant placé avant le verbe",
    "francais": "Il a dépensé tout son argent en livres.",
    "chinois": "他把钱都买了书。",
-   "variantes": []
+   "variantes": [
+    "他把钱都买书了。"
+   ]
   }
  },
  "非生物主语 + 把 + O + V + 其他成分 — 把 avec un sujet inanimé": {
@@ -7615,7 +7645,7 @@
   },
   "utiliser": {
    "consigne": "Faites une négation totale : pas même une seule fois",
-   "francais": "Je ne suis pas allé à Shanghai une seule fois.",
+   "francais": "Je ne suis pas allé une seule fois à Shanghai.",
    "chinois": "我一次也没去过上海。",
    "variantes": [
     "我一次都没去过上海。"
@@ -7711,7 +7741,7 @@
   },
   "utiliser": {
    "consigne": "Dites que vous n'arrivez pas à déplacer cette valise, trop lourde (le résultat est impossible)",
-   "francais": "Cette valise, je n'arrive pas à la soulever.",
+   "francais": "Cette valise, je n'arrive pas à la déplacer.",
    "chinois": "这个箱子我搬不动。",
    "variantes": [
     "我搬不动这个箱子。"
@@ -7977,7 +8007,7 @@
    "traduction": "Il fait vraiment froid aujourd'hui."
   },
   "utiliser": {
-   "consigne": "Insistez familièrement sur une qualité « bien assez » marquée, qui suffit largement",
+   "consigne": "Insistez, sur un ton familier, sur le fait qu'une qualité est largement suffisante (« bien assez »)",
    "francais": "Cette chambre est bien assez grande : quatre personnes peuvent y loger sans problème.",
    "chinois": "这个房间够大的，住四个人没问题。",
    "variantes": [
@@ -8237,8 +8267,8 @@
  "Nombre + classificateur + 多（一个多月）— un peu plus de (fraction d'unité)": {
   "comprendre": {
    "phrase_gras": "从学校到我家要**一个多小时**。",
-   "question": "Combien de temps faut-il exactement ?",
-   "reponse": "Un peu plus d'une heure : 多 placé après le classificateur ajoute une fraction de l'unité (quelques minutes).",
+   "question": "Combien de temps faut-il, à peu près ?",
+   "reponse": "Un peu plus d'une heure (entre une et deux heures) : 多 placé après le classificateur ajoute une fraction de l'unité.",
    "traduction": "Il faut un peu plus d'une heure pour aller de l'école jusque chez moi."
   },
   "utiliser": {
@@ -8625,7 +8655,7 @@
    "traduction": "Mon gâteau a été mangé par mon petit frère."
   },
   "utiliser": {
-   "consigne": "Passez du passif à l'actif : l'agent en sujet, mais le livre toujours avant le verbe",
+   "consigne": "Tournure active : l'agent en sujet, mais le livre toujours placé avant le verbe",
    "francais": "Mon ami a emporté mon livre.",
    "chinois": "朋友把我的书带走了。",
    "variantes": [
@@ -9901,7 +9931,7 @@
    "traduction": "Il n'y a vraiment pas de quoi pleurer !"
   },
   "utiliser": {
-   "consigne": "Dites, sous forme affirmative, qu'il n'y a rien à dire à quelqu'un (« il n'y a pas de quoi… »)",
+   "consigne": "Dites, par une phrase déclarative (pas une question), que vous n'avez rien à dire à quelqu'un (« il n'y a rien à… »)",
    "francais": "Je n'ai rien à lui dire.",
    "chinois": "我跟他没什么好说的。",
    "variantes": [
@@ -10201,7 +10231,7 @@
  },
  "紧缩复句 sans mot de liaison — deux propositions fusionnées": {
   "comprendre": {
-   "phrase_gras": "**你不想去**我自己去。",
+   "phrase_gras": "**你不想去我自己去**。",
    "question": "Quel lien logique unit les deux parties, sans mot de liaison ?",
    "reponse": "Une condition : si tu ne veux pas y aller, j'irai seul. La relation se déduit du sens, sans mot de liaison ni virgule.",
    "traduction": "Si tu ne veux pas y aller, j'irai seul."

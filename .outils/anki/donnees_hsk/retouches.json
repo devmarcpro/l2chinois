@@ -1,0 +1,474 @@
+[
+ {
+  "paquet": "Vocabulaire",
+  "recto": "火车",
+  "remplacements": [
+   {
+    "ancien": "<ruby>从<rt class=\"t2\">cóng</rt></ruby><ruby>北<rt class=\"t3\">běi</rt></ruby><ruby>京<rt class=\"t1\">jīng</rt></ruby><ruby>到<rt class=\"t4\">dào</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby><ruby>海<rt class=\"t3\">hǎi</rt></ruby><ruby>坐<rt class=\"t4\">zuò</rt></ruby><ruby>高<rt class=\"t1\">gāo</rt></ruby><ruby>铁<rt class=\"t3\">tiě</rt></ruby><ruby>只<rt class=\"t3\">zhǐ</rt></ruby><ruby>需<rt class=\"t1\">xū</rt></ruby><ruby>四<rt class=\"t4\">sì</rt></ruby><ruby>个<rt class=\"t4\">gè</rt></ruby><ruby>多<rt class=\"t1\">duō</rt></ruby><ruby>小<rt class=\"t3\">xiǎo</rt></ruby><ruby>时<rt class=\"t2\">shí</rt></ruby>。 - De Pékin à Shanghai en TGV, il faut un peu plus de quatre heures.<br><ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>高<rt class=\"t1\">gāo</rt></ruby><ruby>铁<rt class=\"t3\">tiě</rt></ruby><ruby>网<rt class=\"t3\">wǎng</rt></ruby><ruby>络<rt class=\"t4\">luò</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>世<rt class=\"t4\">shì</rt></ruby><ruby>界<rt class=\"t4\">jiè</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby><ruby>最<rt class=\"t4\">zuì</rt></ruby><ruby>长<rt class=\"t2\">cháng</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby>，<ruby>总<rt class=\"t3\">zǒng</rt></ruby><ruby>里<rt class=\"t3\">lǐ</rt></ruby><ruby>程<rt class=\"t2\">chéng</rt></ruby><ruby>超<rt class=\"t1\">chāo</rt></ruby><ruby>过<rt class=\"t4\">guò</rt></ruby><ruby>四<rt class=\"t4\">sì</rt></ruby><ruby>万<rt class=\"t4\">wàn</rt></ruby><ruby>公<rt class=\"t1\">gōng</rt></ruby><ruby>里<rt class=\"t3\">lǐ</rt></ruby>，<ruby>覆<rt class=\"t4\">fù</rt></ruby><ruby>盖<rt class=\"t4\">gài</rt></ruby><ruby>全<rt class=\"t2\">quán</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>主<rt class=\"t3\">zhǔ</rt></ruby><ruby>要<rt class=\"t4\">yào</rt></ruby><ruby>城<rt class=\"t2\">chéng</rt></ruby><ruby>市<rt class=\"t4\">shì</rt></ruby>。",
+    "nouveau": "<ruby>我<rt class=\"t3\">wǒ</rt></ruby><ruby>们<rt class=\"t0\">men</rt></ruby><ruby>坐<rt class=\"t4\">zuò</rt></ruby><ruby>火<rt class=\"t3\">huǒ</rt></ruby><ruby>车<rt class=\"t1\">chē</rt></ruby><ruby>去<rt class=\"t4\">qù</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby><ruby>海<rt class=\"t3\">hǎi</rt></ruby><ruby>吧<rt class=\"t0\">ba</rt></ruby>。 - Allons à Shanghai en train."
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (sur le 高铁, 2e phrase sans traduction) remplacé par une phrase avec 火车."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "农村人口",
+  "remplacements": [
+   {
+    "ancien": "<ruby>缩<rt class=\"t1\">suō</rt></ruby><ruby>小<rt class=\"t3\">xiǎo</rt></ruby><ruby>城<rt class=\"t2\">chéng</rt></ruby><ruby>乡<rt class=\"t1\">xiāng</rt></ruby><ruby>差<rt class=\"t1\">chā</rt></ruby><ruby>距<rt class=\"t4\">jù</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>政<rt class=\"t4\">zhèng</rt></ruby><ruby>府<rt class=\"t3\">fǔ</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>重<rt class=\"t4\">zhòng</rt></ruby><ruby>要<rt class=\"t4\">yào</rt></ruby><ruby>政<rt class=\"t4\">zhèng</rt></ruby><ruby>策<rt class=\"t4\">cè</rt></ruby><ruby>目<rt class=\"t4\">mù</rt></ruby><ruby>标<rt class=\"t1\">biāo</rt></ruby> - réduire l'écart ville-campagne est un objectif politique majeur du gouvernement chinois",
+    "nouveau": "<ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>农<rt class=\"t2\">nóng</rt></ruby><ruby>村<rt class=\"t1\">cūn</rt></ruby><ruby>人<rt class=\"t2\">rén</rt></ruby><ruby>口<rt class=\"t3\">kǒu</rt></ruby><ruby>越<rt class=\"t4\">yuè</rt></ruby><ruby>来<rt class=\"t2\">lái</rt></ruby><ruby>越<rt class=\"t4\">yuè</rt></ruby><ruby>少<rt class=\"t3\">shǎo</rt></ruby> - la population rurale de la Chine diminue de plus en plus"
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple remplacé par une phrase avec 农村人口 (même style : pas de point final)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "一个词",
+  "remplacements": [
+   {
+    "ancien": "<ruby>我<rt class=\"t3\">wǒ</rt></ruby><ruby>不<rt class=\"t4\">bù</rt></ruby><ruby>懂<rt class=\"t3\">dǒng</rt></ruby><ruby>这<rt class=\"t4\">zhè</rt></ruby><ruby>个<rt class=\"t4\">gè</rt></ruby><ruby>词<rt class=\"t2\">cí</rt></ruby>。<br>Je ne comprends pas ce mot.",
+    "nouveau": "<ruby>请<rt class=\"t3\">qǐng</rt></ruby><ruby>用<rt class=\"t4\">yòng</rt></ruby><ruby>这<rt class=\"t4\">zhè</rt></ruby><ruby>个<rt class=\"t4\">gè</rt></ruby><ruby>字<rt class=\"t4\">zì</rt></ruby><ruby>组<rt class=\"t3\">zǔ</rt></ruby><ruby>一<rt class=\"t2\">yí</rt></ruby><ruby>个<rt class=\"t4\">gè</rt></ruby><ruby>词<rt class=\"t2\">cí</rt></ruby>。<br>Formez un mot avec ce caractère."
+   }
+  ],
+  "retirer": false,
+  "note": "Phrase d'exemple remplacée par une phrase avec 一个词 (la ligne 生词 est gardée)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "姜",
+  "remplacements": [
+   {
+    "ancien": "<ruby>薑<rt class=\"t1\">jiāng</rt></ruby><ruby>可",
+    "nouveau": "<ruby>姜<rt class=\"t1\">jiāng</rt></ruby><ruby>可"
+   },
+   {
+    "ancien": "<ruby>薑<rt class=\"t1\">jiāng</rt></ruby><ruby>茶",
+    "nouveau": "<ruby>姜<rt class=\"t1\">jiāng</rt></ruby><ruby>茶"
+   }
+  ],
+  "retirer": false,
+  "note": "Les exemples écrivaient la forme traditionnelle 薑 : remplacée par 姜 (生姜, 姜茶), phrases gardées."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "干支",
+  "remplacements": [
+   {
+    "ancien": "202<ruby>4<rt class=\"t4\">èr líng èr sì</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>甲<rt class=\"t3\">jiǎ</rt></ruby><ruby>辰<rt class=\"t2\">chén</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby>，<ruby>即<rt class=\"t2\">jí</rt></ruby><ruby>龙<rt class=\"t2\">lóng</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby>。 - 2024 est l'année Jiachen, soit l'année du Dragon dans le cycle sexagésimal.",
+    "nouveau": "<ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>古<rt class=\"t3\">gǔ</rt></ruby><ruby>代<rt class=\"t4\">dài</rt></ruby><ruby>用<rt class=\"t4\">yòng</rt></ruby><ruby>干<rt class=\"t1\">gān</rt></ruby><ruby>支<rt class=\"t1\">zhī</rt></ruby><ruby>纪<rt class=\"t4\">jì</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby>，<ruby>比<rt class=\"t3\">bǐ</rt></ruby><ruby>如<rt class=\"t2\">rú</rt></ruby><ruby>甲<rt class=\"t3\">jiǎ</rt></ruby><ruby>辰<rt class=\"t2\">chén</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby><ruby>就<rt class=\"t4\">jiù</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>龙<rt class=\"t2\">lóng</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby>。 - Dans la Chine ancienne, on notait les années avec le cycle sexagésimal : l'année Jiachen, par exemple, est une année du Dragon."
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple remplacé par une phrase avec 干支 (supprime aussi l'annotation fautive de « 2024 »)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "余华",
+  "remplacements": [
+   {
+    "ancien": "<b>Exemple :</b>《",
+    "nouveau": "<b>Exemple :</b><ruby>余<rt class=\"t2\">yú</rt></ruby><ruby>华<rt class=\"t2\">huá</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby>《"
+   },
+   {
+    "ancien": " - « Vivre » est considéré",
+    "nouveau": " - « Vivre » de Yu Hua est considéré"
+   }
+  ],
+  "retirer": false,
+  "note": "余华的 ajouté en tête de l'exemple, traduction ajustée."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "动车组",
+  "remplacements": [
+   {
+    "ancien": "<ruby>高<rt class=\"t1\">gāo</rt></ruby><ruby>铁<rt class=\"t3\">tiě</rt></ruby><ruby>列<rt class=\"t4\">liè</rt></ruby><ruby>车<rt class=\"t1\">chē</rt></ruby>",
+    "nouveau": "<ruby>动<rt class=\"t4\">dòng</rt></ruby><ruby>车<rt class=\"t1\">chē</rt></ruby><ruby>组<rt class=\"t3\">zǔ</rt></ruby>"
+   },
+   {
+    "ancien": "le train à grande vitesse de dernière génération développé de manière",
+    "nouveau": "la rame automotrice (EMU) de dernière génération développée de manière"
+   }
+  ],
+  "retirer": false,
+  "note": "高铁列车 remplacé par 动车组 dans l'exemple, traduction ajustée."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "合法同居",
+  "remplacements": [
+   {
+    "ancien": "<ruby>很<rt class=\"t3\">hěn</rt></ruby><ruby>多<rt class=\"t1\">duō</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby><ruby>轻<rt class=\"t1\">qīng</rt></ruby><ruby>人<rt class=\"t2\">rén</rt></ruby><ruby>选<rt class=\"t3\">xuǎn</rt></ruby><ruby>择<rt class=\"t2\">zé</rt></ruby><ruby>先<rt class=\"t1\">xiān</rt></ruby><ruby>同<rt class=\"t2\">tóng</rt></ruby><ruby>居<rt class=\"t1\">jū</rt></ruby><ruby>再<rt class=\"t4\">zài</rt></ruby><ruby>考<rt class=\"t3\">kǎo</rt></ruby><ruby>虑<rt class=\"t4\">lǜ</rt></ruby><ruby>婚<rt class=\"t1\">hūn</rt></ruby><ruby>姻<rt class=\"t1\">yīn</rt></ruby>。 - Beaucoup de jeunes choisissent de cohabiter avant d'envisager le mariage.<br>非婚同居在中国越来越普遍  La cohabitation hors mariage est de plus en plus répandue en Chine.",
+    "nouveau": "<ruby>在<rt class=\"t4\">zài</rt></ruby><ruby>一<rt class=\"t4\">yì</rt></ruby><ruby>些<rt class=\"t1\">xiē</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>家<rt class=\"t1\">jiā</rt></ruby>，<ruby>合<rt class=\"t2\">hé</rt></ruby><ruby>法<rt class=\"t3\">fǎ</rt></ruby><ruby>同<rt class=\"t2\">tóng</rt></ruby><ruby>居<rt class=\"t1\">jū</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>伴<rt class=\"t4\">bàn</rt></ruby><ruby>侣<rt class=\"t3\">lǚ</rt></ruby><ruby>享<rt class=\"t3\">xiǎng</rt></ruby><ruby>有<rt class=\"t3\">yǒu</rt></ruby><ruby>和<rt class=\"t2\">hé</rt></ruby><ruby>夫<rt class=\"t1\">fū</rt></ruby><ruby>妻<rt class=\"t1\">qī</rt></ruby><ruby>相<rt class=\"t1\">xiāng</rt></ruby><ruby>似<rt class=\"t4\">sì</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>权<rt class=\"t2\">quán</rt></ruby><ruby>利<rt class=\"t4\">lì</rt></ruby>。 - Dans certains pays, les couples en concubinage légal ont des droits proches de ceux des époux."
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (deux phrases avec 同居 seul, la 2e sans pinyin ni tiret) remplacé par une phrase avec 合法同居."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "她两岁",
+  "remplacements": [
+   {
+    "ancien": "<ruby>我<rt class=\"t3\">wǒ</rt></ruby><ruby>女<rt class=\"t3\">nǚ</rt></ruby><ruby>儿<rt class=\"t2\">ér</rt></ruby><ruby>今<rt class=\"t1\">jīn</rt></ruby><ruby>年<rt class=\"t2\">nián</rt></ruby><ruby>两<rt class=\"t3\">liǎng</rt></ruby><ruby>岁<rt class=\"t4\">suì</rt></ruby><ruby>了<rt class=\"t0\">le</rt></ruby>。 - Ma fille a deux ans cette année.",
+    "nouveau": "<ruby>她<rt class=\"t1\">tā</rt></ruby><ruby>两<rt class=\"t3\">liǎng</rt></ruby><ruby>岁<rt class=\"t4\">suì</rt></ruby><ruby>了<rt class=\"t0\">le</rt></ruby>，<ruby>已<rt class=\"t3\">yǐ</rt></ruby><ruby>经<rt class=\"t1\">jīng</rt></ruby><ruby>会<rt class=\"t4\">huì</rt></ruby><ruby>走<rt class=\"t3\">zǒu</rt></ruby><ruby>路<rt class=\"t4\">lù</rt></ruby><ruby>了<rt class=\"t0\">le</rt></ruby>。 - Elle a deux ans, elle sait déjà marcher."
+   }
+  ],
+  "retirer": false,
+  "note": "Phrase d'exemple remplacée par une phrase avec 她两岁 (la ligne 岁 est gardée)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "蒸笼",
+  "remplacements": [
+   {
+    "ancien": "<ruby>一<rt class=\"t4\">yì</rt></ruby><ruby>笼<rt class=\"t2\">lóng</rt></ruby><ruby>热<rt class=\"t4\">rè</rt></ruby><ruby>腾<rt class=\"t2\">téng</rt></ruby><ruby>腾<rt class=\"t2\">téng</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>小<rt class=\"t3\">xiǎo</rt></ruby><ruby>笼<rt class=\"t2\">lóng</rt></ruby><ruby>包<rt class=\"t1\">bāo</rt></ruby><ruby>摆<rt class=\"t3\">bǎi</rt></ruby><ruby>在<rt class=\"t4\">zài</rt></ruby><ruby>桌<rt class=\"t1\">zhuō</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby>，<ruby>香<rt class=\"t1\">xiāng</rt></ruby><ruby>气<rt class=\"t4\">qì</rt></ruby><ruby>四<rt class=\"t4\">sì</rt></ruby><ruby>溢<rt class=\"t4\">yì</rt></ruby>。 - Un panier de xiaolongbao fumants est posé sur la table — le parfum se répand dans toute la pièce.",
+    "nouveau": "<ruby>把<rt class=\"t3\">bǎ</rt></ruby><ruby>包<rt class=\"t1\">bāo</rt></ruby><ruby>子<rt class=\"t0\">zi</rt></ruby><ruby>放<rt class=\"t4\">fàng</rt></ruby><ruby>进<rt class=\"t4\">jìn</rt></ruby><ruby>蒸<rt class=\"t1\">zhēng</rt></ruby><ruby>笼<rt class=\"t2\">lóng</rt></ruby><ruby>里<rt class=\"t3\">lǐ</rt></ruby><ruby>蒸<rt class=\"t1\">zhēng</rt></ruby><ruby>十<rt class=\"t2\">shí</rt></ruby><ruby>分<rt class=\"t1\">fēn</rt></ruby><ruby>钟<rt class=\"t1\">zhōng</rt></ruby>。 - Mettez les baozi dans le panier vapeur et faites-les cuire dix minutes."
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (小笼包 seulement) remplacé par une phrase avec 蒸笼. À signaler : la fin du verso de cette note a des guillemets doublés (class=\"\"...\"\") et un \" parasite, reste d'un import CSV, non corrigés ici."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "四六级",
+  "remplacements": [
+   {
+    "ancien": "<ruby>很<rt class=\"t3\">hěn</rt></ruby><ruby>多<rt class=\"t1\">duō</rt></ruby><ruby>公<rt class=\"t1\">gōng</rt></ruby><ruby>司<rt class=\"t1\">sī</rt></ruby><ruby>在<rt class=\"t4\">zài</rt></ruby><ruby>招<rt class=\"t1\">zhāo</rt></ruby><ruby>聘<rt class=\"t4\">pìn</rt></ruby><ruby>时<rt class=\"t2\">shí</rt></ruby><ruby>要<rt class=\"t1\">yāo</rt></ruby><ruby>求<rt class=\"t2\">qiú</rt></ruby><ruby>有<rt class=\"t3\">yǒu</rt></ruby><ruby>六<rt class=\"t4\">liù</rt></ruby><ruby>级<rt class=\"t2\">jí</rt></ruby><ruby>证<rt class=\"t4\">zhèng</rt></ruby><ruby>书<rt class=\"t1\">shū</rt></ruby> - de nombreuses entreprises exigent le CET-6 lors du recrutement",
+    "nouveau": "<ruby>很<rt class=\"t3\">hěn</rt></ruby><ruby>多<rt class=\"t1\">duō</rt></ruby><ruby>大<rt class=\"t4\">dà</rt></ruby><ruby>学<rt class=\"t2\">xué</rt></ruby><ruby>生<rt class=\"t1\">shēng</rt></ruby><ruby>都<rt class=\"t1\">dōu</rt></ruby><ruby>在<rt class=\"t4\">zài</rt></ruby><ruby>准<rt class=\"t3\">zhǔn</rt></ruby><ruby>备<rt class=\"t4\">bèi</rt></ruby><ruby>四<rt class=\"t4\">sì</rt></ruby><ruby>六<rt class=\"t4\">liù</rt></ruby><ruby>级<rt class=\"t2\">jí</rt></ruby><ruby>考<rt class=\"t3\">kǎo</rt></ruby><ruby>试<rt class=\"t4\">shì</rt></ruby> - beaucoup d'étudiants préparent les examens CET-4 et CET-6"
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (六级 seul) remplacé par une phrase avec 四六级."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "躺平族",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"hanzi-trad\">génération « allongée » — jeunes qui renoncent à la compétition sociale</span>",
+    "nouveau": "<span class=\"hanzi-trad\">躺平族</span>"
+   },
+   {
+    "ancien": "<b>Exemple :</b>génération « allongée » — jeunes qui renoncent à la compétition sociale<ruby>的",
+    "nouveau": "<b>Exemple :</b><ruby>躺<rt class=\"t3\">tǎng</rt></ruby><ruby>平<rt class=\"t2\">píng</rt></ruby><ruby>族<rt class=\"t2\">zú</rt></ruby><ruby>的"
+   }
+  ],
+  "retirer": false,
+  "note": "Le mot 躺平族 avait été remplacé par sa traduction française dans l'exemple et dans la forme traditionnelle : remis en caractères (même phrase)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "十二生肖",
+  "remplacements": [
+   {
+    "ancien": "<ruby>根<rt class=\"t1\">gēn</rt></ruby><ruby>据<rt class=\"t4\">jù</rt></ruby><ruby>生",
+    "nouveau": "<ruby>根<rt class=\"t1\">gēn</rt></ruby><ruby>据<rt class=\"t4\">jù</rt></ruby><ruby>十<rt class=\"t2\">shí</rt></ruby><ruby>二<rt class=\"t4\">èr</rt></ruby><ruby>生"
+   }
+  ],
+  "retirer": false,
+  "note": "十二 ajouté devant 生肖 dans l'exemple (根据十二生肖), traduction inchangée."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "明月几时有",
+  "remplacements": [
+   {
+    "ancien": "<ruby>但<rt class=\"t4\">dàn</rt></ruby><ruby>愿<rt class=\"t4\">yuàn</rt></ruby><ruby>人<rt class=\"t2\">rén</rt></ruby><ruby>长<rt class=\"t2\">cháng</rt></ruby><ruby>久<rt class=\"t3\">jiǔ</rt></ruby><ruby>，<rt class=\"t0\"></rt></ruby><ruby>千<rt class=\"t1\">qiān</rt></ruby><ruby>里<rt class=\"t3\">lǐ</rt></ruby><ruby>共<rt class=\"t4\">gòng</rt></ruby><ruby>婵<rt class=\"t2\">chán</rt></ruby><ruby>娟<rt class=\"t1\">juān</rt></ruby>。 - Puissions-nous durer longtemps et partager de loin cette belle lune. (Su Shi)",
+    "nouveau": "<ruby>明<rt class=\"t2\">míng</rt></ruby><ruby>月<rt class=\"t4\">yuè</rt></ruby><ruby>几<rt class=\"t3\">jǐ</rt></ruby><ruby>时<rt class=\"t2\">shí</rt></ruby><ruby>有<rt class=\"t3\">yǒu</rt></ruby>，<ruby>把<rt class=\"t3\">bǎ</rt></ruby><ruby>酒<rt class=\"t3\">jiǔ</rt></ruby><ruby>问<rt class=\"t4\">wèn</rt></ruby><ruby>青<rt class=\"t1\">qīng</rt></ruby><ruby>天<rt class=\"t1\">tiān</rt></ruby>。 - Quand la lune brillante est-elle apparue ? Coupe en main, j'interroge le ciel bleu. (Su Shi)"
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (autre vers du poème) remplacé par le premier distique, qui contient 明月几时有 ; pinyin avec tons. À signaler : guillemets doublés (class=\"\"...\"\") et \" parasites dans le reste du verso, non corrigés ici."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "烽火连三月",
+  "remplacements": [
+   {
+    "ancien": "<ruby>杜<rt class=\"t4\">dù</rt></ruby><ruby>甫<rt class=\"t3\">fǔ</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>诗<rt class=\"t1\">shī</rt></ruby><ruby>反<rt class=\"t3\">fǎn</rt></ruby><ruby>映<rt class=\"t4\">yìng</rt></ruby><ruby>了<rt class=\"t0\">le</rt></ruby><ruby>安<rt class=\"t1\">ān</rt></ruby><ruby>史<rt class=\"t3\">shǐ</rt></ruby><ruby>之<rt class=\"t1\">zhī</rt></ruby><ruby>乱<rt class=\"t4\">luàn</rt></ruby><ruby>时<rt class=\"t2\">shí</rt></ruby><ruby>百<rt class=\"t3\">bǎi</rt></ruby><ruby>姓<rt class=\"t4\">xìng</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>疾<rt class=\"t2\">jí</rt></ruby><ruby>苦<rt class=\"t3\">kǔ</rt></ruby>。 - Les poèmes de Du Fu reflètent la souffrance du peuple lors de la rébellion d'An Lushan.",
+    "nouveau": "<ruby>烽<rt class=\"t1\">fēng</rt></ruby><ruby>火<rt class=\"t3\">huǒ</rt></ruby><ruby>连<rt class=\"t2\">lián</rt></ruby><ruby>三<rt class=\"t1\">sān</rt></ruby><ruby>月<rt class=\"t4\">yuè</rt></ruby>，<ruby>家<rt class=\"t1\">jiā</rt></ruby><ruby>书<rt class=\"t1\">shū</rt></ruby><ruby>抵<rt class=\"t3\">dǐ</rt></ruby><ruby>万<rt class=\"t4\">wàn</rt></ruby><ruby>金<rt class=\"t1\">jīn</rt></ruby>。 - Les feux de guerre brûlent depuis trois mois ; une lettre de chez soi vaut dix mille pièces d'or. (Du Fu)"
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (phrase sur Du Fu) remplacé par le distique de 春望 qui contient 烽火连三月 ; pinyin avec tons. À signaler : guillemets doublés (class=\"\"...\"\") et \" parasites dans le reste du verso, non corrigés ici."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "床前明月光",
+  "remplacements": [
+   {
+    "ancien": "<ruby>这<rt class=\"t4\">zhè</rt></ruby><ruby>首<rt class=\"t3\">shǒu</rt></ruby><ruby>诗<rt class=\"t1\">shī</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>中<rt class=\"t1\">zhōng</rt></ruby><ruby>国<rt class=\"t2\">guó</rt></ruby><ruby>最<rt class=\"t4\">zuì</rt></ruby><ruby>广<rt class=\"t3\">guǎng</rt></ruby><ruby>为<rt class=\"t2\">wéi</rt></ruby><ruby>人<rt class=\"t2\">rén</rt></ruby><ruby>知<rt class=\"t1\">zhī</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>唐<rt class=\"t2\">táng</rt></ruby><ruby>诗<rt class=\"t1\">shī</rt></ruby>。 - Ce poème est le poème de la dynasty Tang le plus universellement connu de Chine.",
+    "nouveau": "<ruby>床<rt class=\"t2\">chuáng</rt></ruby><ruby>前<rt class=\"t2\">qián</rt></ruby><ruby>明<rt class=\"t2\">míng</rt></ruby><ruby>月<rt class=\"t4\">yuè</rt></ruby><ruby>光<rt class=\"t1\">guāng</rt></ruby>，<ruby>疑<rt class=\"t2\">yí</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>地<rt class=\"t4\">dì</rt></ruby><ruby>上<rt class=\"t4\">shàng</rt></ruby><ruby>霜<rt class=\"t1\">shuāng</rt></ruby>。 - Devant mon lit, la lune brille ; on dirait du givre sur le sol. (Li Bai)"
+   }
+  ],
+  "retirer": false,
+  "note": "Exemple (phrase sur le poème) remplacé par le premier distique de 静夜思, qui contient 床前明月光 ; pinyin avec tons. À signaler : guillemets doublés (class=\"\"...\"\") et \" parasites dans le reste du verso, non corrigés ici."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "绿水青山就是金山银山",
+  "remplacements": [
+   {
+    "ancien": "<b>Exemple :</b><ruby>这",
+    "nouveau": "<b>Exemple :</b>“<ruby>绿<rt class=\"t4\">lǜ</rt></ruby><ruby>水<rt class=\"t3\">shuǐ</rt></ruby><ruby>青<rt class=\"t1\">qīng</rt></ruby><ruby>山<rt class=\"t1\">shān</rt></ruby><ruby>就<rt class=\"t4\">jiù</rt></ruby><ruby>是<rt class=\"t4\">shì</rt></ruby><ruby>金<rt class=\"t1\">jīn</rt></ruby><ruby>山<rt class=\"t1\">shān</rt></ruby><ruby>银<rt class=\"t2\">yín</rt></ruby><ruby>山<rt class=\"t1\">shān</rt></ruby>”<ruby>这"
+   },
+   {
+    "ancien": " - cette idée est devenue",
+    "nouveau": " - l'idée « les eaux vertes et les montagnes bleues sont des montagnes d'or et d'argent » est devenue"
+   }
+  ],
+  "retirer": false,
+  "note": "Le slogan cité en tête de l'exemple (“绿水青山就是金山银山”这一理念…), traduction ajustée."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "首次公开募股",
+  "remplacements": [
+   {
+    "ancien": "IPO<ruby>程",
+    "nouveau": "<ruby>首<rt class=\"t3\">shǒu</rt></ruby><ruby>次<rt class=\"t4\">cì</rt></ruby><ruby>公<rt class=\"t1\">gōng</rt></ruby><ruby>开<rt class=\"t1\">kāi</rt></ruby><ruby>募<rt class=\"t4\">mù</rt></ruby><ruby>股<rt class=\"t3\">gǔ</rt></ruby><ruby>的<rt class=\"t0\">de</rt></ruby><ruby>程"
+   }
+  ],
+  "retirer": false,
+  "note": "IPO remplacé par 首次公开募股的 dans l'exemple (简化了首次公开募股的程序), traduction inchangée."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "东北",
+  "remplacements": [
+   {
+    "ancien": "<b>Notes :</b>Heilongjiang",
+    "nouveau": "<b>Notes :</b>(Heilongjiang"
+   }
+  ],
+  "retirer": false,
+  "note": "Parenthèse ouvrante manquante ajoutée : (Heilongjiang, Jilin, Liaoning). À signaler : la 2e phrase d'exemple est encadrée de \" parasites, non corrigés."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "责任感",
+  "remplacements": [
+   {
+    "ancien": "\"(-<ruby>感",
+    "nouveau": "\"（-<ruby>感"
+   }
+  ],
+  "retirer": false,
+  "note": "( demi-chasse fermée par ） pleine chasse : ouvrante mise en （."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>开",
+  "remplacements": [
+   {
+    "ancien": "ouvrir (magasin, établ",
+    "nouveau": "ouvrir (magasin, établissement)"
+   }
+  ],
+  "retirer": false,
+  "note": "Sens tronqué : mot complété et parenthèse fermée."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>难",
+  "remplacements": [
+   {
+    "ancien": "laid (pour un s<br>",
+    "nouveau": "laid (pour un son)<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Sens tronqué : mot complété et parenthèse fermée."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>食",
+  "remplacements": [
+   {
+    "ancien": "universitaire, d'entr<br>",
+    "nouveau": "universitaire, d'entreprise)<br>"
+   },
+   {
+    "ancien": "mets délicieux ; gastron",
+    "nouveau": "mets délicieux ; gastronomie"
+   }
+  ],
+  "retirer": false,
+  "note": "Sens tronqués : mot complété et parenthèse fermée (食堂) ; « gastron » complété aussi (美食)."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>播",
+  "remplacements": [
+   {
+    "ancien": "(à la télévision, à la<br>",
+    "nouveau": "(à la télévision, à la radio)<br>"
+   },
+   {
+    "ancien": "(par haut-parl<br>",
+    "nouveau": "(par haut-parleur)<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Deux sens tronqués : mots complétés et parenthèses fermées."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>华",
+  "remplacements": [
+   {
+    "ancien": "chinoise, qu<br>",
+    "nouveau": "chinoise, quelle que soit sa nationalité)<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Sens tronqué : complété et parenthèse fermée."
+ },
+ {
+  "paquet": "Ecriture",
+  "recto": "<div style=\"font-size:18px;color:#888\">✍️ Écrivez le caractère</div><div style=\"font-size:30px;margin:6px 0\"><span class=\"t4\">diàn</span></div><div style=\"font-size:20px\">magasin ; boutique</div><div style=\"text-align:left;font-size:22px;margin-top:10px;line-height:1.7\">饭＿ <span class=\"t4\">fàn</span><span class=\"t4\">diàn</span> — restaurant (sens principal en Chine continentale) ; peut aussi désigner un hôtel (usage moins courant, davantage taïwanais<br>商＿ <span class=\"t1\">shāng</span><span class=\"t4\">diàn</span> — magasin / boutique<br>书＿ <span class=\"t1\">shū</span><span class=\"t4\">diàn</span> — librairie</div>",
+  "remplacements": [
+   {
+    "ancien": "davantage taïwanais<br>",
+    "nouveau": "davantage taïwanais)<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Parenthèse fermante ajoutée au verso. Le recto a le même défaut (non touché). Deux notes ont exactement ce recto (doublon) : une entrée par note."
+ },
+ {
+  "paquet": "Ecriture",
+  "recto": "<div style=\"font-size:18px;color:#888\">✍️ Écrivez le caractère</div><div style=\"font-size:30px;margin:6px 0\"><span class=\"t4\">fàn</span></div><div style=\"font-size:20px\">riz cuit ; repas</div><div style=\"text-align:left;font-size:22px;margin-top:10px;line-height:1.7\">米＿ <span class=\"t3\">mǐ</span><span class=\"t4\">fàn</span> — riz cuit<br>＿店 <span class=\"t4\">fàn</span><span class=\"t4\">diàn</span> — restaurant (sens principal en Chine continentale) ; peut aussi désigner un hôtel (usage moins courant, davantage taïwanais<br>做＿ <span class=\"t4\">zuò</span><span class=\"t4\">fàn</span> — cuisiner, préparer un repas</div>",
+  "remplacements": [
+   {
+    "ancien": "davantage taïwanais<br>",
+    "nouveau": "davantage taïwanais)<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Parenthèse fermante ajoutée au verso. Le recto a le même défaut (non touché). Deux notes ont exactement ce recto (doublon) : une entrée par note."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "PM2.5",
+  "remplacements": [
+   {
+    "ancien": "micromètres (PM2.5). < 2,5 micromètres ; indicateur",
+    "nouveau": "micromètres ; indicateur"
+   }
+  ],
+  "retirer": false,
+  "note": "Le sens est présent mais contenait un fragment répété illisible « (PM2.5). < 2,5 micromètres » : supprimé."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">好 (dans 你好)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 3e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>Dans 你好, 好 se lit hǎo (3e ton).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Réponse mise à « 3e ton », lecture hǎo en explication."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">觉 (dans 觉得)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 2e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>Dans 觉得, 觉 se lit jué (2e ton).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Réponse mise à « 2e ton », lecture jué en explication."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">朝 (dans 朝代)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 2e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>Dans 朝代, 朝 se lit cháo (2e ton).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Réponse mise à « 2e ton », lecture cháo en explication."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">还</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 2e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>还 a deux lectures, toutes deux au 2e ton : hái (还有) et huán (还钱).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pas retirée malgré la consigne : les deux lectures ont le même ton, la réponse est donc unique ; réponse mise à « 2e ton ». Mettre retirer: true si on préfère l'enlever quand même."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">乐</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 4e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>乐 a deux lectures, toutes deux au 4e ton : lè (快乐) et yuè (音乐).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pas retirée malgré la consigne : les deux lectures ont le même ton, la réponse est donc unique ; réponse mise à « 4e ton ». Mettre retirer: true si on préfère l'enlever quand même."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">省</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 3e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>省 a deux lectures, toutes deux au 3e ton : shěng (省钱) et xǐng (反省).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pas retirée malgré la consigne : les deux lectures ont le même ton, la réponse est donc unique ; réponse mise à « 3e ton ». Mettre retirer: true si on préfère l'enlever quand même."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">露</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : ça dépend du mot (caractère à plusieurs lectures)</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>",
+    "nouveau": "<b>Réponse : 4e ton</b><br><br><div class=\"exemple-bloc\"><b>Explication :</b><br>露 a deux lectures, toutes deux au 4e ton : lù (暴露) et lòu (露馅儿).<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pas retirée malgré la consigne : les deux lectures ont le même ton, la réponse est donc unique ; réponse mise à « 4e ton ». Mettre retirer: true si on préfère l'enlever quand même."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "澳门",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t4\">Ào</span><span class=\"t2\">mén</span><span class=\"t2\"></span>",
+    "nouveau": "<span class=\"t4\">Ào</span><span class=\"t2\">mén</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pinyin : span vide supprimé (澳 : 4e ton, t4)."
+ },
+ {
+  "paquet": "Vocabulaire",
+  "recto": "985院校",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t0\">9</span><span class=\"t0\">8</span><span class=\"t0\">5</span><span class=\"t4\">yuàn</span><span class=\"t4\">jiào</span>",
+    "nouveau": "<span class=\"t3\">jiǔ</span><span class=\"t1\">bā</span><span class=\"t3\">wǔ</span><span class=\"t4\">yuàn</span><span class=\"t4\">xiào</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "Pinyin : 985 lu jiǔ bā wǔ (au lieu des chiffres) et 院校 = yuàn xiào (et non jiào)."
+ }
+]

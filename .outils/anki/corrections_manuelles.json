@@ -121,6 +121,39 @@
    "champ": "VERSO",
    "ancien": "mosquee",
    "nouveau": "mosquée"
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "f8a8f08b22a43e6c",
+   "apercu": "饭店",
+   "id": "manuel-2026-09-27",
+   "gravite": "mineur",
+   "probleme": "Parenthèse du sens fermée dans la note (vu sur la carte d'écriture de 店) : fermée dans le sens.",
+   "champ": "VERSO",
+   "ancien": "davantage taïwanais",
+   "nouveau": "davantage taïwanais)"
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "f8a8f08b22a43e6c",
+   "apercu": "饭店",
+   "id": "manuel-2026-09-27",
+   "gravite": "mineur",
+   "probleme": "Parenthèse fermante en trop dans la note (elle appartient au sens).",
+   "champ": "VERSO",
+   "ancien": "pour \"hôtel\")",
+   "nouveau": "pour « hôtel »"
+  },
+  {
+   "paquet": "Vocabulaire",
+   "cle": "28a6bb88d2be1c66",
+   "apercu": "早产儿",
+   "id": "manuel-2026-09-27",
+   "gravite": "mineur",
+   "probleme": "Mot tronqué.",
+   "champ": "VERSO",
+   "ancien": "couveuse / incubateu",
+   "nouveau": "couveuse / incubateur"
   }
  ]
 }

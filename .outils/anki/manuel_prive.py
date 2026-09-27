@@ -105,8 +105,9 @@ def notes_lecon(d):
         for g in d.get(cle, []):
             titre = " ".join(x for x in (g.get("numero", ""), g.get("titre", "")) if x).strip()
             expl = str(g.get("explication", ""))
-            if len(expl) > 600:
-                expl = expl[:600].rsplit(" ", 1)[0] + " […]"
+            if len(expl) > 900:  # explication très longue : coupée à la fin d'une phrase
+                coupe = max(expl.rfind(". ", 0, 900), expl.rfind("。", 0, 900))
+                expl = expl[:coupe + 1] + " […]" if coupe > 300 else expl
             for ex in g.get("exemples", []):
                 zh = str(ex.get("zh", "")).strip()
                 if len(CJK.findall(zh)) < 4 or not str(ex.get("fr", "")).strip():  # pas les mots isolés d'un tableau
@@ -118,12 +119,21 @@ def notes_lecon(d):
                          f'<div class="exemple-bloc" style="text-align:left"><b>{_t(titre)}</b><br>{_t(expl)}</div>')
                 out.append(("Grammaire", [recto, verso, _etiquettes(lecon, f"manuel_{rubrique}")]))
     for x in d.get("exercices", []):
-        if re.search(r"[ÉéE]coutez|enregistrement", str(x.get("consigne", ""))):
+        if re.search(r"[ÉéE]coutez|enregistrement|entendez", str(x.get("consigne", ""))):
             continue  # exercices d'écoute : sans l'enregistrement, la carte n'a pas de sens
+        dictee = str(x.get("consigne", "")).startswith("Dictée")
         for k, it in enumerate(x.get("items", []), 1):
             rep = str(it.get("reponse", "")).strip()
             enonce = str(it.get("enonce", "")).strip()
             if not rep or not enonce or x.get("type") == "reponse_libre":
+                continue
+            if dictee:  # dictée : la phrase se fait entendre au recto (audio HyperTTS), on l'écrit en caractères
+                texte = _t(rep)
+                recto = (f'<div class="ecoute-label">{lib} · manuel · dictée {_t(x.get("numero", ""))}.{k} : '
+                         f'écrivez la phrase en caractères</div><div class="ecoute-audio">🔊</div>'
+                         f'<div class="ecoute-texte">{texte}</div>')
+                verso = f'<div class="ecoute-reveal">{texte}</div><br>{_bloc_traduction([rep], [])}'
+                out.append(("Ecoute", [recto, verso, _etiquettes(lecon, "manuel_dictee")]))
                 continue
             quelle = "révision" if x.get("partie") == "revision" else "exercice"
             recto = (f"<small>Manuel · {lib} · {quelle} {_t(x.get('numero', ''))}.{k}</small><br><br>"
@@ -254,6 +264,8 @@ def main():
                 audio, tts = "", "tts::aucun"
             else:
                 audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
+                if "manuel_dictee" in n[2]:
+                    tts = "tts::phrase"
                 reponse = n[1].split("<br>")[0]
                 if genre == "Exercices" and re.search(r"[a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]{2,}", nu(reponse)):
                     # réponse en pinyin ou en français : on fait entendre le chinois de l'énoncé, pas la réponse

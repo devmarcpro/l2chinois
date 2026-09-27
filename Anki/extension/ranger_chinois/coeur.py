@@ -369,7 +369,7 @@ def preparer_audio(col, journal):
         col.update_notes(maj)
     col.set_config("ranger_chinois_audio", VERSION_AUDIO)
     journal.append(f"Audio : {doublons} notes avec le même audio en double (un seul gardé), {effaces} audios faits en "
-                   "lisant le recto effacés (à refaire avec HyperTTS depuis « Texte audio »).")
+                   "lisant le recto effacés (refaits depuis « Texte audio » par « Chinois : ajouter l'audio »).")
 
 
 def _textes_audio(col):
@@ -444,7 +444,7 @@ def importer(col, dossier, journal):
     audio_perime(col, avant, journal)
     n = len(col.find_notes(RECHERCHE_SANS_AUDIO))
     if n:
-        journal.append(f"Audio à faire avec HyperTTS : {n} notes (Outils > « Chinois : notes sans audio »).")
+        journal.append(f"Audio à faire : {n} notes (Outils > « Chinois : ajouter l'audio (Google Traduction) »).")
 
 
 def mettre_en_place(col, dossier, journal, supprimer=True):

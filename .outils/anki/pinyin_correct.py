@@ -102,7 +102,7 @@ def dans(c: str, ensemble) -> bool:
 
 
 def ton(s: str) -> int:
-    return next((TON[c] for c in s if c in TON), 0)
+    return next((TON[c] for c in s.lower() if c in TON), 0)  # « Àomén » : majuscule accentuée comprise
 
 
 def base(s: str) -> str:
