@@ -142,7 +142,14 @@ def ecrire(nom, rangs, paquet, rangement=None):
         f.write("#separator:tab\n#html:true\n#tags column:3\n#deck column:4\n")
         if rangement:  # dans l'ordre d'apprentissage : les notes nouvelles s'importent à leur place
             rangs = sorted(rangs, key=lambda r: rangement[(paquet, r[0])][1])
-        rangs = [[r[0], r[1], r[3], rangement[(paquet, r[0])][0] if rangement else sous_paquet(paquet, r)] for r in rangs]
+        # 5e colonne : le seul texte que HyperTTS doit lire (champ « Texte audio », voir audio.py), étiquette tts::…
+        from audio import texte_audio
+        lignes = []
+        for r in rangs:
+            texte, genre = ("", "") if "a_supprimer" in r[3].split() else texte_audio(paquet, r[0], r[1], r[3])
+            tags = " ".join([t for t in r[3].split() if not t.startswith("tts::")] + ([genre] if genre else []))
+            lignes.append([r[0], r[1], tags, rangement[(paquet, r[0])][0] if rangement else sous_paquet(paquet, r), texte])
+        rangs = lignes
         csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
 
 

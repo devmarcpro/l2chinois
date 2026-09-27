@@ -14,13 +14,15 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
       Chinois::3 · Apres le manuel::1 · HSK 4, 2 · HSK 5, 3 · HSK 6, 4 · HSK 7-9, 5 · Hors HSK
       Chinois::9 · A supprimer   (anciennes versions de cartes deja remplacees : a supprimer)
 - Chaque lecon MELANGE tous les types : mots, fiches de grammaire, phrases, exercices, textes a lire et a
-  ecouter, caracteres a ecrire. Ordre d'apprentissage dans la lecon :
-    * pour chaque point de grammaire : les mots necessaires, sa carte "Comprendre" (puis "Utiliser" le
-      lendemain), puis deux de ses exercices ;
-    * ensuite, a chaque pas, la phrase ou l'exercice qui demande le moins de mots nouveaux, precede de ces mots ;
-    * les caracteres a ecrire apres le premier mot qui les contient, repartis sur toute la lecon ;
-    * les textes en fin de lecon.
-  Une carte n'arrive jamais avant les mots qu'elle contient (noms propres et nombres mis a part).
+  ecouter, caracteres a ecrire. Ordre d'apprentissage dans la lecon (depuis le 27/09) :
+    * chaque famille (mots, grammaire, phrases, exercices, ecriture) est repartie regulierement sur TOUTE la
+      lecon : jamais trois cartes de la meme famille d'affilee, jamais deux exercices du meme genre de suite
+      quand un autre est possible ; les textes (lecture, ecoute) sont repartis sur la seconde moitie ;
+    * une carte n'arrive jamais avant les mots qu'elle contient (noms propres et nombres mis a part), un
+      exercice jamais avant la fiche de sa structure, un caractere a ecrire jamais avant le premier mot qui
+      le contient ;
+    * les cartes tirees du manuel (dossier prive, voir plus bas) s'intercalent de la meme facon.
+  Les caracteres a ecrire sont ceux des tableaux de caracteres nouveaux du manuel, a leur lecon.
 - Ce qui va dans une lecon :
     * les mots du manuel : a la lecon ou le manuel les introduit, d'apres les index lexicaux des deux volumes
       (premier niveau : premiere apparition, a l'oral ou a l'ecrit ; deuxieme niveau : index des mots et
@@ -50,6 +52,23 @@ ORGANISATION : L'ORDRE DU MANUEL DE LA FAC (depuis le 27/09/2026)
 - Pour le calcul : .outils/anki/manuel.py ; repartition dans donnees_hsk/manuel.json ; exercices et textes
   dans donnees_hsk/manuel_contenu.json.
 
+CARTES TIREES DU MANUEL (dossier Anki/prive, sur ton ordinateur seulement ; depuis le 27/09/2026)
+- Les deux volumes de la "Methode de chinois" (PDF dans Anki/) ont ete lus page par page et transcrits dans
+  Anki/prive/manuel/<lecon>.json : vocabulaire, caracteres nouveaux, textes et dialogues, grammaire,
+  lexicologie, expressions et phrases types, exercices avec leurs reponses (corriges du livre au 1er niveau ;
+  au 2e niveau, qui n'a pas de corrige, reponses trouvees puis verifiees une seconde fois, marquees "reponse
+  proposee" ; "Par exemple :" quand plusieurs reponses sont justes ; les exercices d'ecoute sans texte imprime
+  sont laisses de cote).
+- .outils/anki/manuel_prive.py en fait 4 fichiers dans Anki/prive (Chinois__Manuel_Textes, _Ecoute,
+  _Grammaire, _Exercices) et un RANGEMENT.tsv prive ; le module les importe avec les autres, dans la lecon du
+  manuel, intercales entre les cartes publiques (jamais avant les mots qu'elles emploient). Environ 6 000 notes :
+  2 500 exemples de grammaire, lexicologie et phrases types ("Que veut dire cette phrase ?", traduction
+  proposee quand le livre n'en donne pas), 3 300 items d'exercices, 93 dialogues a ecouter, 75 textes.
+- Les textes longs ne sont pas recopies : la carte demande de les relire (ou reecouter, piste du CD) dans le
+  livre et de les raconter en chinois ; son verso donne un resume et les mots cles.
+- Ce dossier est exclu de git (.gitignore) : rien n'en part sur GitHub (droits d'auteur). Apres une nouvelle
+  version du vocabulaire public, relancer   python .outils/anki/manuel_prive.py   avant "tout mettre en place".
+
 FICHES DE GRAMMAIRE : DES CARTES A QUESTIONS (depuis le 27/09/2026)
 - Une fiche n'est plus une carte "a lire" (un titre au recto, l'explication au verso) : chaque fiche donne deux
   cartes ou il y a une reponse a trouver (type de note "Chinois (grammaire)") :
@@ -76,7 +95,7 @@ METTRE EN PLACE OU A JOUR : EN UN CLIC
     * supprime le paquet "9 · A supprimer".
    La progression des cartes deja revisees est gardee. Le changement de type de note oblige, a la synchronisation
    suivante, a choisir "Envoyer vers AnkiWeb" (synchroniser d'abord le telephone si on y a revise entre-temps).
-3. Generer avec HyperTTS l'audio des nouvelles phrases et des nouveaux dialogues (champ "Ajouter le verso" vide).
+3. Audio : Outils > "Chinois : notes sans audio (HyperTTS)", tout selectionner, HyperTTS (voir AUDIO plus bas).
 Pour chaque nouvelle version des fichiers : reinstaller le module s'il a change, puis relancer Outils > "Chinois :
 tout mettre en place ou a jour" (ce qui est deja en place ne bouge pas). "Chinois : importer les fichiers et
 ranger" fait la meme chose sans sauvegarde, sans reglages et sans supprimer "9 · A supprimer".
@@ -270,11 +289,35 @@ CARTES REMPLACEES ET CARTES A SUPPRIMER (etiquette a_supprimer)
 - Apres l'import : Parcourir > chercher   tag:a_supprimer   > tout selectionner > Notes > Supprimer.
 
 IMPORTER DANS ANKI (ordinateur)
-Chaque fichier a 4 colonnes : 1 = Recto, 2 = Verso, 3 = etiquettes, 4 = sous-paquet. A l'import, seuls les
-champs Recto et Verso recoivent une colonne : le 3e champ d'un type de note (ex. "Ajouter le verso", ou tu
-mets l'audio HyperTTS) n'a pas de colonne en face et la mise a jour le laisse intact. (Jusqu'au 26/09 au
-soir, les fichiers avaient une 3e colonne vide : si elle etait associee a "Ajouter le verso", une mise a
-jour aurait efface l'audio de ce champ. Avec les fichiers actuels, ce n'est plus possible.)
+Chaque fichier a 5 colonnes : 1 = Recto, 2 = Verso, 3 = etiquettes, 4 = sous-paquet, 5 = texte audio (le seul
+texte chinois que la carte doit faire entendre). Le module fait la correspondance tout seul ; a la main :
+colonne 1 -> Recto, 2 -> Verso, 5 -> "Texte audio", et RIEN vers "Ajouter le verso" (ou est l'audio HyperTTS :
+la mise a jour doit le laisser intact).
+
+AUDIO (HyperTTS) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis le 27/09)
+- Chaque type de note chinois a un champ "Texte audio" (ajoute par le module ; changement de structure : a la
+  synchronisation suivante, choisir "Envoyer vers AnkiWeb"). Il contient seulement ce qu'il faut entendre,
+  jamais la consigne ni le titre : le mot (vocabulaire), la phrase, le dialogue sans titre ni 男：/女：, le
+  texte de lecture, la BONNE REPONSE d'un exercice (phrase complete), la phrase "comprendre" puis la reponse
+  "utiliser" d'une fiche de grammaire, le caractere a ecrire.
+- L'audio va toujours dans "Ajouter le verso". Il passe au verso (exercices, grammaire, ecriture, lecture,
+  vocabulaire), sauf l'ecoute et la dictee, ou il est au recto (c'est l'exercice).
+- Etiquettes, pour trier les ajouts : tts::mot, tts::phrase, tts::dialogue, tts::texte, tts::reponse,
+  tts::grammaire, tts::caractere (tts::aucun : rien a lire).
+- Preset HyperTTS (un seul suffit) : source = champ "Texte audio" ; cible = "Ajouter le verso", son seul, en
+  REMPLACANT le contenu ; voix chinoise ; aucune regle de texte n'est necessaire. (Un preset par etiquette si
+  tu veux une autre voix ou un autre debit pour les dialogues, par exemple.)
+- Ajout : Outils > "Chinois : notes sans audio (HyperTTS)" ouvre le navigateur sur exactement les notes a
+  traiter (texte audio rempli, "Ajouter le verso" vide) : tout selectionner > HyperTTS > ajout en lot. Une note
+  qui a deja son audio n'y figure pas : jamais deux audios. Pour un seul genre : ajouter tag:tts::dialogue (etc.)
+  a la recherche. Il y a beaucoup de notes (plus de 30 000) : le plus simple est d'avancer lecon par lecon, en
+  ajoutant par exemple   deck:"Chinois::1 · Premier niveau::L05*"   a la recherche (la lecon en cours, puis
+  la suivante).
+- Menage fait une fois par le module : les audios en double (389 mots avaient deux fois le meme fichier) sont
+  ramenes a un seul, et les audios faits jusqu'ici en lisant le recto des exercices, de la grammaire, de
+  l'ecriture et de l'ecoute (consigne, titre, 男：/女： lus a voix haute) sont effaces, a refaire avec le
+  preset ci-dessus. Ensuite, a chaque mise a jour, une note dont le texte audio change perd son ancien audio
+  (elle revient dans "notes sans audio"). Outils > Verifier les medias supprime les fichiers devenus inutiles.
 
 QUEL TYPE DE NOTE ?
 - Vocabulaire : "Basique (carte inversee optionnelle)", celui deja utilise (grands caracteres, carte 2

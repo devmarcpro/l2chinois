@@ -13,7 +13,9 @@ Données : donnees_hsk/manuel.json
   vocabulaire de la compréhension orale) ; les autres mots HSK 1 à 4 sont répartis par thème et par point de
   grammaire ;
 - "grammaire" : titre de fiche -> leçon ou "apres" (leçon où le manuel traite le point, d'après l'index
-  grammatical du premier niveau et le sommaire du deuxième ; sinon rangement par thème).
+  grammatical du premier niveau et le sommaire du deuxième ; sinon rangement par thème) ;
+- "caracteres" : caractère -> leçon où le manuel le donne à écrire (tableaux des caractères nouveaux) : range
+  les cartes du paquet Écriture.
 Les manuels eux-mêmes (PDF) ne sont pas dans le dépôt : rien n'en est recopié ici.
 
 Anki ne change ni le paquet ni la position (ordre des nouvelles cartes) d'une note déjà importée : le fichier
@@ -60,6 +62,8 @@ class Manuel:
         for mot, i in self.voc.items():
             for c in CJK.findall(mot):
                 self.car[c] = min(i, self.car.get(c, INF))
+        # caractère -> leçon où le manuel le donne à écrire (tableaux des caractères nouveaux)
+        self.car_manuel = {c: self.index[l] for c, l in d.get("caracteres", {}).items()}
         self._cache = {}
 
     def paquet(self, i: int) -> str:
@@ -156,12 +160,15 @@ def ranger(paquets):
                 e["mots"] = [w for w, _ in m.mots(re.sub(r"[（(].*?[）)]", "", e["titre"].split(" — ")[0]))]
             elif nom == "Ecriture":
                 e["car"] = _caractere_ecriture(r)
-                lecon = m.car.get(e["car"], INF)
-                bande = re.search(r"ecriture::(\S+)", r[3])
-                bande = bande.group(1) if bande else ""
-                # à écrire dans le manuel : liste d'écriture HSK 1-3, et HSK 4-6 au deuxième niveau seulement
-                if not (bande == "1-3" or (bande == "4-6" and 14 <= lecon < INF)):
-                    lecon = INF
+                if e["car"] in m.car_manuel:  # le manuel le donne à écrire dans cette leçon
+                    lecon = m.car_manuel[e["car"]]
+                else:
+                    lecon = m.car.get(e["car"], INF)
+                    bande = re.search(r"ecriture::(\S+)", r[3])
+                    bande = bande.group(1) if bande else ""
+                    # sinon : liste d'écriture HSK 1-3, et HSK 4-6 au deuxième niveau seulement
+                    if not (bande == "1-3" or (bande == "4-6" and 14 <= lecon < INF)):
+                        lecon = INF
             elif nom in ("Lecture", "Ecoute"):
                 texte = _passage(nom, r)
                 lecon = m.lecon_texte(texte, tolerance=0.08)  # mots clés donnés au verso
@@ -192,10 +199,92 @@ def ranger(paquets):
             paquet = m.paquet(g[1])
         else:
             paquet = "Chinois::3 · Après le manuel::" + APRES[g[1]]
-        for e in ordonner(groupes.get(g, []), rapide=g[0] != "lecon"):
-            rang += 1
+        suite = ordonner(groupes.get(g, []), rapide=g[0] != "lecon")
+        if g[0] == "lecon":
+            suite = entrelacer(suite)
+        for e in suite:
+            rang += PAS_RANG
             resultat[(e["nom"], e["r"][0])] = (paquet, rang)
     return resultat, m, groupes
+
+
+PAS_RANG = 10  # rangs espacés : les cartes privées tirées du manuel (manuel_prive.py) s'intercalent entre eux
+
+
+def _flux(e) -> str:
+    """Famille d'une carte pour le mélange : chaque famille est répartie sur toute la leçon."""
+    if e["texte"]:
+        return "texte"
+    if e["nom"] == "Exercices":
+        return "exercice"
+    return {"Vocabulaire": "mot", "Grammaire": "grammaire", "Ecriture": "ecriture", "Phrases": "phrase"}.get(e["nom"], e["nom"])
+
+
+def _genre(e) -> str:
+    return next((t for t in e["r"][3].split() if t.startswith("exercice_")), e["nom"])
+
+
+def entrelacer(suite):
+    """Mélange les familles (mots, grammaire, phrases, exercices, écriture) sur toute la leçon, sans casser l'ordre
+    d'apprentissage : une carte ne passe jamais avant les mots qu'elle emploie ni un exercice avant sa fiche, et
+    deux exercices du même genre ne se suivent pas si un autre est disponible. À chaque pas, on prend la famille la
+    plus en retard sur sa part de la leçon (répartition régulière), puis dans cette famille l'élément le plus tôt
+    dans l'ordre d'apprentissage ; les textes gardent la fin de la leçon."""
+    n = len(suite)
+    if n < 3:
+        return suite
+    pos = {id(e): i for i, e in enumerate(suite)}
+    mots = {e["mot"]: e for e in suite if e["nom"] == "Vocabulaire"}
+    fiches = {e.get("titre"): e for e in suite if e["nom"] == "Grammaire"}
+    deps = {}
+    for e in suite:
+        d = {id(mots[w]) for w in e["mots"] if w in mots and mots[w] is not e}
+        if e.get("fiche") in fiches:
+            d.add(id(fiches[e["fiche"]]))
+        if e["nom"] == "Ecriture" and e.get("car"):
+            premier = min((m for w, m in mots.items() if e["car"] in w), key=lambda m: pos[id(m)], default=None)
+            if premier is not None:
+                d.add(id(premier))
+        deps[id(e)] = d
+    familles = {}
+    for e in suite:
+        familles.setdefault(_flux(e), []).append(e)
+    total = {f: len(l) for f, l in familles.items()}
+    places = {f: 0 for f in familles}
+    fait, resultat, dernier_genre = set(), [], None
+    debut_textes = n // 2  # textes (lecture, écoute) : dans la seconde moitié de la leçon, répartis
+
+    def retard(f, t):
+        if f == "texte":
+            return (t + 1 - debut_textes) * total[f] / (n - debut_textes) - places[f]
+        return (t + 1) * total[f] / n - places[f]
+
+    while len(resultat) < n:
+        t = len(resultat)
+        choix = None
+        ordre = sorted(familles, key=lambda f: -retard(f, t))
+        if len(resultat) >= 2 and _flux(resultat[-1]) == _flux(resultat[-2]):  # pas trois fois de suite la même famille
+            ordre = [f for f in ordre if f != _flux(resultat[-1])] + [_flux(resultat[-1])]
+        for f in ordre:
+            if f == "texte" and t < debut_textes and len(familles) > 1:
+                continue
+            prets = [e for e in familles[f] if id(e) not in fait and deps[id(e)] <= fait]
+            if not prets:
+                continue
+            prets.sort(key=lambda e: pos[id(e)])
+            if f == "exercice" and dernier_genre:
+                autre = [e for e in prets[:6] if _genre(e) != dernier_genre]
+                prets = autre or prets
+            choix = prets[0]
+            break
+        if choix is None:  # dépendance hors d'atteinte (ne devrait pas arriver) : ordre d'origine
+            choix = next(e for e in suite if id(e) not in fait)
+        fait.add(id(choix))
+        places[_flux(choix)] += 1
+        if choix["nom"] == "Exercices":
+            dernier_genre = _genre(choix)
+        resultat.append(choix)
+    return resultat
 
 
 def ordonner(elements, rapide=False):

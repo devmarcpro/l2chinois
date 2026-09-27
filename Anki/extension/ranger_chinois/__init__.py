@@ -15,7 +15,9 @@ Menu Outils :
 - « Chinois : importer les fichiers et ranger » : la même chose sans sauvegarde, réglages ni suppression ;
 - « Ranger mon chinois (ordre du manuel) » : à relancer après chaque import fait à la main ;
 - « Chinois : appliquer les réglages conseillés » : groupe d'options « Chinois – manuel » (nouvelles cartes
-  prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées).
+  prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées) ;
+- « Chinois : notes sans audio (HyperTTS) » : le navigateur sur les notes à doter d'un audio (champ « Texte audio »
+  rempli, « Ajouter le verso » vide) : tout sélectionner, puis HyperTTS.
 """
 import os
 from collections import defaultdict
@@ -25,8 +27,8 @@ from aqt.operations import CollectionOp
 from aqt.qt import QAction, QFileDialog
 from aqt.utils import askUser, showInfo, showWarning
 
-from .coeur import (GROUPE, NOUVELLES, RACINE, REVISIONS, importer, lire_rangement, mettre_en_place, preparer_types,
-                    ranger, reglages)
+from .coeur import (GROUPE, NOUVELLES, RACINE, RECHERCHE_SANS_AUDIO, REVISIONS, importer, lire_rangement,
+                    mettre_en_place, preparer_types, ranger, reglages)
 
 
 def _config():
@@ -146,8 +148,15 @@ def lancer_import():
     CollectionOp(parent=mw, op=op).success(lambda _: showInfo("\n".join(journal), title="Ranger mon chinois")).run_in_background()
 
 
+def lancer_sans_audio():
+    """Le navigateur sur les notes qui ont un texte à lire et pas encore d'audio : tout sélectionner, puis HyperTTS."""
+    from aqt import dialogs
+    dialogs.open("Browser", mw, search=(RECHERCHE_SANS_AUDIO,))
+
+
 def _menu():
     for titre, fonction in (("Chinois : tout mettre en place ou à jour", lancer_mise_en_place),
+                            ("Chinois : notes sans audio (HyperTTS)", lancer_sans_audio),
                             ("Chinois : importer les fichiers et ranger", lancer_import),
                             ("Ranger mon chinois (ordre du manuel)", lancer_rangement),
                             ("Chinois : appliquer les réglages conseillés", lancer_reglages)):

@@ -8,13 +8,25 @@ GROUPE = "Chinois – manuel"
 NOUVELLES, REVISIONS = 150, 300  # limites du jour à la création du groupe (environ 2 h d'Anki par jour)
 
 
+def _prive(chemin_corrige):
+    """Dossier Anki/prive, voisin de Anki/corrige : cartes tirées du manuel, gardées hors du dépôt public."""
+    import os
+    return os.path.join(os.path.dirname(os.path.abspath(chemin_corrige)), "prive")
+
+
 def lire_rangement(chemin):
+    """RANGEMENT.tsv, plus celui du dossier privé s'il existe."""
+    import os
     plan = {}
-    with open(chemin, encoding="utf-8", newline="") as f:
-        lignes = (l for l in f if not l.startswith("#"))
-        for r in csv.reader(lignes, delimiter="\t", quotechar='"'):
-            if len(r) >= 3 and r[2].isdigit():
-                plan[r[0]] = (r[1], int(r[2]))
+    prive = os.path.join(_prive(os.path.dirname(os.path.abspath(chemin))), "RANGEMENT.tsv")
+    for c in (chemin, prive):
+        if not os.path.exists(c):
+            continue
+        with open(c, encoding="utf-8", newline="") as f:
+            lignes = (l for l in f if not l.startswith("#"))
+            for r in csv.reader(lignes, delimiter="\t", quotechar='"'):
+                if len(r) >= 3 and r[2].isdigit():
+                    plan[r[0]] = (r[1], int(r[2]))
     return plan
 
 
@@ -224,18 +236,123 @@ def preparer_types(col, dossier, journal):
             audio["tmpls"][0]["qfmt"] = q.replace("{{tts zh_CN:Recto}}", "{{Ajouter le verso}}")
             col.models.update_dict(audio)
             journal.append(f"Recto de « {audio['name']} » : l'audio HyperTTS (champ « Ajouter le verso ») remplace la synthèse vocale.")
+    preparer_audio(col, journal)
+
+
+# ---------------------------------------------------------------- audio HyperTTS : un seul audio par note, le bon texte
+AUDIO = "Ajouter le verso"  # champ où HyperTTS met l'audio
+TEXTE_AUDIO = "Texte audio"  # champ importé (5e colonne des fichiers) : le seul texte à lire
+TYPES_CHINOIS = ("Basique (carte inversée optionnelle)", "Chinois Texte", "Chinois (texte)", "Chinois Audio",
+                 "Chinois (ecoute)", "Chinois ecriture", "Chinois (ecriture)", "Chinois (phrase)", "Chinois (grammaire)")
+# types dont l'audio doit passer au verso (au recto, il donnerait la réponse) ; l'écoute et la dictée le jouent au recto
+VERSO_AUDIO = ("Chinois Texte", "Chinois (texte)", "Chinois ecriture", "Chinois (ecriture)", "Chinois (grammaire)")
+# audios faits jusqu'ici en lisant le recto (consigne, titre, 男：) : effacés une fois, à refaire depuis « Texte audio »
+AUDIO_A_REFAIRE = ("Chinois Texte", "Chinois (texte)", "Chinois Audio", "Chinois (ecoute)", "Chinois ecriture",
+                   "Chinois (ecriture)", "Chinois (grammaire)")
+VERSION_AUDIO = 1
+RECHERCHE_SANS_AUDIO = f'deck:Chinois "{AUDIO}:" -"{TEXTE_AUDIO}:"'
+
+
+def preparer_audio(col, journal):
+    """Champ « Texte audio » dans chaque type de note chinois (changement de structure : la synchronisation suivante
+    demandera d'envoyer la collection vers AnkiWeb), audio au verso des exercices, et, une seule fois, ménage des
+    anciens audios : doublons retirés, audios lus sur le recto effacés."""
+    import re
+    ajoutes = []
+    for nom in TYPES_CHINOIS:
+        m = col.models.by_name(nom)
+        if not m:
+            continue
+        change = False
+        if TEXTE_AUDIO not in [f["name"] for f in m["flds"]]:
+            col.mod_schema(check=False)
+            col.models.add_field(m, col.models.new_field(TEXTE_AUDIO))
+            ajoutes.append(nom)
+            change = True
+        if nom in VERSO_AUDIO:
+            for t in m["tmpls"]:
+                if "{{" + AUDIO + "}}" not in t["afmt"]:
+                    t["afmt"] = t["afmt"].rstrip() + "\n{{" + AUDIO + "}}\n"
+                    change = True
+        if change:
+            col.models.update_dict(m)
+    if ajoutes:
+        journal.append(f"Champ « {TEXTE_AUDIO} » ajouté à {len(ajoutes)} types de notes (au prochain synchronisme : "
+                       "« Envoyer vers AnkiWeb »).")
+    if (col.get_config("ranger_chinois_audio", 0) or 0) >= VERSION_AUDIO:
+        return
+    doublons = effaces = 0
+    maj = []
+    for nid in col.find_notes("deck:Chinois"):
+        note = col.get_note(nid)
+        if AUDIO not in note:
+            continue
+        valeur = note[AUDIO]
+        sons = re.findall(r"\[sound:[^\]]+\]", valeur)
+        if not sons:
+            continue
+        if note.note_type()["name"] in AUDIO_A_REFAIRE:
+            note[AUDIO] = ""
+            effaces += 1
+        elif len(sons) != len(set(sons)):
+            vus, garder = set(), []
+            for s in sons:
+                if s not in vus:
+                    vus.add(s)
+                    garder.append(s)
+            note[AUDIO] = " ".join(garder)
+            doublons += 1
+        else:
+            continue
+        maj.append(note)
+    if maj:
+        col.update_notes(maj)
+    col.set_config("ranger_chinois_audio", VERSION_AUDIO)
+    journal.append(f"Audio : {doublons} notes avec le même audio en double (un seul gardé), {effaces} audios faits en "
+                   "lisant le recto effacés (à refaire avec HyperTTS depuis « Texte audio »).")
+
+
+def _textes_audio(col):
+    """{nid: texte audio} des notes du paquet Chinois."""
+    etat = {}
+    for nid in col.find_notes("deck:Chinois"):
+        note = col.get_note(nid)
+        if TEXTE_AUDIO in note:
+            etat[nid] = note[TEXTE_AUDIO]
+    return etat
+
+
+def audio_perime(col, avant, journal):
+    """Après un import : une note dont le texte à lire a changé perd son ancien audio (à refaire)."""
+    maj = []
+    for nid, ancien in avant.items():
+        if not ancien:
+            continue
+        note = col.get_note(nid)
+        if note[TEXTE_AUDIO] != ancien and note[AUDIO]:
+            note[AUDIO] = ""
+            maj.append(note)
+    if maj:
+        col.update_notes(maj)
+        journal.append(f"Audio : {len(maj)} notes dont le texte à lire a changé : ancien audio retiré (à refaire).")
 
 
 def importer(col, dossier, journal):
     """Importe les sept fichiers (mise à jour des notes existantes, sous-paquet lu dans le fichier), avec le type
     de note des notes déjà présentes. Les lignes « a_supprimer » ne sont pas importées : ces anciennes versions
     n'ont rien à faire dans la collection si elles n'y sont plus (le rangement range celles qui y sont encore)."""
+    import glob
     import os
     import tempfile
     from anki.collection import ImportCsvRequest
     from anki.import_export_pb2 import CsvMetadata
-    for paquet in FICHIERS:
-        chemin = os.path.join(dossier, f"Chinois__{paquet}.txt")
+    fichiers = [(p, p, os.path.join(dossier, f"Chinois__{p}.txt")) for p in FICHIERS]
+    # cartes tirées du manuel (dossier privé, hors du dépôt public) : Chinois__Manuel_Textes.txt, _Ecoute, _Exercices…
+    for chemin in sorted(glob.glob(os.path.join(_prive(dossier), "Chinois__Manuel_*.txt"))):
+        genre = os.path.basename(chemin)[len("Chinois__Manuel_"):-4]
+        fichiers.append((f"Manuel · {genre}", "Ecoute" if genre == "Ecoute" else "Exercices", chemin))
+    avant = _textes_audio(col)
+    for libelle, paquet, chemin in fichiers:
         if not os.path.exists(chemin):
             continue
         entetes, rangs = _lire_fichier(chemin)
@@ -244,7 +361,7 @@ def importer(col, dossier, journal):
         if nt is None:
             nt = col.models.by_name("Basique (carte inversée optionnelle)") if paquet == "Vocabulaire" else _type(col, TYPES[paquet])
         if nt is None:
-            journal.append(f"{paquet} : type de note introuvable, fichier non importé.")
+            journal.append(f"{libelle} : type de note introuvable, fichier non importé.")
             continue
         fd, temp = tempfile.mkstemp(suffix=".txt", prefix=f"Chinois__{paquet}_")
         try:
@@ -253,12 +370,21 @@ def importer(col, dossier, journal):
                 csv.writer(f, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator="\n").writerows(rangs)
             md = col.get_csv_metadata(path=temp, delimiter=None)
             md.global_notetype.id = nt["id"]
+            # colonnes : 1 recto, 2 verso, 3 étiquettes, 4 sous-paquet, 5 texte audio ; « Ajouter le verso » (l'audio
+            # HyperTTS) n'a pas de colonne : l'import n'y touche jamais
+            del md.global_notetype.field_columns[:]
+            md.global_notetype.field_columns.extend(
+                {"Recto": 1, "Verso": 2, TEXTE_AUDIO: 5}.get(f["name"], 0) for f in nt["flds"])
             md.dupe_resolution = CsvMetadata.DupeResolution.UPDATE
             log = col.import_csv(ImportCsvRequest(path=temp, metadata=md)).log
         finally:
             os.remove(temp)
-        journal.append(f"{paquet} ({nt['name']}) : {len(log.new)} nouvelles notes, {len(log.updated)} mises à jour"
+        journal.append(f"{libelle} ({nt['name']}) : {len(log.new)} nouvelles notes, {len(log.updated)} mises à jour"
                        + (f", {len(log.conflicting)} en conflit de type" if log.conflicting else ""))
+    audio_perime(col, avant, journal)
+    n = len(col.find_notes(RECHERCHE_SANS_AUDIO))
+    if n:
+        journal.append(f"Audio à faire avec HyperTTS : {n} notes (Outils > « Chinois : notes sans audio »).")
 
 
 def mettre_en_place(col, dossier, journal, supprimer=True):
