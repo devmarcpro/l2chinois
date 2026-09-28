@@ -42,7 +42,26 @@ def _lignes(x):
 
 def _pinyin(zh: str) -> str:
     from contenu_cours import spans_par_mot
-    return spans_par_mot(zh) if CJK.search(zh) else ""
+    if not CJK.search(zh):
+        return ""
+    p = spans_par_mot(zh)
+    if "儿" in zh:  # 儿 : ér quand c'est un mot (儿子), r collé pour le suffixe (一下儿 yíxiàr), comme dans les paquets publics
+        from erhua import _lignes
+        p = _lignes(p, zh)
+    return re.sub(r"\s*\)", ")", re.sub(r"\(\s*", " (", p)).strip()  # « nǐ (de) lǎoshī »
+
+
+# numéro du livre en tête d'un énoncé ou d'un exemple : « 1. », « 2、 », « 8.1.1 », « a.1. », « (7a) »
+NUMERO = re.compile(r"^\s*(?:\d+(?:\.\d+)+\.?\s+|\d+[.)、]\s*|[a-z](?:\.\d+)*[.)]\s+|\(\d+[a-z]?\)\s*)")
+
+
+def _zh_carte(zh: str) -> str:
+    """Phrase chinoise d'un exemple, telle qu'elle va sur la carte : sans le numéro du livre ni les annotations
+    entre parenthèses qui donneraient la réponse (« 派(pài : envoyer) », « （了+啊） ») ; les mots facultatifs
+    entre parenthèses (« 你(的)老师 ») restent."""
+    zh = NUMERO.sub("", zh)
+    zh = re.sub(r"\s*[（(][^（）()]*[A-Za-zÀ-ÿāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ+:：*＊][^（）()]*[）)]", "", zh)
+    return zh.strip()
 
 
 def _libelle(lecon: str) -> str:
@@ -73,6 +92,14 @@ def _tri():
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
 
 
+def _cartes_grammaire():
+    """Relecture des exemples (manuel/cartes_grammaire.json : leçon -> "rubrique|indice du point" -> cartes
+    {e, mode, fr, note}) : l'utilisateur trouvait « débiles ou incomplètes » les cartes faites de tous les exemples
+    (« (réponse) » en guise de traduction, listes d'heures…)."""
+    f = PRIVE / "manuel" / "cartes_grammaire.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 def notes_lecon(d):
     """(genre de fichier, note) pour une leçon transcrite."""
     lecon = d["lecon"]
@@ -81,20 +108,7 @@ def notes_lecon(d):
     for t in d.get("textes", []):
         zh = _lignes(t.get("zh"))
         titre = t.get("titre") or t.get("id") or ""
-        if not zh and t.get("resume"):  # texte long, non recopié : à relire (ou réécouter) dans le livre
-            num = re.sub(r"\D", "", str(t.get("piste") or ""))
-            piste = f" (piste {num})" if num else ""
-            geste = "Réécoutez" if t.get("partie") == "oral" else "Relisez"
-            recto = (f'<small>Manuel · {lib}</small><br><br>{geste} dans le manuel{piste} :<br><br>'
-                     f'<b>{_t(titre)}</b><br><br>Puis racontez-le en chinois avec vos mots.')
-            mots = t.get("mots_cles") or []
-            liste = " · ".join(_t(" ".join(str(m.get(k, "")) for k in ("mot", "hanzi", "pinyin", "sens") if m.get(k)))
-                               if isinstance(m, dict) else _t(m) for m in mots)
-            verso = (f'<div class="exemple-bloc" style="text-align:left"><b>Résumé :</b> {_t(t["resume"])}'
-                     + (f"<br><br><b>Mots clés :</b> {liste}" if liste else "") + "</div>")
-            out.append(("Textes", [recto, verso, _etiquettes(lecon, "manuel_texte_a_relire")]))
-            continue
-        if not zh:
+        if not zh:  # texte long, non recopié (seulement résumé) : « relisez-le dans le livre » n'est pas une carte
             continue
         fr = _lignes(t.get("fr"))
         pin = [_t(p) for p in _lignes(t.get("pinyin"))] if len(_lignes(t.get("pinyin"))) == len(zh) else None
@@ -109,22 +123,27 @@ def notes_lecon(d):
                      f'<div style="text-align:left;font-size:28px;line-height:1.8">{texte}</div>')
             out.append(("Textes", [recto, _bloc_traduction(zh, fr, pin, t.get("fr_propose")),
                                    _etiquettes(lecon, "manuel_texte")]))
+    # exemples de grammaire, de lexicologie et d'expressions : seulement ceux retenus à la relecture
+    # (manuel/cartes_grammaire.json : 2 au plus par point, traduction complète, note sur ce qu'il faut remarquer),
+    # à comprendre (chinois -> français) ou à produire (français -> chinois)
+    retenus = _cartes_grammaire().get(lecon, {})
     for rubrique, cle in (("grammaire", "grammaire"), ("lexicologie", "lexicologie"), ("expressions", "expressions")):
-        for g in d.get(cle, []):
+        for gi, g in enumerate(d.get(cle, [])):
             titre = " ".join(x for x in (g.get("numero", ""), g.get("titre", "")) if x).strip()
-            expl = str(g.get("explication", ""))
-            if len(expl) > 900:  # explication très longue : coupée à la fin d'une phrase
-                coupe = max(expl.rfind(". ", 0, 900), expl.rfind("。", 0, 900))
-                expl = expl[:coupe + 1] + " […]" if coupe > 300 else expl
-            for ex in g.get("exemples", []):
-                zh = str(ex.get("zh", "")).strip()
-                if len(CJK.findall(zh)) < 4 or not str(ex.get("fr", "")).strip():  # pas les mots isolés d'un tableau
-                    continue
-                recto = (f'<small>Manuel · {lib} · {rubrique}</small><br><br>Que veut dire cette phrase ?<br><br>'
-                         f'<span style="font-size:130%">{_t(zh)}</span>')
-                propose = " <small>(traduction proposée)</small>" if ex.get("fr_propose") else ""
-                verso = (f"{_pinyin(zh)}<br><i>{_t(ex['fr'])}</i>{propose}<br><br>"
-                         f'<div class="exemple-bloc" style="text-align:left"><b>{_t(titre)}</b><br>{_t(expl)}</div>')
+            titre = re.sub(r"\s*\[[^\]]*\]", "", titre).strip(" :")  # remarques de transcription (« [titre effacé…] »)
+            if not re.search(r"[A-Za-zÀ-ÿ一-鿿]", titre):
+                titre = rubrique.capitalize()
+            for c in retenus.get(f"{cle}|{gi}", []):
+                zh = _zh_carte(str(g["exemples"][c["e"]].get("zh", "")))
+                bloc = f'<div class="exemple-bloc" style="text-align:left"><b>{_t(titre)}</b><br>{_t(c["note"])}</div>'
+                if c["mode"] == "produire":
+                    recto = (f'<small>Manuel · {lib} · {rubrique}</small><br><br>Dites en chinois :<br><br>'
+                             f'<span style="font-size:130%">{_t(c["fr"])}</span>')
+                    verso = f'<span style="font-size:130%">{_t(zh)}</span><br>{_pinyin(zh)}<br><br>{bloc}'
+                else:
+                    recto = (f'<small>Manuel · {lib} · {rubrique}</small><br><br>Que veut dire cette phrase ?<br><br>'
+                             f'<span style="font-size:130%">{_t(zh)}</span>')
+                    verso = f"{_pinyin(zh)}<br><i>{_t(c['fr'])}</i><br><br>{bloc}"
                 out.append(("Grammaire", [recto, verso, _etiquettes(lecon, f"manuel_{rubrique}")]))
     tri = _tri().get(lecon, {})
     for j, x in enumerate(d.get("exercices", [])):
@@ -137,7 +156,8 @@ def notes_lecon(d):
         dictee = str(x.get("consigne", "")).startswith("Dictée")
         for k, it in enumerate(x.get("items", []), 1):
             rep = str(it.get("reponse", "")).strip()
-            enonce = str(it.get("enonce", "")).strip()
+            brut = str(it.get("enonce", "")).strip()
+            enonce = NUMERO.sub("", brut).strip() or brut  # le numéro du livre est déjà dans le titre
             if not rep or not enonce or x.get("type") == "reponse_libre" or (gardes is not None and k not in gardes):
                 continue
             if dictee:  # dictée : la phrase se fait entendre au recto (audio HyperTTS), on l'écrit en caractères
@@ -273,19 +293,16 @@ def main():
         for k, x in enumerate(restant):  # ce qui reste (mots vus en toute fin de leçon) : juste après
             places.append((x, dernier_rang + 1 + min(k, 8)))
         for (genre, n, _, _), rang in places:
-            if "manuel_texte_a_relire" in n[2]:
-                audio, tts = "", "tts::aucun"
-            else:
-                audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
-                if "manuel_dictee" in n[2]:
-                    tts = "tts::phrase"
-                reponse = n[1].split("<br>")[0]
-                if genre == "Exercices" and re.search(r"[a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]{2,}", nu(reponse)):
-                    # réponse en pinyin ou en français : on fait entendre le chinois de l'énoncé, pas la réponse
-                    enonce = n[0].split("<br><br>")[-1]
-                    zh = "".join(re.findall(r"[一-鿿，。！？、；：]+", nu(enonce)))
-                    if len(re.findall(r"[一-鿿]", zh)) >= 1:
-                        audio, tts = zh.strip("，、；："), "tts::reponse"
+            audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
+            if "manuel_dictee" in n[2] or genre == "Grammaire":
+                tts = "tts::phrase"
+            reponse = n[1].split("<br>")[0]
+            if genre == "Exercices" and re.search(r"[a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]{2,}", nu(reponse)):
+                # réponse en pinyin ou en français : on fait entendre le chinois de l'énoncé, pas la réponse
+                enonce = n[0].split("<br><br>")[-1]
+                zh = "".join(re.findall(r"[一-鿿，。！？、；：]+", nu(enonce)))
+                if len(re.findall(r"[一-鿿]", zh)) >= 1:
+                    audio, tts = zh.strip("，、；："), "tts::reponse"
             fichiers[genre].append([n[0], n[1], n[2] + " " + tts, paquet, audio])
             rangement.append((n[0], paquet, rang))
     # rectos disparus depuis la dernière version : gardés avec a_supprimer

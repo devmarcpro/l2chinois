@@ -69,17 +69,25 @@ CARTES TIREES DU MANUEL (dossier Anki/prive, sur ton ordinateur seulement ; depu
   sont laisses de cote).
 - .outils/anki/manuel_prive.py en fait 4 fichiers dans Anki/prive (Chinois__Manuel_Textes, _Ecoute,
   _Grammaire, _Exercices) et un RANGEMENT.tsv prive ; le module les importe avec les autres, dans la lecon du
-  manuel, intercales entre les cartes publiques (jamais avant les mots qu'elles emploient). Environ 6 000 notes :
-  2 500 exemples de grammaire, lexicologie et phrases types ("Que veut dire cette phrase ?", traduction
-  proposee quand le livre n'en donne pas), 3 300 items d'exercices, 93 dialogues a ecouter, 75 textes.
-- Exercices tries le 27/09 (trop nombreux, beaucoup inutiles sur une carte) : 937 items gardes sur 3 300
-  (20 a 35 par lecon), les plus productifs (themes, transformations, phrases a completer, choix entre mots
-  proches) ; retires : ce qui demande le livre (dessin, tableau, texte d'une page, enregistrement), les
-  reponses libres, les recherches au dictionnaire, le traditionnel -> simplifie, et les series repetitives
-  reduites a 2 a 4 items (les onze annees a lire, les tetrasyllabes...). Choix dans
-  Anki/prive/manuel/tri_exercices.json ; les dictees sont devenues des cartes d'ecoute (audio au recto).
-- Les textes longs ne sont pas recopies : la carte demande de les relire (ou reecouter, piste du CD) dans le
-  livre et de les raconter en chinois ; son verso donne un resume et les mots cles.
+  manuel, intercales entre les cartes publiques (jamais avant les mots qu'elles emploient). Environ 1 700
+  notes depuis la relecture du 28/09 : 590 cartes de grammaire, 918 items d'exercices, 93 dialogues et
+  63 dictees a ecouter, 19 textes.
+- Relecture du 28/09 (les cartes faites de TOUS les exemples du livre etaient souvent debiles ou incompletes :
+  "(reponse)" en guise de traduction, listes d'heures, fragments) : pour chaque point de grammaire, de
+  lexicologie ou d'expressions, 2 exemples au plus, 12 a 25 cartes par lecon ; chacune a une traduction
+  complete et une note sur ce qu'il faut remarquer ; trois sur quatre sont a PRODUIRE ("Dites en chinois :"
+  phrase francaise au recto, le chinois au verso), les autres a comprendre ("Que veut dire cette phrase ?").
+  Choix dans Anki/prive/manuel/cartes_grammaire.json. Numeros du livre ("1.", "(7a)") et annotations qui
+  donnaient la reponse retires des phrases.
+- Exercices tries le 27/09 puis relus le 28/09 : 918 items gardes sur 3 300 (20 a 35 par lecon), les plus
+  productifs (themes, transformations, phrases a completer, choix entre mots proches), consigne et reponse
+  completees quand il le fallait ; retires : ce qui demande le livre (dessin, tableau, texte d'une page,
+  enregistrement), les reponses libres, les recherches au dictionnaire, le traditionnel -> simplifie, les
+  exercices d'introduction (annees, tableaux de nombres, combinaisons de pinyin, tetrasyllabes), les series
+  repetitives et les cartes trop faciles ("mon papa"). Choix dans Anki/prive/manuel/tri_exercices.json ; les
+  dictees sont des cartes d'ecoute (audio au recto).
+- Les textes longs du livre ne sont pas recopies et n'ont plus de carte ("relisez-le dans le livre" n'en est
+  pas une) : restent les 19 textes courts, recopies avec pinyin et traduction.
 - Ce dossier est exclu de git (.gitignore) : rien n'en part sur GitHub (droits d'auteur). Apres une nouvelle
   version du vocabulaire public, relancer   python .outils/anki/manuel_prive.py   avant "tout mettre en place".
 
@@ -324,9 +332,12 @@ AUDIO (voix Google Traduction) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis l
   par la voix Google Traduction chinoise, celle des presets HyperTTS (meme moteur, la bibliotheque gTTS livree
   avec HyperTTS : HyperTTS doit etre installe ; jamais de voix Windows), et met le fichier dans "Ajouter le
   verso". Ordre : cartes deja vues, puis nouvelles dans l'ordre du manuel (les prochaines cartes ont leur audio
-  en premier). Environ 30 000 textes : un peu plus d'une heure en tout (4 demandes en parallele), Internet
-  necessaire ; Echap arrete, et la fois suivante reprend la ou on en etait. Un meme texte n'est demande qu'une
-  fois. Les fichiers (environ 15 Ko en moyenne, 400 a 450 Mo pour tout) partent sur AnkiWeb a la
+  en premier). Google Traduction bloque pour quelques heures (erreur 429) une connexion qui demande trop vite :
+  c'est arrive le 27/09 apres environ 1 500 demandes a 4 en parallele. Le module avance donc doucement (une
+  demande a la fois, 0,8 s d'ecart) et par seances de 600 notes (une dizaine de minutes) : le relancer chaque
+  jour garde l'audio en avance sur les revisions. Si Google bloque, la seance s'arrete tout de suite et le dit ;
+  relancer plus tard. Internet necessaire ; Echap arrete, et la fois suivante reprend la ou on en etait. Un meme
+  texte n'est demande qu'une fois. Les fichiers (environ 15 Ko en moyenne, 400 a 450 Mo pour tout) partent sur AnkiWeb a la
   synchronisation suivante : la premiere synchronisation des medias est longue.
 - A la main si besoin : Outils > "Chinois : notes sans audio (HyperTTS)" ouvre le navigateur sur exactement
   les notes a traiter (texte audio rempli, "Ajouter le verso" vide) ; tout selectionner > HyperTTS > ajout en
