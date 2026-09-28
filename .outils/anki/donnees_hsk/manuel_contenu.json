@@ -138,31 +138,47 @@
     "reponse": "我叫马丽。",
     "question": "你叫什么名字？",
     "traduction": "Comment t'appelles-tu ? — Je m'appelle Ma Li.",
-    "explication": "Mot interrogatif 什么 : il porte sur le nom et reste à la place de l'information demandée."
+    "explication": "Mot interrogatif 什么 : il porte sur le nom et reste à la place de l'information demandée.",
+    "indice": "sur le nom, avec 什么",
+    "variantes": [
+     "你叫什么？"
+    ]
    },
    {
     "reponse": "我是法国人。",
     "question": "你是哪国人？",
     "traduction": "De quelle nationalité es-tu ? — Je suis français.",
-    "explication": "Mot interrogatif 哪 : 哪国人 « de quel pays » demande la nationalité."
+    "explication": "Mot interrogatif 哪 : 哪国人 « de quel pays » demande la nationalité.",
+    "indice": "sur la nationalité, avec 哪",
+    "variantes": [
+     "你是哪个国家的人？"
+    ]
    },
    {
     "reponse": "她是我妈妈。",
     "question": "她是谁？",
     "traduction": "Qui est-ce ? — C'est ma mère.",
-    "explication": "Mot interrogatif 谁 « qui » : il porte sur la personne et prend la place de 我妈妈."
+    "explication": "Mot interrogatif 谁 « qui » : il porte sur la personne et prend la place de 我妈妈.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": []
    },
    {
     "reponse": "是，我是学生。",
     "question": "你是学生吗？",
     "traduction": "Es-tu étudiant ? — Oui, je suis étudiant.",
-    "explication": "Question fermée : phrase affirmative + 吗. On y répond par 是 (oui) ou 不是 (non)."
+    "explication": "Question fermée : phrase affirmative + 吗. On y répond par 是 (oui) ou 不是 (non).",
+    "indice": "question fermée, avec 吗",
+    "variantes": []
    },
    {
     "reponse": "我住在巴黎。",
     "question": "你住在哪儿？",
     "traduction": "Où habites-tu ? — J'habite à Paris.",
-    "explication": "Mot interrogatif 哪儿 « où » : il remplace le lieu, à la même place, après 住在."
+    "explication": "Mot interrogatif 哪儿 « où » : il remplace le lieu, à la même place, après 住在.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "你住哪儿？"
+    ]
    }
   ],
   "fusion": [
@@ -439,31 +455,43 @@
     "reponse": "我家有四口人。",
     "question": "你家有几口人？",
     "traduction": "Combien êtes-vous dans ta famille ? — Nous sommes quatre.",
-    "explication": "几 + classificateur (口) demande un petit nombre ; il prend la place du nombre de la réponse."
+    "explication": "几 + classificateur (口) demande un petit nombre ; il prend la place du nombre de la réponse.",
+    "indice": "sur le nombre de personnes, avec 几",
+    "variantes": []
    },
    {
     "reponse": "我没有哥哥。",
     "question": "你有哥哥吗？",
     "traduction": "As-tu un grand frère ? — Non, je n'ai pas de grand frère.",
-    "explication": "Question fermée en 吗 sur la possession (有). On peut dire aussi 你有没有哥哥？ (forme 有没有)."
+    "explication": "Question fermée en 吗 sur la possession (有). On peut dire aussi 你有没有哥哥？ (forme 有没有).",
+    "indice": "question fermée, avec 吗",
+    "variantes": []
    },
    {
     "reponse": "我的房间不太大。",
     "question": "你的房间大吗？",
     "traduction": "Ta chambre est grande ? — Ma chambre n'est pas très grande.",
-    "explication": "Adjectif + 吗 : question fermée sur une qualité (ou 大不大？). On répond avec 很 + adj. ou 不太 + adj."
+    "explication": "Adjectif + 吗 : question fermée sur une qualité (ou 大不大？). On répond avec 很 + adj. ou 不太 + adj.",
+    "indice": "question fermée, avec 吗",
+    "variantes": []
    },
    {
     "reponse": "我们大学有两千个学生。",
     "question": "你们大学有多少学生？",
     "traduction": "Combien d'étudiants y a-t-il dans votre université ? — Il y en a deux mille.",
-    "explication": "多少 « combien » demande un nombre élevé ; il peut se passer de classificateur."
+    "explication": "多少 « combien » demande un nombre élevé ; il peut se passer de classificateur.",
+    "indice": "sur le nombre, avec 多少",
+    "variantes": [
+     "你们大学有多少个学生？"
+    ]
    },
    {
     "reponse": "这是我哥哥的猫。",
     "question": "这是谁的猫？",
     "traduction": "À qui est ce chat ? — C'est le chat de mon grand frère.",
-    "explication": "谁的 « de qui, à qui » porte sur le possesseur ; il prend la place de 我哥哥的."
+    "explication": "谁的 « de qui, à qui » porte sur le possesseur ; il prend la place de 我哥哥的.",
+    "indice": "sur le possesseur, avec 谁的",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -745,31 +773,48 @@
     "reponse": "我喜欢蓝色。",
     "question": "你喜欢什么颜色？",
     "traduction": "Quelle couleur aimes-tu ? — J'aime le bleu.",
-    "explication": "什么 + nom (什么颜色 « quelle couleur ») porte sur la couleur ; il prend la place de 蓝色."
+    "explication": "什么 + nom (什么颜色 « quelle couleur ») porte sur la couleur ; il prend la place de 蓝色.",
+    "indice": "sur la couleur, avec 什么",
+    "variantes": []
    },
    {
     "reponse": "我不喝牛奶，我喝茶。",
     "question": "你喝牛奶还是喝茶？",
     "traduction": "Tu bois du lait ou du thé ? — Je ne bois pas de lait, je bois du thé.",
-    "explication": "Question alternative en 还是 : on propose deux possibilités, la réponse en choisit une."
+    "explication": "Question alternative en 还是 : on propose deux possibilités, la réponse en choisit une.",
+    "indice": "question alternative, avec 还是",
+    "variantes": [
+     "你喝牛奶还是茶？",
+     "你喝茶还是喝牛奶？"
+    ]
    },
    {
     "reponse": "我不喜欢看电影。",
     "question": "你喜欢不喜欢看电影？",
     "traduction": "Est-ce que tu aimes le cinéma ? — Je n'aime pas le cinéma.",
-    "explication": "Question A不A : forme affirmative + forme négative du verbe (喜欢不喜欢), sans 吗. On peut dire aussi 你喜欢看电影吗？"
+    "explication": "Question A不A : forme affirmative + forme négative du verbe (喜欢不喜欢), sans 吗. On peut dire aussi 你喜欢看电影吗？",
+    "indice": "question affirmative-négative (A不A), sans 吗",
+    "variantes": [
+     "你喜不喜欢看电影？"
+    ]
    },
    {
     "reponse": "这件毛衣是我姐姐的。",
     "question": "这件毛衣是谁的？",
     "traduction": "À qui est ce pull ? — Il est à ma grande sœur.",
-    "explication": "谁的 « à qui » porte sur le possesseur ; il prend la place de 我姐姐的."
+    "explication": "谁的 « à qui » porte sur le possesseur ; il prend la place de 我姐姐的.",
+    "indice": "sur le possesseur, avec 谁的",
+    "variantes": []
    },
    {
     "reponse": "我喜欢喝绿茶。",
     "question": "你喜欢喝什么？",
     "traduction": "Qu'est-ce que tu aimes boire ? — J'aime le thé vert.",
-    "explication": "什么 « quoi » remplace l'objet (绿茶), à la même place, après le verbe."
+    "explication": "什么 « quoi » remplace l'objet (绿茶), à la même place, après le verbe.",
+    "indice": "sur la boisson, avec 什么",
+    "variantes": [
+     "你喜欢喝什么茶？"
+    ]
    }
   ],
   "fusion": [
@@ -1055,31 +1100,45 @@
     "reponse": "我坐地铁去学校。",
     "question": "你怎么去学校？",
     "traduction": "Comment vas-tu à l'école ? — J'y vais en métro.",
-    "explication": "怎么 + verbe demande la manière ou le moyen (ici, le moyen de transport)."
+    "explication": "怎么 + verbe demande la manière ou le moyen (ici, le moyen de transport).",
+    "indice": "sur le moyen de transport, avec 怎么",
+    "variantes": []
    },
    {
     "reponse": "现在差一刻十点。",
     "question": "现在几点？",
     "traduction": "Quelle heure est-il ? — Il est dix heures moins le quart.",
-    "explication": "几点 demande l'heure ; la réponse met l'heure à la place de 几点."
+    "explication": "几点 demande l'heure ; la réponse met l'heure à la place de 几点.",
+    "indice": "sur l'heure, avec 几",
+    "variantes": [
+     "现在几点了？"
+    ]
    },
    {
     "reponse": "今天五月二十号。",
     "question": "今天几月几号？",
     "traduction": "Nous sommes le combien aujourd'hui ? — Aujourd'hui, c'est le 20 mai.",
-    "explication": "几月几号 demande la date ; phrase à prédicat nominal, sans 是."
+    "explication": "几月几号 demande la date ; phrase à prédicat nominal, sans 是.",
+    "indice": "sur la date, avec 几",
+    "variantes": [
+     "今天是几月几号？"
+    ]
    },
    {
     "reponse": "她在邮局工作。",
     "question": "她在哪儿工作？",
     "traduction": "Où travaille-t-elle ? — Elle travaille à la poste.",
-    "explication": "在哪儿 demande le lieu ; il reste à la place de 在 + lieu, devant le verbe."
+    "explication": "在哪儿 demande le lieu ; il reste à la place de 在 + lieu, devant le verbe.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": []
    },
    {
     "reponse": "我星期天去看电影。",
     "question": "你什么时候去看电影？",
     "traduction": "Quand vas-tu voir un film ? — J'y vais dimanche.",
-    "explication": "什么时候 demande le moment ; comme toute expression de temps, il se place devant le verbe."
+    "explication": "什么时候 demande le moment ; comme toute expression de temps, il se place devant le verbe.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -1359,31 +1418,45 @@
     "reponse": "我们星期六晚上开晚会。",
     "question": "你们什么时候开晚会？",
     "traduction": "Quand faites-vous la soirée ? — Nous la faisons samedi soir.",
-    "explication": "什么时候 demande le moment ; il prend la place de l'expression de temps, devant le verbe."
+    "explication": "什么时候 demande le moment ; il prend la place de l'expression de temps, devant le verbe.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": []
    },
    {
     "reponse": "我跟李江一起去。",
     "question": "你跟谁一起去？",
     "traduction": "Avec qui y vas-tu ? — J'y vais avec Li Jiang.",
-    "explication": "谁 remplace la personne, à sa place après 跟 : 跟谁一起 + verbe."
+    "explication": "谁 remplace la personne, à sa place après 跟 : 跟谁一起 + verbe.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": [
+     "你跟谁去？"
+    ]
    },
    {
     "reponse": "我有五十六本书。",
     "question": "你有多少本书？",
     "traduction": "Combien de livres as-tu ? — J'ai 56 livres.",
-    "explication": "多少 demande une quantité (souvent au-delà de dix) ; il prend la place du nombre, devant le classificateur."
+    "explication": "多少 demande une quantité (souvent au-delà de dix) ; il prend la place du nombre, devant le classificateur.",
+    "indice": "sur la quantité, avec 多少",
+    "variantes": [
+     "你有多少书？"
+    ]
    },
    {
     "reponse": "他让我去买牛奶。",
     "question": "他让你去买什么？",
     "traduction": "Qu'est-ce qu'il te demande d'aller acheter ? — Il me demande d'aller acheter du lait.",
-    "explication": "什么 remplace l'objet (牛奶), à sa place, après le verbe."
+    "explication": "什么 remplace l'objet (牛奶), à sa place, après le verbe.",
+    "indice": "sur ce qu'il faut acheter, avec 什么",
+    "variantes": []
    },
    {
     "reponse": "我不去晚会，因为我明天要上班。",
     "question": "你为什么不去晚会？",
     "traduction": "Pourquoi ne vas-tu pas à la soirée ? — Je n'y vais pas parce que je travaille demain.",
-    "explication": "为什么 demande la cause ; on répond avec 因为."
+    "explication": "为什么 demande la cause ; on répond avec 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -1663,31 +1736,49 @@
     "reponse": "我觉得这本小说很有意思。",
     "question": "你觉得这本小说怎么样？",
     "traduction": "Comment trouves-tu ce roman ? — Je le trouve très intéressant.",
-    "explication": "觉得 … 怎么样 ? demande un avis, une appréciation."
+    "explication": "觉得 … 怎么样 ? demande un avis, une appréciation.",
+    "indice": "demande d'avis, avec 怎么样",
+    "variantes": [
+     "这本小说怎么样？"
+    ]
    },
    {
     "reponse": "他英语说得很好。",
     "question": "他英语说得怎么样？",
     "traduction": "Comment parle-t-il anglais ? — Il le parle très bien.",
-    "explication": "Pour interroger sur le complément de degré, on met 怎么样 à sa place, après 得."
+    "explication": "Pour interroger sur le complément de degré, on met 怎么样 à sa place, après 得.",
+    "indice": "sur la manière de parler, avec 怎么样",
+    "variantes": [
+     "他说英语说得怎么样？"
+    ]
    },
    {
     "reponse": "他今天有点儿不舒服。",
     "question": "他今天怎么了？",
     "traduction": "Qu'est-ce qu'il a aujourd'hui ? — Il ne se sent pas très bien.",
-    "explication": "怎么了 demande ce qui se passe, ce qui ne va pas."
+    "explication": "怎么了 demande ce qui se passe, ce qui ne va pas.",
+    "indice": "on demande ce qui ne va pas, avec 怎么",
+    "variantes": []
    },
    {
     "reponse": "我觉得汉语不太难。",
     "question": "你觉得汉语难吗？",
     "traduction": "Tu trouves le chinois difficile ? — Je trouve qu'il n'est pas très difficile.",
-    "explication": "Question fermée en 吗 sur l'adjectif (on peut aussi dire 难不难, forme A不A)."
+    "explication": "Question fermée en 吗 sur l'adjectif (on peut aussi dire 难不难, forme A不A).",
+    "indice": "question fermée, avec 吗",
+    "variantes": [
+     "汉语难吗？"
+    ]
    },
    {
     "reponse": "因为我觉得汉语特别有意思。",
     "question": "你为什么学汉语？",
     "traduction": "Pourquoi apprends-tu le chinois ? — Parce que je trouve le chinois particulièrement intéressant.",
-    "explication": "为什么 demande la cause ; la réponse commence par 因为."
+    "explication": "为什么 demande la cause ; la réponse commence par 因为.",
+    "indice": "pourquoi tu apprends le chinois, avec 为什么",
+    "variantes": [
+     "你为什么学习汉语？"
+    ]
    }
   ],
   "fusion": [
@@ -1971,31 +2062,50 @@
     "reponse": "银行在邮局的对面。",
     "question": "银行在哪儿？",
     "traduction": "Où est la banque ? — La banque est en face de la poste.",
-    "explication": "在哪儿 demande où se trouve une chose précise ; la réponse remplace 哪儿 par le lieu."
+    "explication": "在哪儿 demande où se trouve une chose précise ; la réponse remplace 哪儿 par le lieu.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我家离学校很近。",
     "question": "你家离学校远吗？",
     "traduction": "Ta maison est loin de l'école ? — Non, elle est tout près.",
-    "explication": "Question en 吗 sur la distance (离 + 远) ; on peut aussi dire 远不远 (A不A)."
+    "explication": "Question en 吗 sur la distance (离 + 远) ; on peut aussi dire 远不远 (A不A).",
+    "indice": "question fermée sur la distance, avec 吗",
+    "variantes": [
+     "你家离学校近吗？"
+    ]
    },
    {
     "reponse": "洗手间在三层。",
     "question": "洗手间在几层？",
     "traduction": "À quel étage sont les toilettes ? — Au troisième étage.",
-    "explication": "几 + classificateur (层) pour un petit nombre : ici l'étage."
+    "explication": "几 + classificateur (层) pour un petit nombre : ici l'étage.",
+    "indice": "sur l'étage, avec 几",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "教室的旁边是洗手间。",
     "question": "教室的旁边是什么？",
     "traduction": "Qu'y a-t-il à côté de la salle de classe ? — À côté de la salle de classe, ce sont les toilettes.",
-    "explication": "Lieu + 是 + 什么 : on demande ce qui occupe l'endroit ; 什么 prend la place de la réponse."
+    "explication": "Lieu + 是 + 什么 : on demande ce qui occupe l'endroit ; 什么 prend la place de la réponse.",
+    "indice": "sur ce qui se trouve à cet endroit, avec 什么",
+    "variantes": [
+     "教室旁边是什么？"
+    ]
    },
    {
     "reponse": "有，前边就有一个药店。",
     "question": "这儿附近有药店吗？",
     "traduction": "Y a-t-il une pharmacie près d'ici ? — Oui, il y en a une juste devant.",
-    "explication": "Question en 吗 sur l'existence (lieu + 有) ; on répond par 有 ou 没有."
+    "explication": "Question en 吗 sur l'existence (lieu + 有) ; on répond par 有 ou 没有.",
+    "indice": "question fermée sur ce qu'il y a près d'ici, avec 吗",
+    "variantes": [
+     "附近有药店吗？",
+     "这附近有药店吗？"
+    ]
    }
   ],
   "fusion": [
@@ -2278,31 +2388,49 @@
     "reponse": "我会打篮球。",
     "question": "你会打篮球吗？",
     "traduction": "Tu sais jouer au basket ? — Oui, je sais jouer au basket.",
-    "explication": "Question en 吗 sur un savoir-faire (会) ; on peut aussi dire 会不会 (A不A). On répond 会 ou 不会."
+    "explication": "Question en 吗 sur un savoir-faire (会) ; on peut aussi dire 会不会 (A不A). On répond 会 ou 不会.",
+    "indice": "question fermée, avec 吗",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "因为我要开车，所以不能喝酒。",
     "question": "你为什么不能喝酒？",
     "traduction": "Pourquoi tu ne peux pas boire d'alcool ? — Parce que je dois conduire.",
-    "explication": "为什么 demande la raison ; la réponse commence par 因为."
+    "explication": "为什么 demande la raison ; la réponse commence par 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [
+     "你为什么不喝酒？"
+    ]
    },
    {
     "reponse": "他会说英语和法语。",
     "question": "他会说什么外语？",
     "traduction": "Quelles langues étrangères parle-t-il ? — Il parle anglais et français.",
-    "explication": "什么 + nom (什么外语) porte sur les langues ; il prend la place de la réponse."
+    "explication": "什么 + nom (什么外语) porte sur les langues ; il prend la place de la réponse.",
+    "indice": "sur les langues étrangères, avec 什么",
+    "variantes": []
    },
    {
     "reponse": "我哥哥篮球打得很好。",
     "question": "你哥哥篮球打得怎么样？",
     "traduction": "Comment ton frère joue-t-il au basket ? — Mon frère joue très bien au basket.",
-    "explication": "Verbe + 得 + 怎么样 : on demande un jugement sur la manière de faire (complément de degré)."
+    "explication": "Verbe + 得 + 怎么样 : on demande un jugement sur la manière de faire (complément de degré).",
+    "indice": "sur la manière de jouer, avec 怎么样",
+    "variantes": [
+     "你哥哥打篮球打得怎么样？"
+    ]
    },
    {
     "reponse": "可以，这儿可以拍照。",
     "question": "这儿可以拍照吗？",
     "traduction": "On peut prendre des photos ici ? — Oui, on peut.",
-    "explication": "Demande de permission avec 可以… 吗 ; on répond 可以 ou 不可以 (不行)."
+    "explication": "Demande de permission avec 可以… 吗 ; on répond 可以 ou 不可以 (不行).",
+    "indice": "demande de permission, avec 吗",
+    "variantes": [
+     "这儿能拍照吗？",
+     "我可以在这儿拍照吗？"
+    ]
    }
   ],
   "fusion": [
@@ -2578,31 +2706,50 @@
     "reponse": "一张机票三千五百块。",
     "question": "一张机票多少钱？",
     "traduction": "Combien coûte un billet d'avion ? — Un billet coûte 3 500 yuans.",
-    "explication": "多少钱 demande un prix ; la réponse remplace 多少 par le nombre et 钱 par 块."
+    "explication": "多少钱 demande un prix ; la réponse remplace 多少 par le nombre et 钱 par 块.",
+    "indice": "sur le prix, avec 多少",
+    "variantes": [
+     "机票多少钱一张？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "因为天气不好，所以飞机晚点了。",
     "question": "飞机为什么晚点了？",
     "traduction": "Pourquoi l'avion a-t-il du retard ? — Comme il fait mauvais, l'avion a du retard.",
-    "explication": "为什么 demande la cause ; la réponse commence par 因为."
+    "explication": "为什么 demande la cause ; la réponse commence par 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [
+     "为什么飞机晚点了？"
+    ]
    },
    {
     "reponse": "飞机下午三点到。",
     "question": "飞机几点到？",
     "traduction": "À quelle heure arrive l'avion ? — Il arrive à trois heures de l'après-midi.",
-    "explication": "几点 demande l'heure ; il se place devant le verbe, comme la réponse."
+    "explication": "几点 demande l'heure ; il se place devant le verbe, comme la réponse.",
+    "indice": "sur l'heure, avec 几",
+    "variantes": [
+     "飞机下午几点到？"
+    ]
    },
    {
     "reponse": "我们下个月去中国。",
     "question": "你们什么时候去中国？",
     "traduction": "Quand partez-vous en Chine ? — Nous partons le mois prochain.",
-    "explication": "什么时候 demande le moment ; il se place après le sujet, devant le verbe."
+    "explication": "什么时候 demande le moment ; il se place après le sujet, devant le verbe.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": []
    },
    {
     "reponse": "他告诉我机票又贵了。",
     "question": "他告诉你什么了？",
     "traduction": "Qu'est-ce qu'il t'a dit ? — Il m'a dit que les billets d'avion avaient encore augmenté.",
-    "explication": "告诉 + personne + 什么 : 什么 remplace la chose annoncée (double objet)."
+    "explication": "告诉 + personne + 什么 : 什么 remplace la chose annoncée (double objet).",
+    "indice": "sur ce qu'il t'a appris, avec 告诉 et 什么",
+    "variantes": [
+     "他告诉了你什么？"
+    ]
    }
   ],
   "fusion": [
@@ -2885,31 +3032,53 @@
     "reponse": "我正在复习呢。",
     "question": "你在做什么呢？",
     "traduction": "Qu'est-ce que tu es en train de faire ? — Je suis en train de réviser.",
-    "explication": "什么 remplace l'action sur laquelle on interroge ; on garde la forme progressive 在…呢."
+    "explication": "什么 remplace l'action sur laquelle on interroge ; on garde la forme progressive 在…呢.",
+    "indice": "sur l'action en cours, avec 什么",
+    "variantes": [
+     "你在做什么？",
+     "你正在做什么呢？"
+    ]
    },
    {
     "reponse": "我们下个星期二考试。",
     "question": "你们什么时候考试？",
     "traduction": "Quand passez-vous l'examen ? — Mardi prochain.",
-    "explication": "什么时候 interroge sur le moment ; il prend la place du complément de temps, devant le verbe."
+    "explication": "什么时候 interroge sur le moment ; il prend la place du complément de temps, devant le verbe.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": []
    },
    {
     "reponse": "这本书我还没看呢。",
     "question": "这本书你看了没有？",
     "traduction": "Ce livre, tu l'as lu ? — Non, je ne l'ai pas encore lu.",
-    "explication": "Question affirmative-négative sur une action accomplie : verbe + 了 + 没有 ? La réponse négative est 还没…呢, sans 了."
+    "explication": "Question affirmative-négative sur une action accomplie : verbe + 了 + 没有 ? La réponse négative est 还没…呢, sans 了.",
+    "indice": "question fermée sur une action accomplie, avec 没有 (sans 吗)",
+    "variantes": [
+     "你看了这本书没有？"
+    ]
    },
    {
     "reponse": "因为他明天要考试。",
     "question": "他今天为什么没去看电影？",
     "traduction": "Pourquoi n'est-il pas allé au cinéma aujourd'hui ? — Parce qu'il a un examen demain.",
-    "explication": "为什么 demande la cause ; il se place après le sujet, devant le verbe. La réponse commence par 因为."
+    "explication": "为什么 demande la cause ; il se place après le sujet, devant le verbe. La réponse commence par 因为.",
+    "indice": "pourquoi il n'est pas allé au cinéma aujourd'hui, avec 为什么",
+    "variantes": [
+     "今天他为什么没去看电影？",
+     "他为什么今天没去看电影？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我每天晚上十二点才睡觉。",
     "question": "你每天晚上几点睡觉？",
     "traduction": "À quelle heure te couches-tu le soir ? — Je ne me couche qu'à minuit.",
-    "explication": "几点 interroge sur l'heure et prend sa place dans la phrase. Dans la réponse, 才 souligne que c'est tard."
+    "explication": "几点 interroge sur l'heure et prend sa place dans la phrase. Dans la réponse, 才 souligne que c'est tard.",
+    "indice": "sur l'heure, avec 几",
+    "variantes": [
+     "你每天几点睡觉？",
+     "你晚上几点睡觉？"
+    ]
    }
   ],
   "fusion": [
@@ -3186,31 +3355,51 @@
     "reponse": "我是去年九月来巴黎的。",
     "question": "你是什么时候来巴黎的？",
     "traduction": "Quand es-tu arrivé à Paris ? — C'est en septembre de l'année dernière que je suis arrivé à Paris.",
-    "explication": "是…的 + 什么时候 : on interroge sur le moment d'un fait passé dont on sait qu'il a eu lieu."
+    "explication": "是…的 + 什么时候 : on interroge sur le moment d'un fait passé dont on sait qu'il a eu lieu.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": [
+     "你什么时候来巴黎的？"
+    ]
    },
    {
     "reponse": "他是坐火车来的。",
     "question": "他是怎么来的？",
     "traduction": "Comment est-il venu ? — C'est en train qu'il est venu.",
-    "explication": "是…的 + 怎么 : on interroge sur la manière, ici le moyen de transport."
+    "explication": "是…的 + 怎么 : on interroge sur la manière, ici le moyen de transport.",
+    "indice": "sur le moyen de transport, avec 怎么",
+    "variantes": [
+     "他怎么来的？"
+    ]
    },
    {
     "reponse": "我是在上海长大的。",
     "question": "你是在哪儿长大的？",
     "traduction": "Où as-tu grandi ? — C'est à Shanghai que j'ai grandi.",
-    "explication": "是…的 + 在哪儿 : on interroge sur le lieu d'un fait passé."
+    "explication": "是…的 + 在哪儿 : on interroge sur le lieu d'un fait passé.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "你在哪儿长大的？"
+    ]
    },
    {
     "reponse": "我是跟我姐姐一起来的。",
     "question": "你是跟谁一起来的？",
     "traduction": "Avec qui es-tu venu ? — Je suis venu avec ma grande sœur.",
-    "explication": "是…的 + 跟谁 : on interroge sur la personne qui accompagnait."
+    "explication": "是…的 + 跟谁 : on interroge sur la personne qui accompagnait.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": [
+     "你跟谁一起来的？",
+     "你是跟谁来的？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我来法国的时候十八岁。",
     "question": "你来法国的时候多大？",
     "traduction": "Quel âge avais-tu quand tu es venu en France ? — J'avais dix-huit ans.",
-    "explication": "多大 (多 + adjectif) demande l'âge d'un adolescent ou d'un adulte ; à un jeune enfant, on demande 几岁."
+    "explication": "多大 (多 + adjectif) demande l'âge d'un adolescent ou d'un adulte ; à un jeune enfant, on demande 几岁.",
+    "indice": "sur l'âge, avec 多 + adjectif",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -3488,31 +3677,46 @@
     "reponse": "我去过两次西安。",
     "question": "你去过几次西安？",
     "traduction": "Combien de fois es-tu allé à Xi'an ? — J'y suis allé deux fois.",
-    "explication": "几次 interroge sur la fréquence (le nombre de fois) ; il prend la place de 两次."
+    "explication": "几次 interroge sur la fréquence (le nombre de fois) ; il prend la place de 两次.",
+    "indice": "sur le nombre de fois, avec 几",
+    "variantes": [
+     "你去过西安几次？"
+    ]
    },
    {
     "reponse": "我没吃过西餐。",
     "question": "你吃过西餐吗？",
     "traduction": "As-tu déjà mangé de la cuisine occidentale ? — Je n'en ai jamais mangé.",
-    "explication": "Question fermée en 吗 sur une expérience : V + 过 + objet + 吗 ?"
+    "explication": "Question fermée en 吗 sur une expérience : V + 过 + objet + 吗 ?",
+    "indice": "question fermée, avec 吗",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "这本书我看过三遍。",
     "question": "这本书你看过几遍？",
     "traduction": "Combien de fois as-tu lu ce livre ? — Je l'ai lu trois fois.",
-    "explication": "几遍 demande combien de fois on a fait l'action en entier ; il remplace 三遍."
+    "explication": "几遍 demande combien de fois on a fait l'action en entier ; il remplace 三遍.",
+    "indice": "sur le nombre de fois, avec 几",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "他在北京见过张艺谋。",
     "question": "他在北京见过谁？",
     "traduction": "Qui a-t-il déjà rencontré à Pékin ? — Il a déjà rencontré Zhang Yimou à Pékin.",
-    "explication": "谁 remplace la personne (l'objet) sans changer l'ordre des mots."
+    "explication": "谁 remplace la personne (l'objet) sans changer l'ordre des mots.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我在动物园见过大熊猫。",
     "question": "你在哪儿见过大熊猫？",
     "traduction": "Où as-tu déjà vu un panda géant ? — J'en ai déjà vu au zoo.",
-    "explication": "哪儿 remplace le lieu après 在 : 在哪儿 + V ?"
+    "explication": "哪儿 remplace le lieu après 在 : 在哪儿 + V ?",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -3792,31 +3996,46 @@
     "reponse": "放假以后，我打算去云南。",
     "question": "放假以后，你打算去哪儿？",
     "traduction": "Une fois en vacances, où as-tu l'intention d'aller ? — J'ai l'intention d'aller au Yunnan.",
-    "explication": "哪儿 remplace la destination après 去."
+    "explication": "哪儿 remplace la destination après 去.",
+    "indice": "sur la destination, avec 哪儿",
+    "variantes": []
    },
    {
     "reponse": "我骑自行车骑了两个钟头。",
     "question": "你骑自行车骑了多久？",
     "traduction": "Combien de temps as-tu fait du vélo ? — J'ai fait deux heures de vélo.",
-    "explication": "多久 interroge sur la durée ; il prend la place de la durée (两个钟头)."
+    "explication": "多久 interroge sur la durée ; il prend la place de la durée (两个钟头).",
+    "indice": "sur la durée, avec 多久",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我的功课已经做完了。",
     "question": "你的功课做完了吗？",
     "traduction": "Tu as fini tes devoirs ? — Oui, je les ai déjà finis.",
-    "explication": "Question fermée en 吗 sur le résultat : V + 完 + 了 + 吗 ?"
+    "explication": "Question fermée en 吗 sur le résultat : V + 完 + 了 + 吗 ?",
+    "indice": "question fermée, avec 吗",
+    "variantes": [
+     "你的功课已经做完了吗？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我很喜欢学历史。",
     "question": "你喜欢学什么？",
     "traduction": "Qu'est-ce que tu aimes étudier ? — J'aime beaucoup étudier l'histoire.",
-    "explication": "什么 remplace le complément d'objet (ici de 学) : dans la réponse, 历史 prend sa place, sans changer l'ordre des mots."
+    "explication": "什么 remplace le complément d'objet (ici de 学) : dans la réponse, 历史 prend sa place, sans changer l'ordre des mots.",
+    "indice": "sur la matière, avec 什么",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我没去爬山，因为我有很多事要做。",
     "question": "你为什么没去爬山？",
     "traduction": "Pourquoi n'es-tu pas allé en randonnée ? — Je n'y suis pas allé parce que j'avais beaucoup de choses à faire.",
-    "explication": "为什么 demande la cause ; dans la réponse, c'est 因为 qui l'introduit."
+    "explication": "为什么 demande la cause ; dans la réponse, c'est 因为 qui l'introduit.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -4096,31 +4315,50 @@
     "reponse": "我比我妹妹大两岁。",
     "question": "你比你妹妹大几岁？",
     "traduction": "Tu as combien d'années de plus que ta petite sœur ? — J'ai deux ans de plus qu'elle.",
-    "explication": "几岁 interroge sur l'écart chiffré ; il prend la place de 两岁 après l'adjectif."
+    "explication": "几岁 interroge sur l'écart chiffré ; il prend la place de 两岁 après l'adjectif.",
+    "indice": "sur l'écart d'âge, avec 几",
+    "variantes": [
+     "你比妹妹大几岁？"
+    ]
    },
    {
     "reponse": "北京的冬天比巴黎的冬天冷。",
     "question": "北京的冬天冷还是巴黎的冬天冷？",
     "traduction": "Où l'hiver est-il plus froid, à Pékin ou à Paris ? — L'hiver est plus froid à Pékin qu'à Paris.",
-    "explication": "Question alternative en 还是 : on propose les deux termes, la réponse les compare avec 比."
+    "explication": "Question alternative en 还是 : on propose les deux termes, la réponse les compare avec 比.",
+    "indice": "question alternative, avec 还是",
+    "variantes": [
+     "北京的冬天冷还是巴黎的冷？",
+     "巴黎的冬天冷还是北京的冬天冷？"
+    ]
    },
    {
     "reponse": "我哥哥最高。",
     "question": "你们家谁最高？",
     "traduction": "Qui est le plus grand dans ta famille ? — C'est mon grand frère.",
-    "explication": "谁 remplace la personne ; 最 + adjectif marque le superlatif."
+    "explication": "谁 remplace la personne ; 最 + adjectif marque le superlatif.",
+    "indice": "qui, dans ta famille, avec 谁",
+    "variantes": [
+     "你家谁最高？"
+    ]
    },
    {
     "reponse": "长江有六千三百公里长。",
     "question": "长江有多长？",
     "traduction": "Quelle est la longueur du Yangtsé ? — Le Yangtsé mesure 6 300 kilomètres.",
-    "explication": "有多 + adjectif (多长, 多高, 多远) demande une mesure."
+    "explication": "有多 + adjectif (多长, 多高, 多远) demande une mesure.",
+    "indice": "sur la longueur, avec 多 + adjectif",
+    "variantes": [
+     "长江多长？"
+    ]
    },
    {
     "reponse": "今天二十五度。",
     "question": "今天多少度？",
     "traduction": "Quelle température fait-il aujourd'hui ? — Il fait vingt-cinq degrés.",
-    "explication": "多少 interroge sur un nombre ; il remplace 二十五 devant le classificateur 度."
+    "explication": "多少 interroge sur un nombre ; il remplace 二十五 devant le classificateur 度.",
+    "indice": "sur la température, avec 多少",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -4410,31 +4648,50 @@
     "reponse": "我们经理是美国人。",
     "question": "你们经理是哪国人？",
     "traduction": "De quelle nationalité est votre directeur ? — Notre directeur est américain.",
-    "explication": "哪国人 demande la nationalité."
+    "explication": "哪国人 demande la nationalité.",
+    "indice": "sur la nationalité, avec 哪",
+    "variantes": [
+     "你们经理是哪个国家的人？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "他说普通话说得非常标准。",
     "question": "他说普通话说得怎么样？",
     "traduction": "Comment parle-t-il le mandarin standard ? — Il le parle de façon très correcte.",
-    "explication": "Pour demander un jugement sur une action : verbe + 得 + 怎么样."
+    "explication": "Pour demander un jugement sur une action : verbe + 得 + 怎么样.",
+    "indice": "sur la manière de parler, avec 怎么样",
+    "variantes": [
+     "他普通话说得怎么样？"
+    ]
    },
    {
     "reponse": "我在一家国际公司工作。",
     "question": "你在哪儿工作？",
     "traduction": "Où travailles-tu ? — Je travaille dans une entreprise internationale.",
-    "explication": "在哪儿 demande le lieu, devant le verbe."
+    "explication": "在哪儿 demande le lieu, devant le verbe.",
+    "indice": "sur le lieu de travail, avec 哪儿",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我是去年七月毕业的。",
     "question": "你是什么时候毕业的？",
     "traduction": "Quand as-tu obtenu ton diplôme ? — En juillet de l'année dernière.",
-    "explication": "是…的 met en relief la circonstance d'un fait passé ; 什么时候 demande le moment."
+    "explication": "是…的 met en relief la circonstance d'un fait passé ; 什么时候 demande le moment.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": [
+     "你什么时候毕业的？"
+    ]
    },
    {
     "reponse": "我们公司有三百多个人。",
     "question": "你们公司有多少人？",
     "traduction": "Combien de personnes compte votre entreprise ? — Un peu plus de trois cents.",
-    "explication": "多少 demande un nombre élevé ou inconnu."
+    "explication": "多少 demande un nombre élevé ou inconnu.",
+    "indice": "sur le nombre, avec 多少",
+    "variantes": [],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -4719,31 +4976,51 @@
     "reponse": "因为路上车太多，所以我迟到了。",
     "question": "你为什么迟到了？",
     "traduction": "Pourquoi es-tu en retard ? — Parce qu'il y avait trop de voitures sur la route.",
-    "explication": "为什么 demande la cause ; on répond avec 因为…所以…"
+    "explication": "为什么 demande la cause ; on répond avec 因为…所以…",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [
+     "你为什么迟到？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "作业我已经写完了。",
     "question": "作业你写完了吗？",
     "traduction": "Tu as fini tes devoirs ? — Oui, je les ai déjà finis.",
-    "explication": "Question en 吗 sur le résultat (写完了吗) ; on peut dire aussi 写完了没有."
+    "explication": "Question en 吗 sur le résultat (写完了吗) ; on peut dire aussi 写完了没有.",
+    "indice": "question fermée, avec 吗",
+    "variantes": [
+     "你写完作业了吗？",
+     "作业你已经写完了吗？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我迟到了二十分钟。",
     "question": "你迟到了多长时间？",
     "traduction": "Tu as eu combien de retard ? — Vingt minutes.",
-    "explication": "多长时间 demande une durée, placée après le verbe."
+    "explication": "多长时间 demande une durée, placée après le verbe.",
+    "indice": "sur la durée, avec 多长时间",
+    "variantes": []
    },
    {
     "reponse": "我的钥匙落在出租车上了。",
     "question": "你的钥匙落在哪儿了？",
     "traduction": "Où as-tu oublié tes clés ? — Je les ai oubliées dans le taxi.",
-    "explication": "哪儿 remplace le lieu, après le complément 在 : 落在哪儿了."
+    "explication": "哪儿 remplace le lieu, après le complément 在 : 落在哪儿了.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我今天是坐出租车来的。",
     "question": "你今天是怎么来的？",
     "traduction": "Comment es-tu venu aujourd'hui ? — Je suis venu en taxi.",
-    "explication": "是…的 met en relief la manière d'un fait passé ; 怎么 + verbe la demande."
+    "explication": "是…的 met en relief la manière d'un fait passé ; 怎么 + verbe la demande.",
+    "indice": "sur le moyen de transport, avec 怎么",
+    "variantes": [
+     "你今天怎么来的？"
+    ]
    }
   ],
   "fusion": [
@@ -5016,31 +5293,49 @@
     "reponse": "他下个星期回来。",
     "question": "他什么时候回来？",
     "traduction": "Quand revient-il ? — Il revient la semaine prochaine.",
-    "explication": "什么时候 demande le moment ; il se place devant le verbe."
+    "explication": "什么时候 demande le moment ; il se place devant le verbe.",
+    "indice": "sur le moment, avec 什么时候",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我们是走着去的。",
     "question": "你们是怎么去的？",
     "traduction": "Comment y êtes-vous allés ? — Nous y sommes allés à pied.",
-    "explication": "是…的 met en relief la manière d'un fait passé ; 怎么 + verbe la demande."
+    "explication": "是…的 met en relief la manière d'un fait passé ; 怎么 + verbe la demande.",
+    "indice": "sur la manière, avec 怎么",
+    "variantes": [
+     "你们怎么去的？"
+    ]
    },
    {
     "reponse": "他到超市去了。",
     "question": "他到哪儿去了？",
     "traduction": "Où est-il allé ? — Il est allé au supermarché.",
-    "explication": "哪儿 remplace le lieu dans 到 + lieu + 去."
+    "explication": "哪儿 remplace le lieu dans 到 + lieu + 去.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "他去哪儿了？"
+    ]
    },
    {
     "reponse": "这件蓝色的外套最合适。",
     "question": "哪一件外套最合适？",
     "traduction": "Quelle veste convient le mieux ? — C'est cette veste bleue.",
-    "explication": "哪 + (一) + classificateur + nom demande de choisir parmi plusieurs objets."
+    "explication": "哪 + (一) + classificateur + nom demande de choisir parmi plusieurs objets.",
+    "indice": "choix parmi plusieurs, avec 哪",
+    "variantes": [
+     "哪件外套最合适？"
+    ]
    },
    {
     "reponse": "这把伞是马丽的。",
     "question": "这把伞是谁的？",
     "traduction": "À qui est ce parapluie ? — Il est à Ma Li.",
-    "explication": "谁的 demande le possesseur."
+    "explication": "谁的 demande le possesseur.",
+    "indice": "sur le possesseur, avec 谁的",
+    "variantes": [],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -5327,31 +5622,53 @@
     "reponse": "我把蛋糕放在冰箱里了。",
     "question": "你把蛋糕放在哪儿了？",
     "traduction": "Où as-tu mis le gâteau ? — Je l'ai mis dans le frigo.",
-    "explication": "On remplace le lieu (冰箱里) par 哪儿 à la même place, après 放在."
+    "explication": "On remplace le lieu (冰箱里) par 哪儿 à la même place, après 放在.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "你把蛋糕放哪儿了？",
+     "蛋糕你放在哪儿了？"
+    ]
    },
    {
     "reponse": "做这个蛋糕要放两百克糖。",
     "question": "做这个蛋糕要放多少糖？",
     "traduction": "Combien de sucre faut-il mettre pour faire ce gâteau ? — Il faut mettre deux cents grammes de sucre.",
-    "explication": "多少 interroge sur une quantité, ici 两百克."
+    "explication": "多少 interroge sur une quantité, ici 两百克.",
+    "indice": "sur la quantité, avec 多少",
+    "variantes": [
+     "做这个蛋糕要放多少克糖？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我把课文念了两遍。",
     "question": "你把课文念了几遍？",
     "traduction": "Combien de fois as-tu lu le texte à voix haute ? — Je l'ai lu deux fois.",
-    "explication": "几 + classificateur verbal (遍) demande le nombre de fois ; il prend la place de 两."
+    "explication": "几 + classificateur verbal (遍) demande le nombre de fois ; il prend la place de 两.",
+    "indice": "sur le nombre de fois, avec 几",
+    "variantes": [
+     "课文你念了几遍？"
+    ]
    },
    {
     "reponse": "汤太咸了，因为我放了太多盐。",
     "question": "汤为什么这么咸？",
     "traduction": "Pourquoi la soupe est-elle si salée ? — Elle est trop salée parce que j'ai mis trop de sel.",
-    "explication": "为什么 demande la cause ; la réponse la donne avec 因为."
+    "explication": "为什么 demande la cause ; la réponse la donne avec 因为.",
+    "indice": "sur la cause, avec 为什么 et 这么",
+    "variantes": [
+     "为什么汤这么咸？"
+    ]
    },
    {
     "reponse": "这些西红柿是用来做汤的。",
     "question": "这些西红柿是用来做什么的？",
     "traduction": "À quoi servent ces tomates ? — Elles servent à faire la soupe.",
-    "explication": "什么 remplace l'objet du verbe (汤) : 用来做什么 demande à quoi sert une chose."
+    "explication": "什么 remplace l'objet du verbe (汤) : 用来做什么 demande à quoi sert une chose.",
+    "indice": "sur l'usage, avec 什么",
+    "variantes": [
+     "这些西红柿用来做什么？"
+    ]
    }
   ],
   "fusion": [
@@ -5634,31 +5951,49 @@
     "reponse": "这次是小王请客。",
     "question": "这次是谁请客？",
     "traduction": "Qui invite cette fois-ci ? — Cette fois-ci, c'est Xiao Wang qui invite.",
-    "explication": "谁 remplace la personne (小王) à la même place."
+    "explication": "谁 remplace la personne (小王) à la même place.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": [
+     "这次谁请客？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我们约好了七点在餐厅见面。",
     "question": "你们约好了几点在餐厅见面？",
     "traduction": "À quelle heure avez-vous rendez-vous au restaurant ? — Nous avons convenu de nous retrouver au restaurant à sept heures.",
-    "explication": "几点 demande l'heure ; il prend la place de 七点."
+    "explication": "几点 demande l'heure ; il prend la place de 七点.",
+    "indice": "sur l'heure, avec 几",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "除了我以外，大家都喝了白酒。",
     "question": "谁没喝白酒？",
     "traduction": "Qui n'a pas bu d'alcool blanc ? — À part moi, tout le monde en a bu.",
-    "explication": "谁 + négation demande qui fait exception ; la réponse l'exprime avec 除了…以外，都…."
+    "explication": "谁 + négation demande qui fait exception ; la réponse l'exprime avec 除了…以外，都….",
+    "indice": "qui fait exception, avec 谁 et une négation",
+    "variantes": [
+     "谁没有喝白酒？"
+    ]
    },
    {
     "reponse": "在法国，人们一般带一瓶葡萄酒去朋友家。",
     "question": "在法国，人们一般带什么去朋友家？",
     "traduction": "En France, qu'apporte-t-on en général quand on va chez des amis ? — En France, on apporte en général une bouteille de vin.",
-    "explication": "什么 remplace l'objet (一瓶葡萄酒) à la même place."
+    "explication": "什么 remplace l'objet (一瓶葡萄酒) à la même place.",
+    "indice": "sur ce qu'on apporte, avec 什么",
+    "variantes": []
    },
    {
     "reponse": "我们是在朋友的聚会上认识的。",
     "question": "你们是在哪儿认识的？",
     "traduction": "Où vous êtes-vous rencontrés ? — Nous nous sommes rencontrés à une soirée chez des amis.",
-    "explication": "是…的 met en relief une circonstance d'un fait passé ; ici on demande le lieu avec 哪儿."
+    "explication": "是…的 met en relief une circonstance d'un fait passé ; ici on demande le lieu avec 哪儿.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "你们在哪儿认识的？"
+    ]
    }
   ],
   "fusion": [
@@ -5943,31 +6278,50 @@
     "reponse": "我买到了两张演唱会的票。",
     "question": "你买到了几张演唱会的票？",
     "traduction": "Combien de billets pour le concert as-tu pu avoir ? — J'ai pu en avoir deux.",
-    "explication": "几 + classificateur (张) demande un petit nombre ; il prend la place de 两."
+    "explication": "几 + classificateur (张) demande un petit nombre ; il prend la place de 两.",
+    "indice": "sur le nombre, avec 几",
+    "variantes": [
+     "你买到了几张票？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我听不懂京剧。",
     "question": "你听得懂京剧吗？",
     "traduction": "Est-ce que tu comprends l'opéra de Pékin ? — Non, je ne le comprends pas.",
-    "explication": "Question en 吗 sur la forme potentielle positive (听得懂) ; la réponse négative prend la forme 听不懂."
+    "explication": "Question en 吗 sur la forme potentielle positive (听得懂) ; la réponse négative prend la forme 听不懂.",
+    "indice": "question fermée à la forme potentielle, avec 吗",
+    "variantes": []
    },
    {
     "reponse": "演唱会是在大剧院举行的。",
     "question": "演唱会是在哪儿举行的？",
     "traduction": "Où le concert a-t-il eu lieu ? — Le concert a eu lieu au Grand Théâtre.",
-    "explication": "是…的 met en relief la circonstance d'un fait passé ; on demande le lieu avec 哪儿."
+    "explication": "是…的 met en relief la circonstance d'un fait passé ; on demande le lieu avec 哪儿.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "演唱会在哪儿举行的？"
+    ]
    },
    {
     "reponse": "因为我们的座位太远了，所以看不清楚。",
     "question": "你们为什么看不清楚？",
     "traduction": "Pourquoi ne voyez-vous pas bien ? — Parce que nos places sont trop loin, nous ne voyons pas bien.",
-    "explication": "为什么 demande la cause ; la réponse la donne avec 因为…所以…."
+    "explication": "为什么 demande la cause ; la réponse la donne avec 因为…所以….",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我觉得这场演出很精彩。",
     "question": "你觉得这场演出怎么样？",
     "traduction": "Comment as-tu trouvé ce spectacle ? — Je l'ai trouvé excellent.",
-    "explication": "怎么样 demande un avis ou une appréciation."
+    "explication": "怎么样 demande un avis ou une appréciation.",
+    "indice": "demande d'avis, avec 怎么样",
+    "variantes": [
+     "这场演出怎么样？"
+    ],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -6258,31 +6612,48 @@
     "reponse": "桌子上放着一本中文书。",
     "question": "桌子上放着什么？",
     "traduction": "Qu'est-ce qui est posé sur la table ? — Un livre en chinois est posé sur la table.",
-    "explication": "什么 remplace l'objet (一本中文书) à sa place, sans changer l'ordre de la phrase."
+    "explication": "什么 remplace l'objet (一本中文书) à sa place, sans changer l'ordre de la phrase.",
+    "indice": "sur ce qui est posé, avec 什么",
+    "variantes": [
+     "桌子上有什么？"
+    ]
    },
    {
     "reponse": "院子里长着三棵树。",
     "question": "院子里长着几棵树？",
     "traduction": "Combien d'arbres poussent dans la cour ? — Trois arbres poussent dans la cour.",
-    "explication": "几 + classificateur demande un petit nombre (en général moins de dix)."
+    "explication": "几 + classificateur demande un petit nombre (en général moins de dix).",
+    "indice": "sur le nombre, avec 几",
+    "variantes": [
+     "院子里有几棵树？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我们是坐大巴去景区的。",
     "question": "你们是怎么去景区的？",
     "traduction": "Comment êtes-vous allés au site touristique ? — Nous y sommes allés en car.",
-    "explication": "Pour un fait passé, 是…的 met en relief une circonstance ; 怎么 + verbe demande le moyen ou la manière."
+    "explication": "Pour un fait passé, 是…的 met en relief une circonstance ; 怎么 + verbe demande le moyen ou la manière.",
+    "indice": "sur le moyen de transport, avec 怎么",
+    "variantes": [
+     "你们怎么去景区的？"
+    ]
    },
    {
     "reponse": "山上现在零下五度。",
     "question": "山上现在多少度？",
     "traduction": "Quelle température fait-il en ce moment sur la montagne ? — Il fait moins cinq degrés.",
-    "explication": "多少 demande une quantité (ici des degrés) dont on ignore l'ordre de grandeur."
+    "explication": "多少 demande une quantité (ici des degrés) dont on ignore l'ordre de grandeur.",
+    "indice": "sur la température, avec 多少",
+    "variantes": []
    },
    {
     "reponse": "那儿的景色美极了。",
     "question": "那儿的景色怎么样？",
     "traduction": "Comment est le paysage là-bas ? — Il est magnifique.",
-    "explication": "怎么样 en fin de phrase demande une appréciation ou une description."
+    "explication": "怎么样 en fin de phrase demande une appréciation ou une description.",
+    "indice": "demande d'appréciation, avec 怎么样",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -6563,31 +6934,43 @@
     "reponse": "我打算坐高铁回老家。",
     "question": "你打算怎么回老家？",
     "traduction": "Comment comptes-tu rentrer dans ta région natale ? — Je compte y rentrer en TGV.",
-    "explication": "怎么 + verbe demande le moyen ou la manière."
+    "explication": "怎么 + verbe demande le moyen ou la manière.",
+    "indice": "sur le moyen de transport, avec 怎么",
+    "variantes": []
    },
    {
     "reponse": "他来中国是为了学习中国文化。",
     "question": "他为什么来中国？",
     "traduction": "Pourquoi est-il venu en Chine ? — Il est venu en Chine pour étudier la culture chinoise.",
-    "explication": "为什么 demande la cause ou le but ; ici la réponse donne le but avec 是为了."
+    "explication": "为什么 demande la cause ou le but ; ici la réponse donne le but avec 是为了.",
+    "indice": "sur le but, avec 为什么",
+    "variantes": []
    },
    {
     "reponse": "今年春节我们在老家过。",
     "question": "今年春节你们在哪儿过？",
     "traduction": "Où passez-vous la fête du Printemps cette année ? — Cette année, nous la passons dans notre région natale.",
-    "explication": "在哪儿 demande le lieu ; il se place devant le verbe, comme 在 + lieu dans la réponse."
+    "explication": "在哪儿 demande le lieu ; il se place devant le verbe, comme 在 + lieu dans la réponse.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "你们今年春节在哪儿过？"
+    ]
    },
    {
     "reponse": "火车晚点了两个小时。",
     "question": "火车晚点了多长时间？",
     "traduction": "Combien de temps le train a-t-il eu de retard ? — Le train a eu deux heures de retard.",
-    "explication": "多长时间 demande une durée ; il se place après le verbe, comme la durée dans la réponse."
+    "explication": "多长时间 demande une durée ; il se place après le verbe, comme la durée dans la réponse.",
+    "indice": "sur la durée, avec 多长时间",
+    "variantes": []
    },
    {
     "reponse": "春节的时候，我想去看看爸爸妈妈。",
     "question": "春节的时候，你想去看谁？",
     "traduction": "Qui veux-tu aller voir à la fête du Printemps ? — Je veux aller voir mes parents.",
-    "explication": "谁 remplace les personnes (爸爸妈妈) à leur place dans la phrase ; le verbe redoublé 看看 redevient simplement 看."
+    "explication": "谁 remplace les personnes (爸爸妈妈) à leur place dans la phrase ; le verbe redoublé 看看 redevient simplement 看.",
+    "indice": "sur les personnes, avec 谁",
+    "variantes": []
    }
   ],
   "fusion": [
@@ -6870,31 +7253,50 @@
     "reponse": "中国有十四亿多人。",
     "question": "中国有多少人？",
     "traduction": "Combien d'habitants la Chine compte-t-elle ? — La Chine compte plus de 1,4 milliard d'habitants.",
-    "explication": "多少 demande un nombre élevé ou inconnu : il prend la place du nombre."
+    "explication": "多少 demande un nombre élevé ou inconnu : il prend la place du nombre.",
+    "indice": "sur le nombre, avec 多少",
+    "variantes": [
+     "中国有多少人口？"
+    ]
    },
    {
     "reponse": "长江有六千三百多公里长。",
     "question": "长江有多长？",
     "traduction": "Quelle est la longueur du Yangzi ? — Le Yangzi fait plus de 6 300 kilomètres de long.",
-    "explication": "有多 + adjectif (多长, 多高, 多重) demande une mesure ; la réponse dit 有 + quantité + adjectif."
+    "explication": "有多 + adjectif (多长, 多高, 多重) demande une mesure ; la réponse dit 有 + quantité + adjectif.",
+    "indice": "sur la longueur, avec 多 + adjectif",
+    "variantes": [
+     "长江多长？"
+    ]
    },
    {
     "reponse": "从这儿到机场大约三十公里。",
     "question": "从这儿到机场有多远？",
     "traduction": "À quelle distance est l'aéroport d'ici ? — D'ici à l'aéroport, il y a environ trente kilomètres.",
-    "explication": "有多远 demande une distance (有多 + adjectif)."
+    "explication": "有多远 demande une distance (有多 + adjectif).",
+    "indice": "sur la distance, avec 多 + adjectif",
+    "variantes": [
+     "从这儿到机场多远？",
+     "这儿离机场有多远？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "中国人口的百分之九十以上是汉族。",
     "question": "中国人口的百分之多少是汉族？",
     "traduction": "Quelle part de la population chinoise est han ? — Plus de 90 % de la population chinoise est han.",
-    "explication": "百分之多少 demande un pourcentage : 多少 prend la place du nombre après 百分之."
+    "explication": "百分之多少 demande un pourcentage : 多少 prend la place du nombre après 百分之.",
+    "indice": "sur le pourcentage, avec 多少",
+    "variantes": []
    },
    {
     "reponse": "北京的人口是我们城市的三倍。",
     "question": "北京的人口是你们城市的几倍？",
     "traduction": "Combien de fois la population de Pékin dépasse-t-elle celle de votre ville ? — Pékin a trois fois plus d'habitants que notre ville.",
-    "explication": "几倍 demande un multiple : 几 remplace le nombre devant 倍."
+    "explication": "几倍 demande un multiple : 几 remplace le nombre devant 倍.",
+    "indice": "sur le multiple, avec 几",
+    "variantes": [],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -7183,31 +7585,49 @@
     "reponse": "我的蛋糕被妹妹吃了。",
     "question": "你的蛋糕被谁吃了？",
     "traduction": "Ton gâteau, qui l'a mangé ? — C'est ma petite sœur.",
-    "explication": "Dans une phrase passive, on interroge sur l'agent avec 谁 placé après 被 : 被谁 + verbe."
+    "explication": "Dans une phrase passive, on interroge sur l'agent avec 谁 placé après 被 : 被谁 + verbe.",
+    "indice": "sur l'auteur de l'action, avec 被 et 谁",
+    "variantes": []
    },
    {
     "reponse": "他住院住了两个星期。",
     "question": "他住院住了多长时间？",
     "traduction": "Combien de temps est-il resté à l'hôpital ? — Deux semaines.",
-    "explication": "多长时间 interroge sur la durée ; avec un verbe sécable (住院), on répète le verbe : 住院住了 + durée."
+    "explication": "多长时间 interroge sur la durée ; avec un verbe sécable (住院), on répète le verbe : 住院住了 + durée.",
+    "indice": "sur la durée, avec 多长时间",
+    "variantes": []
    },
    {
     "reponse": "我腿疼。",
     "question": "你哪儿不舒服？",
     "traduction": "Où avez-vous mal ? — J'ai mal à la jambe.",
-    "explication": "哪儿 porte sur le lieu, ici la partie du corps : 你哪儿不舒服？ est la question habituelle du médecin."
+    "explication": "哪儿 porte sur le lieu, ici la partie du corps : 你哪儿不舒服？ est la question habituelle du médecin.",
+    "indice": "question du médecin, avec 哪儿",
+    "variantes": [
+     "你哪儿疼？",
+     "您哪儿不舒服？"
+    ]
    },
    {
     "reponse": "他的体温三十九度。",
     "question": "他的体温多少度？",
     "traduction": "Quelle est sa température ? — Trente-neuf degrés.",
-    "explication": "多少 + unité (度) demande une quantité, ici la température."
+    "explication": "多少 + unité (度) demande une quantité, ici la température.",
+    "indice": "sur la température, avec 多少",
+    "variantes": [
+     "他的体温是多少度？"
+    ]
    },
    {
     "reponse": "因为他烟抽得太多了。",
     "question": "他为什么咳嗽得这么厉害？",
     "traduction": "Pourquoi tousse-t-il autant ? — Parce qu'il fume trop.",
-    "explication": "为什么 demande la cause ; la réponse commence par 因为."
+    "explication": "为什么 demande la cause ; la réponse commence par 因为.",
+    "indice": "pourquoi il tousse autant, avec 为什么",
+    "variantes": [
+     "他为什么咳嗽咳得这么厉害？"
+    ],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -7494,31 +7914,49 @@
     "reponse": "我是跟爷爷奶奶一起长大的。",
     "question": "你是跟谁一起长大的？",
     "traduction": "Avec qui as-tu grandi ? — J'ai grandi avec mes grands-parents.",
-    "explication": "Structure 是…的 (circonstance d'un fait passé) : on interroge sur la personne avec 谁, placé après 跟."
+    "explication": "Structure 是…的 (circonstance d'un fait passé) : on interroge sur la personne avec 谁, placé après 跟.",
+    "indice": "sur les personnes, avec 谁",
+    "variantes": [
+     "你跟谁一起长大的？"
+    ]
    },
    {
     "reponse": "他读了三年硕士。",
     "question": "他读了几年硕士？",
     "traduction": "Combien d'années a duré son master ? — Trois ans.",
-    "explication": "几 + unité (年) demande un nombre ; la durée se place entre le verbe et l'objet."
+    "explication": "几 + unité (年) demande un nombre ; la durée se place entre le verbe et l'objet.",
+    "indice": "sur la durée en années, avec 几",
+    "variantes": [
+     "他硕士读了几年？"
+    ]
    },
    {
     "reponse": "我不想工作，想读研究生。",
     "question": "你想工作还是读研究生？",
     "traduction": "Tu veux travailler ou poursuivre en master ? — Je ne veux pas travailler, je veux poursuivre en master.",
-    "explication": "Question alternative avec 还是 : on propose deux possibilités, la réponse en choisit une."
+    "explication": "Question alternative avec 还是 : on propose deux possibilités, la réponse en choisit une.",
+    "indice": "question alternative, avec 还是",
+    "variantes": [
+     "你想工作还是想读研究生？"
+    ]
    },
    {
     "reponse": "他们只要一个孩子，因为养孩子的压力太大了。",
     "question": "他们为什么只要一个孩子？",
     "traduction": "Pourquoi n'ont-ils voulu qu'un enfant ? — Parce qu'élever un enfant représente une trop grande pression.",
-    "explication": "为什么 demande la cause ; la réponse la donne avec 因为."
+    "explication": "为什么 demande la cause ; la réponse la donne avec 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "他跟父母的关系很好。",
     "question": "他跟父母的关系怎么样？",
     "traduction": "Comment sont ses relations avec ses parents ? — Très bonnes.",
-    "explication": "怎么样 demande une appréciation ; la réponse est un adjectif (好)."
+    "explication": "怎么样 demande une appréciation ; la réponse est un adjectif (好).",
+    "indice": "demande d'appréciation, avec 怎么样",
+    "variantes": [],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -7803,31 +8241,55 @@
     "reponse": "我打算租房子，不买。",
     "question": "你打算租房子还是买房子？",
     "traduction": "Tu comptes louer ou acheter ? — Je compte louer, pas acheter.",
-    "explication": "Question alternative en 还是 : on propose les deux possibilités."
+    "explication": "Question alternative en 还是 : on propose les deux possibilités.",
+    "indice": "question alternative, avec 还是",
+    "variantes": [
+     "你打算租房还是买房？"
+    ]
    },
    {
     "reponse": "房租每个月三千块。",
     "question": "房租每个月多少钱？",
     "traduction": "Combien coûte le loyer par mois ? — Le loyer est de trois mille yuans par mois.",
-    "explication": "多少钱 demande un prix."
+    "explication": "多少钱 demande un prix.",
+    "indice": "sur le prix, avec 多少",
+    "variantes": [
+     "每个月房租多少钱？",
+     "房租一个月多少钱？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "这件事由王先生负责。",
     "question": "这件事由谁负责？",
     "traduction": "Qui est chargé de cette affaire ? — C'est M. Wang qui en est chargé.",
-    "explication": "On remplace la personne par le mot interrogatif 谁, à la même place, après 由."
+    "explication": "On remplace la personne par le mot interrogatif 谁, à la même place, après 由.",
+    "indice": "sur la personne, avec 谁",
+    "variantes": [
+     "这件事谁负责？"
+    ]
    },
    {
     "reponse": "因为房租太贵了，我们只好搬到郊区去了。",
     "question": "你们为什么搬到郊区去了？",
     "traduction": "Pourquoi avez-vous déménagé en banlieue ? — Parce que le loyer était trop cher, nous n'avions pas le choix.",
-    "explication": "为什么 demande la cause ; la réponse commence par 因为."
+    "explication": "为什么 demande la cause ; la réponse commence par 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [
+     "你们为什么搬到郊区了？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "报名的时候必须带身份证。",
     "question": "报名的时候必须带什么？",
     "traduction": "Que faut-il apporter pour s'inscrire ? — Il faut obligatoirement apporter sa carte d'identité.",
-    "explication": "什么 remplace l'objet (身份证), à sa place après le verbe."
+    "explication": "什么 remplace l'objet (身份证), à sa place après le verbe.",
+    "indice": "sur ce qu'il faut apporter, avec 什么",
+    "variantes": [
+     "报名的时候要带什么？"
+    ],
+    "retirer": true
    }
   ],
   "fusion": [
@@ -8112,31 +8574,48 @@
     "reponse": "我认为网络文学也是文学。",
     "question": "你对网络文学有什么看法？",
     "traduction": "Que penses-tu de la littérature en ligne ? — J'estime que c'est aussi de la littérature.",
-    "explication": "对… 有什么看法 demande une opinion sur un sujet."
+    "explication": "对… 有什么看法 demande une opinion sur un sujet.",
+    "indice": "demande d'opinion, avec 对 … 看法",
+    "variantes": []
    },
    {
     "reponse": "这篇文章是一个大学教授写的。",
     "question": "这篇文章是谁写的？",
     "traduction": "Qui a écrit cet article ? — C'est un professeur d'université qui l'a écrit.",
-    "explication": "Dans la structure 是…的, 谁 remplace l'auteur de l'action passée."
+    "explication": "Dans la structure 是…的, 谁 remplace l'auteur de l'action passée.",
+    "indice": "sur l'auteur, avec 谁",
+    "variantes": []
    },
    {
     "reponse": "他反对，因为他觉得网上的小说内容太简单。",
     "question": "他为什么反对？",
     "traduction": "Pourquoi est-il contre ? — Il est contre parce qu'il trouve le contenu des romans en ligne trop simple.",
-    "explication": "为什么 demande la cause ; la réponse la donne avec 因为."
+    "explication": "为什么 demande la cause ; la réponse la donne avec 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [],
+    "retirer": true
    },
    {
     "reponse": "我们在讨论网络文学。",
     "question": "你们在讨论什么？",
     "traduction": "De quoi êtes-vous en train de débattre ? — Nous débattons de la littérature en ligne.",
-    "explication": "什么 remplace l'objet du verbe, à sa place."
+    "explication": "什么 remplace l'objet du verbe, à sa place.",
+    "indice": "sur le sujet de la discussion, avec 什么",
+    "variantes": [
+     "你们在讨论什么呢？",
+     "你们正在讨论什么？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "支持的人比反对的人多。",
     "question": "支持的人多还是反对的人多？",
     "traduction": "Y a-t-il plus de partisans ou d'opposants ? — Il y a plus de partisans que d'opposants.",
-    "explication": "Question alternative en 还是 : on propose les deux possibilités."
+    "explication": "Question alternative en 还是 : on propose les deux possibilités.",
+    "indice": "question alternative, avec 还是",
+    "variantes": [
+     "反对的人多还是支持的人多？"
+    ]
    }
   ],
   "fusion": [
@@ -8417,31 +8896,51 @@
     "reponse": "这袋奶糖我是在超市买的。",
     "question": "这袋奶糖你是在哪儿买的？",
     "traduction": "Ce sachet de caramels, tu l'as acheté où ? — Je l'ai acheté au supermarché.",
-    "explication": "Dans la structure 是…的, 在哪儿 remplace le lieu d'une action passée."
+    "explication": "Dans la structure 是…的, 在哪儿 remplace le lieu d'une action passée.",
+    "indice": "sur le lieu, avec 哪儿",
+    "variantes": [
+     "这袋奶糖你在哪儿买的？",
+     "你是在哪儿买的这袋奶糖？"
+    ]
    },
    {
     "reponse": "一袋奶糖十五块。",
     "question": "一袋奶糖多少钱？",
     "traduction": "Combien coûte un sachet de caramels ? — Quinze yuans.",
-    "explication": "多少钱 demande un prix."
+    "explication": "多少钱 demande un prix.",
+    "indice": "sur le prix, avec 多少",
+    "variantes": [
+     "奶糖多少钱一袋？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "我小时候最喜欢吃奶糖。",
     "question": "你小时候最喜欢吃什么？",
     "traduction": "Qu'est-ce que tu aimais le plus manger quand tu étais petit ? — Les caramels au lait.",
-    "explication": "什么 remplace l'objet du verbe, à sa place."
+    "explication": "什么 remplace l'objet du verbe, à sa place.",
+    "indice": "sur l'aliment, avec 什么",
+    "variantes": [
+     "你小时候最喜欢吃什么糖？"
+    ],
+    "retirer": true
    },
    {
     "reponse": "这种巧克力我吃过两次。",
     "question": "这种巧克力你吃过几次？",
     "traduction": "Combien de fois as-tu mangé ce chocolat ? — Deux fois.",
-    "explication": "几次 demande le nombre de fois (petit nombre attendu)."
+    "explication": "几次 demande le nombre de fois (petit nombre attendu).",
+    "indice": "sur le nombre de fois, avec 几",
+    "variantes": []
    },
    {
     "reponse": "我喜欢这个牌子，因为它的质量很好。",
     "question": "你为什么喜欢这个牌子？",
     "traduction": "Pourquoi aimes-tu cette marque ? — Je l'aime parce que la qualité est bonne.",
-    "explication": "为什么 demande la cause ; la réponse la donne avec 因为."
+    "explication": "为什么 demande la cause ; la réponse la donne avec 因为.",
+    "indice": "sur la cause, avec 为什么",
+    "variantes": [],
+    "retirer": true
    }
   ],
   "fusion": [

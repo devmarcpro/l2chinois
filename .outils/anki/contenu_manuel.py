@@ -183,10 +183,17 @@ def notes_redigees(d):
                  f'<div class="exemple-bloc"><b>Explication :</b> {_t(x["explication"])}</div>')
         ex.append([recto, verso, "", _etiquettes(lecon, "exercice_choix")])
     for x in d.get("question", []):
-        recto = f"Quelle question appelle cette réponse ?<br><br>— {_t(x['reponse'])}"
+        if x.get("retirer"):
+            continue
+        # l'indice rend la question attendue à peu près unique ; les autres questions justes sont données au verso
+        # (l'utilisateur, 28/09 : « 是，我是学生 → 你是学生吗 » bizarre, 你是不是学生 était juste aussi)
+        indice = f" ({_t(x['indice'])})" if x.get("indice") else ""
+        recto = f"Posez la question qui appelle cette réponse{indice} :<br><br>{_t(x['reponse'])}"
+        variantes = " ; ".join(_t(v) for v in x.get("variantes", []))
         verso = (f"<b>{_t(x['question'])}</b><br><small>{__import__('contenu_cours').spans_par_mot(x['question'])}</small><br>"
                  f"<i>{_t(x['traduction'])}</i><br><br>"
-                 f'<div class="exemple-bloc"><b>Explication :</b> {_t(x["explication"])}</div>')
+                 + (f"<small>Aussi juste : {variantes}</small><br><br>" if variantes else "")
+                 + f'<div class="exemple-bloc"><b>Explication :</b> {_t(x["explication"])}</div>')
         ex.append([recto, verso, "", _etiquettes(lecon, "exercice_question")])
     for x in d.get("fusion", []):
         recto = (f"Faites une seule phrase avec <b>{_t(x['mot'])}</b> :<br><br>" + "<br>".join(_t(p) for p in x["phrases"]))

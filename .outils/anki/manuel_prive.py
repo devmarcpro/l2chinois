@@ -176,7 +176,9 @@ def notes_lecon(d):
                 verso += f"<br><small>{_pinyin(rep)}</small>"
             if it.get("source_reponse") == "déduit":
                 verso += "<br><br><small>(réponse proposée : pas de corrigé dans le manuel)</small>"
-            out.append(("Exercices", [recto, verso, _etiquettes(lecon, "manuel_exercice")]))
+            from audio import texte_exercice_manuel
+            out.append(("Exercices", [recto, verso, _etiquettes(lecon, "manuel_exercice"),
+                                      texte_exercice_manuel(enonce, rep)]))
     return out
 
 
@@ -293,16 +295,13 @@ def main():
         for k, x in enumerate(restant):  # ce qui reste (mots vus en toute fin de leçon) : juste après
             places.append((x, dernier_rang + 1 + min(k, 8)))
         for (genre, n, _, _), rang in places:
-            audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
-            if "manuel_dictee" in n[2] or genre == "Grammaire":
-                tts = "tts::phrase"
-            reponse = n[1].split("<br>")[0]
-            if genre == "Exercices" and re.search(r"[a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]{2,}", nu(reponse)):
-                # réponse en pinyin ou en français : on fait entendre le chinois de l'énoncé, pas la réponse
-                enonce = n[0].split("<br><br>")[-1]
-                zh = "".join(re.findall(r"[一-鿿，。！？、；：]+", nu(enonce)))
-                if len(re.findall(r"[一-鿿]", zh)) >= 1:
-                    audio, tts = zh.strip("，、；："), "tts::reponse"
+            if len(n) > 3:  # exercice : texte calculé à la création (énoncé complété par la réponse)
+                audio = n[3]
+                tts = "tts::reponse" if audio else "tts::aucun"
+            else:
+                audio, tts = texte_audio("Lecture" if genre == "Textes" else genre, n[0], n[1], n[2])
+                if "manuel_dictee" in n[2] or genre == "Grammaire":
+                    tts = "tts::phrase"
             fichiers[genre].append([n[0], n[1], n[2] + " " + tts, paquet, audio])
             rangement.append((n[0], paquet, rang))
     # rectos disparus depuis la dernière version : gardés avec a_supprimer

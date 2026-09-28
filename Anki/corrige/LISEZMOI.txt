@@ -339,6 +339,18 @@ AUDIO (voix Google Traduction) : UN SEUL AUDIO PAR CARTE, LE BON TEXTE (depuis l
   relancer plus tard. Internet necessaire ; Echap arrete, et la fois suivante reprend la ou on en etait. Un meme
   texte n'est demande qu'une fois. Les fichiers (environ 15 Ko en moyenne, 400 a 450 Mo pour tout) partent sur AnkiWeb a la
   synchronisation suivante : la premiere synchronisation des medias est longue.
+- REFAIRE PAR CATEGORIE : Outils > "Chinois : refaire l'audio d'une categorie" : mots, phrases (et dictees,
+  exemples de grammaire du manuel), reponses des exercices, fiches de grammaire, dialogues d'ecoute, textes de
+  lecture, caracteres a ecrire, ou tout. La liste dit, pour chacune, combien d'audios sont a refaire : ceux qui
+  manquent et ceux qui ne sont pas l'audio du texte actuel (anciens audios HyperTTS, texte corrige depuis).
+  L'ancien audio reste en place jusqu'a ce que le nouveau le remplace ; meme rythme et memes seances que l'ajout.
+- Ce que lit l'audio (corrige le 28/09) : les exercices du manuel faisaient entendre la phrase de l'enonce SANS
+  la reponse (« 男朋友家公司很远 » pour 男朋友家离公司很远) : ils font maintenant entendre la phrase juste, trous
+  remplis. Les dates perdaient le 〇 (二〇二六年). Ne sont plus lus : ce qui est entre parentheses (mot
+  facultatif, variante), une forme fautive marquee *, les lignes « Aussi juste : ». Un caractere seul (carte de
+  mot ou d'ecriture) est lu avec la lecture de la carte, meme quand ce n'est pas la plus courante (长 zhǎng,
+  得 de). Les notes concernees perdent leur ancien audio a l'import ("tout mettre en place") ; l'ajout ou la
+  categorie a refaire les reprend.
 - A la main si besoin : Outils > "Chinois : notes sans audio (HyperTTS)" ouvre le navigateur sur exactement
   les notes a traiter (texte audio rempli, "Ajouter le verso" vide) ; tout selectionner > HyperTTS > ajout en
   lot avec un preset : source = champ "Texte audio", cible = "Ajouter le verso", son seul, voix Google
@@ -423,6 +435,12 @@ EXERCICES PAR LECON (depuis le 27/09)
   lecon et ceux qui emploient le plus ses mots nouveaux ; le reste passe apres le manuel. Un exercice sur un
   chengyu ou un mot absent du manuel va lui aussi apres le manuel. Resultat : 30 a 70 exercices publics par
   lecon (au lieu de 50 a 220).
+- Relecture carte par carte le 28/09 : 486 exercices retires (doublons de phrase ou de point, cartes triviales,
+  ambigues, ou dont la grammaire vient plus tard dans le manuel), 116 versos retouches (autres reponses justes
+  acceptees, pinyin, traductions). Liste dans .outils/anki/donnees_hsk/exercices_retires.json. Les cartes
+  "Quelle question appelle cette reponse ?" deviennent "Posez la question qui appelle cette reponse (indice) :"
+  : l'indice (« question fermee, avec 吗 », « avec 什么 »...) rend la question attendue unique, et le verso donne
+  les autres questions justes.
 
 RAPPEL ACTIF (chercher la reponse avant de la voir)
 - Toutes les cartes posent une question : mot (sens et pinyin, puis francais -> chinois), phrase (lecture,

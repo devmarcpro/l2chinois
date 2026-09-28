@@ -9,7 +9,21 @@ Une note retirée reste dans le fichier avec a_supprimer (garder_anciens_rectos)
 import re
 
 
+def _retires():
+    """Exercices retirés à la relecture carte par carte du 28/09 (doublons, triviaux, ambigus, hors niveau) :
+    donnees_hsk/exercices_retires.json (rectos)."""
+    import json
+    from pathlib import Path
+    f = Path(__file__).parent / "donnees_hsk" / "exercices_retires.json"
+    return {x["recto"] for x in json.loads(f.read_text(encoding="utf-8"))} if f.exists() else set()
+
+
+RETIRES = _retires()
+
+
 def inutile(r) -> bool:
+    if r[0] in RETIRES:
+        return True
     etiquettes = set(r[3].split())
     if "exercice_traditionnel" in etiquettes:
         return True
@@ -24,5 +38,5 @@ def inutile(r) -> bool:
 def appliquer(paquets, stats):
     avant = len(paquets["Exercices"])
     paquets["Exercices"] = [r for r in paquets["Exercices"] if "a_supprimer" in r[3].split() or not inutile(r)]
-    return {"Exercices retirés (traditionnel → simplifié, ton ou pinyin d'un caractère isolé)":
+    return {"Exercices retirés (traditionnel → simplifié, ton ou pinyin d'un caractère isolé, relecture du 28/09)":
             avant - len(paquets["Exercices"])}

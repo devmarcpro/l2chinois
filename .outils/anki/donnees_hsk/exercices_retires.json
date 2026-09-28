@@ -1,0 +1,1786 @@
+[
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我是学生，他___是学生。<br><br>Choix : 也 / 都",
+  "raison": "doublon de 002 : même phrase (我是学生，X也是学生), même point (也)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>都</b> :<br><br>他是中国人。<br>她是中国人。",
+  "raison": "doublon de 015 : même fusion 他 + 她 → 他们都 ; 015 ajoute la négation 都不"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你是___国人？<br><br>Choix : 哪 / 什么 / 谁",
+  "raison": "doublon de 020 : même phrase et même point (你是哪国人？)"
+ },
+ {
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>工",
+  "raison": "hors niveau : à part 工作, les mots (木工, 手工, 工夫) sont inconnus à la L01"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : question fermée (oui / non) et façon d'y répondre) :<br><br>你是中国人___？<br><br><i>Tu es chinois ?</i>",
+  "raison": "doublon de 005 (même phrase 你是中国人吗) et triviale : le recto donne le sens de la réponse"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ de fángjiān bú tài dà.</i>",
+  "raison": "la phrase à écrire est le recto de 002, vu juste avant"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他家有二只小猫。",
+  "raison": "même point que 006 (两 et non 二 devant un classificateur)"
+ },
+ {
+  "recto": "Placez <b>没</b> au bon endroit :<br><br>我 A 有 B 猫 C ， 我 有 一只 狗 。",
+  "raison": "même point que 025 (没有), et placement évident"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我们的老师很喜欢___。<br><br>Choix : 我们 / 我们的 / 对我们",
+  "raison": "triviale : 我们 comme objet, distracteurs sans vraisemblance"
+ },
+ {
+  "recto": "Placez <b>的</b> au bon endroit :<br><br>这 件 毛衣 是 A 我 B 姐姐 C 。",
+  "raison": "la phrase est le recto de 013 (这件毛衣是我姐姐的), vu juste avant"
+ },
+ {
+  "recto": "Placez <b>还是</b> au bon endroit :<br><br>你 A 喜欢 B 红 的 C 蓝 的 D ？",
+  "raison": "même point que 014 (A的还是B的), placement évident ; 还是 déjà travaillé 4 fois dans la leçon"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ hē chá háishi hē niúnǎi?</i>",
+  "raison": "quasi la même phrase que la réponse de 015 (你喝牛奶还是喝茶)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>那么 / 你的 / 大 / 没有 / 我的房间",
+  "raison": "hors niveau : A 没有 B 那么 + adj. (comparaison) n'est vu qu'en L14"
+ },
+ {
+  "recto": "Placez <b>几</b> au bon endroit :<br><br>你 A 有 B 个 C 哥哥 ？",
+  "raison": "triviale : 个 est déjà en place, 几 ne peut aller qu'avant ; point déjà vu (几口人, L02)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我不知道她喜欢红的或者白的。",
+  "raison": "hors niveau : 或者 et l'opposition 还是 / 或者 ne sont vus qu'en L07"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你喝红茶___绿茶？<br><br>Choix : 还是 / 和",
+  "raison": "triviale (« ou » / « et ») et même point que 014 et 015"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我想买一___毛衣。<br><br>Choix : 件 / 张",
+  "raison": "triviale : 一件毛衣 déjà vu dans 021 et 024 juste avant"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我们今天吃饭在学校。",
+  "raison": "même erreur que P1-L01-008 (在 + lieu après le verbe) ; 042 teste déjà ce point"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你是这个学校的学生___？<br><br>Choix : 吗 / 呢 / 的",
+  "raison": "point de la L01 (吗), trivial à la L04"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你___去火车站？<br><br>Choix : 怎么 / 什么 / 哪儿",
+  "raison": "même point que 018 (怎么 + verbe : moyen) ; distracteurs impossibles à cette place"
+ },
+ {
+  "recto": "Dites l'heure en chinois :<br><br><b>12 h 10</b>",
+  "raison": "triviale : 十二点十分 ne pose aucune difficulté (déjà 001, 003, 014)"
+ },
+ {
+  "recto": "Écrivez la date en chinois :<br><br><b>le 1er mai 2019</b>",
+  "raison": "doublon de 005 (écrire une date)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>喝 / 她 / 喜欢 / 咖啡",
+  "raison": "triviale : 4 mots dans l'ordre évident, point de la L03"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Xiànzài chà wǔ fēn jiǔ diǎn, wǒmen zǒu ba.</i>",
+  "raison": "même phrase que 013 (现在差五分九点)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>什么时候 / 到北京的 / 你 / 是",
+  "raison": "hors niveau : 是…的 n'est vu qu'en L11"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>现在是晚上___。<br><br>Choix : 七点半 / 半七点 / 七半点",
+  "raison": "même point que 047 (八点半), distracteurs absurdes (半七点, 七半点)"
+ },
+ {
+  "recto": "Placez <b>离</b> au bon endroit :<br><br>我 家 A 公司 B 很 C 远 D。",
+  "raison": "même point que 035 (A 离 B 很远), placement évident"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>坐…去</b> :<br><br>我坐地铁。<br>我去公司。",
+  "raison": "triviale (il suffit de juxtaposer) ; 坐 + transport + 去 déjà dans 018, 023, 044"
+ },
+ {
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>马丽 A 每天 B 坐 地铁 C 去 公司 D。",
+  "raison": "même point que 009 (每天都)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>做早饭 / 每天 / 给我们 / 妈妈",
+  "raison": "hors niveau : 给 préposition (« pour ») n'est vu qu'en L05"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : ensemble (adverbe)) :<br><br>我们___去吃饭吧。<br><br><i>Allons manger ensemble.</i>",
+  "raison": "triviale : le recto donne le sens (« ensemble ») et la traduction"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Jīntiān jǐ yuè jǐ hào? Xīngqī jǐ?</i>",
+  "raison": "doublon : 今天几月几号 est la réponse de 049, 星期几 celle de 027"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>做好 / 把饭 / 还没 / 你怎么",
+  "raison": "hors niveau : 把 n'est vu qu'au 2e niveau (L04)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>今天___星期一，是星期二。<br><br>Choix : 不是 / 不 / 没",
+  "raison": "doublon de 019 (négation d'un prédicat nominal : 不是八号 / 不是星期一)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>还是</b> :<br><br>你坐公共汽车去？<br>你坐地铁去？",
+  "raison": "même structure que 028 (是坐…去还是…去)"
+ },
+ {
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>星",
+  "raison": "verso = seulement 星期 et des jours de la semaine ; identique à 058"
+ },
+ {
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>期",
+  "raison": "verso identique à 057 (星期 et jours de la semaine), aucun autre mot en 期"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他___喜欢吃辣的。（caractère général）<br><br>Choix : 不 / 没",
+  "raison": "triviale : l'indice (caractère général) donne la réponse ; 不 / 没 est traité en L08"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我喜欢喝了茶。",
+  "raison": "了 d'aspect vu en L08 seulement : erreur prématurée à la L05"
+ },
+ {
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br>了 (dans 我吃了)<br><br>Choix : le / liǎo / liào",
+  "raison": "triviale (了 = le) et distracteur liào obscur"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他___朋友一起去北京了。<br><br>Choix : 和 / 对 / 给",
+  "raison": "doublon de L05-034 (和 / 跟 + 一起 contre 对 / 给, même format)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也得 / 吃饭啊 / 再忙，你 / 就是",
+  "raison": "就是…也 (même si) et 再 concessif hors programme ; même tournure que L05-013"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>这是我___书。<br><br>Choix : 得 / 的",
+  "raison": "triviale (的 possessif, vu en L01)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也要 / 你 / 吃早饭 / 再忙",
+  "raison": "再 + adjectif + 也 concessif : absent du 1er niveau (再 = encore / de nouveau à la L05)"
+ },
+ {
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br><span class=\"hanzi\">得 (dans 说得很好)</span><br><br>Choix : děi / de / dé",
+  "raison": "complément de degré en 得 : leçon 6, pas 5"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>___，你好！你在家吗？<br><br>Choix : 喂 / 吗 / 吧",
+  "raison": "doublon de L05-025 (喂 en tête d'appel) ; distracteurs 吗 / 吧 absurdes"
+ },
+ {
+  "recto": "Où placer 了 pour dire « Il a étudié le chinois en Chine » (action accomplie) ?<br><br>他去中国学中文。<br><br>Choix : 他去中国学了中文。 / 他去中国学中文了。",
+  "raison": "了 dans une phrase à verbes en série = grammaire de L08 ; 学了中文 (objet nu) sonne inachevé"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ zuò yíxià, wǒ mǎshàng lái.</i>",
+  "raison": "一下 n'arrive qu'en L08 (traduction impossible à la L05)"
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Je voudrais une tasse de thé.</i><br><br>① 我想要一杯茶。<br>② 我想喝一碗茶。<br>③ 我要买一杯茶。",
+  "raison": "troisième carte sur 一杯 (cf. L05-011) ; 碗 vu en 2e niveau, « pas pour le thé » discutable"
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>chāoshì</b> — supermarché<br><br>Choix : 超市 / 朝市 / 潮市",
+  "raison": "triviale : distracteurs 朝市 / 潮市 faits de caractères inconnus"
+ },
+ {
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br><span class=\"hanzi\">得 (dans 做得好)</span><br><br>Choix : dé / děi / de",
+  "raison": "doublon de L05-017 (得 de) et complément de degré = L06"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>妈妈在___饭。<br><br>Choix : 做 / 买 / 吃",
+  "raison": "ambiguë : 妈妈在吃饭 / 买饭 sont justes aussi ; 在 progressif = L10"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这件衬衫很漂亮，你看___吧。<br><br>Choix : 一下 / 一点儿",
+  "raison": "teste 一下, vu en L08"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>___个东西是什么？<br><br>Choix : 哪 / 那",
+  "raison": "triviale (那 / 哪, L01-L02) et explication bancale"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我___王，叫王大海。<br><br>Choix : 姓 / 叫 / 是",
+  "raison": "triviale : 姓 / 叫, pure révision de la L01"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>晚会 / 参加得了 / 你 / 吗 / 明天的",
+  "raison": "complément potentiel 得了 = 2e niveau L06 (le 不了 de la L05 = « non merci ») ; pinyin dé le faux"
+ },
+ {
+  "recto": "Placez <b>不要</b> au bon endroit :<br><br>你 A 喝 B 太 多 C 酒 D。",
+  "raison": "doublon de L05-038 (不要 + 喝酒) et placement évident"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 酒 (alcool, vin) :<br><br>他晚饭时喝了两___酒。<br><br>Choix : 本 / 杯 / 张",
+  "raison": "triviale (本 / 张 exclus d'emblée) ; encore 杯, déjà vu en L05-011"
+ },
+ {
+  "recto": "Placez <b>请</b> au bon endroit :<br><br>我 A 想 B 朋友们 C 来 家里 D 吃饭。",
+  "raison": "même phrase et même point que L05-005 (请朋友来家里吃饭)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她一个人在家里学习中文，两年学了。",
+  "raison": "complément de durée = L13 ; 学了两年 (sans 了 final) aussi juste mais refusé"
+ },
+ {
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>超",
+  "raison": "recoupe L05-060 (超市, 超级市场 dans les deux)"
+ },
+ {
+  "recto": "Identifiez la structure grammaticale :<br><br>他跑得很快。— Quel est le rôle de 得 ici ?<br><br>Choix : Introduit le COD / Introduit un complément de degré après le verbe / Marque l'aspect accompli",
+  "raison": "triviale : la bonne réponse se devine (seule à parler de « après le verbe »)"
+ },
+ {
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>别",
+  "raison": "un seul vrai mot (特别) ; 别说了 n'est pas un mot ; sens tronqué « except »"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>汉字写得</b> :<br><br>他写汉字。<br>他写得很好。",
+  "raison": "la consigne donne la réponse (汉字写得) ; 他写汉字写得很好 juste mais refusé ; recoupe L06-008"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : soi-même (pronom réfléchi)) :<br><br>这是我___做的菜。<br><br><i>C'est un plat que j'ai préparé moi-même.</i>",
+  "raison": "simple rappel de vocabulaire (sens fourni) ; le point 自己 est travaillé par L06-014"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>我每天早上七点___。<br><br>Choix : 起床 / 睡觉 / 跳舞",
+  "raison": "triviale et sans rapport avec la leçon (起床, L04)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我昨天没去了学校。",
+  "raison": "了 et négation de l'accompli = L08"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>我昨天___去学校。（je n'y suis pas allé）<br><br>Choix : 没 / 不",
+  "raison": "même phrase que L06-023, l'indice donne la réponse ; 不 / 没 = L08"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>今天我___工作，休息一天。<br><br>Choix : 不 / 没",
+  "raison": "不 / 没 = L08 ; 今天我没工作 se défend aussi"
+ },
+ {
+  "recto": "Placez <b>了</b> au bon endroit :<br><br>这个 A 汉字 B 太 C 难写 D。",
+  "raison": "triviale : 太…了 (L05), une seule place possible"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>两遍 / 再 / 你 / 把这些生词 / 写",
+  "raison": "construction en 把 = 2e niveau L04"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>晚饭我们吃了鱼、面条___。<br><br>Choix : 什么的 / 什么 / 的什么",
+  "raison": "什么的 n'arrive qu'en L10"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这张唱片很___听，我特别喜欢。<br><br>Choix : 好 / 难 / 有",
+  "raison": "triviale : 有听 n'existe pas, 难听 contredit la suite"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这个字太小了，我看___。<br><br>Choix : 不清楚 / 清楚不 / 不得清楚",
+  "raison": "complément potentiel (看不清楚) = 2e niveau L06"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : pas terrible, bof) :<br><br>这家饭馆的菜___。<br><br><i>La cuisine de ce restaurant n'est pas terrible.</i>",
+  "raison": "même phrase que L06-009 (饭馆的菜不怎么样)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这家店的咖啡___，我不想再去了。<br><br>Choix : 不怎么样 / 不怎么 / 怎么样不",
+  "raison": "doublon de L06-009 (même choix 不怎么样 / 不怎么)"
+ },
+ {
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">觉 (dans 觉得)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "raison": "doublon de L06-047 (觉 dans 觉得)"
+ },
+ {
+  "recto": "Placez <b>得很</b> au bon endroit :<br><br>她 A 的 B 普通话 C 好 D。",
+  "raison": "doublon de L06-004 (得很 après l'adjectif), placement évident"
+ },
+ {
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">教 (dans 教书)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "raison": "教书 absent du manuel ; 教 jiāo / jiào mieux testé en L07-007"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他在北京学汉语了两年。",
+  "raison": "complément de durée = L13, 了 = L08"
+ },
+ {
+  "recto": "Placez <b>离</b> au bon endroit :<br><br>我家 A 学校 B 很 C 近 D。",
+  "raison": "doublon de L07-018 (我家离学校很近 / 远), placement évident"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他现在在___工作。<br><br>Choix : 中国 / 中国里 / 里中国",
+  "raison": "même point que L07-029 (pas de 里 après un nom de pays / ville) ; distracteur 里中国 absurde"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>小猫在___睡觉。<br><br>Choix : 椅子上 / 椅子 / 上椅子",
+  "raison": "même point que L07-008 (objet + 上 / 里 après 在) ; distracteur 上椅子 absurde"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他们___见过面。（ils ne se sont jamais rencontrés）<br><br>Choix : 不 / 没",
+  "raison": "过 d'expérience = L12 ; l'indice donne la réponse"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>桌子上有一本书。<br>那本书是我的。",
+  "raison": "même phrase et même point que L07-005 ; 桌子上的那本书 juste mais refusé"
+ },
+ {
+  "recto": "Placez <b>就</b> au bon endroit :<br><br>A 银行 B 在 C 邮局 D 对面。",
+  "raison": "même phrase que L07-011, 就在 déjà testé par L07-033"
+ },
+ {
+  "recto": "Complétez ce chengyu :<br><br>一___千里<br><br>Choix : 日 / 飞 / 步",
+  "raison": "chengyu hors leçon"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也没 / 半天 / 找到那本书 / 我 / 找了",
+  "raison": "了 + durée (L08, L13) et 找到 (compl. de résultat, L13)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>家 / 去吧 / 你把 / 带回 / 这些水果",
+  "raison": "把 (2e niveau L04) et directionnel complexe"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也没 / 长城 / 一次 / 去过 / 我",
+  "raison": "过 d'expérience = L12, 一次 = L10"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>叫了 / 一声 / 我 / 妈妈 / 在楼下",
+  "raison": "classificateur verbal 一声 (声 = 2e niveau) et 了 (L08)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她每天都去___学习中文。<br><br>Choix : 学校 / 饭店 / 银行",
+  "raison": "triviale (学校)"
+ },
+ {
+  "recto": "Placez <b>往</b> au bon endroit :<br><br>你 A 一直 B 前 C 走 D，银行 就 在 右边。",
+  "raison": "même phrase et même point que L07-006 (往前走, banque à gauche / droite)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一直 / 你的电话 / 在等 / 他",
+  "raison": "在 progressif = L10"
+ },
+ {
+  "recto": "Placez <b>往</b> au bon endroit :<br><br>我们 A 能 B 这边 C 走 D。",
+  "raison": "troisième carte sur 往 + direction + V (cf. L07-006, 027)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看得 / 你 / 清楚吗 / 黑板上的字",
+  "raison": "complément potentiel = 2e niveau L06"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___会游泳，所以怕水。<br><br>Choix : 没 / 不",
+  "raison": "triviale (没会 ne tente personne) ; 怕 = L12 ; recoupe L08-009"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她回家的时候，孩子还___睡觉。<br><br>Choix : 没 / 不",
+  "raison": "ambiguë : 孩子还不睡觉 (ne veut toujours pas dormir) est juste aussi"
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>___电话<br><br>Sens attendu : <i>téléphoner</i><br><br>Choix : 接 / 发 / 打",
+  "raison": "triviale : 打电话 connu depuis la L05, sens donné"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>我打电话给他，___有人接。<br><br>Choix : 不 / 没",
+  "raison": "triviale : 不有 n'existe jamais"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : en plus, aussi (ajouter une action)) :<br><br>我会说英语，___会说汉语。<br><br><i>Je parle anglais, et en plus chinois.</i>",
+  "raison": "ambiguë : 也 convient aussi (cf. L08-004 qui l'emploie)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : nombres ordinaux) :<br><br>这是我___一次来中国。<br><br><i>C'est la première fois que je viens en Chine.</i>",
+  "raison": "la consigne (nombres ordinaux) donne 第 ; ordinaux déjà testés en L08-019 et 039"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>借给 / 我吗 / 把那本词典 / 你 / 可以",
+  "raison": "construction en 把 = 2e niveau L04"
+ },
+ {
+  "recto": "Placez <b>对</b> au bon endroit :<br><br>抽烟 A 身体 B 不 C 好 D。",
+  "raison": "doublon de L08-013 (A 对 B 好 / 不好), placement évident"
+ },
+ {
+  "recto": "Placez <b>可以</b> au bon endroit :<br><br>A 我 B 用 一下 C 你的 D 电话 吗？",
+  "raison": "doublon de L08-010 (我可以用一下…吗？)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>还 / 英语 / 汉语以外，他 / 会说 / 除了",
+  "raison": "doublon exact de L08-027 (除了…以外，他还会说…)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>以外，也喜欢 / 听音乐 / 他除了 / 喜欢看书",
+  "raison": "troisième ordre sur 除了…以外 + 也 / 还 (cf. L08-027)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>报纸 / 吗 / 看得懂 / 你 / 中文",
+  "raison": "complément potentiel (看得懂) = 2e niveau L06"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>什么的我喜欢打球、游泳。",
+  "raison": "什么的 n'arrive qu'en L10"
+ },
+ {
+  "recto": "Identifiez la structure grammaticale :<br><br>越练越好。— Que signifie cette structure ?<br><br>Choix : S'entraîner est de mieux en mieux / Plus on s'entraîne, mieux c'est / On s'entraîne mieux et mieux",
+  "raison": "triviale : deux choix sur trois ne sont pas du français ; 越…越 déjà travaillé en 047"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你今天___不吃早饭？<br><br>Choix : 为什么 / 什么 / 因为",
+  "raison": "doublon de 014 (为什么 devant 不 + verbe), distracteurs évidents (什么, 因为)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : pourquoi (demander la raison)) :<br><br>你___学习汉语？<br><br><i>Pourquoi apprends-tu le chinois ?</i>",
+  "raison": "triviale : le recto donne le sens « pourquoi » et la traduction ; 为什么 déjà testé 3 fois"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>都 / 箱子里 / 他把 / 放进了 / 桌子上的东西",
+  "raison": "hors niveau : 把 + 放进 (2e niveau L3-L4), 放 n'arrive qu'en L10"
+ },
+ {
+  "recto": "Complétez ce chengyu (expression à 4 caractères) :<br><br>一___千里<br><br>Choix : 步 / 日 / 飞",
+  "raison": "chengyu savant (一日千里), sans lien avec la leçon"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>放不下 / 东西 / 箱子里 / 这么多",
+  "raison": "hors niveau : complément potentiel 放不下 (2e niveau L6)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>都没 / 他 / 听见 / 好几声，他 / 我叫了",
+  "raison": "mal placée : classificateur verbal 一声 (L12), 好几 (L13)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>我家有三个房间，一个___，两个卧室。<br><br>Choix : 客厅 / 天气 / 公司",
+  "raison": "triviale : 天气 et 公司 ne peuvent pas convenir ; 客厅 est un mot de L07"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一会儿冷 / 天气 / 一会儿热 / 这里的",
+  "raison": "mal placée : 一会儿…一会儿… est introduit en L10 (même phrase dans le manuel)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : il vaut mieux, finalement (suggestion)) :<br><br>天太晚了，我们___回家___。<br><br><i>Il est trop tard, on ferait mieux de rentrer.</i>",
+  "raison": "triviale : le recto donne le sens et la traduction ; 还是…吧 déjà en 040 et 041"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>在了 / 她 / 忘 / 把 / 钱包 / 出租车上",
+  "raison": "hors niveau : phrase en 把 + 忘在 (2e niveau L4)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>还是</b> :<br><br>你今天出发吗？<br>你明天出发吗？",
+  "raison": "doublon : question alternative en 还是 déjà faite en 011 et 016"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>因为我没有签证，___不能去中国。<br><br>Choix : 因为 / 所以",
+  "raison": "triviale (因为…___ → 所以) et doublon de la fusion 052 (没有签证/钱 → 不能去)"
+ },
+ {
+  "recto": "Dites ce prix en chinois :<br><br><b>35 yuans</b>",
+  "raison": "triviale : 35 en chinois à la L09 ; les autres prix (128, 208, 1 500, 2,50) suffisent"
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>gōngzuò</b> — travail<br><br>Choix : 公作 / 工作 / 功作",
+  "raison": "triviale : 工作 est un mot de L01"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我还没吃早饭___。<br><br>Choix : 呢 / 了",
+  "raison": "quasi même phrase que 019 (还没吃…饭呢) ; 呢 et non 了 déjà testé en 045"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : action en cours, sans 在) :<br><br>妈妈做饭___，你等一下。<br><br><i>Maman est en train de préparer le repas, attends un peu.</i>",
+  "raison": "doublon de 005 (V + 呢, action en cours) et le recto donne sens et traduction"
+ },
+ {
+  "recto": "Réduplication — choisissez la bonne forme :<br><br>Pour dire 'essayer un peu', on dit 试___试<br><br>Choix : 试 / 一 / 着",
+  "raison": "triviale : 试试试 et 试着试 sont impossibles, seule 一 reste"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一晚上 / 这件事 / 没睡好 / 气得他",
+  "raison": "hors niveau : V得 + sujet + prédicat (气得他…), 2e niveau L1"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>坐着 / 十来个 / 房间里 / 学生",
+  "raison": "doublon de 002 (lieu + 坐着 + nombre + 学生) ; 十来个 hors niveau"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>睡不着 / 一 / 就 / 喝咖啡 / 我",
+  "raison": "mal placée : 一…就… arrive en L11, 睡不着 est un complément potentiel"
+ },
+ {
+  "recto": "Réduplication — choisissez la bonne forme :<br><br>Comment dit-on 'de mieux en mieux' ?<br><br>Choix : 越来越好 / 好好好 / 好了又好",
+  "raison": "consigne fausse (ce n'est pas une réduplication), distracteurs absurdes"
+ },
+ {
+  "recto": "Réduplication — choisissez la bonne forme :<br><br>Comment dit-on que quelqu'un rit aux éclats avec AA ?<br><br>Choix : 大笑哈哈 / 哈哈大笑 / 笑哈哈",
+  "raison": "hors sujet (哈哈大笑 n'est pas un adjectif redoublé) et 笑哈哈 est aussi correct"
+ },
+ {
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br>着 (dans 看着)<br><br>Choix : zhāo / zhe / zhé",
+  "raison": "doublon de 008 : pinyin de 着 particule (zhe), même format"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Les étudiants sont sortis de la salle :</i><br><br>Choix : 同学们走去出了 / 同学们走出去了 / 同学们出走去了",
+  "raison": "hors niveau : complément directionnel composé 走出去 (2e niveau L8)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : peut-être, il est possible que) :<br><br>明天___会下雨。<br><br><i>Il va peut-être pleuvoir demain.</i>",
+  "raison": "triviale : le recto donne le sens « peut-être » et la traduction"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : à cause de (préposition)) :<br><br>___这件事，他一晚上没睡觉。<br><br><i>À cause de cette histoire, il n'a pas dormi de la nuit.</i>",
+  "raison": "triviale : le recto donne le sens « à cause de » et la traduction"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___是老师，是医生。<br><br>Choix : 没 / 不",
+  "raison": "triviale : 不是, vu en L01"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>走了进来 / 一个大包 / 妈妈 / 拿着",
+  "raison": "trop difficile : 走了进来 (directionnel composé avec 了, 2e niveau)"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>他___图书馆看书。<br><br>Choix : 在 / 再",
+  "raison": "triviale : 在 + lieu (L04) contre 再"
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>她___了这家公司，找到了更好的工作。<br><br>Sens attendu : <i>a quitté</i><br><br>Choix : 离开 / 打 / 逃离",
+  "raison": "triviale : le recto donne le sens « a quitté » ; 逃离 est rare"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>她做___很认真。<br><br>Choix : 的 / 得",
+  "raison": "doublon de 041 (V + 得) ; l'explication parle à tort de « complément de manière »"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Il est entré dans la salle en courant :</i><br><br>Choix : 进跑去了 / 跑进去了 / 跑去进了",
+  "raison": "hors niveau : 跑进去 (directionnel composé, 2e niveau) ; « la salle » absente du chinois"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Elle a descendu les valises :</i><br><br>Choix : 她把箱子下搬来了 / 她搬来下箱子了 / 她把箱子搬下来了",
+  "raison": "hors niveau : 把 + 搬下来 (2e niveau L4 et L8)"
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>他特别___他的小女儿，什么好东西都留给她。<br><br>Sens attendu : <i>chérit</i><br><br>Choix : 疼 / 看重 / 爱",
+  "raison": "ambiguë : 爱 convient aussi ; 疼 « chérir » est hors niveau"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他一边吃早饭，___看电视。<br><br>Choix : 一边 / 又 / 就",
+  "raison": "triviale : le premier 一边 est donné ; 一边…一边 déjà en 004, 017, 045"
+ },
+ {
+  "recto": "Placez <b>先</b> au bon endroit :<br><br>A 我们 B 吃饭，然后 C 去 D 看电影。",
+  "raison": "même phrase que 013 (我们先吃饭，再/然后去看电影) ; placement évident"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他昨天下了课___去图书馆了。<br><br>Choix : 就 / 再 / 在",
+  "raison": "doublon de 020 : V1了 + 就 et non 再, au passé"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè jiā fànguǎn de cài yòu piányi yòu hǎochī.</i>",
+  "raison": "quasi la même phrase que 011 (菜又便宜又好吃)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>她___漂亮又努力。<br><br>Choix : 又 / 一边",
+  "raison": "doublon de 011 (又…又 contre 一边) et triviale : le second 又 est donné"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : par (où l'on passe)) :<br><br>我们___这条路走吧。<br><br><i>Passons par cette route.</i>",
+  "raison": "triviale : le recto donne le sens « par » et la traduction ; même point que 025"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你是什么时候来巴黎___？<br><br>Choix : 的 / 了",
+  "raison": "même phrase que la réponse de 015 (你是什么时候来巴黎的？)"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Elle a monté la valise au grenier.</i><br><br>Choix : 她把箱子上搬去了 / 她把箱子搬上去了 / 她把箱子去上搬了",
+  "raison": "hors niveau : 把 + 搬上去 (2e niveau) ; « au grenier » absent du chinois"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看过 / 两次 / 我去医院 / 他",
+  "raison": "mal placée : V过 + pronom + 两次, c'est le point de la L12"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā bú shì lǎoshī, tā shì Běijīng Dàxué de xuésheng.</i>",
+  "raison": "triviale : phrase de niveau L01"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā gèzi hěn gāo, tóufa hěn cháng.</i>",
+  "raison": "triviale : phrase de niveau L02, sans lien avec la leçon"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ shì Fǎguórén, tā yě shì Fǎguórén.</i>",
+  "raison": "triviale : phrase de niveau L01"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一边 / 聊吧 / 我们 / 一边吃饭",
+  "raison": "doublon de 004 : remettre en ordre 一边…一边…"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的天 / 聊了 / 我们 / 一个下午",
+  "raison": "mal placée : durée dans un verbe séparable (聊了一个下午的天) = L13"
+ },
+ {
+  "recto": "Placez <b>的</b> au bon endroit :<br><br>我是 A 在北京 B 长大 C 。",
+  "raison": "placement évident de 的 en fin de phrase, même phrase que 048 (是在…长大的)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他是我最好的___，我们从小一起长大。<br><br>Choix : 朋友 / 老师 / 医生",
+  "raison": "triviale : 朋友"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Il a ramené le livre de la bibliothèque.</i><br><br>Choix : 他把书从图书馆带来了回 / 他从图书馆带书回了来 / 他从图书馆把书带回来了",
+  "raison": "hors niveau (把 + 带回来) et 他把书从图书馆带回来了, plus courant, serait refusé"
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>他们谈___谈___，慢慢找到了共同点。<br><br>Choix : 着 / 了",
+  "raison": "hors niveau : V着V着 (2e niveau L3), 共同点 inconnu"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我到家就了给你打电话。",
+  "raison": "doublon de 056 et 020 (V1了 + 就) ; faute peu vraisemblable, 到家就… sans 了 aussi juste"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我今天喝了两___咖啡，现在一点儿也不累。<br><br>Choix : 杯 / 件 / 场",
+  "raison": "triviale : 杯 (L04) contre 件 et 场"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>有我 / 这么高了 / 我弟弟 / 已经",
+  "raison": "mal placée : A 有 B 这么 + adjectif, c'est la L14 (comparer)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>都没有 / 吃饭的时间 / 我忙得 / 连",
+  "raison": "doublon de 008 (remettre 连…都 en ordre) et 忙得 + proposition relève du 2e niveau"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>去了 / 家 / 他 / 回 / 已经",
+  "raison": "hors niveau : complément de direction 回家去 (2e niveau L3)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>已经 / 三年了 / 来中国 / 我",
+  "raison": "mal placée : durée écoulée 来中国三年了, c'est la L13"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>现在___十二点了，我们去吃饭吧。<br><br>Choix : 已经 / 不 / 没",
+  "raison": "triviale : 不 et 没 ne peuvent pas précéder 十二点"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>这位作家的文风非常___练。<br><br>Choix : 成 / 老 / 劳",
+  "raison": "hors niveau : 老练, 文风"
+ },
+ {
+  "recto": "Réduplication — choisissez la bonne forme :<br><br>Pour demander poliment de faire quelque chose brièvement, on réduplique le verbe : 请你___这张照片。<br><br>Choix : 看着 / 看看 / 看过",
+  "raison": "triviale : la consigne dit « on réduplique le verbe » ; 看着 serait d'ailleurs possible"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : il est temps de…) :<br><br>我们___走___，明天见！<br><br><i>Il est temps qu'on y aille, à demain !</i>",
+  "raison": "triviale : le recto donne le sens et la traduction ; 该…了 est un point de L10"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她喜欢___茶，不喜欢喝咖啡。<br><br>Choix : 喝 / 吃 / 穿",
+  "raison": "triviale : 喝 茶"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>今天有点儿___，记得多穿点。<br><br>Choix : 暖 / 冷 / 热",
+  "raison": "triviale : 多穿点 impose 冷"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这件衣服穿起来舒服非常。",
+  "raison": "hors niveau (V起来, 2e niveau L5) et faute triviale (非常 après l'adjectif) ; pas de traduction"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>这件___是红色的，很好看。<br><br>Choix : 衣服 / 桌子 / 电脑",
+  "raison": "triviale : 这件 impose 衣服"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>起来 / 很舒服 / 这件衣服 / 穿",
+  "raison": "hors niveau : V起来 d'appréciation (2e niveau L5)"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>你___哪儿买的这件衣服？<br><br>Choix : 在 / 再",
+  "raison": "triviale : 在 contre 再 ; même phrase que 028"
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>这件衣服我买___三年了。<br><br>Choix : 着 / 了 / 过",
+  "raison": "mal placée : V了 + durée + 了 (买了三年了), c'est la L13"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这件事说来起容易，做起来难。",
+  "raison": "hors niveau (V起来, 2e niveau L5) ; la faute 来起 est absurde"
+ },
+ {
+  "recto": "Identifiez la structure grammaticale :<br><br>这件事说起来容易，做起来难。— Que signifie V起来 ici ?<br><br>Choix : Quand on V (évaluation / point de vue) / Résultat de V / Commencer à V",
+  "raison": "hors niveau : V起来 d'appréciation (2e niveau L5), même phrase que 036"
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>他___了大学，开始了新的生活。<br><br>Sens attendu : <i>est entré à</i><br><br>Choix : 下 / 关 / 上",
+  "raison": "triviale : le recto donne le sens « est entré à » ; 下/关大学 absurdes"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我最近太忙了，___时间去看电影。<br><br>Choix : 没有 / 不有 / 有没",
+  "raison": "triviale : 不有 et 有没 impossibles ; déjà testé en L10"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你以前去___西安吗？<br><br>Choix : 过 / 了 / 着",
+  "raison": "même phrase que 049 (你以前去过…吗？), même point (过)"
+ },
+ {
+  "recto": "Placez <b>从来</b> au bon endroit :<br><br>他 A 没 B 喝 C 过 D 奶茶。",
+  "raison": "doublon de 043 (从来没 + V + 过) ; même phrase 奶茶 que 053"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>两个人 / 吃不完 / 这么多菜 / 我们",
+  "raison": "complément potentiel 吃不完 : vu seulement au 2e niveau L06"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>你___吃完吗？（tu n'as pas fini ?）<br><br>Choix : 不 / 没",
+  "raison": "doublon de 016 (没吃完) ; 你不吃完吗？ serait aussi naturel"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>她把___题做完了。<br><br>Choix : 习 / 题 / 问",
+  "raison": "phrase en 把 (2e niveau L04), 习题 hors programme, explication en charabia"
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Excuse-moi, où sont les toilettes ?</i><br><br>① 请问，厕所哪里在？<br>② 请问，洗手间在哪里？<br>③ 对不起，厕所在哪？",
+  "raison": "deux réponses acceptables (③ aussi), sans lien avec la leçon"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>以后</b> :<br><br>我考完试了。<br>我要去云南旅游。",
+  "raison": "doublon de 001 (考完试以后) ; 旅游 n'arrive qu'au 2e niveau L06"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她家的狗特别喜欢___，每次出门都要跑半个小时。<br><br>Choix : 散步 / 睡觉 / 游泳",
+  "raison": "indice incohérent (散步 ≠ courir), leurres sans rapport avec la leçon, verso sans traduction"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā qí zìxíngchē qíle liǎng gè zhōngtóu.</i>",
+  "raison": "même phrase que 032"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>就 / 天来 / 他们 / 聊起 / 一见面",
+  "raison": "聊起天来 (起…来) et 聊天 (2e niveau L05) : hors niveau"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>都 / 回答不了 / 连老师 / 这个问题",
+  "raison": "回答不了 (V不了, 2e niveau L06) : hors niveau"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>可是</b> :<br><br>我很想去中国学历史。<br>我的钱不够。",
+  "raison": "fusion triviale (ajouter 可是), phrase quasi identique à 044"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>她已经把___情都做完了。<br><br>Choix : 事 / 是",
+  "raison": "trivial (事情 / 是情) et phrase en 把 (2e niveau L04)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>有…要…</b> :<br><br>他有很多事情。<br>他要做这些事情。",
+  "raison": "doublon de 048 (有很多事情要做)"
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Il a du pain sur la planche.</i><br><br>① 他的桌上有很多面包。<br>② 他有很多事情要做，忙得很。<br>③ 他有很多面包在板子上。",
+  "raison": "choix évident (deux leurres absurdes), même phrase que 048"
+ },
+ {
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">重 (dans 重要)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "raison": "doublon de 054 (重 dans 重要)"
+ },
+ {
+  "recto": "Placez <b>了</b> au bon endroit :<br><br>我 A 在 B 云南 C 住 D 一个月。",
+  "raison": "doublon de 057 (住了一个月 au Yunnan)"
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Il n'en peut plus de fatigue.</i><br><br>① 他累得不行了。<br>② 他累死了。<br>③ 他非常累了。",
+  "raison": "deux réponses justes (他累死了 convient aussi), hors sujet (comparaison)"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā bǐ wǒ mèimei xiǎo liǎng suì.</i>",
+  "raison": "quatrième phrase sur un écart d'âge (019, 020, 031)"
+ },
+ {
+  "recto": "Placez <b>比</b> au bon endroit :<br><br>我 A 妹妹 B 我 C 小 D 两岁。",
+  "raison": "placement trivial, même phrase que 002 et 031"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我跟我姐姐___高，我们都是一米六五。<br><br>Choix : 一样 / 不一样",
+  "raison": "choix trivial (le contexte donne 一样), même phrase que 014"
+ },
+ {
+  "recto": "Placez <b>一样</b> au bon endroit :<br><br>我 A 跟 B 姐姐 C 高 D。",
+  "raison": "même point que 005 (A 跟 B 一样 + adjectif), placement trivial"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>早 / 二十分钟 / 比我 / 到了 / 他今天",
+  "raison": "même point que 045 (早 + V + écart chiffré)"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>我___看过这部电影，但我想看。<br><br>Choix : 没 / 不",
+  "raison": "trivial (不看过 impossible), hors sujet ; 部 (classificateur) pas encore vu"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她比我起得很早。",
+  "raison": "même point que 019 (pas de 很 après 比)"
+ },
+ {
+  "recto": "Placez <b>那么</b> au bon endroit :<br><br>我的房间 A 没有 B 你的 C 大 D。",
+  "raison": "quatrième carte sur 没有…那么, placement trivial"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>北京的冬天比巴黎___冷。<br><br>Choix : 更 / 很 / 非常",
+  "raison": "doublon de 033 (mêmes choix 更 / 很 / 非常)"
+ },
+ {
+  "recto": "Placez <b>三岁</b> au bon endroit :<br><br>他 A 比 B 我 C 大 D。",
+  "raison": "même point que 019 et 020 (écart après l'adjectif)"
+ },
+ {
+  "recto": "Quel est l'antonyme de ce mot ?<br><br><b>热</b><br><br>Choix : 暖 / 温 / 冷",
+  "raison": "trivial (热 ↔ 冷), explication inexacte (暖 ≠ tiède)"
+ },
+ {
+  "recto": "Placez <b>得</b> au bon endroit :<br><br>他 A 跑 B 比我 C 快 D。",
+  "raison": "même phrase que 029 (他跑得比我快)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : pas plus… que (à peu près pareil)) :<br><br>我的汉语___你的差。<br><br><i>Mon chinois n'est pas moins bon que le tien.</i>",
+  "raison": "la consigne donne la réponse (sens de 不比), doublon de 042"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>哥哥比我___。<br><br>Choix : 多吃了一碗饭 / 吃了多一碗饭 / 吃了一碗饭多",
+  "raison": "doublon de 011 (多 + V + quantité)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>收拾收拾吧 / 把 / 快 / 自己的东西 / 你",
+  "raison": "phrase en 把 (2e niveau L04), hors sujet"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>这部电影的___太长了，整整三个小时。<br><br>Choix : 票价 / 时长 / 评分",
+  "raison": "时长 / 评分 hors programme, sans lien avec la leçon"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>当…的时候</b> :<br><br>我到公司。<br>老板已经开始工作了。",
+  "raison": "fusion guidée triviale, même point que 009 (当…的时候)"
+ },
+ {
+  "recto": "Placez <b>得</b> au bon endroit :<br><br>他 A 累 B 不想 C 说话 D。",
+  "raison": "même phrase que 001 (他累得不想说话)"
+ },
+ {
+  "recto": "Placez <b>跟</b> au bon endroit :<br><br>到了北京以后，你 A 一定要 B 我们 C 一起 D 吃饭。",
+  "raison": "placement trivial (seul B est possible)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>别 / 手机 / 以前 / 玩 / 睡觉",
+  "raison": "trivial, même thème que 028 (别 + 手机)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : A est pareil à B) :<br><br>我的手机___你的___。<br><br><i>Mon téléphone est le même que le tien.</i>",
+  "raison": "trivial à ce niveau : la consigne donne le sens de 跟…一样"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我一天没吃饭，饿___了。<br><br>Choix : 死 / 得死 / 厉害",
+  "raison": "doublon de 013 et 034 (饿得要命 / 累死了)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>老是 / 你别 / 玩手机 / 在上课的时候",
+  "raison": "老是 n'arrive qu'au 2e niveau L02 ; 028 couvre déjà 别 + 手机"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>外面下雨了，记得带___。<br><br>Choix : 雨伞 / 手机 / 钱包",
+  "raison": "trivial (雨伞, leurres absurdes)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这是___手机吗？<br><br>Choix : 你朋友的 / 你朋友 / 的你朋友",
+  "raison": "trivial (的 de possession)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>虽然…但是…</b> :<br><br>工作很累。<br>工资很高。",
+  "raison": "fusion triviale (虽然…但是 donnés par la consigne)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>特别有意思 / 讲得 / 他把 / 这个故事",
+  "raison": "phrase en 把 (2e niveau L04)"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒmen lǎobǎn shuō pǔtōnghuà shuō de hěn biāozhǔn.</i>",
+  "raison": "même phrase que 038 (说普通话说得很标准)"
+ },
+ {
+  "recto": "Placez <b>还</b> au bon endroit :<br><br>已经十点了，我 A 没 B 吃 C 早饭 D。",
+  "raison": "trivial (还没), déjà dans 010"
+ },
+ {
+  "recto": "Quel est l'antonyme de ce mot ?<br><br><b>快</b><br><br>Choix : 紧 / 慢 / 忙",
+  "raison": "trivial (快 ↔ 慢)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>作业我还___写完呢。<br><br>Choix : 没 / 不",
+  "raison": "même phrase que 010 (我还没写完作业呢)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她一边听音乐一边写作业了。",
+  "raison": "faute discutable (了 possible), explication fausse (« habituelles »), sans traduction"
+ },
+ {
+  "recto": "Placez <b>在</b> au bon endroit :<br><br>他 A 住 B 学校 C 旁边 D。",
+  "raison": "trivial (住在, 1er niveau L07)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>外面风很大，请把窗户关___。<br><br>Choix : 上 / 走 / 到",
+  "raison": "phrase en 把 (2e niveau L04)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这位老师不但教得好，但是学生们也非常喜欢她。",
+  "raison": "contredit la règle de 013 (sujets différents : 不但 devant le sujet), sans traduction"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>批评</b> :<br><br>他上课不认真。<br>老师批评了他。",
+  "raison": "plusieurs fusions justes, même structure que 015 (批评 + qqn + V)"
+ },
+ {
+  "recto": "Placez <b>没</b> au bon endroit :<br><br>我 A 听 B 懂 C 老师的问题 D。",
+  "raison": "quasi même phrase que 024 (没听…老师的问题)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>完</b> :<br><br>我写作业。<br>作业写完了。",
+  "raison": "fusion triviale et bancale, 写完作业 encore répété"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他一边听音乐，一边___作业。<br><br>Choix : 着 / 做 / 了",
+  "raison": "trivial (seul 做 est un verbe), verso mal formaté"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ zěnme yòu lái wǎn le?</i>",
+  "raison": "même phrase que 005 (你怎么又迟到 / 来晚了)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>睡着了 / 一关， / 就躺在床上 / 他把门",
+  "raison": "phrase en 把 (2e niveau L04)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : peu après, en un rien de temps) :<br><br>他躺下___就睡着了。<br><br><i>Il s'est endormi peu après s'être allongé.</i>",
+  "raison": "plusieurs réponses justes (一会儿, 没多久) ; 不一会儿 déjà au 1er niveau L13"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他___是故意的，我相信他。<br><br>Choix : 不是 / 没是",
+  "raison": "trivial (没是 n'existe pas)"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>今天任务太多了，一天___完。<br><br>Choix : 完不 / 做得 / 做不",
+  "raison": "complément potentiel (2e niveau L06)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>送到 / 开车 / 机场吧 / 我 / 把你",
+  "raison": "phrase en 把 (2e niveau L04)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他每天坐___去上班，路上大概要花四十分钟。<br><br>Choix : 地铁 / 椅子 / 镜子",
+  "raison": "trivial (leurres absurdes)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也 / 我的护照了 / 找不到 / 我 / 怎么",
+  "raison": "complément potentiel 找不到 (2e niveau L06)"
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>她走___教室，在自己的座位上坐下了。<br><br>Choix : 着 / 出 / 进",
+  "raison": "consigne fausse : 进 n'est pas une particule aspectuelle (directionnel, L03)"
+ },
+ {
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">空 (dans 空气)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "raison": "doublon de 049 (空 dans 空气)"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他的电话我打了很多次，但___有人接。<br><br>Choix : 没 / 不",
+  "raison": "trivial (不有 n'existe pas)"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>他正在___作业，请安静一点。<br><br>Choix : 坐 / 做",
+  "raison": "trivial (坐 / 做)"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>她说话的声音太小了，坐在后排的人___。<br><br>Choix : 听得见 / 听不清 / 听得清",
+  "raison": "complément potentiel (2e niveau L06), doublon de 056"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>她的声音很小，后排的人___清楚。<br><br>Choix : 听不 / 清楚不 / 听得",
+  "raison": "complément potentiel (2e niveau L06), doublon de 053"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>那个人跑得很快，警察没抓___他。<br><br>Choix : 住 / 好 / 完",
+  "raison": "抓 n'arrive qu'au 2e niveau L14"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>比那双 / 这双鞋 / 舒服多了 / 穿起来",
+  "raison": "V起来 « à l'usage » : fiche de la L05, trop tôt ici"
+ },
+ {
+  "recto": "Complétez l'expression :<br><br>七上___下<br><br>Choix : 八 / 九 / 六",
+  "raison": "Chengyu 七上八下 hors programme (fiche rangée après le manuel) ; réponse devinable"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>不管…都…</b> :<br><br>天气好不好？<br>我们都去爬山。",
+  "raison": "3e carte 不管…都 + météo (007, 013) ; 都 déjà fourni, fusion mécanique"
+ },
+ {
+  "recto": "Placez <b>去</b> au bon endroit :<br><br>他已经 A 回 B 家 C 了 D。",
+  "raison": "Doublon de 004 (他回家去了 : même phrase, même point)"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>老师让我们___地回答问题。<br><br>Choix : 一个一个 / 个个 / 一个",
+  "raison": "Doublon de 012 (mêmes choix 一个一个 / 个个 / 一个, même point)"
+ },
+ {
+  "recto": "Placez <b>来</b> au bon endroit :<br><br>外面 A 下雨了，你 B 快 C 进 D 吧。",
+  "raison": "Placement évident (进来) ; 033 teste déjà 进来"
+ },
+ {
+  "recto": "Placez <b>起来</b> au bon endroit :<br><br>请你 A 站 B 回答 C 这个问题 D。",
+  "raison": "Directionnel composé 起来 = L08 ; placement évident"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他讲的笑话让大家都___了起来。<br><br>Choix : 笑 / 哭 / 叫",
+  "raison": "Triviale (笑话 → 笑) ; 起来 inchoatif hors leçon ; sans traduction"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他的中文说得越越流利了。",
+  "raison": "Correction triviale (越越 → 越来越), sans lien avec la leçon"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他的英语说得非常___，一点儿也不结巴。<br><br>Choix : 流利 / 便宜 / 热闹",
+  "raison": "Distracteurs absurdes ; 结巴 hors programme"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也要 / 陪孩子玩一会儿 / 他每天 / 工作再忙，",
+  "raison": "再…也 non vu (fiche rangée après le manuel) ; autre ordre juste refusé (他每天工作再忙，也要…)"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Il a sorti le chat de sous le lit.</i><br><br>Choix : 他把猫拉出来从床底下了 / 他把猫拉从床底下出来了 / 他把猫从床底下拉出来了",
+  "raison": "把 (L04) + directionnel composé 出来 (L08) : hors leçon"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>这道题太难了，她___出来。<br><br>Choix : 答得 / 出不 / 答不",
+  "raison": "Complément potentiel = L06 (et 出来 = L08) : hors leçon ; sans traduction"
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Il a sorti le livre du sac :</i><br><br>Choix : 他拿出来书从包里了 / 他把书从包里拿出来了 / 他从包里书拿出来了",
+  "raison": "Doublon de 040 et hors leçon (把 + 从 + 拿出来)"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>这个要求太高了，我恐怕___。<br><br>Choix : 做得好 / 做得到 / 做不到",
+  "raison": "Complément potentiel = L06 : hors leçon ; sans traduction"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : au point de…) :<br><br>他听到这个消息，高兴___跳了起来。<br><br><i>En apprenant la nouvelle, il a sauté de joie.</i>",
+  "raison": "Doublon de 044 (même phrase 高兴得跳了起来) ; 得 soufflé par l'indice"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他___了很多书，知识非常渊博。<br><br>Choix : 读 / 买 / 写",
+  "raison": "渊博 hors programme ; 写 défendable ; sans traduction"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他也许做错了，但___，他是想帮你。<br><br>Choix : 不管怎样说 / 不管说怎样 / 怎样说不管",
+  "raison": "Ordre d'une expression figée, distracteurs absurdes ; 057 teste déjà 不管怎样说"
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ bǎ dàngāo fàngjìn bīngxiāng li le.</i>",
+  "raison": "Doublon de 012 (même phrase 把蛋糕放进冰箱里)"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : transmettre quelque chose à quelqu'un) :<br><br>请___这本书还给他。<br><br><i>Rends-lui ce livre, s'il te plaît.</i>",
+  "raison": "Triviale dans la leçon du 把 (将 aussi juste) ; 014 et 020 testent déjà 把…V给"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>给 / 我的蛋糕 / 吃了 / 叫弟弟",
+  "raison": "Passif oral 叫…给 = L10 : hors leçon"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>这道菜的材料很简单，你一定___。<br><br>Choix : 做不来 / 学得了 / 做得来",
+  "raison": "Potentiel = L06 ; 做得来 peu courant, 学得了 défendable ; sans traduction"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>交给 / 老师 / 这些材料 / 请你 / 把",
+  "raison": "Doublon de 020 (把 + chose + 交给 + personne)"
+ },
+ {
+  "recto": "Placez <b>地</b> au bon endroit :<br><br>他 A 慢慢 B 把 C 窗子 D 打开了。",
+  "raison": "Doublon de 004 (adverbe + 地 devant 把) ; 慢慢 se passe d'ailleurs de 地"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___希望<br><br>Choix : 丝 / 张 / 块",
+  "raison": "一丝希望 hors niveau ; distracteurs absurdes"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>这道菜的做法很___，只需要三步就能完成。<br><br>Choix : 简便 / 复杂 / 讲究",
+  "raison": "简便 hors programme (le mot de la leçon est 简单) ; sans traduction"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这个菜___也不辣，你可以尝尝。<br><br>Choix : 一点儿 / 有点儿",
+  "raison": "Doublon de 014 (一点儿也不 contre 有点儿, même façon)"
+ },
+ {
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>我 A 连 B 一口 C 酒 D 没喝。",
+  "raison": "Doublon de 006 (连 + N + 都没 V, placement)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>除了…以外…还…</b> :<br><br>他会说英语。<br>他还会说法语。",
+  "raison": "Doublon de 043 (除…以外 + 还, avec des langues)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我一点儿也饿，不想吃饭。",
+  "raison": "Même phrase que 007 (我一点儿也不饿) ; erreur évidente"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 账 (compte (à régler), dette) :<br><br>这___账我们以后再算。<br><br>Choix : 只 / 笔 / 首",
+  "raison": "账 hors programme ; « aussi possible : 本 » douteux"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>连…都…</b> :<br><br>这个问题很容易。<br>小孩子都知道答案。",
+  "raison": "Même phrase que 002 (连小孩子都知道) ; 都 déjà fourni"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : il suffit de…, c'est tout) :<br><br>你放心___，我一定按时到。<br><br><i>Ne t'inquiète pas, j'arriverai à l'heure, c'est promis.</i>",
+  "raison": "Sans choix : 吧 ou 好了 conviennent aussi ; 021 teste le même point"
+ },
+ {
+  "recto": "Placez <b>以外</b> au bon endroit :<br><br>除了 A 葡萄酒 B ，他们 C 还 D 喝了一点儿白酒。",
+  "raison": "Placement évident de 以外 ; même début que 041"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他___会参加这次会议，已经拒绝了。<br><br>Choix : 不 / 没",
+  "raison": "Triviale (会 se nie par 不) ; sans traduction"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 饭 (repas) :<br><br>周末我请你吃一___饭。<br><br>Choix : 张 / 条 / 顿",
+  "raison": "Même phrase que 037 (请你吃一顿饭) ; « aussi possible : 碗 » faux ici"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 早餐 (petit-déjeuner) :<br><br>妈妈给我们做了一___早餐。<br><br>Choix : 本 / 顿 / 双",
+  "raison": "Doublon de 037 (顿 pour un repas)"
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>拿走了 / 叫 / 又 / 哥哥 / 我的手机",
+  "raison": "Passif oral 叫 = L10 : hors leçon"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 晚餐 (dîner) :<br><br>这___晚餐花了我三百块钱。<br><br>Choix : 条 / 本 / 顿",
+  "raison": "Doublon de 037 (顿 pour un repas)"
+ },
+ {
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>这个箱子太重了，我一个人___动。<br><br>Choix : 搬得 / 搬不 / 动不",
+  "raison": "Doublon de 001 (一个人搬不动) ; sans traduction"
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>这本书我___读，还没来得及看。<br><br>Choix : 没有 / 不 / 了",
+  "raison": "Consigne fausse (没有 n'est pas une particule aspectuelle) ; sans traduction"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>因为…所以…</b> :<br><br>声音太小了。<br>我们听不见。",
+  "raison": "Fusion triviale (因为…所以)"
+ },
+ {
+  "recto": "Complétez l'expression :<br><br>___失败告终<br><br>Choix : 以 / 终 / 必",
+  "raison": "以…告终 hors niveau"
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___会弹钢琴，但她正在学。<br><br>Choix : 没 / 不",
+  "raison": "Triviale (会 se nie par 不) ; sans traduction"
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>jīngjì</b> — économie<br><br>Choix : 经记 / 精计 / 经济",
+  "raison": "Triviale (distracteurs inexistants), sans lien avec la leçon"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>___了很长时间，她终于做出了决定。<br><br>Choix : 想 / 相 / 向",
+  "raison": "Triviale (想 / 相 / 向) ; explication hors sujet (考虑, 琢磨)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她终于说出来了一直想说的话。",
+  "raison": "Directionnel composé = L08 ; 她终于说出了… aussi juste ; « 把 nécessaire » faux"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : vers (direction du mouvement)) :<br><br>一直___前走，就到车站了。<br><br><i>Continuez tout droit et vous arriverez à la gare.</i>",
+  "raison": "往 aussi juste mais refusé ; doublon de 025 (向前走)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>现在几点了？我的___坏了。<br><br>Choix : 手表 / 苹果 / 椅子",
+  "raison": "Distracteurs absurdes (苹果, 椅子) ; sans traduction"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>又…又…</b> :<br><br>这个城市很大。<br>这个城市很热闹。",
+  "raison": "Fusion triviale (又…又)"
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>虽然…但是…</b> :<br><br>我们排了三个小时的队。<br>我们还是没买到票。",
+  "raison": "Fusion mécanique (虽然…但是, 还是 déjà fourni)"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>他说他___定会来参加活动。<br><br>Choix : 一 / 已 / 以",
+  "raison": "Triviale (一定)"
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>你想去___个城市旅游？<br><br>Choix : 那 / 哪",
+  "raison": "Triviale (那 / 哪)"
+ },
+ {
+  "recto": "Placez <b>打算</b> au bon endroit :<br><br>明年夏天 A 我 B 去 C 云南 D 旅游。",
+  "raison": "Placement trivial de 打算 (P1), rien de la leçon"
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Elle a un sixième sens.</i><br><br>① 她有第六感。<br>② 她的感觉是第六个。<br>③ 她有六种感觉。",
+  "raison": "Triviale ; 第六感 hors programme"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___歌曲<br><br>Choix : 曲 / 首 / 支",
+  "raison": "Ambiguë : 支, dans les choix, est admis par l'explication ; doublon de 026"
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>只有五分钟了，现在去火车站___。<br><br>Choix : 来不及了 / 不来得及了 / 没来得及了",
+  "raison": "Doublon de 047 (来不及, pas 不来得及)"
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 曲 (air, morceau de musique) :<br><br>她为我们弹了一___曲子。<br><br>Choix : 张 / 首 / 本",
+  "raison": "Doublon de 026 (首)"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>队友一直在___，根本没有认真打比赛。<br><br>Choix : 划水 / 学习 / 做饭",
+  "raison": "划水 : argot hors niveau"
+ },
+ {
+  "recto": "Placez <b>不</b> au bon endroit :<br><br>我们的座位在最后一排，我 A 看 B 清楚 C 台上的 D 歌手。",
+  "raison": "Même phrase que 056 ; 018 teste déjà 不 entre verbe et complément"
+ },
+ {
+  "recto": "Placez <b>整</b> au bon endroit :<br><br>我们 A 在剧院外面 B 排了一 C 天的队 D。",
+  "raison": "Doublon de 016 (一整天)"
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>一边工作一边读书，好容易啊！",
+  "raison": "La phrase « fautive » est grammaticale (好容易 = très facile) : erreur de sens seulement"
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : à grand-peine, après bien des efforts) :<br><br>我们___才买到两张票。<br><br><i>Nous avons réussi à grand-peine à acheter deux billets.</i>",
+  "raison": "好不容易 aussi juste (et plus courant) mais refusé ; doublon de 065"
+ },
+ {
+  "recto": "Identifiez la structure grammaticale :<br><br>这本书值得一读。— Quelle est la structure de 值得 ?<br><br>Choix : 值得 + 得 + V = peut mériter / 值得 + 了 = a mérité d'être V / 值得 + V = mériter d'être + V",
+  "raison": "Triviale : la réponse (值得 + V) se lit dans la phrase, distracteurs absurdes ; 值得 déjà travaillé en 003."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 鸟 (oiseau) :<br><br>树上有两___漂亮的小鸟。<br><br>Choix : 条 / 只 / 本",
+  "raison": "Triviale à ce niveau (本/条 pour un oiseau), et 3e carte sur les oiseaux de l'arbre (004, 013)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一只 / 鸟 / 飞走了 / 树上",
+  "raison": "Doublon de 004 : même phrase (树上飞走了…鸟), même point."
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Les oiseaux se sont envolés de l'arbre.</i><br><br>Choix : 鸟从树飞了走 / 鸟从树上飞走了 / 鸟飞去了树",
+  "raison": "Doublon de 004 (oiseaux qui s'envolent), distracteurs absurdes, et explication fausse : 上 n'indique pas un « lieu surélevé », il fait de 树 un lieu."
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>这道菜的味道又___又辣，吃完满头是汗。<br><br>Choix : 酸 / 甜 / 软",
+  "raison": "Ambiguë : 又甜又辣 est aussi juste (le 辣 explique la sueur)."
+ },
+ {
+  "recto": "Identifiez la structure grammaticale :<br><br>她写着写着，突然哭了起来。— Quelle structure est utilisée ?<br><br>Choix : V着V着 = action continue qui mène à un tournant / V过V过 = expérience répétée / V得V得 = degré progressif",
+  "raison": "Triviale (seul choix avec 着, la réponse est dans la phrase) et doublon de 028 (V着V着)."
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>她努力___努力___，终于登上了山顶。<br><br>Choix : 着 / 了",
+  "raison": "努力着努力着 n'est pas naturel (V着V着 veut un verbe d'action : 走着走着) ; choix « 着 / 了 » ne correspondant pas à la réponse « 着/着 » ; doublon de 028."
+ },
+ {
+  "recto": "Quel est le pinyin correct de 更 dans ce mot ?<br><br>更加 (encore plus)<br><br>Choix : gēng / géng / gèng",
+  "raison": "Triviale et hors leçon : 更 = gèng est acquis depuis la comparaison (1er niveau, L14) ; « géng » n'est pas une lecture."
+ },
+ {
+  "recto": "Placez <b>多么</b> au bon endroit :<br><br>这里的 A 风景 B 美 C 啊 D！",
+  "raison": "Doublon de 040 (多么 + adj. + 啊), placement évident."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>院子里有两___大树。<br><br>Choix : 棵 / 座 / 幅",
+  "raison": "Doublon : 棵 déjà testé en 021 et utilisé en 043 ; phrase quasi identique à 043."
+ },
+ {
+  "recto": "Paire minimale — connaissez-vous la différence de ton et de sens ?<br><br><b>是 vs 使</b>",
+  "raison": "Triviale (是 connu dès la 1re leçon), hors leçon, glose de 使 approximative (« utiliser/envoyer »)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>努力 / 都不会白费 / 你 / 时间 / 会 / 过的 / 告诉 / 一切",
+  "raison": "Deux ordres justes (les deux propositions s'inversent), 白费 hors niveau, rien de la leçon."
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>像…一样</b> :<br><br>海水很蓝。<br>天空也很蓝。",
+  "raison": "4e carte sur 像…一样 (006, 016, 047) ; fusion mécanique."
+ },
+ {
+  "recto": "Placez <b>为了</b> au bon endroit :<br><br>A 买到火车票，B 他 C 早上五点 D 就起床了。",
+  "raison": "Doublon de 010 et 015 (为了 + but en tête) ; placement évident."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>打扫得 / 很干净了 / 他已经 / 把房间",
+  "raison": "Doublon de 008 : même phrase (他把房间打扫得…干净), même exercice de remise en ordre."
+ },
+ {
+  "recto": "Placez <b>为</b> au bon endroit :<br><br>我们 A 都 B 你 C 高兴 D。",
+  "raison": "Doublon de 007 : même phrase 我们都为你高兴."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : décrire l'état obtenu) :<br><br>她___房间打扫___很干净。<br><br><i>Elle a très bien nettoyé la chambre.</i>",
+  "raison": "Doublon de 008 : même phrase 把房间打扫得很干净."
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>túshūguǎn</b> — bibliothèque<br><br>Choix : 图书馆 / 途书馆 / 图数馆",
+  "raison": "Triviale : 图书馆 est acquis depuis le 1er niveau, distracteurs inventés."
+ },
+ {
+  "recto": "Placez <b>好</b> au bon endroit :<br><br>明天早点儿叫醒我，A 我 B 去 C 火车站 D 接朋友。",
+  "raison": "3e carte sur 好 + V de but (028, 059) ; placement le plus facile des trois."
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>她慢慢___走进了教室。<br><br>Choix : 得 / 地",
+  "raison": "Doublon de 037 : même phrase (慢慢地走进教室), même point 地/得."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>外面太冷了，快走___屋里来吧！<br><br>Choix : 进 / 过 / 出",
+  "raison": "Doublon de 034 (走进 + lieu + 来/去) ; le choix se fait au seul sens de 进/出."
+ },
+ {
+  "recto": "Question de registre de langue :<br><br>Lequel est le plus formel pour 'problème' ?<br><br>Choix : 问题 / 毛病 / 麻烦",
+  "raison": "Mal posée : 问题 est neutre, pas « formel », et 毛病 / 麻烦 ne sont pas des équivalents de « problème »."
+ },
+ {
+  "recto": "Complément directionnel — choisissez la bonne structure :<br><br><i>Elle a monté les bagages en haut :</i><br><br>Choix : 把行李搬上去了 / 把行李搬去上了 / 把行李上搬去了",
+  "raison": "Distracteurs absurdes (搬去上了, 上搬去了) et doublon de 045 (bagages montés à l'étage)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>放在 / 行李 / 你 / 门口吧 / 先把",
+  "raison": "Doublon de 045 : adverbe + 把 + 行李 + V + 到/在 + lieu, même exercice de remise en ordre."
+ },
+ {
+  "recto": "Question de registre de langue :<br><br>Quel terme est utilisé dans les textes officiels pour 'utiliser' ?<br><br>Choix : 使用 / 拿来用 / 用",
+  "raison": "Triviale : 拿来用 n'est pas un terme, la réponse saute aux yeux."
+ },
+ {
+  "recto": "Quel est l'antonyme de ce mot ?<br><br><b>简单</b><br><br>Choix : 复杂 / 困难 / 麻烦",
+  "raison": "Ambiguë : 困难 s'oppose aussi à 简单 (facile ↔ difficile) ; hors leçon."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : il se peut que, peut-être bien) :<br><br>带上伞吧，___会下雨。<br><br><i>Prends un parapluie, il se peut qu'il pleuve.</i>",
+  "raison": "Ambiguë sans choix : 也许 / 可能 / 恐怕 conviennent aussi ; 说不定 déjà travaillé en 056."
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhù nǐ xīnnián kuàilè, shēntǐ jiànkāng!</i>",
+  "raison": "Triviale : 祝你新年快乐，身体健康 est une formule acquise depuis le 1er niveau."
+ },
+ {
+  "recto": "Écrivez ce nombre en caractères :<br><br><b>3,14</b>",
+  "raison": "Doublon de 004 (décimales avec 点), qui la contient."
+ },
+ {
+  "recto": "Placez <b>来</b> au bon endroit :<br><br>这座桥 A 有 B 一百 C 米 D 长。",
+  "raison": "Doublon de 053 (nombre rond + 来 + unité)."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我买了几苹果。",
+  "raison": "Triviale à ce niveau : 几 + classificateur est acquis depuis le 1er niveau."
+ },
+ {
+  "recto": "Complétez ce chengyu :<br><br>___而知之<br><br>Choix : 坐 / 走 / 学",
+  "raison": "Chengyu savant (Confucius), hors niveau."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>来 / 还没 / 都到了，他 / 却 / 大家",
+  "raison": "4e carte sur 却 ; phrase quasi identique à 035 (他却(还)没来)."
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>跟…相比</b> :<br><br>北方冬天很冷。<br>南方冬天暖和多了。",
+  "raison": "Doublon de 022 (跟…相比，… + adj. + 多了)."
+ },
+ {
+  "recto": "Écrivez ce nombre en chiffres :<br><br><b>十四亿</b>",
+  "raison": "Doublon inversé de 027 (十四亿)."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___河流<br><br>Choix : 道 / 段 / 条",
+  "raison": "Triviale (条 pour une rivière, 1er niveau) et 一道河 se dit aussi."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : pourtant (contraste inattendu)) :<br><br>我给他打了电话，他___没接。<br><br><i>Je l'ai appelé, mais il n'a pas décroché.</i>",
+  "raison": "Doublon de 035 (他却没来 / 他却没接), et ambiguë sans choix (也, 还, 都 conviennent)."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 虎 (tigre) :<br><br>这___虎是从东北来的。<br><br>Choix : 匹 / 只 / 张",
+  "raison": "Triviale (只 pour un animal), et 这只虎 est peu naturel (on dit 老虎)."
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她最近在学___，希望能在假期去云南旅游的时候用得上。<br><br>Choix : 方言 / 数学 / 化学",
+  "raison": "Triviale : 数学 et 化学 s'éliminent au sens ; pas de traduction."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>说 / 语言 / 三种 / 会 / 他",
+  "raison": "Triviale : phrase du 1er niveau (他会说三种语言)."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>___去年相比，今年的冬天冷多了。<br><br>Choix : 跟 / 比 / 对",
+  "raison": "Doublon exact de 022 : même phrase 跟去年相比，今年的冬天冷多了。"
+ },
+ {
+  "recto": "Réduplication — choisissez la bonne forme :<br><br>Complétez la réduplication AABB : 高高______<br><br>Choix : 大大 / 高兴 / 兴兴",
+  "raison": "Triviale : 高高兴兴, un seul choix possible ; hors leçon."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>丰富 / 不同 / 因 / 才 / 声音 / 变得 / 有 / 个 / 了 / 这 / 世界 / 多彩",
+  "raison": "Trop difficile (12 morceaux, 因有了, 丰富多彩, registre écrit) et sans rapport avec la leçon."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___花<br><br>Choix : 朵 / 片 / 棵",
+  "raison": "Doublon de 001 (朵 pour les fleurs) ; 一棵花 se dit aussi pour une plante."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>叫到 / 去了 / 他 / 办公室 / 被老师",
+  "raison": "Doublon de 003 : 被 + agent + V到 + lieu, même exercice de remise en ordre."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>她 / 想 / 有些 / 觉得 / 不对劲 / 这件事 / 越 / 越",
+  "raison": "Deux ordres justes (这件事她越想越觉得…), 不对劲 hors niveau."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>写在了 / 老师 / 黑板上 / 他的名字 / 被",
+  "raison": "Doublon de 003 : 被 + agent + V + 在/到 + lieu, même exercice de remise en ordre."
+ },
+ {
+  "recto": "Placez <b>结果</b> au bon endroit :<br><br>他 不 听 医生 的 话，还是 每天 抽烟，A 病 B 更 C 严重了。",
+  "raison": "Doublon de 038 (结果 introduisant la conséquence), placement évident."
+ },
+ {
+  "recto": "Complétez ce chengyu :<br><br>行百里者___于九十<br><br>Choix : 半 / 难 / 止",
+  "raison": "Chengyu savant (行百里者半于九十), hors niveau."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>我的自行车___朋友骑走了。<br><br>Choix : 被 / 把 / 向",
+  "raison": "Doublon de 006 : même phrase (我的自行车…骑走了)."
+ },
+ {
+  "recto": "Placez <b>下去</b> au bon endroit :<br><br>这种药 A 很苦，但是 B 你 C 得 继续 吃 D。",
+  "raison": "Même phrase que 002 (这种药很苦…吃下去) et même point que 017 (V + 下去)."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>天气___了，要多穿点儿衣服。<br><br>Choix : 越来越冷 / 越来越很冷 / 越冷越来",
+  "raison": "Doublon de 023 (越来越 + adj.), distracteurs absurdes."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : avoir l'air, paraître (à première vue)) :<br><br>他___只有二十岁。<br><br><i>Il a l'air d'avoir à peine vingt ans.</i>",
+  "raison": "Ambiguë sans choix : 看起来 est aussi juste ; 看上去 déjà testé en 013 et 026."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这个孩子___很聪明。<br><br>Choix : 看上去 / 看上 / 上去看",
+  "raison": "Triviale (看上 / 上去看 absurdes) et 4e carte sur 看上去 / 看起来."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>这个问题___容易解决。（ce n'est pas facile）<br><br>Choix : 没 / 不",
+  "raison": "Triviale : 不容易, la réponse est donnée en français."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 医生 (médecin) :<br><br>这___医生对病人很好。<br><br>Choix : 条 / 位 / 本",
+  "raison": "Triviale : 条 et 本 ne comptent jamais des personnes."
+ },
+ {
+  "recto": "Placez <b>被</b> au bon endroit :<br><br>我的 A 眼镜 B 弟弟 C 压 D 坏了。",
+  "raison": "Doublon de 028 (被 + agent + V + résultat), placement évident."
+ },
+ {
+  "recto": "Placez <b>起来</b> au bon endroit :<br><br>王大夫 A 七十多岁了，可是 B 看 C 只有 D 六十岁。",
+  "raison": "Doublon de 040 (看起来) et 013 ; placement évident (看 + 起来)."
+ },
+ {
+  "recto": "Question de registre de langue :<br><br>Pour exprimer 'se produire / avoir lieu' dans un texte officiel :<br><br>Choix : 出现 / 产生 / 发生",
+  "raison": "Consigne de registre sans objet : les trois mots sont du même registre, et l'explication dit que 发生 est « le plus courant »."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我已经把那些旧衣服扔。",
+  "raison": "Doublon de 045 (把 + objet + V + 了) ; 扔掉了 serait aussi juste."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>远 / 离 / 机场 / 不太 / 这儿",
+  "raison": "Triviale : phrase du 1er niveau (机场离这儿不太远)."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>这种情况以后___会再出现了。<br><br>Choix : 没 / 不",
+  "raison": "Triviale : 没会 n'existe pas."
+ },
+ {
+  "recto": "Quel est l'antonyme de ce mot ?<br><br><b>开始</b><br><br>Choix : 完成 / 停止 / 结束",
+  "raison": "Triviale et hors leçon (开始 ↔ 结束)."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>我___认为这个方法有效。<br><br>Choix : 没 / 不",
+  "raison": "Triviale (不认为), et « 没认为 agrammatical » est trop fort (我从来没认为…)."
+ },
+ {
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>那件事他已经忘___了。<br><br>Choix : 掉 / 了 / 过",
+  "raison": "Consigne fausse : 掉 n'est pas une particule aspectuelle (c'est un complément de résultat)."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>他写了很多书，是一位作___。<br><br>Choix : 家 / 员 / 子",
+  "raison": "Doublon de 008 : même phrase (« il a écrit beaucoup de livres ») et même suffixe -家 à choisir."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>就喜欢上了 / 他自从 / 中国菜 / 来了中国以后",
+  "raison": "Doublon de 007 : même ordre 自从…以后，就… ; 来了中国 en plus peu naturel."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___钥匙<br><br>Choix : 个 / 串 / 把",
+  "raison": "Ambiguë : sans contexte, 一串钥匙 (trousseau) est aussi juste, et 一个钥匙 courant à l'oral."
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>jiàoshī</b> — enseignant<br><br>Choix : 教师 / 叫师 / 觉师",
+  "raison": "Doublon de 036 : même contraste 教/叫 entre faux mots."
+ },
+ {
+  "recto": "De quel ton est ce caractère ?<br><br><span class=\"hanzi\">数 (dans 数字)</span><br><br>Choix : 1er ton / 2e ton / 3e ton / 4e ton",
+  "raison": "Doublon de 020 : même caractère 数 dans 数字, même point (shù)."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>你___应该那样对他说话。<br><br>Choix : 没 / 不",
+  "raison": "Triviale : 不应该 contre *没应该, aucun doute possible en L2."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他读书的速度慢，理解起来也不容易。",
+  "raison": "Fausse : 速度慢 sans 很 est admis dans une énumération ; la phrase corrigée reste bancale (理解起来 sans objet)."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他不但努力工作，而且他还关心同事。",
+  "raison": "Pas une erreur : répéter 他 après 而且 est seulement lourd, l'explication le dit elle-même (« pas besoin »)."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她给了我很多帮助在工作上。",
+  "raison": "Doublon de 040 : même phrase (给了我很多帮助) et même point (place de 在…上) ; le verso oubliait 她在工作上给了我…"
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她___心地帮助了那位迷路的老人。<br><br>Choix : 中 / 空 / 热",
+  "raison": "Triviale (中心地 / 空心地 absurdes) et explication hors sujet (parle de 好心, 用心, absents des choix)."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___觉得这个建议有问题，所以同意了。<br><br>Choix : 不 / 没",
+  "raison": "Ambiguë : 她没觉得这个建议有问题，所以同意了 est tout aussi naturel."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你想买房子___租房子？<br><br>Choix : 还是 / 或者",
+  "raison": "Triviale (还是 dans une question, niveau 1) et doublon de 011 (louer ou acheter, 还是)."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>挥了挥手， / 就上车走了 / 他 / 朝我",
+  "raison": "Doublon de 008 : même point 朝 + personne devant le verbe, même exercice d'ordre."
+ },
+ {
+  "recto": "Placez <b>也</b> au bon endroit :<br><br>我 宁可 A 每天 早起 一 个 小时 ， B 不 C 想 D 住 在 市区 的 小 房子 里 。",
+  "raison": "Doublon de 007 : presque la même phrase 我宁可每天…，也不想住在…小房子里."
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Elle est dans la fleur de l'âge.</i><br><br>① 她是最年轻的花。<br>② 她正值青春年华。<br>③ 她在花的年龄里。",
+  "raison": "Hors niveau : 正值青春年华 est littéraire, distracteurs absurdes."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>与其花那么多钱买房子，___租一个大一点儿的。<br><br>Choix : 不如 / 也 / 就",
+  "raison": "Doublon de 022 : 与其…不如 sur louer / acheter un logement."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : sinon, autrement) :<br><br>快走吧，___要迟到了。<br><br><i>Dépêchons-nous, sinon nous allons être en retard.</i>",
+  "raison": "Doublon des autres cartes 否则 (040, 042, 043) ; 不然 / 要不然, plus naturels ici, ne sont pas acceptés."
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè jiàn shì yóu fángdōng fùzé.</i>",
+  "raison": "Presque la même phrase que 041 (这件事由…负责)."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>你要是八点到就一起走，___我先走了。<br><br>Choix : 否则 / 所以 / 而且",
+  "raison": "Doublon de 043 : même structure 要是…就…，否则…."
+ },
+ {
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>On n'est jamais mieux servi que par soi-même.</i><br><br>① 自己服务比别人好。<br>② 自己做比求别人好。<br>③ 求人不如求己。",
+  "raison": "Ambiguë : ② 自己做比求别人好 est aussi une traduction juste ; seul le proverbe est attendu."
+ },
+ {
+  "recto": "Placez <b>以外</b> au bon endroit :<br><br>我们 每 个 月 除了 A 房租 B ， 还 要 交 C 很 多 别的 D 费用 。",
+  "raison": "Même phrase que 019 (我们每个月除了房租以外，还要交…) et même point."
+ },
+ {
+  "recto": "Placez <b>不得不</b> au bon endroit :<br><br>房东 要 收回 房子 ， 他们 A 找 B 别的 C 地方 D 住 。",
+  "raison": "Doublon de 021 (adverbe à placer après le sujet) sur presque la même phrase que 049."
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>这双鞋___得正好，不大也不小。<br><br>Choix : 合 / 穿 / 买",
+  "raison": "Peu naturel (on dit 穿着正好 ou 大小正好) et hors du programme de la leçon ; pas de traduction."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这个乐队___四个年轻人组成。<br><br>Choix : 由 / 被 / 从",
+  "raison": "Doublon de 010 et 057 : 由…组成 pour un groupe de N personnes, troisième fois."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>再改了 / 已经 / 决定了，就别 / 既然你",
+  "raison": "Doublon : même proposition que 024 (既然你已经决定了) et même exercice d'ordre que 039 ; six cartes 既然 dans la leçon."
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>yīyuàn</b> — hôpital<br><br>Choix : 宜院 / 疑院 / 医院",
+  "raison": "Triviale : 医院 est un mot de débutant."
+ },
+ {
+  "recto": "Choisissez le bon mot de liaison :<br><br>___她多么努力，结果___是一样的。<br><br>Choix : 即使/也 / 无论/都 / 只要/就",
+  "raison": "Doublon de 038 : 无论 / 不管…都, même exercice de liaison."
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>他___然而然地学会了方言，因为从小在那里长大。<br><br>Choix : 自 / 顺 / 当",
+  "raison": "Devinette : connaître 自然 suffit ; expression hors du programme de la leçon, sans traduction."
+ },
+ {
+  "recto": "Placez <b>就</b> au bon endroit :<br><br>既然 A 你 B 不 喜欢 这 篇 文章 ， C 别 D 看 了 。",
+  "raison": "Doublon de 003/039/020 : 既然…就, 就 à placer devant 别."
+ },
+ {
+  "recto": "Choisissez le bon mot de liaison :<br><br>___你现在还来得及，___赶快去做吧。<br><br>Choix : 由于/因此 / 既然/就 / 因为/所以",
+  "raison": "Doublon de 024 : choisir 既然 parmi des connecteurs ; phrase peu naturelle, sans traduction."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___电影<br><br>Choix : 部 / 张 / 条",
+  "raison": "Doublon de 029 (部 pour une œuvre), sans contexte."
+ },
+ {
+  "recto": "Complétez avec la bonne structure (sens : oser) :<br><br>我不___一个人在家。<br><br><i>Je n'ose pas rester seul à la maison.</i>",
+  "raison": "Triviale : 敢 à partir de « oser » ; 032 teste déjà 敢."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>___明天下雨，我们就不去了。<br><br>Choix : 要是 / 不光 / 另外",
+  "raison": "Triviale : 要是…就, distracteurs sans rapport."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___想法<br><br>Choix : 张 / 条 / 个",
+  "raison": "Triviale : 一个想法."
+ },
+ {
+  "recto": "Complétez ce chengyu :<br><br>___思极恐<br><br>Choix : 多 / 细 / 深",
+  "raison": "Hors niveau : 细思极恐 est de l'argot internet, pas un chengyu du programme."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 教授 (professeur (d'université)) :<br><br>这___教授教我们历史。<br><br>Choix : 只 / 位 / 本",
+  "raison": "Triviale : 位 pour un professeur, contre 只 et 本."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这本书不仅有意思，___很有用。<br><br>Choix : 而且 / 但是 / 所以",
+  "raison": "Triviale (而且 contre 但是 / 所以) ; 018 teste déjà 不但…而且."
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>你___得对，我确实做错了。<br><br>Sens attendu : <i>dis</i><br><br>Choix : 说 / 谈 / 讲",
+  "raison": "Ambiguë : 你讲得对 est aussi correct."
+ },
+ {
+  "recto": "Complétez l'expression :<br><br>乱七___糟<br><br>Choix : 八 / 六 / 七",
+  "raison": "Triviale : 七…八 se devine ; hors du programme de la leçon."
+ },
+ {
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>这件___对公司影响很大。<br><br>Choix : 是 / 事",
+  "raison": "Débile : 这件是 contre 这件事."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>___以来，他一直在这家公司工作。<br><br>Choix : 毕业 / 明年 / 将来",
+  "raison": "Doublon de 056 : 以来 incompatible avec le futur."
+ },
+ {
+  "recto": "Complétez la phrase :<br><br>她___了好几份工作，最终选择了最符合自己兴趣的。<br><br>Choix : 考虑 / 权衡 / 比较",
+  "raison": "Ambiguë : 她考虑了好几份工作 est aussi juste ; l'explication ne justifie pas 比较."
+ },
+ {
+  "recto": "Placez <b>而且</b> au bon endroit :<br><br>网上 的 小说 不但 A 内容 丰富 ， B 读者 C 也 D 很 多 。",
+  "raison": "Doublon de 018 : 网上的小说不但…，而且…, même point."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>“你明白了吗？”“___，明白了。”<br><br>Choix : 嗯 / 吗 / 吧",
+  "raison": "Triviale : 嗯 contre 吗 / 吧."
+ },
+ {
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>吗？你把钱包丢了？",
+  "raison": "Erreur artificielle (吗 en tête), et 什么？ ou 真的？ seraient aussi justes."
+ },
+ {
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>kēxué</b> — science<br><br>Choix : 克学 / 颗学 / 科学",
+  "raison": "Triviale : 科学 est un mot de débutant."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>是 / 餐厅 / 的 / 这家 / 红烧肉 / 招牌菜",
+  "raison": "Triviale (A 的 B 是 C), deux ordres justes, vocabulaire hors leçon (招牌菜, 红烧肉)."
+ },
+ {
+  "recto": "Placez <b>似的</b> au bon endroit :<br><br>他 A 像 B 个 孩子 C 哭 D 了 起来 。",
+  "raison": "Doublon : même 像个孩子似的 que 004, même place devant le verbe que 027."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>毕业以后，我们___见过面。<br><br>Choix : 再也没 / 再也不 / 没再也",
+  "raison": "Doublon de 016 : 再也没 contre 再也不 avec 过."
+ },
+ {
+  "recto": "Faites une seule phrase avec <b>像…似的</b> :<br><br>她笑了。<br>她像个孩子。",
+  "raison": "Doublon de 004 : 她 V 得像个孩子似的."
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Líkāi jiā yǐhòu, wǒ zài yě méi chīguo nà zhǒng táng.</i>",
+  "raison": "Presque la même phrase que 014 (离开家乡以后，我再也没吃过…糖)."
+ },
+ {
+  "recto": "Placez <b>完</b> au bon endroit :<br><br>我 的 巧克力 A 被 弟弟 B 吃 C 了 D 。",
+  "raison": "Triviale (完 collé au verbe) sur la même phrase que 037 (…被弟弟 V 完了)."
+ },
+ {
+  "recto": "Choisissez le bon mot de liaison :<br><br>他___不说，大家___猜到了他的意思。<br><br>Choix : 不必/也 / 不用/都 / 虽然/还是",
+  "raison": "Triviale : distracteurs absurdes (不必/也, 不用/都), pas de traduction."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这个蛋糕你不吃___吃。<br><br>Choix : 我 / 你 / 都",
+  "raison": "Doublon de 024 (你不 V 我 V) et triviale."
+ },
+ {
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā gāoxìng de gēn háizi shìde.</i>",
+  "raison": "Presque la même phrase que 004 (高兴得像个孩子似的)."
+ },
+ {
+  "recto": "Choisissez la bonne forme :<br><br>这盒巧克力是在上海买___。<br><br>Choix : 的 / 了",
+  "raison": "Triviale : 是…的 contre 了 ; 045 et 054 couvrent déjà 是…的."
+ },
+ {
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___去过日本。（她从没有这个经历）<br><br>Choix : 没 / 不",
+  "raison": "Triviale : 没去过."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>自己 / 的经历 / 你 / 你 / 别人 / 而是 / 不是 / 能够 / 改变 / 的 / 的建议",
+  "raison": "Six ordres justes : casse-tête sans réponse unique."
+ },
+ {
+  "recto": "Quel mot convient le mieux dans ce contexte ?<br><br>他___了很多城市，经验非常丰富。<br><br>Sens attendu : <i>a traversé/visité</i><br><br>Choix : 过 / 走过 / 经历",
+  "raison": "Peu naturel : 走过了很多城市 (on dirait 去过) ; distracteurs faibles."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) pour 相片 (photo) :<br><br>桌子上有三___相片。<br><br>Choix : 条 / 张 / 封",
+  "raison": "Triviale : 张 pour une photo."
+ },
+ {
+  "recto": "Remettez les mots dans le bon ordre :<br><br>口袋里 / 他 / 把 / 在了 / 放 / 手机",
+  "raison": "Triviale et doublon de 023 (把 + objet + 放 + lieu)."
+ },
+ {
+  "recto": "Placez <b>过</b> au bon endroit :<br><br>你 小时候 吃 A 这 种 奶糖 B 吗 C ？",
+  "raison": "Triviale : 过 après le verbe."
+ },
+ {
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___糖<br><br>Choix : 颗 / 张 / 条",
+  "raison": "Doublon de 049 (颗) sans contexte ; 003 emploie 一块糖."
+ }
+]

@@ -18,6 +18,9 @@ Menu Outils :
   prises leçon par leçon dans l'ordre, mêlées aux révisions, cartes sœurs enterrées) ;
 - « Chinois : ajouter l'audio (Google Traduction) » : l'audio de chaque note qui n'en a pas, lu par la voix Google
   Traduction (chinois) d'HyperTTS depuis le champ « Texte audio » ; s'arrête avec Échap, reprend où il en était ;
+- « Chinois : refaire l'audio d'une catégorie » : mots, phrases, réponses d'exercices, grammaire, dialogues, textes ou
+  caractères (étiquettes tts::…) ; refait chaque audio qui manque ou n'est pas celui du texte actuel (ancien audio
+  HyperTTS, texte corrigé depuis), l'ancien restant en place jusqu'au remplacement ;
 - « Chinois : notes sans audio (HyperTTS) » : le navigateur sur les notes à doter d'un audio (champ « Texte audio »
   rempli, « Ajouter le verso » vide), pour le faire à la main avec HyperTTS.
 """
@@ -154,36 +157,66 @@ def lancer_import():
     CollectionOp(parent=mw, op=op).success(lambda _: showInfo("\n".join(journal), title="Ranger mon chinois")).run_in_background()
 
 
-def lancer_audio():
-    """Audio Google Traduction des notes qui ont un texte à lire et pas encore d'audio, dans l'ordre d'étude."""
-    from .audio_auto import EN_PARALLELE, a_faire, generer, _gtts
+def lancer_refaire_audio():
+    """Refaire l'audio d'une catégorie (étiquette tts::…) : chaque note dont l'audio manque ou n'est pas celui de son
+    texte actuel (ancien audio HyperTTS, texte corrigé depuis) reçoit le nouvel audio, qui remplace l'ancien."""
+    from aqt.qt import QInputDialog
+    from .audio_auto import CATEGORIES, etat_categories
+    etat = etat_categories(mw.col)
+    choix, cles = [], []
+    for tag, libelle in CATEGORIES:
+        total, a_jour, a_refaire = etat[tag]
+        if total:
+            choix.append(f"{libelle} : {a_refaire} à refaire sur {total}")
+            cles.append(tag)
+    choix.append(f"Toutes les catégories : {sum(e[2] for e in etat.values())} à refaire sur {sum(e[0] for e in etat.values())}")
+    cles.append(None)
+    texte, ok = QInputDialog.getItem(
+        mw, "Chinois : refaire l'audio", "Catégorie à refaire (l'audio actuel reste en place jusqu'à son remplacement) :",
+        choix, 0, False)
+    if ok and texte:
+        lancer_audio(categorie=cles[choix.index(texte)], refaire=True)
+
+
+def lancer_audio(categorie=None, refaire=False):
+    """Audio Google Traduction des prochaines notes (ordre d'étude) qui ont un texte à lire et pas encore d'audio ;
+    refaire=True : aussi celles dont l'audio n'est pas celui de leur texte actuel (il est remplacé)."""
+    from .audio_auto import CATEGORIES, PAR_SEANCE, PAUSE, a_faire, generer, _gtts
     try:
         gtts = _gtts(mw)
     except ImportError:
         showWarning("L'audio automatique emploie la voix Google Traduction d'HyperTTS : installez d'abord HyperTTS "
                     "(Outils > Modules > Obtenir des modules, code 111623432), redémarrez Anki, puis relancez.")
         return
-    travail = a_faire(mw.col)
-    if not travail:
-        showInfo("Toutes les notes du paquet Chinois qui ont un texte à lire ont déjà leur audio.", title="Ranger mon chinois")
+    restant = a_faire(mw.col, categorie, refaire)
+    nom = dict(CATEGORIES).get(categorie, "toutes les catégories") if refaire else ""
+    if not restant:
+        showInfo((f"{nom} : tous les audios sont déjà à jour." if refaire else
+                  "Toutes les notes du paquet Chinois qui ont un texte à lire ont déjà leur audio."), title="Ranger mon chinois")
         return
+    travail = restant[:PAR_SEANCE]
     textes = len({t for _, t in travail})
-    minutes = max(1, round(textes * 0.6 / EN_PARALLELE / 60))
-    if not askUser(f"Ajouter l'audio de {len(travail)} notes du paquet Chinois ({textes} textes différents) ?\n\n"
+    minutes = max(1, round(textes * (PAUSE + 0.5) / 60))
+    quoi = (f"Refaire l'audio de {len(travail)} notes ({nom} : {len(restant)} à refaire en tout) ?\n\n"
+            "- l'audio actuel est remplacé par celui du texte actuel (champ « Texte audio ») ; il reste en place tant que "
+            "le nouveau n'est pas prêt ;\n" if refaire else
+            f"Ajouter l'audio des {len(travail)} prochaines notes du paquet Chinois "
+            f"({len(restant)} notes n'ont pas encore d'audio) ?\n\n"
+            "- un seul audio par note, placé dans « Ajouter le verso » ; les audios déjà là ne sont pas touchés ;\n")
+    if not askUser(quoi +
                    "- voix Google Traduction (chinois), comme les préréglages HyperTTS, lisant le champ « Texte audio » : "
                    "le mot, la phrase, le dialogue ou la réponse, jamais la consigne ;\n"
-                   "- un seul audio par note, placé dans « Ajouter le verso » ; les audios déjà là ne sont pas touchés ;\n"
                    "- d'abord les cartes déjà vues, puis les nouvelles dans l'ordre du manuel ;\n"
-                   f"- environ {minutes} min en tout, connexion Internet nécessaire ; Échap pour arrêter à tout moment : "
-                   "la fois suivante reprend là où on en était ;\n"
+                   f"- environ {minutes} min, connexion Internet nécessaire ; Échap pour arrêter à tout moment ;\n"
+                   "- Google Traduction bloque pour quelques heures une connexion qui demande trop vite : le module avance "
+                   "doucement, par séances ; relancez-le chaque jour pour garder l'audio en avance sur vos révisions ;\n"
                    "- les fichiers (10 à 30 Ko par phrase) partent sur AnkiWeb à la synchronisation suivante."):
         return
-    mw.progress.start(max=len(travail), label="Audio Google Traduction…", immediate=True)
+    mw.progress.start(max=len(travail), label="Audio Google Traduction : première demande…", immediate=True)
 
-    def progres(faits, total):
-        mw.taskman.run_on_main(lambda: mw.progress.update(
-            label=f"Audio Google Traduction : {faits} / {total} notes\n(Échap pour arrêter : la suite reprendra ici)",
-            value=faits, max=total))
+    def progres(faits, total, message):
+        texte = message or f"Audio Google Traduction : {faits} / {total} notes"
+        mw.taskman.run_on_main(lambda: mw.progress.update(label=f"{texte}\n(Échap pour arrêter)", value=faits, max=total))
 
     def fini(futur):
         mw.progress.finish()
@@ -192,19 +225,29 @@ def lancer_audio():
         except Exception as e:
             showWarning(f"Audio : arrêt sur une erreur ({e}). Ce qui a été fait est gardé ; relancez pour continuer.")
             return
-        texte = (f"Audio ajouté à {bilan['notes']} notes sur {bilan['total']} "
-                 f"({bilan['demandes']} fichiers demandés à Google Traduction, {bilan['deja']} déjà présents).")
+        reste = len(restant) - bilan["notes"] - bilan["vides"]
+        menu = "« Chinois : refaire l'audio d'une catégorie »" if refaire else "« Chinois : ajouter l'audio »"
+        texte = (f"Audio {'refait' if refaire else 'ajouté'} pour {bilan['notes']} notes ({bilan['demandes']} fichiers "
+                 f"demandés à Google Traduction, {bilan['deja']} déjà présents). Encore {max(0, reste)} notes "
+                 f"{'à refaire' if refaire else 'sans audio'}.")
         if bilan["vides"]:
             texte += f"\n{bilan['vides']} notes sans rien à lire (ponctuation seule) : laissées sans audio."
-        if bilan["arret"]:
-            texte += f"\n\nArrêt : {bilan['arret']}. Relancez « Chinois : ajouter l'audio » pour continuer."
+        if bilan["arret"] == "limite":
+            texte += ("\n\nGoogle Traduction refuse les demandes pour le moment (trop de demandes récentes depuis cette "
+                      f"connexion). Ce blocage dure en général de quelques heures à une journée : relancez {menu} "
+                      "plus tard, la suite reprendra ici.")
+        elif bilan["arret"] == "echap":
+            texte += f"\n\nArrêté (Échap). Relancez {menu} pour continuer."
+        elif bilan["arret"]:
+            texte += f"\n\nArrêt : {bilan['arret']}. Relancez {menu} pour continuer."
         try:
             mw.reset()
         except Exception:
             pass
         showInfo(texte, title="Ranger mon chinois")
 
-    mw.taskman.run_in_background(lambda: generer(mw.col, travail, progres, mw.progress.want_cancel, gtts), fini)
+    mw.taskman.run_in_background(
+        lambda: generer(mw.col, travail, progres, mw.progress.want_cancel, gtts, remplacer=refaire), fini)
 
 
 def lancer_sans_audio():
@@ -215,7 +258,8 @@ def lancer_sans_audio():
 
 def _menu():
     for titre, fonction in (("Chinois : tout mettre en place ou à jour", lancer_mise_en_place),
-                            ("Chinois : ajouter l'audio (Google Traduction)", lancer_audio),
+                            ("Chinois : ajouter l'audio (Google Traduction)", lambda: lancer_audio()),
+                            ("Chinois : refaire l'audio d'une catégorie", lancer_refaire_audio),
                             ("Chinois : notes sans audio (HyperTTS)", lancer_sans_audio),
                             ("Chinois : importer les fichiers et ranger", lancer_import),
                             ("Ranger mon chinois (ordre du manuel)", lancer_rangement),

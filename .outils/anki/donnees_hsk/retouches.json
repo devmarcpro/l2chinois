@@ -470,5 +470,1433 @@
   ],
   "retirer": false,
   "note": "Pinyin : 985 lu jiǔ bā wǔ (au lieu des chiffres) et 院校 = yuàn xiào (et non jiào)."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>学",
+  "remplacements": [
+   {
+    "ancien": "apprendre, étudier - 努力学习 = travailler d",
+    "nouveau": "apprendre, étudier"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : exemple tronqué (« travailler d »), avec 努力 vu en L10"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>很</b> au bon endroit :<br><br>我们 A 的 B 大学 C 大 D 。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">hěn</span><span class=\"t4\">dà</span>",
+    "nouveau": "<span class=\"t3\">hěn</span> <span class=\"t4\">dà</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : hěn dà en deux mots"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>人",
+  "remplacements": [
+   {
+    "ancien": "<br><b>生人</b> <span class=\"t1\">shēng</span><span class=\"t2\">rén</span> inconnu / étranger (à quelqu'un)",
+    "nouveau": "<br><b>中国人</b> <span class=\"t1\">zhōng</span><span class=\"t2\">guó</span><span class=\"t2\">rén</span> Chinois(e)<br><b>法国人</b> <span class=\"t3\">fǎ</span><span class=\"t2\">guó</span><span class=\"t2\">rén</span> Français(e)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 生人 rare et hors niveau ; les mots attendus à la L01 (中国人, 法国人) manquaient"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>生",
+  "remplacements": [
+   {
+    "ancien": "monsieur, mari<br><b>生人</b> <span class=\"t1\">shēng</span><span class=\"t2\">rén</span> inconnu / étranger (à quelqu'un)",
+    "nouveau": "monsieur, mari"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 生人 rare et hors niveau"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>国",
+  "remplacements": [
+   {
+    "ancien": "France<br><b>国王</b> <span class=\"t2\">guó</span><span class=\"t2\">wáng</span> roi — 国王陛下 = Sa Majesté le roi · 女王 = re",
+    "nouveau": "France"
+   },
+   {
+    "ancien": "pays étranger ; étranger<br><b>王国</b> <span class=\"t2\">wáng</span><span class=\"t2\">guó</span> royaume ; (fig.) domaine, monde",
+    "nouveau": "pays étranger ; étranger"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 国王 (glose tronquée « 女王 = re ») et 王国 hors niveau"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Comment se lit 只 dans ce groupe ?<br><br><span class=\"hanzi\">两只猫</span><br><br>Choix : zhī / zhǐ",
+  "remplacements": [
+   {
+    "ancien": "只 zhī est le classificateur des animaux.",
+    "nouveau": "只 zhī est le classificateur de nombreux animaux (chat, oiseau…)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pas de tous les animaux (条, 头, 匹…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这___桌子很大。<br><br>Choix : 张 / 本 / 只",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">hěn</span><span class=\"t4\">dà</span>",
+    "nouveau": "<span class=\"t3\">hěn</span> <span class=\"t4\">dà</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : hěn dà en deux mots"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我的房间___大。<br><br>Choix : 很 / 是",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">hěn</span><span class=\"t4\">dà</span>",
+    "nouveau": "<span class=\"t3\">hěn</span> <span class=\"t4\">dà</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : hěn dà en deux mots"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>她是一个姑娘。<br>这个姑娘很漂亮。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">hěn</span><span class=\"t4\">piào</span><span class=\"t4\">liàng</span>",
+    "nouveau": "<span class=\"t3\">hěn</span> <span class=\"t4\">piào</span><span class=\"t0\">liang</span>"
+   },
+   {
+    "ancien": "<span class=\"t2\">niáng</span>",
+    "nouveau": "<span class=\"t0\">niang</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : hěn piàoliang (ton neutre, deux mots), gūniang (ton neutre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>有",
+  "remplacements": [
+   {
+    "ancien": "en outr",
+    "nouveau": "en outre"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : glose tronquée"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>还是</b> :<br><br>你想买白色的吗？<br>你想买黑色的吗？",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t2\">hái</span><span class=\"t4\">shì</span>",
+    "nouveau": "<span class=\"t2\">hái</span><span class=\"t0\">shi</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : 还是 háishi (ton neutre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Je ne savais pas que tu étais là.</i><br><br>① 我不认识你在这里。<br>② 我没有知道你在这里。<br>③ 我不知道你在这里。",
+  "remplacements": [
+   {
+    "ancien": "没有知道 est incorrect (知道 n'est pas un verbe d'action aspectualisable avec 没有). 不认识 = ne pas connaître (quelqu'un), pas 'ne pas savoir'.",
+    "nouveau": "没有知道 est incorrect : 知道 est un verbe d'état, qui se nie avec 不, même au passé. 不认识 = ne pas connaître (quelqu'un), pas « ne pas savoir »."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : explication jargonneuse (« aspectualisable »), guillemets anglais"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我姐姐很长头发。",
+  "remplacements": [
+   {
+    "ancien": "<b>Phrase correcte :</b><br>我姐姐是长头发。<br>",
+    "nouveau": "<b>Phrase correcte :</b><br>我姐姐是长头发。<br>ou : 我姐姐的头发很长。<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction naturelle à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br>啊 (particule modale en fin de phrase, ex. 是啊)<br><br>Choix : ā / á / ǎ / a / à",
+  "remplacements": [
+   {
+    "ancien": "après u, ao → wa",
+    "nouveau": "après u, ao, ou → wa"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : règle incomplète (ou → wa)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>更</b> au bon endroit :<br><br>这 件 衬衫 很 漂亮 ， 那 A 件 B 衬衫 C 漂亮 D 。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">hěn</span><span class=\"t4\">piào</span><span class=\"t4\">liàng</span>",
+    "nouveau": "<span class=\"t3\">hěn</span> <span class=\"t4\">piào</span><span class=\"t0\">liang</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : hěn piàoliang (deux mots, ton neutre comme plus loin dans la phrase)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这件衬衫太大，有小___的吗？<br><br>Choix : 一点点 / 有点儿",
+  "remplacements": [
+   {
+    "ancien": "« un peu plus… » (小一点点).",
+    "nouveau": "« un peu plus… » (小一点点). On dit aussi, plus couramment : 有小一点的吗？"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : donner la forme la plus courante"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites l'heure en chinois :<br><br><b>2 h 05</b>",
+  "remplacements": [
+   {
+    "ancien": "零 marque le zéro des minutes.",
+    "nouveau": "零 marque le zéro des minutes. On dit aussi 两点五分."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>还是 / 打车去 / 你们 / 坐地铁去 / 是",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t2\">hái</span><span class=\"t4\">shì</span>",
+    "nouveau": "<span class=\"t2\">hái</span><span class=\"t0\">shi</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : 还是 háishi (ton neutre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>以",
+  "remplacements": [
+   {
+    "ancien": "c'est pourquoi<br><b>下班以后</b> <span class=\"t4\">xià</span><span class=\"t1\">bān</span><span class=\"t3\">yǐ</span><span class=\"t4\">hòu</span> après le travail",
+    "nouveau": "c'est pourquoi"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 下班以后 n'est pas un mot"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>地",
+  "remplacements": [
+   {
+    "ancien": "station de métro<br><b>坐地铁</b> <span class=\"t4\">zuò</span> <span class=\"t4\">dì</span><span class=\"t3\">tiě</span> prendre le métro",
+    "nouveau": "station de métro"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 坐地铁 n'est pas un mot"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>一定</b> au bon endroit :<br><br>你 A 明天 B 要 C 来 D 啊！",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t4\">yào</span><span class=\"t2\">lái</span>",
+    "nouveau": "<span class=\"t4\">yào</span> <span class=\"t2\">lái</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : 要 et 来 collés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>学 / 做中国菜 / 跟你 / 我想",
+  "remplacements": [
+   {
+    "ancien": "<i>Je voudrais apprendre avec toi à faire la cuisine chinoise.</i>",
+    "nouveau": "<i>Je voudrais que tu m'apprennes à faire la cuisine chinoise.</i>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 跟你学 = apprendre de toi, pas « avec toi »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>因为你能来让我很高兴。",
+  "remplacements": [
+   {
+    "ancien": "une proposition comme sujet)</div>",
+    "nouveau": "une proposition comme sujet)<br><b>Aussi correct :</b> 因为你能来，我很高兴。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看书了 / 别 / 你 / 在床上",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">nǐ</span><span class=\"t2\">bié</span>",
+    "nouveau": "<span class=\"t3\">nǐ</span> <span class=\"t2\">bié</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : pinyin : 你 et 别 collés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>得</b> :<br><br>她跳舞。<br>她跳得好极了。",
+  "remplacements": [
+   {
+    "ancien": "<i>Elle danse extrêmement bien.</i>",
+    "nouveau": "<i>Elle danse extrêmement bien.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 她舞跳得好极了。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>所以</b> :<br><br>他每天跟中国朋友说汉语。<br>他汉语说得很好。",
+  "remplacements": [
+   {
+    "ancien": "c'est pourquoi il le parle très bien.</i>",
+    "nouveau": "c'est pourquoi il le parle très bien.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他每天跟中国朋友说汉语，所以他汉语说得很好。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante avec sujet répété à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : comment, de quelle façon, quel genre de) :<br><br>我们应该___学好汉语？<br><br><i>Comment devons-nous faire pour bien apprendre le chinois ?</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 怎样</b>",
+    "nouveau": "<b>Réponse : 怎样</b> (怎么 convient aussi)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 怎么 convient tout autant"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他们两个很像长得。",
+  "remplacements": [
+   {
+    "ancien": "他们两个长得很像。<br>",
+    "nouveau": "他们两个长得很像。<br><i>Ils se ressemblent beaucoup, tous les deux.</i><br>"
+   },
+   {
+    "ancien": "长得 + adjectif = ressembler physiquement. L'ordre est fixe : V + 得 + adj. On ne peut pas déplacer 长得 après l'adjectif.",
+    "nouveau": "长得 + adjectif décrit l'apparence physique : 长得很像 = se ressembler beaucoup. L'ordre est fixe : V + 得 + complément ; 长得 ne peut pas passer après 很像."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : explication fausse (长得 ≠ ressembler), traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>思",
+  "remplacements": [
+   {
+    "ancien": "sens ; signification ; signification imp",
+    "nouveau": "sens ; signification"
+   },
+   {
+    "ancien": "intéressant ; amusant ; qui en vaut la p",
+    "nouveau": "intéressant ; amusant"
+   },
+   {
+    "ancien": "sans intérêt, ennuyeux - 有意思 = intéressa",
+    "nouveau": "sans intérêt ; ennuyeux"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : sens tronqués"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>那两本 / 是我的 / 汉语书 / 桌子上的",
+  "remplacements": [
+   {
+    "ancien": "nombre + classificateur + nom)</i></div>",
+    "nouveau": "nombre + classificateur + nom)</i><br><b>Aussi possible (moins courant) :</b> 那两本桌子上的汉语书是我的。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre ordre juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>楼",
+  "remplacements": [
+   {
+    "ancien": "au rez-de-chaussée ; l'étage du",
+    "nouveau": "au rez-de-chaussée ; l'étage du dessous"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : sens tronqué"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他会开车，和会做饭。",
+  "remplacements": [
+   {
+    "ancien": "(还 — en plus, aussi (ajouter une action))</div>",
+    "nouveau": "(还 — en plus, aussi (ajouter une action))<br><b>Aussi correct :</b> 他会开车，也会做饭。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 也 aussi juste"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我问问了老师，他说不知道。",
+  "remplacements": [
+   {
+    "ancien": "verbe redoublé pour une action brève passée)</div>",
+    "nouveau": "verbe redoublé pour une action brève passée)<br><b>Aussi correct :</b> 我问了老师，他说不知道。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>128 yuans</b>",
+  "remplacements": [
+   {
+    "ancien": "一百二十八 : on dit bien 一百 et 一十 à l'intérieur du nombre (一百一十).",
+    "nouveau": "On dit 一百 (jamais 百 seul) ; à l'écrit : 一百二十八元."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : explication hors sujet (一十 n'apparaît pas dans 128) ; 元 à l'écrit"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>1 500 yuans</b>",
+  "remplacements": [
+   {
+    "ancien": "<b>一千五百块</b>",
+    "nouveau": "<b>一千五百块</b><br><br><div class=\"exemple-bloc\">À l'oral, on dit souvent 一千五 ; à l'écrit, 一千五百元.</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : accepter 一千五 et 元"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>或者</b> :<br><br>我们可以坐火车去。<br>我们可以坐飞机去。",
+  "remplacements": [
+   {
+    "ancien": "<i>Nous pouvons y aller en train ou en avion.</i>",
+    "nouveau": "<i>Nous pouvons y aller en train ou en avion.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我们可以坐火车去，或者坐飞机去。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想___他学做中国菜。<br><br>Choix : 跟 / 对 / 在",
+  "remplacements": [
+   {
+    "ancien": "<i>Je voudrais apprendre à faire la cuisine chinoise avec lui.</i>",
+    "nouveau": "<i>Je voudrais apprendre auprès de lui à faire la cuisine chinoise.</i>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : « avec lui » est ambigu : 跟他学 = apprendre auprès de lui"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>他送了我一张明信片。<br>明信片很漂亮。",
+  "remplacements": [
+   {
+    "ancien": "<i>La carte postale qu'il m'a offerte est très jolie.</i>",
+    "nouveau": "<i>La carte postale qu'il m'a offerte est très jolie.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他送给我的明信片很漂亮。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___收到那封信，所以什么都不知道。<br><br>Choix : 没有 / 不",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 没有</b><br><br>",
+    "nouveau": "<b>Réponse : 没有</b><br><br>她没有收到那封信，所以什么都不知道。<br><i>Elle n'a pas reçu la lettre, alors elle n'est au courant de rien.</i><br><br>"
+   },
+   {
+    "ancien": "没有收到 = n'a pas reçu (fait passé non accompli). 不收到 est agrammatical.",
+    "nouveau": "没有收到 = n'a pas reçu : 没(有) nie une action qui ne s'est pas produite. 不 nierait une volonté ou une habitude ; il ne convient pas ici."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : phrase et traduction absentes ; « 不收到 agrammatical » trop fort"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>火车八点___开了。<br><br>Choix : 快要 / 就要",
+  "remplacements": [
+   {
+    "ancien": "<i>Le train part à huit heures, c'est bientôt.</i>",
+    "nouveau": "<i>Le train va partir à huit heures.</i>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : traduction maladroite"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez la phrase :<br><br>外面___大雨，最好不要出门。<br><br>Choix : 下了 / 下着 / 下过",
+  "remplacements": [
+   {
+    "ancien": "外面<b>下着</b>大雨，最好不要出门。<br><br>",
+    "nouveau": "外面<b>下着</b>大雨，最好不要出门。<br><i>Il pleut à verse dehors, mieux vaut ne pas sortir.</i><br><br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>以前</b> :<br><br>我睡觉。<br>我要再复习一会儿。",
+  "remplacements": [
+   {
+    "ancien": "<i>Avant de me coucher, je veux encore réviser un moment.</i>",
+    "nouveau": "<i>Avant de me coucher, je veux encore réviser un moment.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我睡觉以前要再复习一会儿。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>床上放___一本书。<br><br>Choix : 了 / 着 / 过",
+  "remplacements": [
+   {
+    "ancien": "(un livre est posé sur le lit).",
+    "nouveau": "(un livre est posé sur le lit). 床上放了一本书 se dit aussi (« on y a posé un livre ») ; seul 过 est impossible ici."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 了 est aussi correct dans cette phrase d'existence : le verso doit l'accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这个题 / 帮我 / 吗 / 你能 / 看一下",
+  "remplacements": [
+   {
+    "ancien": "<i>(帮 + personne + V + 一下 + objet)</i></div>",
+    "nouveau": "<i>(帮 + personne + V + 一下 + objet)</i><br><b>Aussi correct :</b> 这个题你能帮我看一下吗？</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : ordre avec l'objet en tête, juste, à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>以后</b> :<br><br>下课了。<br>我们去图书馆复习。",
+  "remplacements": [
+   {
+    "ancien": "<i>Après les cours, nous allons réviser à la bibliothèque.</i>",
+    "nouveau": "<i>Après les cours, nous allons réviser à la bibliothèque.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我们下课以后去图书馆复习。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的（relative）</b> :<br><br>那个学生正在举手。<br>他是我们的班长。",
+  "remplacements": [
+   {
+    "ancien": "<i>L'élève qui est en train de lever la main est notre délégué de classe.</i>",
+    "nouveau": "<i>L'élève qui est en train de lever la main est notre délégué de classe.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 那个正在举手的学生是我们的班长。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste (et plus courante) à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "一边…一边… ou 又…又… ?<br><br>这个菜___便宜___好吃。<br><br>Choix : 一边…一边… / 又…又…",
+  "remplacements": [
+   {
+    "ancien": "这个菜<b>又</b>便宜<b>又</b>好吃。<br><br>",
+    "nouveau": "这个菜<b>又</b>便宜<b>又</b>好吃。<br><i>Ce plat est à la fois bon marché et délicieux.</i><br><br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这道菜好看虽然，但是不好吃。",
+  "remplacements": [
+   {
+    "ancien": "这道菜虽然好看，但是不好吃。<br><br>",
+    "nouveau": "这道菜虽然好看，但是不好吃。<br><i>Ce plat a beau être joli, il n'est pas bon.</i><br><br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Míngtiān shì wǒ māma de shēngrì, wǒ xiǎng sòng tā yí jiàn máoyī.</i>",
+  "remplacements": [
+   {
+    "ancien": "<small>tā s'écrit 他 (il), 她 (elle) ou 它 (chose, animal) : le pinyin seul ne tranche pas.</small>",
+    "nouveau": "<small>tā désigne ici la mère : on écrit 她.</small>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : la note générique est fausse ici : le contexte (妈妈) impose 她"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>虽然…但是…</b> :<br><br>他去过很多地方。<br>他没去过中国。",
+  "remplacements": [
+   {
+    "ancien": "<i>Bien qu'il soit allé dans beaucoup d'endroits, il n'est jamais allé en Chine.</i>",
+    "nouveau": "<i>Bien qu'il soit allé dans beaucoup d'endroits, il n'est jamais allé en Chine.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 虽然他去过很多地方，但是他没去过中国。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste à accepter"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>半个小时了 / 走了 / 他 / 已经",
+  "remplacements": [
+   {
+    "ancien": "<i>Il est parti il y a déjà une demi-heure.</i>",
+    "nouveau": "<i>Il est parti il y a déjà une demi-heure (ou, avec 走 = marcher : il marche depuis déjà une demi-heure).</i>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : second sens de 走 possible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>周末我去有时候公园跑步。",
+  "remplacements": [
+   {
+    "ancien": "il se place après le sujet, devant le verbe (去)",
+    "nouveau": "il se place devant le verbe (去), après le sujet ou en tête de phrase"
+   },
+   {
+    "ancien": "(有时候 / 正 / 还没…呢 — parfois ; justement en train de ; pas encore)</div>",
+    "nouveau": "(有时候 / 正 / 还没…呢 — parfois ; justement en train de ; pas encore)<br><b>Aussi correct :</b> 周末有时候我去公园跑步。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 有时候 peut aussi précéder le sujet"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>完",
+  "remplacements": [
+   {
+    "ancien": "Finir de manger / avoir mangé tout ce qu<br>",
+    "nouveau": "finir de manger<br>"
+   },
+   {
+    "ancien": "Finir d'écrire ; complément de résultat <br>",
+    "nouveau": "finir d'écrire<br>"
+   },
+   {
+    "ancien": "c'est fini ; c'est fichu (oral) ; (oral)",
+    "nouveau": "c'est fini ; c'est fichu (oral)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : gloses tronquées ou redoublées"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一样 / 妈妈的 / 长 / 妹妹的头发 / 跟",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">zhǎng</span>",
+    "nouveau": "<span class=\"t2\">cháng</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 长 = long se lit cháng"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>跟…一样</b> :<br><br>这件衣服三百块。<br>那件衣服也三百块。",
+  "remplacements": [
+   {
+    "ancien": "<i>Ce vêtement coûte aussi cher que celui-là.</i>",
+    "nouveau": "<i>Ce vêtement coûte aussi cher que celui-là.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 这件衣服跟那件一样贵。 这件衣服跟那件衣服一样，都是三百块。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variantes justes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>比</b> :<br><br>我姐姐二十岁。<br>我十八岁。",
+  "remplacements": [
+   {
+    "ancien": "<i>Ma grande sœur a deux ans de plus que moi.</i>",
+    "nouveau": "<i>Ma grande sœur a deux ans de plus que moi.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我比我姐姐小两岁。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>比</b> :<br><br>他跑得很快。<br>我跑得不快。",
+  "remplacements": [
+   {
+    "ancien": "<i>Il court plus vite que moi.</i>",
+    "nouveau": "<i>Il court plus vite que moi.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他比我跑得快。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : variante juste"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他的汉语比我的非常好。",
+  "remplacements": [
+   {
+    "ancien": "(A 比 B + 更 / 还 + adjectif — encore plus… que)</div>",
+    "nouveau": "(A 比 B + 更 / 还 + adjectif — encore plus… que)<br><b>Aussi correct :</b> 他的汉语比我的好。 他的汉语比我的好多了。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : supprimer 非常 suffit aussi"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我觉得他比我不聪明。",
+  "remplacements": [
+   {
+    "ancien": "(A 不比 B + adjectif — pas plus… que (à peu près pareil))</div>",
+    "nouveau": "(A 不比 B + adjectif — pas plus… que (à peu près pareil))<br><b>Aussi correct</b>, pour dire « moins intelligent que moi » : 我觉得他没有我聪明。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction juste selon le sens voulu"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>当他回来，我们已经吃完饭了。",
+  "remplacements": [
+   {
+    "ancien": "(自 / 由 / 当…时 / 等… — introduire un moment ou un point de départ)</div>",
+    "nouveau": "(自 / 由 / 当…时 / 等… — introduire un moment ou un point de départ)<br><b>Aussi correct :</b> 当他回来时，我们已经吃完饭了。 他回来的时候，我们已经吃完饭了。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autres corrections justes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我的头疼厉害，想去医院看看。",
+  "remplacements": [
+   {
+    "ancien": "Seul 死了 se place directement après l'adjectif.",
+    "nouveau": "死了 ou 极了, eux, se placent directement après l'adjectif (疼死了)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : « seul 死了 » inexact"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>银行就在___，再走五分钟就到了。<br><br>Choix : 前头 / 之前 / 以前",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t2\">tóu</span>",
+    "nouveau": "<span class=\"t0\">tou</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 前头 se lit qiántou (ton neutre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>对不起，我不记住你的名字。",
+  "remplacements": [
+   {
+    "ancien": "(V + 住 / 走 / 上 / 到 — fixer, emporter, fermer ou réussir, atteindre)</div>",
+    "nouveau": "(V + 住 / 走 / 上 / 到 — fixer, emporter, fermer ou réussir, atteindre)<br><b>Aussi correct</b> (« je n'arrive pas à retenir ») : 对不起，我记不住你的名字。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction juste"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>妈妈批评弟弟因为不写作业。",
+  "remplacements": [
+   {
+    "ancien": "(表扬 / 批评 + qqn + V — féliciter, reprocher à qqn de faire qqch)</div>",
+    "nouveau": "(表扬 / 批评 + qqn + V — féliciter, reprocher à qqn de faire qqch)<br><b>Aussi correct :</b> 因为弟弟不写作业，妈妈批评了他。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : autre correction juste"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>赶",
+  "remplacements": [
+   {
+    "ancien": "rattraper, arriver à temps pour ; tomber<br>",
+    "nouveau": "rattraper ; arriver à temps pour<br>"
+   },
+   {
+    "ancien": "arriver (en se dépêchant) ; arriver à te<br>",
+    "nouveau": "arriver (en se dépêchant) ; arriver à temps<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : gloses tronquées"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>个个</b> :<br><br>他有三个孩子。<br>每个孩子都很聪明。",
+  "remplacements": [
+   {
+    "ancien": "<i>Ses trois enfants sont tous intelligents, sans exception.</i>",
+    "nouveau": "<i>Ses trois enfants sont tous intelligents, sans exception.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他有三个孩子，个个都很聪明。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autre fusion juste non acceptée"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>大 / 鞋吗 / 一点儿的 / 这儿有 / 比这双",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t1\">shuāng</span><span class=\"t4\">dà</span>",
+    "nouveau": "<span class=\"t1\">shuāng</span> <span class=\"t4\">dà</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : shuāng et dà collés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>请把这些东西放好一个一个地。",
+  "remplacements": [
+   {
+    "ancien": "Le groupe 一个一个地 se place devant le verbe, pas en fin de phrase.",
+    "nouveau": "Le groupe 一个一个地 se place devant le verbe, pas en fin de phrase ; il peut aussi précéder 把 (请一个一个地把这些东西放好)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autre place juste de 一个一个地"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) :<br><br>一___帽子<br><br>Choix : 个 / 顶 / 件",
+  "remplacements": [
+   {
+    "ancien": "顶 classe les couvre-chefs (chapeau, casquette, tente).",
+    "nouveau": "顶 classe les couvre-chefs (chapeau, casquette) et les tentes. À l'oral, on entend aussi 一个帽子, mais 顶 est le classificateur propre."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 个 s'entend aussi à l'oral"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : et, et de plus (ajout d'une action ou d'une idée)) :<br><br>他会说英语，___说得很好。<br><br><i>Il parle anglais, et il le parle très bien.</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 并且</b>",
+    "nouveau": "<b>Réponse : 并且</b> (而且 est aussi juste)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 而且 aussi juste (champ libre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>见个面 / 与 / 我明天要 / 新来的同事",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t4\">jiàn</span><span class=\"t4\">gè</span><span class=\"t4\">miàn</span>",
+    "nouveau": "<span class=\"t4\">jiàn</span><span class=\"t0\">ge</span><span class=\"t4\">miàn</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : 个 neutre dans 见个面"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>他___看清楚那个字，眼镜忘带了。<br><br>Choix : 不 / 没",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 没</b>",
+    "nouveau": "<b>Réponse : 没</b><br><br>他<b>没</b>看清楚那个字，眼镜忘带了。<br><i>Il n'a pas bien vu ce caractère : il avait oublié ses lunettes.</i>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Phrase et traduction absentes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>把</b> :<br><br>我洗了衣服。<br>衣服很干净。",
+  "remplacements": [
+   {
+    "ancien": "<i>J'ai bien lavé les vêtements.</i>",
+    "nouveau": "<i>J'ai bien lavé les vêtements.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我把衣服洗得很干净。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autre fusion juste non acceptée"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>地</b> :<br><br>他很细心。<br>他把房间收拾了一遍。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t1\">shōu</span><span class=\"t2\">shí</span>",
+    "nouveau": "<span class=\"t1\">shōu</span><span class=\"t0\">shi</span>"
+   },
+   {
+    "ancien": "<i>Il a soigneusement rangé la chambre.</i>",
+    "nouveau": "<i>Il a soigneusement rangé la chambre.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他把房间细心地收拾了一遍。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin de 收拾 (shi neutre) ; autre place juste de 细心地"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>你帮我把这篇作文看吧。",
+  "remplacements": [
+   {
+    "ancien": "ici le redoublement 看看.",
+    "nouveau": "ici le redoublement 看看 (看一看 ou 看一下 conviennent aussi)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 看一看 / 看一下 aussi justes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他对这次的失败感到非常遗憾了。",
+  "remplacements": [
+   {
+    "ancien": "他对这次的失败感到非常遗憾。<br>",
+    "nouveau": "他对这次的失败感到非常遗憾。<br><i>Il regrette profondément cet échec.</i><br>"
+   },
+   {
+    "ancien": "感到 + émotion décrit un état ; 了 final est incorrect car cela ne marque pas un changement d'état clair dans ce contexte.",
+    "nouveau": "感到 + sentiment décrit un simple état, sans changement annoncé : le 了² final n'a pas lieu d'être ici."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Traduction absente ; explication floue"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : d'abord…, ensuite… (étapes successives)) :<br><br>我们___去酒店，___去吃饭。<br><br><i>Nous allons d'abord à l'hôtel, ensuite nous irons manger.</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 首先 … 然后</b>",
+    "nouveau": "<b>Réponse : 首先 … 然后</b> (aussi juste : 先 … 然后, 先 … 再)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 先…然后 / 先…再 aussi justes (champ libre)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>路太远了，今天___回去。<br><br>Choix : 赶得 / 来得及 / 赶不",
+  "remplacements": [
+   {
+    "ancien": "<b>赶不</b>回去。<br>",
+    "nouveau": "<b>赶不</b>回去。<br><i>C'est trop loin : impossible de rentrer à temps aujourd'hui.</i><br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez la phrase :<br><br>今天我___很高兴。<br><br>Choix : 感觉 / 感谢 / 感动",
+  "remplacements": [
+   {
+    "ancien": "今天我<b>感觉</b>很高兴。<br>",
+    "nouveau": "今天我<b>感觉</b>很高兴。<br><i>Aujourd'hui, je me sens très heureux.</i><br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Traduction absente"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>我们看了一场演出。<br>那场演出非常精彩。",
+  "remplacements": [
+   {
+    "ancien": "<i>Le spectacle que nous avons vu était vraiment remarquable.</i>",
+    "nouveau": "<i>Le spectacle que nous avons vu était vraiment remarquable.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我们看了一场非常精彩的演出。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autre fusion juste non acceptée"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>队",
+  "remplacements": [
+   {
+    "ancien": "se mettre en file d'att<br>",
+    "nouveau": "se mettre en file d'attente<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Sens tronqué (« file d'att »)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他是一个我的好朋友。",
+  "remplacements": [
+   {
+    "ancien": "(Plusieurs déterminants + nom — ordre des éléments devant le nom)</div>",
+    "nouveau": "(Plusieurs déterminants + nom — ordre des éléments devant le nom)<br><b>Aussi correct :</b> 他是我的好朋友。 (sans 一个)</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Supprimer 一个 est aussi une correction juste."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>景",
+  "remplacements": [
+   {
+    "ancien": "zone pittoresque / site touristique / zo<br>",
+    "nouveau": "zone touristique, site pittoresque<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Glose de 景区 tronquée."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>光",
+  "remplacements": [
+   {
+    "ancien": "(personne) s<br>",
+    "nouveau": "(personne) rayonnant, plein d'entrain<br>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Glose de 阳光 tronquée."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这个箱子够很重的，我拿不动。",
+  "remplacements": [
+   {
+    "ancien": "(够 + adjectif + 的 — vraiment, drôlement)</div>",
+    "nouveau": "(够 + adjectif + 的 — vraiment, drôlement)<br><b>Aussi correct :</b> 这个箱子很重，我拿不动。 (sans 够)</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Supprimer 够 est aussi une correction juste."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Quel est le pinyin correct pour ce caractère ?<br><br><span class=\"hanzi\">为 (dans 为了)</span><br><br>Choix : wēi / wéi / wèi",
+  "remplacements": [
+   {
+    "ancien": "Comme verbe 'faire' → wéi (2e ton).",
+    "nouveau": "Au sens de « faire, être, devenir » → wéi (2e ton) : 认为, 以为, 成为."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Préciser la lecture wéi avec des mots connus."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>为了</b> :<br><br>他每天早上都去跑步。<br>他想锻炼身体。",
+  "remplacements": [
+   {
+    "ancien": "<i>Pour se maintenir en forme, il va courir tous les matins.</i>",
+    "nouveau": "<i>Pour se maintenir en forme, il va courir tous les matins.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 他为了锻炼身体，每天早上都去跑步。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 为了 peut aussi suivre le sujet."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>离开教室时，请把灯关。",
+  "remplacements": [
+   {
+    "ancien": "(把 + objet + V + 得 + état — décrire l'état obtenu)",
+    "nouveau": "(把 + objet + V + complément de résultat)<br><b>Aussi correct :</b> 离开教室时，请把灯关掉。"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Mauvais rappel de structure (il s'agit d'un complément de résultat, pas de 得) ; 关掉 aussi juste."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这个房间稍微小，不过很干净。",
+  "remplacements": [
+   {
+    "ancien": "(十分 / 更加 / 稍微 / 尤其 / 多么 — très, encore plus, un peu, surtout, que… !)",
+    "nouveau": "(十分 / 更加 / 稍微 / 尤其 / 多么 — très, encore plus, un peu, surtout, que… !)<br><b>Aussi correct :</b> 这个房间稍微有点儿小，不过很干净。 / 这个房间有点儿小，不过很干净。"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autres corrections justes."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Quel caractère correspond à ce pinyin et ce sens ?<br><br><b>mùbiāo</b> — objectif/cible<br><br>Choix : 木标 / 目表 / 目标",
+  "remplacements": [
+   {
+    "ancien": "目表 n'existe pas. 木标 = marqueur en bois (sens différent).",
+    "nouveau": "木标 et 目表 ne sont pas des mots."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : 木标 n'est pas un mot."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>为的是学好中文，她每天看中国电影。",
+  "remplacements": [
+   {
+    "ancien": "(……，为的是…… — c'est pour…, dans le but de…)",
+    "nouveau": "(……，为的是…… — c'est pour…, dans le but de…)<br><b>Aussi correct :</b> 她每天看中国电影，为的是学好中文。"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Garder 为的是 en le mettant en seconde proposition est aussi juste."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>不如</b> :<br><br>我的房间很小。<br>我妹妹的房间比较大。",
+  "remplacements": [
+   {
+    "ancien": "<i>Ma chambre est moins grande que celle de ma petite sœur.</i>",
+    "nouveau": "<i>Ma chambre est moins grande que celle de ma petite sœur.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 我的房间不如我妹妹的房间大。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Variante juste à accepter."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我等了你一个小时大概。",
+  "remplacements": [
+   {
+    "ancien": "(大概 + nombre — environ (quantité approximative))",
+    "nouveau": "(大概 + nombre — environ (quantité approximative))<br><b>Aussi correct :</b> 我大概等了你一个小时。 / 我等了你一个小时左右。"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autres corrections justes."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我哥哥相比，我更喜欢运动。",
+  "remplacements": [
+   {
+    "ancien": "(跟 / 和 B 相比 — par rapport à, comparé à)",
+    "nouveau": "(跟 / 和 B 相比 — par rapport à, comparé à)<br><b>Aussi correct :</b> 我比我哥哥更喜欢运动。"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Autre correction juste."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : selon, d'après (据说、据调查)) :<br><br>___天气预报，明天会有大雨。<br><br><i>Selon la météo, il y aura de fortes pluies demain.</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 据</b>",
+    "nouveau": "<b>Réponse : 据</b> (根据 est aussi juste)"
+   },
+   {
+    "ancien": "根据 sert surtout à indiquer la base d'une action ou d'un jugement (根据规定), tandis que 据 introduit une information rapportée.",
+    "nouveau": "根据 indique aussi la base d'une action ou d'un jugement (根据规定) ; devant une source, 根据天气预报 est aussi courant que 据天气预报."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Sans choix, 根据 est juste (et très courant) : l'accepter."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这件衣服看___很贵，其实很便宜。<br><br>Choix : 上去 / 下去 / 出来",
+  "remplacements": [
+   {
+    "ancien": "ne se construit pas directement avec un adjectif.</div>",
+    "nouveau": "ne se construit pas directement avec un adjectif. 看起来 dirait la même chose (这件衣服看起来很贵).</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Signaler 看起来, synonyme non proposé."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>趁</b> :<br><br>你现在还年轻。<br>你要多锻炼身体。",
+  "remplacements": [
+   {
+    "ancien": "<i>Profite de ce que tu es encore jeune pour faire beaucoup d'exercice.</i>",
+    "nouveau": "<i>Profite de ce que tu es encore jeune pour faire beaucoup d'exercice.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 你要趁现在还年轻多锻炼身体。 / 趁你现在还年轻，要多锻炼身体。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Variantes justes à accepter."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>你讲下去这个故事吧。",
+  "remplacements": [
+   {
+    "ancien": "L'objet ne se met pas après 下去 : on le place en tête de phrase.",
+    "nouveau": "L'objet ne se met pas après 下去 : on le place en tête de phrase, ou on l'introduit par 把 (你把这个故事讲下去吧)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : La correction avec 把 est aussi juste (et la plus courante)."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) pour 脚 (pied) :<br><br>他的一___脚受伤了。<br><br>Choix : 只 / 条 / 张",
+  "remplacements": [
+   {
+    "ancien": "条 est réservé aux jambes (一条腿), pas aux pieds, et 张 aux objets plats. Aussi possible : 双.",
+    "nouveau": "条 est réservé aux jambes (一条腿), pas aux pieds, et 张 aux objets plats."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : « Aussi possible : 双 » est faux ici : 一双脚 désigne les deux pieds."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>也不会写 / 居然 / 他学了三年中文， / 连一个汉字",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t1\">tā</span><span class=\"t2\">xué</span>",
+    "nouveau": "<span class=\"t1\">tā</span> <span class=\"t2\">xué</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : tā et xué collés."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>比</b> :<br><br>哥哥的脾气很好。<br>弟弟的脾气更好。",
+  "remplacements": [
+   {
+    "ancien": "<i>Le cadet a encore meilleur caractère que l'aîné.</i>",
+    "nouveau": "<i>Le cadet a encore meilleur caractère que l'aîné.</i><br><br><div class=\"exemple-bloc\"><b>Aussi correct :</b> 弟弟的脾气比哥哥更好。 / 弟弟的脾气比哥哥的还好。</div>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Variante juste à accepter : l'énoncé donne 更好."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>竟然</b> au bon endroit :<br><br>这个 A 八岁的孩子 B 上了 C 四个 D 培训班。",
+  "remplacements": [
+   {
+    "ancien": "quatre cours de soutien.",
+    "nouveau": "quatre cours extrascolaires."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Traduction : 培训班 pour un enfant = cours extrascolaires, pas « cours de soutien »."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>以外</b> au bon endroit :<br><br>除了 A 爸爸妈妈 B，C 爷爷奶奶 D 也 常常 照顾 宝宝。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t4\">bà</span><span class=\"t4\">bà</span><span class=\"t1\">mā</span><span class=\"t1\">mā</span>",
+    "nouveau": "<span class=\"t4\">bà</span><span class=\"t0\">ba</span> <span class=\"t1\">mā</span><span class=\"t0\">ma</span>"
+   },
+   {
+    "ancien": "<span class=\"t2\">yé</span><span class=\"t2\">yé</span><span class=\"t3\">nǎi</span><span class=\"t3\">nǎi</span>",
+    "nouveau": "<span class=\"t2\">yé</span><span class=\"t0\">ye</span> <span class=\"t3\">nǎi</span><span class=\"t0\">nai</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin faux : ton neutre sur la 2e syllabe de 爸爸, 妈妈, 爷爷, 奶奶, et mots séparés."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>下班以后，我去超市___点儿东西。<br><br>Choix : 买 / 购买",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">mǎi</span><span class=\"t3\">diǎn</span>",
+    "nouveau": "<span class=\"t3\">mǎi</span> <span class=\"t3\">diǎn</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : mǎi et diǎnr collés."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>兄",
+  "remplacements": [
+   {
+    "ancien": "cousin et cousine<br>",
+    "nouveau": "cousins et cousines (enfants d'une sœur du père, ou des frères et sœurs de la mère)<br>"
+   },
+   {
+    "ancien": "cousins et cousines (côté paternel)",
+    "nouveau": "cousins et cousines (enfants d'un frère du père)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Sens inexact : 表 n'est pas le contraire de « côté paternel » ; 堂 = enfants d'un frère du père."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Question de registre de langue :<br><br>Quel terme formel désigne 'les habitants' dans un texte officiel ?<br><br>Choix : 大家 / 人们 / 居民",
+  "remplacements": [
+   {
+    "ancien": "大家 = tout le monde (familier)",
+    "nouveau": "大家 = tout le monde (le groupe présent ou concerné), sans idée de résidence"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Explication fausse : 大家 n'est pas familier."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>她___得到了那份奖学金，高兴极了。<br><br>Choix : 中于 / 忠于 / 终于",
+  "remplacements": [
+   {
+    "ancien": "最终 = finalement (résultat final, sans la connotation d'attente).",
+    "nouveau": "忠于 = être fidèle à (忠于祖国) ; 中于 n'est pas un mot."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Explication hors sujet : elle parle de 最终, absent des choix, et oublie 忠于."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : si…, alors… ; sinon…) :<br><br>___想去，___早点儿告诉我，___我不等你了。<br><br><i>Si tu veux venir, préviens-moi tôt ; sinon, je ne t'attendrai pas.</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 要是 … 就 … 否则</b>",
+    "nouveau": "<b>Réponse : 要是 … 就 … 否则</b><br><small>Aussi juste : 如果 à la place de 要是 ; 不然 ou 要不然 à la place de 否则.</small>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Réponse ouverte : 如果 et 不然 / 要不然 sont aussi justes."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>由</b> au bon endroit :<br><br>别 担心 ， 这些 费用 A 都 B 房东 C 来 D 出 。",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t2\">lái</span><span class=\"t1\">chū</span>",
+    "nouveau": "<span class=\"t2\">lái</span> <span class=\"t1\">chū</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : lái et chū collés."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>他对自己的决定感到很___悔。<br><br>Choix : 候 / 后",
+  "remplacements": [
+   {
+    "ancien": "sens différent malgré une prononciation proche (hòu)",
+    "nouveau": "même prononciation (hòu), mais sens différent"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Explication : 后 et 候 se prononcent exactement pareil."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>是想了解中国文化 / 我来中国 / 学汉语，另一方面 / 一方面是为了",
+  "remplacements": [
+   {
+    "ancien": "<span class=\"t3\">wǒ</span><span class=\"t2\">lái</span>",
+    "nouveau": "<span class=\"t3\">wǒ</span> <span class=\"t2\">lái</span>"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Pinyin : wǒ et lái collés."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon caractère pour compléter la phrase :<br><br>我们应该___对方多一点耐心。<br><br>Choix : 对 / 对于",
+  "remplacements": [
+   {
+    "ancien": "对 + personne = envers quelqu'un (préposition courante avant un complément d'objet) ; 对于 s'utilise plutôt devant un sujet abstrait ou une proposition.",
+    "nouveau": "对 + personne = envers quelqu'un : pour une attitude envers une personne (耐心, 好, 客气…), seul 对 convient. 对于 introduit un sujet ou une question (对于这个问题…)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Explication imprécise : la vraie règle est que 对于 ne marque pas l'attitude envers une personne."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : depuis… (jusqu'à maintenant)) :<br><br>自上个月___，这里一直没下过雨。<br><br><i>Depuis le mois dernier, il n'a pas plu une seule fois ici.</i>",
+  "remplacements": [
+   {
+    "ancien": "<b>Réponse : 以来</b>",
+    "nouveau": "<b>Réponse : 以来</b> (自上个月起 se dit aussi)"
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Variante juste à accepter : 自上个月起."
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>她___肯听他解释，只是摇了摇头。<br><br>Choix : 没 / 不",
+  "remplacements": [
+   {
+    "ancien": "Le verbe modal 肯 (comme 会, 能, 愿意) se nie avec 不, jamais avec 没.",
+    "nouveau": "Le verbe modal 肯 se nie avec 不, même pour un refus passé comme ici (摇了摇头)."
+   }
+  ],
+  "retirer": false,
+  "note": "relecture des exercices du 28/09 : Explication fausse : 能 se nie aussi avec 没 (没能)."
  }
 ]

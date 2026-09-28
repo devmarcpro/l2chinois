@@ -6,24 +6,27 @@ Google Traduction lit le texte ; le mp3 va dans le dossier des médias et la not
 « Ajouter le verso ». C'est le moteur qu'HyperTTS emploie pour cette voix (la bibliothèque gTTS livrée avec HyperTTS),
 appelé directement : aucune voix Windows, et un seul audio par note, jamais remplacé.
 
-Les notes passent dans l'ordre d'étude : cartes déjà vues, puis cartes nouvelles dans l'ordre du manuel. On peut
-arrêter à tout moment (Échap) : la fois suivante reprend où l'on en était. Un même texte n'est demandé qu'une fois
-(le nom du fichier vient du texte), et un fichier déjà présent dans les médias n'est pas redemandé.
+Les notes passent dans l'ordre d'étude : cartes déjà vues, puis cartes nouvelles dans l'ordre du manuel. Google
+Traduction bloque une connexion qui demande trop vite (erreur 429, pour quelques heures) : on avance donc doucement,
+une demande à la fois, par séances de PAR_SEANCE notes ; la séance suivante reprend où l'on en était. Si Google
+bloque quand même, la séance s'arrête tout de suite en le disant. Échap arrête à tout moment. Un même texte n'est
+demandé qu'une fois (le nom du fichier vient du texte), et un fichier déjà présent dans les médias n'est pas redemandé.
 """
 import hashlib
 import io
 import os
+import re
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor
 
 from .coeur import AUDIO, RECHERCHE_SANS_AUDIO, TEXTE_AUDIO
 
 HYPERTTS = "111623432"  # dossier d'HyperTTS dans addons21 (numéro AnkiWeb)
 LANGUE, DOMAINE = "zh-CN", "com"  # voix « Chinese (Mandarin) » de Google Traduction, comme le préréglage HyperTTS
-PAR_LOT = 40  # notes enregistrées ensemble
-EN_PARALLELE = 4  # demandes simultanées à Google Traduction
-PAUSE = 0.1  # secondes entre deux demandes d'un même fil
+PAR_SEANCE = 600  # notes par lancement : une dizaine de minutes, de quoi rester en avance sur les révisions
+PAR_LOT = 20  # notes enregistrées ensemble
+PAUSE = 0.8  # secondes entre deux demandes : 4 demandes en parallèle ont fait bloquer la connexion (27/09)
+ATTENTE_LIMITE = 90  # secondes d'attente, une fois, si Google limite en cours de séance
 
 
 def _gtts(mw):
@@ -42,10 +45,52 @@ def nom_fichier(texte: str) -> str:
     return f"chinois-gtts-{h}.mp3"
 
 
-def a_faire(col):
-    """[(nid, texte à lire)] des notes sans audio, dans l'ordre d'étude."""
+CATEGORIES = (  # étiquette tts:: -> ce qu'elle regroupe (voir audio.py dans .outils/anki)
+    ("tts::mot", "Mots (vocabulaire)"),
+    ("tts::phrase", "Phrases, dictées, exemples de grammaire du manuel"),
+    ("tts::reponse", "Réponses des exercices"),
+    ("tts::grammaire", "Fiches de grammaire (comprendre / utiliser)"),
+    ("tts::dialogue", "Dialogues et textes d'écoute"),
+    ("tts::texte", "Textes de lecture"),
+    ("tts::caractere", "Caractères à écrire"),
+)
+
+
+def _sons(champ: str):
+    return re.findall(r"\[sound:([^\]]+)\]", champ)
+
+
+def etat_categories(col):
+    """{étiquette: (notes avec un texte à lire, à jour, à refaire)} ; « à refaire » : pas d'audio, ou un audio qui
+    n'est pas celui du texte actuel (ancien HyperTTS, texte changé depuis)."""
+    etat = {t: [0, 0, 0] for t, _ in CATEGORIES}
+    place = {}
+    for mid, flds, tags in col.db.all("select mid, flds, tags from notes"):
+        tag = next((t for t in tags.split() if t in etat), None)
+        if tag is None:
+            continue
+        if mid not in place:
+            noms = [f["name"] for f in col.models.get(mid)["flds"]]
+            place[mid] = (noms.index(TEXTE_AUDIO), noms.index(AUDIO)) if TEXTE_AUDIO in noms and AUDIO in noms else None
+        if not place[mid]:
+            continue
+        champs = flds.split("\x1f")
+        texte = champs[place[mid][0]].strip()
+        if not texte:
+            continue
+        etat[tag][0] += 1
+        etat[tag][1 if _sons(champs[place[mid][1]]) == [nom_fichier(texte)] else 2] += 1
+    return etat
+
+
+def a_faire(col, categorie=None, refaire=False):
+    """[(nid, texte à lire)] dans l'ordre d'étude : les notes sans audio, ou (refaire=True) aussi celles dont l'audio
+    n'est pas celui de leur texte actuel ; seulement l'étiquette `categorie` (tts::mot…) si elle est donnée."""
     from anki.utils import ids2str
-    nids = col.find_notes(RECHERCHE_SANS_AUDIO + " -tag:tts::aucun")
+    recherche = (f'deck:Chinois -"{TEXTE_AUDIO}:" -tag:tts::aucun' if refaire else RECHERCHE_SANS_AUDIO + " -tag:tts::aucun")
+    if categorie:
+        recherche += f" tag:{categorie}"
+    nids = col.find_notes(recherche)
     if not nids:
         return []
     rang = {}
@@ -63,79 +108,114 @@ def a_faire(col):
             continue
         champs = flds.split("\x1f")
         texte = champs[place[mid][0]].strip()
-        if texte and "[sound:" not in champs[place[mid][1]]:
+        sons = _sons(champs[place[mid][1]])
+        if texte and (not sons or (refaire and sons != [nom_fichier(texte)])):
             travail.append((nid, texte))
     travail.sort(key=lambda x: rang.get(x[0], (2, 0)))
     return travail
 
 
 class ArretGoogle(Exception):
-    pass
+    """Google Traduction ne répond plus (réseau coupé, erreur qui persiste)."""
 
 
-def _demander(gtts, texte: str):
-    """mp3 de la voix Google Traduction, ou None si le texte n'a rien à lire. Réessaie après un refus passager."""
-    attente = 5
-    for essai in range(7):
+class LimiteGoogle(Exception):
+    """Google Traduction refuse : trop de demandes depuis cette connexion (erreur 429)."""
+
+
+class Arret(Exception):
+    """Échap."""
+
+
+def _dormir(secondes, arreter, pendant=None):
+    """Attend sans rester sourd à Échap ; pendant(reste) est appelé chaque seconde."""
+    fin = time.monotonic() + secondes
+    while (reste := fin - time.monotonic()) > 0:
+        if arreter():
+            raise Arret
+        if pendant:
+            pendant(max(1, round(reste)))
+        time.sleep(min(1.0, reste))
+
+
+def _demander(gtts, texte: str, arreter):
+    """mp3 de la voix Google Traduction, ou None si le texte n'a rien à lire. Réessaie deux fois après une erreur
+    passagère ; une limite de Google (429) remonte tout de suite."""
+    for essai in range(3):
         try:
             tampon = io.BytesIO()
-            gtts.gTTS(text=texte, lang=LANGUE, tld=DOMAINE, timeout=30).write_to_fp(tampon)
-            time.sleep(PAUSE)
+            gtts.gTTS(text=texte, lang=LANGUE, tld=DOMAINE, timeout=20).write_to_fp(tampon)
             return tampon.getvalue()
         except AssertionError:  # gTTS : rien à lire une fois la ponctuation retirée
             return None
         except Exception as e:
-            reponse = getattr(e, "rsp", None)
-            if getattr(reponse, "status_code", None) == 429:  # trop de demandes : Google dit combien attendre
-                attente = max(attente, int(reponse.headers.get("Retry-After", 30)))
-            if essai == 6:
+            if getattr(getattr(e, "rsp", None), "status_code", None) == 429:
+                raise LimiteGoogle(str(e)) from e
+            if essai == 2:
                 raise ArretGoogle(str(e)) from e
-            time.sleep(attente)
-            attente = min(attente * 2, 300)
+            _dormir(3 * (essai + 1), arreter)
 
 
-def generer(col, travail, progres, arreter, gtts):
-    """Ajoute l'audio, lot par lot. progres(faits, total) ; arreter() -> True pour s'arrêter ; gtts : le module
-    (voir _gtts). Renvoie le bilan."""
+def generer(col, travail, progres, arreter, gtts, remplacer=False):
+    """Ajoute l'audio des notes de `travail` [(nid, texte)], une demande à la fois ; remplacer=True : l'audio déjà
+    présent est remplacé par le nouveau (refaire une catégorie), sinon il est gardé.
+
+    progres(faits, total, message) ; arreter() -> True pour s'arrêter (Échap) ; gtts : le module (voir _gtts).
+    Renvoie le bilan ; bilan["arret"] vaut "", "echap", "limite" ou le texte d'une erreur."""
     bilan = {"notes": 0, "demandes": 0, "deja": 0, "vides": 0, "arret": "", "total": len(travail)}
-    with ThreadPoolExecutor(EN_PARALLELE) as pool:
-        for debut in range(0, len(travail), PAR_LOT):
+    fichiers = {}  # nom voulu -> nom réel dans les médias (None : rien à lire)
+    en_attente = []  # notes prêtes, enregistrées par lots
+    attendu = False
+
+    def enregistrer():
+        notes = []
+        for nid, reel in en_attente:
+            note = col.get_note(nid)
+            if "[sound:" in note[AUDIO] and not remplacer:  # audio ajouté entre-temps (HyperTTS à la main) : gardé
+                continue
+            note[AUDIO] = f"[sound:{reel}]"
+            notes.append(note)
+        if notes:
+            col.update_notes(notes, skip_undo_entry=True)
+        bilan["notes"] += len(notes)
+        en_attente.clear()
+
+    try:
+        for i, (nid, texte) in enumerate(travail):
             if arreter():
-                bilan["arret"] = "arrêt demandé"
-                break
-            lot = travail[debut:debut + PAR_LOT]
-            fichiers = {}  # nom voulu -> nom réel dans les médias (None : rien à lire)
-            a_demander = {}
-            for _, texte in lot:
-                nom = nom_fichier(texte)
-                if nom in fichiers or nom in a_demander:
-                    continue
+                raise Arret
+            nom = nom_fichier(texte)
+            if nom not in fichiers:
                 if col.media.have(nom):
                     fichiers[nom] = nom
                     bilan["deja"] += 1
                 else:
-                    a_demander[nom] = texte
-            try:
-                sons = list(pool.map(lambda t: _demander(gtts, t), a_demander.values()))
-            except ArretGoogle as e:
-                bilan["arret"] = f"Google Traduction ne répond plus ({e})"
-                break
-            for nom, son in zip(a_demander, sons):
-                bilan["demandes"] += 1
-                fichiers[nom] = col.media.write_data(nom, son) if son else None
-            notes = []
-            for nid, texte in lot:
-                reel = fichiers.get(nom_fichier(texte))
-                if not reel:
-                    bilan["vides"] += 1
-                    continue
-                note = col.get_note(nid)
-                if "[sound:" in note[AUDIO]:  # audio ajouté entre-temps (HyperTTS à la main) : on le garde
-                    continue
-                note[AUDIO] = f"[sound:{reel}]"
-                notes.append(note)
-            if notes:
-                col.update_notes(notes, skip_undo_entry=True)
-            bilan["notes"] += len(notes)
-            progres(min(debut + PAR_LOT, len(travail)), len(travail))
+                    while True:
+                        try:
+                            son = _demander(gtts, texte, arreter)
+                            break
+                        except LimiteGoogle:
+                            if attendu or not bilan["demandes"]:
+                                raise  # déjà bloqué au départ, ou encore après une attente : inutile d'insister
+                            attendu = True
+                            _dormir(ATTENTE_LIMITE, arreter, lambda reste: progres(
+                                i, len(travail), f"Google Traduction freine : nouvel essai dans {reste} s"))
+                    bilan["demandes"] += 1
+                    fichiers[nom] = col.media.write_data(nom, son) if son else None
+                    time.sleep(PAUSE)
+            if fichiers[nom]:
+                en_attente.append((nid, fichiers[nom]))
+            else:
+                bilan["vides"] += 1
+            if len(en_attente) >= PAR_LOT:
+                enregistrer()
+            progres(i + 1, len(travail), None)
+    except Arret:
+        bilan["arret"] = "echap"
+    except LimiteGoogle:
+        bilan["arret"] = "limite"
+    except ArretGoogle as e:
+        bilan["arret"] = f"Google Traduction ne répond plus ({e})"
+    finally:
+        enregistrer()
     return bilan
