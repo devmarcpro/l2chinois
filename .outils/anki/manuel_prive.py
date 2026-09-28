@@ -92,6 +92,33 @@ def _tri():
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
 
 
+VERBES_CONSIGNE = re.compile(
+    r"\b(Traduisez|Complétez|Choisissez|Remettez|Insérez|Mettez|Remplacez|Corrigez|Réécrivez|Refaites|Transformez|"
+    r"Répondez|Lisez|Écrivez|Transcrivez|Reconstruisez|Remplissez|Distinguez|Posez|Faites|Reliez|Trouvez|Dites|"
+    r"Donnez|Formulez|Utilisez|Simplifiez|Cherchez|Indiquez|Observez|Relevez|Racontez|Présentez|Décrivez)\b", re.I)
+
+
+def _consigne(consigne: str, enonce: str) -> str:
+    """Consigne qui dit quoi faire : le livre écrit « Thème. » (traduire en chinois), met un simple titre en tête
+    des révisions (« Les locatifs ») ou juste « 剩 ou 留 ? » (l'utilisateur, 28/09 : « pourquoi juste “thème.” ? »)."""
+    c = consigne.strip()
+    if re.fullmatch(r"Thème\s*[.:]?", c, re.I):
+        return "Traduisez en chinois :"
+    if re.fullmatch(r"Version\s*[.:]?", c, re.I):
+        return "Traduisez en français :"
+    if re.fullmatch(r"[一-鿿/ ,，、]+(?:\s+ou\s+[一-鿿/ ,，、]+)+\s*[?？:：.]?", c):  # « 剩 ou 留 ? »
+        return f"Complétez avec {c.rstrip(' ?？:：.')} :"
+    if not VERBES_CONSIGNE.search(c):  # un titre de révision
+        titre = c.rstrip(" .:")
+        traduction = re.match(r"Traduction (?:du |de la |de l'|des |d')?(.+)", titre)
+        if traduction and not CJK.search(enonce):  # « Traduction du passé composé français. »
+            return f"Traduisez en chinois (révision : {traduction.group(1)}) :"
+        if VERBES_CONSIGNE.match(enonce.strip()):  # l'énoncé donne déjà l'instruction
+            return f"Révision — {titre}"
+        return f"Révision — {titre} : traduisez en chinois :" if not CJK.search(enonce) else f"Révision — {titre} :"
+    return consigne
+
+
 def _cartes_grammaire():
     """Relecture des exemples (manuel/cartes_grammaire.json : leçon -> "rubrique|indice du point" -> cartes
     {e, mode, fr, note}) : l'utilisateur trouvait « débiles ou incomplètes » les cartes faites de tous les exemples
@@ -170,7 +197,7 @@ def notes_lecon(d):
                 continue
             quelle = "révision" if x.get("partie") == "revision" else "exercice"
             recto = (f"<small>Manuel · {lib} · {quelle} {_t(x.get('numero', ''))}.{k}</small><br><br>"
-                     f"{_t(x.get('consigne', ''))}<br><br>{_t(enonce)}")
+                     f"{_t(_consigne(str(x.get('consigne', '')), enonce))}<br><br>{_t(enonce)}")
             verso = f"<b>Réponse :</b> {_t(rep)}"
             if len(CJK.findall(rep)) >= 2 and not re.search(r"[A-Za-zÀ-ÿ]{3,}", rep):  # réponse en chinois
                 verso += f"<br><small>{_pinyin(rep)}</small>"
