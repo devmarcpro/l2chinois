@@ -371,7 +371,10 @@ QUEL TYPE DE NOTE ?
   importees a ce type, progression gardee). Depuis le 28/09, chaque carte dit ce qu'elle attend : "Lecture :
   lisez la phrase a voix haute (tons compris), puis dites ce qu'elle veut dire", "Theme : dites cette phrase en
   chinois", "Dictee : ecoutez, puis ecrivez la phrase en caracteres" (le module met ces consignes dans le type
-  deja cree ; aucune carte ajoutee ni retiree). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
+  deja cree ; aucune carte ajoutee ni retiree). De meme pour les autres cartes sans consigne : vocabulaire
+  ("Mot : prononcez-le (tons compris) et donnez son sens" / "Mot : dites ce mot en chinois, puis ecrivez-le"),
+  textes ("Lecture : lisez le texte a voix haute, puis repondez aux questions, ou resumez-le") et ecoutes
+  ("Ecoute : ecoutez, puis repondez aux questions, ou dites ce que vous avez compris"). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
   Parcourir > card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
 - Grammaire : type "Chinois (grammaire)", deux cartes par fiche (voir FICHES DE GRAMMAIRE en tete) ; le
   module "Ranger mon chinois" le cree tout seul.

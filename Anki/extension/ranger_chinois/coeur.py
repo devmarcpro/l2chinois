@@ -256,9 +256,18 @@ CONSIGNES_REMPLACEES = {
 }
 
 
+CONSIGNES_MOT_VERSION = "<!-- consignes mot v1 -->"
+STYLE_CONSIGNE = "font-size:16px;opacity:.75;margin:0 0 8px;text-align:center"
+CONSIGNES_MOT = {  # carte du type de vocabulaire -> ce qu'elle attend ; seulement pour les notes du paquet Chinois
+    "Carte 1": "🔤 <b>Mot</b> : prononcez-le (tons compris) et donnez son sens.",
+    "Carte 2": "✍️ <b>Mot</b> : dites ce mot en chinois, puis écrivez-le en caractères.",
+}
+
+
 def preparer_consignes(col, journal):
-    """Consigne propre à chaque carte du type « Chinois (phrase) » : Lecture (lire à voix haute et comprendre), Thème
-    (produire en chinois), Dictée (écrire ce qu'on entend). Modèles seulement ; une fois (repère CONSIGNES_VERSION)."""
+    """Consigne propre à chaque carte : types « Chinois (phrase) » (Lecture, Thème, Dictée) et de vocabulaire (sens,
+    puis production) ; textes et écoutes : voir RAPPEL. Modèles seulement ; une fois (repères de version)."""
+    _consignes_mot(col, journal)
     m = col.models.by_name("Chinois (phrase)")
     if not m or any(CONSIGNES_VERSION in t["qfmt"] for t in m["tmpls"]):
         return
@@ -276,10 +285,47 @@ def preparer_consignes(col, journal):
     journal.append("Phrases : chaque carte dit ce qu'elle attend (Lecture, Thème, Dictée).")
 
 
+def _consignes_mot(col, journal):
+    """Vocabulaire : « prononcez-le et donnez son sens » (carte 1), « dites-le en chinois et écrivez-le » (carte 2).
+    Affiché seulement pour les notes qui ont un « Texte audio » (celles du paquet Chinois)."""
+    m = col.models.by_name("Basique (carte inversée optionnelle)")  # le type du vocabulaire de l'utilisateur
+    if not m or TEXTE_AUDIO not in [f["name"] for f in m["flds"]]:
+        return
+    if any(CONSIGNES_MOT_VERSION in t["qfmt"] for t in m["tmpls"]):
+        return
+    for t in m["tmpls"]:
+        consigne = CONSIGNES_MOT.get(t["name"])
+        if consigne:
+            t["qfmt"] = (f"{CONSIGNES_MOT_VERSION}\n{{{{#{TEXTE_AUDIO}}}}}<div class=\"consigne-mot\" "
+                         f"style=\"{STYLE_CONSIGNE}\">{consigne}</div>{{{{/{TEXTE_AUDIO}}}}}\n" + t["qfmt"])
+    col.models.update_dict(m)
+    journal.append("Vocabulaire : chaque carte dit ce qu'elle attend (sens, puis le mot en chinois).")
+
+
 # ---------------------------------------------------------------- rappel actif (chercher avant de voir)
-RAPPEL_VERSION = "<!-- rappel actif v1 -->"
+RAPPEL_VERSION = "<!-- rappel actif v2 -->"
 RAPPEL = RAPPEL_VERSION + """
 <div id="rc-verso" style="display:none">{{Verso}}</div>
+<script>
+(function () {
+  // ce que la carte attend, pour les textes et les écoutes (les exercices ont déjà leur consigne)
+  if (document.getElementById('rc-consigne')) return;
+  var t = document.querySelector('.texte') || document.querySelector('.card') || document.body;
+  var label = document.querySelector('.ecoute-label');
+  var html = '';
+  if (label && !/dictée/i.test(label.textContent)) {
+    html = '🎧 <b>Écoute</b> : écoutez (autant de fois qu\\'il faut), puis répondez aux questions, ou dites ce que vous avez compris.';
+  } else if (!label && /^\\s*📖/.test(t.textContent || '')) {
+    html = '📖 <b>Lecture</b> : lisez le texte à voix haute, puis répondez aux questions, ou résumez-le en quelques phrases.';
+  }
+  if (!html) return;
+  var d = document.createElement('div');
+  d.id = 'rc-consigne';
+  d.innerHTML = html;
+  d.style.cssText = 'font-size:16px;opacity:.75;margin:0 0 8px;text-align:center';
+  t.parentNode.insertBefore(d, t);
+})();
+</script>
 <script>
 (function () {
   // rappel actif : chercher la réponse avant de voir les choix ; les questions d'un texte sont posées au recto
