@@ -308,6 +308,7 @@ ruby rt {
 
 ########## "Chinois (phrase)" : CARTE 1 LECTURE, MODELE DU RECTO ##########
 
+<div class="consigne">📖 <b>Lecture</b> : lisez la phrase à voix haute (tons compris), puis dites ce qu'elle veut dire. Au verso : pinyin et traduction pour vérifier.</div>
 <div class="texte">{{Recto}}</div>
 
 <script>
@@ -347,6 +348,7 @@ ruby rt {
 
 ########## "Chinois (phrase)" : CARTE 1 LECTURE, MODELE DU VERSO ##########
 
+<div class="consigne">📖 <b>Lecture</b> : lisez la phrase à voix haute (tons compris), puis dites ce qu'elle veut dire. Au verso : pinyin et traduction pour vérifier.</div>
 <div class="texte">{{Recto}}</div>
 <hr id="answer">
 <div class="texte">{{Verso}}</div>
@@ -423,7 +425,7 @@ ruby rt {
 
 ########## "Chinois (phrase)" : CARTE 2 THEME, MODELE DU RECTO ##########
 
-<div class="consigne">Dites ou écrivez en chinois :</div>
+<div class="consigne">🗣️ <b>Thème</b> : dites cette phrase en chinois, à voix haute (ou écrivez-la) :</div>
 <div id="theme-fr" class="traduction"></div>
 <span id="theme-indice" class="bouton-indice">💡 indice (mots clés)</span>
 <div id="verso-cache" style="display:none">{{Verso}}</div>
@@ -449,7 +451,7 @@ ruby rt {
 
 ########## "Chinois (phrase)" : CARTE 2 THEME, MODELE DU VERSO ##########
 
-<div class="consigne">Dites ou écrivez en chinois :</div>
+<div class="consigne">🗣️ <b>Thème</b> : dites cette phrase en chinois, à voix haute (ou écrivez-la) :</div>
 <div id="theme-fr" class="traduction"></div>
 <div id="verso-cache" style="display:none">{{Verso}}</div>
 <hr id="answer">
@@ -531,14 +533,14 @@ ruby rt {
 ########## "Chinois (phrase)" : CARTE 3 DICTEE, MODELE DU RECTO (carte creee seulement si la phrase a un audio) ##########
 
 {{#Ajouter le verso}}
-<div class="consigne">🎧 Écoutez, puis écrivez (ou répétez) la phrase</div>
+<div class="consigne">🎧 <b>Dictée</b> : écoutez, puis écrivez la phrase en caractères (réécoutez autant qu'il faut)</div>
 {{Ajouter le verso}}
 {{/Ajouter le verso}}
 
 
 ########## "Chinois (phrase)" : CARTE 3 DICTEE, MODELE DU VERSO ##########
 
-<div class="consigne">🎧 Écoutez, puis écrivez (ou répétez) la phrase</div>
+<div class="consigne">🎧 <b>Dictée</b> : écoutez, puis écrivez la phrase en caractères (réécoutez autant qu'il faut)</div>
 {{Ajouter le verso}}
 <hr id="answer">
 <div class="texte">{{Recto}}</div>

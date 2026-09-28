@@ -368,7 +368,10 @@ QUEL TYPE DE NOTE ?
 - Phrases : type "Chinois (phrase)", trois cartes par phrase : Lecture (chinois -> francais), Theme (francais
   -> chinois, indice a la demande) et Dictee (on entend l'audio et on ecrit ou repete ; carte creee
   seulement pour les phrases qui ont un audio). Voir TYPES_DE_NOTES.txt (creation et passage des phrases deja
-  importees a ce type, progression gardee). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
+  importees a ce type, progression gardee). Depuis le 28/09, chaque carte dit ce qu'elle attend : "Lecture :
+  lisez la phrase a voix haute (tons compris), puis dites ce qu'elle veut dire", "Theme : dites cette phrase en
+  chinois", "Dictee : ecoutez, puis ecrivez la phrase en caracteres" (le module met ces consignes dans le type
+  deja cree ; aucune carte ajoutee ni retiree). Pour ne pas crouler sous les cartes de theme des phrases HSK 7-9 :
   Parcourir > card:Theme tag:HSK3.0::7-9 > tout selectionner > Suspendre.
 - Grammaire : type "Chinois (grammaire)", deux cartes par fiche (voir FICHES DE GRAMMAIRE en tete) ; le
   module "Ranger mon chinois" le cree tout seul.

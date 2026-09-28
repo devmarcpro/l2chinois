@@ -240,6 +240,40 @@ def preparer_types(col, dossier, journal):
             journal.append(f"Recto de « {audio['name']} » : l'audio HyperTTS (champ « Ajouter le verso ») remplace la synthèse vocale.")
     preparer_audio(col, journal)
     preparer_rappel(col, journal)
+    preparer_consignes(col, journal)
+
+
+# ---------------------------------------------------------------- phrases : ce que chaque carte attend
+# Une phrase a trois cartes ; sans consigne nette, on fait la même chose sur les trois (l'utilisateur, 28/09 :
+# « il faut mieux préciser ce que la carte attend de moi, sinon moi je traduis c'est tout »).
+CONSIGNES_VERSION = "<!-- consignes phrase v1 -->"
+CONSIGNE_LECTURE = ('<div class="consigne">📖 <b>Lecture</b> : lisez la phrase à voix haute (tons compris), puis dites '
+                    'ce qu\'elle veut dire. Au verso : pinyin et traduction pour vérifier.</div>')
+CONSIGNES_REMPLACEES = {
+    "Dites ou écrivez en chinois :": "🗣️ <b>Thème</b> : dites cette phrase en chinois, à voix haute (ou écrivez-la) :",
+    "🎧 Écoutez, puis écrivez (ou répétez) la phrase": "🎧 <b>Dictée</b> : écoutez, puis écrivez la phrase en "
+                                                     "caractères (réécoutez autant qu'il faut)",
+}
+
+
+def preparer_consignes(col, journal):
+    """Consigne propre à chaque carte du type « Chinois (phrase) » : Lecture (lire à voix haute et comprendre), Thème
+    (produire en chinois), Dictée (écrire ce qu'on entend). Modèles seulement ; une fois (repère CONSIGNES_VERSION)."""
+    m = col.models.by_name("Chinois (phrase)")
+    if not m or any(CONSIGNES_VERSION in t["qfmt"] for t in m["tmpls"]):
+        return
+    for t in m["tmpls"]:
+        for cote in ("qfmt", "afmt"):
+            s = t[cote]
+            for ancien, nouveau in CONSIGNES_REMPLACEES.items():
+                s = s.replace(ancien, nouveau)
+            if t["name"] == "Lecture":
+                s = CONSIGNE_LECTURE + "\n" + s
+                if cote == "qfmt":  # repère sur la seule carte Lecture (la Dictée n'existe que s'il y a un audio)
+                    s = CONSIGNES_VERSION + "\n" + s
+            t[cote] = s
+    col.models.update_dict(m)
+    journal.append("Phrases : chaque carte dit ce qu'elle attend (Lecture, Thème, Dictée).")
 
 
 # ---------------------------------------------------------------- rappel actif (chercher avant de voir)
