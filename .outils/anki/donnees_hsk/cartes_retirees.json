@@ -1,0 +1,3492 @@
+[
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>大",
+  "raison": "même réponse 大学，上大学"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你是哪国人？",
+  "raison": "même phrase 你是哪国人"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她<b>不是</b>老师，<b>是</b>学生。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites quelle est la profession d'une personne (son identité) :</div><div class=\"g-fr\">« Mon père est professeur. »</div></div>",
+  "raison": "même phrase 他/她不是老师，是学生"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>不</b> au bon endroit :<br><br>A 我 B 是 C 老师 D ， 我 是 学生 。",
+  "raison": "même phrase 我/他不是老师，我/他是学生"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Quel est le sujet de cette phrase, et où se place-t-il ?</div><div class=\"g-zh\"><b>我妈妈的朋友</b>是老师。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — prenez pour sujet un groupe nominal (un nom précisé par un autre nom) :</div><div class=\"g-fr\">« Le fils de Monsieur Wang est étudiant. »</div></div>",
+  "raison": "même groupe 我妈妈的朋友"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这是我的同学，也是我的好朋友。",
+  "raison": "même structure « …是X的朋友，也是我的(好)朋友 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée, avec 吗) :<br><br>是，我是学生。",
+  "raison": "même phrase 你是学生吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你是中国人___？<br><br>Choix : 吗 / 呢",
+  "raison": "你是中国人吗 / 你是北京人吗 : ne diffèrent que d'un nom"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他是你男朋友吗？",
+  "raison": "point 是…吗 déjà travaillé par 023, 039, 045, 121"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Quelle est la fonction de 她 ici, et change-t-il de forme ?</div><div class=\"g-zh\">你们认识<b>她</b>吗？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — adressez-vous poliment à une personne plus âgée, avec la forme de politesse :</div><div class=\"g-fr\">« Êtes-vous professeur ? »</div></div>",
+  "raison": "point 吗 déjà couvert (您是老师吗) ; 您 travaillé par 095"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que demande 呢 ici ?</div><div class=\"g-zh\">我是法国人，你<b>呢</b>？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — posez une question fermée (réponse oui / non) en ajoutant une particule à la fin de la phrase affirmative :</div><div class=\"g-fr\">« Vous êtes le professeur Wang ? »</div></div>",
+  "raison": "même phrase 我是法国人，你呢"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我叫马丽，你___？<br><br>Choix : 吗 / 呢",
+  "raison": "même exercice : choisir 呢 / 吗"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Où se place le mot interrogatif, et pourquoi n'y a-t-il pas de 吗 ?</div><div class=\"g-zh\">你住在<b>哪儿</b>？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — posez une question ouverte sur l'identité d'une personne, en gardant l'ordre de la phrase affirmative :</div><div class=\"g-fr\">« Qui est ton professeur de chinois ? »</div></div>",
+  "raison": "même phrase 你住在哪儿"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>我住在巴黎。",
+  "raison": "même phrase 你住在哪儿"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>在</b> au bon endroit :<br><br>A 我 B 住 C 巴黎 D 。",
+  "raison": "même phrase 我住在巴黎"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Le verbe change-t-il de forme selon la personne ?</div><div class=\"g-zh\">我爸爸<b>住</b>在上海，我<b>住</b>在北京。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — niez un fait habituel avec un verbe d'action :</div><div class=\"g-fr\">« Mon ami n'apprend pas le chinois. »</div></div>",
+  "raison": "même phrase X住在北京/上海"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la personne, avec 谁) :<br><br>她是我妈妈。",
+  "raison": "point 谁 déjà travaillé par 032, 104, 120"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ jiào shénme míngzi?</i>",
+  "raison": "même phrase 你叫什么名字"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le nom, avec 什么) :<br><br>我叫马丽。",
+  "raison": "même phrase 你叫什么名字"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我在大学学习中文。",
+  "raison": "在大学学习中文 / 在北京学习汉语 : ne diffèrent que d'un nom"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我学习汉语在大学。",
+  "raison": "même phrase 我在大学学习汉语"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们上午在大学<b>学习汉语</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites ce qu'une personne étudie (verbe + objet), en indiquant le lieu :</div><div class=\"g-fr\">« Il apprend le japonais à Shanghai. »</div></div>",
+  "raison": "même phrase 在大学/北京学习汉语"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Quel est le rôle de 在 ici ?</div><div class=\"g-zh\">我妈妈<b>在</b>北京。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites où une personne fait une action (le lieu avant le verbe) :</div><div class=\"g-fr\">« Mon fils fait ses études à Pékin. »</div></div>",
+  "raison": "même point 在 + lieu + verbe (我儿子在北京学习)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我不认识<b>王先生的太太</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites quelle langue parle une personne, en plaçant correctement le complément d'objet :</div><div class=\"g-fr\">« Ma mère parle japonais. »</div></div>",
+  "raison": "même structure 会说 + langue ; point 的 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>也</b> au bon endroit :<br><br>我 是 法国人 ， A 他 B 是 C 法国人 D 。",
+  "raison": "point 也 : même phrase (A 是/不是 X，B 也…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>也</b> :<br><br>我是学生。<br>我朋友是学生。",
+  "raison": "point 也 déjà couvert (我是学生，我朋友也是学生)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他是学生，我<b>也</b>是学生。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une chose (ici négative) vaut aussi pour une autre personne : « … non plus » :</div><div class=\"g-fr\">« Mon ami non plus n'est pas chinois. »</div></div>",
+  "raison": "point 也 déjà couvert (他是学生，我也是学生)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们<b>都</b>是学生。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que tous les membres d'un groupe sont concernés :</div><div class=\"g-fr\">« Mes parents sont tous les deux professeurs. »</div></div>",
+  "raison": "même phrase 我爸爸妈妈都…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>A 他们 B 是 C 大学生 D 。",
+  "raison": "point 都 déjà couvert (他们都是大学生)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>都</b> :<br><br>他不是法国人。<br>她不是法国人。",
+  "raison": "point 都不 déjà couvert"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>没有</b>哥哥。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une chose se trouve dans un lieu (« il y a ») :</div><div class=\"g-fr\">« Il y a deux chaises dans la chambre. »</div></div>",
+  "raison": "même phrase 我没有哥哥"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée, avec 吗) :<br><br>我没有哥哥。",
+  "raison": "même phrase (你有哥哥吗 / 我没有哥哥)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>也</b> :<br><br>我的房间里没有桌子。<br>我的房间里没有椅子。",
+  "raison": "même phrase 房间里没有桌子，也没有椅子"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他___有女朋友。<br><br>Choix : 不 / 没",
+  "raison": "même exercice : choisir 不 / 没 devant 有"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ jiā yǒu liǎng ge fángjiān, méiyǒu huāyuán.</i>",
+  "raison": "contient 我家有两/三个房间"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你家有几口人？",
+  "raison": "même phrase 你家有几口人"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi emploie-t-on 几 ici ?</div><div class=\"g-zh\">你家有<b>几</b>口人？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — demandez un nombre qui peut être élevé :</div><div class=\"g-fr\">« Combien d'étudiants y a-t-il dans votre université ? »</div></div>",
+  "raison": "même phrase 你家有几口人 (多少 : voir 026)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le nombre, avec 多少) :<br><br>我们大学有两千个学生。",
+  "raison": "même phrase 你(们大学)有多少学生"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que compte 口 ici ?</div><div class=\"g-zh\">我家有四<b>口</b>人。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — comptez des animaux avec le bon mot de mesure :</div><div class=\"g-fr\">« Mon ami a trois chats. »</div></div>",
+  "raison": "même phrase 我家有四/五口人"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi 张 pour le lit et 把 pour les chaises ?</div><div class=\"g-zh\">房间里有一<b>张</b>床和两<b>把</b>椅子。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — comptez des meubles à surface plane avec leur mot de mesure spécifique :</div><div class=\"g-fr\">« Il y a deux tables dans ma chambre. »</div></div>",
+  "raison": "même phrase (房间里)有一张床和两把/两张…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>和</b> :<br><br>房间里有一张床。<br>房间里有一张桌子。",
+  "raison": "même phrase 有一张床和一张桌子"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè zhāng zhuōzi fēicháng hǎokàn.</i>",
+  "raison": "这张桌子很大 / 非常好看 : même phrase"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Faut-il traduire 很 par « très » ici ?</div><div class=\"g-zh\">她<b>很</b>漂亮。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — décrivez simplement l'état d'une personne, sans idée de comparaison :</div><div class=\"g-fr\">« Mon père est occupé. »</div></div>",
+  "raison": "我爸爸很忙 / 妈妈很忙 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>很</b> au bon endroit :<br><br>A 他们 B 都 C 忙 D 。",
+  "raison": "他们都很忙 / 老师们都很忙 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>和…都</b> :<br><br>我爸爸很忙。<br>我妈妈很忙。",
+  "raison": "même structure A 和 B 都…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他会说汉语<b>和</b>英语。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — reliez deux noms de personnes par « et » pour en faire un seul sujet :</div><div class=\"g-fr\">« Mon père et ma mère sont tous les deux professeurs. »</div></div>",
+  "raison": "même structure A 和 B 都是…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Comment le prédicat est-il construit ?</div><div class=\"g-zh\">我哥哥<b>个子很高</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — décrivez une partie du corps d'une personne : la personne, puis la partie, puis l'adjectif, sans mot de liaison :</div><div class=\"g-fr\">« Ma mère a de grands yeux. »</div></div>",
+  "raison": "我哥哥个子很高 / 我父亲个子不太高 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这个房间很大和很漂亮。",
+  "raison": "même phrase 房间很大，也很漂亮/亮"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你<b>会不会</b>说英语？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — posez une question oui / non en juxtaposant la forme affirmative et la forme négative du verbe, sans particule finale :</div><div class=\"g-fr\">« Est-ce que tu connais Xiao Wang ? »</div></div>",
+  "raison": "même phrase 你认识不认识她/小王"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le possesseur, avec 谁的) :<br><br>这是我哥哥的猫。",
+  "raison": "这是谁的猫 / 这是谁的本子 : ne diffèrent que d'un nom"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>她是一个姑娘。<br>这个姑娘很漂亮。",
+  "raison": "même phrase X是一个很漂亮/好看的姑娘"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi faut-il 的 ici ?</div><div class=\"g-zh\">她是一个<b>很漂亮的</b>姑娘。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — précisez un nom par un nombre et un adjectif d'une seule syllabe :</div><div class=\"g-fr\">« J'ai deux petits chats. »</div></div>",
+  "raison": "même phrase 她是一个很漂亮的姑娘"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我有一个朋友中国。",
+  "raison": "même phrase 我有…中国朋友"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée, avec 吗) :<br><br>我的房间不太大。",
+  "raison": "même point : question sur un adjectif prédicat, sans 很"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "道可道，非常道。名可名，非常名。",
+  "raison": "même phrase 道可道…（seule la ponctuation change）"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看电影 / 一起 / 去 / 明天 / 我们",
+  "raison": "même phrase 我们一起去看电影"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme (Ø = rien) :<br><br>我不喜欢红的，我喜欢蓝___。<br><br>Choix : 的 / Ø",
+  "raison": "même phrase 我(不)喜欢红的，(我)喜欢蓝/绿的"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这个杯子是<b>我的</b>，那个是<b>我妈妈的</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — désignez des objets par leur couleur sans répéter le nom (« le rouge ») :</div><div class=\"g-fr\">« Je n'aime pas le noir, j'aime le rouge. »</div></div>",
+  "raison": "même phrase 我不喜欢黑的，喜欢红的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我的新手机___白色的。<br><br>Choix : 是 / 很 / 在",
+  "raison": "我的新手机是白色的 / 这个包是绿色的 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>这是一件毛衣。<br>这件毛衣是黄色的。",
+  "raison": "一件黄色的毛衣 / 一双黑色的鞋子 : même structure"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想买一___绿茶。<br><br>Choix : 包 / 件 / 本",
+  "raison": "même phrase 我想买一/两包绿茶"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ xǐhuan bu xǐhuan zhè jiàn máoyī?</i>",
+  "raison": "même phrase 你喜欢不喜欢…"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我想买一个新手机。",
+  "raison": "我想买一个新手机 / 我想买一张唱片 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想买一个___杯子。<br><br>Choix : 很大的 / 很大 / 大很的",
+  "raison": "même structure 我想买一 + classificateur + adjectif 的 + nom"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>和</b> :<br><br>我想买一件衬衫。<br>我想买一件毛衣。",
+  "raison": "même phrase 我想买…一件毛衣"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我喜欢喝茶，你___？<br><br>Choix : 呢 / 吗 / 吧",
+  "raison": "我喜欢/想喝茶，你呢 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>更</b> au bon endroit :<br><br>这 件 衬衫 很 漂亮 ， 那 A 件 B 衬衫 C 漂亮 D 。",
+  "raison": "même phrase X很/非常漂亮，Y更漂亮"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question alternative, avec 还是) :<br><br>我不喝牛奶，我喝茶。",
+  "raison": "même phrase 你(是)喝牛奶还是喝茶"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Míngtiān shì wǒ māma de shēngrì, wǒ xiǎng sòng tā yí jiàn máoyī.</i>",
+  "raison": "même phrase 明天是我妈妈/姐姐的生日，我想送她…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>送你一本书</b>吧。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que vous voulez offrir quelque chose à quelqu'un, avec le verbe suivi directement de la personne puis de la chose (sans préposition) :</div><div class=\"g-fr\">« Je voudrais offrir un pull à ma mère. »</div></div>",
+  "raison": "même phrase 我(们)送你/她…吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>也</b> :<br><br>我喜欢听音乐。<br>我喜欢看电影。",
+  "raison": "même structure …，也(不)…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la boisson, avec 什么) :<br><br>我喜欢喝绿茶。",
+  "raison": "même phrase 你喜欢(喝/看)什么…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la couleur, avec 什么) :<br><br>我喜欢蓝色。",
+  "raison": "même question sur la couleur (什么颜色)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le nombre de personnes, avec 几) :<br><br>我家有四口人。",
+  "raison": "même phrase 我家有四口人"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你今天忙吗？",
+  "raison": "你今天忙吗 est contenu dans 你今天怎么样？忙不忙？"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你明天___？<br><br>Choix : 想买什么 / 什么想买 / 想什么买",
+  "raison": "même structure 你想 + verbe + 什么"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites l'heure en chinois :<br><br><b>8 h 15</b>",
+  "raison": "X点一刻 : ne diffèrent que d'un chiffre"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites l'heure en chinois :<br><br><b>9 h 45</b>",
+  "raison": "X点三刻 : ne diffèrent que d'un chiffre"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>差</b> au bon endroit :<br><br>现在 A 五分 B 九点 C。",
+  "raison": "même phrase 现在差五分九/十点"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites l'heure en chinois :<br><br><b>10 h 50</b>",
+  "raison": "point heure déjà couvert (002, 010, 036, 093)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites l'heure en chinois :<br><br><b>7 h 00</b>",
+  "raison": "point heure déjà couvert (002, 010, 036, 093)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我们八点___上课，十点下课。<br><br>Choix : 半 / 刻 / 分",
+  "raison": "même phrase 我们八点(半)上课"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">现在是早上八<b>点</b>十<b>分</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez l'heure précise d'une action quotidienne (heure et demie) :</div><div class=\"g-fr\">« Je me lève à sept heures et demie. »</div></div>",
+  "raison": "même phrase 现在是…点…分"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你知道今天___吗？<br><br>Choix : 星期几 / 几星期 / 什么星期",
+  "raison": "même phrase …今天星期几"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi faut-il 是 ici ?</div><div class=\"g-zh\">明天<b>不是</b>星期天。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez la date d'aujourd'hui, sans verbe :</div><div class=\"g-fr\">« Aujourd'hui, c'est le 5 mai. »</div></div>",
+  "raison": "même phrase 今天/明天不是星期X"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>明天不八号，是九号。",
+  "raison": "même point : 不是 devant la date"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Dans quel ordre se dit la date ?</div><div class=\"g-zh\">今天<b>三月八号</b>，<b>星期六</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez une date d'anniversaire (jour et mois) :</div><div class=\"g-fr\">« Mon anniversaire est le 20 octobre. »</div></div>",
+  "raison": "même phrase 今天X月X号，星期X"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你的新工作<b>怎么样</b>？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez le jour de la semaine, sans verbe :</div><div class=\"g-fr\">« Demain, c'est dimanche. »</div></div>",
+  "raison": "même phrase 你的新X怎么样 ; 明天星期X déjà dans 159"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Où se place l'expression de temps 明天 ?</div><div class=\"g-zh\">我<b>明天</b>去北京。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites à quelle heure vous faites une action, en plaçant correctement l'indication de temps :</div><div class=\"g-fr\">« Je rentre à la maison à six heures du soir. »</div></div>",
+  "raison": "我明天去北京 / 我今天去邮局 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我下个月___。<br><br>Choix : 去上海 / 上海去 / 去在上海",
+  "raison": "我下个月去上海 / 我今天去邮局 : même phrase"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Où se placent 在家 et la négation ?</div><div class=\"g-zh\">我今天<b>不在家</b>吃饭。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites avec qui vous faites une action, le complément avant le verbe :</div><div class=\"g-fr\">« Je vais voir un film avec une amie. »</div></div>",
+  "raison": "même phrase 不在 + lieu + verbe"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>在</b> au bon endroit :<br><br>他 A 中午 B 公司 C 吃 D 午饭。",
+  "raison": "他中午在公司吃午饭 / 我星期三在家吃午饭 : même phrase"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们<b>下午都在学校</b>学习。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites quand et où se passe une action, en plaçant ces compléments au bon endroit :</div><div class=\"g-fr\">« Demain, je travaille à la maison. »</div></div>",
+  "raison": "même structure temps + 在 + lieu + verbe"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>下午三点</b> au bon endroit :<br><br>我们 A 在 公司 B 开会 C。",
+  "raison": "même phrase …在公司开会 ; ordre temps-lieu déjà dans 051 et 078"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>她在邮局工作。",
+  "raison": "même phrase 在哪儿 + verbe"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们<b>坐火车</b>去北京。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites comment une personne se rend quelque part (à pied) :</div><div class=\"g-fr\">« Il va à l'école à pied tous les jours. »</div></div>",
+  "raison": "même structure 坐 + moyen + 去 + lieu"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ gēge měitiān kāichē qù gōngsī.</i>",
+  "raison": "même phrase …每天开车/坐地铁去…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le moyen de transport, avec 怎么) :<br><br>我坐地铁去学校。",
+  "raison": "你怎么去学校 / 她怎么去英国 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>还是 / 打车去 / 你们 / 坐地铁去 / 是",
+  "raison": "même phrase 坐地铁去还是开车/打车去"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>坐</b> au bon endroit :<br><br>我 A 明天 B 火车 C 去 D 上海。",
+  "raison": "même exercice : placer 坐火车"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我家___学校很远。<br><br>Choix : 离 / 在 / 到",
+  "raison": "même phrase X离Y很远"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ jiā lí xuéxiào yuǎn bu yuǎn?</i>",
+  "raison": "même phrase X离Y远不远 / 远吗"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">睡觉<b>以前</b>我常看书。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — situer une action après une autre (le repère vient en premier) :</div><div class=\"g-fr\">« Après le travail, je vais au cinéma. »</div></div>",
+  "raison": "point …以前 / …以后 déjà couvert (123, 142, 157, 055)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我们以后吃饭去看电影吧。",
+  "raison": "même point : …以后 + verbe"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我们晚上看电影一起吧。",
+  "raison": "même phrase 我们一起(去)看电影"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>每天 / 去 / 都 / 学校 / 我",
+  "raison": "même phrase 我每天都…"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我们几点上课？",
+  "raison": "même phrase X几点上课/开会"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这家商店几点开门？",
+  "raison": "point 几点 déjà couvert (113, 146, 163, 056)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "火车几点到北京？",
+  "raison": "point 火车 + 几点 déjà couvert"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "火车几点开？",
+  "raison": "même phrase 火车几点…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le moment, avec 什么时候) :<br><br>我星期天去看电影。",
+  "raison": "même phrase 你(们)什么时候去…"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你喜欢吃什么？",
+  "raison": "你喜欢吃什么 / 你喜欢做什么 : même phrase"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "您好，请问您是安娜的爸爸吗？",
+  "raison": "même phrase 请问(您)是X吗"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你是这个学校的学生吗？",
+  "raison": "你是这个/哪个学校的学生 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : alternative entre deux propositions) :<br><br>你是今天走，___明天走？<br><br><i>Tu pars aujourd'hui ou demain ?</i>",
+  "raison": "point 还是 déjà couvert (022, 027, 080, 135)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你们想喝什么？茶还是咖啡？",
+  "raison": "point 还是 déjà couvert (022, 027, 080, 135)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你怎么去中国的？",
+  "raison": "你怎么去中国的 est contenu dans 你是怎么来的…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>睡觉 / 怎么 / 还不 / 你",
+  "raison": "même phrase 你怎么还不睡觉"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : classificateur emprunté 杯) :<br><br>我想喝___水。<br><br><i>Je voudrais boire un verre d'eau.</i>",
+  "raison": "même phrase 我想喝一杯水 (déjà en leçon 3)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǎnshang nǐ gěi wǒ dǎ diànhuà, hǎo ma?</i>",
+  "raison": "même phrase que 058 (你给我打电话，好吗) ; point 给…打电话 déjà couvert"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "请你明天给我打电话，好吗？",
+  "raison": "给…打电话 : 5e carte du point, on garde 095, 097, 024, 002"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你上午给我打电话了吗？",
+  "raison": "给我打电话 encore une fois ; point 给…打电话 déjà couvert"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她<b>给</b>我买了礼物。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites à qui vous allez téléphoner :</div><div class=\"g-fr\">« Ce soir, je téléphone à ma mère. »</div></div>",
+  "raison": "给…买礼物 = 002, et 给妈妈打电话 = 095 : les deux moitiés font doublon"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>给</b> au bon endroit :<br><br>我 A 晚上 B 你 C 打 电话 D。",
+  "raison": "我晚上给你打电话 est contenu dans 095"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我给她打一个电话。",
+  "raison": "我给她打一个电话 = 你给他打一个电话吧 (pronoms seuls changent)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>去 / 我 / 朋友 / 看电影 / 跟 / 一起",
+  "raison": "même phrase 我/他跟朋友一起去看电影"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>和</b>他都是学生。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites avec qui l'on fait une action :</div><div class=\"g-fr\">« Je vais voir un film avec un ami. »</div></div>",
+  "raison": "partie à produire identique à 023 (跟朋友一起去看电影) ; 和 travaillé ailleurs"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想___你一起去看电影。<br><br>Choix : 跟 / 给 / 对",
+  "raison": "我想跟你一起去看电影 ≈ 他跟朋友一起去看电影了 ; simple choix"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒmen yìqǐ qù chāoshì mǎi dōngxi ba.</i>",
+  "raison": "même phrase 我们一起去超市买东西吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我们明天一起去超市___！<br><br>Choix : 吧 / 吗 / 呢",
+  "raison": "我们明天一起去超市吧 ≈ 177 ; simple choix de 吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la personne, avec 谁) :<br><br>我跟李江一起去。",
+  "raison": "même phrase 你跟谁一起去（的）"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>跟</b> au bon endroit :<br><br>你 A 明天 B 我们 C 一起 去 超市 D 吧。",
+  "raison": "跟…一起 : point déjà travaillé (009, 023, 092, 166) ; simple placement"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>跟…一起</b> :<br><br>我去超市买东西。<br>李江也去超市买东西。",
+  "raison": "我跟李江一起去超市买东西 ≈ 我们一起去超市买东西吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>吃饭 / 我 / 请你们 / 明天晚上 / 想",
+  "raison": "明天晚上我想请你们吃饭 ≈ 晚上我请你吃饭，怎么样"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">今天我<b>请</b>你吃饭吧。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une personne n'autorise pas quelqu'un à faire quelque chose :</div><div class=\"g-fr\">« Maman ne me laisse pas sortir le soir. »</div></div>",
+  "raison": "今天我请你吃饭吧 ≈ 073, et 妈妈不让我晚上出门 = 111 : doublon des deux côtés"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "谢谢你请我吃饭！",
+  "raison": "谢谢你请我吃饭 : 请…吃饭 encore ; point 请 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>请</b> :<br><br>我请朋友。<br>朋友来我家吃饭。",
+  "raison": "我请朋友来我家吃饭 ≈ 他想请我们去他家吃晚饭"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我妈妈不___我晚上出门。<br><br>Choix : 让 / 给 / 在",
+  "raison": "不让 déjà produit en 018 ; même phrase que la fiche 087"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>让</b> au bon endroit :<br><br>妈妈 A 不 B 我 C 喝 D 可乐。",
+  "raison": "妈妈不让我喝可乐 ≈ 他女朋友不让他喝酒"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur ce qu'il faut acheter, avec 什么) :<br><br>他让我去买牛奶。",
+  "raison": "même phrase « X让Y去买Z »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>让</b> :<br><br>大海说：“李江，你去买饮料吧。”<br>李江去买饮料。",
+  "raison": "même phrase « X让Y去买Z »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>因为你能来让我很高兴。",
+  "raison": "你能来让我很高兴 ≈ 这个礼物让他很高兴"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你不<b>应该</b>那么晚睡觉。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'il se fait tard et que vous devez partir (obligation pratique, à l'oral) :</div><div class=\"g-fr\">« Il se fait tard, je dois y aller. »</div></div>",
+  "raison": "partie à produire identique à 138 (不早了，我得走了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>跟中国人 / 多 / 说汉语 / 应该 / 你",
+  "raison": "你应该多跟中国人说汉语 ≈ 我应该多回家看看他们 (应该多…)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你会说中文吗？会说一点儿。",
+  "raison": "会说一点儿中文 déjà dans 160"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他喜欢看书，___喜欢看电影。<br><br>Choix : 也 / 和 / 跟",
+  "raison": "choix 也/和 déjà en 053"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>真</b> au bon endroit :<br><br>你 的 A 房间 B 漂亮 C ！",
+  "raison": "même phrase 你的房间真漂亮"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这个房间<b>真</b>漂亮！</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exclamez-vous sur une qualité (« Qu'elle est… ! ») :</div><div class=\"g-fr\">« Qu'elle est grande, ta maison ! »</div></div>",
+  "raison": "这个房间真漂亮 = 你的房间真漂亮"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>喂</b>，你好，是小王吗？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — répondez au téléphone et demandez où se trouve votre interlocuteur :</div><div class=\"g-fr\">« Allô, tu es où ? »</div></div>",
+  "raison": "喂，你好，是小王吗 = 076 et 喂，你在哪儿 ≈ 071 : doublon des deux côtés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur l'heure, avec 几) :<br><br>现在差一刻十点。",
+  "raison": "même phrase 现在几点（了）"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我要___咖啡，你呢？<br><br>Choix : 一杯 / 一个杯 / 一杯的",
+  "raison": "我要一杯咖啡 est contenu dans 我要一杯热咖啡"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "请给我一杯水。",
+  "raison": "请给我一杯水 ≈ 再给我们一杯茶"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "请坐，请喝茶！",
+  "raison": "请坐，请喝茶 ≈ 您请坐，喝杯茶吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他说汉语说___很好。<br><br>Choix : 得 / 的 / 地",
+  "raison": "même phrase « 说汉语说得很好 », simple choix de 得"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi le verbe 说 apparaît-il deux fois ?</div><div class=\"g-zh\">他说汉语<b>说</b>得很好。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — jugez la manière dont quelqu'un pratique une activité (verbe + objet), en laissant l'activité juste après le sujet :</div><div class=\"g-fr\">« Elle danse très bien. »</div></div>",
+  "raison": "他说汉语说得很好 = 019 ; 跳舞跳得很好 ≈ 038/040"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>得</b> au bon endroit :<br><br>她 A 写 B 汉字 C 写 D 很 快。",
+  "raison": "même phrase 她写汉字写得很快"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她说<b>得很清楚</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — jugez la manière dont quelqu'un fait une action (sa vitesse) :</div><div class=\"g-fr\">« Il écrit très vite. »</div></div>",
+  "raison": "他写得很快 ≈ 040 ; complément de degré déjà très travaillé"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>写得 / 漂亮 / 汉字 / 非常 / 他",
+  "raison": "他汉字写得非常漂亮 ≈ 写汉字写得… ; point déjà couvert"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他写字写得很漂亮。",
+  "raison": "他写字写得很漂亮 ≈ 她写汉字写得很快 ; « 写字写得 » revient 4 fois"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>得</b> :<br><br>她跳舞。<br>她跳得好极了。",
+  "raison": "V O V得 + adj : point déjà couvert (019, 040, 166)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la manière de parler, avec 怎么样) :<br><br>他英语说得很好。",
+  "raison": "question V得怎么样 déjà travaillée (025, 144, 161, 164)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ juéde zhège diànyǐng zěnmeyàng?</i>",
+  "raison": "你觉得这个电影怎么样 ≈ 你觉得这本小说怎么样"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>特别</b> au bon endroit :<br><br>我 A 觉得 B 这 本 小说 C 有意思 D。",
+  "raison": "我觉得这本小说特别有意思 ≈ 我觉得这个电影很有意思"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée, avec 吗) :<br><br>我觉得汉语不太难。",
+  "raison": "你觉得汉语难吗 ≈ 你觉得汉语怎么样"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : comment, de quelle façon, quel genre de) :<br><br>我们应该___学好汉语？<br><br><i>Comment devons-nous faire pour bien apprendre le chinois ?</i>",
+  "raison": "même phrase 应该怎样学好汉语"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (on demande ce qui ne va pas, avec 怎么) :<br><br>他今天有点儿不舒服。",
+  "raison": "他今天怎么了 ≈ 你怎么了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个饭馆的菜___。<br><br>Choix : 不怎么样 / 不怎么 / 怎么样",
+  "raison": "même phrase 这家饭馆的菜不怎么样"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他们两个很像长得。",
+  "raison": "长得很像 déjà en 084"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>看书了 / 别 / 你 / 在床上",
+  "raison": "你别在床上看书了 ≈ 别看电视了 ; 别…了 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你看，这些花___漂亮啊！<br><br>Choix : 多 / 多很 / 很多",
+  "raison": "même phrase « …多漂亮啊 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个菜好吃___。<br><br>Choix : 得很 / 非常 / 很",
+  "raison": "好吃得很 ≈ 贵得很"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你的中文名字___！<br><br>Choix : 真好听 / 真很好听 / 好听真",
+  "raison": "真 + adj. déjà en 013"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她今年二十四岁。",
+  "raison": "même phrase « 他/她今年N岁 » (chiffre seul change)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我爸爸今年四十八岁，妈妈四十五岁。",
+  "raison": "même phrase « 今年N岁 » (chiffres seuls changent)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Hànyǔ bù nán, hěn yǒu yìsi.</i>",
+  "raison": "汉语不难，很有意思 ≈ 汉语很难，可是很有意思"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他昨天没来上课。",
+  "raison": "他昨天没来上课 est contenu dans 他昨天又没来上课"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "没关系，不是你的错。",
+  "raison": "même phrase « 没事儿/没关系，（这）不是你的错 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Qǐngwèn, fùjìn yǒu yínháng ma?</i>",
+  "raison": "même phrase 请问附近有（没有）银行"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你家附近___银行吗？<br><br>Choix : 有 / 在",
+  "raison": "même phrase « 附近有银行吗 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée sur ce qu'il y a près d'ici, avec 吗) :<br><br>有，前边就有一个药店。",
+  "raison": "même phrase « 附近有X吗 » (seul le lieu change)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>中间</b> :<br><br>银行的左边是书店。<br>银行的右边是邮局。",
+  "raison": "même phrase « X在A和B（的）中间 »"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">银行在超市和书店<b>中间</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — situez un lieu par rapport à un autre avec un point cardinal :</div><div class=\"g-fr\">« J'habite à l'est de l'école. »</div></div>",
+  "raison": "银行在超市和书店中间 = 148 ; points cardinaux déjà en 107 et 111"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">学校<b>前面</b>有一家饭馆。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — situez un magasin juste en face de chez vous :</div><div class=\"g-fr\">« En face de chez moi, il y a un magasin. »</div></div>",
+  "raison": "我家对面有一个商店 = 031 (seuls les noms changent)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我家前边在一家饭馆。",
+  "raison": "même phrase 我家前边是一家饭馆/一个商店"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur ce qui se trouve à cet endroit, avec 什么) :<br><br>教室的旁边是洗手间。",
+  "raison": "même phrase « X旁边是Y »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>洗手间在教室的___。<br><br>Choix : 右边 / 右 / 边右",
+  "raison": "洗手间在教室的右边 ≈ 卧室在右边"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "De quel ton est 教 dans cette phrase ?<br><br><span class=\"hanzi\">老师在教室教学生。</span> (le second 教)<br><br>Choix : 1er ton / 4e ton",
+  "raison": "même phrase 老师在教室教学生"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>在</b> au bon endroit :<br><br>我 A 每天 B 咖啡馆 C 看书 D。",
+  "raison": "我每天在咖啡馆看书 ≈ 我晚上在家看书"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>那两本 / 是我的 / 汉语书 / 桌子上的",
+  "raison": "桌子上的那两本汉语书是我的 ≈ 桌子上的书是谁的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我们在里教室上课。",
+  "raison": "在教室里上课 ≈ 在房间里看书 ; 里 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我的书在书包。",
+  "raison": "我的书在书包里 ≈ 你的笔在桌子上 ; 里/上 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你___前走，银行就在左边。<br><br>Choix : 往 / 离 / 到",
+  "raison": "même phrase « 往前走，…就在左边/右边 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我家___学校很远。<br><br>Choix : 离 / 从 / 往",
+  "raison": "même phrase « X家离学校很远/远吗 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>还是</b> :<br><br>洗手间在楼上吗？<br>洗手间在楼下吗？",
+  "raison": "même phrase 洗手间在楼上还是楼下"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你想喝茶，___想喝咖啡？<br><br>Choix : 还是 / 或者 / 和",
+  "raison": "même phrase 你（想）喝茶还是（想喝）咖啡"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>不远，银行就是前面。",
+  "raison": "银行就在前面 ≈ 厕所就在前边"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Shūdiàn jiù zài fànguǎn de hòubian.</i>",
+  "raison": "就在 + lieu déjà en 092, 099"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>去过 / 北京 / 只 / 一次 / 我",
+  "raison": "même phrase « 我去过N次X » (chiffre et ville changent)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "能 ou 会 ?<br><br>他病了，今天不___来。（supposition : il ne viendra sûrement pas）<br><br>Choix : 能 / 会",
+  "raison": "même phrase 他病了，今天不会来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (demande de permission, avec 吗) :<br><br>可以，这儿可以拍照。",
+  "raison": "même phrase 这儿可以拍照吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhèr bù kěyǐ pāizhào.</i>",
+  "raison": "这儿不可以拍照 ≈ 这儿可以拍照吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ huì bu huì kāichē?</i>",
+  "raison": "你会不会开车 ≈ 他会开车吗"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">会, 能 ou 可以 : pourquoi 能 ici ?</div><div class=\"g-zh\">我今天很忙，不<b>能</b>去。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que vous savez pratiquer une activité (compétence apprise) :</div><div class=\"g-fr\">« Je sais nager. »</div></div>",
+  "raison": "不能去 ≈ 018, 我会游泳 ≈ 024 : doublon des deux côtés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>老师，我___用一下洗手间吗？<br><br>Choix : 可以 / 会",
+  "raison": "même phrase « 我可以V吗 » (demander la permission)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我可以坐这儿吗？",
+  "raison": "même phrase « 我可以V吗 » (seul le verbe change)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur les langues étrangères, avec 什么) :<br><br>他会说英语和法语。",
+  "raison": "会说 + langue déjà en 014"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Kāichē de shíhou bù néng hē jiǔ.</i>",
+  "raison": "开车…不能喝酒 déjà en 110"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "请大家小声一点儿，孩子在睡觉。",
+  "raison": "même phrase « 小声一点儿，孩子要/在睡觉 »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>也</b> :<br><br>我会打篮球。<br>我会踢足球。",
+  "raison": "« 会…，也/还会… » déjà en 085, 043, 037"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我每天早上七点起床，然后去学校上课。",
+  "raison": "« 我每天…，然后去… » ≈ 070"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>然后</b> :<br><br>我们先去看病。<br>我们回家休息。",
+  "raison": "先去X，然后回家… ≈ 132"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Identifiez la structure grammaticale :<br><br>除了她以外，大家都来了。— Que signifie 除了…以外 ici ?<br><br>Choix : En plus de / y compris / À l'exception de / sauf / Concernant / à propos de",
+  "raison": "même phrase 除了他/她以外，大家都来了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>他还 / 一点儿汉语 / 英语以外， / 会说 / 除了",
+  "raison": "même phrase « 除了X以外，他/她还会说… »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne négation (不 ou 没) :<br><br>这本书我___读过。<br><br>Choix : 没有 / 不",
+  "raison": "这本书我没有读过 ≈ 那本书我没有看过"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这本书 / 介绍一下 / 请 / 给我",
+  "raison": "给X介绍一下Y ≈ 093"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec 的, 得 ou 地 :<br><br>他病___很重。<br><br>Choix : 的 / 得 / 地",
+  "raison": "même phrase 他病得很重"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他打篮球___很好。<br><br>Choix : 打得 / 得 / 的",
+  "raison": "même phrase 他（打）篮球打得很好"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la manière de jouer, avec 怎么样) :<br><br>我哥哥篮球打得很好。",
+  "raison": "réponse identique à 115 (篮球打得很好)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "明天我们去打球吧！",
+  "raison": "même proposition « …我们去打球吧/你去不去 »"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "如果你下午有空，我们一起去喝咖啡吧。",
+  "raison": "même phrase « 如果/要是你有空，…吧 »"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "如果你有时间，可以来我家吃饭。",
+  "raison": "même phrase « 如果/要是你有空/有时间，来我家… »"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你最好早一点儿到，那里人很多。",
+  "raison": "même phrase 你最好早（一）点儿去/到"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>多</b> au bon endroit :<br><br>你 病 了，A 应该 B 喝 C 水 D。",
+  "raison": "même phrase « 你病了/身体不好，应该多… »"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>周末我都哪儿没去。",
+  "raison": "哪儿都没去 ≈ 哪儿都不想去"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>128 yuans</b>",
+  "raison": "dire un prix : point déjà couvert par 4 cartes (005, 010, 011, 028)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个杯子___。<br><br>Choix : 十二块 / 十两块 / 十二个块",
+  "raison": "prix en 块 : même phrase que la fiche (十二块 / 十二块五)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>2,50 yuans</b>",
+  "raison": "même phrase 两块五"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>1 500 yuans</b>",
+  "raison": "dire un prix : point déjà couvert par 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Dites ce prix en chinois :<br><br><b>208 yuans</b>",
+  "raison": "两 + 零 dans un prix : même point que 两千零二"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Jīpiào duōshao qián yì zhāng?</i>",
+  "raison": "même phrase 机票多少钱一张 (contenue dans la dictée)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que marque 了 placé juste après le verbe ?</div><div class=\"g-zh\">我昨天买<b>了</b>两本书。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — annoncer un changement de situation (ce n'était pas le cas avant) :</div><div class=\"g-fr\">« Je n'ai plus d'argent. »</div></div>",
+  "raison": "même phrase 我没有钱了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>了</b> au bon endroit :<br><br>现在 A 机票 B 便宜 C。",
+  "raison": "même phrase à un nom près (现在…便宜了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>告诉</b> au bon endroit :<br><br>请 你 A 我 B 他 的 C 名字 D。",
+  "raison": "告诉 : point au-delà de 4 cartes ; « 请你告诉我… » reconnaissance seule"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我不喜欢下雨天。",
+  "raison": "phrase contenue dans 036 (我不喜欢下雨天…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>给</b> au bon endroit :<br><br>你 能 A 借 B 我 C 一百 块 钱 D 吗？",
+  "raison": "presque même phrase 你能(先)借(给)我一百块(钱)吗"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>送给</b>我两个杯子。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — demander qu'on vous prête quelque chose : le destinataire est marqué juste après le verbe, puis vient la chose :</div><div class=\"g-fr\">« Peux-tu me prêter cent yuans ? »</div></div>",
+  "raison": "presque même phrase 你能(先)借(给)我一百块(钱)吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你喝咖啡___喝茶？<br><br>Choix : 还是 / 或者",
+  "raison": "还是 interrogatif : même phrase-type A 还是 B ; 4 cartes au plus"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>为什么</b> au bon endroit :<br><br>你 A 不 B 去 C 上课 D？",
+  "raison": "même phrase à un nom près (你为什么不去…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>请你___我，飞机几点到？<br><br>Choix : 告诉 / 说",
+  "raison": "même phrase 飞机几点到"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___，我们在家看电视吧。<br><br>Choix : 下雨了 / 它下雨了 / 他下雨了",
+  "raison": "presque même phrase (…我们在家看电视吧) ; 下雨 sans sujet repris en 105"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur ce qu'il t'a appris, avec 告诉 et 什么) :<br><br>他告诉我机票又贵了。",
+  "raison": "告诉 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这件事你<b>跟</b>他说了吗？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites auprès de qui on apprend quelque chose :</div><div class=\"g-fr\">« J'apprends le chinois auprès du professeur Wang. »</div></div>",
+  "raison": "跟 : prépositions 对/跟/给 déjà travaillées par 4 cartes (055, 077, 086, 091)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想___他学做中国菜。<br><br>Choix : 跟 / 对 / 在",
+  "raison": "跟 X 学 : même phrase-type que 073, point déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) pour 机票 (billet d'avion) :<br><br>我买了两___去上海的机票。<br><br>Choix : 本 / 条 / 张",
+  "raison": "presque même phrase (买两张去 X 的机票)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我要买去北京的车票。",
+  "raison": "presque même phrase (买去 X 的票)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>认识的 / 在网上 / 是 / 他们",
+  "raison": "même phrase 是在网上认识的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的</b> :<br><br>他送了我一张明信片。<br>明信片很漂亮。",
+  "raison": "même phrase à un nom près (他/她送我的 N 很漂亮)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>天气很好，我们___公园吧。<br><br>Choix : 走路去 / 去走路 / 用走路去",
+  "raison": "presque même phrase 天气很好，我们…吧 ; 走路去 repris en 094"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>外面下雨了，我们___坐车去吧。<br><br>Choix : 还是 / 或者 / 还有",
+  "raison": "还是 (« mieux vaut ») : 4 cartes au plus, choix le plus faible"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她把钱包忘在地铁上了。",
+  "raison": "même phrase à un nom près (把钱包忘在…上了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>越来越 / 好了 / 我的汉语 / 说得",
+  "raison": "presque même phrase (…越来越好了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>越来越</b> au bon endroit :<br><br>春天 来 了，天气 A 暖和 B 了 C。",
+  "raison": "même phrase à un adjectif près (天气越来越…了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>写信 / 一定 / 给你 / 我回国以后",
+  "raison": "même phrase-type 给 X 写信"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>因为…所以…</b> :<br><br>我没有钱。<br>我不能出国。",
+  "raison": "presque même phrase (我没有钱，(所以)不能…)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Quel rapport y a-t-il entre 笑着 et 说话 ?</div><div class=\"g-zh\">她笑<b>着</b>说话。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — décrire un état qui dure, résultat d'une action (et non une action en cours) :</div><div class=\"g-fr\">« La porte de la salle de classe est ouverte. »</div></div>",
+  "raison": "même phrase 她笑着说(话) ; 门开着 repris en 138"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他在床上躺___看连续剧。<br><br>Choix : 着 / 了 / 在",
+  "raison": "même phrase à un nom près (他在床上躺着看…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>二十多个 / 学生 / 坐着 / 教室里",
+  "raison": "même phrase-type lieu + 坐着 + N 人"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne particule aspectuelle :<br><br>床上放___一本书。<br><br>Choix : 了 / 着 / 过",
+  "raison": "même phrase à un nom près (床上放着…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>着</b> au bon endroit :<br><br>教室的门 A 开 B ， C 里面没有人。",
+  "raison": "门开着 : 着 d'état déjà travaillé par 4 cartes (065, 088, 138, 174)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Mén kāizhe, diànshì yě kāizhe.</i>",
+  "raison": "门开着 : 着 d'état déjà travaillé par 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez la phrase :<br><br>外面___大雨，最好不要出门。<br><br>Choix : 下了 / 下着 / 下过",
+  "raison": "着 d'état : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 1</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">别说话，孩子们睡觉<b>呢</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'une action est en cours avec une simple particule en fin de phrase (sans adverbe devant le verbe) :</div><div class=\"g-fr\">« Maman est en train de préparer le repas. »</div></div>",
+  "raison": "presque même phrase (孩子们/他 睡觉呢, 别…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>爸爸看电视___，你别叫他。<br><br>Choix : 呢 / 吗 / 着",
+  "raison": "presque même phrase (…呢，你别叫他)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>外面正___下雨呢，你等一会儿再走吧。<br><br>Choix : 在 / 着 / 了",
+  "raison": "正在…呢 : point au-delà de 4 cartes, choix le plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>明天的考试 / 正在 / 呢 / 他们 / 准备",
+  "raison": "presque même phrase (正在准备/复习…呢)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ gěi wǒ dǎ diànhuà de shíhou, wǒ zhèngzài xǐzǎo.</i>",
+  "raison": "presque même phrase (…打电话的时候，X 正在…)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>正在</b>看书<b>呢</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'on n'est pas en train de faire une action, mais qu'on est en train d'en faire une autre :</div><div class=\"g-fr\">« Je ne regarde pas la télé, je suis en train d'étudier. »</div></div>",
+  "raison": "正在…呢 : point au-delà de 4 cartes (029, 045, 060, 151)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>的时候</b> :<br><br>我到家。<br>妈妈正在做饭。",
+  "raison": "presque même phrase (…的时候，X 正在…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur l'action en cours, avec 什么) :<br><br>我正在复习呢。",
+  "raison": "正在…呢 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你来的时候，我<b>正</b>吃饭<b>呢</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'une chose attendue n'a pas encore eu lieu :</div><div class=\"g-fr\">« Mon petit frère n'est pas encore rentré à la maison. »</div></div>",
+  "raison": "presque même phrase (…的时候，我正…呢)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>别叫他，他还在睡觉了。",
+  "raison": "presque même phrase (别叫他，他(还)在睡觉)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>正在</b> au bon endroit :<br><br>我进教室的时候，老师 A 给 B 学生 C 听写 D 。",
+  "raison": "même phrase-type …的时候，X 正在…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ gāng dào jiā, hái méi chī wǎnfàn ne.</i>",
+  "raison": "même phrase 我刚到家，还没吃晚饭(呢)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你再不走，火车就要开了。",
+  "raison": "presque même phrase (车就要开了)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">火车<b>就要</b>开<b>了</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'un événement va arriver très bientôt (imminence) :</div><div class=\"g-fr\">« Le cours va bientôt finir. »</div></div>",
+  "raison": "même phrase 火车就要开了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "快点儿！火车快要开了！",
+  "raison": "presque même phrase (火车快要开了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>火车八点___开了。<br><br>Choix : 快要 / 就要",
+  "raison": "presque même phrase (火车…就要开了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez pour dire « L'examen approche » :<br><br>___考试了。<br><br>Choix : 快要 / 正在 / 刚",
+  "raison": "même phrase 快要考试了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "快要考试了。",
+  "raison": "même phrase 快要考试了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Kuàiyào qīmò kǎoshì le, dàjiā dōu zài fùxí.</i>",
+  "raison": "presque même phrase (快要考试了，…复习)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___你去哪儿了？我给你打了两个电话。<br><br>Choix : 刚 / 刚才",
+  "raison": "même phrase 刚才你去哪儿了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez pour dire « Il vient de prendre son médicament » :<br><br>他___吃了药。<br><br>Choix : 刚 / 正在 / 快要",
+  "raison": "même phrase 他刚吃了药"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>刚</b> au bon endroit :<br><br>班长 A 走 B ， C 你快去找她吧。",
+  "raison": "刚 : point au-delà de 4 cartes, placement le plus faible"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她有一双<b>大大</b>的眼睛。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — décrivez la manière de façon vivante et intense, en redoublant l'adjectif (tout joyeux) :</div><div class=\"g-fr\">« Les enfants sont partis à l'école tout joyeux. »</div></div>",
+  "raison": "presque même phrase (高高兴兴地 + V 了)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她高兴<b>地</b>说：“太好了！”</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — indiquez la manière (bien, adjectif redoublé) devant le verbe, avec la particule qui convient :</div><div class=\"g-fr\">« Il faut que tu te reposes bien. »</div></div>",
+  "raison": "地 : presque même phrase que 047 (你要好好地休息) ; point déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我弟弟跑地非常快。",
+  "raison": "地 / 得 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : complément de manière (地 vs 得)) :<br><br>她高兴___说：“太好了！”<br><br><i>Elle a dit joyeusement : « Super ! »</i>",
+  "raison": "même phrase que 121 (她高兴地说) ; 地 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我想请你___，可以吗？<br><br>Choix : 帮个忙 / 帮忙个 / 帮忙一个",
+  "raison": "presque même phrase (帮(我一)个忙)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Quelle nuance apporte 的 en fin de phrase ?</div><div class=\"g-zh\">他一定会来<b>的</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — faites une supposition sur l'identité de quelqu'un, en attendant sa confirmation :</div><div class=\"g-fr\">« Vous êtes le professeur Wang, je suppose ? »</div></div>",
+  "raison": "presque même phrase (一定会…的)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>医生___我多喝水，多休息。<br><br>Choix : 让 / 给 / 对",
+  "raison": "presque même phrase 医生让我…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>喝水 / 让我 / 多 / 医生",
+  "raison": "presque même phrase 医生让我…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>都十二点了，我们该吃饭。",
+  "raison": "même phrase 十二点了，该吃饭了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一边做作业 / 喜欢 / 一边听音乐 / 他",
+  "raison": "même phrase 一边听音乐一边做作业"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们<b>一边</b>吃饭<b>一边</b>聊天。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — deux actions faites en même temps par la même personne, mises sur le même plan :</div><div class=\"g-fr\">« Il fait ses devoirs en écoutant de la musique. »</div></div>",
+  "raison": "même phrase 一边听音乐一边做作业"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>一边…一边…</b> :<br><br>我们喝咖啡。<br>我们聊天。",
+  "raison": "一边…一边… : point déjà travaillé par 4 cartes (004, 007, 072, 098)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他一边学法语一边学电脑。",
+  "raison": "même phrase-type à un nom près (一边学 X 一边…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā yìbiān dǎgōng, yìbiān shàng dàxué.</i>",
+  "raison": "même phrase 一边打工一边上学"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我们先吃饭，___去看电影吧。<br><br>Choix : 再 / 又",
+  "raison": "presque même phrase (我们先…，再去…吧)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ yí xiàkè jiù qù túshūguǎn.</i>",
+  "raison": "presque même phrase (一下课/一回家就…)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">就 ou 再 : que veut dire 再 ici ?</div><div class=\"g-zh\">你吃<b>了</b>饭<b>再</b>走吧。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire que chaque jour une action suit aussitôt la fin d'une autre (marque d'achèvement sur le premier verbe) :</div><div class=\"g-fr\">« Tous les jours, dès la fin des cours, elle va à la bibliothèque. »</div></div>",
+  "raison": "V了…就 : point au-delà de 4 cartes (027, 031, 110, 156)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他下了车再给我打电话了。",
+  "raison": "V了…就 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>一</b>看到她<b>就</b>笑了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire « dès que… » avec la structure qui encadre les deux verbes (succession immédiate) :</div><div class=\"g-fr\">« Dès qu'elle rentre à la maison, elle regarde la télé. »</div></div>",
+  "raison": "presque même phrase (一回家就…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>一…就…</b> :<br><br>飞机到了巴黎。<br>他给妈妈打了电话。",
+  "raison": "一…就 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我下<b>了</b>课<b>就</b>去找你。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — raconter qu'une action passée a suivi aussitôt la fin d'une autre (marque d'achèvement sur le premier verbe) :</div><div class=\"g-fr\">« Hier, il est parti dès qu'il a eu fini de manger. »</div></div>",
+  "raison": "V了…就 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>明天我吃___早饭就去机场。<br><br>Choix : 了 / 着 / 的",
+  "raison": "V了…就 : point au-delà de 4 cartes, choix le plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>就</b> au bon endroit :<br><br>他 A 一 B 回到家 C 打开 D 电脑。",
+  "raison": "presque même phrase (一回(到)家就…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le moment, avec 什么时候) :<br><br>我是去年九月来巴黎的。",
+  "raison": "是…的 : point déjà travaillé par 4 cartes (011, 060, 080, 122)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>是</b> au bon endroit :<br><br>他 A 坐飞机 B 来 C 的。",
+  "raison": "même phrase-type 是坐 X 来/走的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le moyen de transport, avec 怎么) :<br><br>他是坐火车来的。",
+  "raison": "même phrase 是怎么来的"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Qu'est-ce que 是…的 met en relief ici ?</div><div class=\"g-zh\">我<b>是</b>去年来中国<b>的</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — mettez en relief le moyen de transport de ce trajet passé :</div><div class=\"g-fr\">« C'est en métro que nous sommes venus. »</div></div>",
+  "raison": "même phrase-type 是坐 X 来的 ; 是…的 déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>跟朋友 / 来的，是 / 一起来的 / 我不是 / 一个人",
+  "raison": "presque même phrase (是跟朋友/同事一起来的)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā shì qùnián xiàtiān lái Fǎguó de.</i>",
+  "raison": "是…的 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>我是在上海长大的。",
+  "raison": "是…的 : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他七点上课，六点半___到教室了。<br><br>Choix : 就 / 才",
+  "raison": "presque même phrase (X 点就/才到)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>才</b> au bon endroit :<br><br>他八点上课，可是 A 九点 B 到 C 教室。",
+  "raison": "presque même phrase (X 点才到)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">就 ou 才 : l'action arrive-t-elle plus tôt ou plus tard que prévu ?</div><div class=\"g-zh\">他十点<b>才</b>起床。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — souligner qu'une action a eu lieu plus tôt que prévu :</div><div class=\"g-fr\">« Il est arrivé à l'école dès sept heures. »</div></div>",
+  "raison": "presque même phrase (X 点就/才…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>晚上六点 / 从早上八点 / 工作到 / 我每天",
+  "raison": "même phrase-type 从早上八点 V 到晚上 X 点"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">请<b>从</b>后门下车。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — proposez de passer par un chemin précis :</div><div class=\"g-fr\">« Passons par cette route. »</div></div>",
+  "raison": "presque même phrase (从 X 门下车/出去)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我们是从小一起长大的好朋友。",
+  "raison": "presque même phrase (从小就认识 / 从小一起长大的好朋友)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这道菜好看虽然，但是不好吃。",
+  "raison": "même phrase-type 这 CL N 虽然…，但是…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这个菜<b>虽然</b>很贵，<b>但是</b>很好吃。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez une concession : un fait reconnu, puis la réalité qui va contre (« bien que…, … »), avec un mot de liaison dans chaque proposition :</div><div class=\"g-fr\">« Bien qu'il soit très fatigué, il est encore en train de travailler. »</div></div>",
+  "raison": "même phrase-type 这 CL N 虽然很贵，但是…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他们家有三个孩子，老一在上大学。",
+  "raison": "presque même phrase (有 N 个孩子，老大…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè běn xiǎoshuō wǒ kànguo liǎng biàn.</i>",
+  "raison": "même phrase à un chiffre près (看过两/三遍)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这本书我已经看过三遍了。",
+  "raison": "même phrase à un chiffre près (我已经看过两/三遍了)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi 遍 et non 次 ?</div><div class=\"g-zh\">这本书我看了两<b>遍</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire combien de fois on est allé quelque part :</div><div class=\"g-fr\">« Je suis allé deux fois à Shanghai. »</div></div>",
+  "raison": "même phrase 我看了/过两遍 ; 去过两次 repris en 105"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le nombre de fois, avec 几) :<br><br>我去过两次西安。",
+  "raison": "même phrase à un nom près (去过两/几次 X)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他来过我家三___。<br><br>Choix : 次 / 遍",
+  "raison": "presque même phrase (来(找)过 X N 次)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>两次</b> au bon endroit :<br><br>我 A 见 B 过 C 他 D。",
+  "raison": "même phrase-type 见/找过他 N 次"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>一遍</b> au bon endroit :<br><br>这本书很好，我 A 想 B 再 C 看 D。",
+  "raison": "même phrase-type 再 V 一遍"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你看<b>过</b>这个电影吗？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'on n'a jamais fait une expérience :</div><div class=\"g-fr\">« Je ne suis jamais allé en Chine. »</div></div>",
+  "raison": "même phrase 我没去过(中国)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>虽然…但是…</b> :<br><br>他去过很多地方。<br>他没去过中国。",
+  "raison": "presque même phrase (没去过中国)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>还</b> au bon endroit :<br><br>我 A 没 B 去 C 过 D 杭州。",
+  "raison": "过 à la forme négative : point au-delà de 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nǐ chīguo Zhōngguó cài ma?</i>",
+  "raison": "même phrase-type 你 V 过 N 吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>过</b> au bon endroit :<br><br>你 A 以前 B 去 C 国外 D 吗？",
+  "raison": "même phrase-type 你 V 过 N 吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>我在动物园见过大熊猫。",
+  "raison": "même phrase (见过大熊猫) ; question avec 过 déjà couverte"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>以前</b> au bon endroit :<br><br>他 A 在 B 一家 C 商业公司 D 实习过。",
+  "raison": "过 : point au-delà de 4 cartes, placement le plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ cónglái méi jiànguo dàxióngmāo.</i>",
+  "raison": "même phrase-type 我从来没 V 过 N"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我从来___吃过牛肉面。<br><br>Choix : 没 / 不",
+  "raison": "même phrase à un nom près (我从来没吃过…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>就走了 / 一句话 / 也没说 / 他连",
+  "raison": "même phrase-type 连一 CL N 也没 V"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Identifiez la structure grammaticale :<br><br>连小孩子都会这道题。— Quel est le rôle de 连…都 ?<br><br>Choix : Opposition : malgré X, Y / Concession : bien que X, Y / Renforcement : même X fait/sait Y",
+  "raison": "presque même phrase (连小孩(儿)都会…)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>都不想说了 / 累得 / 连话 / 他",
+  "raison": "même phrase-type 他 adj 得连 N 都…"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他连一个汉字都不认识。",
+  "raison": "même phrase-type 连一 CL N 都/也不…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>连</b>饭<b>都</b>没吃。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — mettez en relief un cas extrême (« même… ») :</div><div class=\"g-fr\">« Même les enfants savent ça. »</div></div>",
+  "raison": "presque même phrase (连小孩都知道)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我已经到家了。",
+  "raison": "presque même phrase (已经到/回家了)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>认识 / 十多年了 / 我们 / 已经",
+  "raison": "même phrase-type 已经 + durée + 了"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>已经</b>走<b>了</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'une chose a déjà eu lieu :</div><div class=\"g-fr\">« Le film a déjà commencé. »</div></div>",
+  "raison": "même phrase 电影已经开始了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>已经</b> au bon endroit :<br><br>他 A 睡觉 B 了 C ，你别给他打电话。",
+  "raison": "presque même phrase (他已经 V 了，你(别)给他打电话)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>已经 / 三年了 / 来中国 / 他",
+  "raison": "même phrase-type V…已经 N 年了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你什么时候有空？我们见个面吧。",
+  "raison": "presque même phrase (…我们见个面吧)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我们明天几点见？",
+  "raison": "presque même phrase (几点(在哪儿)见)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我们二点在学校见。",
+  "raison": "même phrase-type 我们 + heure + 在 lieu + 见"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "再见，明天见！",
+  "raison": "même phrase (…明天见)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你今天没时间？___我们明天见吧。<br><br>Choix : 那 / 但是 / 因为",
+  "raison": "même phrase (那…明天见)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我觉得这件衣服太贵了。",
+  "raison": "même phrase 这件衣服太贵了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>在哪儿 / 买的 / 这件衣服 / 你是",
+  "raison": "même phrase 这件衣服是在哪儿买的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>她买了一新衣服。",
+  "raison": "presque même phrase (买…新衣服)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你穿这条裙子真好看！",
+  "raison": "même phrase à un nom près (你穿这 CL N 很/真好看)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个地方冬天冷___，你要多穿点儿。<br><br>Choix : 得很 / 很得 / 的很",
+  "raison": "presque même phrase (冷…要多穿点儿)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "今天下午有雨。",
+  "raison": "phrase presque contenue dans 132 (下午(会)有雨)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我们的火车晚了一个小时。",
+  "raison": "même phrase 火车晚(点)了一个小时 (054 la contient)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>还没 / 呢 / 做完 / 这些题 / 我",
+  "raison": "même phrase 还没V完呢 (这些题 / 这个菜)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "吃完饭马上躺下，对身体不好。",
+  "raison": "même début 吃完饭马上… ; 吃完饭 revenait 8 fois"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>就 / 找你 / 吃完饭 / 去 / 我",
+  "raison": "吃完饭就… : même phrase, 017 plus riche"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>半个小时了 / 走了 / 他 / 已经",
+  "raison": "même phrase 走了X个小时了 ; la phrase fait produire"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>错 / 电话了 / 对不起，我 / 打",
+  "raison": "même phrase 对不起，我打错电话了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这篇文章太长，我没看完。",
+  "raison": "没(还没)V完 : même point, une phrase suffit"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "对不起，您打错了。",
+  "raison": "même phrase 对不起，我/您打错(电话)了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这本书我还没___。<br><br>Choix : 看完 / 看完了 / 完看",
+  "raison": "même phrase 还没看完 / 还没吃完呢"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>对不起，我看___了，这不是我的书。<br><br>Choix : 错 / 懂 / 会",
+  "raison": "对不起，我V错了 : 错 déjà vu en 058, 045, 065, 158"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "吃完饭我常常出去走一走。",
+  "raison": "même phrase 吃完饭…出去走走 / 走一走"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "对不起，我打错电话了。",
+  "raison": "même phrase : la fiche 058 fait déjà dire 对不起，我打错电话了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我已经做___功课了，可以出去玩儿吗？<br><br>Choix : 完 / 会 / 懂",
+  "raison": "même phrase 做完功课了 (076 la fait produire)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "菜怎么还没来？我们等了半个小时了。",
+  "raison": "même phrase 等了半个(多)小时了，怎么还没来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù pá shān le.</i>",
+  "raison": "même phrase 如果明天下雨，我们就不去爬山了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你学画画多久了？",
+  "raison": "même phrase 你学X多久 / 多长时间了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>两个钟头</b> au bon endroit :<br><br>他 A 骑 B 自行车 C 骑了 D。",
+  "raison": "même phrase 骑自行车骑了两个钟头 / 小时"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我每天早上都去跑步。",
+  "raison": "每天早上(都)去跑步 : 112 la contient"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一个星期 / 在海边 / 玩儿了 / 我们",
+  "raison": "V+了+durée : déjà en 027, 043, 008, 085, 170"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他学中文已经三年了，但是还是觉得口语不够好。",
+  "raison": "même idée « apprend la langue depuis N ans, mais… »"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "如果明天天气好，我们就去海边。",
+  "raison": "如果明天…，我们就(不)去… : même phrase"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我的电脑坏了，今天不能工作了。",
+  "raison": "我的电脑坏了 : 136 la contient"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>完",
+  "raison": "吃完 : mot déjà travaillé (037)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我学了半年汉语。",
+  "raison": "我学了N年汉语 : même phrase que la fiche 027"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la destination, avec 哪儿) :<br><br>放假以后，我打算去云南。",
+  "raison": "X以后，你打算V什么 / 哪儿 : même phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (qui, dans ta famille, avec 谁) :<br><br>我哥哥最高。",
+  "raison": "家里谁最… : même question"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他写汉字写___比我好。<br><br>Choix : 得 / 的 / 地",
+  "raison": "même phrase V+O+V得比…好 (写汉字 / 说汉语)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">今天<b>比</b>昨天冷得多。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — comparer deux personnes : l'une est un peu plus grande que l'autre :</div><div class=\"g-fr\">« Ma grande sœur est un peu plus grande que moi. »</div></div>",
+  "raison": "même phrases : 今天比昨天冷得多 (= 011) et 我姐姐比我高一点儿 (= 077, 115)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一样 / 妈妈的 / 长 / 妹妹的头发 / 跟",
+  "raison": "X跟Y一样 + adj : même phrase"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>有</b>时间<b>的话</b>，我们去喝杯咖啡。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — poser une condition douce sans conjonction en tête : « si l'occasion se présente » :</div><div class=\"g-fr\">« Si j'en ai l'occasion, j'aimerais aller au Japon. »</div></div>",
+  "raison": "…的话 : même point que la fiche 095"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ de kǒuyǔ méiyǒu nǐ de nàme hǎo.</i>",
+  "raison": "A没有B那么好 : même phrase que la fiche 067"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>喝了 / 两杯啤酒 / 多 / 他 / 比我",
+  "raison": "比…多V了 + quantité : même phrase (多喝 / 多吃)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>他的 / 好 / 我的汉语 / 不如",
+  "raison": "même phrase 我的汉语不如他(的好)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我哥哥___我高十公分。<br><br>Choix : 比 / 跟 / 没有",
+  "raison": "choisir 比 / 跟 / 没有 : même exercice que 023"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她比她姐姐高一点。",
+  "raison": "même phrase A比B高 / 瘦一点儿"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>跟…一样</b> :<br><br>这件衣服三百块。<br>那件衣服也三百块。",
+  "raison": "même phrase 这件衣服跟那件一样贵"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我哥哥比我很大三岁。",
+  "raison": "même phrase 我哥哥比我大三岁"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>比</b> :<br><br>我姐姐二十岁。<br>我十八岁。",
+  "raison": "même phrase 姐姐比我 / 她大两岁"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这本书比那本贵一点儿。",
+  "raison": "même phrase A比B贵 / 便宜一点儿"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我___你那么忙，我可以帮你。<br><br>Choix : 没有 / 不比 / 不是",
+  "raison": "choisir 没有 : déjà en 023 et 073"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我弟弟比我小三岁，但是个子比我高。",
+  "raison": "même phrase 比…小 / 大N岁，但是 / 可是…高"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "北方的冬天比南方冷得多。",
+  "raison": "même phrase A比B冷得多"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>比</b>我跑<b>得</b>快。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — comparer la manière dont deux personnes font une même action :</div><div class=\"g-fr\">« Mon grand frère se lève plus tôt que moi. »</div></div>",
+  "raison": "même phrases : 他比我跑得快 (= 063) et 起得比我早 (= 082)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我妹妹说汉语说得___好。<br><br>Choix : 比我 / 我比 / 比我很",
+  "raison": "même phrase 说汉语说得比…好"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>早 / 半个小时 / 比平时 / 起了 / 我今天",
+  "raison": "比…早V了 + durée : même phrase (早起 / 早睡)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>比</b> :<br><br>他跑得很快。<br>我跑得不快。",
+  "raison": "même phrase 他跑得比我快"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "今天比昨天冷多了。",
+  "raison": "même phrase 今天比昨天冷 / 热多了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Jīntiān bǐ zuótiān lěng duō le.</i>",
+  "raison": "même phrase 今天比昨天冷多了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这儿的水果比超市便宜多了。",
+  "raison": "même phrase 比…便宜多了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你不舒服___，就别去上班了。<br><br>Choix : 的话 / 可是 / 因为",
+  "raison": "même phrase 你不舒服(的话)，就…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这家店的东西比那家___贵。<br><br>Choix : 更 / 很 / 非常",
+  "raison": "比…更 (et non 很 / 非常) : même point"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>没有…那么…</b> :<br><br>北京很冷。<br>巴黎不太冷。",
+  "raison": "même phrase A没有B那么冷 / 热"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个西瓜跟那个一样___。<br><br>Choix : 甜 / 很甜 / 更甜",
+  "raison": "跟…一样 + adj (sans 很) : déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>妹妹跟妈妈漂亮一样。",
+  "raison": "même phrase 妹妹跟…一样 + adj"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "快下课了，收拾一下东西。",
+  "raison": "même phrase 快下课了，收拾…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>要是</b>明天下雨，我们<b>就</b>不去了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — faites une hypothèse (« si… ») avec le mot le plus familier de l'oral, et un mot de liaison dans chaque proposition :</div><div class=\"g-fr\">« Si tu es fatigué, repose-toi un moment. »</div></div>",
+  "raison": "même phrase 要是 / 如果明天下雨，我们就不去了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他累___不想说话。<br><br>Choix : 得 / 的 / 地",
+  "raison": "累得 + conséquence : même phrase que la fiche 093"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">一直<b>往</b>前走，就到了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — indiquez dans quelle direction tourner :</div><div class=\"g-fr\">« À la banque, tournez à gauche. »</div></div>",
+  "raison": "même phrases : 一直往前走 / 往左拐 (092 les contient)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>你看往这儿，我在这儿！",
+  "raison": "même phrase 往 + direction + 看"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>下车以后，你___右走就到了。<br><br>Choix : 往 / 到 / 在",
+  "raison": "même phrase 往右走 / 转，就到了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你的手机是在哪儿买的？",
+  "raison": "是在哪儿V的 : point déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā máng de méiyǒu shíjiān chīfàn.</i>",
+  "raison": "même phrase 忙得没(有)时间吃饭"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le moment, avec 什么时候) :<br><br>我是去年七月毕业的。",
+  "raison": "même question 是什么时候V的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>得</b> :<br><br>她高兴极了。<br>她跳了起来。",
+  "raison": "même phrase 高兴得跳了起来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我饿___要命，我们快去吃饭吧。<br><br>Choix : 得 / 死 / 了",
+  "raison": "même phrase 饿 / 累得要命"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个房间不大___小，住两个人刚好。<br><br>Choix : 不 / 也 / 很",
+  "raison": "même phrase 这个房间不大不小"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "真不好意思，明天我不能去了。",
+  "raison": "même phrase 不好意思，明天不能去 / 去不了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一边 / 看手机了 / 你别 / 吃饭 / 一边",
+  "raison": "même phrase 一边吃饭一边看手机"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我的头疼厉害，想去医院看看。",
+  "raison": "même phrase 头疼得厉害"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>得</b> :<br><br>他说得很好笑。<br>大家都笑了。",
+  "raison": "même phrase 他说 / 讲得大家都笑了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我父母对我要求很严格。",
+  "raison": "对…要求很严格 : 100 la contient"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>对</b> au bon endroit :<br><br>我们经理 A 大家 B 要求 C 非常 D 严格。",
+  "raison": "même phrase 对…要求非常严格"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>死</b> au bon endroit :<br><br>今天加班加到十点，我 A 累 B 了 C。",
+  "raison": "累 / 热死了 : même point que la fiche 068"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>底",
+  "raison": "年底 : déjà dans la phrase 123"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她不但学习好，而且还会画画儿。",
+  "raison": "même phrase 她(女儿)不但…，而且… ; point ramené à 025, 040, 047, 098"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>A 八点 B 了，你 C 怎么还不起床 D？",
+  "raison": "même phrase 都X点了，(你怎么)还不…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>你今天怎样又迟到了？",
+  "raison": "même phrase 你(今天)怎么又迟到了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "对不起，我迟到了。没关系。",
+  "raison": "对不起 / 不好意思，…我迟到了 : 030 la contient"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你写完作业了吗？写完了我们就去玩。",
+  "raison": "même phrase 写完作业，我们就 / 再去玩"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我把作业忘在家里了。",
+  "raison": "我把作业忘在家里了 : 114 la contient"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>完</b> au bon endroit :<br><br>我 A 还没 B 写 C 作业 D 呢。",
+  "raison": "même phrase 还没写 / 做完作业"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Duìbuqǐ, lùshang chē tài duō, wǒ chídào le.</i>",
+  "raison": "même phrase 对不起，(raison)，我迟到了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "老师，我忘了带作业，明天给您可以吗？",
+  "raison": "même phrase 老师，我忘了(带)作业，明天给 / 交可以吗"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他不但会说中文，而且还会说日文和韩文。",
+  "raison": "même phrase 他不但会说X，而且…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>对不起，我不记住你的名字。",
+  "raison": "même phrase (没)记住…名字"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "今天早上我起晚了，上课迟到了。",
+  "raison": "même phrase 我(今天)起晚了，…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>先…再…</b> :<br><br>你先写完作业。<br>然后你看电视。",
+  "raison": "même phrase (先)写完作业，然后 / 再看电视"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>上课 / 老师 / 总是 / 批评他 / 迟到",
+  "raison": "même phrase 老师批评他上课…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>又</b> au bon endroit :<br><br>他 A 昨天迟到了，今天 B 迟到 C 了 D。",
+  "raison": "même phrase 又迟到了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>把窗户 / 千万 / 打开 / 你 / 别",
+  "raison": "même phrase 把窗户打开"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我的护照不见了，怎么办？",
+  "raison": "même phrase 我的护照丢了 / 不见了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>新鲜的 / 一瓶 / 牛奶 / 放着 / 桌子上",
+  "raison": "même phrase 桌子上V着一瓶X"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : et tu te dis X ! (reproche)) :<br><br>你___大学生___，连这个字都不认识。<br><br><i>Et tu te dis étudiant ! Tu ne connais même pas ce caractère.</i>",
+  "raison": "même phrase 你还大学生呢，连这个字都不认识"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez des mots formés avec ce caractère :<br><br>赶",
+  "raison": "赶上 : déjà dans la phrase 130"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我在房间里，门没关，你进___吧。<br><br>Choix : 来 / 去",
+  "raison": "même phrase 你进来吧 ; le choix 来/去 est déjà fait en 009"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他___了，你明天再来吧。<br><br>Choix : 回家去 / 回去家 / 家回去",
+  "raison": "même phrase 他回家去了 (le manuel D-VI.2 la fait compléter)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他已经回家<b>去</b>了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — demandez qu'on vous apporte un verre (mouvement vers vous) :</div><div class=\"g-fr\">« Apporte-moi un verre, s'il te plaît. »</div></div>",
+  "raison": "même phrase 他已经回家去了 ; 拿…来 déjà traduit en 106"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他上楼___了，现在不在这儿。<br><br>Choix : 去 / 来",
+  "raison": "V + lieu + 去 (上楼去 / 回家去) : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā pǎo huí jiā qù le.</i>",
+  "raison": "même phrase 他跑回家(去了) ; 002 la fait traduire"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">请坐<b>下</b>，我们开始上课。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — indiquez à la fois la manière (en courant) et la direction du mouvement (retour à la maison) :</div><div class=\"g-fr\">« Après les cours, il est vite rentré chez lui en courant. »</div></div>",
+  "raison": "fiche : 跑回家 déjà traduit en 002 ; directionnel composé déjà couvert"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tiān hēi le, tā zhàn qǐlái shuō yào huíqù le.</i>",
+  "raison": "站起来 / 回去 : transcription pinyin, la plus faible du point"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她笑<b>着</b>说：“没关系。”</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — indiquez la posture (allongé) dans laquelle se fait l'action principale :</div><div class=\"g-fr\">« Il aime lire allongé. »</div></div>",
+  "raison": "笑着说 : même phrase que 046 et presque 034 ; 着 de manière déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>着</b> au bon endroit :<br><br>学校不远，我们 A 走 B 去 C 吧 D。",
+  "raison": "placer 着 : même type que D-XII du manuel"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他笑___说：“请进，请进！”<br><br>Choix : 着 / 了 / 过",
+  "raison": "même phrase 他笑着说 ; 着 de manière déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wàimiàn xiàzhe dà yǔ, nǐ dài yì bǎ sǎn qù ba.</i>",
+  "raison": "même phrase 外面下着大雨"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>个个</b> :<br><br>他有三个孩子。<br>每个孩子都很聪明。",
+  "raison": "même phrase 他的三个孩子个个都很聪明"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这些学生都个个很聪明。",
+  "raison": "presque même phrase …个个都很聪明"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">请大家<b>一个一个</b>地进来。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que l'action se fait par groupes de deux, successivement :</div><div class=\"g-fr\">« Ils sont entrés deux par deux. »</div></div>",
+  "raison": "fiche : 一个一个地进来 = 027, 两个两个地进来 ≈ 047"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : et, et de plus (ajout d'une action ou d'une idée)) :<br><br>他会说英语，___说得很好。<br><br><i>Il parle anglais, et il le parle très bien.</i>",
+  "raison": "même phrase 他会说英语，并且说得很好"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>不管 A 天气 B 怎么样，他每天早上 C 去 D 跑步。",
+  "raison": "不管…都 : déjà 3 cartes et 2 phrases"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Bùguǎn xià bu xià yǔ, wǒ dōu yào chūqù.</i>",
+  "raison": "même structure 不管 A不A…都要 ; transcription pinyin"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这双鞋有点小，能不能换大一码的？",
+  "raison": "même phrase 这双鞋有点小，…大一号/码的"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>把</b>作业做完了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — insistez sur ce qui est arrivé à l'objet en le plaçant avant le verbe :</div><div class=\"g-fr\">« J'ai perdu mon portefeuille. »</div></div>",
+  "raison": "même phrase 把作业做完 ; 把 + résultat déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>把</b> :<br><br>我洗了衣服。<br>衣服很干净。",
+  "raison": "même phrase 把衣服(都)洗干净了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>了</b> au bon endroit :<br><br>昨天 A 我 B 把旧衣服都 C 卖 D。",
+  "raison": "把 + V + 了 : 把 + résultat déjà 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她<b>把</b>我说的话都记下来了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — insistez sur le résultat de l'action sur un objet long (le livre que je lui ai prêté), placé avant le verbe :</div><div class=\"g-fr\">« Il a fini de lire le livre que je lui avais prêté. »</div></div>",
+  "raison": "fiche : 把 + résultat déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā mànmàn de bǎ tāng hēwán le.</i>",
+  "raison": "把 + 喝完 : transcription pinyin, la plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā bǎ fángjiān shōushi de hěn gānjìng.</i>",
+  "raison": "把 + 收拾得很干净 : transcription pinyin, la plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>请___你的名字写在这里。<br><br>Choix : 把 / 在 / 从",
+  "raison": "请把 X V在 + lieu : déjà 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>把</b>手机忘<b>在</b>出租车上了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une personne précise a été amenée jusqu'à un lieu, en la plaçant avant le verbe :</div><div class=\"g-fr\">« Il a emmené l'enfant à l'école. »</div></div>",
+  "raison": "même phrase 把手机/伞忘在 + lieu"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>冰箱里 / 蛋糕 / 妈妈 / 放进了 / 把",
+  "raison": "把 + V + lieu : déjà 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">请<b>把</b>这本书还<b>给</b>他。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'il a transmis un objet précis à quelqu'un, en plaçant l'objet avant le verbe :</div><div class=\"g-fr\">« Il a donné son vieux téléphone à son petit frère. »</div></div>",
+  "raison": "même phrase 把书还给…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我把那件礼物送朋友给了。",
+  "raison": "même structure 把 X V给 Y ; déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>我把蛋糕放在冰箱里了。",
+  "raison": "même phrase 你把 X 放在哪儿了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>你把这个盒子交___王老师吧。<br><br>Choix : 给 / 在 / 到",
+  "raison": "把 X V给 Y : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>在</b> au bon endroit :<br><br>请 A 把 B 毛巾 C 放 D 桌子上。",
+  "raison": "presque même phrase 请把 X 放在桌子上"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>把</b> au bon endroit :<br><br>妈妈 A 做好的 B 蛋糕 C 放到了 D 桌子上。",
+  "raison": "把 X 放到/在桌子上 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Qǐng bǎ zhè jù huà fānyì chéng Fǎyǔ.</i>",
+  "raison": "把…翻译成 : transcription pinyin ; 把…成 déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>没</b> au bon endroit :<br><br>我 A 把 B 衣服 C 洗 D 干净。",
+  "raison": "même point (没 avant 把) et presque même phrase que 035"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>送到你的办公室 / 把材料 / 准时 / 我明天一定会",
+  "raison": "adverbe/modal avant 把 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>要</b> au bon endroit :<br><br>我 A 把 B 这些 C 材料 D 翻译成法语。",
+  "raison": "placer le modal avant 把 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le nombre de fois, avec 几) :<br><br>我把课文念了两遍。",
+  "raison": "même phrase 把课文念/读了 N 遍"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>客人快来了，你把桌子___吧。<br><br>Choix : 收拾收拾 / 收拾一收拾 / 收收拾拾",
+  "raison": "même phrase 你把 (桌子/房间) 收拾收拾吧"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>老师把这个问题讲___两遍。<br><br>Choix : 了 / 着 / 的",
+  "raison": "把 X V了 N 遍 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : d'un geste vif, puis aussitôt…) :<br><br>她___书包___放，就跑出去玩了。<br><br><i>Elle a posé son cartable et est aussitôt partie jouer dehors.</i>",
+  "raison": "même phrase 她把书包一放，就跑出去玩了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "请问，办签证需要准备哪些材料？",
+  "raison": "même phrase 办签证需要准备哪些材料"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>也</b> au bon endroit :<br><br>这个 A 周末 B 我 C 一个朋友 D 没见到。",
+  "raison": "négation totale 一 + Cl + 也没 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他来中国三年了，___也没回过家。<br><br>Choix : 一次 / 次 / 一些",
+  "raison": "même phrase 一次也没 V 过"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒ yìdiǎnr yě bú è, nǐmen chī ba.</i>",
+  "raison": "même structure 一点儿也不 + adj ; transcription pinyin"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>除了小王以外，大家___来了。<br><br>Choix : 都 / 还",
+  "raison": "même phrase 除了 X 以外，大家都…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (qui fait exception, avec 谁 et une négation) :<br><br>除了我以外，大家都喝了白酒。",
+  "raison": "même phrase 除了…以外，大家都喝了…酒"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : d'abord…, ensuite… (étapes successives)) :<br><br>我们___去酒店，___去吃饭。<br><br><i>Nous allons d'abord à l'hôtel, ensuite nous irons manger.</i>",
+  "raison": "même phrase 我们首先去酒店，然后去吃饭"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) pour 西餐 (repas occidental) :<br><br>周末我们去吃了一___西餐。<br><br>Choix : 张 / 顿 / 条",
+  "raison": "même phrase 吃了一顿 + repas"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) pour 午餐 (déjeuner (repas)) :<br><br>我们一起吃了一___午餐。<br><br>Choix : 顿 / 张 / 条",
+  "raison": "même phrase 吃了一顿 + repas"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Yīnyuè shēng tài dà le, wǒ tīng bu jiàn nǐ shuō shénme.</i>",
+  "raison": "même phrase …太吵/太大，听不见 (你/他) 说 (什么/的话)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">字太小，我看<b>不清楚</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que vous n'arrivez pas à déplacer cette valise, trop lourde (le résultat est impossible) :</div><div class=\"g-fr\">« Cette valise, je n'arrive pas à la déplacer. »</div></div>",
+  "raison": "看不清楚 : fiche ; potentiel de perception déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这个字太小了，我看___见。<br><br>Choix : 不 / 得 / 没",
+  "raison": "choisir le complément (看不见) : même type que 023"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒmen de zuòwèi tài yuǎn le, kàn bu qīngchu táishàng de gēshǒu.</i>",
+  "raison": "看不清楚 : transcription pinyin, la plus faible"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一个人 / 这张桌子 / 搬不动 / 他",
+  "raison": "même phrase 一个人搬不动"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>搬上 / 去 / 把这个箱子 / 楼 / 请帮我",
+  "raison": "même phrase 帮我把箱子搬到楼上/搬上楼去"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>说不出 / 她 / 话来 / 激动得",
+  "raison": "même phrase 她激动得说不出话来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>不了</b> au bon endroit :<br><br>这么 A 多的饭，我一个人 B 吃 C 。",
+  "raison": "même phrase 这么多 (饭/菜)，吃不了"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这么多菜，我们吃<b>不了</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que vous ne pourrez pas y aller à cause d'un empêchement, avec un complément après le verbe :</div><div class=\"g-fr\">« Demain j'ai un empêchement, je ne pourrai pas y aller. »</div></div>",
+  "raison": "même phrase 这么多菜，我们吃不了 ; 去不了 ≈ 145"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>还来得及 / 吃早饭 / 还有十分钟，我们 / 离上课",
+  "raison": "même phrase 来得及/来不及吃早饭"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>演唱会七点开始，现在才六点，还___。<br><br>Choix : 来得及 / 来不及",
+  "raison": "même phrase 现在…还来得及"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>现在我们的生活___手机。<br><br>Choix : 离不开 / 不离开 / 离开不",
+  "raison": "même phrase 离不开手机"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme (V得/V不 + complément) :<br><br>路太远了，今天___回去。<br><br>Choix : 赶得 / 来得及 / 赶不",
+  "raison": "赶不回去 ≈ 赶得上 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Yǎnchànghuì de piào dōu màiwán le, wǒmen mǎi bu dào le.</i>",
+  "raison": "même phrase 演唱会的票 + 买不到"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>得</b> au bon endroit :<br><br>演唱会的票 A 很难买，你买 B 到 C 吗 D ？",
+  "raison": "même phrase 演唱会的票 + 买得到吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question fermée à la forme potentielle, avec 吗) :<br><br>我听不懂京剧。",
+  "raison": "même structure V得 + C + 吗 ?"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 6</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Malgré la négation, que veut dire 好不容易 ici ?</div><div class=\"g-zh\">我<b>好不容易</b>才找到这家小店。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dire qu'on a réussi quelque chose à grand-peine, avec la tournure construite sur « facile » :</div><div class=\"g-fr\">« Nous avons réussi à grand-peine à acheter deux billets. »</div></div>",
+  "raison": "même phrase 好不容易 (才) 买到两张票"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我好不容易___把这篇文章翻译完。<br><br>Choix : 才 / 就 / 再",
+  "raison": "好不容易才 + V完/懂 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我终于找到了我的护照！",
+  "raison": "même phrase 我终于找到 (工作/护照) 了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我找了半天，___找到了钥匙。<br><br>Choix : 终于 / 当然 / 就",
+  "raison": "même phrase 终于找到了 + N"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>终于</b> au bon endroit :<br><br>我们 A 等了很长时间，飞机 B 到 C 了。",
+  "raison": "终于 : déjà 3 cartes et une phrase"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>出门以后___左走，五分钟就到了。<br><br>Choix : 向 / 在 / 到",
+  "raison": "même phrase 向左/右 + V"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>向</b> au bon endroit :<br><br>他 A 笑着 B 观众 C 挥了 D 挥手。",
+  "raison": "même phrase 向 X 挥 (了挥) 手"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他听了一___天的音乐。<br><br>Choix : 整 / 全 / 每",
+  "raison": "même structure V了一整 T 的 N"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>老师批评了一顿他。",
+  "raison": "même phrase 老师 (把他) 批评了 (他) 一顿"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le lieu, avec 哪儿) :<br><br>演唱会是在大剧院举行的。",
+  "raison": "是…的 (lieu) : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>每天 / 已经 / 她 / 锻炼 / 坚持 / 三年了 / 早起",
+  "raison": "même phrase 每天坚持 (早起) 锻炼"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她从小学钢琴，现在已经考过了八级。",
+  "raison": "même début 她从小学钢琴，…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>走</b> au bon endroit :<br><br>树上 A 飞 B 了 C 两只 D 鸟。",
+  "raison": "même phrase 树上飞走了两只鸟"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>楼下___一辆出租车。<br><br>Choix : 开走了 / 走开了 / 开了走",
+  "raison": "presque même phrase 楼下开走了一辆汽车/出租车 ; phrase de disparition déjà produite dans la fiche"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>了</b> au bon endroit :<br><br>昨天 A 家里 B 来 C 一位 D 客人。",
+  "raison": "phrase d'apparition (lieu + V + 了 + N) : point déjà couvert 4 fois (007, 012, 058, 078)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>楼上跑下来了那个孩子。",
+  "raison": "apparition/disparition : point déjà couvert 4 fois ; 楼上跑下来了一个孩子 ≈ 教室里跑进来一只小狗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>刚才，花园里跑走一只小猫。",
+  "raison": "花园里跑走了一只小猫 ≈ 树上飞走了两只鸟 : disparition déjà couverte 4 fois"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>着</b> au bon endroit :<br><br>桌子上 A 放 B 一本 C 很厚的书 D。",
+  "raison": "lieu + V着 + N : point déjà couvert 4 fois (002, 006, 027, 114)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur ce qui est posé, avec 什么) :<br><br>桌子上放着一本中文书。",
+  "raison": "桌子上放着… : lieu + V着 déjà couvert 4 fois, et 桌子上放着 revient déjà en 011"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Qiáo shang zhànzhe hěn duō yóukè.</i>",
+  "raison": "桥上站着很多游客 ≈ 教室里坐着很多学生 / 门外站着两个人"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Yuànzi li zhǎngzhe jǐ kē dà shù.</i>",
+  "raison": "院子里长着几棵大树 ≈ 山上种着一片茶树 : lieu + V着 déjà couvert 4 fois"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Fángjiān shōushi de gāngānjìngjìng de.</i>",
+  "raison": "même phrase (房间)收拾得干干净净的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>小猫的眼睛___，真好看。<br><br>Choix : 圆圆的 / 很圆圆的 / 圆圆",
+  "raison": "小猫的眼睛圆圆的 ≈ 孩子的脸圆圆的 : adjectif redoublé déjà produit"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "别难过了，一切都会好起来的。",
+  "raison": "一切都会好起来的 ≈ 一切都好！你放心吧 (XIII.3)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>跑进 / 去了 / 从门口 / 房间里 / 那只狗",
+  "raison": "跑进房间里去了 ≈ 走进办公室去了 (V进 + lieu + 去)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>进</b> au bon endroit :<br><br>妈妈 A 走 B 厨房 C 去 D 了。",
+  "raison": "妈妈走进厨房去了 ≈ 老李走进办公室去了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>把行李 / 楼上了 / 已经 / 搬到 / 我",
+  "raison": "把行李搬到楼上了 ≈ 把这张旧桌子搬下楼去"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>拿出 / 来 / 一本词典 / 他 / 从书包里",
+  "raison": "从书包里拿出一本词典来 ≈ 从衣服口袋里拿出眼镜来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā cóng xiāngzi li náchū yí ge hóngbāo lai.</i>",
+  "raison": "从箱子里拿出一个红包来 ≈ 从衣服口袋里拿出眼镜来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___学好汉语，他每天都听中文广播。<br><br>Choix : 为了 / 因为 / 所以",
+  "raison": "même phrase 为了学好汉语/中文，他每天(都)听中文广播"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>为了</b> :<br><br>他每天早上都去跑步。<br>他想锻炼身体。",
+  "raison": "为了 en tête : déjà couvert 4 fois (014, 048, 068, 161)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>才来的 / 他 / 为了你 / 是",
+  "raison": "为了 déjà couvert 4 fois ; simple remise en ordre"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wèile ràng fùmǔ gāoxìng, tā juédìng huí lǎojiā gōngzuò.</i>",
+  "raison": "为了让父母高兴 ≈ 为了不让父母失望"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur le but, avec 为什么) :<br><br>他来中国是为了学习中国文化。",
+  "raison": "为了 déjà couvert 4 fois ; question 为什么 sans enjeu"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : à partir de) :<br><br>___明天___，我要早点儿睡觉。<br><br><i>À partir de demain, je vais me coucher plus tôt.</i>",
+  "raison": "même phrase 从明天起，我要早点儿睡觉"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>打扫得 / 非常 / 他 / 干净 / 把房间",
+  "raison": "presque même phrase 他/她把房间打扫得(非常/很)干净"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : se mettre à (début d'un état qui dure)) :<br><br>她很快就喜欢___了这个城市。<br><br><i>Elle s'est vite mise à aimer cette ville.</i>",
+  "raison": "même phrase 她很快就喜欢上了这个城市"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>免得</b> :<br><br>你多穿点儿衣服吧。<br>你别感冒了。",
+  "raison": "même phrase 多穿点儿衣服，免得感冒"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "“飞机几点起飞？”“下午三点，我们最好提前两个小时到机场。”",
+  "raison": "提前 + durée + 到 : déjà travaillé en XIII.2 ; 事先/提前 gardé à 4 cartes"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我们订了早上九点的火车票，要提前半小时到站。",
+  "raison": "提前半小时到站 ≈ 提前两个小时到机场 / 提前到"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你最好提前把票买好，节日的时候很难买。",
+  "raison": "提前把票买好，节日的时候很难买 ≈ 节假日的机票特别贵，一定要提前订"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我在教室门口等你。",
+  "raison": "我在教室门口等你 ≈ 我七点在门口等你"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我在门口等了你半天。",
+  "raison": "我在门口等了你半天 ≈ 我七点在门口等你"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "明天上午十点在学校门口见，别忘了！",
+  "raison": "明天上午十点在学校门口见 ≈ 下午三点在咖啡馆门口见面"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "去北京坐高铁要几个小时？",
+  "raison": "去北京坐高铁要几个小时 ≈ 从北京到上海坐高铁要五个多小时"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur les personnes, avec 谁) :<br><br>春节的时候，我想去看看爸爸妈妈。",
+  "raison": "春节的时候，我想去看看爸爸妈妈 ≈ 春节放假我要回家看爸爸妈妈"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec 的, 得 ou 地 :<br><br>他慢慢___走进教室。<br><br>Choix : 的 / 得 / 地",
+  "raison": "他慢慢地走进教室 est contenu dans la phrase 120"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce nombre en chiffres :<br><br><b>三亿两千零五万</b>",
+  "raison": "même nombre 三亿两千零五万 (sens inverse)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce nombre en chiffres :<br><br><b>六十七万零八十</b>",
+  "raison": "grands nombres avec 零 déjà couverts 4 fois (003, 004, 010, 063)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette fraction en caractères :<br><br><b>2/5</b>",
+  "raison": "fraction : ne diffère que des chiffres (2/5 ≈ 3/4)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette fraction en caractères :<br><br><b>1/3</b>",
+  "raison": "fraction : ne diffère que des chiffres (1/3 ≈ 3/4)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce pourcentage en caractères :<br><br><b>76,43 %</b>",
+  "raison": "pourcentage : ne diffère que des chiffres (76,43 % ≈ 50,2 %)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>的学生 / 都 / 我们班 / 通过了考试 / 百分之八十",
+  "raison": "presque même phrase (我们/这个)班(大约)百分之八十的学生都…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Quánguó bǎi fēn zhī bāshí yǐshàng de rén huì shuō Pǔtōnghuà.</i>",
+  "raison": "百分之八十以上 ≈ 四分之三以上 (fraction + 以上) ; simple transcription"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>多</b> au bon endroit :<br><br>他们班 A 有 B 二十 C 个 D 学生。",
+  "raison": "他们班有二十多个学生 ≈ 我们公司有三十多个人"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>他在中国住了一年___。<br><br>Choix : 多 / 来",
+  "raison": "住了一年多 ≈ 学了一年多汉语"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>左右</b> au bon endroit :<br><br>从这儿到机场 A 要 B 一个小时 C，D 你别着急。",
+  "raison": "从这儿到机场要一个小时左右 ≈ 从这儿到机场大概要一个小时"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā de tǐzhòng zài qīshí gōngjīn shàngxià.</i>",
+  "raison": "上下 déjà travaillé en VII.3 ; simple transcription"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>大约</b> au bon endroit :<br><br>A 这座城市 B 有五百万 C 人 D。",
+  "raison": "même exercice « placez 大约 » (VII.1)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè liǎng ge chéngshì de rénkǒu chàbuduō.</i>",
+  "raison": "…差不多 (semblable) déjà travaillé en IX.1 ; simple transcription"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>倍</b> au bon endroit :<br><br>今年的 A 游客 B 是去年的两 C，D 景区里人非常多。",
+  "raison": "presque même phrase 今年的学生人数/游客是去年的两倍"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>倍</b> :<br><br>这个城市有六百万人。<br>那个城市有两百万人。",
+  "raison": "même exercice : deux chiffres -> A是B的三倍"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我有两个妹妹，一个在北京，___一个在上海。<br><br>Choix : 另 / 其他 / 别的",
+  "raison": "même tournure 一个…，另一个…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>认识了 / 他 / 通过 / 很多新朋友 / 这次比赛",
+  "raison": "通过这次比赛认识了很多新朋友 ≈ 通过小赵认识了马新平"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la longueur, avec 多 + adjectif) :<br><br>长江有六千三百多公里长。",
+  "raison": "même phrase 长江有六千三百多公里长"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>我等了他很久，他___没来。<br><br>Choix : 却 / 但是 / 虽然",
+  "raison": "我等了他很久，他却没来 ≈ 我给他打了电话，他却没接"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : en avoir à revendre) :<br><br>别着急，我___时间。<br><br><i>Pas de panique, j'ai tout mon temps.</i>",
+  "raison": "même phrase 别着急，我有的是时间"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : selon, d'après (据说、据调查)) :<br><br>___天气预报，明天会有大雨。<br><br><i>Selon la météo, il y aura de fortes pluies demain.</i>",
+  "raison": "presque même phrase (根)据天气预报，明天会(有大)(下)雨"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你会说几种语言？",
+  "raison": "你会说几种语言 ≈ 我朋友会说三种语言 (ne diffère que du nombre)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我的自行车被人骑走了。",
+  "raison": "我的自行车被人骑走了 est contenu dans la phrase 028"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她被老师表扬了，高兴得跳起来了。",
+  "raison": "même phrase 她被老师表扬了"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "那本书被图书馆的人拿走了。",
+  "raison": "那本书被图书馆的人拿走了 ≈ 我的自行车被人骑走了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>被人 / 拿错了 / 我的书包 / 好像",
+  "raison": "我的书包好像被人拿错了 ≈ 我的行李被别人拿错了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>叫到 / 去了 / 办公室 / 他 / 被经理",
+  "raison": "他被经理叫到办公室去了 ≈ 被经理叫去开会了 (et ≈ 025)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur l'auteur de l'action, avec 被 et 谁) :<br><br>我的蛋糕被妹妹吃了。",
+  "raison": "我的蛋糕被妹妹吃了 ≈ 我的蛋糕被弟弟吃了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>被</b> :<br><br>小狗吃了我的药。<br>我的药没有了。",
+  "raison": "我的药被小狗吃了 ≈ 我的蛋糕被弟弟吃了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>吹到了 / 被风 / 桌子上的纸 / 地上",
+  "raison": "被 : remise en ordre déjà faite en XIV.1"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>送到了 / 别的机场 / 被 / 我的行李",
+  "raison": "被 sans agent déjà couvert ; simple remise en ordre"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>弄 / 妹妹 / 被 / 我的作业 / 丢了",
+  "raison": "我的作业被妹妹弄丢了 ≈ 我的蛋糕被弟弟吃了 ; remise en ordre déjà faite en XIV.1"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>这本书太没意思了，我看了十页就看不___了。<br><br>Choix : 下去 / 起来 / 出来",
+  "raison": "这本书太没意思了…看不下去了 ≈ 117 ; V不下去 déjà produit"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè zhǒng yào tài kǔ le, wǒ zhēn de chī bu xiàqù.</i>",
+  "raison": "V不下去 déjà couvert ; simple transcription"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>工作虽然很累，但我会做___。<br><br>Choix : 下去 / 下来 / 上去",
+  "raison": "工作虽然很累，但我会做下去 ≈ 汉语很难，但是我会学下去"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "她比以前瘦多了，我都没认出她来。",
+  "raison": "même phrase (我刚开始/都)没认出她来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>出来</b> au bon endroit :<br><br>他 戴着 A 眼镜，我 B 一开始 C 没 认 D。",
+  "raison": "我一开始没认出来 ≈ 我刚开始没认出她来"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā kàn qǐlai hěn nánshòu.</i>",
+  "raison": "même phrase 你/他看起来很难受"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>你妈妈很看上去年轻。",
+  "raison": "你妈妈看上去很年轻 ≈ 新来的经理看上去很年轻"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : de plus en plus) :<br><br>他的汉语___好了。<br><br><i>Son chinois est de mieux en mieux.</i>",
+  "raison": "même phrase 他的汉语越来越好了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec la bonne structure (sens : action menée à son terme (manger, vendre, oublier…)) :<br><br>我___旧手机卖___。<br><br><i>J'ai vendu mon vieux téléphone.</i>",
+  "raison": "把 + V + 了 (卖了/忘了) déjà couvert 4 fois (066, 081, 140, 141)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>医生的话___他很紧张。<br><br>Choix : 使 / 被 / 把",
+  "raison": "使 déjà travaillé en XIII.3 ; 让/把/使 gardé à 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā késou de hěn lìhai, yīnggāi qù yīyuàn kànkan.</i>",
+  "raison": "他咳嗽得很厉害 ≈ 孩子咳嗽得厉害"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这件衣服太小了，我想退货。",
+  "raison": "presque la même phrase : 我想退货 + raison (vêtement)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>在</b>父母<b>看来</b>，孩子不管多大都还是孩子。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez votre avis en le présentant comme votre point de vue (« à mes yeux »), en tête de phrase :</div><div class=\"g-fr\">« À mon avis, cette méthode n'est pas très bonne. »</div></div>",
+  "raison": "在…看来 : 7 cartes dans la leçon ; fiche retirée, gardés D-IX.1, D-IX.3 et 在我看来 (030)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___，这次考试不太难。<br><br>Choix : 在老师看来 / 在老师看 / 老师在看来",
+  "raison": "在…看来 : choix trop facile, point déjà produit dans D-IX"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>只有</b>你来，我<b>才</b>放心。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez une condition nécessaire, la seule qui permette le résultat (« ce n'est qu'en… que… ») :</div><div class=\"g-fr\">« Ce n'est qu'en pratiquant beaucoup que ton chinois s'améliorera. »</div></div>",
+  "raison": "只有…才 : 7 cartes ; fiche retirée, gardés D-VII.2, D-VII.5, D-XIII.4 (et D-IX.4)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (question alternative, avec 还是) :<br><br>我不想工作，想读研究生。",
+  "raison": "même question : travailler ou faire un master (还是)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "那家咖啡馆的环境很好，适合坐下来安静地工作。",
+  "raison": "presque la même phrase : café, 环境安静, 适合看书 / 工作"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>给了我 / 很多帮助 / 在学习上 / 他",
+  "raison": "帮助 : 10 cartes sur 帮助 / 帮忙 ; gardés D-XI.1, D-XI.2, D-XI.5, D-XI.6"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>在朋友的帮助___，我很快找到了房子。<br><br>Choix : 下 / 上 / 中",
+  "raison": "presque la même phrase : 在朋友的帮助下，…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la meilleure traduction en chinois :<br><br><i>Il m'a demandé de lui rendre un service.</i><br><br>① 他让我帮他一个忙。<br>② 他叫我给他做一个帮助。<br>③ 他请我帮助他个忙。",
+  "raison": "帮…一个忙 : déjà produit dans D-XI.6, ici simple choix"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他宁愿一个人住，也不愿意跟室友合租。",
+  "raison": "presque la même phrase : 宁愿一个人住，也不愿意…合租"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Wǒmen nìngkě zhù de yuǎn yìdiǎnr, yě bù xiǎng jiāo nàme gāo de fángzū.</i>",
+  "raison": "宁可…也不 + loyer : même idée que 020"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">她<b>宁可</b>饿着，<b>也不</b>吃那道菜。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez un choix pénible qu'on accepte pour éviter une chose qu'on refuse (« préférer… plutôt que de… »), en commençant par ce qu'on choisit :</div><div class=\"g-fr\">« Il préfère marcher plutôt que de prendre le métro. »</div></div>",
+  "raison": "宁可…也不 : 9 cartes ; fiche retirée, gardés 020 et trois phrases"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>与其</b>买新的，<b>不如</b>修一修。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez une préférence entre deux options (« plutôt que de…, mieux vaut… ») :</div><div class=\"g-fr\">« Plutôt que de prendre un taxi, mieux vaut prendre le métro. »</div></div>",
+  "raison": "与其…不如 : 6 cartes ; fiche retirée, gardés 081, 212, 169, 219"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 7</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>与其</b>在这里等，我<b>宁可</b>自己去看看。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — en commençant par l'option rejetée, exprimez une décision personnelle ferme (« plutôt que de…, je préfère encore… ») :</div><div class=\"g-fr\">« Plutôt que de prendre un taxi, je préfère encore rentrer à pied. »</div></div>",
+  "raison": "与其…宁可 / 宁愿 : même point que la correction 219"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你<b>到底</b>想要什么？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — posez une question avec impatience (« au juste », « à la fin ») :</div><div class=\"g-fr\">« Mais qu'est-ce qui se passe, au juste ? »</div></div>",
+  "raison": "到底 : 9 cartes ; fiche retirée, gardés X.1, X.6, 123 et 004"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他说了好半天，我才明白他到底想说什么。",
+  "raison": "到底 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>学生 / 这次晚会的 / 由三年级的 / 来准备 / 节目",
+  "raison": "même idée : soirée préparée / organisée par les étudiants (由学生)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Posez la question qui appelle cette réponse (sur la personne, avec 谁) :<br><br>这件事由王先生负责。",
+  "raison": "由谁… : même question que 这笔钱到底应该由谁出"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>由</b> au bon endroit :<br><br>别 担心 ， 这些 费用 A 都 B 房东 C 来 D 出 。",
+  "raison": "由 : 11 cartes ; placement retiré, gardés les traductions"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我们班是<b>由</b>二十名学生<b>组成</b>的。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites de quoi se compose un tout, en commençant par le tout (« être composé de ») :</div><div class=\"g-fr\">« Ce livre est composé de dix petites histoires. »</div></div>",
+  "raison": "même phrase 我们班是由二十名学生组成的"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>差点</b>忘了带钥匙。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une chose redoutée a failli arriver, mais ne s'est pas produite :</div><div class=\"g-fr\">« Ce matin, j'ai failli être en retard. »</div></div>",
+  "raison": "presque la même phrase : 差点儿忘了带钥匙 / 飞机票"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我差点儿迟到，幸好地铁没堵。",
+  "raison": "差点儿 + chose redoutée : déjà VIII.5 et 071"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "这次考试我差点儿没通过，下次得好好复习了。",
+  "raison": "差点儿没 + chose souhaitée : déjà VIII.1 et 090"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">快走吧，<b>否则</b>要迟到了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — donnez un conseil, puis la conséquence fâcheuse s'il n'est pas suivi (« sinon »), dans un registre plutôt écrit :</div><div class=\"g-fr\">« Tu dois te couvrir davantage, sinon tu vas t'enrhumer. »</div></div>",
+  "raison": "否则 : 8 cartes ; fiche retirée, gardés trois phrases et la correction 135"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你<b>要是</b>喜欢<b>就</b>买吧，<b>否则</b>就别买了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — envisagez deux cas opposés : une condition avec sa conséquence, puis ce qui se passe dans le cas contraire (« sinon », registre soigné) :</div><div class=\"g-fr\">« S'il ne pleut pas, nous irons en montagne ; sinon, nous nous reposerons à la maison. »</div></div>",
+  "raison": "要是…就…，否则… : même structure que 147"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他<b>不得不</b>离开自己的家乡。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'on a été contraint de faire quelque chose, avec une double négation :</div><div class=\"g-fr\">« Il pleuvait trop fort, nous avons été obligés d'annuler le voyage. »</div></div>",
+  "raison": "不得不 : 5 cartes ; fiche retirée"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon mot de liaison :<br><br>___你同不同意，这件事都已经决定了。<br><br>Choix : 尽管 / 不管 / 只要",
+  "raison": "même phrase 不管你同意不同意，这件事都已经决定了"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>同意</b>你的说法。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez votre désaccord, puis donnez votre propre avis :</div><div class=\"g-fr\">« Je ne suis pas d'accord, je trouve que c'est trop cher. »</div></div>",
+  "raison": "presque la même phrase : 我不同意，我觉得…"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你说的我不太同意。",
+  "raison": "même phrase en plus court : 你说的…我不同意"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "因为下大雪，今天的课都取消了。",
+  "raison": "presque la même phrase : 因为下大雨 / 雪，今天的…都取消了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme (Ø = rien) :<br><br>表格___填好了，明天就可以交。<br><br>Choix : 被 / Ø",
+  "raison": "passif sans 被 : simple choix, gardés les traductions XVII"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 2</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Qui subit l'action ? Pourquoi n'y a-t-il pas de 被 ?</div><div class=\"g-zh\"><b>饭做好了</b>，快来吃吧。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites qu'une chose a subi l'action en la mettant en sujet, sans marque du passif :</div><div class=\"g-fr\">« Les billets sont achetés, allons-y. »</div></div>",
+  "raison": "passif sans 被 (饭做好了) : déjà XVII"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>这趟火车开朝上海，下午三点出发。",
+  "raison": "presque la même phrase : V往上海 (开往 / 飞往)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>本来</b> au bon endroit :<br><br>我们 A 打算 B 买 C 房子 ， 后来 D 发现 租 更 方便 。",
+  "raison": "presque la même phrase : 我们本来打算…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>原来的地方 / 放回 / 请把 / 都 / 桌子上的东西",
+  "raison": "原来的 + nom : déjà 173"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "明天再说吧。",
+  "raison": "contenu dans 084 (…下次再说吧)"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "对不起，能不能再说一遍？我没听清楚。",
+  "raison": "presque la même phrase : 能不能再说一遍？我没听清楚 / 懂"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "你听懂了吗？没有，请再说一遍。",
+  "raison": "même demande : 请再说一遍"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "即使再忙，也要按时吃饭。",
+  "raison": "presque la même phrase : 即使 / 就是 再忙，也要吃饭"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "即使输了也没关系，重要的是参加。",
+  "raison": "即使 : 9 cartes ; gardés 158, 090, 075, 077"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>即使</b>下雨，他<b>也</b>会来。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez une concession hypothétique (« même si… »), dans un registre neutre ou écrit :</div><div class=\"g-fr\">« Même en cas d'échec, je ne le regretterai pas. »</div></div>",
+  "raison": "即使 : fiche retirée"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">即使 appartient-il plutôt à l'oral familier ou à un registre soutenu ?</div><div class=\"g-zh\"><b>即使</b>失败了，我们<b>也</b>要继续努力。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez « même si » dans un registre écrit ou soutenu :</div><div class=\"g-fr\">« Même s'il fait très froid, il continue à courir tous les jours. »</div></div>",
+  "raison": "即使 : deuxième fiche sur le même mot"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___你不同意，也应该听听别人的意见。<br><br>Choix : 即使 / 只有 / 因为",
+  "raison": "即使 : simple choix"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>哪怕</b>一分钟，我<b>也</b>不想等。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez « même si ce n'est que… » avec une condition minimale, sur un ton émotionnel :</div><div class=\"g-fr\">« Même s'il n'y a qu'un tout petit espoir, je n'abandonnerai pas. »</div></div>",
+  "raison": "presque la même phrase : 哪怕只有一点 / 一线希望…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>不管</b>多忙，<b>都</b>要吃饭。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites que votre décision ne changera pas, quelles que soient les paroles de l'autre :</div><div class=\"g-fr\">« Quoi que tu dises, je n'irai pas. »</div></div>",
+  "raison": "presque la même phrase : 不管 / 无论 (工作)多忙…"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez la bonne forme :<br><br>___你已经决定了，我就不再说什么了。<br><br>Choix : 既然 / 虽然 / 即使",
+  "raison": "presque la même phrase : 既然你已经决定了，我就不再…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>既然</b>来了，<b>就</b>好好玩吧。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — partez d'un fait déjà acquis pour en tirer la conséquence (« puisque… ») :</div><div class=\"g-fr\">« Puisque c'est décidé, ne le regrette pas. »</div></div>",
+  "raison": "既然…就 : 9 cartes ; fiche retirée"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "既然来了北京，就一定要去长城看看。",
+  "raison": "既然…就…去…看看 : même idée que 154"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "既然大家都同意，那就这么定了。",
+  "raison": "既然…就 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Faites une seule phrase avec <b>既然…就…</b> :<br><br>你已经看过这本书了。<br>你给我们介绍一下吧。",
+  "raison": "既然…就 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>难道</b>你不知道今天有考试吗？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez l'incrédulité ou le reproche par une question rhétorique (« se pourrait-il vraiment que… ? ») :</div><div class=\"g-fr\">« Tu ne me crois vraiment pas ? »</div></div>",
+  "raison": "même phrase 难道你不知道今天有考试吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Nándào nǐ bù zhīdào zhè jiàn shì ma?</i>",
+  "raison": "presque la même phrase : 难道你不知道…吗"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>难道 / 你 / 要开会吗 / 不知道 / 今天下午",
+  "raison": "presque la même phrase : 你难道不知道今天…吗"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>一般来说</b>，南方比北方热。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — énoncez une généralité avec une expression figée placée en tête de phrase (« en général ») :</div><div class=\"g-fr\">« En général, les enfants aiment les choses sucrées. »</div></div>",
+  "raison": "même phrase 一般来说，南方比北方热"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">我<b>并不是</b>不想去，<b>而是</b>没有时间。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — démentez avec insistance une idée qu'on pourrait avoir, puis rétablissez la vérité (« ce n'est pas du tout…, c'est… ») :</div><div class=\"g-fr\">« Il n'est pas du tout paresseux, c'est qu'il est malade. »</div></div>",
+  "raison": "presque la même phrase : (并)不是…，而是没有时间"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>由于</b>天气不好，比赛推迟了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — présentez une cause puis sa conséquence, dans un registre écrit et formel (« en raison de… ») :</div><div class=\"g-fr\">« En raison du manque de temps, nous ne pouvons discuter que de la question la plus importante. »</div></div>",
+  "raison": "presque la même phrase : 由于天气…，…推迟了"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">入冬<b>以来</b>，天气越来越冷了。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — période qui commence dans le passé et dure jusqu'à maintenant, avec le mot placé après le point de départ :</div><div class=\"g-fr\">« Depuis qu'il travaille, il n'a jamais pris un seul jour de congé. »</div></div>",
+  "raison": "以来 : 5 cartes ; fiche retirée"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 7</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>总而言之</b>，健康比什么都重要。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — concluez en récapitulant tout ce qui a été dit, avec la tournure soutenue de quatre syllabes (« en somme ») :</div><div class=\"g-fr\">« Il a avancé beaucoup de raisons ; en somme, il n'a pas envie d'y aller. »</div></div>",
+  "raison": "même phrase 总而言之，健康比什么都重要"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Question de registre de langue :<br><br>Comment dit-on 'à propos de' dans un registre soutenu ?<br><br>Choix : 说到 / 关于 / 讲到",
+  "raison": "关于 : question de registre, déjà produit"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Pourquoi 关于 ici, et non 对于 ?</div><div class=\"g-zh\"><b>关于</b>这个问题，我有几点看法。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites ce qu'il pense d'une décision, en traduisant « vis-à-vis de » (et non « au sujet de ») :</div><div class=\"g-fr\">« Vis-à-vis de cette décision, il se montre très mécontent. »</div></div>",
+  "raison": "关于这个问题… : même tour que 068 ; 关于 et 对于 déjà travaillés"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>这个问题的 / 大家 / 看法 / 对于 / 不太一样",
+  "raison": "presque la même phrase : 对于这个问题，…看法…"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Ici, 哪儿 pose-t-il une question ?</div><div class=\"g-zh\">我好像在<b>哪儿</b>见过他。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — proposez à quelqu'un de boire quelque chose, par une question à laquelle on répond par oui ou non :</div><div class=\"g-fr\">« Tu veux boire quelque chose ? »</div></div>",
+  "raison": "même phrase 我好像在哪儿见过您 / 他"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>也</b> au bon endroit :<br><br>这个 密码 A 我 B 怎么 C 想 不 D 起来 。",
+  "raison": "presque la même phrase : …我怎么也 / 都想不起来"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">这<b>有什么好</b>哭<b>的</b>？</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — dites, par une phrase déclarative (pas une question), que vous n'avez rien à dire à quelqu'un (« il n'y a rien à… ») :</div><div class=\"g-fr\">« Je n'ai rien à lui dire. »</div></div>",
+  "raison": "presque la même phrase : (这)有什么好笑 / 哭的"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">你<b>急什么</b>啊？时间还早呢。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — répondez à un remerciement en contestant qu'il y ait lieu de remercier, par une tournure en forme de question (pas une formule de politesse figée) :</div><div class=\"g-fr\">« Pas besoin de me remercier, c'est bien normal. »</div></div>",
+  "raison": "même tour 急什么"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Tā shénme dōu bú zàihu.</i>",
+  "raison": "什么都不 + V : déjà 216 ; 在乎 dans 008 et 164"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Placez <b>都</b> au bon endroit :<br><br>这 件 事 A 谁 B 知道 ， 你 C 怎么 不 D 知道 ？",
+  "raison": "interrogatif + 都 : déjà 4 cartes"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "我对中国历史特别感兴趣。",
+  "raison": "presque la même phrase : 对(中国)历史特别感兴趣"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "他俩在一起都快十年了，感情非常好。",
+  "raison": "presque la même phrase : ensemble depuis dix ans, 感情很好"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 3</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\"><b>举个例子来说</b>，很多年轻人现在喜欢网购。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — introduisez un exemple à l'oral, en annonçant explicitement que vous allez en donner un :</div><div class=\"g-fr\">« Pour donner un exemple, en Chine, beaucoup de gens paient avec leur téléphone. »</div></div>",
+  "raison": "même phrase 举个例子来说，很多年轻人现在喜欢网购 (déjà en L11)"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 4</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他去了国外以后，<b>再也没</b>回来过。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — prenez une décision pour l'avenir : ne plus jamais faire une chose :</div><div class=\"g-fr\">« Je ne le croirai plus jamais. »</div></div>",
+  "raison": "presque la même phrase : 他再也没(有)回(来)过"
+ },
+ {
+  "paquet": "Grammaire",
+  "recto": "<div class=\"g-niveau\">Grammaire · HSK 5</div><div class=\"g-comprendre\"><div class=\"g-consigne\">Que veut dire cette phrase ? À quoi sert la partie en gras ?</div><div class=\"g-zh\">他高兴得<b>像</b>个孩子<b>似的</b>。</div></div><div class=\"g-utiliser\"><div class=\"g-consigne\">Dites en chinois — exprimez une impression (« on dirait que… »), avec la tournure orale qui se termine par le mot de la ressemblance (pas « pareil ») :</div><div class=\"g-fr\">« On dirait qu'elle sait tout : elle ne s'inquiète pas le moins du monde. »</div></div>",
+  "raison": "même phrase 她 / 他高兴得像个孩子似的"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>似的， / 继续看自己的书 / 像没听见 / 她",
+  "raison": "像…似的 : 7 cartes ; deuxième remise en ordre"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette phrase en caractères, puis traduisez-la :<br><br><i>Zhè jiā shāngdiàn de dōngxi zhèngzài dǎzhé.</i>",
+  "raison": "contenu dans 079 (…正在打折)"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>我昨天买了两个书。",
+  "raison": "même phrase : 我昨天买了两本书"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Choisissez le bon classificateur (量词) pour 饭店 (restaurant, hôtel) :<br><br>这___饭店的菜很好吃。<br><br>Choix : 家 / 条 / 张",
+  "raison": "même phrase : 这家饭店的菜很好吃"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez avec 的, 得 ou 地 :<br><br>你借给我___这本书很有意思。<br><br>Choix : 的 / 得 / 地",
+  "raison": "même phrase : 你借给我的这本书很有意思"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>一边 / 他 / 看书 / 坐车 / 喜欢 / 一边",
+  "raison": "même phrase : 他喜欢一边坐车一边看书"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>比我 / 快多了 / 跑得 / 他",
+  "raison": "même phrase : 他跑得比我快多了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Trouvez et corrigez l'erreur dans cette phrase :<br><br>他跑得多了比我快。",
+  "raison": "même phrase : 他跑得比我快多了"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce nombre en caractères :<br><br><b>5 400</b>",
+  "raison": "même phrase : 五千四百"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce nombre en chiffres :<br><br><b>两千四百七十五万八千</b>",
+  "raison": "même phrase : 两千四百七十五万八千"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce nombre en caractères :<br><br><b>320 050 000</b>",
+  "raison": "même phrase : 三亿两千零五万"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez cette fraction en caractères :<br><br><b>3/4</b>",
+  "raison": "même phrase : 四分之三"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Écrivez ce pourcentage en caractères :<br><br><b>50,2 %</b>",
+  "raison": "même phrase : 百分之五十点二"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>那么 / 热 / 没有去年 / 今年夏天",
+  "raison": "même phrase : 今年夏天没有去年那么热"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Remettez les mots dans le bon ordre :<br><br>难 / 起来 / 做 / 容易 / 这件 / 事情 / 起来 / 说",
+  "raison": "même phrase : 这件事情说起来容易做起来难"
+ },
+ {
+  "paquet": "Exercices",
+  "recto": "Complétez la phrase :<br><br>我什么都没看___。<br><br>Choix : 到 / 完 / 好",
+  "raison": "même phrase : 我什么都没看到"
+ },
+ {
+  "paquet": "Phrases",
+  "recto": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+  "raison": "même phrase : 床前明月光疑是地上霜举头望明月低头思故乡"
+ }
+]

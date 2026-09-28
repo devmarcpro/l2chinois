@@ -278,6 +278,10 @@ def main():
         i = m.index.get("P1-L01" if d["lecon"] == "P1-Lab" else d["lecon"])
         if i is not None:
             par_lecon.setdefault(i, []).extend(notes_lecon(d))
+    # dédoublonnage du 28/09 : cartes qui refaisaient une phrase ou un point déjà travaillé ailleurs dans la leçon
+    f = PRIVE / "manuel" / "cartes_retirees.json"
+    retirees = {x["recto"] for x in json.loads(f.read_text(encoding="utf-8"))} if f.exists() else set()
+    par_lecon = {i: [(g, n) for g, n in notes if n[0] not in retirees] for i, notes in par_lecon.items()}
     for i, notes in sorted(par_lecon.items()):
         paquet = m.paquet(i)
         publics = publics_par_paquet.get(paquet) or [(0, "")]

@@ -45,6 +45,7 @@ def _chinois(s: str, phrase=None) -> str:
     s = GARDER.sub(" ", s)
     s = re.sub(r"(?<![一-鿿〇0-9０-９])[0-9０-９]+(?![一-鿿〇0-9０-９])", " ", s)  # numéros isolés (语 3 雨 3)
     s = re.sub(r"\s+", " ", s).strip(" ，、；：")
+    s = re.sub(r"([。！？])[\s。！？，、]+", r"\1", s)  # ponctuation redoublée (celle du pinyin retiré)
     if phrase or (phrase is None and (re.search(r"[。！？]", s) or len(CJK.findall(s)) > 8)):  # une phrase
         return s.replace(" ", "")
     return re.sub(r"(?<=[一-鿿]) (?=[一-鿿])", "，", s).replace(" ", "")  # des mots séparés : une pause entre eux
@@ -91,7 +92,8 @@ def texte_audio(paquet: str, recto: str, verso: str, etiquettes: str):
         return t, ("tts::texte" if t else "tts::aucun")
     if paquet == "Grammaire" and 'class="g-rep-comprendre"' in verso:
         zh = [_chinois(x) for x in re.findall(r'<div class="g-zh">(.*?)</div>', verso, re.S)]
-        t = "。".join(z.rstrip("。") for z in zh if z) + "。"
+        zh = list(dict.fromkeys(z.rstrip("。") for z in zh if z))  # même phrase aux deux cartes : lue une fois
+        t = "。".join(zh) + "。"
         return t, "tts::grammaire"
     if paquet == "Ecriture":
         m = re.search(r'class="ecriture-car"[^>]*>\s*([一-鿿])', verso)
@@ -128,12 +130,13 @@ def texte_audio(paquet: str, recto: str, verso: str, etiquettes: str):
     return t, ("tts::reponse" if t else "tts::aucun")
 
 
-TROU = re.compile(r"_{2,}|＿+|□|(?<=\s)_(?=\s)|(?<=[一-鿿])—(?=[一-鿿])")  # « 一个小时—到呢 » : trait = trou
+TROU = re.compile(r"_{2,}|＿+|(?<=\s)_(?=\s)|(?<=[一-鿿])—(?=[一-鿿])")  # « 一个小时—到呢 » : trait = trou
+CHOIX = re.compile(r"(?:(?<=\s)|^)[A-D][.)]?\s*[一-鿿…]+(?:\s*[/／]?\s*[A-D][.)]?\s*[一-鿿…]+)+")  # « A 会 / B 许 / C 可以 »
 
 
 def _sans_parentheses(s: str) -> str:
-    while True:  # « (我没(有)买到) » : de l'intérieur vers l'extérieur
-        t = PARENTHESE.sub(" ", s)
+    while True:  # « (我没(有)买到) » : de l'intérieur vers l'extérieur ; « 当作（看作）自己的 » reste d'un tenant
+        t = PARENTHESE.sub("", s)
         if t == s:
             return t
         s = t
@@ -148,7 +151,7 @@ def texte_exercice_manuel(enonce: str, reponse: str) -> str:
     rep = re.sub(r"\(réponse proposée[^)]*\)", " ", str(reponse))
     rep = re.sub(r"^.*?Par exemple\s*:\s*", "", rep)
     rep = _sans_parentheses(rep)
-    en = _sans_parentheses(_nu(str(enonce)))
+    en = CHOIX.sub("", _sans_parentheses(_nu(str(enonce)))).replace("□", " ")  # choix proposés, cases à cocher
     trous = TROU.findall(en)
     tout_rep = "".join(CJK.findall(rep))
     if not trous:
@@ -165,12 +168,24 @@ def texte_exercice_manuel(enonce: str, reponse: str) -> str:
         parties = re.split(r"\s[—–]\s|[:：→=]", rep)
         meilleure = max(parties, key=lambda p: (sum(f in "".join(CJK.findall(p)) for f in fixes), len(p)))
         return _sans_modele(_chinois(meilleure, phrase=True))
-    pieces = ["" if r in ("∅", "Ø") else r for r in re.findall(r"[一-鿿〇]+|[∅Ø]", rep)]
+    debut = "".join(CJK.findall(morceaux_en[0]))[:2]
+    if debut:  # « 第二天，这件事就传遍了全校。 » : la réponse réécrit toute la phrase (même début que l'énoncé)
+        for p in re.findall(r"[^。！？]+[。！？]", rep):
+            if len(CJK.findall(p)) >= 6 and "".join(CJK.findall(p)).startswith(debut):
+                return _sans_modele(_chinois(p, phrase=True))
+    rep_trous = re.sub(r"[（(][^（）()]*[）)]", "", rep)  # « 把他当作（看作）自己的爷爷 » : sans couper le morceau
+    pieces = ["" if r in ("∅", "Ø") else r for r in re.findall(r"[一-鿿〇]+|[∅Ø]", rep_trous)]
     if not pieces:
         return ""
     phrase = morceaux_en[0]
     for i, suite in enumerate(morceaux_en[1:]):
-        phrase += (pieces[i] if i < len(pieces) else "") + suite
+        piece = pieces[i] if i < len(pieces) else ""
+        avant = "".join(CJK.findall(phrase))
+        for n in range(min(len(avant), len(piece)), 0, -1):  # « 把他____ » + « 把他当作… » : sans répéter 把他
+            if avant.endswith(piece[:n]):
+                piece = piece[n:]
+                break
+        phrase += piece + suite
     return _chinois(phrase, phrase=True)
 
 

@@ -441,6 +441,12 @@ EXERCICES PAR LECON (depuis le 27/09)
   "Quelle question appelle cette reponse ?" deviennent "Posez la question qui appelle cette reponse (indice) :"
   : l'indice (« question fermee, avec 吗 », « avec 什么 »...) rend la question attendue unique, et le verso donne
   les autres questions justes.
+- Dedoublonnage du 28/09, toutes sources confondues (phrases, exercices, fiches de grammaire, exercices et
+  exemples du manuel, dictees) : dans une lecon, une phrase n'est travaillee qu'une fois, et un point de
+  grammaire par 3 a 4 cartes variees (plus pour le point central de la lecon, en sous-emplois distincts). On
+  garde de preference la carte qui fait produire, puis l'exercice du manuel. Environ 1 100 cartes retirees
+  (en L01 : 73 cartes au lieu de 126, hors vocabulaire et ecriture). Listes : .outils/anki/donnees_hsk/
+  cartes_retirees.json (cartes publiques) et Anki/prive/manuel/cartes_retirees.json (cartes du manuel).
 
 RAPPEL ACTIF (chercher la reponse avant de la voir)
 - Toutes les cartes posent une question : mot (sens et pinyin, puis francais -> chinois), phrase (lecture,
